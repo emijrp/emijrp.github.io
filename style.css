@@ -9,6 +9,12 @@ img{
     padding: 5px;
 }
 
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
 table.wikitable {
     margin: 1em 1em 1em 0;
     background-color: #f9f9f9;
