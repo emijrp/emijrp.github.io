@@ -3,7 +3,11 @@
 <head>
     <title>La web de emijrp</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
+    
+    <script src="jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="leaflet/leaflet.js" type="text/javascript"></script>
 </head>
 <body>
 <h1>La web de emijrp</h1>
@@ -83,6 +87,7 @@ Mis principales aportaciones en este campo ha sido crear software para generar e
 <iframe align="right" width="560" height="315" src="//www.youtube-nocookie.com/embed/uEDMSQ1I-H0?rel=0" frameborder="0" allowfullscreen></iframe>
 
 <ul>
+    <li><b>Veljko Bulajić:</b> <i>La batalla del río Neretva</i> (1969).</li>
     <li><b>Constantin Costa-Gavras:</b> <i>Amén.</i> (2002), <i>Arcadia</i> (2005), <i>Desaparecido</i> (1982) y <i>Z</i> (1969).</li>
     <li><b>Sergei Eisenstein:</b> <i>El acorazado Potemkin</i> (1925).</li>
     <li><b>David Fincher:</b> <i>El club de la lucha</i> (1999).</li>
@@ -93,6 +98,7 @@ Mis principales aportaciones en este campo ha sido crear software para generar e
     <li><b>Fernando León de Aranoa:</b> <i>Los lunes al sol</i> (2002).</li>
     <li><b>Ken Loach:</b> <i>Agenda oculta</i> (1990), <i>Estado de sitio</i> (1973), <i>La canción de Carla</i> (1996), <i>Tierra y Libertad</i> (1995).</li>
     <li><b>Gillo Pontecorvo:</b> <i>La Batalla de Argel</i> (1966) y <i>Operación Ogro</i> (1979).</li>
+    <li><b>Ridley Scott:</b> <i>Thelma y Louise</i> (1991).</li>
     <li><b>Coline Serreau:</b> <i>El planeta libre</i> (1996).</li>
     <li><b>Steven Soderbergh:</b> <i>Che</i> (2008).</li>
     <li><b>Oliver Stone:</b> <i>Looking for Fidel</i> (2004).</li>
@@ -366,9 +372,41 @@ WikiTeam
 <h2 id="viajes">Viajes</h2>
 
 
+<div id="map" style="float: right;width: 600px; height: 400px"></div>
 
+<script>
+
+var places = [
+    ["Alcalá de Henares", 40.482093, -3.367031],
+    ["Barcelona", 41.403076, 2.173695],
+    ["Cáceres", 39.475111, -6.371400],
+    ["Granada", 37.178803, -3.589445],
+    ["Madrid", 40.416957, -3.703478],
+    ["Málaga", 36.721217, -4.414778],
+    ["Sevilla", 37.386128, -5.992103],
+    ];
+
+    var map = L.map('map').setView([40.416957, -3.703478], 5);
+    mapLink = 
+        '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 12,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            .bindPopup(places[i][0])
+            .addTo(map);
+    }
+           
+</script>
+
+
+<br clear="all" />
 <hr/>
-<p align=right><i>This site is powered by <a href="https://pages.github.com/">GitHub pages</a></i></p>
+<div align=right><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></div>
 
 </body>
 </html>
