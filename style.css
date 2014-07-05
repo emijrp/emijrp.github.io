@@ -5,6 +5,13 @@ body{
     margin: 20px;
 }
 
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+
 img{
     padding: 5px;
 }

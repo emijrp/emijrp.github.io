@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>La web de emijrp</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="leaflet/leaflet.js" type="text/javascript"></script>
+</head>
+<body>
+<h1><a href="index.html">La web de emijrp</a></h1>
+
+<h2 id="viajes">Viajes</h2>
+
+
+<div id="map" style="float: right;width: 600px; height: 400px"></div>
+
+<script>
+
+var places = [
+    ["Alcalá de Henares", 40.482093, -3.367031],
+    ["Barcelona", 41.403076, 2.173695],
+    ["Cáceres", 39.475111, -6.371400],
+    ["Granada", 37.178803, -3.589445],
+    ["Madrid", 40.416957, -3.703478],
+    ["Málaga", 36.721217, -4.414778],
+    ["Sevilla", 37.386128, -5.992103],
+    ];
+
+    var map = L.map('map').setView([40.416957, -3.703478], 5);
+    mapLink = 
+        '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 12,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            .bindPopup(places[i][0])
+            .addTo(map);
+    }
+           
+</script>
+
+
+
+<br clear="all" />
+<hr/>
+<div align=right><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></div>
+
+</body>
+</html>
