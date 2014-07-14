@@ -30,11 +30,13 @@ def main():
         ['Emijrp', 'Wikipedia (es)', 'http://es.wikipedia.org/w/api.php'], 
     ]
     activity = {}
+    total = 0
     for nick, project, api in projects:
         print '\n', nick, '@', project
         apiquery = '?action=query&list=usercontribs&ucuser=%s&uclimit=500&ucprop=timestamp|title|comment&format=json' % (nick)
         uccontinue = True
         uccontinue_name = 'uccontinue'
+        subtotal = 0
         while uccontinue:
             sys.stderr.write(".")
             if uccontinue == True:
@@ -51,6 +53,8 @@ def main():
                     activity[unixtime] += 1
                 else:
                     activity[unixtime] = 1
+                subtotal += 1
+                total += 1
             json_data.close()
             #print data
             if data.has_key('query-continue'):
@@ -59,8 +63,12 @@ def main():
                 uccontinue = data['query-continue']['usercontribs'][uccontinue_name]
             else:
                 uccontinue = ''
+            
             #print uccontinue
             #break
+        print '\n', project, subtotal, 'ediciones'
+    
+    print '\nTotal', total, 'ediciones'
     
     with open('actividad.json', 'w') as outfile:
         outfile.write(json.dumps(activity, indent=4, sort_keys=True))
