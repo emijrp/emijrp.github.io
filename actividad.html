@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contacto - La web de emijrp</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script type="text/javascript" src="d3/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="cal-heatmap/cal-heatmap.css" />
+    <script type="text/javascript" src="cal-heatmap/cal-heatmap.min.js"></script>
+    <script type="text/javascript" src="moment/moment-with-langs.min.js"></script>
+</head>
+<body>
+<h1><a href="index.html">La web de emijrp</a></h1>
+
+<h2 id="actividad">Actividad</h2>
+
+<p>Estas gráficas, en forma de calendario-mapa de colores, muestran mi actividad en los distintos wikis en los que participo, entre ellos <a href="http://wiki.15m.cc">15Mpedia</a>, <a href="http://wikiindex.org">Wikiindex</a>, <a href="http://wikipapers.referata.com">WikiPapers</a> y por supuesto <a href="http://www.wikipedia.org">Wikipedia</a>. Solamente están contadas las aportaciones con mi cuenta "Emijrp", no incluyendo los bots que manejo.</p>
+
+<center>
+<table style="text-align: center;">
+<tr style="margin-bottom:20px;"><td><div id="actividad-2005"></div></td><td><div id="actividad-2006"></div></td></tr>
+<tr><td><div id="actividad-2007"></div></td><td><div id="actividad-2008"></div></td></tr>
+<tr><td><div id="actividad-2009"></div></td><td><div id="actividad-2010"></div></td></tr>
+<tr><td><div id="actividad-2011"></div></td><td><div id="actividad-2012"></div></td></tr>
+<tr><td><div id="actividad-2013"></div></td><td><div id="actividad-2014"></div></td></tr>
+</table>
+</center>
+
+<script type="text/javascript">
+var highlights = new Array();
+highlights[2005] = [ new Date(2005, 3, 19) ];
+highlights[2006] = [ ];
+highlights[2007] = [ ];
+highlights[2008] = [ ];
+highlights[2009] = [ ];
+highlights[2010] = [ ];
+highlights[2011] = [ ];
+highlights[2012] = [ ];
+highlights[2013] = [ ];
+highlights[2014] = [ ];
+
+var years = new Array();
+moment.lang("es");
+for (i = 2005; i <= 2014; i++) {
+    displaylegend = i == 2013;
+    years[i] = new CalHeatMap();
+    years[i].init({
+        itemSelector: "#actividad-"+i, 
+        itemName: ["edición", "ediciones"], 
+        domain: "year", 
+        subDomain: "day", 
+        data: "actividad.json", 
+        start: new Date(i, 0), 
+        highlight: highlights[i], 
+        cellSize: 10, 
+        range: 1, 
+        displayLegend: displaylegend,
+        legend: [20, 40, 60, 80], 
+        legendTitleFormat: {
+            lower: "Menos de {min} {name}",
+            inner: "Entre {down} y {up} {name}",
+            upper: "Más de {max} {name}"
+        },
+        subDomainDateFormat:  function(date) {
+            return moment(date).format("LL");
+        }, 
+    });
+}
+
+</script>
+
+<p>La gráfica está generada usando la biblioteca <a href="https://github.com/kamisama/cal-heatmap">cal-heatmap</a> y un <a href="https://github.com/emijrp/emijrp.github.io/blob/master/actividad.py">script ad-hoc</a>.</p>
+
+<hr/>
+<div align=right><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></div>
+
+</body>
+</html>
