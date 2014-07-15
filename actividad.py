@@ -24,10 +24,20 @@ import urllib
 def main():
     projects = [
         ['Emijrp', '15mpedia', 'http://wiki.15m.cc/w/api.php'], 
+        ['Emijrp', 'Commons', 'http://commons.wikimedia.org/w/api.php'], 
+        ['Emijrp', 'Meta-Wiki', 'https://meta.wikimedia.org/w/api.php'], 
+        ['Emijrp', 'No les votes', 'http://wiki.nolesvotes.org/w/api.php'], 
+        ['Emijrp', 'WikiApiary', 'https://wikiapiary.com/w/api.php'], 
+        ['Emijrp', 'Wikibooks (es)', 'https://es.wikibooks.org/w/api.php'], 
         ['Emijrp', 'Wikiindex', 'http://wikiindex.org/api.php'], 
+        ['Emijrp', 'Wikinews (es)', 'https://es.wikinews.org/w/api.php'], 
         ['Emijrp', 'WikiPapers', 'http://wikipapers.referata.com/w/api.php'], 
         ['Emijrp', 'Wikipedia (en)', 'http://en.wikipedia.org/w/api.php'], 
         ['Emijrp', 'Wikipedia (es)', 'http://es.wikipedia.org/w/api.php'], 
+        ['Emijrp', 'Wikisource (en)', 'http://en.wikisource.org/w/api.php'], 
+        ['Emijrp', 'Wikisource (es)', 'http://es.wikisource.org/w/api.php'], 
+        ['Emijrp', 'Wiktionary (en)', 'http://en.wiktionary.org/w/api.php'], 
+        ['Emijrp', 'Wiktionary (es)', 'http://es.wiktionary.org/w/api.php'], 
     ]
     activity = {}
     total = 0

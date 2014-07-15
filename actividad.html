@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Contacto - La web de emijrp</title>
+    <title>Actividad - La web de emijrp</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" href="style.css" />
     
@@ -15,7 +15,7 @@
 
 <h2 id="actividad">Actividad</h2>
 
-<p>Estas gráficas, en forma de calendario-mapa de colores, muestran mi actividad en distintos wikis, entre ellos <a href="http://wiki.15m.cc">15Mpedia</a>, <a href="http://wikiindex.org">Wikiindex</a>, <a href="http://wikipapers.referata.com">WikiPapers</a> y por supuesto <a href="http://www.wikipedia.org">Wikipedia</a>. Solamente están contadas las aportaciones con la cuenta "Emijrp" que suman más de 150.000 ediciones en casi 10 años. No se incluyen los bots que controlo que en total suman casi 5 millones de ediciones. Más que las cifras totales, lo que me llama la atención es la constancia, aunque sea compaginando varios proyectos.</p>
+<p>Estas gráficas, en forma de calendario-mapa de calor, muestran mi actividad en <a href="http://www.wikipedia.org">Wikipedia</a>, <a href="http://commons.wikimedia.org">Commons</a>, <a href="https://es.wikibooks.org">Wikibooks</a>, <a href="http://es.wiktionary.org">Wiktionary</a>, <a href="https://es.wikinews.org">Wikinews</a> y otros wikis como <a href="http://wiki.15m.cc">15Mpedia</a>, <a href="http://wiki.nolesvotes.org">No les votes</a>, <a href="http://wikiindex.org">Wikiindex</a>, <a href="http://wikipapers.referata.com">WikiPapers</a>. Solamente están contadas las aportaciones con la cuenta "Emijrp" que suman más de 150.000 ediciones en casi 10 años. No se incluyen los bots que controlo, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT">AVBOT</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo">BOTijo</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot">Emijrpbot</a>, que en total acumulan 5 millones de ediciones. Más que las cifras totales, lo que me llamó la atención cuando vi los resultados en conjunto es la constancia a lo largo del tiempo.</p>
 
 <center>
 <table style="text-align: center;">
@@ -23,7 +23,7 @@
 <tr><td><div id="actividad-2007"></div></td><td><div id="actividad-2008"></div></td></tr>
 <tr><td><div id="actividad-2009"></div></td><td><div id="actividad-2010"></div></td></tr>
 <tr><td><div id="actividad-2011"></div></td><td><div id="actividad-2012"></div></td></tr>
-<tr><td><div id="actividad-2013"></div></td><td><div id="actividad-2014"></div></td></tr>
+<tr><td><div id="actividad-2013"></div></td><td valign=top><div id="actividad-2014"></div></td></tr>
 </table>
 </center>
 
@@ -52,6 +52,7 @@ for (i = 2005; i <= 2014; i++) {
         subDomain: "day", 
         data: "actividad.json", 
         start: new Date(i, 0), 
+        weekStartOnMonday: true, 
         highlight: highlights[i], 
         cellSize: 10, 
         range: 1, 
@@ -64,6 +65,13 @@ for (i = 2005; i <= 2014; i++) {
         },
         subDomainDateFormat:  function(date) {
             return moment(date).format("LL");
+        }, 
+        subDomainTextFormat: function(date, value) {
+            if (value > 80) {
+                return '';
+            } else {
+                return value;
+            }
         }, 
     });
 }
