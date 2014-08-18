@@ -51,7 +51,8 @@ var places = [
 
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][1],places[i][2]])
-            .bindPopup(places[i][0])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b>')
             .addTo(map);
     }
            
