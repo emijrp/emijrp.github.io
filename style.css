@@ -44,3 +44,11 @@ table.wikitable > * > tr > th {
 table.wikitable > caption {
     font-weight: bold;
 }
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
