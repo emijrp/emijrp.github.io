@@ -15,6 +15,9 @@ a:hover, a:active{
 img{
     padding: 5px;
 }
+img.w3{
+    padding: 0px;
+}
 
 ul{
     margin-top: 0px;
