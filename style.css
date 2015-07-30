@@ -12,6 +12,10 @@ a:hover, a:active{
     text-decoration: underline;
 }
 
+div.footer{
+    padding-bottom: 40px;
+}
+
 img{
     padding: 5px;
 }
