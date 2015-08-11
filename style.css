@@ -19,6 +19,9 @@ div.footer{
 img{
     padding: 5px;
 }
+img.favicon{
+    padding: 0px;
+}
 img.w3{
     padding: 0px;
 }
