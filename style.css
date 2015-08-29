@@ -88,6 +88,14 @@ table.sortable thead {
     color: #ffffff;
     text-shadow: 0 1px rgba(0, 0, 0, 0.098);
 }
+.mw-ui-button.mw-ui-grey {
+    background: #C0C0C0 none repeat scroll 0 0;
+    border-bottom: 1px solid #C0C0C0;
+    border-style: solid none;
+    border-top: 1px solid #C0C0C0;
+    color: #ffffff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.098);
+}
 .mw-ui-button {
     background: #ffffff none repeat scroll 0 0;
     border: 1px solid #cccccc;
