@@ -29,7 +29,7 @@ def main():
         
         try:
             req = urllib2.Request(faurl, headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = urllib2.urlopen(req).read()
+            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
         except:
             break
         
@@ -39,7 +39,7 @@ def main():
         for rating in m:
             ratings.append(rating)
         
-        m = re.findall(ur'(?im)<div class="mc-title">\s*<a href="/es/film(\d+)\.html">([^<>]*?)</a>\s*\((\d+?)\)\s*<img src="/imgs/countries/[^<>]+\.jpg" title="([^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<a href="/es/search\.php\?stype=director&amp;sn&amp;stext=[^<>]+?">([^<>]+?)</a></div>', html)
+        m = re.findall(ur'(?im)<div class="mc-title">\s*<a href="/es/film(\d+)\.html">([^<>]*?)</a>\s*\((\d+?)\)\s*<img src="/imgs/countries/[^<>]+\.jpg" title="([^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<a href="/es/search\.php\?stype=director&amp;sn&amp;stext=[^<>]+?">([^<>]+?)</a>', html) #no cerrar con </div> por si el campo director tiene más de un director
         c = 0
         for film in m:
             filmid = film[0].strip()
@@ -55,13 +55,17 @@ def main():
     films.sort()
     
     rows = []
+    c = 0
     for film in films:
+        c += 1
         filmtitle = film[0]
         filmyear = film[1]
         filmcountry = film[2]
         filmdirector = film[3]
         filmid = film[4]
         filmrating = film[5]
+        
+        customkey = re.sub(ur'(?im)[\"\!\¡\?\¿\#]', '', filmtitle)
         
         if 'Serie de TV' in filmtitle or '(C)' in filmtitle:
             continue
@@ -75,20 +79,37 @@ def main():
         if 'URSS' in filmcountry:
             filmcountry = filmcountry.split(' (URSS)')[0]
         
-        row = '<tr><td><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>\n' % (filmid, filmtitle, filmdirector, filmyear, filmcountry, filmrating)
+        row = u"""
+    <tr>
+        <td>%s</td>
+        <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td>%s</td>
+        <td>%s</td>
+        <td>%s</td>
+        <td>%s</td>
+    </tr>\n""" % (c, customkey, filmid, filmtitle, filmdirector, filmyear, filmcountry, filmrating)
         rows.append(row)
     
-    table = '\n<table class="wikitable sortable" style="text-align: center;">\n'
-    table += '<tr><th>Título</th><th>Dirección</th><th>Año</th><th>País</th><th>Puntos</th></tr>'
-    table += ''.join(rows)
-    table += '</table>\n'
+    table = u"<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
+    table += u"""
+    <tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Título</th>
+        <th class="sorttable_alpha">Dirección</th>
+        <th class="sorttable_numeric">Año</th>
+        <th class="sorttable_alpha">País</th>
+        <th class="sorttable_numeric">Puntos</th>
+    </tr>"""
+    table += u''.join(rows)
+    table += u'</table>\n'
     
     f = open('cine.html', 'r')
-    html = f.read()
+    html = unicode(f.read(), 'utf-8')
     f.close()
     f = open('cine.html', 'w')
-    html = html.split('<!-- tabla completa -->')[0] + '<!-- tabla completa -->' + table + '<!-- /tabla completa -->' + html.split('<!-- /tabla completa -->')[1]
-    f.write(html)
+    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], table, html.split(u'<!-- /tabla completa -->')[1])
+    f.write(html.encode('utf-8'))
     f.close()
 
 if __name__ == '__main__':
