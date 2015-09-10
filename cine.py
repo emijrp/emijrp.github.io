@@ -57,7 +57,6 @@ def main():
     rows = []
     c = 0
     for film in films:
-        c += 1
         filmtitle = film[0]
         filmyear = film[1]
         filmcountry = film[2]
@@ -73,12 +72,15 @@ def main():
         if filmtitle.endswith(' (TV)'):
             filmtitle = filmtitle.split(' (TV)')[0]
         
-        if 'AKA' in filmdirector:
+        if '(AKA' in filmdirector:
             filmdirector = filmdirector.split(' (AKA')[0]
+        if '(Creator' in filmdirector:
+            filmdirector = filmdirector.split(' (Creator')[0]
         
         if 'URSS' in filmcountry:
             filmcountry = filmcountry.split(' (URSS)')[0]
         
+        c += 1
         row = u"""
     <tr>
         <td>%s</td>
