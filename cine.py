@@ -21,9 +21,10 @@ import urllib2
 
 def main():
     films = []
+    userid = 397713
     
     for page in range(1, 100):
-        faurl = 'http://www.filmaffinity.com/es/userratings.php?user_id=397713&p=%s&orderby=4' % (page)
+        faurl = 'http://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         
         print 'Retrieving', faurl
         
