@@ -67,7 +67,7 @@ def main():
         
         customkey = re.sub(ur'(?im)[\"\!\¡\?\¿\#]', '', filmtitle)
         
-        if 'Serie de TV' in filmtitle or '(C)' in filmtitle:
+        if 'Serie de TV' in filmtitle:# or '(C)' in filmtitle:
             continue
         
         if filmtitle.endswith(' (TV)'):
