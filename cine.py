@@ -21,6 +21,9 @@ import urllib2
 
 def main():
     films = []
+    countries = {
+        u'Unión Soviética': u'ZY', 
+    }
     userid = 397713
     
     for page in range(1, 100):
@@ -40,15 +43,17 @@ def main():
         for rating in m:
             ratings.append(rating)
         
-        m = re.findall(ur'(?im)<div class="mc-title">\s*<a href="/es/film(\d+)\.html">([^<>]*?)</a>\s*\((\d+?)\)\s*<img src="/imgs/countries/[^<>]+\.jpg" title="([^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<a href="/es/search\.php\?stype=director&amp;sn&amp;stext=[^<>]+?">([^<>]+?)</a>', html) #no cerrar con </div> por si el campo director tiene más de un director
+        m = re.findall(ur'(?im)<div class="mc-title">\s*<a href="/es/film(\d+)\.html">([^<>]*?)</a>\s*\((\d+?)\)\s*<img src="/imgs/countries/([^<>]+)\.jpg" title="([^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<a href="/es/search\.php\?stype=director&amp;sn&amp;stext=[^<>]+?">([^<>]+?)</a>', html) #no cerrar con </div> por si el campo director tiene más de un director
         c = 0
         for film in m:
             filmid = film[0].strip()
             filmtitle = film[1].strip()
-            filmyear = film[2].strip()
-            filmcountry = film[3].strip()
-            filmdirector = film[4].strip()
+            filmyear = int(film[2].strip())
+            filmcountryid = film[3].strip()
+            filmcountry = film[4].strip()
+            filmdirector = film[5].strip()
             films.append([filmtitle, filmyear, filmcountry, filmdirector, filmid, ratings[c]])
+            countries[filmcountry] = filmcountryid
             c += 1
         
         time.sleep(1)
@@ -82,15 +87,20 @@ def main():
             filmcountry = filmcountry.split(' (URSS)')[0]
         
         c += 1
+        filmdirectorlink = 'http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=%s' % (re.sub(' ', '+', filmdirector))
+        if filmyear < 1900:
+            filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900'
+        else:
+            filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=%s&toyear=%s' % (filmyear, filmyear)
         row = u"""
     <tr>
         <td>%s</td>
         <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td><a href="%s">%s</a></td>
+        <td><a href="%s">%s</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
         <td>%s</td>
-        <td>%s</td>
-        <td>%s</td>
-        <td>%s</td>
-    </tr>\n""" % (c, customkey, filmid, filmtitle, filmdirector, filmyear, filmcountry, filmrating)
+    </tr>\n""" % (c, customkey, filmid, filmtitle, filmdirectorlink, filmdirector, filmyearlink, filmyear, countries[filmcountry], filmcountry, filmrating)
         rows.append(row)
     
     table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
