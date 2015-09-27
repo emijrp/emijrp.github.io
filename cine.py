@@ -146,7 +146,7 @@ def main():
         <td>-</td>
         <td sorttable_customkey="-"><i>Ninguna de %s</i></td>
         <td>-</td>
-        <td>-</td>
+        <td sorttable_customkey="2099">-</td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
         <td>-</td>
     </tr>\n""" % (y, x, y)
