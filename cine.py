@@ -15,9 +15,18 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import datetime
 import re
 import time
 import urllib2
+
+def getFilmYearLink(filmyear):
+    filmyearlink = ''
+    if filmyear < 1900:
+        filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900'
+    else:
+        filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=%s&toyear=%s' % (filmyear, filmyear)
+    return filmyearlink    
 
 def main():
     films = []
@@ -61,6 +70,7 @@ def main():
     films.sort()
     
     rows = []
+    years = set([])
     c = 0
     for film in films:
         filmtitle = film[0]
@@ -86,12 +96,10 @@ def main():
         if 'URSS' in filmcountry:
             filmcountry = filmcountry.split(' (URSS)')[0]
         
+        years.add(filmyear)
         c += 1
         filmdirectorlink = 'http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=%s' % (re.sub(' ', '+', filmdirector))
-        if filmyear < 1900:
-            filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900'
-        else:
-            filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=%s&toyear=%s' % (filmyear, filmyear)
+        filmyearlink = getFilmYearLink(filmyear)
         row = u"""
     <tr>
         <td>%s</td>
@@ -102,6 +110,20 @@ def main():
         <td>%s</td>
     </tr>\n""" % (c, customkey, filmid, filmtitle, filmdirectorlink, filmdirector, filmyearlink, filmyear, countries[filmcountry], filmcountry, filmrating)
         rows.append(row)
+    
+    #add missing years
+    for i in range(1890, datetime.datetime.now().year+1):
+        if i not in years:
+            row = u"""
+    <tr>
+        <td>-</td>
+        <td sorttable_customkey="-"><i>Ninguna del año %s</i></td>
+        <td>-</td>
+        <td><a href="%s">%s</a></td>
+        <td>-</td>
+        <td>-</td>
+    </tr>\n""" % (i, getFilmYearLink(i), i)
+            rows.append(row)
     
     table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
     table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
