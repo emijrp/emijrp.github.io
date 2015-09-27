@@ -93,6 +93,8 @@ def main():
         if '(Creator' in filmdirector:
             filmdirector = filmdirector.split(' (Creator')[0]
         
+        if 'Holanda' in filmcountry:
+            filmcountry = filmcountry.split(' (Holanda)')[0]
         if 'URSS' in filmcountry:
             filmcountry = filmcountry.split(' (URSS)')[0]
         
@@ -125,6 +127,32 @@ def main():
     </tr>\n""" % (i, getFilmYearLink(i), i)
             rows.append(row)
     
+    #add missing countries
+    countriesurl = 'http://www.filmaffinity.com/es/advsearch.php'
+    try:
+        req2 = urllib2.Request(countriesurl, headers={ 'User-Agent': 'Mozilla/5.0' })
+        html2 = unicode(urllib2.urlopen(req2).read(), 'utf-8')
+    except:
+        print 'ERROR: countries'
+        sys.exit()
+    
+    html2 = html2.split('<select name="country">')[1]
+    html2 = html2.split('</select>')[0]
+    allcountries = re.findall(ur'(?im)<option value="([^<>]+?)">([^<>]+?)</option>', html2)
+    for x, y in allcountries:
+        if x not in countries.values():
+            row = u"""
+    <tr>
+        <td>-</td>
+        <td sorttable_customkey="-"><i>Ninguna de %s</i></td>
+        <td>-</td>
+        <td>-</td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
+        <td>-</td>
+    </tr>\n""" % (y, x, y)
+            rows.append(row)
+    
+    #save table
     table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
     table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
     table += u"""
