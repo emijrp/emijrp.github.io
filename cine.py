@@ -24,6 +24,13 @@ countries = {
     u'Unión Soviética': u'ZY', 
 }
 
+def cleanFilmCountry(filmcountry):
+    if 'Holanda' in filmcountry:
+        filmcountry = filmcountry.split(' (Holanda)')[0]
+    if 'URSS' in filmcountry:
+        filmcountry = filmcountry.split(' (URSS)')[0]
+    return filmcountry
+
 def cleanFilmDirector(filmdirector):
     if '(AKA' in filmdirector:
         filmdirector = filmdirector.split(' (AKA')[0]
@@ -48,7 +55,6 @@ def getFilmYearLink(filmyear):
 
 def main():
     films = []
-    
     userid = 397713
     
     #stats
@@ -59,9 +65,7 @@ def main():
     
     for page in range(1, 100):
         faurl = 'http://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
-        
         print 'Retrieving', faurl
-        
         try:
             req = urllib2.Request(faurl, headers={ 'User-Agent': 'Mozilla/5.0' })
             html = unicode(urllib2.urlopen(req).read(), 'utf-8')
@@ -73,72 +77,80 @@ def main():
         ratings = []
         for rating in m:
             ratings.append(rating)
-        
-        m = re.findall(ur'(?im)<div class="mc-title">\s*<a href="/es/film(\d+)\.html">([^<>]*?)</a>\s*\((\d+?)\)\s*<img src="/imgs/countries/([^<>]+)\.jpg" title="([^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<a href="/es/search\.php\?stype=director&amp;sn&amp;stext=[^<>]+?">([^<>]+?)</a>', html) #no cerrar con </div> por si el campo director tiene más de un director, solo coge el primero (mejorar?)
-        c = 0
-        for film in m:
-            filmid = film[0].strip()
-            filmtitle = film[1].strip()
-            filmyear = int(film[2].strip())
-            filmdecade = filmyear / 10
-            filmcountryid = film[3].strip()
-            filmcountry = film[4].strip()
-            filmdirector = film[5].strip()
-            films.append([filmtitle, filmyear, filmcountry, filmdirector, filmid, ratings[c]])
-            countries[filmcountry] = filmcountryid
-            
-            statsyear[filmyear] = statsyear.has_key(filmyear) and statsyear[filmyear] + 1 or 1
-            statsdecade[filmdecade] = statsdecade.has_key(filmdecade) and statsdecade[filmdecade] + 1 or 1
-            statscountry[filmcountry] = statscountry.has_key(filmcountry) and statscountry[filmcountry] + 1 or 1
-            statsdirector[filmdirector] = statsdirector.has_key(filmdirector) and statsdirector[filmdirector] + 1 or 1
 
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a href="/es/film(?P<id>\d+)\.html">(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*<div class="mc-cast">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>', html)
+        c = 0
+        for i in m:
+            filmprops = {}
+            filmprops['id'] = i.group('id').strip()
+            filmprops['title'] = i.group('title').strip()
+            filmprops['year'] = int(i.group('year').strip())
+            filmprops['decade'] = filmprops['year'] / 10
+            filmprops['countryid'] = i.group('countryid').strip()
+            filmprops['country'] = i.group('country').strip()
+            filmprops['director'] = re.findall(ur'(?im)<a[^<>]+?>([^<>]*?)</a>', i.group('director').strip())
+            filmprops['cast'] = i.group('cast').strip()
+            filmprops['rating'] = ratings[c]
+            films.append([filmprops['title'], filmprops])
+            countries[filmprops['country']] = filmprops['countryid']
+            
+            statsyear[filmprops['year']] = statsyear.has_key(filmprops['year']) and statsyear[filmprops['year']] + 1 or 1
+            statsdecade[filmprops['decade']] = statsdecade.has_key(filmprops['decade']) and statsdecade[filmprops['decade']] + 1 or 1
+            statscountry[filmprops['country']] = statscountry.has_key(filmprops['country']) and statscountry[filmprops['country']] + 1 or 1
+            for director in filmprops['director']:
+                statsdirector[director] = statsdirector.has_key(director) and statsdirector[director] + 1 or 1
             c += 1
-        
         time.sleep(1)
-    
     films.sort()
     
-    rows = []
+    filmrows = []
+    docrows = []
     years = set([])
-    c = 0
-    for film in films:
-        filmtitle = film[0]
-        filmyear = film[1]
-        filmcountry = film[2]
-        filmdirector = film[3]
-        filmid = film[4]
-        filmrating = film[5]
-        
-        customkey = re.sub(ur'(?im)[\"\!\¡\?\¿\#]', '', filmtitle)
-        
-        if 'Serie de TV' in filmtitle:# or '(C)' in filmtitle:
+    filmc = 0
+    docc = 0
+    for filmtitle, filmprops in films:
+        filmtitle_ = filmtitle
+        if 'Serie de TV' in filmtitle_:
             continue
+        if filmtitle_.endswith(' (TV)'):
+            filmtitle_ = filmtitle_.split(' (TV)')[0]
         
-        if filmtitle.endswith(' (TV)'):
-            filmtitle = filmtitle.split(' (TV)')[0]
-        
-        filmdirector_ = cleanFilmDirector(filmdirector)
-        
-        if 'Holanda' in filmcountry:
-            filmcountry = filmcountry.split(' (Holanda)')[0]
-        if 'URSS' in filmcountry:
-            filmcountry = filmcountry.split(' (URSS)')[0]
-        
-        years.add(filmyear)
-        c += 1
-        filmcountrylink = getFilmCountryLink(filmcountry)
-        filmdirectorlink = getFilmDirectorLink(filmdirector)
-        filmyearlink = getFilmYearLink(filmyear)
-        row = u"""
+        customkey = re.sub(ur'(?im)[\"\!\¡\?\¿\#]', '', filmtitle_)
+        director_ = []
+        [director_.append(cleanFilmDirector(director)) for director in filmprops['director']]
+        country = cleanFilmCountry(filmprops['country'])
+        years.add(filmprops['year'])
+        countrylink = getFilmCountryLink(filmprops['country'])
+        directorlink = [getFilmDirectorLink(director) for director in filmprops['director']]
+        yearlink = getFilmYearLink(filmprops['year'])
+        directors = []
+        for d in range(0, len(director_)):
+            directors.append('<a href="%s">%s</a>' % (directorlink[d], director_[d]))
+        directors = '<br/>'.join(directors)
+        if 'Documentary' in filmprops['cast']:
+            docc += 1
+            row = u"""
     <tr>
         <td>%s</td>
         <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
-        <td><a href="%s">%s</a></td>
+        <td>%s</td>
         <td><a href="%s">%s</a></td>
         <td><a href="%s">%s</a></td>
         <td>%s</td>
-    </tr>\n""" % (c, customkey, filmid, filmtitle, filmdirectorlink, filmdirector_, filmyearlink, filmyear, filmcountrylink, filmcountry, filmrating)
-        rows.append(row)
+    </tr>\n""" % (docc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
+            docrows.append(row)
+        else:
+            filmc += 1
+            row = u"""
+    <tr>
+        <td>%s</td>
+        <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td>%s</td>
+        <td><a href="%s">%s</a></td>
+        <td><a href="%s">%s</a></td>
+        <td>%s</td>
+    </tr>\n""" % (filmc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
+            filmrows.append(row)
     
     #add missing years
     for i in range(1890, datetime.datetime.now().year+1):
@@ -152,7 +164,7 @@ def main():
         <td>-</td>
         <td>-</td>
     </tr>\n""" % (i, getFilmYearLink(i), i)
-            rows.append(row)
+            filmrows.append(row)
     
     #add missing countries
     countriesurl = 'http://www.filmaffinity.com/es/advsearch.php'
@@ -177,7 +189,7 @@ def main():
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
         <td>-</td>
     </tr>\n""" % (y, x, y)
-            rows.append(row)
+            filmrows.append(row)
     
     #print table
     table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
@@ -191,14 +203,26 @@ def main():
         <th class="sorttable_alpha">País</th>
         <th class="sorttable_numeric">Puntos</th>
     </tr>"""
-    table += u''.join(rows)
-    table += u'</table>\n'
+    filmtable = table
+    filmtable += u''.join(filmrows)
+    filmtable += u'</table>\n'
+    doctable = table
+    doctable += u''.join(docrows)
+    doctable += u'</table>\n'
     
     f = open('cine.html', 'r')
     html = unicode(f.read(), 'utf-8')
     f.close()
     f = open('cine.html', 'w')
-    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], table, html.split(u'<!-- /tabla completa -->')[1])
+    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], filmtable, html.split(u'<!-- /tabla completa -->')[1])
+    f.write(html.encode('utf-8'))
+    f.close()
+    
+    f = open('documentales.html', 'r')
+    html = unicode(f.read(), 'utf-8')
+    f.close()
+    f = open('documentales.html', 'w')
+    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], doctable, html.split(u'<!-- /tabla completa -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
     
@@ -233,6 +257,6 @@ def main():
     html = u'%s<!-- stats -->%s<!-- /stats -->%s' % (html.split(u'<!-- stats -->')[0], stats, html.split(u'<!-- /stats -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
-
+    
 if __name__ == '__main__':
     main()
