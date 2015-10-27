@@ -119,7 +119,6 @@ def main():
         director_ = []
         [director_.append(cleanFilmDirector(director)) for director in filmprops['director']]
         country = cleanFilmCountry(filmprops['country'])
-        years.add(filmprops['year'])
         countrylink = getFilmCountryLink(filmprops['country'])
         directorlink = [getFilmDirectorLink(director) for director in filmprops['director']]
         yearlink = getFilmYearLink(filmprops['year'])
@@ -141,6 +140,7 @@ def main():
             docrows.append(row)
         else:
             filmc += 1
+            years.add(filmprops['year'])
             row = u"""
     <tr>
         <td>%s</td>
