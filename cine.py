@@ -153,16 +153,16 @@ def main():
             filmrows.append(row)
     
     #add missing years
-    for i in range(1890, datetime.datetime.now().year+1):
+    for i in range(1900, datetime.datetime.now().year+1):
         if i not in years:
             row = u"""
     <tr>
-        <td>-</td>
-        <td sorttable_customkey="-"><i>Ninguna del año %s</i></td>
-        <td>-</td>
+        <td sorttable_customkey="ZZZ">-</td>
+        <td><i>Ninguna del año %s</i></td>
+        <td sorttable_customkey="ZZZ">-</td>
         <td><a href="%s">%s</a></td>
-        <td>-</td>
-        <td>-</td>
+        <td sorttable_customkey="ZZZ">-</td>
+        <td sorttable_customkey="ZZZ">-</td>
     </tr>\n""" % (i, getFilmYearLink(i), i)
             filmrows.append(row)
     
@@ -182,12 +182,12 @@ def main():
         if x not in countries.values():
             row = u"""
     <tr>
-        <td>-</td>
-        <td sorttable_customkey="-"><i>Ninguna de %s</i></td>
-        <td>-</td>
+        <td sorttable_customkey="ZZZ">-</td>
+        <td><i>Ninguna de %s</i></td>
+        <td sorttable_customkey="ZZZ">-</td>
         <td sorttable_customkey="2099">-</td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
-        <td>-</td>
+        <td sorttable_customkey="ZZZ">-</td>
     </tr>\n""" % (y, x, y)
             filmrows.append(row)
     
