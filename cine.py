@@ -79,7 +79,7 @@ def main():
             ratings.append(rating)
 
         m = re.finditer(ur'(?im)<div class="mc-title">\s*<a href="/es/film(?P<id>\d+)\.html">(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*<div class="mc-cast">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>', html)
-        c = 0
+        c = 0 #for ratings index
         for i in m:
             filmprops = {}
             filmprops['id'] = i.group('id').strip()
@@ -94,11 +94,12 @@ def main():
             films.append([filmprops['title'], filmprops])
             countries[filmprops['country']] = filmprops['countryid']
             
-            statsyear[filmprops['year']] = statsyear.has_key(filmprops['year']) and statsyear[filmprops['year']] + 1 or 1
-            statsdecade[filmprops['decade']] = statsdecade.has_key(filmprops['decade']) and statsdecade[filmprops['decade']] + 1 or 1
-            statscountry[filmprops['country']] = statscountry.has_key(filmprops['country']) and statscountry[filmprops['country']] + 1 or 1
-            for director in filmprops['director']:
-                statsdirector[director] = statsdirector.has_key(director) and statsdirector[director] + 1 or 1
+            if not 'Documentary' in filmprops['cast']:
+                statsyear[filmprops['year']] = statsyear.has_key(filmprops['year']) and statsyear[filmprops['year']] + 1 or 1
+                statsdecade[filmprops['decade']] = statsdecade.has_key(filmprops['decade']) and statsdecade[filmprops['decade']] + 1 or 1
+                statscountry[filmprops['country']] = statscountry.has_key(filmprops['country']) and statscountry[filmprops['country']] + 1 or 1
+                for director in filmprops['director']:
+                    statsdirector[director] = statsdirector.has_key(director) and statsdirector[director] + 1 or 1
             c += 1
         time.sleep(1)
     films.sort()
