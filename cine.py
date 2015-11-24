@@ -137,13 +137,13 @@ def main():
     
     filmrows = []
     docrows = []
+    seriesrows = []
     years = set([])
     filmc = 0
     docc = 0
+    seriesc = 0
     for filmtitle, filmprops in films:
         filmtitle_ = filmtitle
-        if 'Serie de TV' in filmtitle_:
-            continue
         if filmtitle_.endswith(' (TV)'):
             filmtitle_ = filmtitle_.split(' (TV)')[0]
         
@@ -159,6 +159,7 @@ def main():
             directors.append('<a href="%s">%s</a>' % (directorlink[d], director_[d]))
         directors = '<br/>'.join(directors)
         if 'Documentary' in filmprops['cast']:
+            filmtitle_ = filmtitle_.split(' (Serie de TV)')[0] # some documentaries include (Serie de TV) suffix
             docc += 1
             row = u"""
     <tr>
@@ -170,6 +171,19 @@ def main():
         <td>%s</td>
     </tr>\n""" % (docc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
             docrows.append(row)
+        elif 'Serie de TV' in filmtitle_:
+            filmtitle_ = filmtitle_.split(' (Serie de TV)')[0]
+            seriesc += 1
+            row = u"""
+    <tr>
+        <td>%s</td>
+        <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td>%s</td>
+        <td><a href="%s">%s</a></td>
+        <td><a href="%s">%s</a></td>
+        <td>%s</td>
+    </tr>\n""" % (seriesc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
+            seriesrows.append(row)
         else:
             filmc += 1
             years.add(filmprops['year'])
@@ -238,9 +252,14 @@ def main():
     filmtable = table
     filmtable += u''.join(filmrows)
     filmtable += u'</table>\n'
+    
     doctable = table
     doctable += u''.join(docrows)
     doctable += u'</table>\n'
+    
+    seriestable = table
+    seriestable += u''.join(seriesrows)
+    seriestable += u'</table>\n'
     
     f = open('cine.html', 'r')
     html = unicode(f.read(), 'utf-8')
@@ -255,6 +274,14 @@ def main():
     f.close()
     f = open('documentales.html', 'w')
     html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], doctable, html.split(u'<!-- /tabla completa -->')[1])
+    f.write(html.encode('utf-8'))
+    f.close()
+    
+    f = open('series.html', 'r')
+    html = unicode(f.read(), 'utf-8')
+    f.close()
+    f = open('series.html', 'w')
+    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], seriestable, html.split(u'<!-- /tabla completa -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
     
