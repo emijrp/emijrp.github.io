@@ -223,7 +223,7 @@ def main():
     
     html2 = html2.split('<select name="country">')[1]
     html2 = html2.split('</select>')[0]
-    allcountries = re.findall(ur'(?im)<option value="([^<>]+?)">([^<>]+?)</option>', html2)
+    allcountries = re.findall(ur'(?im)<option value="([^<>]+?)"\s*>([^<>]+?)</option>', html2)
     for x, y in allcountries:
         if x not in countries.values():
             row = u"""
