@@ -23,7 +23,7 @@ import urllib
 
 def main():
     projects = [
-        ['Emijrp', '15mpedia', 'http://wiki.15m.cc/w/api.php'], 
+        ['Emijrp', '15mpedia', 'https://15mpedia.org/w/api.php'], 
         ['Emijrp', 'Cadizpedia', 'http://cadizpedia.wikanda.es/w/api.php'], 
         ['Emijrp', 'Commons', 'https://commons.wikimedia.org/w/api.php'], 
         ['Emijrp', 'Enciclopedia Libre', 'http://enciclopedia.us.es/api.php'], 
@@ -103,6 +103,8 @@ def main():
                 if not data['query-continue']['usercontribs'].has_key(uccontinue_name):
                     uccontinue_name = 'ucstart'
                 uccontinue = data['query-continue']['usercontribs'][uccontinue_name]
+            elif data.has_key('continue'):
+                uccontinue = data['continue'][uccontinue_name]
             else:
                 uccontinue = ''
             
