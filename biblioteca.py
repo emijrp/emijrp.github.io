@@ -82,10 +82,10 @@ def main():
     <tr>
         <td>%s</td>
         <td sorttable_customkey="%s"><i><a href="https://www.goodreads.com%s">%s</a></i></td>
-        <td>%s</td>
+        <td><a href="https://www.goodreads.com%s">%s</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=%s">%s</a></td>
         <!--<td>...</td>-->
-    </tr>\n""" % (bookc, customkey, bookprops['bookurl'], booktitle, bookprops['author'], bookprops['isbn13'], bookprops['isbn13'])
+    </tr>\n""" % (bookc, customkey, bookprops['bookurl'], booktitle, bookprops['authorurl'], bookprops['author'], bookprops['isbn13'], bookprops['isbn13'])
         bookrows.append(row)
 
     #print table
@@ -96,7 +96,7 @@ def main():
         <th class="sorttable_numeric">#</th>
         <th class="sorttable_alpha">Título</th>
         <th class="sorttable_alpha">Autoría</th>
-        <th class="sorttable_alpha">ISBN13</th>
+        <th class="sorttable_alpha">ISBN</th>
         <!--<th class="sorttable_numeric">Puntos</th>-->
     </tr>"""
     booktable = table
