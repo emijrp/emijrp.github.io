@@ -27,6 +27,7 @@ countries = {
 }
 
 def cleanFilmCountry(filmcountry):
+    filmcountry = filmcountry.strip()
     if 'Holanda' in filmcountry:
         filmcountry = filmcountry.split(' (Holanda)')[0]
     if 'URSS' in filmcountry:
@@ -34,6 +35,7 @@ def cleanFilmCountry(filmcountry):
     return filmcountry
 
 def cleanFilmDirector(filmdirector):
+    filmdirector = filmdirector.strip()
     if '(AKA' in filmdirector:
         filmdirector = filmdirector.split(' (AKA')[0]
     if '(Creator' in filmdirector:
@@ -41,10 +43,12 @@ def cleanFilmDirector(filmdirector):
     return filmdirector
 
 def getFilmCountryLink(filmcountry):
+    filmcountry = filmcountry.strip()
     filmcountrylink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=' % (countries[filmcountry])
     return filmcountrylink
     
 def getFilmDirectorLink(filmdirector):
+    filmdirector = filmdirector.strip()
     return 'http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=%s' % (re.sub(' ', '+', filmdirector))
 
 def getFilmYearLink(filmyear):
@@ -108,8 +112,8 @@ def main():
         ratings = []
         for rating in m:
             ratings.append(rating)
-
-        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a href="/es/film(?P<id>\d+)\.html">(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*<div class="mc-cast">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>', html)
+    
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a href="/es/film(?P<id>\d+)\.html">(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*<div class="mc-cast">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>', html)
         c = 0 #for ratings index
         for i in m:
             filmprops = {}
