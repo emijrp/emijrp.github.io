@@ -12,34 +12,35 @@
 <body>
 <h1>Viajes - <a href="index.html">La web de emijrp</a></h1>
 
-<p>En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios, así que tengo diversión para rato. A continuación algunos datos curiosos basados en mis viajes.</p>
+<p>En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8000 municipios, así que tengo diversión para rato. A continuación recopilo algunos datos curiosos basados en mis viajes.</p>
 
-<div id="map" style="float: right;width: 500px; height: 400px;"></div>
+<div id="map" style="float: right;width: 500px; height: 350px;"></div>
 
 <script>
-
-var places = [
-    ["Alcalá de Henares", 40.482093, -3.367031], 
-    ["Alhaurín el Grande", 36.642119, -4.687833], 
-    ["Barcelona", 41.403076, 2.173695], 
-    ["Cádiz", 36.529824, -6.292721], 
-    ["Cáceres", 39.475111, -6.371400], 
-    ["Chipiona", 36.737781, -6.442138], 
-    ["Córdoba", 37.877220, -4.778585], 
-    ["El Puerto de Santa María", 36.598129, -6.223777], 
-    ["Granada", 37.177050, -3.589184], 
-    ["Jerez de la Frontera", 36.690360, -6.147455], 
-    ["Lebrija", 36.918861, -6.084326], 
-    ["Los Santos de la Humosa", 40.501948, -3.259705], 
-    ["Madrid", 40.416957, -3.703478], 
-    ["Málaga", 36.721217, -4.414778], 
-    ["Mesas de Asta", 36.788874, -6.171564], 
-    ["Nerja", 36.772717, -3.880040], 
-    ["Sevilla", 37.386128, -5.992103], 
-    ["Sierra Nevada", 37.095596, -3.399980], 
-    ["Sitges", 41.237124, 1.805857], 
-    ["Tomares", 37.374252, -6.029259], 
-    ["Trebujena", 36.869315, -6.176710], 
+    // http://leafletjs.com/examples/custom-icons.html
+    
+    var places = [
+        ["Alcalá de Henares", 40.482093, -3.367031], 
+        ["Alhaurín el Grande", 36.642119, -4.687833], 
+        ["Barcelona", 41.403076, 2.173695], 
+        ["Cádiz", 36.529824, -6.292721], 
+        ["Cáceres", 39.475111, -6.371400], 
+        ["Chipiona", 36.737781, -6.442138], 
+        ["Córdoba", 37.877220, -4.778585], 
+        ["El Puerto de Santa María", 36.598129, -6.223777], 
+        ["Granada", 37.177050, -3.589184], 
+        ["Jerez de la Frontera", 36.690360, -6.147455], 
+        ["Lebrija", 36.918861, -6.084326], 
+        ["Los Santos de la Humosa", 40.501948, -3.259705], 
+        ["Madrid", 40.416957, -3.703478], 
+        ["Málaga", 36.721217, -4.414778], 
+        ["Mesas de Asta", 36.788874, -6.171564], 
+        ["Nerja", 36.772717, -3.880040], 
+        ["Sevilla", 37.386128, -5.992103], 
+        ["Sierra Nevada", 37.095596, -3.399980], 
+        ["Sitges", 41.237124, 1.805857], 
+        ["Tomares", 37.374252, -6.029259], 
+        ["Trebujena", 36.869315, -6.176710], 
     ];
 
     var map = L.map('map').setView([40.416957, -3.703478], 5);
@@ -57,8 +58,25 @@ var places = [
             .bindPopup('<b>' + places[i][0] + '</b>')
             .addTo(map);
     }
-           
+    
+    var aveSevBcnPoints = [
+        new L.LatLng(37.391710, -5.975296), // Sevilla Santa Justa
+        new L.LatLng(37.888387, -4.789574), // Córdoba Central
+        new L.LatLng(38.691339, -4.111848), // Puertollano
+        new L.LatLng(38.985508, -3.913386), // Ciudad Real Central
+        new L.LatLng(40.406962, -3.691414), // Madrid
+        new L.LatLng(41.658697, -0.911852), // Zaragoza Delicias
+        new L.LatLng(41.620937, 0.633141), // Lleida
+        new L.LatLng(41.192036, 1.272467), // Camp Tarragona
+        new L.LatLng(41.379238, 2.140412), // Barcelona Sants
+    ];
+    var aveSevBcnLine = new L.Polyline(aveSevBcnPoints, { color: 'green', weight: 3, opacity: 0.5, smoothFactor: 1 });
+    
+    aveSevBcnLine.addTo(map);
+
 </script>
+
+<p>Resumen general:</p>
 
 <ul>
     <li><b>Países</b> visitados: 1 (España).</li>
@@ -75,7 +93,7 @@ var places = [
     <li><b>Parques naturales</b>: Parque natural de Los Alcornocales.</li>
 </ul>
 
-<p>Relativo a distancias.</p>
+<p>Records relativos a distancias:</p>
 
 <ul>
     <li><b>Mayor distancia</b> recorrida en <b>barco</b>: 5 km (Catamarán Bahía de Cádiz).</li>
@@ -83,7 +101,7 @@ var places = [
     <li><b>Mayor distancia</b> recorrida en <b>tren</b>: 1079 km (AVE Sevilla-Barcelona).</li>
 </ul>
 
-<p>Puntos de singular interés.</p>
+<p>Puntos de singular interés:</p>
 
 <ul>
     <li><b>Museos</b>: Museo Arqueológico Nacional, Museo de Cádiz, Museo de El Puerto de Santa María, Museo del Prado, Museo Picasso Málaga, Museo Reina Sofía, Museo Thyssen-Bornemisza y Museu Nacional d'Art de Catalunya.</li>
