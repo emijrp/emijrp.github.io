@@ -12,9 +12,9 @@
 <body>
 <h1>Viajes - <a href="index.html">La web de emijrp</a></h1>
 
-<p>En este mapa voy añadiendo un punto por cada lugar que he podido visitar.</p>
+<p>En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios, así que tengo diversión para rato. A continuación algunos datos curiosos basados en mis viajes.</p>
 
-<div id="map" style="float: right;width: 100%; height: 500px;"></div>
+<div id="map" style="float: right;width: 500px; height: 400px;"></div>
 
 <script>
 
@@ -24,21 +24,25 @@ var places = [
     ["Barcelona", 41.403076, 2.173695], 
     ["Cádiz", 36.529824, -6.292721], 
     ["Cáceres", 39.475111, -6.371400], 
+    ["Chipiona", 36.737781, -6.442138], 
+    ["Córdoba", 37.877220, -4.778585], 
     ["El Puerto de Santa María", 36.598129, -6.223777], 
     ["Granada", 37.177050, -3.589184], 
     ["Jerez de la Frontera", 36.690360, -6.147455], 
     ["Lebrija", 36.918861, -6.084326], 
+    ["Los Santos de la Humosa", 40.501948, -3.259705], 
     ["Madrid", 40.416957, -3.703478], 
     ["Málaga", 36.721217, -4.414778], 
     ["Mesas de Asta", 36.788874, -6.171564], 
     ["Nerja", 36.772717, -3.880040], 
     ["Sevilla", 37.386128, -5.992103], 
     ["Sierra Nevada", 37.095596, -3.399980], 
+    ["Sitges", 41.237124, 1.805857], 
     ["Tomares", 37.374252, -6.029259], 
     ["Trebujena", 36.869315, -6.176710], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 6);
+    var map = L.map('map').setView([40.416957, -3.703478], 5);
     mapLink = 
         '<a href="http://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
@@ -56,6 +60,37 @@ var places = [
            
 </script>
 
+<ul>
+    <li><b>Países</b> visitados: 1 (España).</li>
+    <li><b>Comunidades autónomas</b>: 4 (Andalucía, Comunidad de Madrid, Cataluña y Extremadura).</li>
+    <li><b>Provincias</b>: 8 (Cádiz, Barcelona, Cáceres, Córdoba, Granada, Madrid, Málaga y Sevilla).</li>
+    <li><b>Municipios</b>: 20 (Alcalá de Henares, Alhaurín el Grande, Barcelona, Cádiz, Cáceres, Chipiona, Córdoba, El Puerto de Santa María, Granada, Jerez de la Frontera, Lebrija, Los Santos de la Humosa, Madrid, Málaga, Mesas de Asta, Nerja, Sevilla, Sitges, Tomares y Trebujena).</li>
+    <li>Lugar más al <b>Norte</b>: Barcelona (41.381576 N, 2.194904 E).</li>
+    <li>Lugar más al <b>Sur</b>: Parque natural de Los Alcornocales (36.218819 N, -5.631672 O). Se divisaba el Estrecho de Gibraltar y el continente Africano.</li>
+    <li>Lugar más al <b>Este</b>: Barcelona (41.381576 N, 2.194904 E).</li>
+    <li>Lugar más al <b>Oeste</b>: Chipiona (36.737781 N, -6.442138 O).</li>
+    <li>Lugar a <b>mayor altitud</b>: Sierra Nevada (2100 msnm).</li>
+    <li>Lugar a <b>menor altitud</b>: Cádiz (0 msnm).</li>
+    <li><b>Mares y océanos</b> en los que me he bañado: Océano Atlántico (Bahía de Cádiz) y Mar Mediterráneo (Barcelona).</li>
+    <li><b>Parques naturales</b>: Parque natural de Los Alcornocales.</li>
+</ul>
+
+<p>Relativo a distancias.</p>
+
+<ul>
+    <li><b>Mayor distancia</b> recorrida en <b>barco</b>: 5 km (Catamarán Bahía de Cádiz).</li>
+    <li><b>Mayor distancia</b> recorrida en <b>coche</b>: 648 km (Madrid-Cádiz por la A4).</li>
+    <li><b>Mayor distancia</b> recorrida en <b>tren</b>: 1079 km (AVE Sevilla-Barcelona).</li>
+</ul>
+
+<p>Puntos de singular interés.</p>
+
+<ul>
+    <li><b>Museos</b>: Museo Arqueológico Nacional, Museo de Cádiz, Museo de El Puerto de Santa María, Museo del Prado, Museo Picasso Málaga, Museo Reina Sofía, Museo Thyssen-Bornemisza y Museu Nacional d'Art de Catalunya.</li>
+    <li><b>Torres</b>: Faro de Moncloa de Madrid (110 m), Giralda de Sevilla (104 m), Torre de Poniente de Cádiz (74 m), Torre Tavira de Cádiz (45 m), Torre del Oro de Sevilla (36 m), Torre de Santa María de Alcalá de Henares (34 m).</li>
+    <li><b>Sitios UNESCO</b>: Alhambra y Archivo General de Indias.</li>
+    <li><b>Otros lugares</b>: Alcazaba de Málaga, Aquarium Barcelona, Filmoteca de Catalunya, Filmoteca Española, L'Auditori y Zoobotánico Jerez.</li>
+</ul>
 
 <br clear="all" />
 <div class="footer">
