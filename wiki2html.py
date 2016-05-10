@@ -25,6 +25,11 @@ def readwikifile(wikifile):
     
     return wiki
 
+def savehtmlfile(htmlfile, html):
+    f = open(htmlfile, 'w')
+    f.write(html)
+    f.close()
+
 def main():
     if len(sys.argv) < 2:
         print('Error: parameter needed')
@@ -76,7 +81,9 @@ def main():
             wiki2 += '<p>%s</p>\n' % (paragraph)
     wiki = wiki2
     
-    print(wiki)
+    html = wiki
+    print(html)
+    savehtmlfile('%s.html' % wikifile.split('.wiki')[0], html)
 
 if __name__ == '__main__':
     main()
