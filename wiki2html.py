@@ -65,8 +65,12 @@ def main():
     wiki = re.sub(r'(?im)_([^\_]+?)_', r'<u>\1</u>', wiki)
     
     # [[links]]
-    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', r'(?im)<a href="\1.html">\2</a>', wiki)
-    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\]\]', r'(?im)<a href="\1.html">\1</a>', wiki)
+    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', r'<a href="\1.html">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\]\]', r'<a href="\1.html">\1</a>', wiki)
+    
+    # [://links links]
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\]', r'<a href="\1">\1</a>', wiki)
     
     # paragraphs
     paragraphs = wiki.split('\n')
