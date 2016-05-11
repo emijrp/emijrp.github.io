@@ -1,0 +1,12 @@
+{{header|1=Biblioteca Nacional de España}}
+
+<h2>Libros que faltan en la Biblioteca Nacional de España</h2>
+
+<p>La Biblioteca Nacional de España cuenta con un fondo de más de 15 millones de libros. Aun así, no están todos los libros que existen en español. A continuación enumero algunos títulos que he detectado su ausencia en el catálogo de la biblioteca.</p>
+
+<ul>
+    <li>Corvalán, Luis. <i><a href="http://www.bcn.cl/catalogo/detalle_libro?bib=117925&materia=Socialismo%20--%20Alemania%20(Rep%C3%BAblica%20Democr%C3%A1tica)">La otra Alemania, la RDA. Conversaciones con Margot Honecker</a></i>. Ediciones ICAL. (Comprobado que falta a mayo de 2016)</li>
+
+</ul> 
+
+{{footer}}
