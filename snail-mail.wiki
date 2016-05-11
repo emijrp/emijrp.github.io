@@ -1,22 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Snail mail - La web de emijrp</title>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<h1>Snail mail - <a href="index.html">La web de emijrp</a></h1>
+{{header|1=Snail mail}}
 
 <p>El <b>snail-mail</b> es el correo postal ordinario, se llama así por lo "lento" que es en comparación con el e-mail. A través del correo se pueden desarrollar hobbies, como el penpalling (mantener correspondencia con personas de otro lugar del mundo) o el <a href="#postcrossing">postcrossing</a> (intercambio de postales). Es curioso como <a href="https://commons.wikimedia.org/wiki/Category:Mailboxes_by_country">cada país tiene un diseño para los buzones</a>.</p>
 
+<p>Recientemente (2016) Correos ha pegado una subida de las tarifas para envíos de cartas, tanto a destinos nacionales (zona A) como europeos (zona B) o internacionales (zona C). Definitivamente por ahora he reducido casi a cero mis envíos de cartas y postales.</p>
+
+
 <h2 id="penpalling">Penpalling</h2>
 
-<p></p>
+<p>El <b>penpalling</b> (amigos de bolígrafo) consiste en intercambiar cartas con personas de distintos países. Es una forma excelente de conocer otras culturas, pero al ser un medio lento y si ambos no comparten intereses y gustos comunes, el intercambio pronto decae y finaliza. Con algún penpal he mantenido correspondencia durante varios años pero lo normal es que termine en menos de 6 meses tras las primeras dos o tres cartas.</p>
+
 
 <h2 id="postcrossing">Postcrossing</h2>
 
-<p>El <b>postcrossing</b> es el intercambio de postales con personas de todo el mundo. La página más conocida para esto es <a href="http://www.postcrossing.com">www.postcrossing.com</a> que permite llevar un control de los envíos, estadísticas, etc. También cuenta con un foro para intercambiar postales de temas específicos o entre regiones concretas.</p>
+<p>El <b>postcrossing</b> (intercambio de postales) es una forma de coleccionar postales con la ayuda de personas de todo el mundo. La página más conocida para esto es <a href="http://www.postcrossing.com">www.postcrossing.com</a> que permite llevar un control de los envíos, estadísticas, etc. También cuenta con un foro para intercambiar postales de temas específicos o entre regiones concretas.</p>
 
 <p>Algunas colecciones que me gustaría completar:</p>
 
@@ -116,22 +112,5 @@ Lista de todas las provincias de España de las que ya he recibido postales (o c
     -->
 
 
-<br clear="all" />
-<div class="footer">
-<hr/>
-<span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></span>
-<span style="float: left"><a href="https://validator.w3.org/check?uri=referer"><img class="w3" src="https://emijrp.github.io/images/valid-xhtml10.png" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a></span>
-</div>
+{{footer}}
 
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-70849953-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</body>
-</html>
