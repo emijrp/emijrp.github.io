@@ -71,11 +71,22 @@ def main():
     # paragraphs
     paragraphs = wiki.split('\n')
     wiki2 = ''
+    skipline = False
     for paragraph in paragraphs:
         paragraph2 = paragraph.strip()
+        if skipline:
+            wiki2 += '%s\n' % (paragraph)
+            continue
         if paragraph2 == '':
             wiki2 += '\n'
         elif paragraph2.startswith('<'):
+            if '<script' in paragraph2 and not '</script>' in paragraph2:
+                wiki2 += '%s\n' % (paragraph)
+                skipline = True
+                continue
+            elif '</script>' in paragraph2:
+                skipline = False
+            
             wiki2 += '%s\n' % (paragraph)
         else:
             wiki2 += '<p>%s</p>\n' % (paragraph)
