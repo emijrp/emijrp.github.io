@@ -30,14 +30,15 @@ def savehtmlfile(htmlfile, html):
     f.write(html)
     f.close()
 
-def main():
-    if len(sys.argv) < 2:
-        print('Error: parameter needed')
+def sections(wiki):
+    wiki = re.sub(r'(?im)^=\s*([^=]+?)\s*=', r'<h1>\1</h1>', wiki)
+    wiki = re.sub(r'(?im)^==\s*([^=]+?)\s*==', r'<h2>\1</h2>', wiki)
+    wiki = re.sub(r'(?im)^===\s*([^=]+?)\s*===', r'<h3>\1</h3>', wiki)
+    wiki = re.sub(r'(?im)^====\s*([^=]+?)\s*====', r'<h4>\1</h4>', wiki)
     
-    wikifile = sys.argv[1]
-    wiki = readwikifile(wikifile)
+    return wiki
 
-    # {{templates}}
+def templates(wiki):
     templates = re.findall(r'(?im)\{\{([^\{\}\n\r]+?)\}\}', wiki)
     for template in templates:
         templatename = template.split('|')[0]
@@ -50,36 +51,33 @@ def main():
             wikitemplate = wikitemplate.replace('{{{%s}}}' % (parametername), parametervalue)
             c += 1
         
-        wiki = wiki.replace('{{%s}}' % (template), wikitemplate)
+        htmltemplate = wiki2html(wikitemplate)
+        wiki = wiki.replace('{{%s}}' % (template), htmltemplate)
     
-    # images
+    return wiki
+
+def images(wiki):
     images = re.findall(r'(?im)\[\[File:([^\[\]\|]+?)\]\]', wiki)
     for image in images:
         imagename = image.split('|')[0]
         imageparameters = image.split('|')[1:]
         wiki = wiki.replace('[[File:%s]]' % imagename, '<img src="images/%s" />' % (imagename))
     
-    # text style
-    wiki = re.sub(r'(?im)\'{3}([^\']+?)\'{3}', r'<b>\1</b>', wiki)
-    wiki = re.sub(r'(?im)\'{2}([^\']+?)\'{2}', r'<i>\1</i>', wiki)
-    wiki = re.sub(r'(?im)_([^\_]+?)_', r'<u>\1</u>', wiki)
-    
-    # [[links]]
-    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', r'<a href="\1.html">\2</a>', wiki)
-    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\]\]', r'<a href="\1.html">\1</a>', wiki)
-    
-    # [://links links]
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\]', r'<a href="\1">\1</a>', wiki)
-    
-    # paragraphs
+    return wiki
+
+def paragraphs(wiki):
     paragraphs = wiki.split('\n')
     wiki2 = ''
     skipline = False
     for paragraph in paragraphs:
         paragraph2 = paragraph.strip()
         if skipline:
-            wiki2 += '%s\n' % (paragraph)
+            if '</script>' in paragraph2 or \
+                '-->' in paragraph2:
+                wiki2 += '%s\n' % (paragraph)
+                skipline = False
+            else:
+                wiki2 += '%s\n' % (paragraph)
             continue
         if paragraph2 == '':
             wiki2 += '\n'
@@ -89,15 +87,51 @@ def main():
                 wiki2 += '%s\n' % (paragraph)
                 skipline = True
                 continue
-            elif '</script>' in paragraph2:
-                skipline = False
-            
             wiki2 += '%s\n' % (paragraph)
         else:
             wiki2 += '<p>%s</p>\n' % (paragraph)
     wiki = wiki2
     
+    return wiki
+
+def textformat(wiki):
+    wiki = re.sub(r'(?im)\'{3}([^\']+?)\'{3}', r'<b>\1</b>', wiki)
+    wiki = re.sub(r'(?im)\'{2}([^\']+?)\'{2}', r'<i>\1</i>', wiki)
+    wiki = re.sub(r'(?im)_([^\_]+?)_', r'<u>\1</u>', wiki)
+    
+    return wiki
+
+def linksinternal(wiki):
+    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', r'<a href="\1.html">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\]\]', r'<a href="\1.html">\1</a>', wiki)
+    
+    return wiki
+
+def linksexternal(wiki):
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\]', r'<a href="\1">\1</a>', wiki)
+    
+    return wiki
+
+def wiki2html(wiki):
+    wiki = sections(wiki)
+    wiki = templates(wiki)
+    wiki = images(wiki)
+    wiki = paragraphs(wiki)
+    wiki = textformat(wiki)
+    wiki = linksinternal(wiki)
+    wiki = linksexternal(wiki)
+    
     html = wiki
+    return html
+
+def main():
+    if len(sys.argv) < 2:
+        print('Error: parameter needed')
+    
+    wikifile = sys.argv[1]
+    wiki = readwikifile(wikifile)
+    html = wiki2html(wiki)
     print(html)
     savehtmlfile('%s.html' % wikifile.split('.wiki')[0], html)
 
