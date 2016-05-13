@@ -102,11 +102,9 @@ Sin entradas
 
 == M ==
 
-<h3 id="Marx, Karl">Marx, Karl</h3>
-<p>Próximamente</p>
-
-<h3 id="Morales, Evo">Morales, Evo</h3>
-<p>Próximamente</p>
+{{marx-karl}}
+<hr/>
+{{morales-evo}}
 
 == N ==
 
@@ -130,9 +128,7 @@ Sin entradas
 
 == S ==
 
-<h3 id="Sankara, Thomas">Sankara, Thomas</h3>
-
-Próximamente
+{{sankara-thomas}}
 
 == T ==
 
@@ -148,8 +144,7 @@ Sin entradas
 
 == W ==
 
-<h3 id="Woolf, Virginia">Woolf, Virginia</h3>
-<p>Próximamente</p>
+{{woolf-virginia}}
 
 == X ==
 
@@ -161,8 +156,7 @@ Sin entradas
 
 == Z ==
 
-<h3 id="Zetkin, Clara">Zetkin, Clara</h3>
-Próximamente
+{{zetkin-clara}}
 
 
 {{../footer}}
