@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Eduardo Galeano}}</noinclude>
+
+<a href="https://commons.wikimedia.org/wiki/File:Eduardo_Galeano_%28Feria_del_Libro_de_Madrid,_31_de_mayo_de_2008%29.jpg"><img src="../images/eduardo-galeano.jpg" width="200px" align="right" /></a>
+
+'''Galeano, Eduardo''' (Montevideo, Uruguay, 3 de septiembre de 1940 - 13 de abril de 2015). Escritor y periodista uruguayo.
+
+Entre sus obras más conocidas se encuentra <i>Las venas abiertas de América Latina</i> donde relata los sufrimientos que ha padecido esa región del mundo por parte de los distintos imperios que han saqueado sus recursos a lo largo de la historia.
+
+Otras obras suyas incluyen ''Memoria del fuego'', ''Espejos: una historia casi universal'', ''Patas arriba: la escuela del mundo al revés'' y ''Los hijos de los días''.
+
+Protagonizó varias [http://www.encuentro.gov.ar/sitios/encuentro/programas/?tag_id=70576 series para televisión] en el Canal Encuentro de Argentina, como La vida según Galeano y Los días de Galeano, en las que desgranaba parte de su obra.
+
+<ul>
+    <li>[https://es.wikipedia.org/wiki/Eduardo_Galeano Biografía de Eduardo Galeano] en Wikipedia</li>
+    <li>[http://www.rebelion.org/mostrar.php?tipo=5&id=Eduardo%20Galeano&inicio=0 Textos de Eduardo Galeano] en Rebelión</li>
+    <li>[https://es.wikiquote.org/wiki/Eduardo_Galeano Frases escogidas] en Wikiquote</li>
+    <li>[https://www.youtube.com/watch?v=Xj0PeqzEqCc Entrevista de Lo pasado pensado] en YouTube</li>
+    <li>[https://www.youtube.com/watch?v=aUHUJmX5ujI Los otros muros] en YouTube</li>
+    <li>[https://www.youtube.com/results?search_query=%22la+vida+segun+galeano%22 La vida según Galeano] en YouTube</li>
+    <li>[https://www.youtube.com/watch?v=jUd_IMm-tFQ Galeano habla de su profunda amistad con Salvador Allende] en YouTube</li>
+</ul>
+
+<noinclude>{{footer}}</noinclude>

@@ -1,0 +1,7 @@
+<noinclude>{{header|1=Erich Honecker}}</noinclude>
+
+<ul>
+    <li>[https://www.marxists.org/espanol/honecker/1992/declaracion.htm Declaración en autodefensa ante tribunal de Berlin]</li>
+</ul>
+
+<noinclude>{{footer}}</noinclude>

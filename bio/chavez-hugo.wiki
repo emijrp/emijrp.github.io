@@ -1,0 +1,5 @@
+<noinclude>{{header|1=Hugo Chávez}}</noinclude>
+
+'''Chávez, Hugo'''. Presidente de Venezuela.
+
+<noinclude>{{footer}}</noinclude>
