@@ -113,7 +113,7 @@ def paragraphs(wiki):
 def textformat(wiki):
     wiki = re.sub(r'(?im)\'{3}([^\']+?)\'{3}', r'<b>\1</b>', wiki)
     wiki = re.sub(r'(?im)\'{2}([^\']+?)\'{2}', r'<i>\1</i>', wiki)
-    wiki = re.sub(r'(?im)_([^\_]+?)_', r'<u>\1</u>', wiki)
+    #wiki = re.sub(r'(?im)_([^\_]+?)_', r'<u>\1</u>', wiki) # error: reemplaza los _ de las urls
     
     return wiki
 
