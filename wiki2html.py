@@ -15,13 +15,22 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import os
 import re
 import sys
 
+# ideas:
+# que admita como parametro de entrada *.html
+# que ponga icono de PDF a los enlaces PDF
+# que genere un sitemap
+
 def readwikifile(wikifile):
-    f = open(wikifile, 'r')
-    wiki = f.read().strip()
-    f.close()
+    if os.path.exists(wikifile):
+        f = open(wikifile, 'r')
+        wiki = f.read().strip()
+        f.close()
+    else:
+        wiki = '<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (wikifile)
     
     return wiki
 
@@ -32,9 +41,9 @@ def savehtmlfile(htmlfile, html):
 
 def sections(wiki):
     wiki = re.sub(r'(?im)^=\s*([^=]+?)\s*=', r'<h1>\1</h1>', wiki)
-    wiki = re.sub(r'(?im)^==\s*([^=]+?)\s*==', r'<h2>\1</h2>', wiki)
-    wiki = re.sub(r'(?im)^===\s*([^=]+?)\s*===', r'<h3>\1</h3>', wiki)
-    wiki = re.sub(r'(?im)^====\s*([^=]+?)\s*====', r'<h4>\1</h4>', wiki)
+    wiki = re.sub(r'(?im)^==\s*([^=]+?)\s*==', r'<h2 id="\1">\1</h2>', wiki)
+    wiki = re.sub(r'(?im)^===\s*([^=]+?)\s*===', r'<h3 id="\1">\1</h3>', wiki)
+    wiki = re.sub(r'(?im)^====\s*([^=]+?)\s*====', r'<h4 id="\1">\1</h4>', wiki)
     
     return wiki
 
@@ -44,12 +53,19 @@ def templates(wiki):
         templatename = template.split('|')[0]
         templateparameters = template.split('|')[1:]
         wikitemplate = readwikifile('%s.wiki' % templatename.lower())
+        # remove noinclude
+        wikitemplate = re.sub(r'(?im)<noinclude>.*?</noinclude>', '', wikitemplate)
+        # clean includeonly
+        wikitemplate = re.sub(r'(?im)<includeonly>(.*?)</includeonly>', '\1', wikitemplate)
         c = 1
         for templateparameter in templateparameters:
             parametername = templateparameter.split('=')[0]
             parametervalue = templateparameter.split('=')[1]
             wikitemplate = wikitemplate.replace('{{{%s}}}' % (parametername), parametervalue)
+            wikitemplate = wikitemplate.replace('{{{%s|}}}' % (parametername), parametervalue)
             c += 1
+        #remove empty parameters when {{{X|}}}
+        wikitemplate = re.sub(r'{{{\d+\|\s*?}}}', '', wikitemplate)
         
         htmltemplate = wiki2html(wikitemplate)
         wiki = wiki.replace('{{%s}}' % (template), htmltemplate)
@@ -108,8 +124,13 @@ def linksinternal(wiki):
     return wiki
 
 def linksexternal(wiki):
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\|]+?)\]', r'<a href="\1">\1</a>', wiki)
+    # PDF #buscar icono y quitar lo de PDF
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a> (PDF)', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?\.pdf)\]', r'<a href="\1">\1</a> (PDF)', wiki)
+    
+    # other
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?)\]', r'<a href="\1">\1</a>', wiki)
     
     return wiki
 
@@ -132,7 +153,7 @@ def main():
     wikifile = sys.argv[1]
     wiki = readwikifile(wikifile)
     html = wiki2html(wiki)
-    print(html)
+    #print(html)
     savehtmlfile('%s.html' % wikifile.split('.wiki')[0], html)
 
 if __name__ == '__main__':
