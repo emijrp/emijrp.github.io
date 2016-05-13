@@ -2,33 +2,33 @@
 
 <a href="images/venus-torunos.jpg"><img src="images/venus-torunos.jpg" width="300px" align="right" alt="Venus desde Los Toruños" /></a>
 
-<p>Desde siempre me ha gustado mirar al cielo por la noche, hay algo ahí arriba que me llama la atención. La <b>astronomía</b> se puede dividir en dos partes, la astronomía de observación (parte práctica) y la astronomía teórica (teorías, explicaciones, de cómo funciona el universo). Ha habido épocas que me ha dado más por curiosear libros de astronomía y otros momentos en los que he observado el cielo.</p>
+Desde siempre me ha gustado mirar al cielo por la noche, hay algo ahí arriba que me llama la atención. La <b>astronomía</b> se puede dividir en dos partes, la astronomía de observación (parte práctica) y la astronomía teórica (teorías, explicaciones, de cómo funciona el universo). Ha habido épocas que me ha dado más por curiosear libros de astronomía y otros momentos en los que he observado el cielo.
 
-<p>No tengo telescopio aunque sí unos prismáticos 8-24x50 con los que se puede explorar el cielo rápidamente. En el cielo de noche se pueden ver muchas cosas, incluso a ojo desnudo, como los planetas Mercurio, Venus, Marte, Júpiter y Saturno, satélites Iridium o los pasos casi a diario de la ISS. Solo hay que saber dónde mirar. Más adelante intentaré dar algunas indicaciones para que tú también puedas ver todas esas cosas.</p>
+No tengo telescopio aunque sí unos prismáticos 8-24x50 con los que se puede explorar el cielo rápidamente. En el cielo de noche se pueden ver muchas cosas, incluso a ojo desnudo, como los planetas Mercurio, Venus, Marte, Júpiter y Saturno, satélites Iridium o los pasos casi a diario de la ISS. Solo hay que saber dónde mirar. Más adelante intentaré dar algunas indicaciones para que tú también puedas ver todas esas cosas.
 
-<p><i>En la imagen:</i> <a href="http://www.flickr.com/photos/emijrp/9324673890/in/set-72157634713012976">Venus visto al atardecer</a> desde el Parque de Los Toruños, provincia de Cádiz. Varios planetas son visibles en distintas épocas del año y se suelen confundir con estrellas. Así que probablemente hayas visto algún planeta a simple vista, sin saberlo.</p>
+''En la imagen:'' [http://www.flickr.com/photos/emijrp/9324673890/in/set-72157634713012976 Venus visto al atardecer] desde el Parque de Los Toruños, provincia de Cádiz. Varios planetas son visibles en distintas épocas del año y se suelen confundir con estrellas. Así que probablemente hayas visto algún planeta a simple vista, sin saberlo.
 
 <!--
  https://www.youtube.com/watch?v=kzqod3r_LoA
- Aquí un paso de la ISS que grabé el 8 de agosto de 2003, con una cámara analógica. La ISS es visible varias veces a la semana desde prácticamente cualquier parte del mundo. (Consulta tu zona en heavens-above.com)
+ Aquí un paso de la ISS que grabé el 8 de agosto de 2003, con una cámara analógica. La ISS es visible varias veces a la semana desde prácticamente cualquier parte del mundo. (Consulta tu zona en heavens-above.com) 
  
 -->
 
-<h2>Cómo ver planetas</h2>
+== Cómo ver planetas ==
 
-<p>Por explicar.</p>
+Por explicar.
 
-<h2>Cómo ver la Estación Espacial Internacional</h2>
+== Cómo ver la Estación Espacial Internacional ==
 
-<p>Por explicar.</p>
+Por explicar.
 
-<h2>Cómo ver satélites Iridium</h2>
+== Cómo ver satélites Iridium ==
 
-<p>Los <b>satélites Iridium</b> son un conjunto de 66 satélites de comunicaciones que orbitan la Tierra a unos 780 km de altitud. Bajo ciertas circunstancias el reflejo de la luz del Sol contra sus paneles permite ver un destello en el cielo, durante la noche, el amanecer o el atardecer.</p>
+Los '''satélites Iridium''' son un conjunto de 66 satélites de comunicaciones que orbitan la Tierra a unos 780 km de altitud. Bajo ciertas circunstancias el reflejo de la luz del Sol contra sus paneles permite ver un destello en el cielo, durante la noche, el amanecer o el atardecer.
 
-<p>Dado que son tantos satélites y que orbitan varias veces al día, hace que prácticamente todos los días sea posible ver alguno de estos destellos en cualquier parte del mundo. Para saber dónde mirar y a qué hora, debes introducir tus coordenadas en la web <a href="http://heavens-above.com">heavens-above.com</a>.</p>
+Dado que son tantos satélites y que orbitan varias veces al día, hace que prácticamente todos los días sea posible ver alguno de estos destellos en cualquier parte del mundo. Para saber dónde mirar y a qué hora, debes introducir tus coordenadas en la web [http://heavens-above.com heavens-above.com].
 
-<p>Estas son algunas fotografías que he podido tomar desde mi ciudad en la provincia de Cádiz, España, usando una NIKON D3100, trípode y apertura de 30 segundos.</p>
+Estas son algunas fotografías que he podido tomar desde mi ciudad en la provincia de Cádiz, España, usando una NIKON D3100, trípode y apertura de 30 segundos.
 
 <table align="center" style="text-align: center;font-size: 90%;">
 <tr>
@@ -45,7 +45,7 @@
 </tr>
 </table>
 
-<h2>Miscelánea</h2>
+== Miscelánea ==
 
 <ul>
     <li>Emisiones electromagnéticas de cuerpos celestes convertidas al rango audible por el ser humano: <a href="https://www.youtube.com/watch?v=e3fqE01YYWs">Júpiter</a>, <a href="https://www.youtube.com/watch?v=rwnpXll_A_E">Neptuno</a>, <a href="https://www.youtube.com/watch?v=Sh2-P8hG5-E">Saturno</a>, el <a href="https://www.youtube.com/watch?v=GvMbUxqGuOc">Sol</a> y <a href="https://www.youtube.com/watch?v=80Ngl2RY8sA">Urano</a> (y <a href="https://www.youtube.com/watch?v=AxEa5KdPFRw">sus anillos</a>).</li>
