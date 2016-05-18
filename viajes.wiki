@@ -1,6 +1,6 @@
 {{header|1=Viajes}}
 
-<p>En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8000 municipios, así que tengo diversión para rato. A continuación recopilo algunos datos curiosos basados en <b>mis viajes</b>.</p>
+En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8000 municipios, así que tengo diversión para rato. A continuación recopilo algunos datos curiosos basados en '''mis viajes'''.
 
 <div id="map" style="float: right;width: 500px; height: 350px;"></div>
 
@@ -66,55 +66,55 @@
 
 </script>
 
-<p>Resumen general:</p>
+Resumen general:
 
 <ul>
-    <li><b>Países</b> visitados: 1 (España).</li>
+    <li>'''Países''' visitados: 1 (España).</li>
     
-    <li><b>Comunidades autónomas</b>: 4 (Andalucía, Comunidad de Madrid, Cataluña y Extremadura).</li>
+    <li>'''Comunidades autónomas''': 4 (Andalucía, Comunidad de Madrid, Cataluña y Extremadura).</li>
     
-    <li><b>Provincias</b>: 8 (Cádiz, Barcelona, Cáceres, Córdoba, Granada, Madrid, Málaga y Sevilla).</li>
+    <li>'''Provincias''': 8 (Cádiz, Barcelona, Cáceres, Córdoba, Granada, Madrid, Málaga y Sevilla).</li>
     
-    <li><b>Municipios</b>: 22 (<a href="https://www.flickr.com/photos/emijrp/collections/72157666100001405/">Alcalá de Henares</a>, 
+    <li>'''Municipios''': 22 ([https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], 
     Alhaurín el Grande, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157634580047584/">Barcelona</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157633642149931/">Cádiz</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157635695236126/">Cáceres</a>, 
+    [https://www.flickr.com/photos/emijrp/collections/72157634580047584/ Barcelona], 
+    [https://www.flickr.com/photos/emijrp/collections/72157633642149931/ Cádiz], 
+    [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Cáceres], 
     Chipiona, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157666351052792/">Córdoba</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157633642136825/">El Puerto de Santa María</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157633950611807/">Espera</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157633952224634/">Granada</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157633952354780/">Jerez de la Frontera</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157633950611823/">Lebrija</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157666455222020">Los Santos de la Humosa</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157634131100854/">Madrid</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157633950887134/">Málaga</a>, 
+    [https://www.flickr.com/photos/emijrp/collections/72157666351052792/ Córdoba], 
+    [https://www.flickr.com/photos/emijrp/collections/72157633642136825/ El Puerto de Santa María], 
+    [https://www.flickr.com/photos/emijrp/sets/72157633950611807/ Espera], 
+    [https://www.flickr.com/photos/emijrp/collections/72157633952224634/ Granada], 
+    [https://www.flickr.com/photos/emijrp/sets/72157633952354780/ Jerez de la Frontera], 
+    [https://www.flickr.com/photos/emijrp/sets/72157633950611823/ Lebrija], 
+    [https://www.flickr.com/photos/emijrp/sets/72157666455222020 Los Santos de la Humosa], 
+    [https://www.flickr.com/photos/emijrp/collections/72157634131100854/ Madrid], 
+    [https://www.flickr.com/photos/emijrp/collections/72157633950887134/ Málaga], 
     Mesas de Asta, 
     Nerja, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157634256591565/">Puerto Real</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/collections/72157633677997362/">Sevilla</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157657665293425">Sitges</a>, 
+    [https://www.flickr.com/photos/emijrp/sets/72157634256591565/ Puerto Real], 
+    [https://www.flickr.com/photos/emijrp/collections/72157633677997362/ Sevilla], 
+    [https://www.flickr.com/photos/emijrp/albums/72157657665293425 Sitges], 
     Tomares y 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157633950611813/">Trebujena</a>).</li>
+    [https://www.flickr.com/photos/emijrp/sets/72157633950611813/ Trebujena]).</li>
     
-    <li>Lugar más al <b>Norte</b>: Barcelona (41.381576 N, 2.194904 E).</li>
+    <li>Lugar más al '''Norte''': Barcelona (41.381576 N, 2.194904 E).</li>
     
-    <li>Lugar más al <b>Sur</b>: Parque natural de Los Alcornocales (36.218819 N, -5.631672 O). Se divisaba el <a href="https://www.flickr.com/photos/emijrp/albums/72157635682682494">Estrecho de Gibraltar y el continente Africano</a>.</li>
+    <li>Lugar más al '''Sur''': Parque natural de Los Alcornocales (36.218819 N, -5.631672 O). Se divisaba el [https://www.flickr.com/photos/emijrp/albums/72157635682682494 Estrecho de Gibraltar y el continente Africano].</li>
     
-    <li>Lugar más al <b>Este</b>: Barcelona (41.381576 N, 2.194904 E).</li>
+    <li>Lugar más al '''Este''': Barcelona (41.381576 N, 2.194904 E).</li>
     
-    <li>Lugar más al <b>Oeste</b>: Chipiona (36.737781 N, -6.442138 O).</li>
+    <li>Lugar más al '''Oeste''': Chipiona (36.737781 N, -6.442138 O).</li>
     
-    <li>Lugar a <b>mayor altitud</b>: <a href="https://www.flickr.com/photos/emijrp/albums/72157635756227563">Sierra Nevada</a> (2100 msnm).</li>
+    <li>Lugar a '''mayor altitud''': [https://www.flickr.com/photos/emijrp/albums/72157635756227563 Sierra Nevada] (2100 msnm).</li>
     
-    <li>Lugar a <b>menor altitud</b>: Cádiz (0 msnm).</li>
+    <li>Lugar a '''menor altitud''': Cádiz (0 msnm).</li>
     
-    <li><b>Mares y océanos</b>: <a href="https://www.flickr.com/photos/emijrp/albums/72157635682682454">Mar Mediterráneo</a> (Barcelona, Málaga y Estrecho de Gibraltar) y <a href="https://www.flickr.com/photos/emijrp/albums/72157635682682424">Océano Atlántico</a> (Bahía de Cádiz).</li>
+    <li>'''Mares y océanos''': [https://www.flickr.com/photos/emijrp/albums/72157635682682454 Mar Mediterráneo] (Barcelona, Málaga y Estrecho de Gibraltar) y [https://www.flickr.com/photos/emijrp/albums/72157635682682424 Océano Atlántico] (Bahía de Cádiz).</li>
     
-    <li><b>Parques naturales</b>: Parque natural de Los Alcornocales.</li>
+    <li>'''Parques naturales''': Parque natural de Los Alcornocales.</li>
     
-    <li><b>Ríos</b>: <a href="https://www.flickr.com/photos/emijrp/albums/72157646249161304">Chillar</a>, 
+    <li>'''Ríos''': [https://www.flickr.com/photos/emijrp/albums/72157646249161304 Chillar], 
     Guadalete, 
     Guadalquivir, 
     Guadiana, 
@@ -122,18 +122,18 @@
     San Pedro.</li>
 </ul>
 
-<p>Records relativos a distancias:</p>
+Records relativos a distancias:
 
 <ul>
-    <!--<li><b>Mayor distancia</b> recorrida <b>a pie</b>: 0 km</li>-->
+    <!--<li>'''Mayor distancia''' recorrida '''a pie''': 0 km</li>-->
     
-    <li><b>Mayor distancia</b> recorrida en <b>barco</b>: 5 km (<a href="https://www.flickr.com/search/?user_id=96396586%40N07&sort=date-taken-desc&text=catamaran&view_all=1">Catamarán Bahía de Cádiz</a>).</li>
+    <li>'''Mayor distancia''' recorrida en '''barco''': 5 km ([https://www.flickr.com/search/?user_id=96396586%40N07&sort=date-taken-desc&text=catamaran&view_all=1 Catamarán Bahía de Cádiz]).</li>
     
-    <li><b>Mayor distancia</b> recorrida en <b>coche</b>: 648 km (<a href="https://www.flickr.com/photos/emijrp/albums/72157666413017526">Madrid-Cádiz por la A4</a>).</li>
+    <li>'''Mayor distancia''' recorrida en '''coche''': 648 km ([https://www.flickr.com/photos/emijrp/albums/72157666413017526 Madrid-Cádiz por la A4]).</li>
     
-    <li><b>Mayor distancia</b> recorrida en <b>tren</b>: 1079 km (<a href="https://www.flickr.com/photos/emijrp/albums/72157634580849470">AVE Sevilla-Barcelona</a>).</li>
+    <li>'''Mayor distancia''' recorrida en '''tren''': 1079 km ([https://www.flickr.com/photos/emijrp/albums/72157634580849470 AVE Sevilla-Barcelona]).</li>
     
-    <!--<li><b>Mayor distancia</b> recorrida en <b>avión</b>: 0 km</li>-->
+    <!--<li>'''Mayor distancia''' recorrida en '''avión''': 0 km</li>-->
 </ul>
 
 <!--
@@ -141,91 +141,85 @@
 
 <ul>
     
-    <li><b>Mayor temperatura</b>:</li>
-    <li><b>Menor temperatura</b>:</li>
+    <li>'''Mayor temperatura''':</li>
+    <li>'''Menor temperatura''':</li>
     
-    <li><b>Mayor marea</b>: marea grande Cádiz</li>
+    <li>'''Mayor marea''': marea grande Cádiz</li>
     
-</ul>
--->
+</ul>-->
 
-<p>Puntos de singular interés:</p>
+Puntos de singular interés:
 
 <ul>
-    <li><b>Ciudades y sitios UNESCO</b>: <a href="https://www.flickr.com/photos/emijrp/collections/72157666100001405/">Alcalá de Henares</a>, 
+    <li>'''Ciudades y sitios UNESCO''': [https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], 
     la Alhambra (Granada), 
-    el <a href="https://www.flickr.com/photos/emijrp/albums/72157634357633140">Archivo General de Indias</a> (Sevilla), 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157664195542144/">Centro histórico de Córdoba</a>,
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157635695236126/">Ciudad vieja de Cáceres</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157635972571646">Obras de Antonio Gaudí</a> y 
+    el [https://www.flickr.com/photos/emijrp/albums/72157634357633140 Archivo General de Indias] (Sevilla), 
+    [https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba],
+    [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres], 
+    [https://www.flickr.com/photos/emijrp/albums/72157635972571646 Obras de Antonio Gaudí] y 
     Palau de la Música Catalana.</li>
     
-    <li><b>Museos</b>: <a href="https://www.flickr.com/photos/emijrp/sets/72157634131283036">Biblioteca y Museo Nacional</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157634133013063">Museo Arqueológico Nacional</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157635852744953">Museo Arqueológico de Sevilla</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157665925760211">Museo Arqueológico Regional</a> (Alcalá de Henares), 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157635852753055">Museo de Artes y Costumbres Populares de Sevilla</a>, 
+    <li>'''Museos''': [https://www.flickr.com/photos/emijrp/sets/72157634131283036 Biblioteca y Museo Nacional], 
+    [https://www.flickr.com/photos/emijrp/sets/72157634133013063 Museo Arqueológico Nacional], 
+    [https://www.flickr.com/photos/emijrp/albums/72157635852744953 Museo Arqueológico de Sevilla], 
+    [https://www.flickr.com/photos/emijrp/albums/72157665925760211 Museo Arqueológico Regional] (Alcalá de Henares), 
+    [https://www.flickr.com/photos/emijrp/albums/72157635852753055 Museo de Artes y Costumbres Populares de Sevilla], 
     Museo de Cádiz, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157633642770761">Museo de El Puerto de Santa María</a>, 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157665373005181">Museo del Prado</a>*, 
+    [https://www.flickr.com/photos/emijrp/sets/72157633642770761 Museo de El Puerto de Santa María], 
+    [https://www.flickr.com/photos/emijrp/sets/72157665373005181 Museo del Prado]*, 
     Museo Picasso Málaga*, 
     Museo Reina Sofía*, 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157666029468026">Museo Thyssen-Bornemisza</a> y 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157657439606391">Museu Nacional d'Art de Catalunya</a>. En los museos marcados con asterisco (*) no permitían hacer fotografías.</li>
+    [https://www.flickr.com/photos/emijrp/albums/72157666029468026 Museo Thyssen-Bornemisza] y 
+    [https://www.flickr.com/photos/emijrp/sets/72157657439606391 Museu Nacional d'Art de Catalunya]. En los museos marcados con asterisco (*) no permitían hacer fotografías.</li>
     
-    <li><b>Puentes</b>: <a href="https://www.flickr.com/photos/emijrp/albums/72157635755630674">Puente Carranza</a> (Cádiz), 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157634164427324">Puente de la Pepa</a> (Cádiz), 
+    <li>'''Puentes''': [https://www.flickr.com/photos/emijrp/albums/72157635755630674 Puente Carranza] (Cádiz), 
+    [https://www.flickr.com/photos/emijrp/albums/72157634164427324 Puente de la Pepa] (Cádiz), 
     Puente de Triana (Sevilla), 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157635695236086">Puente del Quinto Centenario</a> (Sevilla) y 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157665955395330">Puente Romano de Córdoba</a>.</li>
+    [https://www.flickr.com/photos/emijrp/albums/72157635695236086 Puente del Quinto Centenario] (Sevilla) y 
+    [https://www.flickr.com/photos/emijrp/albums/72157665955395330 Puente Romano de Córdoba].</li>
     
-    <li><b>Torres</b>: <a href="https://www.flickr.com/photos/emijrp/sets/72157666180503792">Faro de Moncloa</a> de Madrid (110 m), 
-    <a href="https://www.flickr.com/photos/emijrp/albums/72157635855046793">Giralda</a> de Sevilla (104 m), 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157633946286318">Torre de Poniente</a> de Cádiz (74 m), 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157657380041735">Torre Tavira</a> de Cádiz (45 m), 
-    <a href="https://www.flickr.com/photos/emijrp/sets/72157635853520373">Torre del Oro</a> de Sevilla (36 m), 
+    <li>'''Torres''': [https://www.flickr.com/photos/emijrp/sets/72157666180503792 Faro de Moncloa] de Madrid (110 m), 
+    [https://www.flickr.com/photos/emijrp/albums/72157635855046793 Giralda] de Sevilla (104 m), 
+    [https://www.flickr.com/photos/emijrp/sets/72157633946286318 Torre de Poniente] de Cádiz (74 m), 
+    [https://www.flickr.com/photos/emijrp/sets/72157657380041735 Torre Tavira] de Cádiz (45 m), 
+    [https://www.flickr.com/photos/emijrp/sets/72157635853520373 Torre del Oro] de Sevilla (36 m), 
     Torre de Santa María de Alcalá de Henares (34 m). A excepción del Faro de Moncloa que se sube en ascensor, las demás se suben por escaleras o pequeñas rampas (Giralda y Torre Poniente).</li>
     
-    <li><b>Otros lugares</b>: Alcazaba de Málaga, Aquarium Barcelona, Filmoteca de Catalunya, Filmoteca Española, L'Auditori y Zoobotánico Jerez.</li>
+    <li>'''Otros lugares''': Alcazaba de Málaga, Aquarium Barcelona, Filmoteca de Catalunya, Filmoteca Española, L'Auditori y Zoobotánico Jerez.</li>
     
     <!-- bibliotecas y num volumenes -->
 </ul>
 
 <!--
-<p>Otras experiencias a destacar, por ejemplo animales que he visto (básicamente en zoológicos y aquariums) y obras de arte contempladas en museos:</p>
+Otras experiencias a destacar, por ejemplo animales que he visto (básicamente en zoológicos y aquariums) y obras de arte contempladas en museos:
 
 <ul>
-    <li><b>Aquarium Barcelona</b>: </li>
+    <li>'''Aquarium Barcelona''': </li>
     
-    <li><b>Museo del Prado</b></li>
+    <li>'''Museo del Prado'''</li>
     <ul>
-        <li><b>Diego de Velázquez</b>: <i>El triunfo de Baco</i>, <i>La rendición de Breda</i>, <i>Las Meninas</i>.</li>
-        <li><b>El Bosco</b>: <i>El jardín de las delicias</i>.</li>
-        <li><b>Francisco de Goya</b>: <i>Las majas</i>, <i>Los fusilamientos del 3 de mayo</i>, las pinturas negras (<i>Saturno devorando a su hijo</i>, <i>Riña a garrotazos</i>).</li>
-        <li><b>Patinir</b>: <i>El paso de la laguna Estigia</i>.</li>
-        <li><b>Otros</b>: <i>El Cardenal</i> (Rafael), <i>El triunfo de la muerte</i> (Brueghel), <i>Las tres Gracias</i> (Rubens).</li>
+        <li>'''Diego de Velázquez''': ''El triunfo de Baco'', ''La rendición de Breda'', ''Las Meninas''.</li>
+        <li>'''El Bosco''': ''El jardín de las delicias''.</li>
+        <li>'''Francisco de Goya''': ''Las majas'', ''Los fusilamientos del 3 de mayo'', las pinturas negras (''Saturno devorando a su hijo'', ''Riña a garrotazos'').</li>
+        <li>'''Patinir''': ''El paso de la laguna Estigia''.</li>
+        <li>'''Otros''': ''El Cardenal'' (Rafael), ''El triunfo de la muerte'' (Brueghel), ''Las tres Gracias'' (Rubens).</li>
     </ul>
     
-    <li><b>Museo Thyssen-Bornemisza</b></li>
+    <li>'''Museo Thyssen-Bornemisza'''</li>
     <ul>
-        <li><b></b>: </li>
-        <li><b></b>: </li>
-        <li><b></b>: </li>
+        <li></li>
     </ul>
     
-    <li><b>Museo Reina Sofía</b></li>
+    <li>'''Museo Reina Sofía'''</li>
     <ul>
-        <li><b></b>: </li>
-        <li><b></b>: </li>
-        <li><b></b>: </li>
+        <li></li>
     </ul>
     
-    <li><b>Zoobotánico Jerez</b>: cebras, elefante, jirafas.</li>
+    <li>'''Zoobotánico Jerez''': cebras, elefante, jirafas.</li>
 
-</ul>
--->
+</ul>-->
 
-<p>Cosas aprendidas y que a lo mejor te sirven a ti también:</p>
+Cosas aprendidas y que a lo mejor te sirven a ti también:
 
 <ul>
     <li>Los museos y otros lugares turísticos suelen cerrar un día de la semana, habitualmente los lunes. Revisar bien los horarios para no llevarse sorpresas desagradables.</li>
