@@ -29,6 +29,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Sevilla", 37.386128, -5.992103], 
         ["Sierra Nevada", 37.095596, -3.399980], 
         ["Sitges", 41.237124, 1.805857], 
+        ["Toledo", 39.866667, -4.033333], 
         ["Tomares", 37.374252, -6.029259], 
         ["Trebujena", 36.869315, -6.176710], 
     ];
@@ -71,11 +72,11 @@ Resumen general:
 <ul>
     <li>'''Países''' visitados: 1 (España).</li>
     
-    <li>'''Comunidades autónomas''': 4 (Andalucía, Comunidad de Madrid, Cataluña y Extremadura).</li>
+    <li>'''Comunidades autónomas''': 5 (Andalucía, Castilla-La Mancha, Comunidad de Madrid, Cataluña y Extremadura).</li>
     
-    <li>'''Provincias''': 8 (Cádiz, Barcelona, Cáceres, Córdoba, Granada, Madrid, Málaga y Sevilla).</li>
+    <li>'''Provincias''': 9 (Cádiz, Barcelona, Cáceres, Córdoba, Granada, Madrid, Málaga, Sevilla y Toledo).</li>
     
-    <li>'''Municipios''': 22 ([https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], 
+    <li>'''Municipios''': 23 ([https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], 
     Alhaurín el Grande, 
     [https://www.flickr.com/photos/emijrp/collections/72157634580047584/ Barcelona], 
     [https://www.flickr.com/photos/emijrp/collections/72157633642149931/ Cádiz], 
@@ -95,7 +96,8 @@ Resumen general:
     [https://www.flickr.com/photos/emijrp/sets/72157634256591565/ Puerto Real], 
     [https://www.flickr.com/photos/emijrp/collections/72157633677997362/ Sevilla], 
     [https://www.flickr.com/photos/emijrp/albums/72157657665293425 Sitges], 
-    Tomares y 
+    Tomares, 
+    [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Toledo] y 
     [https://www.flickr.com/photos/emijrp/sets/72157633950611813/ Trebujena]).</li>
     
     <li>Lugar más al '''Norte''': Barcelona (41.381576 N, 2.194904 E).</li>
@@ -155,6 +157,7 @@ Puntos de singular interés:
     la Alhambra (Granada), 
     el [https://www.flickr.com/photos/emijrp/albums/72157634357633140 Archivo General de Indias] (Sevilla), 
     [https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba],
+    Ciudad histórica de Toledo, 
     [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres], 
     [https://www.flickr.com/photos/emijrp/albums/72157635972571646 Obras de Antonio Gaudí] y 
     Palau de la Música Catalana.</li>
@@ -166,6 +169,7 @@ Puntos de singular interés:
     [https://www.flickr.com/photos/emijrp/albums/72157635852753055 Museo de Artes y Costumbres Populares de Sevilla], 
     Museo de Cádiz, 
     [https://www.flickr.com/photos/emijrp/sets/72157633642770761 Museo de El Puerto de Santa María], 
+    [https://www.flickr.com/photos/emijrp/sets/72157668264344651 Museo de Santa Cruz], 
     [https://www.flickr.com/photos/emijrp/sets/72157665373005181 Museo del Prado]*, 
     Museo Picasso Málaga*, 
     Museo Reina Sofía*, 
