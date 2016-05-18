@@ -89,7 +89,8 @@ def paragraphs(wiki):
         paragraph2 = paragraph.strip()
         if skipline:
             if '</script>' in paragraph2 or \
-                '-->' in paragraph2:
+                '-->' in paragraph2 or \
+                '</ul>' in paragraph2:
                 wiki2 += '%s\n' % (paragraph)
                 skipline = False
             else:
@@ -99,7 +100,8 @@ def paragraphs(wiki):
             wiki2 += '\n'
         elif paragraph2.startswith('<'):
             if ('<script' in paragraph2 and not '</script>' in paragraph2) or \
-                ('<!--' in paragraph2 and not '-->' in paragraph2):
+                ('<!--' in paragraph2 and not '-->' in paragraph2) or \
+                ('<ul>' in paragraph2 and not '</ul>' in paragraph2):
                 wiki2 += '%s\n' % (paragraph)
                 skipline = True
                 continue
