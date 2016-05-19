@@ -1,0 +1,36 @@
+{{header|1=Audio}}
+
+== Conferencias ==
+
+<ul>
+    <li>[https://www.youtube.com/watch?v=pnMaQxz-zKw Grupos autónomos libertarios armados - Crónica armada de la transacción democrática]</li>
+    <li>[https://www.youtube.com/watch?v=Xu1RRne1464 Nodo50: 20 años de activismo en la red... y ahora también con Makusi]</li>
+    
+</ul>
+
+Archivos de programas, charlas, conferencias:
+
+<ul>
+
+    <li>[https://www.youtube.com/user/BarrioCanino/videos Barrio Canino]</li>
+    <li>[https://radiorecuperandomemoria.wordpress.com/ Recuperando Memoria]</li>
+    <li>[http://www.ivoox.com/escuchar-rescate-audio-para-pensar_nq_20700_1.html Rescate de audio para pensar]</li>
+    <li>[https://soundcloud.com/traficantesdesue-os Traficantes de Sueños]</li>
+
+</ul>
+
+
+== Podcasts ==
+
+
+Algunos programas de '''radio y podcasts''':
+
+<ul>
+    
+    <li>'''[http://manzanamecanica.org/podcast Cultura Libre]''': podcast de tecnología, software libre, propiedad intelectual, etc.</li>
+    <li>'''[http://longnow.org/seminars/podcast/ Long now]''': podcast sobre pensamiento a largo plazo de la [http://longnow.org/ Long Now Foundation].</li>
+
+</ul>
+
+
+{{footer}}
