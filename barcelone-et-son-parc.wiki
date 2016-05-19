@@ -3,50 +3,45 @@
 <head>
     <title>Barcelone et son parc - La web de emijrp</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
-
-    <script src="lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src="lib/sorttable.js" type="text/javascript"></script>
 </head>
 <body>
-
 <h1>Barcelone et son parc - <a href="index.html">La web de emijrp</a></h1>
-
 
 <iframe align="right" width="400" height="250" src="//www.youtube-nocookie.com/embed/qDQC-sPXdaU" frameborder="0"></iframe>
 
+<p><b><i>Barcelone et son parc</i></b> (en español: <b><i>Barcelona y su parque</i></b>) es un cortometraje mudo de género documental dirigido por el pionero cineasta turolense Segundo de Chomón y filmado en Barcelona en 1911.</p>
 
-<p><i><b>Barcelone et son parc</b></i> (en español: <i>Barcelona y su parque</i>) es un cortometraje mudo de género documental dirigido por el pionero cineasta turolense Segundo de Chomón y filmado en Barcelona en 1911.</p>
-
-<p>Existe un cortometraje similar titulado <i>Barcelone, Parc au crépuscule</i>.</p>
+<p>Existe un cortometraje similar titulado <b><i>Barcelone, Parc au crépuscule</i></b>.</p>
 
 <p>La filmación se divide en X escenas con un total de 2 minutos y 5 segundos de duración.</p>
 
-<h2 id="Ficha de la filmoteca">Ficha de la filmoteca</h2>
+
+<h2>Ficha de la filmoteca</h2>
 
 <p>En el caso de la versión del corto que proviene de la filmoteca, la primera imagen que aparece contiene algunos metadatos acerca de la película. Su transcripción literal es la siguiente:</p>
 
 <table style="text-align: center;">
 	<tr><td>
-<p>	BARCELONE ET SON PARC<br/></p>
-<p>	(1911)<br/></p>
-<p>	Producció: Chomón Barcelona per Pathé<br/></p>
-<p>	Realització: SEGUNDO DE CHOMON<br/></p>
-<p>	*<br/></p>
-<p>	Procedència de lacòpia<br/></p>
-<p>	LES ARCHIVES DU FILM DU CNC<br/></p>
-<p>	Bois d'Arcy</p>
+	BARCELONE ET SON PARC<br/>
+	(1911)<br/>
+	Producció: Chomón Barcelona per Pathé<br/>
+	Realització: SEGUNDO DE CHOMON<br/>
+	*<br/>
+	Procedència de lacòpia<br/>
+	LES ARCHIVES DU FILM DU CNC<br/>
+	Bois d'Arcy
 	</td></tr>
 </table>
 
 <!-- Explicación de ese archivo, Bois, qué es Chomón Barcelona y Pathé -->
 
-<h2 id="Título">Título</h2>
+<h2>Título</h2>
 
 <p>El título <b>BARCELONE ET SON PARC</b> se encuentra rodeado por una filigrana.</p>
 
-<h2 id="Estatua de Colón vista desde el puerto de Barcelona">Estatua de Colón vista desde el puerto de Barcelona</h2>
+<h2>Estatua de Colón vista desde el puerto de Barcelona</h2>
 
 <p>La primera escena propiamente dicha del cortometraje está enfocada hacia la estatua de Cristóbal Colón. Entre la cámara y la estatua se interpone la visión parcial de un barco del que se puede apreciar un mástil a la izquierda y una vela arriada.</p>
 
@@ -57,42 +52,43 @@
 <p>El edificio de la izquierda es X, la estatua con una altura total de 57 metros entra completa en el plano, y a la derecha se encuentra el edificio Y.</p>
 
 
-<h2 id="Puerto de Barcelona">Puerto de Barcelona</h2>
+<h2>Puerto de Barcelona</h2>
 
 
-<h2 id="Obreros en el puerto de Barcelona">Obreros en el puerto de Barcelona</h2>
+<h2>Obreros en el puerto de Barcelona</h2>
 
 
-<h2 id="Obreros arreglando la calle X">Obreros arreglando la calle X</h2>
+<h2>Obreros arreglando la calle X</h2>
 
 
-<h2 id="Pedestal de la estatua de Colón">Pedestal de la estatua de Colón</h2>
+<h2>Pedestal de la estatua de Colón</h2>
 
 
-<h2 id="Escena 1 de parque">Escena 1 de parque</h2>
+<h2>Escena 1 de parque</h2>
 
 
-<h2 id="Escena 2 de parque">Escena 2 de parque</h2>
+<h2>Escena 2 de parque</h2>
 
 
-<h2 id="Escena 3 de parque">Escena 3 de parque</h2>
+<h2>Escena 3 de parque</h2>
 
 
-<h2 id="Escena 4 de parque">Escena 4 de parque</h2>
+<h2>Escena 4 de parque</h2>
 
 
-<h2 id="Escena 5 de parque">Escena 5 de parque</h2>
+<h2>Escena 5 de parque</h2>
 
 
-<h2 id="Créditos">Créditos</h2>
+<h2>Créditos</h2>
 
 
-<h2 id="Bibliografía">Bibliografía</h2>
+<h2>Bibliografía</h2>
 
 <ul>
 	<li><a href="https://es.wikipedia.org/wiki/Monumento_a_Col%C3%B3n_%28Barcelona%29">Monumento a Colón (Barcelona)</a> en Wikipedia</li>
 </ul>
 
+<br clear="all" />
 <div class="footer">
 <hr/>
 <span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></span>
@@ -109,7 +105,5 @@
   ga('send', 'pageview');
 
 </script>
-
 </body>
 </html>
-
