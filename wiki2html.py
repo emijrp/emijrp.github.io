@@ -129,12 +129,12 @@ def linksinternal(wiki):
 
 def linksexternal(wiki):
     # PDF #buscar icono y quitar lo de PDF
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a> (PDF)', wiki)
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?\.pdf)\]', r'<a href="\1">\1</a> (PDF)', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a> (PDF)', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\]', r'<a href="\1">\1</a> (PDF)', wiki)
     
     # other
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
-    wiki = re.sub(r'(?im)\[((?:https?|ftps?)://[^\[\]\| ]+?)\]', r'<a href="\1">\1</a>', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?)\]', r'<a href="\1">\1</a>', wiki)
     
     return wiki
 
