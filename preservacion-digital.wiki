@@ -1,24 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Preservación digital - La web de emijrp</title>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<h1>Preservación digital - <a href="index.html">La web de emijrp</a></h1>
+{{header|1=Preservación digital}}
 
-<iframe align="right" width="420" height="315" src="https://www.youtube-nocookie.com/embed/jzQyHLd8jYo?rel=0" frameborder="0" allowfullscreen></iframe>
+{{youtube|1=jzQyHLd8jYo|2=right}}
 
-<p>La <b>información</b> siempre está en peligro de desaparecer y la información digital todavía más.</p>
+La '''información''' siempre está en peligro de desaparecer y la información digital todavía más.
 
-<p>Los soportes no son eternos (la vida media de un CD dista mucho de ser 100 años como decían). Los discos duros duran apenas unos años antes de empezar a tener sectores defectuosos.</p>
+Los soportes no son eternos (la vida media de un CD dista mucho de ser 100 años como decían). Los discos duros duran apenas unos años antes de empezar a tener sectores defectuosos.
 
-<p>La tecnología avanza rápidamente dejando muchos formatos inaccesibles por la llegada de otros nuevos, tanto software (¿os acordáis de los procesadores de textos de MS-DOS como WordStar o WordPerfect?), como hardware (¿os acordáis de los discos de 5 1/4?).</p>
+La tecnología avanza rápidamente dejando muchos formatos inaccesibles por la llegada de otros nuevos, tanto software (¿os acordáis de los procesadores de textos de MS-DOS como WordStar o WordPerfect?), como hardware (¿os acordáis de los discos de 5 1/4?).
 
-<p>Y todo esto sin contar que hoy día subimos mucho contenido a Internet a servicios como YouTube, Flickr, o nuestros propios correos de Gmail, sin plantearnos que son servicios que proporciona una empresa y que un día dejarán de existir. Si no tenemos copias de seguridad de nuestros datos, los perderemos el día que cierren el servicio o nos cierren la cuenta.</p>
+Y todo esto sin contar que hoy día subimos mucho contenido a Internet a servicios como YouTube, Flickr, o nuestros propios correos de Gmail, sin plantearnos que son servicios que proporciona una empresa y que un día dejarán de existir. Si no tenemos copias de seguridad de nuestros datos, los perderemos el día que cierren el servicio o nos cierren la cuenta.
 
-<p>El documental alemán <i><a href="https://www.youtube.com/watch?v=jzQyHLd8jYo">La oscura era digital: ¡Socorro, estamos desapareciendo!</a></i> (<i>Hilfe, wir verschwinden – Das Digitale Desaster</i>) dirigido por Jörg Daniel Hissen y Peter Moers trata acerca de este tema. En él sale entrevistado Stewart Brand de la Long Now Foundation.</p>
+El documental alemán ''[https://www.youtube.com/watch?v=jzQyHLd8jYo La oscura era digital: ¡Socorro, estamos desapareciendo!]'' (''Hilfe, wir verschwinden – Das Digitale Desaster'') dirigido por Jörg Daniel Hissen y Peter Moers trata acerca de este tema. En él sale entrevistado Stewart Brand de la Long Now Foundation.
 
 <!--
 15M archive
@@ -30,22 +22,4 @@ Jamendo
 WikiTeam
 -->
 
-<br clear="all" />
-<div class="footer">
-<hr/>
-<span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></span>
-<span style="float: left"><a href="https://validator.w3.org/check?uri=referer"><img class="w3" src="https://emijrp.github.io/images/valid-xhtml10.png" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a></span>
-</div>
-
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-70849953-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</body>
-</html>
+{{footer}}
