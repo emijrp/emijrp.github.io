@@ -227,8 +227,11 @@ Cosas aprendidas y que a lo mejor te sirven a ti también:
 
 <ul>
     <li>Los museos y otros lugares turísticos suelen cerrar un día de la semana, habitualmente los lunes. Revisar bien los horarios para no llevarse sorpresas desagradables.</li>
+    
     <li>Suele haber franjas horarias o ciertos días en los que la entrada a museos y otros sitios es gratuita o con precio reducido. En el caso del Museo del Prado de 18:00 a 20:00, aunque suele haber una cola muy larga.</li>
+    
     <li>En el caso de España, las personas desempleadas pueden acceder a muchos sitios culturales de forma totalmente gratuita, presentando el PDF en papel de haber renovado la demanda de empleo del INEM. De esta forma puedes entrar totalmente gratis al Museo del Prado, Museo Thyssen y Museo Reina Sofía, por enumerar solo los más destacados.</li>
+    
     <li>En muchos lugares no está permitido hacer fotografías, pregunta siempre antes por cortesía. En el Museo del Prado no está permitido hacer fotos (2016). En algunos sitios permiten hacer fotografías pero sin flash (para no deteriorar las obras), es el caso del Museo Thyssen (2016) o el Museo Arqueológico Nacional (2009).</li>
     
 </ul>
