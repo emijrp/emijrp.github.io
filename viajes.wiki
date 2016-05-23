@@ -234,6 +234,8 @@ Cosas aprendidas y que a lo mejor te sirven a ti también:
     
     <li>En muchos lugares no está permitido hacer fotografías, pregunta siempre antes por cortesía. En el Museo del Prado no está permitido hacer fotos (2016). En algunos sitios permiten hacer fotografías pero sin flash (para no deteriorar las obras), es el caso del Museo Thyssen (2016) o el Museo Arqueológico Nacional (2009).</li>
     
+    <li>Para preparar tus viajes te puede ser útil consultar sitios como [https://es.wikivoyage.org Wikivoyage] y [http://www.losviajeros.com/foros.php Los Viajeros].</li>
+    
 </ul>
 
 {{footer}}
