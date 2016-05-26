@@ -28,11 +28,11 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Mesas de Asta", 36.788874, -6.171564], 
         ["Nerja", 36.772717, -3.880040], 
         ["Puerto Real", 36.529167, -6.191944], 
-        ["Segovia", 40.95, -4.166667], 
+        ["Segovia", 40.948, -4.1177], 
         ["Sevilla", 37.386128, -5.992103], 
         ["Sierra Nevada", 37.095596, -3.399980], 
         ["Sitges", 41.237124, 1.805857], 
-        ["Toledo", 39.866667, -4.033333], 
+        ["Toledo", 39.8603, -4.0175], 
         ["Tomares", 37.374252, -6.029259], 
         ["Trebujena", 36.869315, -6.176710], 
     ];
