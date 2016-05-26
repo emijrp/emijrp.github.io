@@ -238,7 +238,7 @@ Otras experiencias a destacar, por ejemplo animales que he visto (básicamente e
 Cosas aprendidas y que a lo mejor te sirven a ti también:
 
 <ul>
-    <li>Los museos y otros lugares turísticos suelen cerrar un día de la semana, habitualmente los lunes. Revisar bien los horarios para no llevarse sorpresas desagradables.</li>
+    <li>Los museos y otros lugares turísticos suelen cerrar un día de la semana, habitualmente los lunes. Revisar bien los horarios para no llevarse sorpresas desagradables. También muchos cierran un par de horas o incluso más en la hora del almuerzo, lo cual te quita posibilidades si vas justo de tiempo.</li>
     
     <li>Suele haber franjas horarias o ciertos días en los que la entrada a museos y otros sitios es gratuita o con precio reducido. En el caso del Museo del Prado de 18:00 a 20:00, aunque suele haber una cola muy larga.</li>
     
@@ -246,7 +246,11 @@ Cosas aprendidas y que a lo mejor te sirven a ti también:
     
     <li>En muchos lugares no está permitido hacer fotografías, pregunta siempre antes por cortesía. En el Museo del Prado no está permitido hacer fotos (2016). En algunos sitios permiten hacer fotografías pero sin flash (para no deteriorar las obras), es el caso del Museo Thyssen (2016) o el Museo Arqueológico Nacional (2009).</li>
     
-    <li>Para preparar tus viajes te puede ser útil consultar sitios como [https://es.wikivoyage.org Wikivoyage] y [http://www.losviajeros.com/foros.php Los Viajeros].</li>
+    <li>Si vas a andar mucho, ya sea por ciudad o campo, conviene llevar bastante agua y algo para protegerse del sol, sobre todo si es verano.</li>
+    
+    <li>Llevar anotado el teléfono de la radiotaxi local puede sacarte de algún apuro si te pierdes o vas justo de tiempo para llegar a algún sitio.</li>
+    
+    <li>Para preparar tus viajes te puede ser útil consultar sitios como [https://es.wikivoyage.org Wikivoyage] y [http://www.losviajeros.com/foros.php Los Viajeros]. También es recomendable mirar la previsión del tiempo antes de ir.</li>
     
 </ul>
 
