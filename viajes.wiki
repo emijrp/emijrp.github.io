@@ -1,8 +1,10 @@
 {{header|1=Viajes}}
 
-En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8000 municipios, así que tengo diversión para rato. A continuación recopilo algunos datos curiosos basados en '''mis viajes'''.
+En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8000 municipios y 50 provincias así que tengo diversión para rato. A continuación recopilo algunos datos curiosos basados en '''mis viajes'''.
 
-<div id="map" style="float: right;width: 500px; height: 350px;"></div>
+== Resumen general ==
+
+<div id="map" style="float: right;width: 600px; height: 600px;"></div>
 
 <script>
     // http://leafletjs.com/examples/custom-icons.html
@@ -35,7 +37,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Trebujena", 36.869315, -6.176710], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 5);
+    var map = L.map('map').setView([40.416957, -3.703478], 6);
     mapLink = 
         '<a href="http://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
@@ -67,8 +69,6 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
     aveSevBcnLine.addTo(map);
 
 </script>
-
-Resumen general:
 
 <ul>
     <li>'''Países''' visitados: 1 (España).</li>
@@ -157,7 +157,9 @@ Records relativos a distancias:
     
 </ul>-->
 
-Puntos de singular interés:
+== Puntos de singular interés ==
+
+Lugares especialmente destacables:
 
 <ul>
     <li>'''Ciudades y sitios UNESCO''': [https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], 
@@ -230,6 +232,8 @@ Otras experiencias a destacar, por ejemplo animales que he visto (básicamente e
     <li>'''Zoobotánico Jerez''': cebras, elefante, jirafas.</li>
 
 </ul>-->
+
+== Lo aprendido ==
 
 Cosas aprendidas y que a lo mejor te sirven a ti también:
 
