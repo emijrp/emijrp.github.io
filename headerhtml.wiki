@@ -8,5 +8,9 @@
     
     <script src="{{{2|}}}lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="{{{2|}}}lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script type="text/javascript" src="lib/d3/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="lib/cal-heatmap/cal-heatmap.css" />
+    <script type="text/javascript" src="lib/cal-heatmap/cal-heatmap.min.js"></script>
+    <script type="text/javascript" src="lib/moment/moment-with-langs.min.js"></script>
 </head>
 <body>
