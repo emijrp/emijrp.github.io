@@ -26,7 +26,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Mesas de Asta", 36.788874, -6.171564], 
         ["Nerja", 36.772717, -3.880040], 
         ["Puerto Real", 36.529167, -6.191944], 
-        ["Segovia", , ], 
+        ["Segovia", 40.95, -4.166667], 
         ["Sevilla", 37.386128, -5.992103], 
         ["Sierra Nevada", 37.095596, -3.399980], 
         ["Sitges", 41.237124, 1.805857], 
@@ -116,9 +116,9 @@ Resumen general:
     
     <li>'''Mares y océanos''': [https://www.flickr.com/photos/emijrp/albums/72157635682682454 Mar Mediterráneo] (Barcelona, Málaga y Estrecho de Gibraltar) y [https://www.flickr.com/photos/emijrp/albums/72157635682682424 Océano Atlántico] (Bahía de Cádiz).</li>
     
-    <li>'''Municipios más poblados''': Madrid (), Barcelona (), Sevilla ().</li>
+    <li>'''Municipios más poblados''': Madrid (3.165.235), Barcelona (1.602.386), Sevilla (696.676), Málaga (566.913) y Córdoba (328.041).</li>
     
-    <li>'''Municipios menos poblados''': Mesas de Asta (), Espera () y Trebujena ().</li>
+    <li>'''Municipios menos poblados''': Mesas de Asta (600), Los Santos de la Humosa (2389), Espera (4000), Trebujena (7072) y Lebrija (27.385).</li>
     
     <li>'''Parques naturales''': Parque natural de Los Alcornocales.</li>
     
@@ -126,8 +126,9 @@ Resumen general:
     Guadalete, 
     Guadalquivir, 
     Guadiana, 
-    Henares y 
-    San Pedro.</li>
+    Henares,  
+    San Pedro y
+    Tajo.</li>
 </ul>
 
 Records relativos a distancias:
@@ -163,8 +164,9 @@ Puntos de singular interés:
     la Alhambra (Granada), 
     el [https://www.flickr.com/photos/emijrp/albums/72157634357633140 Archivo General de Indias] (Sevilla), 
     [https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba],
-    Ciudad histórica de Toledo, 
+    [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo], 
     [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres], 
+    Ciudad vieja y acueducto de Segovia, 
     [https://www.flickr.com/photos/emijrp/albums/72157635972571646 Obras de Antonio Gaudí] y 
     Palau de la Música Catalana.</li>
     
