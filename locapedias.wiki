@@ -1,0 +1,227 @@
+{{header|1=Locapedias}}
+
+La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es [http://www.arija.org/es/index.php?title=Portada Arija] que fue creada en 2003. El término [http://www.aromeo.net/?p=746 locapedia] fue acuñado después y fueron surgiendo más proyectos wiki que recopilan conocimiento local acerca de multitud de localidades, provincias y otras regiones.
+
+[https://github.com/WikiTeam/wikiteam WikiTeam], el proyecto para preservar wikis, no apareció hasta el año 2011, por lo que a aquellas wikis que desaparecieron antes de esa fecha no se les pudo hacer un backup. Parece el caso de LeonWiki, MiToledo, WikiExtremadura y WikiLleida. En esta tabla se lleva un registro del estado de las distintas locapedias, si siguen funcionando y si existe algún backup, para que en caso de que el proyecto cierre se pueda traer de nuevo a la vida.
+
+<table class="wikitable sortable" style="text-align: center;">
+
+<tr>
+    <td>'''Locapedia'''</td>
+    <td>'''Último backup'''</td>
+    <td>'''Comentarios'''</td>
+</tr>
+
+<tr>
+    <td>[http://almeriapedia.wikanda.es/wiki/Portada Almeriapedia]</td>
+    <td>[https://archive.org/details/wiki-almeriapediawikandaes_w 2014-01-19]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.arija.org/es/index.php?title=Portada Arija]</td>
+    <td>[https://archive.org/details/wiki-arijaorg_es 2014-11-19]</td>
+    <td>En funcionamiento a 2016-01-08. Backup de imágenes no subido aún.</td>
+</tr>
+
+<tr>
+    <td>[http://www.ateneodecordoba.com/index.php/P%C3%A1gina_principal Ateneo de Córdoba]</td>
+    <td>[https://archive.org/details/wiki-ateneodecordobacom 2014-12-04]</td>
+    <td>En funcionamiento a 2016-01-08. Backup de imágenes incompleto.</td>
+</tr>
+
+<tr>
+    <td>[http://cadizpedia.wikanda.es/wiki/Portada Cadizpedia]</td>
+    <td>[https://archive.org/details/wiki-cadizpediawikandaes_w 2014-01-19]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://cordobapedia.wikanda.es/wiki/Portada Cordobapedia]</td>
+    <td>[https://archive.org/details/wiki-cordobapediawikandaes_w 2014-02-22]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.ctpedia.es/w/index.php/Portada CTpedia]</td>
+    <td>[https://archive.org/details/wiki-ctpediaes_w 2015-07-05]</td>
+    <td>En funcionamiento a 2016-02-02.</td>
+</tr>
+
+<tr>
+    <td>[http://www.delebrija.es/index.php/Portada DeLebrija]</td>
+    <td>Ninguno</td>
+    <td>Dejó de funcionar. No hay backup, no se puede rescatar. Ver en [http://wayback.archive.org/web/20080609002840/http://www.delebrija.es/index.php/Portada WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://enwada.es/wiki/P%C3%A1gina_Principal Enciclopedia de Guadalajara]</td>
+    <td>[https://archive.org/details/wiki-enwadaes_w 2014-03-07]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://el.tesorodeoviedo.es/index.php?title=Portada Enciclopedia de Oviedo]</td>
+    <td>Ninguno</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.guanches.org/enciclopedia/index.php?title=P%C3%A1gina_principal Enciclopedia Guanche]</td>
+    <td>[https://archive.org/details/wiki-guanchesorg_enciclopedia 2014-04-01]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://granadapedia.wikanda.es/wiki/Portada Granadapedia]</td>
+    <td>[https://archive.org/details/wiki-granadapediawikandaes_w 2014-01-16]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://huelvapedia.wikanda.es/wiki/Portada Huelvapedia]</td>
+    <td>[https://archive.org/details/wiki-huelvapediawikandaes_w 2014-01-15]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://jaenpedia.wikanda.es/wiki/Portada Jaenpedia]</td>
+    <td>[https://archive.org/details/wiki-jaenpediawikandaes_w 2014-02-17]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.jerezsiempre.com/index.php/Portada JerezSiempre]</td>
+    <td>[https://archive.org/details/wiki-jerezsiemprecom 2014-03-30]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://leonwiki.lazorrera.com LeonWiki]</td>
+    <td>Ninguno</td>
+    <td>Dejó de funcionar. No hay backup, no se puede rescatar. Ver en [http://web.archive.org/web/20090619220339/http:/leonwiki.lazorrera.com/Portada WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://www.enciclopediadelinares.com/wiki/index.php/Portada LinaWiki]</td>
+    <td>[https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z 2011-04-27]</td>
+    <td>Dejó de funcionar. Ver en [http://wayback.archive.org/web/20080704092406/http://www.enciclopediadelinares.com/wiki/index.php/Portada WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://www.madripedia.es Madripedia]</td>
+    <td>[https://archive.org/details/wiki-madripediaes_w 2014-02-07]</td>
+    <td>Dejó de funcionar. Rescatada por WikiTeam en [http://madripedia.wikis.cc/ madripedia.wikis.cc].</td>
+</tr>
+
+<tr>
+    <td>[http://malaga.diwiki.org Malaga Diwiki]</td>
+    <td>[https://archive.org/details/wiki-malagadiwikiorg 2011-06-11]</td>
+    <td>Dejó de funcionar. Ver en [https://web.archive.org/web/20131231035248/http:/malaga.diwiki.org/index.php/P%C3%A1gina_Principal WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://malagapedia.wikanda.es/wiki/Portada Malagapedia]</td>
+    <td>[https://archive.org/details/wiki-malagapediawikandaes_w 2014-01-18]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://wiki.mitoledo.com MiToledo]</td>
+    <td>Ninguno</td>
+    <td>Dejó de funcionar. No hay backup, no se puede rescatar. Ver en [http://web.archive.org/web/20100929163618/http:/wiki.mitoledo.com/mediawiki/index.php/Portada WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://rosespedia.cat/index.php/P%C3%A0gina_principal Rosespedia]</td>
+    <td>[https://archive.org/details/wiki-rosespediacat 2015-08-04]</td>
+    <td>En funcionamiento a 2016-02-02.</td>
+</tr>
+
+<tr>
+    <td>[http://sevillapedia.wikanda.es/wiki/Portada Sevillapedia]</td>
+    <td>[https://archive.org/details/wiki-sevillapediawikandaes_w 2014-02-19]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.tarracowiki.cat/wiki/Portada Tarracowiki]</td>
+    <td>[https://archive.org/details/wiki-tarracowikicat_tarracowiki 2014-11-30]</td>
+    <td>En funcionamiento a 2016-02-02.</td>
+</tr>
+
+<tr>
+    <td>[http://www.vila-real.info/vilapedia2015/ Vilapedia]</td>
+    <td>[https://archive.org/details/vila_realinfo_vilapedia-20110427-wikidump.7z 2011-04-27]</td>
+    <td>Vuelve a funcionar en 2015. Rescatada por WikiTeam en [http://vilapedia.wikis.cc/ vilapedia.wikis.cc].</td>
+</tr>
+
+<tr>
+    <td>[http://www.wikanda.es/wiki/Portada Wikanda]</td>
+    <td>[https://archive.org/details/wiki-wikandaes_w 2014-02-22]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.wikiburgos.es/wiki/Valdeajos WikiBurgos]</td>
+    <td>[https://archive.org/details/wiki-wikiburgoses 2016-02-02]</td>
+    <td>En funcionamiento a 2016-02-04.</td>
+</tr>
+
+<tr>
+    <td>[http://www.wikiextremadura.org WikiExtremadura]</td>
+    <td>Ninguno</td>
+    <td>Dejó de funcionar. No hay backup, no se puede rescatar. Ver en [http://web.archive.org/web/20090501054742/http:/www.wikiextremadura.org/w/Portada WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://www.wikilleida.cat WikiLleida]</td>
+    <td>Ninguno</td>
+    <td>Dejó de funcionar. No hay backup, no se puede rescatar. Ver en [https://web.archive.org/web/20120510134838/http://www.wikilleida.cat/index.php/P%C3%A0gina_principal WayBack Machine].</td>
+</tr>
+
+<tr>
+    <td>[http://wikimurcia.com WikiMurcia]</td>
+    <td>Ninguno</td>
+    <td>Está vacía. En funcionamiento a 2016-01-31.</td>
+</tr>
+
+<tr>
+    <td>[http://wikirioja.com WikiRioja]</td>
+    <td>[https://archive.org/details/wiki-wikiriojacom 2014-07-08]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://www.wikisalamanca.org WikiSalamanca]</td>
+    <td>[https://archive.org/details/wiki-wikisalamancaorg 2016-01-08]</td>
+    <td>En funcionamiento a 2016-02-02.</td>
+</tr>
+
+<tr>
+    <td>[http://www.xiloca.com/xilocapedia/index.php?title=Portada Xilocapedia]</td>
+    <td>[https://archive.org/details/wiki-xilocacom_xilocapedia 2014-02-08]</td>
+    <td>En funcionamiento a 2016-01-08.</td>
+</tr>
+
+<tr>
+    <td>[http://zaragoza.diwiki.org Zaragoza Diwiki]</td>
+    <td>Ninguno</td>
+    <td>Dejó de funcionar. No hay backup, no se puede rescatar. Ver en [https://web.archive.org/web/20120722234343/http://zaragoza.diwiki.org/index.php/Portada WayBack Machine].</td>
+</tr>
+
+</table>
+
+<!--
+
+http://sevillapedia.wikanda.es/wiki/Sevillapedia:Lista_de_locapedias
+https://wikiapiary.com/wiki/User:Emijrp/Locapedias_or_Regiowikis
+
+Restaurando backups de aquellas que han caido:
+
+http://vilapedia.wikis.cc/wiki/P%C3%A0gina_principal
+715 artículos, 686 imágenes y 4434 ediciones. Y en la lista de sevillapedia, con fecha de 15 de enero de 2013 1000 artículos, 826 imágenes y 5602 ediciones
+
+-->
+
+{{footer}}
