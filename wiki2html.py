@@ -122,9 +122,14 @@ def textformat(wiki):
     return wiki
 
 def linksinternal(wiki):
-    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', r'<a href="\1.html">\2</a>', wiki)
-    wiki = re.sub(r'(?im)\[\[([^\[\]\|]+?)\]\]', r'<a href="\1.html">\1</a>', wiki)
+    m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', wiki)
+    for i in m:
+        wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (i[0].lower(), i[1]), wiki)
     
+    m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\]\]', wiki)
+    for i in m:
+        wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html">%s</a>' % (i.lower(), i), wiki)
+        
     return wiki
 
 def linksexternal(wiki):
@@ -155,13 +160,15 @@ def main():
     
     if len(sys.argv) < 2:
         print('Error: parameter needed')
-    elif sys.argv[1] == '--all':
+        sys.exit()
+    
+    if sys.argv[1] == '--all':
         listdir = os.listdir('.')
         for filename in listdir:
             if filename.endswith('.wiki'):
                 wikifiles.append(filename)
     else:
-        wikifiles = sys.argv[1]
+        wikifiles = [sys.argv[1]]
     
     for wikifile in wikifiles:
         wiki = readwikifile(wikifile)
