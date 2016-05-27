@@ -249,4 +249,49 @@ Más información:
 
 Los nombres de las 13 mujeres (más una): [https://15mpedia.org/wiki/Carmen_Barrero_Aguado Carmen Barrero Aguado], [https://15mpedia.org/wiki/Martina_Barroso_Garc%C3%ADa Martina Barroso García], [https://15mpedia.org/wiki/Blanca_Brisac_V%C3%A1zquez Blanca Brisac Vázquez], [https://15mpedia.org/wiki/Pilar_Bueno_Ib%C3%A1%C3%B1ez Pilar Bueno Ibáñez], [https://15mpedia.org/wiki/Julia_Conesa_Conesa Julia Conesa Conesa], [https://15mpedia.org/wiki/Avelina_Garc%C3%ADa_Casillas Avelina García Casillas], [https://15mpedia.org/wiki/Elena_Gil_Olaya Elena Gil Olaya], [https://15mpedia.org/wiki/Virtudes_Gonz%C3%A1lez_Garc%C3%ADa Virtudes González García], [https://15mpedia.org/wiki/Ana_L%C3%B3pez_Gallego Ana López Gallego], [https://15mpedia.org/wiki/Joaquina_L%C3%B3pez_Laffite Joaquina López Laffite], [https://15mpedia.org/wiki/Dionisia_Manzanero_Salas Dionisia Manzanero Salas], [https://15mpedia.org/wiki/Victoria_Mu%C3%B1oz_Garc%C3%ADa Victoria Muñoz García], [https://15mpedia.org/wiki/Luisa_Rodr%C3%ADguez_de_la_Fuente Luisa Rodríguez de la Fuente], [https://15mpedia.org/wiki/Antonia_Torre_Yela Antonia Torre Yela] ([https://secure.findagrave.com/cgi-bin/fg.cgi?page=vcsr&GSvcid=627741 Cementerio virtual] en Find A Grave).
 
+== Turismo memorialista ==
+
+Estoy recopilando información acerca de lo que podría llamarse "'''turismo memorialista'''", es decir, turismo enfocado a lugares, monumentos, calles y otros puntos de interés que tengan que ver con la memoria histórica. La información disponible es escasa y muy dispersa.
+
+Para el caso del Reino Unido existe una web que recopila monumentos a las Brigadas Internacionales.
+
+Cosas por añadir al mapa:
+
+<ul>
+    <li>Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.</li>
+    <li>Calles a las 13 Rosas, a luchadores antifranquistas y a intelectuales.</li>
+    <li>Lugares de la memoria en Andalucía.</li>
+    <li>Campos de concentración franquistas, cárceles.</li>
+    <li>Cementerios y lugares de fusilamientos.</li>
+    <li>Buscar algún grupo en Flickr sobre MH y sino existe crearlo.</li>
+    <li>Lugares de batallas, frentes, edificios tomados, etc.</li>
+</ul>
+
+<div id="map" style="float: center;width: 600px; height: 600px;"></div>
+
+<script>
+    // http://leafletjs.com/examples/custom-icons.html
+    
+    var places = [
+        ["Madrid", 40.416957, -3.703478], 
+    ];
+
+    var map = L.map('map').setView([40.416957, -3.703478], 6);
+    mapLink = 
+        '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 12,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b>')
+            .addTo(map);
+    }
+
+</script>
+
 {{footer}}
