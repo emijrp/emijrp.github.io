@@ -1,0 +1,42 @@
+{{header|1=Favoritas}}
+
+Mis webs favoritas, muchas son bien conocidas, otras menos por ser más específicas.
+
+<ul>
+
+    <li>[https://15mpedia.org <img class="favicon" src="images/favicon-15mpedia.ico" alt="15Mpedia" />15Mpedia]: enciclopedia libre sobre el '''movimiento 15M''' y otras luchas sociales, anteriores o posteriores.</li>
+    
+    <li>[http://www.filmaffinity.com <img class="favicon" src="images/favicon-filmaffinity.ico" alt="FilmAffinity" />FilmAffinity]: portal de '''cine''' con una inmensa base de datos de películas.</li>
+    
+    <li>[https://secure.findagrave.com <img class="favicon" src="images/favicon-findagrave.ico" alt="FindAGrave" />Find A Grave]: para dejar flores virtuales a '''personas fallecidas'''.</li>
+    
+    <li>[https://www.flickr.com <img class="favicon" src="images/favicon-flickr.ico" alt="Flickr" />Flickr]: alojamiento de imágenes, ideal para '''compartir fotos''' que hagas en tus viajes, etc.</li>
+    
+    <li>[https://github.com <img class="favicon" src="images/favicon-github.ico" alt="GitHub" />GitHub]: forja de '''código libre''', hay millones de proyectos disponibles.</li>
+    
+    <li>[https://archive.org <img class="favicon" src="images/favicon-archive.png" alt="Internet Archive" />Internet Archive]: un '''archivo''' con copias de millones de sitios web, libros, audios, vídeos, todo.</li>
+    
+    <li>[https://www.jamendo.com <img class="favicon" src="images/favicon-jamendo.ico" alt="Jamendo" />Jamendo]: portal de '''música libre''' con decenas de miles de álbumes.</li>
+    
+    <li>[https://openlibrary.org <img class="favicon" src="images/favicon-openlibrary.png" alt="OpenLibrary" />OpenLibrary]: un catálogo que aspira a contener '''todos los libros''' que existen.</li>
+    
+    <li>[http://www.rebeldemule.org <img class="favicon" src="images/favicon-rebeldemule.ico" alt="RebeldeMule" />RebeldeMule]: '''catálogo de películas''', documentales, libros, etc.</li>
+    
+    <li>[https://twitter.com <img class="favicon" src="images/favicon-twitter.ico" alt="Twitter" />Twitter]: la red social para compartir pequeños '''mensajes de 140 caracteres'''.</li>
+    
+    <li>[https://en.wikipedia.org <img class="favicon" src="images/favicon-wikipedia.ico" alt="Wikipedia" />Wikipedia]: la '''enciclopedia libre''', he participado durante muchos años en ella.</li>
+    
+    <li>[https://www.youtube.com <img class="favicon" src="images/favicon-youtube.ico" alt="YouTube" />YouTube]: el portal de '''vídeos''' más usado de la red.</li>
+
+</ul>
+
+== Salud ==
+
+<ul>
+
+    <li>[https://www.youtube.com/watch?v=6ZAj2UibCsc ¿Cómo cepillarse los dientes con un cepillo manual?]</li>
+    <li>[https://www.youtube.com/watch?v=w4RWl6we6rk ¿Cómo se usa el hilo dental?]</li>
+
+</ul>
+
+{{footer}}

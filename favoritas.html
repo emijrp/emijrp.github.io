@@ -3,42 +3,52 @@
 <head>
     <title>Favoritas - La web de emijrp</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <script src="lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script type="text/javascript" src="lib/d3/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="lib/cal-heatmap/cal-heatmap.css" />
+    <script type="text/javascript" src="lib/cal-heatmap/cal-heatmap.min.js"></script>
+    <script type="text/javascript" src="lib/moment/moment-with-langs.min.js"></script>
 </head>
 <body>
+
 <h1>Favoritas - <a href="index.html">La web de emijrp</a></h1>
+
 
 <p>Mis webs favoritas, muchas son bien conocidas, otras menos por ser más específicas.</p>
 
 <ul>
 
-    <li><a href="https://15mpedia.org" title="15Mpedia"><img class="favicon" src="images/favicon-15mpedia.ico" alt="15Mpedia" />15Mpedia</a>: enciclopedia libre sobre el movimiento 15M y otras luchas sociales, anteriores o posteriores.</li>
+    <li><a href="https://15mpedia.org"><img class="favicon" src="images/favicon-15mpedia.ico" alt="15Mpedia" />15Mpedia</a>: enciclopedia libre sobre el <b>movimiento 15M</b> y otras luchas sociales, anteriores o posteriores.</li>
     
-    <li><a href="http://www.filmaffinity.com" title="FilmAffinity"><img class="favicon" src="images/favicon-filmaffinity.ico" alt="FilmAffinity" />FilmAffinity</a>: portal de cine con una inmensa base de datos de películas.</li>
+    <li><a href="http://www.filmaffinity.com"><img class="favicon" src="images/favicon-filmaffinity.ico" alt="FilmAffinity" />FilmAffinity</a>: portal de <b>cine</b> con una inmensa base de datos de películas.</li>
     
-    <li><a href="https://secure.findagrave.com" title="FindAGrave"><img class="favicon" src="images/favicon-findagrave.ico" alt="FindAGrave" />Find A Grave</a>: para dejar flores virtuales a personas fallecidas.</li>
+    <li><a href="https://secure.findagrave.com"><img class="favicon" src="images/favicon-findagrave.ico" alt="FindAGrave" />Find A Grave</a>: para dejar flores virtuales a <b>personas fallecidas</b>.</li>
     
-    <li><a href="https://www.flickr.com" title="Flickr"><img class="favicon" src="images/favicon-flickr.ico" alt="Flickr" />Flickr</a>: alojamiento de imágenes, ideal para compartir fotos que hagas en tus viajes, etc.</li>
+    <li><a href="https://www.flickr.com"><img class="favicon" src="images/favicon-flickr.ico" alt="Flickr" />Flickr</a>: alojamiento de imágenes, ideal para <b>compartir fotos</b> que hagas en tus viajes, etc.</li>
     
-    <li><a href="https://github.com" title="GitHub"><img class="favicon" src="images/favicon-github.ico" alt="GitHub" />GitHub</a>: forja de código libre, hay millones de proyectos disponibles.</li>
+    <li><a href="https://github.com"><img class="favicon" src="images/favicon-github.ico" alt="GitHub" />GitHub</a>: forja de <b>código libre</b>, hay millones de proyectos disponibles.</li>
     
-    <li><a href="https://archive.org"><img class="favicon" src="images/favicon-archive.png" alt="Internet Archive" />Internet Archive</a>: un archivo con copias de millones de sitios web, libros, audios, vídeos, todo.</li>
+    <li><a href="https://archive.org"><img class="favicon" src="images/favicon-archive.png" alt="Internet Archive" />Internet Archive</a>: un <b>archivo</b> con copias de millones de sitios web, libros, audios, vídeos, todo.</li>
     
-    <li><a href="https://www.jamendo.com" title="Jamendo"><img class="favicon" src="images/favicon-jamendo.ico" alt="Jamendo" />Jamendo</a>: portal de música libre con decenas de miles de álbumes.</li>
+    <li><a href="https://www.jamendo.com"><img class="favicon" src="images/favicon-jamendo.ico" alt="Jamendo" />Jamendo</a>: portal de <b>música libre</b> con decenas de miles de álbumes.</li>
     
-    <li><a href="https://openlibrary.org" title="OpenLibrary"><img class="favicon" src="images/favicon-openlibrary.png" alt="OpenLibrary" />OpenLibrary</a>: un catálogo que aspira a contener todos los libros que existen.</li>
+    <li><a href="https://openlibrary.org"><img class="favicon" src="images/favicon-openlibrary.png" alt="OpenLibrary" />OpenLibrary</a>: un catálogo que aspira a contener <b>todos los libros</b> que existen.</li>
     
-    <li><a href="http://www.rebeldemule.org" title="RebeldeMule"><img class="favicon" src="images/favicon-rebeldemule.ico" alt="RebeldeMule" />RebeldeMule</a>: catálogo de películas, documentales, libros, etc.</li>
+    <li><a href="http://www.rebeldemule.org"><img class="favicon" src="images/favicon-rebeldemule.ico" alt="RebeldeMule" />RebeldeMule</a>: <b>catálogo de películas</b>, documentales, libros, etc.</li>
     
-    <li><a href="https://twitter.com" title="Twitter"><img class="favicon" src="images/favicon-twitter.ico" alt="Twitter" />Twitter</a>: la red social para compartir pequeños mensajes de 140 caracteres.</li>
+    <li><a href="https://twitter.com"><img class="favicon" src="images/favicon-twitter.ico" alt="Twitter" />Twitter</a>: la red social para compartir pequeños <b>mensajes de 140 caracteres</b>.</li>
     
-    <li><a href="https://en.wikipedia.org" title="Wikipedia"><img class="favicon" src="images/favicon-wikipedia.ico" alt="Wikipedia" />Wikipedia</a>: la enciclopedia libre, he participado durante muchos años en ella.</li>
+    <li><a href="https://en.wikipedia.org"><img class="favicon" src="images/favicon-wikipedia.ico" alt="Wikipedia" />Wikipedia</a>: la <b>enciclopedia libre</b>, he participado durante muchos años en ella.</li>
     
-    <li><a href="https://www.youtube.com" title="YouTube"><img class="favicon" src="images/favicon-youtube.ico" alt="YouTube" />YouTube</a>: el portal de vídeos más usado de la red.</li>
+    <li><a href="https://www.youtube.com"><img class="favicon" src="images/favicon-youtube.ico" alt="YouTube" />YouTube</a>: el portal de <b>vídeos</b> más usado de la red.</li>
 
 </ul>
 
-<h2>Salud</h2>
+<h2 id="Salud">Salud</h2>
 
 <ul>
 
@@ -47,7 +57,6 @@
 
 </ul>
 
-<br clear="all" />
 <div class="footer">
 <hr/>
 <span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></span>
@@ -64,5 +73,7 @@
   ga('send', 'pageview');
 
 </script>
+
 </body>
 </html>
+
