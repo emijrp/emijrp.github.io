@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2015 emijrp <emijrp@gmail.com>
+# Copyright (C) 2015-2016 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -265,26 +265,26 @@ def main():
     seriestable += u''.join(seriesrows)
     seriestable += u'</table>\n'
     
-    f = open('cine.html', 'r')
+    f = open('cine.wiki', 'r')
     html = unicode(f.read(), 'utf-8')
     f.close()
-    f = open('cine.html', 'w')
+    f = open('cine.wiki', 'w')
     html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], filmtable, html.split(u'<!-- /tabla completa -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
     
-    f = open('documentales.html', 'r')
+    f = open('documentales.wiki', 'r')
     html = unicode(f.read(), 'utf-8')
     f.close()
-    f = open('documentales.html', 'w')
+    f = open('documentales.wiki', 'w')
     html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], doctable, html.split(u'<!-- /tabla completa -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
     
-    f = open('series.html', 'r')
+    f = open('series.wiki', 'r')
     html = unicode(f.read(), 'utf-8')
     f.close()
-    f = open('series.html', 'w')
+    f = open('series.wiki', 'w')
     html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], seriestable, html.split(u'<!-- /tabla completa -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
@@ -313,10 +313,10 @@ def main():
     stats += u"<li>Por <b>país</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmCountryLink(x), x, y) for y, x in statscountry_list]))
     stats += u"</ul>\n"
     
-    f = open('cine.html', 'r')
+    f = open('cine.wiki', 'r')
     html = unicode(f.read(), 'utf-8')
     f.close()
-    f = open('cine.html', 'w')
+    f = open('cine.wiki', 'w')
     html = u'%s<!-- stats -->%s<!-- /stats -->%s' % (html.split(u'<!-- stats -->')[0], stats, html.split(u'<!-- /stats -->')[1])
     f.write(html.encode('utf-8'))
     f.close()

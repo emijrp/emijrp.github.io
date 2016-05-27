@@ -1,65 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Cine - La web de emijrp</title>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
-    <link rel="stylesheet" href="style.css" />
+{{header|1=Cine}}
 
-    <script src="lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="lib/leaflet/leaflet.js" type="text/javascript"></script>
-    <script type="text/javascript" src="lib/d3/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="lib/cal-heatmap/cal-heatmap.css" />
-    <script type="text/javascript" src="lib/cal-heatmap/cal-heatmap.min.js"></script>
-    <script type="text/javascript" src="lib/moment/moment-with-langs.min.js"></script>
-</head>
-<body>
+El '''cine''' es una de las artes más difundidas e influyentes que existen y eso que surgió hace poco más de un siglo.
 
-<h1>Cine - <a href="index.html">La web de emijrp</a></h1>
+Hay bases de datos con cientos de miles de películas como [http://www.imdb.com Internet Movie DataBase], [http://www.filmaffinity.com/es/ FilmAffinity] o [http://www.abandomoviez.net Abandonmoviez]. La propia Wikipedia dispone de incontables listados temáticos, centralizados en la página [https://en.wikipedia.org/wiki/Lists_of_films Lists of films] y su respectiva [https://en.wikipedia.org/wiki/Category:Lists_of_films categoría]. Otras webs como [http://www.rebeldemule.org RebeldeMule] también recopilan miles de fichas de películas.
 
+Pero entre tanta información conviene tomar notas para no perderse y poder seguir explorando. En esta página hago mi particular selección de géneros cinematográficos, estudios de cine y productoras, festivales, movimientos, directores y películas. Se encuentra en permanente ampliación.
 
-<p>El <b>cine</b> es una de las artes más difundidas e influyentes que existen y eso que surgió hace poco más de un siglo.</p>
+== Géneros cinematográficos ==
 
-<p>Hay bases de datos con cientos de miles de películas como <a href="http://www.imdb.com">Internet Movie DataBase</a>, <a href="http://www.filmaffinity.com/es/">FilmAffinity</a> o <a href="http://www.abandomoviez.net">Abandonmoviez</a>. La propia Wikipedia dispone de incontables listados temáticos, centralizados en la página <a href="https://en.wikipedia.org/wiki/Lists_of_films">Lists of films</a> y su respectiva <a href="https://en.wikipedia.org/wiki/Category:Lists_of_films">categoría</a>. Otras webs como <a href="http://www.rebeldemule.org">RebeldeMule</a> también recopilan miles de fichas de películas.</p>
-
-<p>Pero entre tanta información conviene tomar notas para no perderse y poder seguir explorando. En esta página hago mi particular selección de géneros cinematográficos, estudios de cine y productoras, festivales, movimientos, directores y películas. Se encuentra en permanente ampliación.</p>
-
-<h2 id="Géneros cinematográficos">Géneros cinematográficos</h2>
-
-<p>Estos son los principales <b>géneros cinematográficos</b> que estoy revisando. Algunas de las obras indicadas como ejemplo pueden pertenecer a más de un género:</p>
+Estos son los principales '''géneros cinematográficos''' que estoy revisando. Algunas de las obras indicadas como ejemplo pueden pertenecer a más de un género:
 
 <ul>
-    <li><b>Anarquista:</b> tanto obras que traten el anarquismo como películas creadas por movimientos o colectivos anarquistas, principalmente durante la colectivización de la industria del cine de Barcelona en la Guerra Civil Española. Por ejemplo: <i>Aurora de esperanza</i> (1937), <i>Barrios bajos</i> (1937), <i>Carne de fieras</i> (1936) y <i>Nuestro culpable</i> (1938). (Más información: <a href="http://archivo.cnt.es/Documentos/cineyanarquismo/listado_pelis_filmo.htm">Cine y Anarquismo</a>, <a href="https://es.wikipedia.org/wiki/Anarquismo_y_cultura#El_anarquismo_en_el_cine">El anarquismo en el cine</a>)</li>
+    <li>'''Anarquista:''' tanto obras que traten el anarquismo como películas creadas por movimientos o colectivos anarquistas, principalmente durante la colectivización de la industria del cine de Barcelona en la Guerra Civil Española. Por ejemplo: ''Aurora de esperanza'' (1937), ''Barrios bajos'' (1937), ''Carne de fieras'' (1936) y ''Nuestro culpable'' (1938). (Más información: [http://archivo.cnt.es/Documentos/cineyanarquismo/listado_pelis_filmo.htm Cine y Anarquismo], [https://es.wikipedia.org/wiki/Anarquismo_y_cultura#El_anarquismo_en_el_cine El anarquismo en el cine])</li>
     
-    <li><b>Bélico:</b> relatan guerras o batallas, ya sea por tierra, mar o aire, o también la vida civil durante estas contiendas, por ejemplo: <i>El hundimiento</i> (2004), <i>Enemigo a las puertas</i> (2001) y <i>Tierra y Libertad</i> (1995). El conjunto de películas contra la guerra en general o específicas como la Guerra de Vietnam conforman el género anti-belicista, por ejemplo: <i>Apocalypse Now</i> (1979), <i>Hiroshima mon amour</i> (1959), <i>La chaqueta metálica</i> (1987) y <i>Senderos de gloria</i> (1957). (Más información: <a href="https://en.wikipedia.org/wiki/War_film">War film</a>, <a href="https://en.wikipedia.org/wiki/Category:Films_by_war">Category:Films by war</a>, <a href="https://en.wikipedia.org/wiki/Category:Lists_of_war_films">Category:Lists of war films</a>, <a href="https://en.wikipedia.org/wiki/Anti-war_film">Anti-war film</a>)</li>
+    <li>'''Bélico:''' relatan guerras o batallas, ya sea por tierra, mar o aire, o también la vida civil durante estas contiendas, por ejemplo: ''El hundimiento'' (2004), ''Enemigo a las puertas'' (2001) y ''Tierra y Libertad'' (1995). El conjunto de películas contra la guerra en general o específicas como la Guerra de Vietnam conforman el género anti-belicista, por ejemplo: ''Apocalypse Now'' (1979), ''Hiroshima mon amour'' (1959), ''La chaqueta metálica'' (1987) y ''Senderos de gloria'' (1957). (Más información: [https://en.wikipedia.org/wiki/War_film War film], [https://en.wikipedia.org/wiki/Category:Films_by_war Category:Films by war], [https://en.wikipedia.org/wiki/Category:Lists_of_war_films Category:Lists of war films], [https://en.wikipedia.org/wiki/Anti-war_film Anti-war film])</li>
 
-    <li><b>Contestatario:</b> es sinónimo del cine que cubre aspectos sociales, es reivindicativo, de denuncia, etc. Se solapa con varios de los otros géneros de esta lista.</li>
+    <li>'''Contestatario:''' es sinónimo del cine que cubre aspectos sociales, es reivindicativo, de denuncia, etc. Se solapa con varios de los otros géneros de esta lista.</li>
     
-    <li><b>Drama judicial:</b> dramatización de procesos judiciales. Por ejemplo: <i>En el nombre del padre</i> (1993) y <i>La caja de música</i> (1989). (Más información: <a href="https://en.wikipedia.org/wiki/Legal_drama">Legal drama</a>, <a href="https://en.wikipedia.org/wiki/Category:Courtroom_films">Category:Courtroom films</a>)</li>
+    <li>'''Drama judicial:''' dramatización de procesos judiciales. Por ejemplo: ''En el nombre del padre'' (1993) y ''La caja de música'' (1989). (Más información: [https://en.wikipedia.org/wiki/Legal_drama Legal drama], [https://en.wikipedia.org/wiki/Category:Courtroom_films Category:Courtroom films])</li>
 
-    <li><b>Eastern/Ostern:</b> ambientados en las estepas o en las regiones asiáticas de la URSS, especialmente durante la Revolución rusa de 1917 o en la posterior guerra civil. Por ejemplo: <i>Las millas ardientes</i> (1957), <i>En el hogar entre extraños</i> (1971) y <i>Sol blanco del desierto</i> (1969). (Más información: <a href="https://en.wikipedia.org/wiki/Ostern">Ostern</a>)</li>
+    <li>'''Eastern/Ostern:''' ambientados en las estepas o en las regiones asiáticas de la URSS, especialmente durante la Revolución rusa de 1917 o en la posterior guerra civil. Por ejemplo: ''Las millas ardientes'' (1957), ''En el hogar entre extraños'' (1971) y ''Sol blanco del desierto'' (1969). (Más información: [https://en.wikipedia.org/wiki/Ostern Ostern])</li>
 
-    <li><b>Épico:</b> son grandes producciones de tipo dramático situadas en periodos de guerra o conflicto. Por ejemplo: <i>Espartaco</i> (1960), <i>Jasón y los Argonautas</i> (1963), <i>La lista de Schindler</i> (1993) y <i>Braveheart</i> (1995). (Más información: <a href="https://es.wikipedia.org/wiki/Cine_%C3%A9pico">Cine épico</a>)</li>
+    <li>'''Épico:''' son grandes producciones de tipo dramático situadas en periodos de guerra o conflicto. Por ejemplo: ''Espartaco'' (1960), ''Jasón y los Argonautas'' (1963), ''La lista de Schindler'' (1993) y ''Braveheart'' (1995). (Más información: [https://es.wikipedia.org/wiki/Cine_%C3%A9pico Cine épico])</li>
     
-    <li><b>Feminista:</b> obras que presentan a la mujer sin estereotipos, dueñas de si mismas y sus acciones, que luchan por cambiar las viejas normas que las han atado siempre. Por ejemplo: <i>Pan y tulipanes</i> (2000) y <i>Thelma y Louise</i> (1991). (Más información: <a href="http://sheyehs.blogspot.com.es/p/peliculas-feministas.html">Películas feministas</a>, <a href="http://culturacolectiva.com/peliculas-feministas-de-la-historia-parte-uno/">Películas feministas de la historia</a> y su <a href="http://culturacolectiva.com/peliculas-feministas-de-la-historia-parte-dos/">segunda parte</a>, <a href="http://canalcultura.org/2014/11/09/70-peliculas-sobre-la-situacion-de-la-mujer-en-el-mundo/">70 películas sobre la situación de la mujer en el mundo</a>)</li>
+    <li>'''Feminista:''' obras que presentan a la mujer sin estereotipos, dueñas de si mismas y sus acciones, que luchan por cambiar las viejas normas que las han atado siempre. Por ejemplo: ''Pan y tulipanes'' (2000) y ''Thelma y Louise'' (1991). (Más información: [http://sheyehs.blogspot.com.es/p/peliculas-feministas.html Películas feministas], [http://culturacolectiva.com/peliculas-feministas-de-la-historia-parte-uno/ Películas feministas de la historia] y su [http://culturacolectiva.com/peliculas-feministas-de-la-historia-parte-dos/ segunda parte], [http://canalcultura.org/2014/11/09/70-peliculas-sobre-la-situacion-de-la-mujer-en-el-mundo/ 70 películas sobre la situación de la mujer en el mundo])</li>
     
-    <li><b>Histórico:</b> tomando sucesos históricos o personajes notables de la historia construyen una dramatización próxima a la realidad, aunque también pueden incluir elementos de ficción. Por ejemplo: <i>Amadeus</i> (1984), <i>El acorazado Potemkin</i> (1925), <i>Lincoln</i> (2012) y <i>Octubre</i> (1928). (Más información: <a href="https://en.wikipedia.org/wiki/Historical_period_drama">Historical period drama</a>, <a href="https://en.wikipedia.org/wiki/List_of_historical_period_drama_films">List of historical period drama films</a>)</li>
+    <li>'''Histórico:''' tomando sucesos históricos o personajes notables de la historia construyen una dramatización próxima a la realidad, aunque también pueden incluir elementos de ficción. Por ejemplo: ''Amadeus'' (1984), ''El acorazado Potemkin'' (1925), ''Lincoln'' (2012) y ''Octubre'' (1928). (Más información: [https://en.wikipedia.org/wiki/Historical_period_drama Historical period drama], [https://en.wikipedia.org/wiki/List_of_historical_period_drama_films List of historical period drama films])</li>
     
-    <!--<li><b>Indígena:</b> también llamado indigenista </li>-->
+    <!--<li>'''Indígena:''' también llamado indigenista </li>-->
+    
+    <li>'''Partisano:''' películas bélicas de la República Federativa Socialista de Yugoslavia de los años 60, 70 y 80. Ambientadas en la Segunda Guerra mundial, tiene como protagonistas a los partisanos que luchan contra el fascismo y sus colaboradores. Por ejemplo: ''La batalla del río Neretva'' (1969). (Más información: [https://en.wikipedia.org/wiki/Partisan_film Partisan film], [https://en.wikipedia.org/wiki/Category:Partisan_films Category:Partisan films])</li>
+    
+    <li>'''Político:''' a diferencia del cine de puro entretenimiento vacío y supuestamente apolítico, este presenta una postura comprometida políticamente. Por ejemplo: ''La Chinoise'' (1967), ''La sal de la tierra'' (1953), ''Lumumba'' (2000) y ''Z'' (1969). (Más información: [https://en.wikipedia.org/wiki/Political_cinema Political cinema], [https://en.wikipedia.org/wiki/Category:Political_films Category:Political films])</li>
+    
+    <!--<li>'''Quinqui:''' (Más información: [https://es.wikipedia.org/wiki/Cine_quinqui Cine quinqui])</li>-->
 
-    <li><b>Partisano:</b> películas bélicas de la República Federativa Socialista de Yugoslavia de los años 60, 70 y 80. Ambientadas en la Segunda Guerra mundial, tiene como protagonistas a los partisanos que luchan contra el fascismo y sus colaboradores. Por ejemplo: <i>La batalla del río Neretva</i> (1969). (Más información: <a href="https://en.wikipedia.org/wiki/Partisan_film">Partisan film</a>, <a href="https://en.wikipedia.org/wiki/Category:Partisan_films">Category:Partisan films</a>)</li>
+    <li>'''Tercer cine:''' movimiento fílmico latinoamericano de los años 60 y 70 que rechaza el neocolonialismo, el sistema capitalista y el modelo de Hollywood como mero entretenimiento para hacer dinero. El término se acuñó en el manifiesto ''Hacia un tercer cine'' redactado por los cineastas argentinos Fernando Solanas y Octavio Getino, miembros del Grupo Cine Liberación. Este género también incluye el Cine de la Base de Raymundo Gleyzer, el brasileño Cinema Nôvo, el cine revolucionario cubano y al director boliviano Jorge Sanjinés. (Más información: [https://en.wikipedia.org/wiki/Third_Cinema Third Cinema], [https://en.wikipedia.org/wiki/Cinema_Novo Cinema Novo], [https://en.wikipedia.org/wiki/Cinema_of_Cuba#Cinema_after_the_revolution Cinema of Cuba#Cinema after the revolution], [https://en.wikipedia.org/wiki/Grupo_Cine_Liberaci%C3%B3n Grupo Cine Liberación])</li>
 
-    <li><b>Político:</b> a diferencia del cine de puro entretenimiento vacío y supuestamente apolítico, este presenta una postura comprometida políticamente. Por ejemplo: <i>La Chinoise</i> (1967), <i>La sal de la tierra</i> (1953), <i>Lumumba</i> (2000) y <i>Z</i> (1969). (Más información: <a href="https://en.wikipedia.org/wiki/Political_cinema">Political cinema</a>, <a href="https://en.wikipedia.org/wiki/Category:Political_films">Category:Political films</a>)</li>
+    <li>'''Social:''' tratando temas como el alcoholismo, derechos civiles, inmigración, marginación, pobreza, paro, prostitución, etc. Por ejemplo: ''La vendedora de rosas'' (1998), ''Los lunes al sol'' (2002), ''Malcolm X'' (1992) y ''Princesas'' (2005). (Más información: [https://es.wikipedia.org/wiki/Cine_social Cine social], [https://es.wikipedia.org/wiki/Categor%C3%ADa:Cine_social Categoría:Cine social])</li>
 
-    <!--<li><b>Quinqui:</b> (Más información: <a href="https://es.wikipedia.org/wiki/Cine_quinqui">Cine quinqui</a>)</li>-->
+    <li>'''Western rojo/Borscht Western:''' son la versión soviética y de los países del bloque del Este al género Western. Por ejemplo ''Joe Cola-Loca'' (Checoslovaquia, 1964), ''Los hijos de Gran Oso'' (RDA, 1966), ''El petróleo, el bebé y los transilvanos'' (Rumanía, 1981) o ''El hombre del boulevard de los Capuchinos'' (URSS, 1987). (Más información: [https://en.wikipedia.org/wiki/Ostern Ostern], [https://en.wikipedia.org/wiki/Category:Red_Western_films Category:Red Western films])</li>
 
-    <li><b>Tercer cine:</b> movimiento fílmico latinoamericano de los años 60 y 70 que rechaza el neocolonialismo, el sistema capitalista y el modelo de Hollywood como mero entretenimiento para hacer dinero. El término se acuñó en el manifiesto <i>Hacia un tercer cine</i> redactado por los cineastas argentinos Fernando Solanas y Octavio Getino, miembros del Grupo Cine Liberación. Este género también incluye el Cine de la Base de Raymundo Gleyzer, el brasileño Cinema Nôvo, el cine revolucionario cubano y al director boliviano Jorge Sanjinés. (Más información: <a href="https://en.wikipedia.org/wiki/Third_Cinema">Third Cinema</a>, <a href="https://en.wikipedia.org/wiki/Cinema_Novo">Cinema Novo</a>, <a href="https://en.wikipedia.org/wiki/Cinema_of_Cuba#Cinema_after_the_revolution">Cinema of Cuba#Cinema after the revolution</a>, <a href="https://en.wikipedia.org/wiki/Grupo_Cine_Liberaci%C3%B3n">Grupo Cine Liberación</a>)</li>
-
-    <li><b>Social:</b> tratando temas como el alcoholismo, derechos civiles, inmigración, marginación, pobreza, paro, prostitución, etc. Por ejemplo: <i>La vendedora de rosas</i> (1998), <i>Los lunes al sol</i> (2002), <i>Malcolm X</i> (1992) y <i>Princesas</i> (2005). (Más información: <a href="https://es.wikipedia.org/wiki/Cine_social">Cine social</a>, <a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Cine_social">Categoría:Cine social</a>)</li>
-
-    <li><b>Western rojo/Borscht Western:</b> son la versión soviética y de los países del bloque del Este al género Western. Por ejemplo <i>Joe Cola-Loca</i> (Checoslovaquia, 1964), <i>Los hijos de Gran Oso</i> (RDA, 1966), <i>El petróleo, el bebé y los transilvanos</i> (Rumanía, 1981) o <i>El hombre del boulevard de los Capuchinos</i> (URSS, 1987). (Más información: <a href="https://en.wikipedia.org/wiki/Ostern">Ostern</a>, <a href="https://en.wikipedia.org/wiki/Category:Red_Western_films">Category:Red Western films</a>)</li>
-
-    <li><b>Zapata Western:</b> películas de los años 60 y 70 abiertamente políticas sobre la Revolucion Mexicana. (Más información: <a href="https://en.wikipedia.org/wiki/Zapata_Western">Zapata Western</a>)</li>
+    <li>'''Zapata Western:''' películas de los años 60 y 70 abiertamente políticas sobre la Revolucion Mexicana. (Más información: [https://en.wikipedia.org/wiki/Zapata_Western Zapata Western])</li>
 
 </ul>
 
@@ -68,15 +50,15 @@ También están los géneros típicos, los cuales los utilizo más para pasar el
 
 <ul>
 
-    <li><b>Ciencia ficción:</b> ...</li>
-    <li><b>Comedia:</b> ...</li>
-    <li><b>Drama:</b> ...</li>
-    <li><b>Romance:</b> ...</li>
+    <li>'''Ciencia ficción:''' ...</li>
+    <li>'''Comedia:''' ...</li>
+    <li>'''Drama:''' ...</li>
+    <li>'''Romance:''' ...</li>
 
 </ul>
-<p>--></p>
+-->
 
-<h2 id="Estudios de cine, distribuidoras y productoras">Estudios de cine, distribuidoras y productoras</h2>
+== Estudios de cine, distribuidoras y productoras ==
 
 <table style="float: right;">
 <tr><td><a href="images/colectivo-cine-madrid.png"><img src="images/colectivo-cine-madrid.png" width="150px" align="right" title="Colectivo de Cine de Madrid" /></a></td></tr>
@@ -87,44 +69,44 @@ También están los géneros típicos, los cuales los utilizo más para pasar el
 </table>
 
 <ul>
-    <li><b>Central del Curt / Central del Corto:</b> distribuidora alternativa que funcionó en los años 70 en España y que contó con un catálogo de más de 120 obras, la mayoría cortos y mediometrajes. Entre sus miembros destacaban Llorenç Soler, Helena Lumbreras y Mariano Lisa, quienes fundaron la productora Cooperativa de Cinema Alternatiu para sus propias películas. En 1980 la Central se legaliza constituyéndose como Sociedad Cooperativa Central del Curt. Un año después organizan la I Mostra de Cinema Marginal a Catalunya. En 1982 deja de funcionar, cediendo sus fondos a la Federació Catalana de Cineclubs. (Más información: <a href="http://www.macba.cat/uploads/20050628/rom_cas.pdf">Artículo REvista, num.0, verano 2005</a> (PDF), <a href="http://www.macba.cat/uploads/20050628/biblio_rom_cat.pdf">Bibliografía</a> (PDF))</li>
+    <li>'''Central del Curt / Central del Corto:''' distribuidora alternativa que funcionó en los años 70 en España y que contó con un catálogo de más de 120 obras, la mayoría cortos y mediometrajes. Entre sus miembros destacaban Llorenç Soler, Helena Lumbreras y Mariano Lisa, quienes fundaron la productora Cooperativa de Cinema Alternatiu para sus propias películas. En 1980 la Central se legaliza constituyéndose como Sociedad Cooperativa Central del Curt. Un año después organizan la I Mostra de Cinema Marginal a Catalunya. En 1982 deja de funcionar, cediendo sus fondos a la Federació Catalana de Cineclubs. (Más información: [http://www.macba.cat/uploads/20050628/rom_cas.pdf Artículo REvista, num.0, verano 2005], [http://www.macba.cat/uploads/20050628/biblio_rom_cat.pdf Bibliografía])</li>
     
-    <!--<li><b>Chile Films:</b></li>-->
-
-    <li><b>Colectivo Cine de Clase:</b> co-fundado por Helena Lumbreras, cineasta antifranquista, que había iniciado su carrera en Italia haciendo documentales para la RAI y colaborando con figuras como Fellini, Rosi, Pontecorvo y Pasolini. El objetivo de este colectivo era "filmar sueños de personas que estaban luchando para conseguir mejorar sus condiciones de vida". (Más información: <a href="http://documusac.es/helena-lumbreras-y-el-colectivo-cine-de-clase">Helena Lumbreras y el Colectivo Cine de Clase</a>)</li>
-
-    <li><b>Colectivo de Cine de Madrid:</b> grupo compuesto inicialmente por Andrés Linares, Tino Calabuig y <a href="http://adolfogarijo.com">Adolfo Garijo</a> que rodaron de 1975 a 1977 imágenes de la oposición en España a la dictadura franquista, con el peligro que ello suponía, tratando de evitar ser detenidos por la policía. Sus obras recogen manifestaciones, conciertos, entierros... <i><a href="https://www.youtube.com/watch?v=Kk_T2HZQC9E">Amnistía y Libertad</a></i>, <i><a href="https://www.youtube.com/watch?v=Wa6mFAjd2H4">Concierto de Gijón</a></i>, <i>Concierto de Raimon</i>, <i><a href="https://www.youtube.com/watch?v=aP8bm75OTpA">Hasta siempre en la libertad</a></i> y <i><a href="https://www.youtube.com/watch?v=wZIurkLo2P0">Vitoria</a></i> (<a href="https://www.youtube.com/watch?v=i2DEadZ-d_I">2ª parte</a>). (Más información: <a href="http://colectivodecinedemadrid.com">Web oficial</a>, <a href="https://www.youtube.com/user/Colectivodecine/videos">Canal de YouTube</a>)</li>
-
+    <!--<li>'''Chile Films:'''</li>-->
+    
+    <li>'''Colectivo Cine de Clase:''' co-fundado por Helena Lumbreras, cineasta antifranquista, que había iniciado su carrera en Italia haciendo documentales para la RAI y colaborando con figuras como Fellini, Rosi, Pontecorvo y Pasolini. El objetivo de este colectivo era "filmar sueños de personas que estaban luchando para conseguir mejorar sus condiciones de vida". (Más información: [http://documusac.es/helena-lumbreras-y-el-colectivo-cine-de-clase Helena Lumbreras y el Colectivo Cine de Clase])</li>
+    
+    <li>'''Colectivo de Cine de Madrid:''' grupo compuesto inicialmente por Andrés Linares, Tino Calabuig y [http://adolfogarijo.com Adolfo Garijo] que rodaron de 1975 a 1977 imágenes de la oposición en España a la dictadura franquista, con el peligro que ello suponía, tratando de evitar ser detenidos por la policía. Sus obras recogen manifestaciones, conciertos, entierros... ''[https://www.youtube.com/watch?v=Kk_T2HZQC9E Amnistía y Libertad]'', ''[https://www.youtube.com/watch?v=Wa6mFAjd2H4 Concierto de Gijón]'', ''Concierto de Raimon'', ''[https://www.youtube.com/watch?v=aP8bm75OTpA Hasta siempre en la libertad]'' y ''[https://www.youtube.com/watch?v=wZIurkLo2P0 Vitoria]'' ([https://www.youtube.com/watch?v=i2DEadZ-d_I 2ª parte]). (Más información: [http://colectivodecinedemadrid.com Web oficial], [https://www.youtube.com/user/Colectivodecine/videos Canal de YouTube])</li>
+    
     <li><b>Cooperativa de Cinema Alternatiu / Cooperativa de Cine Alternativo:</b> productora de la Central del Curt, compuesta por dos grupos que filmaban por separado. Uno era el Col·lectiu S.P.A. (siglas de Salvador Puig Antich) que realizaron <i>Viaje a la explotación</i> (1974) y <i>Entre la esperanza y el fraude</i> (1977). El segundo grupo rodó <i>Carn crua</i> (1975), <i>Un libro es un arma</i> (1975) y <i><a href="https://www.youtube.com/watch?v=6kj87iu8bMU">Can Serra, la objeción de conciencia en España</a></i> (1976). También produjeron tres noticieros <i>La Marxa de la llibertat</i>, <i><a href="https://www.youtube.com/watch?v=WuPjt2wecO0">La dona</a></i> y <i><a href="https://www.youtube.com/watch?v=VZncJ-OgXZI">El Born</a></i>. (Más información: <a href="http://www.macba.cat/uploads/publicacions/desacuerdos/textos/desacuerdos_4/Lydia_Garcia_Meras.pdf">El cine de la disidencia. La producción militante antifranquista 1967-1981</a>)</li>
-
+    
     <li><b>Cooperativa Obrera Cinematográfica:</b> organización creada en el verano de 1936, afín al PCE, al Sindicato General de la Cinematografía y a los Sindicatos de la Industria Cinematográfica de la UGT. Produjo documentales de Fernando G. Mantilla como <i>Julio 1936</i> (1936) y <i>¡¡Pasaremos!!</i> (1936). También distribuyó clásicos del cine soviético.</li>
-
+    
     <li><b>DEFA:</b> los estudios de cine de la República Democrática Alemana fundados en 1946. Produjo un total de 950 largometrajes, 820 películas animadas, más de 5.800 documentales y unos 4.000 doblajes de obras extranjeras. Algunas películas notables son <i>El asesino está entre nosotros</i> (1946) y <i>Los hijos de la gran madre osa</i> (1966). (Más información: <a href="https://en.wikipedia.org/wiki/Deutsche_Film-Aktiengesellschaft">Deutsche Film-Aktiengesellschaft</a>, <a href="https://en.wikipedia.org/wiki/DEFA_Film_Library">DEFA Film Library</a>, <a href="https://en.wikipedia.org/wiki/List_of_East_German_films">List of East German films</a>)</li>
-
+    
     <li><b>Estudios de Cine Gorki:</b> fundado en 1915, en él se rodó la primera película soviética de ciencia ficción, <i>Aelita: Reina de marte</i> (1924), en la que un joven viaja a Marte en un cohete para dirigir un levantamiento popular contra el rey. También se grabó la primera película soviética sonora <i>El camino de la vida</i> (1931) y la primera en color <i>Nightingale</i> (1936) ambas de Nikolai Ekk. Al final de la Unión Soviética este estudio había filmado más de 1000 películas. Fue renombrado muchas veces antes de ser dedicado a Máximo Gorki. Su nombre completo era <b>Estudio Central de Cine Máximo Gorki para la Infancia y la Juventud</b>. (Más información: <a href="https://en.wikipedia.org/wiki/Gorky_Film_Studio">Gorky Film Studio</a> [<a href="https://es.wikipedia.org/wiki/Estudios_de_Cine_Gorki">es</a>])</li>
-
+    
     <li><b>Films Popular:</b> productora y distribuidora del noticiario <i>España al día</i> y de numerosos documentales. Afín al PCE y PSUC.</li>
-
+    
     <!--<li><b>Fuego Rojo Producciones</b></li>-->
-
+    
     <li><b>Instituto Cubano del Arte e Industria Cinematográficos:</b> establecido en 1959 tras la Revolución Cubana. (Más información: <a href="https://en.wikipedia.org/wiki/Instituto_Cubano_del_Arte_e_Industria_Cinematogr%C3%A1ficos">ICAIC</a>)</li>
-
+    
     <!--<li><b>Korean Film Studio:</b> </li>-->
-
+    
     <li><b>Laya Films:</b> productora catalana de los noticiarios <i>Noticiari Laya Films</i> y <i>Espanya al día</i> y de numerosos documentales tanto del frente como de la retaguardia republicanas.</li>
-
+    
     <li><b>Lenfilm:</b> fundado en 1908, durante su evolución tuvo varios nombres <b>Comité de Cine de Petrogrado</b>, <b>SevZapKino</b> y <b>Fábrica de Cine de Goskinó de Leningrado</b>, llegó a ser el segundo más grande por detrás de Mosfilm, produciendo unas 1.500 obras. (Más información: <a href="https://es.wikipedia.org/wiki/Lenfilm">Lenfilm</a> [<a href="https://en.wikipedia.org/wiki/Lenfilm">en</a>])</li>
-
+    
     <li><b>Mezhrabpomfilm:</b> estudio germano-soviético activo de 1928 a 1936, tiempo en el que produjo cerca de 60 películas. Absorbido por Estudios de Cine Gorki. (Más información: <a href="https://en.wikipedia.org/wiki/Mezhrabpomfilm">Mezhrabpomfilm</a>)</li>
-
+    
     <li><b>Mosfilm:</b> creado en 1920, produjo más de 3.000 películas, muchas de ellas clásicos. Entre las más destacadas están obras de los directores Serguéi Eisenstein como <i>El acorazado Potemkin</i> (1925), <i>Aleksandr Nevski</i> (1938) e <i>Iván el Terrible</i> (1946), y de Andréi Tarkovski como <i>La infancia de Iván</i> (1962), <i>Andréi Rubliov</i> (1966) y <i>Solaris</i> (1972). (Más información: <a href="https://es.wikipedia.org/wiki/Mosfilm">Mosfilm</a> [<a href="https://en.wikipedia.org/wiki/Mosfilm">en</a>], <a href="https://es.wikipedia.org/wiki/Anexo:Pel%C3%ADculas_destacadas_de_Mosfilm">Anexo:Películas destacadas de Mosfilm</a>)</li>
-
+    
     <li><b>Sindicato de la Industria del Espectáculo:</b> también llamado <b>SIE Films</b> dirigido por la CNT-FAI produjo numerosos documentales y cortometrajes como <i>Los aguiluchos de la FAI por tierras de Aragón</i> (1936) y <i>Madrid tumba del fascio</i> (1936), largometrajes como <i>Aurora de esperanza</i> (1937) y <i>Barrios bajos</i> (1937) y el noticiario <i>España grá­fica</i>.</li>
-
+    
     <!--<li><b>Soyuzmultfilm:</b></li>-->
-
+    
     <li><b>Spartacus Films:</b> productora anarquista de Madrid del noticia­rio <i>Momentos de España</i>.</li>
-
+    
 </ul>
 
 <!--
@@ -137,9 +119,9 @@ https://es.wikipedia.org/wiki/Cine_sovi%C3%A9tico#Estudios_de_cine
 
 -->
 
-<h2 id="Festivales de cine">Festivales de cine</h2>
+== Festivales de cine ==
 
-<p>Para estar al tanto de las nuevas películas que salen cada año, es útil repasar las candidaturas y premios de los distintos festivales:</p>
+Para estar al tanto de las nuevas películas que salen cada año, es útil repasar las candidaturas y premios de los distintos festivales:
 
 <ul>
     
@@ -165,14 +147,14 @@ https://en.wikipedia.org/wiki/List_of_film_festivals
 http://www.ecured.cu/index.php/Festival_Internacional_de_Cine_Pobre
 -->
 
-<h2 id="Manifiestos y movimientos cinematográficos">Manifiestos y movimientos cinematográficos</h2>
+== Manifiestos y movimientos cinematográficos ==
 
 <ul>
     <!--Manifiesto de Almería-->
-
+    
     <li><b>Neorrealismo italiano:</b> movimiento surgido en Italia tras la Segunda Guerra Mundial en el que se presentan principalmente historias de la clase trabajadora, empleando para ello en su mayoría actores no profesionales. Su nombre fue acuñado por Umberto Barbaro y la primera película de este tipo se considera <i>Roma, ciudad abierta</i> (1945) de Roberto Rossellini. Otros cineastas de esta corriente incluyen a Luchino Visconti con <i>La tierra tiembla</i> (1947) y Vittorio De Sica con <i>Ladrón de bicicletas</i> (1948). (Más información: <a href="https://es.wikipedia.org/wiki/Neorrealismo_italiano">Neorrealismo italiano</a>)</li>
     <!--  Federico Fellini, Roberto Rossellini, Pier Paolo Pasolini, Vittorio de Sica, Michelangelo Antonioni y Lucino Visconti  -->
-
+    
 </ul>
 
 <!--
@@ -185,9 +167,9 @@ http://www.ecured.cu/index.php/Festival_Internacional_de_Cine_Pobre
     <li><b>Segundo de Chomón:</b> director de cine que filmó en Francia y España. (Más información: <a href="https://en.wikipedia.org/wiki/Segundo_de_Chom%C3%B3n">Segundo de Chomón</a>)</li>
 </ul>
 
-<p>--></p>
+-->
 
-<h2 id="Cine anarquista">Cine anarquista</h2>
+== Cine anarquista ==
 
 <a href="images/sie.jpg"><img src="images/sie.jpg" width="200px" align="right" /></a>
 
@@ -209,7 +191,7 @@ http://www.lne.es/tv-espectaculos/2011/01/14/gijonesa-veronica-vigil-finalista-g
     <li><b>Sau Olite, Antonio:</b> <i><a href="https://www.youtube.com/watch?v=GVIzlrb6X0M">Aurora de esperanza</a></i> (1937).</li>
     <!--<li><i>Alas negras</i> (1937)</li>-->
     <li><i><a href="https://www.youtube.com/watch?v=BEJ6lZi5dz8">Los aguiluchos de la FAI por tierras de Aragón. Estampas de la revolución antifascista</a></i> (1936)</li>
-
+    
     <!-- En el canal de la filmoteca hay unos cuantos https://www.youtube.com/watch?v=BEJ6lZi5dz8 -->
 </ul>
 
@@ -230,21 +212,21 @@ Libros:
 
 -->
 
-<h2 id="Cine sobre la resistencia en la Segunda Guerra Mundial">Cine sobre la resistencia en la Segunda Guerra Mundial</h2>
+== Cine sobre la resistencia en la Segunda Guerra Mundial ==
 
-<p>En cada país ocupado durante la Segunda Guerra Mundial hubo sectores de la población que lucharon contra el enemigo invasor formando movimientos de resistencia. (Más información: <a href="https://en.wikipedia.org/wiki/Resistance_during_World_War_II">Resistance during World War II</a>)</p>
+En cada país ocupado durante la Segunda Guerra Mundial hubo sectores de la población que lucharon contra el enemigo invasor formando movimientos de resistencia. (Más información: <a href="https://en.wikipedia.org/wiki/Resistance_during_World_War_II">Resistance during World War II</a>)
 
 <ul>
     <li><b>Resistencia frente a los nazis en Alemania</b></li>
     <ul>
         <li><b>Rothemund, Marc:</b> <i>Sophie Scholl: Los últimos días</i> (2005).</li>
     </ul>
-
+    
     <li><b>Resistencia frente a los nazis en Bielorrusia</b></li>
     <ul>
         <li><b>Klimov, Elem:</b> <i>Masacre: ven y mira</i> (1985).</li>
     </ul>
-
+    
     <!--
     <li><b>Resistencia frente al fascismo en Italia</b></li>
     <ul>
@@ -253,8 +235,8 @@ Libros:
         The Abandoned, Achtung! Bandits!, Captain Corelli's Mandolin, Cloak and Dagger, A Day for Lionhearts, A Day in Life, The Dirty Dozen: The Deadly Mission, Escape by Night, Everybody Go Home, The Fall of Italy, The Fallen, The Fascist, The Four Days of Naples, From the Clouds to the Resistance, General della Rovere, His Day of Glory, Hornets' Nest, The Hunchback of Rome, Outcry, Johnny the Partisan, Last Days of Mussolini
            
     </ul>
-<p>    --></p>
-
+    -->
+    
 </ul>
 
 <!--
@@ -265,14 +247,14 @@ Libros:
 * https://en.wikipedia.org/wiki/Category:World_War_II_resistance_movements
 -->
 
-<h2 id="Cine político, social, histórico...">Cine político, social, histórico...</h2>
+== Cine político, social, histórico... ==
 
-<p>A continuación algunas películas con bastante carga política, que tratan temas sociales, cubren acontecimientos históricos, etc.</p>
+A continuación algunas películas con bastante carga política, que tratan temas sociales, cubren acontecimientos históricos, etc.
 
 <table border=0 width=99%>
 <tr>
 <td valign=top width=50%>
-
+    
 <ul>
     <li><b>Beatty, Warren:</b> <i>Bulworth</i> (1998).</li>
     <li><b>Benigni, Roberto:</b> <i>La vida es bella</i> (1997).</li>
@@ -341,9 +323,9 @@ Libros:
 </tr>
 </table>
 
-<h2 id="Cine por época y país">Cine por época y país</h2>
+== Cine por época y país ==
 
-<p>Hay películas poco conocidas que se han filmado en <b>ciertos períodos de la historia y países concretos</b> Haciendo búsquedas en las bases de datos de cine usando rangos de fechas y país, es posible encontrar por ejemplo cine producido durante el <a href="http://www.filmaffinity.com/es/advsearch.php?page=0&stype[]=title&country=CL&fromyear=1970&toyear=1973">Chile de Salvador Allende</a> (1970-1973). Estas son algunas de ellas.</p>
+Hay películas poco conocidas que se han filmado en '''ciertos períodos de la historia y países concretos''' Haciendo búsquedas en las bases de datos de cine usando rangos de fechas y país, es posible encontrar por ejemplo cine producido durante el <a href="http://www.filmaffinity.com/es/advsearch.php?page=0&stype[]=title&country=CL&fromyear=1970&toyear=1973">Chile de Salvador Allende</a> (1970-1973). Estas son algunas de ellas.
 
 <!--
 Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_films
@@ -361,12 +343,12 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
         <li><b>Sanjinés, Jorge:</b> </li>
         <li></li>
     </ul>
-
+    
     <li><b>Francia</b> durante la resistencia antifascista</li>
     <ul>
         <li></li>
     </ul>
-<p>    --></p>
+    -->
     <li><b>Irán</b></li>
     <ul>
         <li><b>Farrokhzad, Forugh:</b> <i>La casa es negra</i> (1963).</li>
@@ -376,27 +358,27 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>Palestina</b></li>
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>República Árabe Saharaui Democrática</b></li>
     <ul>
         <li><b>Miró, María:</b> <i>Los baúles del retorno</i> (1995).</li>
     </ul>
-
+    
     <li><b>República Bolivariana de Venezuela</b></li>
     <ul>
         <li></li>
     </ul>
-<p>    --></p>
+    -->
     <li><b>República de Chile</b></li>
     <ul>
         <li><b>Littin, Miguel:</b> <i>Compañero Presidente</i> (1971).</li>
     </ul>
-
+    
     <li><b>República de Cuba</b></li>
     <ul>
         <li><b>Álvarez, Santiago:</b> <i>El tigre saltó y mató, pero morirá... morirá...</i> (1973) y <i>Now</i> (1965).</li>
@@ -408,38 +390,38 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
         <!--<li><b></b></li>-->
         <li>(Más información: <a href="https://en.wikipedia.org/wiki/Cinema_of_Cuba">Cinema of Cuba</a>)</li>
     </ul>
-
+    
     <!--
     <li><b>República Democrática Alemana</b></li>
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>República Española</b></li>
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>República Federal Socialista de Yugoslavia</b></li>
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>República Popular China</b></li>
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>República Popular de Bulgaria</b></li>
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>República Popular de Polonia</b></li>
     <ul>
         <li></li>
     </ul>
-<p>    --></p>
+    -->
     <li><b>República Popular Democrática de Corea (Corea del Norte)</b></li>
     <ul>
         <li><b>Ik Kyu, Choe:</b> <i>La florista</i> (1972).</li>
@@ -454,12 +436,12 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
     <ul>
         <li></li>
     </ul>
-
+    
     <li><b>Siria</b></li>
     <ul>
         <li></li>
     </ul>
-<p>    --></p>
+    -->
     <li><b>Unión Soviética</b></li>
     <ul>
         <li><b>Eisenstein, Sergei:</b> <i>El acorazado Potemkin</i> (1925) y <i>Octubre</i> (1928).</li>
@@ -469,9 +451,9 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
         <li><b>Raizman, Yuli:</b> <i>Berlin</i> (1945).</li>
         <li><b>Romm, Mikhail:</b> <i>El facismo ordinario</i> (1965).</li>
     </ul>
-
+    
 </ul>
-
+  
 <!--
 
 Vietnam
@@ -492,13 +474,13 @@ groenlandia
             <li>Búsquedas por <a href="http://www.filmaffinity.com/es/advsearch.php">país</a>: <a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=AF&genre=&fromyear=&toyear=">Afganistán</a>, <a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=DZ&genre=&fromyear=&toyear=">Argelia</a>, <a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=KP&genre=&fromyear=&toyear=">Corea del Norte</a>, <a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=FD&genre=&fromyear=&toyear=">RDA</a>, <a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=PS&genre=&fromyear=&toyear=">Palestina</a>, <a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=ZY&genre=&fromyear=&toyear=">URSS</a></li>
             <li>Búsquedas por <a href="http://www.filmaffinity.com/es/topics.php">tema</a>: <a href="http://www.filmaffinity.com/es/movietopic.php?topic=832153&attr=topic_count&nodoc=DO&notvse=TV_SE">Conflicto árabe-israelí</a>, <a href="http://www.filmaffinity.com/es/movietopic.php?topic=480049&attr=rat_count&nodoc=DO&notvse=TV_SE">Pobreza</a>, <a href="http://www.filmaffinity.com/es/movietopic.php?topic=213643&attr=rat_count&nodoc=DO&notvse=TV_SE">Política</a>, <a href="http://www.filmaffinity.com/es/movietopic.php?topic=922343&attr=topic_count&nodoc=DO&notvse=TV_SE">Revolución rusa</a></li>
         </ul>
-
-
+        
+        
     <li><a href="https://en.wikipedia.org/wiki/List_of_East_German_films">List of East German films</a></li>
     <li><a href="https://en.wikipedia.org/wiki/List_of_North_Korean_films">List of North Korean films</a></li>
     <li><a href="https://en.wikipedia.org/wiki/List_of_Soviet_films">List of Soviet films</a></li>
-
-<p>--></p>
+   
+-->
 
 <h2>Cine de otros temas y géneros</h2>
 
@@ -7284,12 +7266,12 @@ http://www.cubacine.cult.cu/sitios/contracorriente/index.html
     <!--
     Películas nombradas: El cantante de jazz, El nacimiento de una nación, Fuerte Apache, Río Bravo, Legión invencible, Lo que el viento se llevó, Viernes, El llanero solitario, Apocalypse Now, Distrito 9, Avatar, Tarzán, Rambo, Flecha rota, Fugitivos, Zulu, Amanecer rojo, Bailando con lobos, Furia de titanes, Argo, Black Hawk derribado, En tierra hostil, La batalla de Argel, La cabaña del Tío Tom, Bwana, Queimada, Las minas del Rey Salomón, El alamo, Capitanes de abril, Los últimos de Filipinas, 12 años de esclavitud, Boinas verdes, Invictus
     --->
-
+    
     <li>ISKRA Radio. <i><a href="https://www.youtube.com/watch?v=jRx4kixkzAw">Cine e ideología</a></i>, 7 de abril de 2014.</li>
-
+    
     <li>La Tuerka. <i><a href="https://www.youtube.com/watch?v=GZ717AVtAvU">La Guerra Civil en el cine</a></i> (<a href="https://www.youtube.com/watch?v=-HM3QIauufg">2</a>) (<a href="https://www.youtube.com/watch?v=91eozD4xWWQ">3</a>) (<a href="https://www.youtube.com/watch?v=nexNIWhiSjc">4</a>) (<a href="https://www.youtube.com/watch?v=g_jnvR6BWqs">5</a>), 2011.</li>
     <li>Pozo Fajarnés, José Luis. <i><a href="https://www.youtube.com/watch?v=tsnTQ8JbUsY">Los avatares de la URSS vistos a través del cine soviético</a></i>, 28 de febrero de 2012.</li>
-
+    
     <!--
     https://www.youtube.com/watch?v=BlPYi6adrgc Dziga Vertov y el cine sovietico
     https://www.youtube.com/playlist?list=PLuZmvBBQhAiE1mJs7Nfyx-7NgzEBojfxL
