@@ -151,14 +151,28 @@ def wiki2html(wiki):
     return html
 
 def main():
+    wikifiles = []
+    
     if len(sys.argv) < 2:
         print('Error: parameter needed')
+    elif sys.argv[1] == '--all':
+        listdir = os.listdir('.')
+        for filename in listdir:
+            if filename.endswith('.wiki'):
+                wikifiles.append(filename)
+    else:
+        wikifiles = sys.argv[1]
     
-    wikifile = sys.argv[1]
-    wiki = readwikifile(wikifile)
-    html = wiki2html(wiki)
-    #print(html)
-    savehtmlfile('%s.html' % wikifile.split('.wiki')[0], html)
+    for wikifile in wikifiles:
+        wiki = readwikifile(wikifile)
+        try:
+            html = wiki2html(wiki)
+        except:
+            print 'Error parsing', wikifile
+        #print(html)
+        htmlfile = '%s.html' % wikifile.split('.wiki')[0]
+        print 'Saving', wikifile, 'in', htmlfile
+        savehtmlfile(htmlfile, html)
 
 if __name__ == '__main__':
     main()
