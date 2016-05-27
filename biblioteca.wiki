@@ -1,69 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Biblioteca - La web de emijrp</title>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
-    <link rel="stylesheet" href="style.css" />
+{{header|1=Biblioteca}}
 
-    <script src="lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="lib/leaflet/leaflet.js" type="text/javascript"></script>
-    <script type="text/javascript" src="lib/d3/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="lib/cal-heatmap/cal-heatmap.css" />
-    <script type="text/javascript" src="lib/cal-heatmap/cal-heatmap.min.js"></script>
-    <script type="text/javascript" src="lib/moment/moment-with-langs.min.js"></script>
-</head>
-<body>
-
-<h1>Biblioteca - <a href="index.html">La web de emijrp</a></h1>
-
-
-<p>Aquí voy anotando los libros que leo, enlaces a bibliotecas en línea, editoriales que publican libros interesantes y otra información relacionada.</p>
+Aquí voy anotando los libros que leo, enlaces a bibliotecas en línea, editoriales que publican libros interesantes y otra información relacionada.
 
 <blockquote>...somos la única especie del planeta que ha inventado una memoria comunal que no está almacenada ni en nuestros genes ni en nuestros cerebros. El almacén de esta memoria se llama biblioteca. &ndash;Carl Sagan</blockquote>
 
-<h2 id="Bibliotecas en línea">Bibliotecas en línea</h2>
+== Bibliotecas en línea ==
 
-<p>Ejemplos de <b>bibliotecas en línea</b> con bastante material descargable.</p>
+Ejemplos de '''bibliotecas en línea''' con bastante material descargable.
 
 <ul>
-    <li><a href="https://creandopueblo.wordpress.com/orden-alfabetico/">Biblioteca Creando Pueblo</a>: Archivo documental para la formación del Pueblo Trabajador Andaluz. De la organización <a href="http://www.jaleoandalucia.org">Jaleo!!!</a></li>
-    <li><a href="http://bibliotecafeminista.tumblr.com">Biblioteca Feminista</a></li>
-    <li><a href="http://bolchetvo.blogspot.com">Bolchetvo</a>: obras comunistas interesantes que no se encuentran en otros sitios.</li>
-    <li><a href="https://www.marxists.org">Marxists Internet Archive</a>: biblioteca con miles de obras marxistas, muchas de ellas <a href="https://www.marxists.org/espanol/">traducidas al español</a>. Aquí encontrarás los clásicos del marxismo.</li>
-    <li><a href="https://www.gutenberg.org">Project Gutenberg</a>: fundado por Michael Hart en 1971, contiene más de 50.000 libros en dominio público, aunque la mayoría en inglés.</li>
-    <li><a href="http://socialismoactual.blogspot.com.es/search/label/Libros">Socialismo Actual</a>: algunos libros interesantes y díficiles de encontrar provenientes de editoriales populares de países socialistas, entre otras fuentes.</li>
+    <li>[https://creandopueblo.wordpress.com/orden-alfabetico/ Biblioteca Creando Pueblo]: Archivo documental para la formación del Pueblo Trabajador Andaluz. De la organización [http://www.jaleoandalucia.org Jaleo!!!]</li>
+    <li>[http://bibliotecafeminista.tumblr.com Biblioteca Feminista]</li>
+    <li>[http://bolchetvo.blogspot.com Bolchetvo]: obras comunistas interesantes que no se encuentran en otros sitios.</li>
+    <li>[https://www.marxists.org Marxists Internet Archive]: biblioteca con miles de obras marxistas, muchas de ellas [https://www.marxists.org/espanol/ traducidas al español]. Aquí encontrarás los clásicos del marxismo.</li>
+    <li>[https://www.gutenberg.org Project Gutenberg]: fundado por Michael Hart en 1971, contiene más de 50.000 libros en dominio público, aunque la mayoría en inglés.</li>
+    <li>[http://socialismoactual.blogspot.com.es/search/label/Libros Socialismo Actual]: algunos libros interesantes y díficiles de encontrar provenientes de editoriales populares de países socialistas, entre otras fuentes.</li>
 </ul>
 
-<h2 id="Catálogos de bibliotecas">Catálogos de bibliotecas</h2>
+== Catálogos de bibliotecas ==
 
-<p>Estos son los catálogos de algunas bibliotecas, que aunque en su mayoría no tienen los documentos disponibles para descargar, sirve para hacer búsquedas y encontrar algunas joyas.</p>
+Estos son los catálogos de algunas bibliotecas, que aunque en su mayoría no tienen los documentos disponibles para descargar, sirve para hacer búsquedas y encontrar algunas joyas.
 
 <ul>
-    <li><a href="http://www.bcn.cl/catalogo/">Biblioteca del Congreso Nacional de Chile</a></li>
-    <li><a href="http://catalogo.bnjm.cu/cgi-bin/koha/opac-search.pl">Biblioteca Nacional de Cuba José Martí</a></li>
+    <li>[http://www.bcn.cl/catalogo/ Biblioteca del Congreso Nacional de Chile]</li>
+    <li>[http://catalogo.bnjm.cu/cgi-bin/koha/opac-search.pl Biblioteca Nacional de Cuba José Martí]</li>
 </ul>
 
-<h2 id="Editoriales">Editoriales</h2>
+== Editoriales ==
 
-<p>Algunas <b>editoriales</b> que publican libros interesantes.</p>
+Algunas '''editoriales''' que publican libros interesantes.
 
 <ul>
-    <li><a href="http://www.akal.com">Akal</a>: editorial creada en 1972, cuenta con un catálogo de unos 3000 libros y 40 colecciones, especialmente sobre política, historia, filosofía y economía.</li>
-    <li><a href="http://www.libreria-atrapasuenos.com">Atrapasueños</a>: literatura, historia, movimientos sociales, música y más.</li>
-    <li><a href="https://lacaidaeditorial.wordpress.com">La Caída</a></li>
-    <li><a href="http://www.elviejotopo.com">El viejo topo</a></li>
-    <li><a href="http://www.icariaeditorial.com">Icaria</a></li>
-    <li><a href="http://www.editorialklinamen.net">Klinamen</a>: editorial anticapitalista y autogestionada (<a href="http://www.editorialklinamen.net/372-2/">algunos para descargar</a>).</li>
-    <li><a href="http://www.lamalatesta.net">LaMalatesta</a>: librería-editorial libertaria.</li>
+    <li>[http://www.akal.com Akal]: editorial creada en 1972, cuenta con un catálogo de unos 3000 libros y 40 colecciones, especialmente sobre política, historia, filosofía y economía.</li>
+    <li>[http://www.libreria-atrapasuenos.com Atrapasueños]: literatura, historia, movimientos sociales, música y más.</li>
+    <li>[https://lacaidaeditorial.wordpress.com La Caída]</li>
+    <li>[http://www.elviejotopo.com El viejo topo]</li>
+    <li>[http://www.icariaeditorial.com Icaria]</li>
+    <li>[http://www.editorialklinamen.net Klinamen]: editorial anticapitalista y autogestionada ([http://www.editorialklinamen.net/372-2/ algunos para descargar]).</li>
+    <li>[http://www.lamalatesta.net LaMalatesta]: librería-editorial libertaria.</li>
     <li>Novosti</li>
     <li>Páginas</li>
     <li>Progreso</li>
     <li>Pueblos Unidos</li>
-    <li><a href="http://www.solidaridadobrera.org/editorial/">Solidaridad Obrera</a></li>
-    <li><a href="http://librosml.blogspot.com">Templando el acero</a></li>
-    <li><a href="http://www.traficantes.net">Traficantes de sueños</a></li>
-    <li><a href="http://www.txalaparta.eus">Txalaparta</a></li>
+    <li>[http://www.solidaridadobrera.org/editorial/ Solidaridad Obrera]</li>
+    <li>[http://librosml.blogspot.com Templando el acero]</li>
+    <li>[http://www.traficantes.net Traficantes de sueños]</li>
+    <li>[http://www.txalaparta.eus Txalaparta]</li>
 </ul>
 <!--
 
@@ -71,9 +53,9 @@ Asociación Cultural Antón Makarenko de Educación Popular
                         
 -->
 
-<h2 id="Tabla completa">Tabla completa</h2>
+== Tabla completa ==
 
-<p>Esta tabla es una copia de los libros que he puntuado en <a href="https://www.goodreads.com/user/show/50673985-emilio">mi perfil de GoodReads</a>. Está generado con <a href="biblioteca.py">este script</a> que puedes adaptar a tu caso.</p>
+Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.com/user/show/50673985-emilio mi perfil de GoodReads]. Está generado con <a href="biblioteca.py">este script</a> que puedes adaptar a tu caso.
 
 <!-- tabla completa -->
 <script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
@@ -575,32 +557,14 @@ Asociación Cultural Antón Makarenko de Educación Popular
 
 -->
 
-<h2 id="Enlaces externos">Enlaces externos</h2>
+== Enlaces externos ==
 
-<p>Páginas que a su vez recopilan enlaces a bibliotecas, catálogos, listados o libros individuales.</p>
+Páginas que a su vez recopilan enlaces a bibliotecas, catálogos, listados o libros individuales.
 
 <ul>
-    <li><a href="http://onlinebooks.library.upenn.edu/archives.html">The Online Books Page</a>: contiene cientos de enlaces a sitios con libros en línea</li>
-    <li><a href="http://www.freeliterature.org">Free Literature</a>: recopila un listado de más de 600 sitios web con libros</li>
+    <li>[http://onlinebooks.library.upenn.edu/archives.html The Online Books Page]: contiene cientos de enlaces a sitios con libros en línea</li>
+    <li>[http://www.freeliterature.org Free Literature]: recopila un listado de más de 600 sitios web con libros</li>
 </ul>
 
-<div class="footer">
-<hr/>
-<span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></span>
-<span style="float: left"><a href="https://validator.w3.org/check?uri=referer"><img class="w3" src="https://emijrp.github.io/images/valid-xhtml10.png" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a></span>
-</div>
-
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-70849953-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-</body>
-</html>
+{{footer}}
 

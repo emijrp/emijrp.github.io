@@ -103,10 +103,10 @@ def main():
     booktable += u''.join(bookrows)
     booktable += u'</table>\n'
     
-    f = open('biblioteca.html', 'r')
+    f = open('biblioteca.wiki', 'r')
     html = unicode(f.read(), 'utf-8')
     f.close()
-    f = open('biblioteca.html', 'w')
+    f = open('biblioteca.wiki', 'w')
     html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], booktable, html.split(u'<!-- /tabla completa -->')[1])
     f.write(html.encode('utf-8'))
     f.close()
