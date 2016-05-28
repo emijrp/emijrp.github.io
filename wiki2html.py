@@ -20,9 +20,9 @@ import re
 import sys
 
 # ideas:
-# que admita como parametro de entrada *.html
 # que ponga icono de PDF a los enlaces PDF
 # que genere un sitemap
+# hacer un buscador interno en javascript?
 
 def readwikifile(wikifile):
     if os.path.exists(wikifile):
