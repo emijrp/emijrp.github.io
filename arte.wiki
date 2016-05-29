@@ -1,11 +1,11 @@
 {{header|1=Arte}}
 
-<p>Todo arte sirve a una clase social.</p>
+Todo arte sirve a una clase social.
 
-<h2>Realismo socialista</h2>
+== Realismo socialista ==
 
 
-<h2>Bibliografía</h2>
+== Bibliografía ==
 
 <ul>
     <li>Vallejo, César. <i>El arte y la revolución</i>.</li>
