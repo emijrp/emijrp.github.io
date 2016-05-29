@@ -21,6 +21,7 @@ import sys
 
 # ideas:
 # que ponga icono de PDF a los enlaces PDF
+# mostrar icono de Wayback Machine al hacer hover sobre enlace
 # que genere un sitemap
 # hacer un buscador interno en javascript?
 
