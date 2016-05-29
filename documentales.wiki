@@ -1487,13 +1487,22 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
 </table>
 <!-- /tabla completa -->
 
+== Bibliografía ==
+
+<ul>
+
+    <li>[http://www.rebelion.org/noticia.php?id=97750 "Causa 661/52", un documental que denuncia a los nuevos verdugos de la memoria]</li>
+    <li></li>
+    
+</ul>
+
 <h2>Sitios web</h2>
 
 <ul>
 
-    <li><b><a href="http://www.rebeldemule.org">Rebeldemule</a></b></li>
-    <li><b><a href="http://videotecaalternativa.net">Videoteca alternativa</a></b></li>
-    <li><b><a href="http://wayback.archive.org/web/20120707033440/http://www.pcoe.net/CINE/videos.html">Videoteca del PCOE</a></b></li>
+    <li>[http://www.rebeldemule.org Rebeldemule]</li>
+    <li>[http://videotecaalternativa.net Videoteca alternativa]</li>
+    <li>[http://wayback.archive.org/web/20120707033440/http://www.pcoe.net/CINE/videos.html Videoteca del PCOE]</li>
 
 </ul>
 
