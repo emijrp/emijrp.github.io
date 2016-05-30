@@ -47,6 +47,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=snail-mail.html|2=Snail mail}}
     {{button-grey|1=Software}}
     {{button-blue|1=viajes.html|2=Viajes}}
+    {{button-blue|1=vuelta-a-espana.html|2=Vuelta a España}}
     {{button-blue|1=wikis.html|2=Wikis}}
 </p>
 
