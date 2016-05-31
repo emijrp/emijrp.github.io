@@ -1,5 +1,5 @@
 {{header|1=Cine}}
-{{vt2|1=Documentales|2=Series}}
+{{vt2|1=documentales|2=Documentales|3=series|4=Series}}
 
 El '''cine''' es una de las artes más difundidas e influyentes que existen y eso que surgió hace poco más de un siglo.
 

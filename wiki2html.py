@@ -125,11 +125,11 @@ def textformat(wiki):
 def linksinternal(wiki):
     m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', wiki)
     for i in m:
-        wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (i[0].lower(), i[1]), wiki)
+        wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i[0].lower()), i[1]), wiki)
     
     m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\]\]', wiki)
     for i in m:
-        wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html">%s</a>' % (i.lower(), i), wiki)
+        wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i.lower()), i), wiki)
         
     return wiki
 

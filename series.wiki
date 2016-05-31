@@ -1,5 +1,5 @@
 {{header|1=Series}}
-{{vt2|1=Cine|2=Documentales}}
+{{vt2|1=cine|2=Cine|3=documentales|4=Documentales}}
 
 == Friends ==
 

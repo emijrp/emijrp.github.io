@@ -1,5 +1,5 @@
 {{header|1=Documentales}}
-{{vt2|1=Cine|2=Series}}
+{{vt2|1=cine|2=Cine|3=series|4=Series}}
 
 Una colección de '''documentales''' interesantes sobre política, historia, sociedad, etc:
 
