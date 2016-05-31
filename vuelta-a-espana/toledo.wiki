@@ -1,14 +1,6 @@
-{{header|1=Vuelta a España}}
+{{header|1=Etapa 1: Toledo}}
 
-La '''Vuelta a España en 50 semanas''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
-
-A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de Toledo y Segovia, gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.
-
-El medio de transporte que habitualmente utilizo para desplazamientos de más de 50 km es el tren. Es cierto que es ligeramente más caro que el autobús, pero también es más cómodo y seguro (creo). A continuación voy relatando mi paso por las distintas etapas.
-
-== Etapa 1: Toledo ==
-
-La provincia de Toledo se encuentra en Castilla-La Mancha, limitando la Comunidad de Madrid por el Sur con ella. Es un destino muy habitual entre los madrileños para hacer una excursión de un día o fin de semana dada su proximidad a Madrid. En tren (AVANT) se tarda unos 33 minutos en llegar desde Atocha y tiene un coste de unos 10 euros (20 euros con ida-vuelta).
+La '''provincia de Toledo''' se encuentra en Castilla-La Mancha, limitando la Comunidad de Madrid por el Sur con ella. Es un destino muy habitual entre los madrileños para hacer una excursión de un día o fin de semana dada su proximidad a Madrid. En tren (AVANT) se tarda unos 33 minutos en llegar desde Atocha y tiene un coste de unos 10 euros (20 euros con ida-vuelta).
 
 Al llegar al destino, lo primero que llama la atención es la propia estación de tren de Toledo, con estilo mudéjar. Saliendo de ésta hacia la derecha y andando por una avenida durante unos 10 minutos, enseguida te topas con el río Tajo (el más largo de la Península y que desemboca en el Atlántico en Portugal), el cuál se cruza por un puente moderno desde el que se ve otro con más historia, el puente de Alcántara. Desde esta zona ya es posible divisar el Castillo de San Severiano y el Alcázar de Toledo en la zona alta de la ciudad.
 
@@ -22,8 +14,4 @@ También vi desde fuera o lejos el edificio de la Academia de Infantería, la Ca
 
 A la vuelta hacia la estación de tren no hice el trayecto inverso, sino que bajando por las cuestas (creyendo que me llevaría por el mismo lugar que vine, es fácil perderse) llegué a un camino que bordea el Tajo. Decidí entonces simplemente seguir esta ruta hacia el puente de Alcántara que se veía a lo lejos y después de unos 20 minutos llegué a la avenida que conecta con la estación de tren.
 
-== Etapa 2: Segovia ==
-
-
-
-{{footer}}
+{{../footer}}
