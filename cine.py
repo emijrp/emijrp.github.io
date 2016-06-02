@@ -113,7 +113,7 @@ def main():
         for rating in m:
             ratings.append(rating)
     
-        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a href="/es/film(?P<id>\d+)\.html">(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*<div class="mc-cast">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>', html)
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<div class="credits">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*</div>\s*<div class="mc-cast"><div class="credits">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div></div>', html)
         c = 0 #for ratings index
         for i in m:
             filmprops = {}
@@ -225,7 +225,7 @@ def main():
         print 'ERROR: countries'
         sys.exit()
     
-    html2 = html2.split('<select name="country">')[1]
+    html2 = html2.split('<select name="country" id="country">')[1]
     html2 = html2.split('</select>')[0]
     allcountries = re.findall(ur'(?im)<option value="([^<>]+?)"\s*>([^<>]+?)</option>', html2)
     for x, y in allcountries:
