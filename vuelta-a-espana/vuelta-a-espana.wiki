@@ -1,6 +1,41 @@
 {{header|1=Portada}}
 {{../vt|1=../Viajes|2=Viajes}}
 
+<div id="map" style="float: right;width: 500px; height: 400px;"></div>
+
+<script>
+    // http://leafletjs.com/examples/custom-icons.html
+    
+    var places = [
+        ["Toledo", 39.8603, -4.0175, "img", "1", "toledo.html"], 
+        ["Segovia", 40.948, -4.1177, "img", "2", "segovia.html"], 
+        //["Ávila", 0, 0, "img", "3", "avila.html"], 
+        //["Barcelona", 41.403076, 2.173695], 
+        //["Cádiz", 36.529824, -6.292721], 
+        //["Cáceres", 39.475111, -6.371400], 
+        //["Córdoba", 37.877220, -4.778585], 
+        //["Granada", 37.177050, -3.589184], 
+        //["Madrid", 40.416957, -3.703478], 
+        //["Málaga", 36.721217, -4.414778], 
+    ];
+    
+    var map = L.map('map').setView([40.416957, -3.703478], 6);
+    mapLink = 
+        '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 12,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .addTo(map);
+    }
+    
+</script>
+
 La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
 
 A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de [[Toledo]] y [[Segovia]], gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.
@@ -14,5 +49,6 @@ El medio de transporte que habitualmente utilizo para desplazamientos de más de
 
 </ul>
 
+<br clear="all" />
 
 {{../footer}}
