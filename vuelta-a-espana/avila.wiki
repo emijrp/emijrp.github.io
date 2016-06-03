@@ -1,4 +1,4 @@
-{{header|1=Etapa 3: Ávila}}
+<noinclude>{{header|1=Etapa 3: Ávila}}</noinclude>
 
 La '''provincia de Ávila''', limítrofe con la de Madrid (al igual que [[Toledo]] y [[Segovia]]), se encuentra en '''Castilla y León'''. Ávila es una ciudad cuyo '''centro histórico''' se encuentra dentro de un '''recinto amurallado''' de unos 3 km. Llegué a Ávila tras 1 hora y 30 minutos de trayecto aproximadamente, abordo de un tren media-distancia. Se trataba de un tren con destino Salamanca y que hacía parada en Ávila, entre otras, como El Escorial.
 
@@ -6,7 +6,7 @@ Durante el trayecto destacan los paisajes montañosos que en esta época del añ
 
 Me bajé en mi parada, Ávila, y el tren siguió su destino hacia Salamanca. Saliendo de la estación continué todo recto hasta que encontré los primeros indicativos turísticos. Tras unos 10 minutos andando, llegué a las inmediaciones de '''la muralla y la Basílica de San Vicente'''. Tomé algunas fotos y me dirigí a la oficina de turismo, de varias plantas, donde había algunas maquetas de la muralla y otros carteles informativos.
 
-Al salir de la oficina, caminé unos metros y enseguida dí con una de las múltiples puertas y arcos de la muralla, en este caso el '''Arco del Mariscal'''. Es una zona alta desde la que se ven los campos que rodean Ávila. Le pedí a unas chicas que también se veía que hacían turismo que me sacaran una foto con mi cámara usando como fondo la muralla.
+Al salir de la oficina, caminé unos metros y enseguida dí con una de las múltiples puertas y arcos de la muralla, en este caso el '''Arco del Mariscal'''. Es una zona alta desde la que se ven los campos que rodean Ávila. Le pedí a unas chicas que también se veía que hacían turismo que me sacaran una foto usando como fondo la muralla.
 
 A continuación crucé la muralla por dicho arco y me dediqué a callejear sin un rumbo concreto, llegando a la '''Plaza del Mercado chico''', donde se encuentra el Ayuntamiento. Seguí andando, pasando por delante del Archivo General Militar de Ávila y algún edificio religioso. Vi los indicativos para llegar a '''Los 4 Postes''', un punto elevado a las afueras desde la que se ve las murallas al completo, por lo que seguí dicho rumbo para tomar algunas fotografías. Pronto llegué a los límites de la muralla y a otra de sus puertas, cruzándola esta vez hacia afuera.
 
@@ -16,5 +16,5 @@ Ya era la hora de comer así que me quedé en las proximidades del río Adaja, d
 
 Callejeé un poco más y luego ya puse rumbo de vuelta hacia la estación.
 
-{{../footer}}
+<noinclude>{{../footer}}</noinclude>
 
