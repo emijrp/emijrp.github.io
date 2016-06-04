@@ -49,7 +49,7 @@ def sections(wiki):
     return wiki
 
 def templates(wiki):
-    templates = re.findall(r'(?im)\{\{([^\{\}\n\r]+?)\}\}', wiki)
+    templates = re.findall(r'(?im)\{\{([^\{\}]+?)\}\}', wiki)
     for template in templates:
         templatename = template.split('|')[0]
         templateparameters = template.split('|')[1:]
@@ -60,8 +60,8 @@ def templates(wiki):
         wikitemplate = re.sub(r'(?im)<includeonly>(.*?)</includeonly>', '\1', wikitemplate)
         c = 1
         for templateparameter in templateparameters:
-            parametername = templateparameter.split('=')[0]
-            parametervalue = templateparameter.split('=')[1]
+            parametername = templateparameter.split('=')[0].strip()
+            parametervalue = templateparameter.split('=')[1].strip()
             wikitemplate = wikitemplate.replace('{{{%s}}}' % (parametername), parametervalue)
             wikitemplate = wikitemplate.replace('{{{%s|}}}' % (parametername), parametervalue)
             c += 1
@@ -74,11 +74,17 @@ def templates(wiki):
     return wiki
 
 def images(wiki):
+    imagepath = '.'
+    if os.path.exists('imagepath.wiki'):
+        f = open('imagepath.wiki')
+        imagepath = f.read().strip()
+        f.close()
+    
     images = re.findall(r'(?im)\[\[File:([^\[\]\|]+?)\]\]', wiki)
     for image in images:
         imagename = image.split('|')[0]
         imageparameters = image.split('|')[1:]
-        wiki = wiki.replace('[[File:%s]]' % imagename, '<img src="images/%s" />' % (imagename))
+        wiki = wiki.replace('[[File:%s]]' % imagename, '<a href="%s/%s"><img src="%s/%s" width="300px" /></a>' % (imagepath, imagename, imagepath, imagename))
     
     return wiki
 
@@ -175,12 +181,12 @@ def main():
         wiki = readwikifile(wikifile)
         try:
             html = wiki2html(wiki)
+            #print(html)
+            htmlfile = '%s.html' % wikifile.split('.wiki')[0]
+            print 'Saving', wikifile, 'in', htmlfile
+            savehtmlfile(htmlfile, html)
         except:
             print 'Error parsing', wikifile
-        #print(html)
-        htmlfile = '%s.html' % wikifile.split('.wiki')[0]
-        print 'Saving', wikifile, 'in', htmlfile
-        savehtmlfile(htmlfile, html)
 
 if __name__ == '__main__':
     main()
