@@ -18,6 +18,6 @@ A la vuelta hacia la estación de tren no hice el trayecto inverso, sino que baj
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-{{navbox-etapa|1=vuelta-a-espana|2=Portada|3=Etapa 1: Toledo|4=segovia|5=Etapa 2: Segovia}}
+<noinclude>{{navbox-etapa|1=vuelta-a-espana|2=Portada|3=Etapa 1: Toledo|4=segovia|5=Etapa 2: Segovia}}</noinclude>
 
 <noinclude>{{../footer}}</noinclude>

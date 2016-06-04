@@ -16,6 +16,6 @@ Compré unas postales como suelo hacer, en este caso en unas tiendas de recuerdo
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-{{navbox-etapa|1=toledo|2=Etapa 1: Toledo|3=Etapa 2: Segovia|4=avila|5=Etapa 3: Ávila}}
+<noinclude>{{navbox-etapa|1=toledo|2=Etapa 1: Toledo|3=Etapa 2: Segovia|4=avila|5=Etapa 3: Ávila}}</noinclude>
 
 <noinclude>{{../footer}}</noinclude>
