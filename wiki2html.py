@@ -80,7 +80,7 @@ def images(wiki):
         imagepath = f.read().strip()
         f.close()
     
-    images = re.findall(r'(?im)\[\[(?:Image|Imagen|File):([^\[\]]+?)\]\]', wiki)
+    images = re.findall(r'(?im)\[\[File:([^\[\]]+?)\]\]', wiki)
     for image in images:
         #print image
         imagename = image.split('|')[0]
@@ -164,11 +164,38 @@ def linksexternal(wiki):
     
     return wiki
 
+def references(wiki):
+    refs = {}
+    m = re.findall(r'(?im)(<ref( name=["\']([^<>]+?)["\'])?>([^<>]+?)</ref>)', wiki)
+    c = 1
+    for i in m:
+        #print i
+        ref = i[0]
+        refname = i[2]
+        refcontent = i[3]
+        refnum = c
+        if refname:
+            refs[refname] = refnum
+        wiki = wiki.replace(ref, '<sup>[<a href="#ref%s">%s</a>]</sup>' % (c, c))
+        wiki = wiki.replace('<!--/references-->', '<li id="ref%s">%s</li>\n<!--/references-->' % (c, refcontent))
+        c += 1
+    
+    m = re.findall(r'(?im)(<ref( name=["\']([^<>]+?)["\'])?\s*/\s*>)', wiki)
+    for i in m:
+        #print i
+        ref = i[0]
+        refname = i[2]
+        if refname in refs:
+            wiki = wiki.replace(ref, '<sup>[<a href="#ref%s">%s</a>]</sup>' % (refs[refname], refs[refname]))
+    
+    return wiki
+
 def wiki2html(wiki):
     wiki = sections(wiki)
     wiki = templates(wiki)
     wiki = images(wiki)
     wiki = paragraphs(wiki)
+    wiki = references(wiki)
     wiki = textformat(wiki)
     wiki = linksinternal(wiki)
     wiki = linksexternal(wiki)

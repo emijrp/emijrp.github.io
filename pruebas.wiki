@@ -1,0 +1,19 @@
+
+
+Hola.<ref>Esto es una [https://www.google.es prueba]</ref>
+
+Adios.<ref>Esto es una [https://www.google.com otra prueba]</ref>
+
+Y más.<ref name="mas">Que '''pasa'''</ref>
+
+Otra.<ref name="mas" />
+
+
+== Referencias ==
+
+{{reflist}}
+{{reflist-end}}
+
+== Enlaces externos ==
+
+Hola
