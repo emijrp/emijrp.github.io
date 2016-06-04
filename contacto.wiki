@@ -2,6 +2,8 @@
 
 Puedes '''contactar conmigo''' en el siguiente correo electrónico:
 
-[[File:contacto.png]]
+[[File:contacto.png|left]]
+
+{{clear}}
 
 {{footer}}
