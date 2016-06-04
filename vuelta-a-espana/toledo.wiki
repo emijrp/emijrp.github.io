@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 1: Toledo}}</noinclude>
 
-{{header-etapa|1=Toledo|2=|3=|4=|5=|6=|7=|8=|9=|10=|11=|12=toledo1.jpg|13=Alcazar de Toledo}}
+{{toledo-header}}
 
 La '''provincia de Toledo''' se encuentra en '''Castilla-La Mancha''', limitando la Comunidad de Madrid por el Sur con ella. Es un destino muy habitual entre los madrileños para hacer una excursión de un día o fin de semana dada su proximidad a Madrid. En tren (AVANT) se tarda unos 33 minutos en llegar desde Atocha y tiene un coste de unos 10 euros (20 euros con ida-vuelta).
 
@@ -16,6 +16,8 @@ También vi desde fuera o lejos el edificio de la Academia de Infantería, la Ca
 
 A la vuelta hacia la estación de tren no hice el trayecto inverso, sino que bajando por las cuestas (creyendo que me llevaría por el mismo lugar que vine, es fácil perderse) llegué a un camino que bordea el Tajo. Decidí entonces simplemente seguir esta ruta hacia el puente de Alcántara que se veía a lo lejos y después de unos 20 minutos llegué a la avenida que conecta con la estación de tren.
 
-{{galeria-etapa|1=|2=|3=|4=}}
+<!--{{galeria-etapa|1=|2=|3=|4=}}-->
+
+{{navbox-etapa|1=vuelta-a-espana|2=Portada|3=Etapa 1: Toledo|4=segovia|5=Etapa 2: Segovia}}
 
 <noinclude>{{../footer}}</noinclude>

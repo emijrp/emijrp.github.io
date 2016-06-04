@@ -1,28 +1,7 @@
 {{header|1=Portada}}
 {{../vt|1=../Viajes|2=Viajes}}
 
-La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
-
-A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de [[Toledo]] y [[Segovia]], gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.
-
-Para aquellos destinos que quedan a menos de 2 horas en tren desde Madrid, he ido y vuelto en el mismo día (salgo por la mañana temprano y vuelvo por la tarde-noche). Cuando supere ese tiempo de desplazamiento valoraré el pasar una noche en algún hostal y estar dos días en el destino (o algo más).
-
-El medio de transporte que habitualmente utilizo para desplazamientos de más de 50 km es el tren. Es cierto que es ligeramente más caro que el autobús o el coche, pero también es más cómodo, rápido y seguro (creo). A continuación voy relatando mi paso por las distintas etapas completadas hasta el momento. Me gusta la fotografía, de modo que acompaño los textos con algunas de las imágenes tomadas en los viajes, las [https://www.flickr.com/photos/emijrp galerías completas] se encuentran en Flickr.
-
-== Etapas ==
-
-Cada etapa tiene su propia sección y están ordenadas cronológicamente. También puedes ver [[todas las etapas]] juntas.
-
-<ul>
-    <li>[[toledo|Etapa 1: Toledo]] (Mayo de 2016; 1 día)</li>
-    <li>[[segovia|Etapa 2: Segovia]] (Mayo de 2016; 1 día)</li>
-    <li>[[avila|Etapa 3: Ávila]] (Junio de 2016; 1 día)</li>
-
-</ul>
-
-{{clear}}
-
-<div id="map" style="width: 100%; height: 500px;"></div>
+<div id="map" style="float: right; width: 450px; height: 320px;"></div>
 
 <script>
     // http://leafletjs.com/examples/custom-icons.html
@@ -51,11 +30,27 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][1],places[i][2]])
-            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><a href="' + places[i][5] + '"><img src="../images/' + places[i][3] + '" width="200px" /></a>')
+            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><a href="' + places[i][5] + '"><img src="../images/' + places[i][3] + '" width="180px" /></a>')
             .addTo(map);
     }
     
 </script>
+
+La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
+
+A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de [[Toledo]] y [[Segovia]], gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.
+
+Para aquellos destinos que quedan a menos de 2 horas en tren desde Madrid, he ido y vuelto en el mismo día (salgo por la mañana temprano y vuelvo por la tarde-noche). Cuando supere ese tiempo de desplazamiento valoraré el pasar una noche en algún hostal y estar dos días en el destino (o algo más). El medio de transporte que habitualmente utilizo para desplazamientos de más de 50 km es el tren. Es cierto que es ligeramente más caro que el autobús o el coche, pero también es más cómodo, rápido y seguro (creo).
+
+A continuación voy relatando mi paso por las distintas etapas completadas hasta el momento. Me gusta la fotografía, de modo que acompaño los textos con algunas de las imágenes tomadas en los viajes, las [https://www.flickr.com/photos/emijrp galerías completas] se encuentran en Flickr.
+
+== Etapas ==
+
+Cada etapa tiene su propia sección y están ordenadas cronológicamente. También puedes ver [[todas las etapas]] juntas.
+
+{{toledo-header}}
+{{segovia-header}}
+{{avila-header}}
 
 {{clear}}
 

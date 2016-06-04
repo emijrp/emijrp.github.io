@@ -1,0 +1,16 @@
+
+<center>
+<table class="wikitable" width="600px" style="text-align: center;">
+
+<tr>
+
+    <td width="200px">[[{{{1}}}|{{{2}}}]]</td>
+
+    <td width="200px">'''{{{3}}}'''</td>
+
+    <td width="200px">[[{{{4}}}|{{{5}}}]]</td>
+
+</tr>
+
+</table>
+</center>

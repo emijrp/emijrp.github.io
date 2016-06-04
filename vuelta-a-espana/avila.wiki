@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 3: Ávila}}</noinclude>
 
-{{header-etapa|1=Ávila|2=|3=|4=|5=|6=|7=|8=|9=|10=|11=|12=avila1.jpg|13=Muralla de Ávila}}
+{{avila-header}}
 
 La '''provincia de Ávila''', limítrofe con la de Madrid (al igual que [[Toledo]] y [[Segovia]]), se encuentra en '''Castilla y León'''. Ávila es una ciudad cuyo '''centro histórico''' se encuentra dentro de un '''recinto amurallado''' de unos 3 km. Llegué a Ávila tras 1 hora y 30 minutos de trayecto aproximadamente, abordo de un tren media-distancia. Se trataba de un tren con destino Salamanca y que hacía parada en Ávila, entre otras, como El Escorial.
 
@@ -17,6 +17,10 @@ En días anteriores había explorado en Google Maps cómo llegar a Los 4 Postes,
 Ya era la hora de comer así que me quedé en las proximidades del río Adaja, donde encontré un merendero con algunas mesas y bancos de piedra completamente vacío y allí me senté a comer a la sombra, pues el sol apretaba bastante. Después tomé algunas fotos del río y me puse de nuevo en marcha para seguir recorriendo la muralla por la parte externa. Llegué a otra de sus puertas y accedí al interior nuevamente, llegando a la Plaza de la Santa. Seguí andando hasta llegar a la Catedral que solo vi por fuera y compré unas postales en una tienda cercana.
 
 Callejeé un poco más y luego ya puse rumbo de vuelta hacia la estación.
+
+<!--{{galeria-etapa|1=|2=|3=|4=}}-->
+
+{{navbox-etapa|1=segovia|2=Etapa 2: Segovia|3=Etapa 3: Ávila|4=|5=}}
 
 <noinclude>{{../footer}}</noinclude>
 
