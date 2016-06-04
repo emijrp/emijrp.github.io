@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 1: Toledo}}</noinclude>
 
-{{header-etapa|1=Toledo|2=|3=|4=|5=|6=|7=|8=|9=|10=|11=|12=toledo1.jpg}}
+{{header-etapa|1=Toledo|2=|3=|4=|5=|6=|7=|8=|9=|10=|11=|12=toledo1.jpg|13=Alcazar de Toledo}}
 
 La '''provincia de Toledo''' se encuentra en '''Castilla-La Mancha''', limitando la Comunidad de Madrid por el Sur con ella. Es un destino muy habitual entre los madrileños para hacer una excursión de un día o fin de semana dada su proximidad a Madrid. En tren (AVANT) se tarda unos 33 minutos en llegar desde Atocha y tiene un coste de unos 10 euros (20 euros con ida-vuelta).
 

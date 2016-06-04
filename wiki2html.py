@@ -80,11 +80,25 @@ def images(wiki):
         imagepath = f.read().strip()
         f.close()
     
-    images = re.findall(r'(?im)\[\[File:([^\[\]\|]+?)\]\]', wiki)
+    images = re.findall(r'(?im)\[\[(?:Image|Imagen|File):([^\[\]]+?)\]\]', wiki)
     for image in images:
+        #print image
         imagename = image.split('|')[0]
         imageparameters = image.split('|')[1:]
-        wiki = wiki.replace('[[File:%s]]' % imagename, '<a href="%s/%s"><img src="%s/%s" width="300px" /></a>' % (imagepath, imagename, imagepath, imagename))
+        imagewidth = ''
+        imageposition = 'right'
+        imagedesc = imagename
+        for imageparameter in imageparameters:
+            imageparameter = imageparameter.strip()
+            
+            if re.search(r'\d+px', imageparameter):
+                imagewidth = imageparameter
+            elif re.search(r'(?i)(left|center|right)', imageparameter):
+                imageposition = imageparameter
+            else:
+                imagedesc = imageparameter
+            
+        wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagepath, imagename, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
     
     return wiki
 
