@@ -22,15 +22,37 @@
 <p>&nbsp;&nbsp;&nbsp;<i>Véase también: <a href="../viajes.html">Viajes</a></i></p>
 
 
-<div id="map" style="float: right;width: 500px; height: 400px;"></div>
+<p>La <b>Vuelta a España</b> es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.</p>
+
+<p>A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de <a href="toledo.html">Toledo</a> y <a href="segovia.html">Segovia</a>, gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.</p>
+
+<p>Para aquellos destinos que quedan a menos de 2 horas en tren desde Madrid, he ido y vuelto en el mismo día (salgo por la mañana temprano y vuelvo por la tarde-noche). Cuando supere ese tiempo de desplazamiento valoraré el pasar una noche en algún hostal y estar dos días en el destino (o algo más).</p>
+
+<p>El medio de transporte que habitualmente utilizo para desplazamientos de más de 50 km es el tren. Es cierto que es ligeramente más caro que el autobús o el coche, pero también es más cómodo, rápido y seguro (creo). A continuación voy relatando mi paso por las distintas etapas completadas hasta el momento. Me gusta la fotografía, de modo que acompaño los textos con algunas de las imágenes tomadas en los viajes, las <a href="https://www.flickr.com/photos/emijrp">galerías completas</a> se encuentran en Flickr.</p>
+
+<h2 id="Etapas">Etapas</h2>
+
+<p>Cada etapa tiene su propia sección y están ordenadas cronológicamente. También puedes ver <a href="todas-las-etapas.html">todas las etapas</a> juntas.</p>
+
+<ul>
+    <li><a href="toledo.html">Etapa 1: Toledo</a> (Mayo de 2016; 1 día)</li>
+    <li><a href="segovia.html">Etapa 2: Segovia</a> (Mayo de 2016; 1 día)</li>
+    <li><a href="avila.html">Etapa 3: Ávila</a> (Junio de 2016; 1 día)</li>
+
+</ul>
+
+<br clear="all" />
+
+
+<div id="map" style="width: 100%; height: 500px;"></div>
 
 <script>
     // http://leafletjs.com/examples/custom-icons.html
     
     var places = [
-        ["Toledo", 39.8603, -4.0175, "img", "1", "toledo.html"], 
-        ["Segovia", 40.948, -4.1177, "img", "2", "segovia.html"], 
-        //["Ávila", 0, 0, "img", "3", "avila.html"], 
+        ["Toledo", 39.8603, -4.0175, "toledo1.jpg", "1", "toledo.html"], 
+        ["Segovia", 40.948, -4.1177, "segovia1.jpg", "2", "segovia.html"], 
+        ["Ávila", 40.65, -4.683333, "avila1.jpg", "3", "avila.html"], 
         //["Barcelona", 41.403076, 2.173695], 
         //["Cádiz", 36.529824, -6.292721], 
         //["Cáceres", 39.475111, -6.371400], 
@@ -51,28 +73,14 @@
 
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][1],places[i][2]])
-            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><a href="' + places[i][5] + '"><img src="../images/' + places[i][3] + '" width="200px" /></a>')
             .addTo(map);
     }
     
 </script>
 
-<p>La <b>Vuelta a España</b> es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.</p>
-
-<p>A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de <a href="toledo.html">Toledo</a> y <a href="segovia.html">Segovia</a>, gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.</p>
-
-<p>El medio de transporte que habitualmente utilizo para desplazamientos de más de 50 km es el tren. Es cierto que es ligeramente más caro que el autobús o el coche, pero también es más cómodo y seguro (creo). A continuación voy relatando mi paso por las distintas etapas completadas hasta el momento. Me gusta la fotografía, de modo que acompaño los textos con algunas de las imágenes tomadas en los viajes, las <a href="https://www.flickr.com/photos/emijrp">galerías completas</a> se encuentran en Flickr.</p>
-
-<ul>
-    <li><a href="toledo.html">Etapa 1: Toledo</a> (Mayo de 2016)</li>
-    <li><a href="segovia.html">Etapa 2: Segovia</a> (Mayo de 2016)</li>
-    <li><a href="avila.html">Etapa 3: Ávila</a> (Junio de 2016)</li>
-
-</ul>
-
-<p>También puedes ver <a href="todas-las-etapas.html">todas las etapas</a> juntas.</p>
-
 <br clear="all" />
+
 
 <div class="footer">
 <hr/>

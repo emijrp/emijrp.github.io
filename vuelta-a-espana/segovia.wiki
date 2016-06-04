@@ -1,5 +1,7 @@
 <noinclude>{{header|1=Etapa 2: Segovia}}</noinclude>
 
+{{header-etapa|1=Segovia|2=|3=|4=|5=|6=|7=|8=|9=|10=|11=|12=segovia1.jpg}}
+
 La '''provincia de Segovia''' se encuentra en '''Castilla y León''', al noroeste de Madrid. Es otro destino próximo a la capital de España y al que se puede llegar en tren también en una media hora (10 euros ida, 20 euros ida-vuelta). Me sorprendió mucho que los últimos 10-15 minutos del trayecto se hacen dentro de un túnel larguísimo y completamente oscuro, por lo que solo se puede disfrutar de las vistas desde el tren en la primera parte del viaje. (Nota: Días después buscando información sobre este tema, descubrí que se trata del '''Túnel ferroviario que atraviesa la Sierra de Guadarrama''', es el más largo de España)
 
 En mi caso llegué a la estación de Segovia-Guiomar, ya que el tren era de alta velocidad. Esta estación se encuentra en las afueras de Segovia por lo que hay que tomar un autobus local (2 euros) que te espera justo al salir de la estación y que te deja en la '''Plaza de la Artillería''', junto al acueducto, tras un trayecto de unos 15-20 minutos.

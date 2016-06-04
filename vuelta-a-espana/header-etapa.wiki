@@ -1,0 +1,20 @@
+
+<table class="wikitable" width="100%">
+
+<tr><td>'''Provincia''': {{{1}}}</td><td width="15%">'''Superficie''': {{{2}}} km<sup>2</sup></td><td width="25%">'''Población''': {{{3}}} ({{{4}}} hab./km<sup>2</sup>)</td><td rowspan="8" width="1%">[[File:{{{12}}}]]</td></tr>
+
+<tr><td>'''Municipio(s) visitado(s)''': {{{5}}}</td><td>'''Superficie''': {{{6}}} km<sup>2</sup></td><td>'''Población''': {{{7}}} ({{{8}}} hab./km<sup>2</sup>)</td></tr>
+
+<tr><td>'''Distancia recorrida''': {{{9}}}</td><td>'''Fecha''': {{{9}}}</td><td>'''Duración''': {{{9}}}</td></tr>
+
+<tr><td colspan=3>'''Arquitectura civil''': {{{9}}}</td></tr>
+
+<tr><td colspan=3>'''Arquitectura religiosa''': {{{9}}}</td></tr>
+
+<tr><td colspan=3>'''Museos''': {{{10}}}</td></tr>
+
+<tr><td colspan=3>'''Naturaleza''': {{{10}}}</td></tr>
+
+<tr><td colspan=3>'''Otros''': {{{11}}}</td></tr>
+
+</table>
