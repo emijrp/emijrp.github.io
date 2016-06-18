@@ -97,8 +97,11 @@ def images(wiki):
                 imageposition = imageparameter
             else:
                 imagedesc = imageparameter
-            
-        wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagepath, imagename, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
+        
+        if imagename.endswith('.pdf'):
+            wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s">%s</a> (PDF)' % (imagepath, imagename, imagedesc))
+        else:
+            wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagepath, imagename, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
     
     return wiki
 
