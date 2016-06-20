@@ -20,7 +20,7 @@ Callejeé un poco más y luego ya puse rumbo de vuelta hacia la estación.
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|1=segovia|2=Etapa 2: Segovia|3=Etapa 3: Ávila|4=|5=}}</noinclude>
+<noinclude>{{navbox-etapa|1=segovia|2=Etapa 2: Segovia|3=Etapa 3: Ávila|4=guadalajara|5=Etapa 4: Guadalajara}}</noinclude>
 
 <noinclude>{{../footer}}</noinclude>
 

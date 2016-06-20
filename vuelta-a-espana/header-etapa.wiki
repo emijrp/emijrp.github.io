@@ -3,7 +3,7 @@
 
 <tr><th colspan=6>[[{{{1}}}|{{{2}}}]]</th></tr>
 
-<tr><td>'''Provincia''': {{{3}}}</td><td width="15%">'''Superficie''': {{{4}}} km<sup>2</sup></td><td width="25%">'''Población''': {{{5}}} ({{{6}}} hab./km<sup>2</sup>)</td><td rowspan="8" width="1%">[[File:{{{19}}}|300px|{{{20}}}]]</td></tr>
+<tr><td>'''Provincia''': {{{3}}}</td><td width="20%">'''Superficie''': {{{4}}} km<sup>2</sup></td><td width="25%">'''Población''': {{{5}}} ({{{6}}} hab./km<sup>2</sup>)</td><td rowspan="8" width="1%">[[File:{{{19}}}|300px|{{{20}}}]]</td></tr>
 
 <tr><td>'''Municipio(s) visitado(s)''': {{{7}}}</td><td>'''Superficie''': {{{8}}} km<sup>2</sup></td><td>'''Población''': {{{9}}} ({{{10}}} hab./km<sup>2</sup>)</td></tr>
 

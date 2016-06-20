@@ -1,1 +1,1 @@
-{{header-etapa|1=toledo|2=Etapa 1: Toledo|3=Toledo|4=|5=|6=|7=|8=|9=|10=|11=|12=|13=|14=|15=|16=|17=|18=|19=toledo1.jpg|20=Alcazar de Toledo}}
+{{header-etapa|1=toledo|2=Etapa 1: Toledo|3=Toledo|4=15.369|5=699.136|6=45|7=Toledo|8=232|9=83.226|10=359|11=70 km|12=17 de mayo de 2016|13=1 día|14=|15=|16=|17=|18=|19=toledo1.jpg|20=Alcazar de Toledo}}

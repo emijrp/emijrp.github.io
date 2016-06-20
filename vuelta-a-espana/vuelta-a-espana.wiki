@@ -10,6 +10,7 @@
         ["Toledo", 39.8603, -4.0175, "toledo1.jpg", "1", "toledo.html"], 
         ["Segovia", 40.948, -4.1177, "segovia1.jpg", "2", "segovia.html"], 
         ["Ávila", 40.65, -4.683333, "avila1.jpg", "3", "avila.html"], 
+        ["Guadalajara", 40.63, -3.16, "guadalajara1.jpg", "4", "guadalajara.html"], 
         //["Barcelona", 41.403076, 2.173695], 
         //["Cádiz", 36.529824, -6.292721], 
         //["Cáceres", 39.475111, -6.371400], 
@@ -36,7 +37,7 @@
     
 </script>
 
-La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas, pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
+La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas,<ref>La semana del 6 al 12 de junio no visité ninguna provincia nueva, sino que hice turismo por Madrid que ya la conocía. De modo que esa semana rompí la continuidad de 1 semana = 1 provincia nueva.</ref> pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
 
 A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de [[Toledo]] y [[Segovia]], gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.
 
@@ -51,6 +52,11 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 {{toledo-header}}
 {{segovia-header}}
 {{avila-header}}
+{{guadalajara-header}}
+
+== Notas ==
+{{reflist}}
+{{reflist-end}}
 
 {{clear}}
 

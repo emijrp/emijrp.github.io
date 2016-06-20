@@ -1,1 +1,1 @@
-{{header-etapa|1=avila|2=Etapa 3: Ávila|3=Ávila|4=|5=|6=|7=|8=|9=|10=|11=|12=|13=|14=|15=|16=|17=|18=|19=avila1.jpg|20=Muralla de Ávila}}
+{{header-etapa|1=avila|2=Etapa 3: Ávila|3=Ávila|4=8.048|5=167.015|6=20|7=Ávila|8=231|9=58.358|10=254|11=110 km|12=1 de junio de 2016|13=1 día|14=|15=|16=|17=|18=|19=avila1.jpg|20=Muralla de Ávila}}

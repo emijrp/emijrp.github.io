@@ -12,4 +12,8 @@
 
 {{avila}}
 
+== Etapa 4: Guadalajara ==
+
+{{guadalajara}}
+
 {{../footer}}
