@@ -1,0 +1,15 @@
+{{header|1=Cocina}}
+
+Algunas recetas y otras cosillas gastronómicas.
+
+<!--
+Coliflor cocida:
+* Trocear la coliflor
+* Hervir con agua, sal y ajo
+* Cuando esté blanda, apartarla
+* Tirar agua
+* Machacarla
+
+-->
+
+{{footer}}
