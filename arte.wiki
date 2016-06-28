@@ -2,14 +2,34 @@
 
 Todo arte sirve a una clase social.
 
+== Historia del Arte ==
+
+Períodos artísticos en los que se suele dividir la Historia del Arte occidental.
+
+<ul>
+    <li>Orígenes (Prehistoria, Egipto, Mesopotamia, Persia)</li>
+    <li>Grecia y clasicismo</li>
+    <li>Romano</li>
+    <li>Cristiano</li>
+    <li>Hasta el año 1000</li>
+    <li>Románico</li>
+    <li>Gótico</li>
+    <li>Edad Media</li>
+    <li>Renacimiento</li>
+    <li>Clasicismo / Manierismo</li>
+    <li>Barroco</li>
+    <li>Ilustración</li>
+    <li>Vanguardias / Modernismo</li>
+</ul>
+
 == Realismo socialista ==
 
 
 == Bibliografía ==
 
 <ul>
+    <li>Hadjinicolaou, Nicos. <i>Historia del arte y lucha de clases</i>.</li>
     <li>Vallejo, César. <i>El arte y la revolución</i>.</li>
-
 </ul>
 
 {{footer}}
