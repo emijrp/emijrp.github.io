@@ -1,5 +1,22 @@
 {{header|1=Huerto}}
 
 
+Fases para cultivar hortalizas:
+
+* Plantar en semillero
+* Trasplante a huerto
+* Cosecha
+
+Hortalizas:
+
+* Tomate
+* Pimiento
+* Berenjena
+* Fresa
+* Cebolla
+* Lechuga
+* Zanahoria
+
+
 
 {{footer}}
