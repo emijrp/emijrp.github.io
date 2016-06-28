@@ -22,6 +22,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=audio.html|2=Audio}}
     {{button-blue|1=biblioteca.html|2=Biblioteca}}
     {{button-blue|1=cine.html|2=Cine}}
+    {{button-grey|1=cocina.html|2=Cocina}}
     {{button-grey|1=Comunismo}}
     <!--<a href="deporte.html">Deporte</a> | -->
     {{button-blue|1=bio/bio.html|2=Diccionario Biográfico}}
