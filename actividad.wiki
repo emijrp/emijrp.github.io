@@ -1,4 +1,4 @@
-{{header|1=Actividad}}
+{{headerheatmap|1=Actividad}}
 
 Estas gráficas, en forma de calendario-mapa de calor, muestran mi actividad en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros wikis como [https://wiki.15m.cc 15Mpedia], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers]. Solamente están contadas las aportaciones con la cuenta "Emijrp" que suman más de 150.000 ediciones en 10 años. No se incluyen los bots que controlo, [https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot], que en total acumulan 5 millones de ediciones. Más que las cifras totales, lo que me llamó la atención cuando vi los resultados dibujados es la constancia a lo largo del tiempo, con pocos días de inactividad.
 
