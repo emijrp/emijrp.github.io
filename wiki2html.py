@@ -22,8 +22,9 @@ import sys
 # ideas:
 # que ponga icono de PDF a los enlaces PDF
 # mostrar icono de Wayback Machine al hacer hover sobre enlace
-# que genere un sitemap
+# que genere un sitemap, y una lista de archivos
 # hacer un buscador interno en javascript?
+# que genere un TOC
 
 def readwikifile(wikifile):
     if os.path.exists(wikifile):
@@ -193,6 +194,35 @@ def references(wiki):
     
     return wiki
 
+def toc(wiki):
+    m = re.findall(r'(?im)<h([234]) id="([^<>]*?)">([^<>]*?)</h[234]>', wiki)
+    l2 = 0
+    l3 = 0
+    l4 = 0
+    if len(m) >= 2:
+         toc = '<table class="wikitable">\n'
+         toc += '<th>Tabla de contenidos</th>\n'
+         toc += '<tr><td>\n'
+         for i in m:
+             if int(i[0]) == 2:
+                 l2 += 1
+                 l3 = 0
+                 l4 = 0
+                 toc += '&nbsp;%s. <a href="#%s">%s</a><br/>\n' % (l2, i[1], i[2])
+             elif int(i[0]) == 3:
+                 l3 += 1
+                 l4 = 0
+                 toc += '&nbsp;&nbsp;&nbsp;&nbsp;%s.%s <a href="#%s">%s</a><br/>\n' % (l2, l3, i[1], i[2])
+             elif int(i[0]) == 4:
+                 l4 += 1
+                 toc += '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%s.%s.%s <a href="#%s">%s</a><br/>\n' % (l2, l3, l4, i[1], i[2])
+         
+         toc += '</td></tr>\n'
+         toc += '</table>\n'
+         wiki = re.sub('<h2', '%s<br/><h2' % (toc), wiki)
+    
+    return wiki
+
 def wiki2html(wiki):
     wiki = sections(wiki)
     wiki = templates(wiki)
@@ -202,6 +232,7 @@ def wiki2html(wiki):
     wiki = textformat(wiki)
     wiki = linksinternal(wiki)
     wiki = linksexternal(wiki)
+    wiki = toc(wiki)
     
     html = wiki
     return html
