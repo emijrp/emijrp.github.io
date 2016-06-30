@@ -24,7 +24,6 @@ import sys
 # mostrar icono de Wayback Machine al hacer hover sobre enlace
 # que genere un sitemap, y una lista de archivos
 # hacer un buscador interno en javascript?
-# que genere un TOC
 
 def readwikifile(wikifile):
     if os.path.exists(wikifile):
@@ -223,6 +222,42 @@ def toc(wiki):
     
     return wiki
 
+def sitemap(wikilist):
+    wikilist.sort()
+    table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
+    table += u"""
+    <tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Página HTML</th>
+        <th class="sorttable_alpha">Página wiki</th>
+        <th class="sorttable_numeric">Tamaño (bytes)</th>
+    </tr>"""
+    sitemaprows = []
+    c = 1
+    for i in wikilist:
+        j = i.split('.wiki')[0]
+        row = u"""
+    <tr>
+        <td>%s</td>
+        <td><a href="%s.html">%s.html</a></td>
+        <td><a href="%s.wiki">%s.wiki</a></td>
+        <td>%d</td>
+    </tr>\n""" % (c, j, j, j, j, len(readwikifile(i)))
+        sitemaprows.append(row)
+        c += 1
+    
+    table += u''.join(sitemaprows)
+    table += u'</table>\n'
+    
+    f = open('sitemap.wiki', 'r')
+    wikicode = unicode(f.read(), 'utf-8')
+    f.close()
+    f = open('sitemap.wiki', 'w')
+    wikicode = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (wikicode.split(u'<!-- tabla completa -->')[0], table, wikicode.split(u'<!-- /tabla completa -->')[1])
+    f.write(wikicode.encode('utf-8'))
+    f.close()
+
 def wiki2html(wiki):
     wiki = sections(wiki)
     wiki = templates(wiki)
@@ -249,6 +284,8 @@ def main():
         for filename in listdir:
             if filename.endswith('.wiki'):
                 wikifiles.append(filename)
+        wikifiles.append('sitemap.wiki')
+        sitemap(wikifiles)
     else:
         wikifiles = [sys.argv[1]]
     
