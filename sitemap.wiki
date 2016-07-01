@@ -337,14 +337,14 @@
         <td>47</td>
         <td><a href="sitemap.html">sitemap.html</a></td>
         <td><a href="sitemap.wiki">sitemap.wiki</a></td>
-        <td>7092</td>
+        <td>10464</td>
     </tr>
 
     <tr>
         <td>48</td>
         <td><a href="sitemap.html">sitemap.html</a></td>
         <td><a href="sitemap.wiki">sitemap.wiki</a></td>
-        <td>7092</td>
+        <td>10464</td>
     </tr>
 
     <tr>

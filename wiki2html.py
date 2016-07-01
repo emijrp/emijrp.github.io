@@ -218,7 +218,7 @@ def toc(wiki):
          
          toc += '</td></tr>\n'
          toc += '</table>\n'
-         wiki = re.sub('<h2', '%s<br/><h2' % (toc), wiki)
+         wiki = re.sub('<h2', '%s\n<h2' % (toc), wiki, count=1)
     
     return wiki
 
