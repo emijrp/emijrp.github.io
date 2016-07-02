@@ -1,0 +1,43 @@
+<noinclude>{{header|1=Cuba}}</noinclude>
+
+<!--<img src="../images/cuba-bandera.png" align="right" width="200px" />-->
+<table align="right">
+<!--<tr><td><img src="../images/cuba.gif" align="right" width="400px" /></td></tr>-->
+<tr><td><a href="https://commons.wikimedia.org/wiki/File:CubaOMC.png"><img src="../images/cuba-mapa.png" align="right" width="400px" /></a></td></tr>
+</table>
+
+<p><b>Cuba</b> es un país del Caribe, un pueblo digno que se libró de la dictadura de Batista y de la opresión capitalista mediante la revolución cubana.</p>
+
+<p>Aprende más en la <a href="http://www.ecured.cu/">Enciclopedia Cubana</a>.</p>
+
+<p>Documentales:</p>
+
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=tlQ3HgcVQm4">La nueva escuela</a>: sobre la revolución educativa, construcción de escuelas, formación de nuevos profesores, complementación de la escuela y el trabajo, etc.</li>
+</ul>
+
+<p>Algunos <b>blogs</b> sobre Cuba:</p>
+
+<ul>
+
+    <li><a href="http://gitanacubana.blogspot.com">Gitana tropical</a>: lecturas a las líneas de mi país, de mi poesía y de mí misma.</li>
+    <li><a href="http://soylamismacubana.blogspot.com">Soy la misma</a>: de todo un poco.</li>
+    <li><a href="http://maerosstorres.blogspot.com">Songo La Maya cuenta</a>: con la idea de compartir hechos históricos del territorio e historias de personas comunes.</li>
+    <li><a href="http://eladversariocubano.wordpress.com">El adversario cubano</a>: defendiendo la verdad.</li>
+    <li><a href="http://la-isla-desconocida.blogspot.com">La isla desconocida</a>: la Isla Desconocida navega en pos de sí misma, la utopía en pos de la utopía, buscándose y hallándose siempre a medias, en mares cercanos a los dominios reales.</li>
+    <li><a href="http://letracubana.blogspot.com">Letra cubana</a>: escribir siempre ha sido mi válvula de escape, mi pasaje al mundo de lo imposible, compartir lo que escribo será ahora un nuevo viaje.</li>
+
+</ul>
+
+<p>Se pueden encontrar noticias acerca de este país en <a href="http://www.cubadebate.cu/">Cubadebate</a>, <a href="http://www.granma.cu/">Granma</a>, <a href="http://www.juventudrebelde.cu/">Juventud Rebelde</a> y <a href="http://www.librered.net/?tag=cuba">LibreRed</a>.</p>
+
+<p>Algunas noticias curiosas:</p>
+
+<ul>
+
+    <li><a href="http://ccaa.elpais.com/ccaa/2013/05/07/valencia/1367953205_577370.html">Cubanos engañados por los cantos de sirena del capitalismo piden volver a Cuba</a></li>
+    <li><a href="http://www.20minutos.es/noticia/1590960/0/jovenes-preparados-espanoles/irse-fuera-empleo/emigrar-trabajo/">La mentira de que de Cuba se van y nadie quiere emigrar allí. Cuba el 2º país que más españoles recibe</a></li>
+
+</ul>
+
+<noinclude>{{footer}}</noinclude>
