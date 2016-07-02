@@ -22,8 +22,9 @@ import sys
 # ideas:
 # que ponga icono de PDF a los enlaces PDF
 # mostrar icono de Wayback Machine al hacer hover sobre enlace
-# que genere un sitemap, y una lista de archivos
+# que genere un sitemap, y una lista de archivos y un indice de palabras
 # hacer un buscador interno en javascript?
+# generar jpg con la portada de los pdf
 
 def readwikifile(wikifile):
     if os.path.exists(wikifile):
@@ -194,6 +195,10 @@ def references(wiki):
     return wiki
 
 def toc(wiki):
+    if '__notoc__' in wiki.lower():
+        wiki = re.sub(r'(?im)__NOTOC__', '', wiki)
+        return wiki
+    
     m = re.findall(r'(?im)<h([234]) id="([^<>]*?)">([^<>]*?)</h[234]>', wiki)
     l2 = 0
     l3 = 0
@@ -223,6 +228,9 @@ def toc(wiki):
     return wiki
 
 def sitemap(wikilist):
+    if not os.path.exists('sitemap.wiki'):
+        return 
+    
     wikilist.sort()
     table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
     table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
@@ -284,7 +292,6 @@ def main():
         for filename in listdir:
             if filename.endswith('.wiki'):
                 wikifiles.append(filename)
-        wikifiles.append('sitemap.wiki')
         sitemap(wikifiles)
     else:
         wikifiles = [sys.argv[1]]
