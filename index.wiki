@@ -17,6 +17,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=actividad.html|2=Actividad}}
     {{button-blue|1=activismo.html|2=Activismo}}
     {{button-grey|1=Anarquismo}}
+    {{button-grey|1=Archivos, Bibliotecas, Filmotecas y Museos}}
     {{button-blue|1=arte.html|2=Arte}}
     {{button-blue|1=astronomia.html|2=Astronomía}}
     {{button-blue|1=audio.html|2=Audio}}
@@ -50,6 +51,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=viajes.html|2=Viajes}}
     {{button-blue|1=vuelta-a-espana/vuelta-a-espana.html|2=Vuelta a España}}
     {{button-blue|1=wikis.html|2=Wikis}}
+    {{button-blue|1=sitemap.html|2=Sitemap}}
 </p>
 
 <p>Otras cosas: 
@@ -63,7 +65,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 <!--Buscador-->
 
 <!--
-== Anotaciones ==
+Anotaciones
 
 <ul>
     <li><b></b> </li>
@@ -74,4 +76,5 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 <p>Ver más <a href="anotaciones.html">anotaciones</a>.</p>
 -->
 
+__NOTOC__
 {{footer}}
