@@ -288,7 +288,7 @@
         <td>40</td>
         <td><a href="pruebas.html">pruebas.html</a></td>
         <td><a href="pruebas.wiki">pruebas.wiki</a></td>
-        <td>274</td>
+        <td>341</td>
     </tr>
 
     <tr>

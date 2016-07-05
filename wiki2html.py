@@ -207,19 +207,19 @@ def references(wiki, wikifile):
     return wiki
 
 def itemlist(wiki, wikifile):
-    wiki = re.sub(r'(?im)^\*\*\* *([^\n]*?)$', r'<ul><ul><ul><li>\1</li></ul></ul></ul>', wiki)
-    wiki = re.sub(r'(?im)^\*\* *([^\n]*?)$', r'<ul><ul><li>\1</li></ul></ul>', wiki)
-    wiki = re.sub(r'(?im)^\* *([^\n]*?)$', r'<ul><li>\1</li></ul>', wiki)
-    
+    c = 10
+    while c > 0:
+        wiki = re.sub(r'(?im)^%s *([^\n]*?)$' % ('\*'*c), r'%s<li>\1</li>%s' % ('<ul>'*c, '</ul>'*c), wiki)
+        c -= 1
     c = 10
     while c > 0:
         wiki = re.sub(r'(?im)%s\n*%s' % ('</ul>'*c, '<ul>'*c), '', wiki)
         c -= 1
-        
-    wiki = re.sub(r'(?im)^\#\#\# *([^\n]*?)$', r'<ol><ol><ol><li>\1</li></ol></ol></ol>', wiki)
-    wiki = re.sub(r'(?im)^\#\# *([^\n]*?)$', r'<ol><ol><li>\1</li></ol></ol>', wiki)
-    wiki = re.sub(r'(?im)^\# *([^\n]*?)$', r'<ol><li>\1</li></ol>', wiki)
     
+    c = 10
+    while c > 0:
+        wiki = re.sub(r'(?im)^%s *([^\n]*?)$' % ('\#'*c), r'%s<li>\1</li>%s' % ('<ol>'*c, '</ol>'*c), wiki)
+        c -= 1
     c = 10
     while c > 0:
         wiki = re.sub(r'(?im)%s\n*%s' % ('</ol>'*c, '<ol>'*c), '', wiki)
@@ -333,14 +333,14 @@ def main():
     
     for wikifile in wikifiles:
         wiki = readwikifile(wikifile)
-        #try:
-        html = wiki2html(wiki, wikifile)
-        #print(html)
-        htmlfile = '%s.html' % wikifile.split('.wiki')[0]
-        print 'Saving', wikifile, 'in', htmlfile
-        savehtmlfile(htmlfile, html)
-        #except:
-        #    print 'Error parsing', wikifile
+        try:
+            html = wiki2html(wiki, wikifile)
+            #print(html)
+            htmlfile = '%s.html' % wikifile.split('.wiki')[0]
+            print 'Saving', wikifile, 'in', htmlfile
+            savehtmlfile(htmlfile, html)
+        except:
+            print 'Error parsing', wikifile
 
 if __name__ == '__main__':
     main()
