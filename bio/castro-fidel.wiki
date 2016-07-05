@@ -1,5 +1,7 @@
 <noinclude>{{header|1=Fidel Castro}}</noinclude>
 
-'''Castro, Fidel'''. Revolucionario cubano.
+<includeonly>=== Castro, Fidel ===</includeonly>
 
-<noinclude>{{footer}}</noinclude>
+'''[[castro-fidel|Castro, Fidel]]'''. Revolucionario cubano.
+
+<noinclude>{{../footer}}</noinclude>

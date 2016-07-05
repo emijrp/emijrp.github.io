@@ -1,11 +1,13 @@
 <noinclude>{{header|1=Vladimir Lenin}}</noinclude>
 
+<includeonly>=== Lenin, Vladimir ===</includeonly>
+
 <!--<a href="https://commons.wikimedia.org/wiki/File:%D0%9B%D1%96%D0%B4%D0%B5%D1%80_%D0%A0%D0%BE%D1%81%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D1%97_%D0%BF%D0%B0%D1%80%D1%82%D1%96%D1%97_%28%D0%B1%D1%96%D0%BB%D1%8C%D1%88%D0%BE%D0%B2%D0%B8%D0%BA%D1%96%D0%B2%29,_1918.png"><img src="../images/vladimir-lenin.jpg" width="200px" align="right" /></a>-->
 <!--<img src="../images/lenin.gif" width="300px" align="right" />-->
 <!--<img src="../images/lenin2.gif" width="300px" align="right" />-->
 <img src="../images/lenin-cleaning.jpg" width="200px" align="right" alt="Lenin limpiando el mundo de escoria" />
 
-'''Lenin, Vladimir''' (22 de abril de 1870 - 21 de enero de 1924). Revolucionario y téorico político ruso, principal dirigente de la Revolución de Octubre y de la URSS de 1922 a 1924.
+'''[[lenin-vladimir|Lenin, Vladimir]]''' (22 de abril de 1870 - 21 de enero de 1924). Revolucionario y téorico político ruso, principal dirigente de la Revolución de Octubre y de la URSS de 1922 a 1924.
 
 Nació en Simbirsk, su nombre real era Vladimir Ilich Ulianov, hijo de Ilia Ulianov y María Alexandrovna Blank. El legado de Karl Marx junto con las aportaciones de Lenin reciben el nombre de Marxismo-Leninismo.
 
@@ -13,21 +15,17 @@ Se puede leer más sobre Lenin en <a href="http://www.ecured.cu/index.php/Vladim
 
 La obra de Lenin es abundante. Algunos títulos fundamentales son los siguientes:
 
-<ul>
-    <li>''[https://www.google.es/#safe=off&q=que+hacer+pdf ¿Qué hacer?]'' (1902)</li>
-    <li>''[https://www.google.es/#safe=off&q=el+imperialismo+fase+superior+del+capitalismo+pdf El imperialismo, fase superior del capitalismo]'' (1916)</li>
-    <li>''[https://www.google.es/#safe=off&q=el+estado+y+la+revolucion+pdf El Estado y la revolución]'' (1917)</li>
-    <li>''[https://www.google.es/#safe=off&q=la+enfermedad+infantil+del+izquierdismo+en+el+comunismo+pdf La enfermedad infantil del "izquierdismo" en el comunismo]'' (1920)</li>
-</ul>
+* ''[https://www.google.es/#safe=off&q=que+hacer+pdf ¿Qué hacer?]'' (1902)
+* ''[https://www.google.es/#safe=off&q=el+imperialismo+fase+superior+del+capitalismo+pdf El imperialismo, fase superior del capitalismo]'' (1916)
+* ''[https://www.google.es/#safe=off&q=el+estado+y+la+revolucion+pdf El Estado y la revolución]'' (1917)
+* ''[https://www.google.es/#safe=off&q=la+enfermedad+infantil+del+izquierdismo+en+el+comunismo+pdf La enfermedad infantil del "izquierdismo" en el comunismo]'' (1920)
 
 Son varias las películas que tratan sobre Vladimir Lenin y su papel en la revolución. Estas son algunas:
 
-<ul>
-    <li>''Octubre'' (1927) dirigida por Sergei Eisenstein</li>
-    <li>''Lenin en octubre'' (1937) y ''Lenin en 1918'' (1939) de Mikhail Romm</li>
-    <li>''Historias de Lenin'' (1957), ''Lenin en Polonia'' (1966) y ''Lenin en París'' (1981) de Sergei Yutkevich</li>
-    <li>''El tren de Lenin'' (1988) de Damiano Damiani</li>
-</ul>
+* ''Octubre'' (1927) dirigida por Sergei Eisenstein
+* ''Lenin en octubre'' (1937) y ''Lenin en 1918'' (1939) de Mikhail Romm
+* ''Historias de Lenin'' (1957), ''Lenin en Polonia'' (1966) y ''Lenin en París'' (1981) de Sergei Yutkevich
+* ''El tren de Lenin'' (1988) de Damiano Damiani
 
 <!--
 <table>
@@ -37,4 +35,4 @@ Son varias las películas que tratan sobre Vladimir Lenin y su papel en la revol
 </table>
 -->
 
-<noinclude>{{footer}}</noinclude>
+<noinclude>{{../footer}}</noinclude>

@@ -1,5 +1,7 @@
 <noinclude>{{header|1=Santiago Álvarez}}</noinclude>
 
-'''Santiago Álvarez'''. Director de cine cubano.
+<includeonly>=== Álvarez, Santiago ===</includeonly>
 
-<noinclude>{{footer}}</noinclude>
+'''[[alvarez-santiago|Álvarez, Santiago]]'''. Director de cine cubano.
+
+<noinclude>{{../footer}}</noinclude>

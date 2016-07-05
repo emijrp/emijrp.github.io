@@ -1,7 +1,9 @@
 <noinclude>{{header|1=Erich Honecker}}</noinclude>
 
-<ul>
-    <li>[https://www.marxists.org/espanol/honecker/1992/declaracion.htm Declaración en autodefensa ante tribunal de Berlin]</li>
-</ul>
+<includeonly>=== Honecker, Erich ===</includeonly>
 
-<noinclude>{{footer}}</noinclude>
+'''[[honecker-erich|Honecker, Erich]]'''. Jefe de Estado de la República Democrática Alemana.
+
+* [https://www.marxists.org/espanol/honecker/1992/declaracion.htm Declaración en autodefensa ante tribunal de Berlin]
+
+<noinclude>{{../footer}}</noinclude>

@@ -1,5 +1,7 @@
 <noinclude>{{header|1=Hugo Chávez}}</noinclude>
 
-'''Chávez, Hugo'''. Presidente de Venezuela.
+<includeonly>=== Chávez, Hugo ===</includeonly>
 
-<noinclude>{{footer}}</noinclude>
+'''[[chavez-hugo|Chávez, Hugo]]'''. Presidente de Venezuela.
+
+<noinclude>{{../footer}}</noinclude>

@@ -1,5 +1,7 @@
 <noinclude>{{header|1=Friedrich Engels}}</noinclude>
 
-'''Engels, Friedrich'''. Filósofo.
+<includeonly>=== Engels, Friedrich ===</includeonly>
 
-<noinclude>{{footer}}</noinclude>
+'''[[engels-friedrich|Engels, Friedrich]]'''. Filósofo.
+
+<noinclude>{{../footer}}</noinclude>

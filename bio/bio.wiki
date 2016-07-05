@@ -8,6 +8,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
 
 -->
 
+<!--
 <b>Índice: 
 <a href="#A">A</a> - 
 <a href="#B">B</a> - 
@@ -36,11 +37,11 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
 <a href="#Y">Y</a> - 
 <a href="#Z">Z</a>
 </b>
+-->
 
 == A ==
 
 {{allende-salvador}}
-<hr/>
 {{alvarez-santiago}}
 
 == B ==
@@ -50,7 +51,6 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
 == C ==
 
 {{castro-fidel}}
-<hr/>
 {{chavez-hugo}}
 
 == D ==
@@ -68,15 +68,12 @@ Sin entradas
 == G ==
 
 {{galeano-eduardo}}
-<hr/>
 {{gramsci-antonio}}
-<hr/>
 {{guevara-ernesto}}
 
 == H ==
 
 {{hernandez-miguel}}
-<hr/>
 {{ho-chi-minh}}
 <!--
 http://www.filmaffinity.com/es/film680186.html
@@ -103,7 +100,6 @@ Sin entradas
 == M ==
 
 {{marx-karl}}
-<hr/>
 {{morales-evo}}
 
 == N ==
@@ -157,6 +153,5 @@ Sin entradas
 == Z ==
 
 {{zetkin-clara}}
-
 
 {{../footer}}

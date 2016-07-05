@@ -41,7 +41,13 @@ def savehtmlfile(htmlfile, html):
     f.write(html)
     f.close()
 
-def sections(wiki):
+def includes(wiki, wikifile):
+    wiki = re.sub(r'(?im)<noinclude>(.*?)</noinclude>', r'\1', wiki)
+    wiki = re.sub(r'(?im)<includeonly>.*?</includeonly>', r'', wiki)
+    
+    return wiki
+
+def sections(wiki, wikifile):
     wiki = re.sub(r'(?im)^=\s*([^=]+?)\s*=', r'<h1>\1</h1>', wiki)
     wiki = re.sub(r'(?im)^==\s*([^=]+?)\s*==', r'<h2 id="\1">\1</h2>', wiki)
     wiki = re.sub(r'(?im)^===\s*([^=]+?)\s*===', r'<h3 id="\1">\1</h3>', wiki)
@@ -49,16 +55,16 @@ def sections(wiki):
     
     return wiki
 
-def templates(wiki):
+def templates(wiki, wikifile):
     templates = re.findall(r'(?im)\{\{([^\{\}]+?)\}\}', wiki)
     for template in templates:
         templatename = template.split('|')[0]
         templateparameters = template.split('|')[1:]
         wikitemplate = readwikifile('%s.wiki' % templatename.lower())
         # remove noinclude
-        wikitemplate = re.sub(r'(?im)<noinclude>.*?</noinclude>', '', wikitemplate)
+        wikitemplate = re.sub(r'(?im)<noinclude>.*?</noinclude>', r'', wikitemplate)
         # clean includeonly
-        wikitemplate = re.sub(r'(?im)<includeonly>(.*?)</includeonly>', '\1', wikitemplate)
+        wikitemplate = re.sub(r'(?im)<includeonly>(.*?)</includeonly>', r'\1', wikitemplate)
         c = 1
         for templateparameter in templateparameters:
             parametername = templateparameter.split('=')[0].strip()
@@ -69,12 +75,12 @@ def templates(wiki):
         #remove empty parameters when {{{X|}}}
         wikitemplate = re.sub(r'{{{\d+\|\s*?}}}', '', wikitemplate)
         
-        htmltemplate = wiki2html(wikitemplate)
+        htmltemplate = wiki2html(wikitemplate, wikifile)
         wiki = wiki.replace('{{%s}}' % (template), htmltemplate)
     
     return wiki
 
-def images(wiki):
+def images(wiki, wikifile):
     imagepath = '.'
     if os.path.exists('imagepath.wiki'):
         f = open('imagepath.wiki')
@@ -106,7 +112,7 @@ def images(wiki):
     
     return wiki
 
-def paragraphs(wiki):
+def paragraphs(wiki, wikifile):
     paragraphs = wiki.split('\n')
     wiki2 = ''
     skipline = False
@@ -124,6 +130,9 @@ def paragraphs(wiki):
             continue
         if paragraph2 == '':
             wiki2 += '\n'
+        elif paragraph2.startswith('*') or paragraph2.startswith('#'):
+            wiki2 += '%s\n' % (paragraph)
+            continue
         elif paragraph2.startswith('<'):
             if ('<script' in paragraph2 and not '</script>' in paragraph2) or \
                 ('<!--' in paragraph2 and not '-->' in paragraph2) or \
@@ -139,14 +148,17 @@ def paragraphs(wiki):
     
     return wiki
 
-def textformat(wiki):
+def textformat(wiki, wikifile):
     wiki = re.sub(r'(?im)\'{3}([^\']+?)\'{3}', r'<b>\1</b>', wiki)
     wiki = re.sub(r'(?im)\'{2}([^\']+?)\'{2}', r'<i>\1</i>', wiki)
     #wiki = re.sub(r'(?im)_([^\_]+?)_', r'<u>\1</u>', wiki) # error: reemplaza los _ de las urls
     
     return wiki
 
-def linksinternal(wiki):
+def linksinternal(wiki, wikifile):
+    wiki = re.sub(r'\[\[(%s)\|([^\]]*?)\]\]' % (wikifile.split('.wiki')[0]), r'<b>\2</b>', wiki)
+    wiki = re.sub(r'\[\[(%s)\]\]' % (wikifile.split('.wiki')[0]), r'<b>\1</b>', wiki)
+    
     m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', wiki)
     for i in m:
         wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i[0].lower()), i[1]), wiki)
@@ -157,7 +169,7 @@ def linksinternal(wiki):
         
     return wiki
 
-def linksexternal(wiki):
+def linksexternal(wiki, wikifile):
     # PDF #buscar icono y quitar lo de PDF
     wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a> (PDF)', wiki)
     wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\]', r'<a href="\1">\1</a> (PDF)', wiki)
@@ -168,7 +180,7 @@ def linksexternal(wiki):
     
     return wiki
 
-def references(wiki):
+def references(wiki, wikifile):
     refs = {}
     m = re.findall(r'(?im)(<ref( name=["\']([^<>]+?)["\'])?>([^<>]+?)</ref>)', wiki)
     c = 1
@@ -194,7 +206,28 @@ def references(wiki):
     
     return wiki
 
-def toc(wiki):
+def itemlist(wiki, wikifile):
+    wiki = re.sub(r'(?im)^\*\*\* *([^\n]*?)$', r'<ul><ul><ul><li>\1</li></ul></ul></ul>', wiki)
+    wiki = re.sub(r'(?im)^\*\* *([^\n]*?)$', r'<ul><ul><li>\1</li></ul></ul>', wiki)
+    wiki = re.sub(r'(?im)^\* *([^\n]*?)$', r'<ul><li>\1</li></ul>', wiki)
+    
+    c = 10
+    while c > 0:
+        wiki = re.sub(r'(?im)%s\n*%s' % ('</ul>'*c, '<ul>'*c), '', wiki)
+        c -= 1
+        
+    wiki = re.sub(r'(?im)^\#\#\# *([^\n]*?)$', r'<ol><ol><ol><li>\1</li></ol></ol></ol>', wiki)
+    wiki = re.sub(r'(?im)^\#\# *([^\n]*?)$', r'<ol><ol><li>\1</li></ol></ol>', wiki)
+    wiki = re.sub(r'(?im)^\# *([^\n]*?)$', r'<ol><li>\1</li></ol>', wiki)
+    
+    c = 10
+    while c > 0:
+        wiki = re.sub(r'(?im)%s\n*%s' % ('</ol>'*c, '<ol>'*c), '', wiki)
+        c -= 1
+    
+    return wiki
+
+def toc(wiki, wikifile):
     if '__notoc__' in wiki.lower():
         wiki = re.sub(r'(?im)__NOTOC__', '', wiki)
         return wiki
@@ -266,16 +299,18 @@ def sitemap(wikilist):
     f.write(wikicode.encode('utf-8'))
     f.close()
 
-def wiki2html(wiki):
-    wiki = sections(wiki)
-    wiki = templates(wiki)
-    wiki = images(wiki)
-    wiki = paragraphs(wiki)
-    wiki = references(wiki)
-    wiki = textformat(wiki)
-    wiki = linksinternal(wiki)
-    wiki = linksexternal(wiki)
-    wiki = toc(wiki)
+def wiki2html(wiki, wikifile):
+    wiki = includes(wiki, wikifile)
+    wiki = sections(wiki, wikifile)
+    wiki = templates(wiki, wikifile)
+    wiki = images(wiki, wikifile)
+    wiki = paragraphs(wiki, wikifile)
+    wiki = references(wiki, wikifile)
+    wiki = textformat(wiki, wikifile)
+    wiki = linksinternal(wiki, wikifile)
+    wiki = linksexternal(wiki, wikifile)
+    wiki = itemlist(wiki, wikifile)
+    wiki = toc(wiki, wikifile)
     
     html = wiki
     return html
@@ -298,14 +333,14 @@ def main():
     
     for wikifile in wikifiles:
         wiki = readwikifile(wikifile)
-        try:
-            html = wiki2html(wiki)
-            #print(html)
-            htmlfile = '%s.html' % wikifile.split('.wiki')[0]
-            print 'Saving', wikifile, 'in', htmlfile
-            savehtmlfile(htmlfile, html)
-        except:
-            print 'Error parsing', wikifile
+        #try:
+        html = wiki2html(wiki, wikifile)
+        #print(html)
+        htmlfile = '%s.html' % wikifile.split('.wiki')[0]
+        print 'Saving', wikifile, 'in', htmlfile
+        savehtmlfile(htmlfile, html)
+        #except:
+        #    print 'Error parsing', wikifile
 
 if __name__ == '__main__':
     main()

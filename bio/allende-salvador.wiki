@@ -1,5 +1,7 @@
 <noinclude>{{header|1=Salvador Allende}}</noinclude>
 
-'''Allende, Salvador'''. Presidente de Chile.
+<includeonly>=== Allende, Salvador ===</includeonly>
 
-<noinclude>{{footer}}</noinclude>
+'''[[allende-salvador|Allende, Salvador]]'''. Presidente de Chile.
+
+<noinclude>{{../footer}}</noinclude>
