@@ -29,7 +29,7 @@ import sys
 def readwikifile(wikifile):
     if os.path.exists(wikifile):
         f = open(wikifile, 'r')
-        wiki = f.read().strip()
+        wiki = unicode(f.read(), 'utf-8').strip()
         f.close()
     else:
         wiki = '<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (wikifile)
@@ -38,7 +38,7 @@ def readwikifile(wikifile):
 
 def savehtmlfile(htmlfile, html):
     f = open(htmlfile, 'w')
-    f.write(html)
+    f.write(html.encode('utf-8'))
     f.close()
 
 def includes(wiki, wikifile):
@@ -299,6 +299,16 @@ def sitemap(wikilist):
     f.write(wikicode.encode('utf-8'))
     f.close()
 
+def search(wiki, wikifile):
+    entry = []
+    
+    m = re.findall(ur'(?im)\{\{\s*header\s*\|\s*(1=)?\s*([^\}]+?)\s*\}\}', wiki)
+    for i in m:
+        if len(i) >= 2 and i[1]:
+            entry = [i[1], wikifile.split('.wiki')[0]]
+    
+    return entry
+
 def wiki2html(wiki, wikifile):
     wiki = includes(wiki, wikifile)
     wiki = sections(wiki, wikifile)
@@ -331,6 +341,7 @@ def main():
     else:
         wikifiles = [sys.argv[1]]
     
+    index = []
     for wikifile in wikifiles:
         wiki = readwikifile(wikifile)
         try:
@@ -339,8 +350,29 @@ def main():
             htmlfile = '%s.html' % wikifile.split('.wiki')[0]
             print 'Saving', wikifile, 'in', htmlfile
             savehtmlfile(htmlfile, html)
+            
+            #search engine
+            entry = search(wiki, wikifile)
+            if entry:
+                index.append(entry)
         except:
             print 'Error parsing', wikifile
+    
+    #save index for search engine
+    index.sort()
+    indexplain = u"    indice = new Array();"
+    c = 0
+    for entry in index:
+        indexplain += u"\n    indice[%s] = new Array('%s', '%s');" % (c, entry[0], entry[1])
+        c += 1
+    
+    f = open('buscador.wiki', 'r')
+    wikicode = unicode(f.read(), 'utf-8')
+    f.close()
+    f = open('buscador.wiki', 'w')
+    wikicode = u'%s//index start%s//index end%s' % (wikicode.split(u'//index start')[0], indexplain, wikicode.split(u'//index end')[1])
+    f.write(wikicode.encode('utf-8'))
+    f.close()
 
 if __name__ == '__main__':
     main()

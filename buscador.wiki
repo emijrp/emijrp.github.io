@@ -1,0 +1,27 @@
+{{header|1=Buscador}}
+
+<form id="search">
+Buscar: <input id="entry" type="text" value="" onkeyup="javascript:search();" /> <input id="button" type="button" value="Buscar" onclick="javascript:search();"/>
+</form>
+
+<div id="results">Sin resultados</div>
+
+<script>
+    //index start
+    //index end
+    
+    function search() {
+        entry = document.getElementById('entry').value;
+        
+        document.getElementById.innerHTML = '<ul>';
+        for (i = 0; i < index.length; i++) {
+            if (index[i][0].toLowerCase().indexOf(entry.toLowerCase()) > -1) {
+                
+                document.getElementById.innerHTML += '    <li><a href="' + index[i][1] + '.html">' + index[i][0] + '</a></li>';
+                
+            }
+        }
+        document.getElementById.innerHTML += '</ul>';    }
+</script>
+
+{{footer}}
