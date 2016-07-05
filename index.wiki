@@ -57,7 +57,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 <p>Otras cosas: [[bne|Biblioteca Nacional de España]], [[voynich|Manuscrito Voynich]], [[gordillo|Poemas de Juan Manuel Sánchez Gordillo]], [[simonov|Poemas de Konstantin Simonov]]
 </p>
 
-<p>Puedes usar el [[buscador]].</p>
+<p>También puedes usar el [[buscador]]</p>
 
 <!--Actualizaciones-->
 <!--Anotaciones
