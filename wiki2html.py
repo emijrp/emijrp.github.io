@@ -32,7 +32,7 @@ def readwikifile(wikifile):
         wiki = unicode(f.read(), 'utf-8').strip()
         f.close()
     else:
-        wiki = '<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (wikifile)
+        wiki = u'<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (wikifile)
     
     return wiki
 
@@ -68,7 +68,10 @@ def templates(wiki, wikifile):
         c = 1
         for templateparameter in templateparameters:
             parametername = templateparameter.split('=')[0].strip()
-            parametervalue = templateparameter.split('=')[1].strip()
+            try:
+                parametervalue = templateparameter.split('=')[1].strip()
+            except:
+                parametervalue = u''
             wikitemplate = wikitemplate.replace('{{{%s}}}' % (parametername), parametervalue)
             wikitemplate = wikitemplate.replace('{{{%s|}}}' % (parametername), parametervalue)
             c += 1
@@ -346,19 +349,16 @@ def main():
     index = []
     for wikifile in wikifiles:
         wiki = readwikifile(wikifile)
-        try:
-            html = wiki2html(wiki, wikifile)
-            #print(html)
-            htmlfile = '%s.html' % wikifile.split('.wiki')[0]
-            print 'Saving', wikifile, 'in', htmlfile
-            savehtmlfile(htmlfile, html)
-            
-            #search engine
-            entry = search(wiki, wikifile)
-            if entry:
-                index.append(entry)
-        except:
-            print 'Error parsing', wikifile
+        html = wiki2html(wiki, wikifile)
+        #print(html)
+        htmlfile = '%s.html' % wikifile.split('.wiki')[0]
+        print 'Saving', wikifile, 'in', htmlfile
+        savehtmlfile(htmlfile, html)
+        
+        #search engine
+        entry = search(wiki, wikifile)
+        if entry:
+            index.append(entry)
     
     #save index for search engine
     index.sort()
