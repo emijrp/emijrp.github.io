@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="buscador.html">buscador.html</a></td>
         <td><a href="buscador.wiki">buscador.wiki</a></td>
-        <td>2655</td>
+        <td>2935</td>
     </tr>
 
     <tr>

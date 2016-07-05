@@ -17,6 +17,8 @@
 <p>Buscar: <input id="entry" type="text" value="" onkeyup="javascript:search();" /> <input id="button" type="button" value="Buscar" onclick="javascript:search();"/></p>
 </form>
 
+<p>Debes introducir al menos 3 letras, por ejemplo "ast" mostrará entre otras cosas el resultado "astronomía".</p>
+
 <div id="results">Sin resultados</div>
 
 <script>
@@ -59,14 +61,21 @@
     function search() {
         entry = document.getElementById('entry').value;
         if (entry.length <= 2) { return 0; }
+        found = false;
         
-        document.getElementById('results').innerHTML = '<ul>';
+        document.getElementById('results').innerHTML = '<ul >';
         for (i = 0; i < index.length; i++) {
             if (index[i][0].toLowerCase().indexOf(entry.toLowerCase()) > -1) {
                 document.getElementById('results').innerHTML += '    <li><a href="' + index[i][1] + '.html">' + index[i][0] + '</a></li>';
+                found = true;
             }
         }
-        document.getElementById('results').innerHTML += '</ul>';    }
+        document.getElementById('results').innerHTML += '</ul >';
+        if (!found) {
+            document.getElementById('results').innerHTML = 'Sin resultados'; 
+        }
+    }
+    
 </script>
 
 <div class="footer">
