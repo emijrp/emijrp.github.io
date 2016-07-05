@@ -55,25 +55,16 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 </p>
 
 <p>Otras cosas: 
-    <a href="bne.html">Biblioteca Nacional de España</a>, 
-    <a href="voynich.html">Manuscrito Voynich</a>, 
-    <a href="gordillo.html">Poemas de Juan Manuel Sánchez Gordillo</a>, 
-    <a href="simonov.html">Poemas de Konstantin Simonov</a>
+    [[bne|Biblioteca Nacional de España]], 
+    [[voynich|Manuscrito Voynich]], 
+    [[gordillo|Poemas de Juan Manuel Sánchez Gordillo]], 
+    [[simonov|Poemas de Konstantin Simonov]]
 </p>
 
-<!--Actualizaciones:-->
+<!--Actualizaciones-->
 <!--Buscador-->
-
-<!--
-Anotaciones
-
-<ul>
-    <li><b></b> </li>
-
-</ul>
-
-
-<p>Ver más <a href="anotaciones.html">anotaciones</a>.</p>
+<!--Anotaciones
+Ver más [[anotaciones]].
 -->
 
 __NOTOC__
