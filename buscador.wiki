@@ -32,17 +32,20 @@ Debes introducir al menos 3 letras, por ejemplo "ast" mostrará entre otras cosa
     index[18] = new Array('Informática', 'informatica');
     index[19] = new Array('Locapedias', 'locapedias');
     index[20] = new Array('Manuscrito Voynich', 'voynich');
-    index[21] = new Array('Memoria Histórica', 'memoria');
-    index[22] = new Array('Nostalgia', 'nostalgia');
-    index[23] = new Array('Poemas de Juan Manuel Sánchez Gordillo', 'gordillo');
-    index[24] = new Array('Poemas de Konstantin Simonov', 'simonov');
-    index[25] = new Array('Portada', 'index');
-    index[26] = new Array('Preservación digital', 'preservacion-digital');
-    index[27] = new Array('Publicaciones', 'publicaciones');
-    index[28] = new Array('Radio', 'radio');
-    index[29] = new Array('Sitemap', 'sitemap');
-    index[30] = new Array('Snail mail', 'snail-mail');
-    index[31] = new Array('Wikis', 'wikis');
+    index[21] = new Array('Medios', 'medios');
+    index[22] = new Array('Memoria Histórica', 'memoria');
+    index[23] = new Array('Música', 'musica');
+    index[24] = new Array('Nostalgia', 'nostalgia');
+    index[25] = new Array('Poemas de Juan Manuel Sánchez Gordillo', 'gordillo');
+    index[26] = new Array('Poemas de Konstantin Simonov', 'simonov');
+    index[27] = new Array('Portada', 'index');
+    index[28] = new Array('Preservación digital', 'preservacion-digital');
+    index[29] = new Array('Publicaciones', 'publicaciones');
+    index[30] = new Array('Radio', 'radio');
+    index[31] = new Array('Series', 'series');
+    index[32] = new Array('Sitemap', 'sitemap');
+    index[33] = new Array('Snail mail', 'snail-mail');
+    index[34] = new Array('Wikis', 'wikis');
     //index end
     
     function search() {
