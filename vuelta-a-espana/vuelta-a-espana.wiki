@@ -1,4 +1,4 @@
-{{header|1=Portada}}
+{{headerleaflet|1=Portada}}
 {{../vt|1=../Viajes|2=Viajes}}
 
 <div id="map" style="float: right; width: 450px; height: 320px;"></div>
@@ -49,9 +49,19 @@ A continuación voy relatando mi paso por las distintas etapas completadas hasta
 
 Cada etapa tiene su propia sección y están ordenadas cronológicamente. También puedes ver [[todas las etapas]] juntas.
 
+=== Etapa 1: Toledo ===
 {{toledo-header}}
+
+=== Etapa 2: Segovia ===
+
 {{segovia-header}}
+
+=== Etapa 3: Ávila ===
+
 {{avila-header}}
+
+=== Etapa 4: Guadalajara ===
+
 {{guadalajara-header}}
 
 == Notas ==
