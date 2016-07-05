@@ -29,7 +29,7 @@
         <td>3</td>
         <td><a href="arte.html">arte.html</a></td>
         <td><a href="arte.wiki">arte.wiki</a></td>
-        <td>870</td>
+        <td>677</td>
     </tr>
 
     <tr>
