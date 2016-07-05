@@ -40,4 +40,4 @@
 
 </ul>
 
-<noinclude>{{footer}}</noinclude>
+<noinclude>{{../footer}}</noinclude>

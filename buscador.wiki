@@ -8,20 +8,52 @@ Buscar: <input id="entry" type="text" value="" onkeyup="javascript:search();" />
 
 <script>
     //index start
+    index = new Array();
+    index[0] = new Array('Anotaciones', 'anotaciones');
+    index[1] = new Array('Arte', 'arte');
+    index[2] = new Array('Astronomía', 'astronomia');
+    index[3] = new Array('Audio', 'audio');
+    index[4] = new Array('Barcelone et son parc', 'barcelone-et-son-parc');
+    index[5] = new Array('Biblioteca', 'biblioteca');
+    index[6] = new Array('Biblioteca Nacional de España', 'bne');
+    index[7] = new Array('Buscador', 'buscador');
+    index[8] = new Array('Cine', 'cine');
+    index[9] = new Array('Cocina', 'cocina');
+    index[10] = new Array('Contacto', 'contacto');
+    index[11] = new Array('Documentales', 'documentales');
+    index[12] = new Array('Favoritas', 'favoritas');
+    index[13] = new Array('Feminismo', 'feminismo');
+    index[14] = new Array('Fotografía', 'fotografia');
+    index[15] = new Array('Frases', 'frases');
+    index[16] = new Array('Futuro', 'futuro');
+    index[17] = new Array('Huerto', 'huerto');
+    index[18] = new Array('Informática', 'informatica');
+    index[19] = new Array('Locapedias', 'locapedias');
+    index[20] = new Array('Manuscrito Voynich', 'voynich');
+    index[21] = new Array('Memoria Histórica', 'memoria');
+    index[22] = new Array('Nostalgia', 'nostalgia');
+    index[23] = new Array('Poemas de Juan Manuel Sánchez Gordillo', 'gordillo');
+    index[24] = new Array('Poemas de Konstantin Simonov', 'simonov');
+    index[25] = new Array('Portada', 'index');
+    index[26] = new Array('Preservación digital', 'preservacion-digital');
+    index[27] = new Array('Publicaciones', 'publicaciones');
+    index[28] = new Array('Radio', 'radio');
+    index[29] = new Array('Sitemap', 'sitemap');
+    index[30] = new Array('Snail mail', 'snail-mail');
+    index[31] = new Array('Wikis', 'wikis');
     //index end
     
     function search() {
         entry = document.getElementById('entry').value;
+        if (entry.length <= 2) { return 0; }
         
-        document.getElementById.innerHTML = '<ul>';
+        document.getElementById('results').innerHTML = '<ul>';
         for (i = 0; i < index.length; i++) {
             if (index[i][0].toLowerCase().indexOf(entry.toLowerCase()) > -1) {
-                
-                document.getElementById.innerHTML += '    <li><a href="' + index[i][1] + '.html">' + index[i][0] + '</a></li>';
-                
+                document.getElementById('results').innerHTML += '    <li><a href="' + index[i][1] + '.html">' + index[i][0] + '</a></li>';
             }
         }
-        document.getElementById.innerHTML += '</ul>';    }
+        document.getElementById('results').innerHTML += '</ul>';    }
 </script>
 
 {{footer}}

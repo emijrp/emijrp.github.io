@@ -360,11 +360,13 @@ def main():
     
     #save index for search engine
     index.sort()
-    indexplain = u"    indice = new Array();"
+    print 'Creating search engine index with', len(index), 'entries'
+    indexplain = u"\n    index = new Array();"
     c = 0
     for entry in index:
-        indexplain += u"\n    indice[%s] = new Array('%s', '%s');" % (c, entry[0], entry[1])
+        indexplain += u"\n    index[%s] = new Array('%s', '%s');" % (c, entry[0], entry[1])
         c += 1
+    indexplain += u"\n    "
     
     f = open('buscador.wiki', 'r')
     wikicode = unicode(f.read(), 'utf-8')
