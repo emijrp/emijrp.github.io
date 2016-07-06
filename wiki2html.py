@@ -310,7 +310,12 @@ def search(wiki, wikifile):
     m = re.findall(ur'(?im)\{\{\s*header\s*\|\s*(1=)?\s*([^\}]+?)\s*\}\}', wiki)
     for i in m:
         if len(i) >= 2 and i[1]:
-            entry = [i[1], wikifile.split('.wiki')[0]]
+            keyterms = set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][a-záéíóúàèìòùñç\-]{2,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{2,})*)', wiki)])
+            keyterms.add(i[1])
+            keyterms = list(keyterms)
+            keyterms.sort()
+            #print keyterms
+            entry = [i[1], wikifile.split('.wiki')[0], keyterms]
     
     return entry
 
@@ -330,6 +335,16 @@ def wiki2html(wiki, wikifile):
     html = wiki
     return html
 
+def processfile(wikifile):
+    wiki = readwikifile(wikifile)
+    html = wiki2html(wiki, wikifile)
+    #print(html)
+    htmlfile = '%s.html' % wikifile.split('.wiki')[0]
+    print 'Saving', wikifile, 'in', htmlfile
+    savehtmlfile(htmlfile, html)
+    entry = search(wiki, wikifile)
+    return entry
+    
 def main():
     wikifiles = []
     
@@ -348,35 +363,31 @@ def main():
     
     index = []
     for wikifile in wikifiles:
-        wiki = readwikifile(wikifile)
-        html = wiki2html(wiki, wikifile)
-        #print(html)
-        htmlfile = '%s.html' % wikifile.split('.wiki')[0]
-        print 'Saving', wikifile, 'in', htmlfile
-        savehtmlfile(htmlfile, html)
-        
-        #search engine
-        entry = search(wiki, wikifile)
+        entry = processfile(wikifile)
         if entry:
             index.append(entry)
     
     #save index for search engine
-    index.sort()
-    print 'Creating search engine index with', len(index), 'entries'
-    indexplain = u"\n    index = new Array();"
-    c = 0
-    for entry in index:
-        indexplain += u"\n    index[%s] = new Array('%s', '%s');" % (c, entry[0], entry[1])
-        c += 1
-    indexplain += u"\n    "
-    
-    f = open('buscador.wiki', 'r')
-    wikicode = unicode(f.read(), 'utf-8')
-    f.close()
-    f = open('buscador.wiki', 'w')
-    wikicode = u'%s//index start%s//index end%s' % (wikicode.split(u'//index start')[0], indexplain, wikicode.split(u'//index end')[1])
-    f.write(wikicode.encode('utf-8'))
-    f.close()
+    if os.path.exists('buscador.wiki'):
+        index.sort()
+        print 'Creating search engine index with', len(index), 'entries and', sum([len(x[2]) for x in index]),'keywords'
+        indexplain = u"\n    index = new Array();"
+        c = 0
+        for entry in index:
+            if entry[0].lower() in ['buscador', 'portada']:
+                continue
+            indexplain += u"\n    index[%s] = new Array('%s', '%s', new Array(%s));" % (c, entry[0], entry[1], ', '.join(["'%s'" % x for x in entry[2]]))
+            c += 1
+        indexplain += u"\n    "
+        
+        f = open('buscador.wiki', 'r')
+        wikicode = unicode(f.read(), 'utf-8')
+        f.close()
+        f = open('buscador.wiki', 'w')
+        wikicode = u'%s//index start%s//index end%s' % (wikicode.split(u'//index start')[0], indexplain, wikicode.split(u'//index end')[1])
+        f.write(wikicode.encode('utf-8'))
+        f.close()
+        processfile('buscador.wiki')
 
 if __name__ == '__main__':
     main()
