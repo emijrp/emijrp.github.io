@@ -8,45 +8,41 @@ Aquí voy anotando los libros que leo, enlaces a bibliotecas en línea, editoria
 
 Ejemplos de '''bibliotecas en línea''' con bastante material descargable.
 
-<ul>
-    <li>[https://creandopueblo.wordpress.com/orden-alfabetico/ Biblioteca Creando Pueblo]: Archivo documental para la formación del Pueblo Trabajador Andaluz. De la organización [http://www.jaleoandalucia.org Jaleo!!!]</li>
-    <li>[http://bibliotecafeminista.tumblr.com Biblioteca Feminista]</li>
-    <li>[http://bolchetvo.blogspot.com Bolchetvo]: obras comunistas interesantes que no se encuentran en otros sitios.</li>
-    <li>[https://www.marxists.org Marxists Internet Archive]: biblioteca con miles de obras marxistas, muchas de ellas [https://www.marxists.org/espanol/ traducidas al español]. Aquí encontrarás los clásicos del marxismo.</li>
-    <li>[https://www.gutenberg.org Project Gutenberg]: fundado por Michael Hart en 1971, contiene más de 50.000 libros en dominio público, aunque la mayoría en inglés.</li>
-    <li>[http://socialismoactual.blogspot.com.es/search/label/Libros Socialismo Actual]: algunos libros interesantes y díficiles de encontrar provenientes de editoriales populares de países socialistas, entre otras fuentes.</li>
-</ul>
+* [https://creandopueblo.wordpress.com/orden-alfabetico/ Biblioteca Creando Pueblo]: Archivo documental para la formación del Pueblo Trabajador Andaluz. De la organización [http://www.jaleoandalucia.org Jaleo!!!]
+* [http://bibliotecafeminista.tumblr.com Biblioteca Feminista]
+* [http://bolchetvo.blogspot.com Bolchetvo]: obras comunistas interesantes que no se encuentran en otros sitios.
+* [https://www.marxists.org Marxists Internet Archive]: biblioteca con miles de obras marxistas, muchas de ellas [https://www.marxists.org/espanol/ traducidas al español]. Aquí encontrarás los clásicos del marxismo.
+* [https://www.gutenberg.org Project Gutenberg]: fundado por Michael Hart en 1971, contiene más de 50.000 libros en dominio público, aunque la mayoría en inglés.
+* [http://socialismoactual.blogspot.com.es/search/label/Libros Socialismo Actual]: algunos libros interesantes y díficiles de encontrar provenientes de editoriales populares de países socialistas, entre otras fuentes.
 
 == Catálogos de bibliotecas ==
 
 Estos son los catálogos de algunas bibliotecas, que aunque en su mayoría no tienen los documentos disponibles para descargar, sirve para hacer búsquedas y encontrar algunas joyas.
 
-<ul>
-    <li>[http://www.bcn.cl/catalogo/ Biblioteca del Congreso Nacional de Chile]</li>
-    <li>[http://catalogo.bnjm.cu/cgi-bin/koha/opac-search.pl Biblioteca Nacional de Cuba José Martí]</li>
-</ul>
+* [http://www.bcn.cl/catalogo/ Biblioteca del Congreso Nacional de Chile]
+* [http://catalogo.bnjm.cu/cgi-bin/koha/opac-search.pl Biblioteca Nacional de Cuba José Martí]
 
 == Editoriales ==
 
 Algunas '''editoriales''' que publican libros interesantes.
 
-<ul>
-    <li>[http://www.akal.com Akal]: editorial creada en 1972, cuenta con un catálogo de unos 3000 libros y 40 colecciones, especialmente sobre política, historia, filosofía y economía.</li>
-    <li>[http://www.libreria-atrapasuenos.com Atrapasueños]: literatura, historia, movimientos sociales, música y más.</li>
-    <li>[https://lacaidaeditorial.wordpress.com La Caída]</li>
-    <li>[http://www.elviejotopo.com El viejo topo]</li>
-    <li>[http://www.icariaeditorial.com Icaria]</li>
-    <li>[http://www.editorialklinamen.net Klinamen]: editorial anticapitalista y autogestionada ([http://www.editorialklinamen.net/372-2/ algunos para descargar]).</li>
-    <li>[http://www.lamalatesta.net LaMalatesta]: librería-editorial libertaria.</li>
-    <li>Novosti</li>
-    <li>Páginas</li>
-    <li>Progreso</li>
-    <li>Pueblos Unidos</li>
-    <li>[http://www.solidaridadobrera.org/editorial/ Solidaridad Obrera]</li>
-    <li>[http://librosml.blogspot.com Templando el acero]</li>
-    <li>[http://www.traficantes.net Traficantes de sueños]</li>
-    <li>[http://www.txalaparta.eus Txalaparta]</li>
-</ul>
+* [http://www.akal.com Akal]: editorial creada en 1972, cuenta con un catálogo de unos 3000 libros y 40 colecciones, especialmente sobre política, historia, filosofía y economía.
+* [http://www.libreria-atrapasuenos.com Atrapasueños]: literatura, historia, movimientos sociales, música y más.
+* [https://lacaidaeditorial.wordpress.com La Caída]
+* [http://www.elviejotopo.com El viejo topo]
+* [http://www.icariaeditorial.com Icaria]
+* [http://www.editorialklinamen.net Klinamen]: editorial anticapitalista y autogestionada ([http://www.editorialklinamen.net/372-2/ algunos para descargar]).
+* [http://www.lamalatesta.net LaMalatesta]: librería-editorial libertaria.
+* Novosti
+* Páginas
+* Pathfinder Press
+* Progreso
+* Pueblos Unidos
+* [http://www.solidaridadobrera.org/editorial/ Solidaridad Obrera]
+* [http://librosml.blogspot.com Templando el acero]
+* [http://www.traficantes.net Traficantes de sueños]
+* [http://www.txalaparta.eus Txalaparta]
+
 <!--
 
 Asociación Cultural Antón Makarenko de Educación Popular
@@ -561,10 +557,8 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
 
 Páginas que a su vez recopilan enlaces a bibliotecas, catálogos, listados o libros individuales.
 
-<ul>
-    <li>[http://onlinebooks.library.upenn.edu/archives.html The Online Books Page]: contiene cientos de enlaces a sitios con libros en línea</li>
-    <li>[http://www.freeliterature.org Free Literature]: recopila un listado de más de 600 sitios web con libros</li>
-</ul>
+* [http://onlinebooks.library.upenn.edu/archives.html The Online Books Page]: contiene cientos de enlaces a sitios con libros en línea
+* [http://www.freeliterature.org Free Literature]: recopila un listado de más de 600 sitios web con libros
 
 {{footer}}
 
