@@ -1,0 +1,9 @@
+<noinclude>{{header|1=República Democrática Alemana}}</noinclude>
+
+<!--
+
+* Der Schwarze Kanal http://sk.dra.de/grape/start.htm
+
+-->
+
+<noinclude>{{../footer}}</noinclude>
