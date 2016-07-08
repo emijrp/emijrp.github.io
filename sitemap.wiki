@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="buscador.html">buscador.html</a></td>
         <td><a href="buscador.wiki">buscador.wiki</a></td>
-        <td>72380</td>
+        <td>72382</td>
     </tr>
 
     <tr>
@@ -253,7 +253,7 @@
         <td>35</td>
         <td><a href="locapedias.html">locapedias.html</a></td>
         <td><a href="locapedias.wiki">locapedias.wiki</a></td>
-        <td>9042</td>
+        <td>9147</td>
     </tr>
 
     <tr>

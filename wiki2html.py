@@ -308,14 +308,15 @@ def search(wiki, wikifile):
     entry = []
     
     m = re.findall(ur'(?im)\{\{\s*header\s*\|\s*(1=)?\s*([^\}]+?)\s*\}\}', wiki)
-    for i in m:
-        if len(i) >= 2 and i[1]:
-            keyterms = set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][a-záéíóúàèìòùñç\-]{2,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{2,})*)', wiki)])
-            keyterms.add(i[1])
-            keyterms = list(keyterms)
-            keyterms.sort()
-            #print keyterms
-            entry = [i[1], wikifile.split('.wiki')[0], keyterms]
+    if m and m[0][1]:
+        header = m[0][1]
+        keywords = []
+        keywords = set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][a-záéíóúàèìòùñç\-]{2,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{2,})*)', wiki)])
+        keywords.add(header)
+        keywords = list(keywords)
+        keywords.sort()
+        #print keyterms
+        entry = [header, wikifile.split('.wiki')[0], keywords]
     
     return entry
 
