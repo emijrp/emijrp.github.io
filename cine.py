@@ -99,7 +99,7 @@ def main():
     
     #read filmaffinity profile
     for page in range(1, 100):
-        faurl = 'http://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
+        faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         print 'Retrieving', faurl
         try:
             req = urllib2.Request(faurl, headers={ 'User-Agent': 'Mozilla/5.0' })
@@ -112,8 +112,9 @@ def main():
         ratings = []
         for rating in m:
             ratings.append(rating)
-    
-        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<div class="credits">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*</div>\s*<div class="mc-cast"><div class="credits">(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div></div>', html)
+        #print('Ratings',len(ratings))
+        
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<div class="credits">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*</div>\s*<div class="mc-cast">(<div class="credits">)?(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)(</div>)?</div>', html)
         c = 0 #for ratings index
         for i in m:
             filmprops = {}
