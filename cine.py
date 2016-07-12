@@ -22,7 +22,7 @@ import time
 import urllib
 import urllib2
 
-countries = {
+country2id = {
     u'Unión Soviética': u'ZY', 
 }
 
@@ -44,7 +44,7 @@ def cleanFilmDirector(filmdirector):
 
 def getFilmCountryLink(filmcountry):
     filmcountry = filmcountry.strip()
-    filmcountrylink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=' % (countries[filmcountry])
+    filmcountrylink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=' % (country2id[filmcountry])
     return filmcountrylink
     
 def getFilmDirectorLink(filmdirector):
@@ -128,7 +128,7 @@ def main():
             filmprops['cast'] = i.group('cast').strip()
             filmprops['rating'] = ratings[c]
             films.append([filmprops['title'], filmprops])
-            countries[filmprops['country']] = filmprops['countryid']
+            country2id[filmprops['country']] = filmprops['countryid']
             
             if not 'Documentary' in filmprops['cast']:
                 statsyear[filmprops['year']] = statsyear.has_key(filmprops['year']) and statsyear[filmprops['year']] + 1 or 1
@@ -144,6 +144,7 @@ def main():
     docrows = []
     seriesrows = []
     years = set([])
+    countries = set([])
     filmc = 0
     docc = 0
     seriesc = 0
@@ -192,6 +193,7 @@ def main():
         else:
             filmc += 1
             years.add(filmprops['year'])
+            countries.add(filmprops['countryid'])
             row = u"""
     <tr>
         <td>%s</td>
@@ -230,7 +232,7 @@ def main():
     html2 = html2.split('</select>')[0]
     allcountries = re.findall(ur'(?im)<option value="([^<>]+?)"\s*>([^<>]+?)</option>', html2)
     for x, y in allcountries:
-        if x not in countries.values():
+        if x not in countries:
             row = u"""
     <tr>
         <td sorttable_customkey="ZZZ">-</td>
@@ -239,7 +241,7 @@ def main():
         <td sorttable_customkey="2099">-</td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
         <td sorttable_customkey="ZZZ">-</td>
-    </tr>\n""" % (y, x, y)
+    </tr>\n""" % (cleanFilmCountry(y), x, cleanFilmCountry(y))
             filmrows.append(row)
     
     #print table

@@ -933,7 +933,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Raymundo+Gleyzer">Raymundo Gleyzer</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1964&toyear=1964">1964</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=AR&genre=&fromyear=&toyear=">Argentina</a></td>
-        <td>9</td>
+        <td>7</td>
     </tr>
 
     <tr>
