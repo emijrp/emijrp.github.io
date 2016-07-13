@@ -1,0 +1,14 @@
+{{header|1=Tareas}}
+
+Estas son algunas '''tareas''' para hacer periódicamente.
+
+== Mensualmente ==
+
+* Por desarrollar
+
+== Anualmente ==
+
+* Subir un dump de [http://www.archiveteam.org/index.php?title=Main_Page Archive Team] a [https://archive.org/download/wiki-archiveteamorg Internet Archive].
+
+
+{{footer}}

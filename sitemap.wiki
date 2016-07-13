@@ -57,7 +57,7 @@
         <td>7</td>
         <td><a href="biblioteca.html">biblioteca.html</a></td>
         <td><a href="biblioteca.wiki">biblioteca.wiki</a></td>
-        <td>33593</td>
+        <td>42186</td>
     </tr>
 
     <tr>
@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="buscador.html">buscador.html</a></td>
         <td><a href="buscador.wiki">buscador.wiki</a></td>
-        <td>72382</td>
+        <td>73602</td>
     </tr>
 
     <tr>
@@ -92,7 +92,7 @@
         <td>12</td>
         <td><a href="cine.html">cine.html</a></td>
         <td><a href="cine.wiki">cine.wiki</a></td>
-        <td>558743</td>
+        <td>565742</td>
     </tr>
 
     <tr>
@@ -127,7 +127,7 @@
         <td>17</td>
         <td><a href="documentales.html">documentales.html</a></td>
         <td><a href="documentales.wiki">documentales.wiki</a></td>
-        <td>117061</td>
+        <td>117958</td>
     </tr>
 
     <tr>
@@ -288,7 +288,7 @@
         <td>40</td>
         <td><a href="preservacion-digital.html">preservacion-digital.html</a></td>
         <td><a href="preservacion-digital.wiki">preservacion-digital.wiki</a></td>
-        <td>1355</td>
+        <td>3421</td>
     </tr>
 
     <tr>
@@ -330,7 +330,7 @@
         <td>46</td>
         <td><a href="series.html">series.html</a></td>
         <td><a href="series.wiki">series.wiki</a></td>
-        <td>63956</td>
+        <td>62431</td>
     </tr>
 
     <tr>
@@ -344,7 +344,7 @@
         <td>48</td>
         <td><a href="sitemap.html">sitemap.html</a></td>
         <td><a href="sitemap.wiki">sitemap.wiki</a></td>
-        <td>10464</td>
+        <td>10635</td>
     </tr>
 
     <tr>
@@ -356,41 +356,48 @@
 
     <tr>
         <td>50</td>
+        <td><a href="tareas.html">tareas.html</a></td>
+        <td><a href="tareas.wiki">tareas.wiki</a></td>
+        <td>307</td>
+    </tr>
+
+    <tr>
+        <td>51</td>
         <td><a href="viajes.html">viajes.html</a></td>
         <td><a href="viajes.wiki">viajes.wiki</a></td>
         <td>14508</td>
     </tr>
 
     <tr>
-        <td>51</td>
+        <td>52</td>
         <td><a href="voynich.html">voynich.html</a></td>
         <td><a href="voynich.wiki">voynich.wiki</a></td>
         <td>4441</td>
     </tr>
 
     <tr>
-        <td>52</td>
+        <td>53</td>
         <td><a href="vt.html">vt.html</a></td>
         <td><a href="vt.wiki">vt.wiki</a></td>
         <td>56</td>
     </tr>
 
     <tr>
-        <td>53</td>
+        <td>54</td>
         <td><a href="vt2.html">vt2.html</a></td>
         <td><a href="vt2.wiki">vt2.wiki</a></td>
         <td>78</td>
     </tr>
 
     <tr>
-        <td>54</td>
+        <td>55</td>
         <td><a href="wikis.html">wikis.html</a></td>
         <td><a href="wikis.wiki">wikis.wiki</a></td>
         <td>10499</td>
     </tr>
 
     <tr>
-        <td>55</td>
+        <td>56</td>
         <td><a href="youtube.html">youtube.html</a></td>
         <td><a href="youtube.wiki">youtube.wiki</a></td>
         <td>121</td>
