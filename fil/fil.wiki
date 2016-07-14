@@ -1,0 +1,30 @@
+{{header|1=Portada}}
+
+Definiciones de '''conceptos filosófico-políticos''' sacados de diversas fuentes, entre ellas el ''Diccionario Filosófico Marxista'' de M. Rosental y P. Iudin.
+
+== A ==
+
+* '''Abstracción científica''': La abstracción científica es una operación mental que consiste en abstraer los caracteres no esenciales y secundarios, propios de uno u otro grupo de fenómenos, para destacar y sintetizar racionalmente sus peculiaridades sustanciales. Así, «palabras como "material" y "movimiento" son simplemente abreviaturas mediante las cuales resumimos, de acuerdo con sus propiedades comunes, los diversos casos sensorialmente percibidos» (Engels). La abstracción científica nos da una idea más completa y profunda de la realidad que las sensaciones inmediatas. Por ejemplo, cuando se observa directamente, los precios de las mercancias en el mercado capitalista parecen determinadas, en última instancia, por la oferta y la demanda, mientras están condicionadas en realidad por la cantidad de tiempo de trabajo socialmente necesario invertido en la producción de esas mercancías, o dicho en otras palabras, por el valor. La noción de valor, que Marx dedujo como resultado de la abstracción científica, refleja profunda y fielmente las relaciones sociales que realmente existen dentro del sistema de la producción de mercancías. «...en el análisis de las formas económicas no se puede hacer uso del microscopio ni del reactivo quiímico. Uno y otro deben ser sustituidos por la fuerza de la abstracción» (Marx).<ref name="dicfilmarxista">Rosental, M. y Iudin, P. (1946) ''Diccionario Filosófico Marxista''. Ediciones Pueblos Unidos, Montevideo, Uruguay.</ref>
+
+* '''Accidental''': Lo accidental signfica: lo casual, lo transitorio, lo no esencial en los fenómenos. Empleado por primera vez por Aristóteles, el término «accidental» obtuvo posteriormente amplia difusión en la escolástica medioeval, que oponía lo accidental -principio mutable- a la sustancia -esencia inmutable- de las cosas. En la filosofía marxista no se emplea el término «accidental».<ref name="dicfilmarxista" />
+
+* '''Adecuado''': Adecuado quiere decir: apropiado, correspondiente, coincidente. Un conocimiento adecuado es el que reflexa exactamente los caracteres esenciales de un objeto o de un fenómeno.<ref name="dicfilmarxista" />
+
+* '''Agnosticismo''': El agnosticismo es una doctrina filosófica que afirma que la razón humana es limitada, que la verdadera naturaleza de las cosas es inasequible al conocimiento humano. Esta fue la concepción de Hume y de Kant, así como de muchos otros filósofos idealistas (Comte, Spencer, Mach y otros). Según la doctrina de los agnósticos, el mundo que vemos y con el que tratamos en nuestro conocimiento, no es una realidad objetiva, sino sólo el producto de la actividad de nuestros órganos de los sentidos y de nuestra razón. La experiencia y la práctica refutan el agnosticismo. La ciencia va conociendo cada día más profundamente y en más aspectos los fenómenos de la Naturaleza. No existen límites para nuestro conocimiento. No existen cosas incognoscibles. Sólo hay una diferencia entre lo que ya se conoce y lo que aún no es conocido.<ref name="dicfilmarxista" />
+
+* '''Análisis y síntesis''': 1) Análisis es la descomposición de un objeto o de un fenómeno en sus elementos integrantes simples. 2) Síntesis es la reunión de las partes integrantes de un objeto o de un fenómeno en un todo, el examen del objeto en su unidad. La metafísica opone el análisis y la síntesis como dos principios que se excluyen mutuamente. La dialéctica materialista, en cambio, señala su unidad. «...el pensar no consiste sólo en la aglutinación de elementos afines para formar una unidad, sino que también puede consistir y consiste en descomponer analíticamente los objetos de la conciencia en los elementos que los forman. Sin análisis no hay síntesis» (Engels). Por consiguiente, en el proceso del conocimiento es necesario aplicar tanto el método del análisis como el de la síntesis, que como momentos recíprocamente subordinados forman parte del método de la dialéctica materialista. Por ejemplo, al analizar la estructura del organismo humano, los sabios estudian detallada y minuciosamente cada órgano por separado. Pero, para la comprensión completa y profunda del valor, papel y función de cada órgano, no es suficiente el solo análisis anatómico. Es necesario tomar el organismo como un todo íntegro, como un ser vivo y actuante y estudiar sus partes integrantes en su unidad, en la síntesis.<ref name="dicfilmarxista" />
+
+* '''Arnarquismo o socialismo''': Es el título general de una serie de artículos (en total 12) de J. V. Stalin publicados bajo el seudónimo de Ko..., en el período comprendido entre el 21 de junio de 1906 y el 6 de abril de 1907, en cuatro perióicos bolcheviques georgianos de Tiflis: Ajali tsjovreba (Nueva Vida), Ajali droeba (Nuevo Tiempo), Chveni tsjovreba (Nuestra Vida) y Dro (Tiempo). Estos trabajos fueron escritos por Stalin a raíz de la aparición de una serie de artículos de los anarquistas-kropotkinianos de la Transcaucasia atacando la concepción del mundo del partido marxista: el materialismo dialéctico. En sus artículos, Stalin desenmascaró y aplastó ideológicamente a los enemigos del socialismo, a los mencheviques y anarquistas; defendió y desarrolló la teoría marxista. Los anarquistas, encubriéndose bajo la bandera del colectivismo, se hacen pasar por socialistas. Stalin demuestra en sus artículos que los auténticos socialistas sólo son los marxistas, que reconocen la necesidad de implantar la dictadura del proletariado para poder construir un nuevo régimen social basado en la propiedad colectiva de los medios de producción. En cambio, los anarquistas, que niegan la necesidad de la dictadura del proletariado como todos los
+<ref name="dicfilmarxista" />
+
+== B ==
+
+== C ==
+
+== D ==
+
+== Referencias ==
+{{../reflist}}
+{{../reflist-end}}
+
+{{../footer}}
