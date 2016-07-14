@@ -238,18 +238,14 @@ Técnica Superior de Armamento de Escuadrón Zinaida Vishneva
 
 Más información:
 
-<ul>
-    <li>Cruz, Alberto (2013). ''[https://www.goodreads.com/book/show/28401901-las-brujas-de-la-noche-el-46-regimiento-taman-de-aviadoras-sovi-ticas-e Las brujas de la noche. El 46 Regimiento Taman de aviadoras soviéticas en la II Guerra Mundial]''. Ver [https://www.youtube.com/watch?v=RdIl1epnyg8 presentación] ([https://www.youtube.com/watch?v=bEVezOmMxYs 2])([https://www.youtube.com/watch?v=2Dj07a1yiAw 3]). Audio de [https://www.ivoox.com/brujas-noche-audios-mp3_rf_3948889_1.html otra presentación].</li>
-    <li>Kabanov, Mikhail (2013). ''[http://www.filmaffinity.com/es/film494778.html Golondrinas de la noche]''.</li>
-    <li>Zhigulenko, Yevgeniya (1981). ''[http://www.filmaffinity.com/es/film338503.html Las brujas de la noche en el cielo]''.</li>
-    <li>[http://contenidosdigitales.uned.es/fez/view/intecca:VideoCMAV-18246 Memorias de lucha: Las brujas de la noche].</li>
-</ul>
+* Cruz, Alberto (2013). ''[https://www.goodreads.com/book/show/28401901-las-brujas-de-la-noche-el-46-regimiento-taman-de-aviadoras-sovi-ticas-e Las brujas de la noche. El 46 Regimiento Taman de aviadoras soviéticas en la II Guerra Mundial]''. Ver [https://www.youtube.com/watch?v=RdIl1epnyg8 presentación] ([https://www.youtube.com/watch?v=bEVezOmMxYs 2])([https://www.youtube.com/watch?v=2Dj07a1yiAw 3]). Audio de [https://www.ivoox.com/brujas-noche-audios-mp3_rf_3948889_1.html otra presentación].
+* Kabanov, Mikhail (2013). ''[http://www.filmaffinity.com/es/film494778.html Golondrinas de la noche]''.
+* Zhigulenko, Yevgeniya (1981). ''[http://www.filmaffinity.com/es/film338503.html Las brujas de la noche en el cielo]''.
+* [http://contenidosdigitales.uned.es/fez/view/intecca:VideoCMAV-18246 Memorias de lucha: Las brujas de la noche].
  
 == Listas de fusilados por el franquismo ==
 
-<ul>
-    <li>[[File:fusilados-cementerio-este-iu-2007.pdf|Personas fusiladas por el franquismo en el Cementerio del Este de Madrid]]</li>
-</ul>
+* [[File:fusilados-cementerio-este-iu-2007.pdf|Personas fusiladas por el franquismo en el Cementerio del Este de Madrid]]
 
 === Las Trece Rosas ===
 
@@ -263,15 +259,13 @@ Para el caso del Reino Unido existe una web que recopila monumentos a las Brigad
 
 Cosas por añadir al mapa:
 
-<ul>
-    <li>Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.</li>
-    <li>Calles a las 13 Rosas, a luchadores antifranquistas y a intelectuales.</li>
-    <li>Lugares de la memoria en Andalucía.</li>
-    <li>Campos de concentración franquistas, cárceles.</li>
-    <li>Cementerios y lugares de fusilamientos.</li>
-    <li>Buscar algún grupo en Flickr sobre MH y sino existe crearlo.</li>
-    <li>Lugares de batallas, frentes, edificios tomados, etc.</li>
-</ul>
+* Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.
+* Calles a las 13 Rosas, a luchadores antifranquistas y a intelectuales.
+* Lugares de la memoria en Andalucía.
+* Campos de concentración franquistas, cárceles.
+* Cementerios y lugares de fusilamientos.
+* Buscar algún grupo en Flickr sobre MH y sino existe crearlo.
+* Lugares de batallas, frentes, edificios tomados, etc.
 
 <div id="map" style="float: center;width: 600px; height: 600px;"></div>
 
