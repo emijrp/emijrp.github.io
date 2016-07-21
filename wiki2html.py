@@ -22,8 +22,7 @@ import sys
 # ideas:
 # que ponga icono de PDF a los enlaces PDF
 # mostrar icono de Wayback Machine al hacer hover sobre enlace
-# que genere un sitemap, y una lista de archivos y un indice de palabras
-# hacer un buscador interno en javascript?
+# que genere una galeria de archivos con todo el directorio images
 # generar jpg con la portada de los pdf
 
 def readwikifile(wikifile):
@@ -311,7 +310,7 @@ def search(wiki, wikifile):
     if m and m[0][1]:
         header = m[0][1]
         keywords = []
-        keywords = set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][a-záéíóúàèìòùñç\-]{2,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{2,})*)', wiki)])
+        keywords = set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{2,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{2,})*)', wiki)])
         keywords.add(header)
         keywords = list(keywords)
         keywords.sort()
