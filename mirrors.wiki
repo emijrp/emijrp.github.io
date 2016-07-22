@@ -1,0 +1,10 @@
+{{header|1=Mirrors}}
+
+Un '''mirror''' es una copia de un sitio web. Su función es ayudar a [[preservacion digital|preservar los datos]] mediante la creación de múltiples copias.
+
+Estos son algunos mirrors que mantengo:
+
+* [https://emijrp.github.io/www.marxists.org Marxists Internet Archive]: biblioteca de autores marxistas.
+* [https://emijrp.github.io/itdied.com ItDied.com]: web sobre otras webs que cerraron. Cerró a su vez hace algún tiempo.
+
+{{footer}}
