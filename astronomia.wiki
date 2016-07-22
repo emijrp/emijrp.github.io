@@ -32,10 +32,10 @@ Estas son algunas fotografías que he podido tomar desde mi ciudad en la provinc
 
 <table align="center" style="text-align: center;font-size: 90%;">
 <tr>
-    <td valign="top" width="250px"><a href="images/iridium5.jpg"><img src="images/iridium5.jpg" width="250px" alt="Iridium 5" /></a></td>
-    <td valign="top" width="250px"><a href="images/iridium8.jpg"><img src="images/iridium8.jpg" width="250px" alt="Iridium 8" /></a></td>
-    <td valign="top" width="250px"><a href="images/iridium34.jpg"><img src="images/iridium34.jpg" width="250px" alt="Iridium 34" /></a></td>
-    <td valign="top" width="250px"><a href="images/iridium61.jpg"><img src="images/iridium61.jpg" width="250px" alt="Iridium 61" /></a></td>
+    <td valign="top" width="250px">[[File:iridium5.jpg|250px|Iridium 5]]</td>
+    <td valign="top" width="250px">[[File:iridium8.jpg|250px|Iridium 8]]</td>
+    <td valign="top" width="250px">[[File:iridium34.jpg|250px|Iridium 34]]</td>
+    <td valign="top" width="250px">[[File:iridium61.jpg|250px|Iridium 61]]</td>
 </tr>
 <tr>
     <td valign="top"><p>Iridium 5</p></td>
