@@ -47,9 +47,6 @@ Estas son algunas fotografías que he podido tomar desde mi ciudad en la provinc
 
 == Miscelánea ==
 
-<ul>
-    <li>Emisiones electromagnéticas de cuerpos celestes convertidas al rango audible por el ser humano: <a href="https://www.youtube.com/watch?v=e3fqE01YYWs">Júpiter</a>, <a href="https://www.youtube.com/watch?v=rwnpXll_A_E">Neptuno</a>, <a href="https://www.youtube.com/watch?v=Sh2-P8hG5-E">Saturno</a>, el <a href="https://www.youtube.com/watch?v=GvMbUxqGuOc">Sol</a> y <a href="https://www.youtube.com/watch?v=80Ngl2RY8sA">Urano</a> (y <a href="https://www.youtube.com/watch?v=AxEa5KdPFRw">sus anillos</a>).</li>
-</ul>
-
+* Emisiones electromagnéticas de cuerpos celestes convertidas al rango audible por el ser humano: [https://www.youtube.com/watch?v=e3fqE01YYWs Júpiter], [https://www.youtube.com/watch?v=rwnpXll_A_E Neptuno], [https://www.youtube.com/watch?v=Sh2-P8hG5-E Saturno], el [https://www.youtube.com/watch?v=GvMbUxqGuOc Sol] y [https://www.youtube.com/watch?v=80Ngl2RY8sA Urano] (y [https://www.youtube.com/watch?v=AxEa5KdPFRw sus anillos]).
 
 {{footer}}
