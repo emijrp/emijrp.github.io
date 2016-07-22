@@ -40,6 +40,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=locapedias.html|2=Locapedias}}
     {{button-blue|1=medios.html|2=Medios}}
     {{button-blue|1=memoria.html|2=Memoria Histórica}}
+    {{button-blue|1=mirrors.html|2=Mirrors}}
     {{button-blue|1=musica.html|2=Música}}
     {{button-grey|1=Naturaleza}}
     {{button-blue|1=nostalgia.html|2=Nostalgia}}
