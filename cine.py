@@ -61,6 +61,7 @@ def getFilmYearLink(filmyear):
 
 def main():
     films = []
+    films2watch = []
     userid = 397713
     
     #stats
@@ -139,7 +140,33 @@ def main():
             c += 1
         time.sleep(1)
     films.sort()
+    print('%d films' % len(films))
     
+    #read films to watch
+    for page in range(1, 100):
+        faurl = 'https://www.filmaffinity.com/es/userlist.php?user_id=%s&list_id=201&page=%s&orderby=0' % (userid, page)
+        print 'Retrieving', faurl
+        try:
+            req = urllib2.Request(faurl, headers={ 'User-Agent': 'Mozilla/5.0' })
+            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
+        except:
+            break
+        
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>', html)
+        for i in m:
+            filmprops = {}
+            filmprops['id'] = i.group('id').strip()
+            filmprops['title'] = i.group('title').strip()
+            filmprops['year'] = int(i.group('year').strip())
+            filmprops['countryid'] = i.group('countryid').strip()
+            filmprops['country'] = i.group('country').strip()
+            films2watch.append([filmprops['title'], filmprops])
+            country2id[filmprops['country']] = filmprops['countryid']
+        time.sleep(1)
+    films2watch.sort()
+    print('%d films to watch' % len(films2watch))
+    
+    #generate table
     filmrows = []
     docrows = []
     seriesrows = []
@@ -208,15 +235,22 @@ def main():
     #add missing years
     for i in range(1900, datetime.datetime.now().year+1):
         if i not in years:
+            suggest = []
+            suggest_plain = u""
+            for film2watchtitle, film2watchprops in films2watch:
+                if film2watchprops['year'] == i:
+                    suggest.append(u'<i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i> (%s)' % (film2watchprops['id'], film2watchprops['title'], cleanFilmCountry(film2watchprops['country'])))
+            if suggest:
+                suggest_plain = u"<br/><br/>Sugerencias:<br/>%s" % (u'<br/>'.join(suggest))
             row = u"""
     <tr>
         <td sorttable_customkey="ZZZ">-</td>
-        <td><i>Ninguna del año %s</i></td>
+        <td><i>Ninguna del año %s</i>%s</td>
         <td sorttable_customkey="ZZZ">-</td>
         <td><a href="%s">%s</a></td>
         <td sorttable_customkey="ZZZ">-</td>
         <td sorttable_customkey="ZZZ">-</td>
-    </tr>\n""" % (i, getFilmYearLink(i), i)
+    </tr>\n""" % (i, suggest_plain, getFilmYearLink(i), i)
             filmrows.append(row)
     
     #add missing countries
@@ -233,15 +267,22 @@ def main():
     allcountries = re.findall(ur'(?im)<option value="([^<>]+?)"\s*>([^<>]+?)</option>', html2)
     for x, y in allcountries:
         if x not in countries:
+            suggest = []
+            suggest_plain = u""
+            for film2watchtitle, film2watchprops in films2watch:
+                if film2watchprops['countryid'] == x:
+                    suggest.append(u'<i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i> (%s)' % (film2watchprops['id'], film2watchprops['title'], film2watchprops['year']))
+            if suggest:
+                suggest_plain = u"<br/><br/>Sugerencias:<br/>%s" % (u'<br/>'.join(suggest))
             row = u"""
     <tr>
         <td sorttable_customkey="ZZZ">-</td>
-        <td><i>Ninguna de %s</i></td>
+        <td><i>Ninguna de %s</i>%s</td>
         <td sorttable_customkey="ZZZ">-</td>
         <td sorttable_customkey="2099">-</td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
         <td sorttable_customkey="ZZZ">-</td>
-    </tr>\n""" % (cleanFilmCountry(y), x, cleanFilmCountry(y))
+    </tr>\n""" % (cleanFilmCountry(y), suggest_plain, x, cleanFilmCountry(y))
             filmrows.append(row)
     
     #print table
