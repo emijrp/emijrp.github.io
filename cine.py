@@ -59,6 +59,17 @@ def getFilmYearLink(filmyear):
         filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=%s&toyear=%s' % (filmyear, filmyear)
     return filmyearlink    
 
+def savetable(filename, tablemark, table):
+    f = open(filename, 'r')
+    html = unicode(f.read(), 'utf-8')
+    f.close()
+    f = open(filename, 'w')
+    before = html.split(u'<!-- %s -->' % tablemark)[0]
+    after = html.split(u'<!-- /%s -->' % tablemark)[1]
+    html = u'%s<!-- %s -->%s<!-- /%s -->%s' % (before, tablemark, table, tablemark, after)
+    f.write(html.encode('utf-8'))
+    f.close()
+
 def main():
     films = []
     films2watch = []
@@ -309,29 +320,9 @@ def main():
     seriestable += u''.join(seriesrows)
     seriestable += u'</table>\n'
     
-    f = open('cine.wiki', 'r')
-    html = unicode(f.read(), 'utf-8')
-    f.close()
-    f = open('cine.wiki', 'w')
-    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], filmtable, html.split(u'<!-- /tabla completa -->')[1])
-    f.write(html.encode('utf-8'))
-    f.close()
-    
-    f = open('documentales.wiki', 'r')
-    html = unicode(f.read(), 'utf-8')
-    f.close()
-    f = open('documentales.wiki', 'w')
-    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], doctable, html.split(u'<!-- /tabla completa -->')[1])
-    f.write(html.encode('utf-8'))
-    f.close()
-    
-    f = open('series.wiki', 'r')
-    html = unicode(f.read(), 'utf-8')
-    f.close()
-    f = open('series.wiki', 'w')
-    html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], seriestable, html.split(u'<!-- /tabla completa -->')[1])
-    f.write(html.encode('utf-8'))
-    f.close()
+    savetable('cine.wiki', 'tabla completa', filmtable)
+    savetable('documentales.wiki', 'tabla completa', doctable)
+    savetable('series.wiki', 'tabla completa', seriestable)
     
     #print stats
     statsyear_list = [[y, x] for x, y in statsyear.items()]
@@ -357,13 +348,7 @@ def main():
     stats += u"<li>Por <b>país</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmCountryLink(x), x, y) for y, x in statscountry_list]))
     stats += u"</ul>\n"
     
-    f = open('cine.wiki', 'r')
-    html = unicode(f.read(), 'utf-8')
-    f.close()
-    f = open('cine.wiki', 'w')
-    html = u'%s<!-- stats -->%s<!-- /stats -->%s' % (html.split(u'<!-- stats -->')[0], stats, html.split(u'<!-- /stats -->')[1])
-    f.write(html.encode('utf-8'))
-    f.close()
+    savetable('cine.wiki', 'stats', stats)
     
 if __name__ == '__main__':
     main()
