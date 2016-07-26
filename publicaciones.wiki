@@ -18,7 +18,7 @@ Añadir:
 
 == 2011 ==
 
-* «[./publicaciones/2011-upgrade-avbot.en.pdf AVBOT: Detecting and fixing Vandalism in Wikipedia]». UPGRADE, [http://www.cepis.org/upgrade/index.jsp?p=2701&n=2757 vol. 2011, nº 3], julio de 2011</li>
+* «[./publicaciones/2011-upgrade-avbot.en.pdf AVBOT: Detecting and fixing Vandalism in Wikipedia]». UPGRADE, [http://www.cepis.org/upgrade/index.jsp?p=2701&n=2757 vol. 2011, nº 3], julio de 2011
 * «[./publicaciones/2011-csedu-assessment.en.pdf Learning-Oriented Assesment of Wiki Contributions: How to Assess Wiki Contributions in a Higher Education Learning Setting]». 3rd International Conference on Computer Supported Education ([http://www.csedu.org/CSEDU2011/ CSEDU 2011]). Noordwijkerhout, Países Bajos, 2011. ISBN 978-989-8425-50-8
 
 == 2010 ==
@@ -34,5 +34,7 @@ Añadir:
 * «[./publicaciones/2009-cisl-wikidocencia.es.pdf Tecnologías wiki y conocimiento abierto en la Universidad]». Actas de la V Conferencia Internacional de Software Libre, pp. 16-19. Cáceres, 2009. ISBN 978-84-692-8739-2
 
 * «[./publicaciones/2009-linuxmagazine-proyectos.es.pdf Los proyectos de los nuevos desarrolladores españoles]». Linux Magazine [http://www.linux-magazine.es/issue/49 nº 49], pp. 93-94
+
+* «[./publicaciones/2009-pfc-avbot.pdf Detector y corrector automático de ediciones maliciosas en Wikipedia]». Proyecto Fin de Carrera de Ingeniería Técnica en Informática de Sistemas, Universidad de Cádiz, 2009. [http://hdl.handle.net/10498/8691 DOI 10498/8691] ([./publicaciones/2009-pfc-avbot-ppt.pdf Presentación]) ([./publicaciones/2009-pfc-avbot-manual-instalacion.pdf Manual de instalación]) ([./publicaciones/2009-pfc-avbot-manual-usuario.pdf Manual de usuario])
 
 {{footer}}
