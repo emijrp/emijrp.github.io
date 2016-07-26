@@ -20,7 +20,7 @@ import re
 import sys
 
 # ideas:
-# que ponga icono de PDF a los enlaces PDF
+# que ponga icono de PDF a los enlaces PDF (a veces se hace pesado en páginas con muchos pdf)
 # mostrar icono de Wayback Machine al hacer hover sobre enlace
 # que genere una galeria de archivos con todo el directorio images
 # generar jpg con la portada de los pdf
@@ -108,7 +108,8 @@ def images(wiki, wikifile):
                 imagedesc = imageparameter
         
         if imagename.endswith('.pdf'):
-            wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s">%s</a> (PDF)' % (imagepath, imagename, imagedesc))
+            #wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s">%s</a> (PDF)' % (imagepath, imagename, imagedesc))
+            wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s">%s</a>' % (imagepath, imagename, imagedesc))
         else:
             wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagepath, imagename, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
     
@@ -175,8 +176,9 @@ def linksinternal(wiki, wikifile):
 
 def linksexternal(wiki, wikifile):
     # PDF #buscar icono y quitar lo de PDF
-    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a> (PDF)', wiki)
-    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\]', r'<a href="\1">\1</a> (PDF)', wiki)
+    #wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a> (PDF)', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
+    wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?\.pdf)\]', r'<a href="\1">\1</a>', wiki)
     
     # other
     wiki = re.sub(r'(?im)\[((?:https?://|ftps?://|\./)[^\[\]\| ]+?)\s+([^\[\]\|]+?)\]', r'<a href="\1">\2</a>', wiki)
