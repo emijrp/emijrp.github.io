@@ -2,17 +2,12 @@
 
 Algunas '''publicaciones''' de mi autoría o co-autoría en congresos y revistas nacionales e internacionales, que contienen los resultados de algunos trabajos que he llevado a cabo. Aparecen listadas en orden cronológico inverso. Los enlaces llevan a las versiones completas de los artículos para que puedas descargarlos y leerlos. Puedes mirar también mi perfil en [http://wikipapers.referata.com/wiki/Emilio_J._Rodr%C3%ADguez-Posada WikiPapers], [http://scholar.google.es/citations?user=YKrAl7UAAAAJ Google Scholar] y [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rodr=iacute=guez=Posada:Emilio_J=.html DBLP].
 
-<!--
-Añadir:
-* PFC
-* Survey wikis
--->
-
 == 2012 ==
 
-* «[./publicaciones/2012-predoctorales-wikipapers.es.pdf WikiPapers, una recopilación colaborativa de literatura sobre wikis usando MediaWiki y su extensión semántica]». IV Jornadas Predoctorales de la ESI, diciembre de 2012. ISBN: Pendiente ([./publicaciones/2012-predoctorales-wikipapers-ppt.es.pdf Presentación])
+* «[./publicaciones/2012-predoctorales-estadodelarte.es.pdf Estado del arte de la investigación sobre wikis]». Proyecto de Investigación, Modelado, Simulación y Pruebas de Procesos y Tratamiento de Señales y de Datos, Universidad de Cádiz, diciembre de 2012 ([./publicaciones/2012-predoctorales-estadodelarte-ppt.es.pdf Presentación])
+* «[./publicaciones/2012-predoctorales-wikipapers.es.pdf WikiPapers, una recopilación colaborativa de literatura sobre wikis usando MediaWiki y su extensión semántica]». IV Jornadas Predoctorales de la ESI, diciembre de 2012. ISBN 978-84-695-6550-6 ([./publicaciones/2012-predoctorales-wikipapers-ppt.es.pdf Presentación])
 * «[./publicaciones/2012-bid-enlaces.es.pdf Análisis de enlaces hacia Bibliotecas y Archivos Digitales de Patrimonio Cultural desde Wikipedia en español y catalán]». BiD: textos universitaris de biblioteconomia i documentació, [http://www.ub.edu/bid/bid28.php nº 28], julio de 2012. ISSN 1575-5886
-* «[./publicaciones/2012-revision-wikidocencia.es.pdf Tecnologías wiki en la docencia de Ingeniería Informática]». ReVisión, Revista de AENUI (Asociación de Enseñantes Universitarios de la Informática) de investigación en Docencia Universitaria de la Informática, <a href="http://www.aenui.net/ojs/index.php?journal=revision&page=issue&op=view&path[]=10">vol. 5, nº 1</a>, junio de 2012. ISSN: 1989-1199
+* «[./publicaciones/2012-revision-wikidocencia.es.pdf Tecnologías wiki en la docencia de Ingeniería Informática]». ReVisión, Revista de AENUI (Asociación de Enseñantes Universitarios de la Informática) de investigación en Docencia Universitaria de la Informática, <a href="http://www.aenui.net/ojs/index.php?journal=revision&page=issue&op=view&path[]=10">vol. 5, nº 1</a>, junio de 2012. ISSN 1989-1199
 * «[./publicaciones/2012-digithum-wlm.es.pdf Wiki Loves Monuments 2011: experiencia en España y reflexiones desde la difusión del patrimonio cultural]». Digithum [http://digithum.uoc.edu/ojs/index.php/digithum/issue/view/n14 nº 14], mayo de 2012. ISSN 1575-2275
 * «[./publicaciones/2012-ile-assessment.en.pdf Assessment of collaborative learning experiences by graphical analysis of wiki contributions]». Interactive Learning Environments, mayo de 2012. DOI [http://dx.doi.org/10.1080/10494820.2012.680969 10.1080/10494820.2012.680969]
 
@@ -35,6 +30,6 @@ Añadir:
 
 * «[./publicaciones/2009-linuxmagazine-proyectos.es.pdf Los proyectos de los nuevos desarrolladores españoles]». Linux Magazine [http://www.linux-magazine.es/issue/49 nº 49], pp. 93-94
 
-* «[./publicaciones/2009-pfc-avbot.pdf Detector y corrector automático de ediciones maliciosas en Wikipedia]». Proyecto Fin de Carrera de Ingeniería Técnica en Informática de Sistemas, Universidad de Cádiz, 2009. [http://hdl.handle.net/10498/8691 DOI 10498/8691] ([./publicaciones/2009-pfc-avbot-ppt.pdf Presentación]) ([./publicaciones/2009-pfc-avbot-manual-instalacion.pdf Manual de instalación]) ([./publicaciones/2009-pfc-avbot-manual-usuario.pdf Manual de usuario])
+* «[./publicaciones/2009-pfc-avbot.es.pdf Detector y corrector automático de ediciones maliciosas en Wikipedia]». Proyecto Fin de Carrera, Ingeniería Técnica en Informática de Sistemas, Universidad de Cádiz, enero de 2009. [http://hdl.handle.net/10498/8691 DOI 10498/8691] ([./publicaciones/2009-pfc-avbot-ppt.es.pdf Presentación]) ([./publicaciones/2009-pfc-avbot-manualinstalacion.es.pdf Manual de instalación]) ([./publicaciones/2009-pfc-avbot-manualusuario.es.pdf Manual de usuario])
 
 {{footer}}
