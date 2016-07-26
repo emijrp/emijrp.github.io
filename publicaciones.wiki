@@ -2,6 +2,10 @@
 
 Algunas '''publicaciones''' de mi autoría o co-autoría en congresos y revistas nacionales e internacionales, que contienen los resultados de algunos trabajos que he llevado a cabo. Aparecen listadas en orden cronológico inverso. Los enlaces llevan a las versiones completas de los artículos para que puedas descargarlos y leerlos. Puedes mirar también mi perfil en [http://wikipapers.referata.com/wiki/Emilio_J._Rodr%C3%ADguez-Posada WikiPapers], [http://scholar.google.es/citations?user=YKrAl7UAAAAJ Google Scholar] y [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rodr=iacute=guez=Posada:Emilio_J=.html DBLP].
 
+<!--
+Añadir mi perfil en https://arxiv.org cuando haya subido material
+-->
+
 == 2012 ==
 
 * «[./publicaciones/2012-predoctorales-estadodelarte.es.pdf Estado del arte de la investigación sobre wikis]». Proyecto de Investigación, Modelado, Simulación y Pruebas de Procesos y Tratamiento de Señales y de Datos, Universidad de Cádiz, diciembre de 2012 ([./publicaciones/2012-predoctorales-estadodelarte-ppt.es.pdf Presentación])
