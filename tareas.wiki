@@ -1,6 +1,6 @@
 {{header|1=Tareas}}
 
-Estas son algunas '''tareas''' para hacer periódicamente.
+Este es un índice de '''tareas''' por hacer, ya se trate de cosas puntuales o periódicas.
 
 == Mensualmente ==
 
@@ -8,7 +8,34 @@ Estas son algunas '''tareas''' para hacer periódicamente.
 
 == Anualmente ==
 
-* Subir un dump de [http://www.archiveteam.org/index.php?title=Main_Page Archive Team] a [https://archive.org/download/wiki-archiveteamorg Internet Archive].
+<table class="wikitable sortable">
+<tr>
+    <th>Tarea</th>
+    <th>Última vez</th>
+    <th>Próxima</th>
+</tr>
+<tr>
+    <td>Subir un dump de [http://www.archiveteam.org/index.php?title=Main_Page Archive Team] a [https://archive.org/download/wiki-archiveteamorg Internet Archive]</td>
+    <td>2015-10-22</td>
+    <td>2016-10-22</td>
+</tr>
+</table>
 
+== Otras ==
+
+Tengo cientos de cosas por hacer anotadas en diversos sitios. Suelo dedicar varios días o semanas a las tareas de un proyecto y luego salto a otro. Después me llevo un tiempo «sin hacer nada» destacable, va por rachas. No creo que me de tiempo a terminar todo lo que me propongo, pero aquí está apuntado no obstante:
+
+* [https://15mpedia.org/wiki/Usuario:Emijrp 15Mpedia]
+* [http://archiveteam.org/index.php?title=User:Emijrp Archive Team]
+* [http://wikiindex.org/User:Emijrp WikiIndex]
+* [http://wikipapers.referata.com/wiki/User:Emijrp WikiPapers]
+* [https://en.wikipedia.org/wiki/User:Emijrp#WikiProjects Wikipedia]
+* [https://es.wiktionary.org/wiki/Usuario:Emijrp Wikcionario]
+* [https://es.wikiquote.org/wiki/Usuario:Emijrp Wikiquote]
+* [https://es.wikisource.org/wiki/Usuario:Emijrp Wikisource]
+* [https://www.filmaffinity.com/es/userlist.php?user_id=397713&list_id=201 Películas que me gustaría ver] (ya supera el millar)
+* [https://www.goodreads.com/review/list/50673985-emilio?shelf=to-read Libros que me gustaría leer]
+* [https://github.com/emijrp?tab=repositories Mi software en GitHub]
+* [https://wikitech.wikimedia.org/wiki/User:Emijrp#Stuff_to_do Wikitech]
 
 {{footer}}
