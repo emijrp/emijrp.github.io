@@ -2,7 +2,7 @@
 
 Hace años que no escucho música comercial, de las que suelen poner en la radio, etc.
 
-Suelo escuchar principalmente '''música libre''', es decir, aquellas canciones subidas por los propios cantantes a Internet. Existen plataformas especializadas que facilitan a los autores compartir sus obras, como el sitio [https://www.jamendo.com Jamendo], que contiene música de todos los géneros.
+Suelo escuchar principalmente '''música libre''', es decir, aquellas canciones subidas por los propios cantantes a Internet. Existen plataformas especializadas que facilitan a los autores compartir sus obras, como el sitio [https://www.jamendo.com Jamendo], que contiene música de todos los géneros. Recientemente ha aparecido [https://groovebox.org Groovebox] con el catálogo musical de Internet Archive.
 
 También me gusta que las canciones tengan mensaje, por ello me interesan los siguientes músicos o grupos.
 
@@ -40,12 +40,10 @@ Por expandir
 Algunas muestras de música por país.
 {{youtube|1=RrZkd4k_QPQ}}
 
-<ul>
-    <li>'''Corea del Norte''': ([https://www.youtube.com/watch?v=RrZkd4k_QPQ 1]) (2) (3) (4) (5) ([https://www.youtube.com/channel/UChp0f0Tm7s3mFhYPg0Gh-sw dprkconcert]) ([https://www.youtube.com/user/201201051658 DPRK Music Fan])</li>
-    <li>'''Cuba''': (1) (2) (3) (4) (5)</li>
-    <li>'''Japón''': ([https://www.youtube.com/watch?v=-xu24sPbVR0 1]) (2) (3) (4) (5)</li>
-    <li>'''Vietnam''': (1) (2) (3) (4) (5)</li>
-</ul>
+* '''Corea del Norte''': ([https://www.youtube.com/watch?v=RrZkd4k_QPQ 1]) (2) (3) (4) (5) ([https://www.youtube.com/channel/UChp0f0Tm7s3mFhYPg0Gh-sw dprkconcert]) ([https://www.youtube.com/user/201201051658 DPRK Music Fan])
+* '''Cuba''': (1) (2) (3) (4) (5)
+* '''Japón''': ([https://www.youtube.com/watch?v=-xu24sPbVR0 1]) (2) (3) (4) (5)
+* '''Vietnam''': (1) (2) (3) (4) (5)
 
 {{footer}}
 
