@@ -1,7 +1,7 @@
 <div class="footer">
 <hr/>
-<span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com/">GitHub pages</a></i></span>
-<span style="float: left"><a href="https://validator.w3.org/check?uri=referer"><img class="w3" src="https://emijrp.github.io/images/valid-xhtml10.png" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a></span>
+<span style="float: right">''Con la tecnología de [https://pages.github.com GitHub pages]''</span>
+<span style="float: left">[[File:valid-xhtml10.png|88px|link=https://validator.w3.org/check?uri=referer|Valid XHTML 1.0 Transitional]]</span>
 </div>
 
 </body>
