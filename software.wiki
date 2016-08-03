@@ -1,10 +1,81 @@
 {{header|1=Software}}
 
-Escribo mi propio '''software''' para multitud de tareas. Para ello utilizo sobre todo el lenguaje de programación Python. A continuación encontrarás enlaces a los repositorios con el código fuente.
+Escribo mi propio '''software''' para multitud de tareas, para ello utilizo sobre todo el lenguaje de programación Python. A continuación encontrarás una descripción de mis proyectos y enlaces a los repositorios con el código fuente.
 
-== GitHub ==
+== Mi software destacado ==
+
+Desde que me registré en Wikipedia en 2005 he contribuido asiduamente a esta enciclopedia y también a otros wikis menos conocidos. Estos wikis tienen una importante función en la recopilación, preservación y difusión del conocimiento, de modo que procuro dedicar parte de mi tiempo a ellos. La mayoría de '''mis proyectos destacados''' tienen que ver con los wikis.
+
+<table class="wikitable sortable" style="text-align: center;">
+<tr>
+    <th width=100px>Software</th>
+    <th width=100px>Repositorio</th>
+    <th>Descripción</th>
+    <th width=180px>Imagen</th>
+</tr>
+<tr>
+    <td>'''[https://avbot.blogspot.com AVBOT]'''</td>
+    <td>[https://github.com/emijrp/avbot GitHub]</td>
+    <td>AVBOT es un '''bot anti-vandalismo''' para wikis MediaWiki. Está desarrollado en Python y utiliza el framework pywikibot. AVBOT ha estado funcionando en [https://es.wikipedia.org/wiki/Usuario:AVBOT Wikipedia en español] desde 2008, donde ha revertido más de 250.000 vandalismos. También existen [https://es.wikipedia.org/wiki/Usuario:AVBOT#Clones varios clones] controlados por otros usuarios. En 2009, el proyecto fue galardonado con el '''Premio Nacional al "Mejor proyecto comunitario"''' en el [http://www.concursosoftwarelibre.org/0809/premios-iii-concurso-universitario-software-libre III Concurso Universitario de Software Libre].
+    <!--'''English:''' AVBOT is an anti-vandalism bot for MediaWiki wikis. It is developed in Python, using <a href="http://pywikipediabot.sourceforge.net/">pywikipediabot</a> and <a href="http://python-irclib.sourceforge.net/">irclib</a>. AVBOT has been working in <a href="http://es.wikipedia.org/wiki/Usuario:AVBOT">Spanish Wikipedia</a> from 2008, it has reverted more than 250,000 vandalism edits, and it has <a href="http://es.wikipedia.org/wiki/Usuario:AVBOT#Clones">several clones</a> managed by other users. In 2009, this project was awarded with <b>Premio Nacional al "Mejor proyecto comunitario"</b> in the <a href="http://www.concursosoftwarelibre.org/0809/premios-iii-concurso-universitario-software-libre">III Concurso Universitario de Software Libre</a>.--></td>
+    <td><img src="images/avbot-logo.png" width=180px /></td>
+</tr>
+<tr>
+    <td>'''[https://tools.wmflabs.org/commons-coverage/ Commons Coverage]'''</td>
+    <td>[https://github.com/emijrp/commons-coverage GitHub]</td>
+    <td>'''Mapa''' que muestra todas las '''imágenes geolocalizadas''' de Wikimedia Commons sobre un mapamundi. Cuando hay una fotografía en cualquier zona, se ilumina un círculo de 1 km a la redonda, indicando que esa parte ya "se considera" explorada. El resto del mundo aparece sombreado. De esta forma se invita a mejorar la cobertura de imágenes disponibles en Wikipedia hasta que quizás un día haya una imagen de cada kilómetro cuadrado del planeta.</td>
+    <td><a href="images/commons-coverage.png"><img src="images/commons-coverage.png" width=180px /></a></td>
+</tr>
+<tr>
+    <td>'''Images for bio'''</td>
+    <td>[https://github.com/emijrp/imagesforbio GitHub]</td>
+    <td>Herramienta que '''recopila biografías''' que carecían de '''imagen''' y busca en otras Wikipedias si existe imagen de esa persona. El resultado es un listado de páginas a las que se les puede añadir las imágenes fácilmente mediante un clic. Se encuentra fuera de funcionamiento al haber aparecido proyectos como Wikidata.</td>
+    <td></td>
+</tr>
+<!--<tr>
+    <td>'''wikistatistics-mediawiki-extension'''</td>
+    <td><a href="https://github.com/emijrp/wikistatistics-mediawiki-extension">GitHub</a></td>
+    <td></td>
+    <td></td>
+</tr>-->
+<!--<tr>
+    <td>'''[https://tools.wmflabs.org/wikitweets/ wikitweets]'''</td>
+    <td><a href="https://github.com/emijrp/wikitweets">GitHub</a></td>
+    <td><p>Conjunto de '''bots para Twitter''' que avisan mediante tuits de actividad que sucede en Wikipedia. Por ejemplo, uno de ellos tuitea la imagen del día y otro muestra las páginas creadas en los últimos minutos.</p></td>
+    <td></td>
+</tr>-->
+<tr>
+    <td>'''[https://tools.wmflabs.org/wlm-maps/ WLM maps]'''</td>
+    <td>[https://github.com/emijrp/wlm-maps GitHub]</td>
+    <td>'''Mapa''' que muestra '''todos los monumentos''' para los que se conoce sus coordenadas, indicando si éste dispone de imagen en Wikipedia o no. De esta forma permite encontrar monumentos a los que todavía hay que hacerle fotografías para ilustrar sus artículos en la enciclopedia. Se utiliza para el mayor concurso fotográfico del mundo, [http://www.wikilovesmonuments.org Wiki Loves Monuments].</td>
+    <td><a href="images/wlm-maps.png"><img src="images/wlm-maps.png" width=180px /></a></td>
+</tr>
+<tr>
+    <td>'''[https://tools.wmflabs.org/wlm-stats/ WLM stats]'''</td>
+    <td><a href="https://github.com/emijrp/wlm-stats">GitHub</a></td>
+    <td>Genera '''gráficas y estadísticas''' de las imágenes y vídeos subidos durante las distintas ediciones del concurso fotográfico [http://www.wikilovesmonuments.org Wiki Loves Monuments]. También ofrece un fichero con los metadatos recopilados de todas las imágenes subidas, de esta forma otros usuarios pueden crear sus estadísticas fácilmente.</td>
+    <td><a href="images/wlm-stats.png"><img src="images/wlm-stats.png" width=180px /></a></td>
+</tr>
+<tr>
+    <td>'''[https://tools.wmflabs.org/wmcharts/ wmcharts]'''</td>
+    <td>[https://github.com/emijrp/wmcharts GitHub]</td>
+    <td>Es una colección de '''gráficas''' sobre distintos aspectos y '''métricas''' de los proyectos Wikimedia, por ejemplo la actividad de los cambios recientes, páginas nuevas, borrados, bloqueos a usuarios, protecciones de páginas, subidas de ficheros, ediciones revertidas y más.</td>
+    <td><a href="images/wmcharts.png"><img src="images/wmcharts.png" width=180px /></a></td>
+</tr>
+<tr>
+    <td>'''[https://tools.wmflabs.org/wmcounter/ wmcounter]'''</td>
+    <td>[https://github.com/emijrp/wmcounter GitHub]</td>
+    <td>Es un '''contador''' que muestra el '''total de ediciones''' que se han hecho a [https://www.wikipedia.org Wikipedia] y sus [https://www.wikimedia.org proyectos hermanos] desde que se fundaron en el año 2001. Va creciendo a cada instante por lo que puede verse en vivo como la gente aporta a Wikipedia. A veces el ritmo alcanza las 10 ediciones/segundo o más. La edición número 1.000.000.000 (mil millones) tuvo lugar el 16 de abril de 2010.</td>
+    <td><a href="images/wmcounter.png"><img src="images/wmcounter.png" width=180px /></a></td>
+</tr>
+
+</table>
+
+== Repositorios en GitHub ==
 
 Estos son mis repositorios en [https://github.com GitHub], un portal para compartir código fuente utilizando el programa de control de versiones [https://git-scm.com Git].
+
+Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que yo soy el autor original del repositorio y del código fuente. Cuando pone "Sí" (por ejemplo en Apollo-11), significa que hice un fork (bifurcación) del código fuente de otra persona con la intención de aportar algo en el futuro o simplemente como copia de seguridad.
 
 <!-- tabla completa github -->
 <script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
@@ -1524,16 +1595,21 @@ Estos son mis repositorios en [https://github.com GitHub], un portal para compar
 </table>
 <!-- /tabla completa github -->
 
-== Google Code ==
+== Repositorios en Google Code ==
 
 '''[https://code.google.com Google Code]''' fue una forja de código fuente creada por Google que cerró en 2016 ya que otras alternativas como GitHub le sobrepasaron. Moví la mayoría, sino todos, mis proyectos a GitHub. Aún así se mantiene una copia en el Google Code Archive.
 
-Ya no se publica nuevo código en Google Code. La siguiente tabla indica dónde se encuentran ahora los proyectos.
+'''Ya no se publica nuevo código en Google Code.''' La siguiente tabla indica dónde se encuentran ahora los proyectos.
 
 * [https://code.google.com/archive/p/avbot/ https://code.google.com/archive/p/avbot/] -> [https://github.com/emijrp/avbot https://github.com/emijrp/avbot]
+* [https://code.google.com/archive/p/emijrp/ https://code.google.com/archive/p/emijrp/] -> [https://github.com/emijrp/emijrp https://github.com/emijrp/emijrp]
+* [https://code.google.com/archive/p/imagesforbio/ https://code.google.com/archive/p/imagesforbio/] -> [https://github.com/emijrp/imagesforbio https://github.com/emijrp/imagesforbio]
+* [https://code.google.com/archive/p/latex2wiki/ https://code.google.com/archive/p/latex2wiki/] -> [https://github.com/emijrp/latex2wiki https://github.com/emijrp/latex2wiki]
 * [https://code.google.com/archive/p/wikievidens/ https://code.google.com/archive/p/wikievidens/] -> [https://github.com/emijrp/wikievidens https://github.com/emijrp/wikievidens]
+* [https://code.google.com/archive/p/wisor/ https://code.google.com/archive/p/wisor/] -> [https://github.com/emijrp/wisor https://github.com/emijrp/wisor]
+* [https://code.google.com/archive/p/wikiteam/ https://code.google.com/archive/p/wikiteam/] -> [https://github.com/emijrp/wikiteam https://github.com/emijrp/wikiteam]
 
-== Rediris ==
+== Repositorios en Rediris ==
 
 '''Rediris''' disponía de una forja de código en [https://forja.rediris.es forja.rediris.es] que en 2016 fue cerrada y reemplazada por [https://forja.cica.es forja.cica.es]. Lo que sucedió es que los proyectos no fueron trasladados automáticamente al nuevo lugar, sino que lo tenía que hacer cada desarrollador, de modo que la mayoría quedaron inaccesibles. 
 
