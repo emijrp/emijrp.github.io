@@ -50,6 +50,12 @@ Asociación Cultural Antón Makarenko de Educación Popular
                         
 -->
 
+<!--
+
+Importar listas que he creado https://www.goodreads.com/list/created/50673985-emilio
+
+-->
+
 == Tabla completa ==
 
 Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.com/user/show/50673985-emilio mi perfil de GoodReads]. Está generado con <a href="biblioteca.py">este script</a> que puedes adaptar a tu caso.
