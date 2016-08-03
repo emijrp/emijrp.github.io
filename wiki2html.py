@@ -96,6 +96,7 @@ def images(wiki, wikifile):
         imageparameters = image.split('|')[1:]
         imagewidth = ''
         imageposition = 'right'
+        imagelink = '%s/%s' % (imagepath, imagename)
         imagedesc = imagename
         for imageparameter in imageparameters:
             imageparameter = imageparameter.strip()
@@ -104,14 +105,16 @@ def images(wiki, wikifile):
                 imagewidth = imageparameter
             elif re.search(r'(?i)(left|center|right)', imageparameter):
                 imageposition = imageparameter
+            elif re.search(r'(?i)link=', imageparameter):
+                imagelink = imageparameter.split('link=')[1].strip()
             else:
                 imagedesc = imageparameter
         
         if imagename.endswith('.pdf'):
-            #wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s">%s</a> (PDF)' % (imagepath, imagename, imagedesc))
-            wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s">%s</a>' % (imagepath, imagename, imagedesc))
+            #wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s/%s">%s</a> (PDF)' % (imagepath, imagename, imagedesc))
+            wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s">%s</a>' % (imagelink, imagedesc))
         else:
-            wiki = wiki.replace('[[File:%s]]' % image, '<a href="%s/%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagepath, imagename, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
+            wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagelink, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
     
     return wiki
 
