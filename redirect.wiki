@@ -1,1 +1,5 @@
+{{header|1=Redirección}}
+
 Esta página ha sido movida a [./{{{1}}} {{{1}}}]
+
+{{footer}}
