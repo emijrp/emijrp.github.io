@@ -1,0 +1,5 @@
+{{header|1=Redirección}}
+
+{{redirect|1=cine/cine.html}}
+
+{{footer}}
