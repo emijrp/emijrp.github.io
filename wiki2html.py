@@ -25,18 +25,20 @@ import sys
 # que genere una galeria de archivos con todo el directorio images
 # generar jpg con la portada de los pdf
 
-def readwikifile(wikifile):
-    if os.path.exists(wikifile):
-        f = open(wikifile, 'r')
+def readwikifile(path, wikifile):
+    fullpath = '%s/%s' % (path, wikifile)
+    if os.path.exists(fullpath):
+        f = open(fullpath, 'r')
         wiki = unicode(f.read(), 'utf-8').strip()
         f.close()
     else:
-        wiki = u'<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (wikifile)
+        wiki = u'<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (fullpath)
     
     return wiki
 
-def savehtmlfile(htmlfile, html):
-    f = open(htmlfile, 'w')
+def savehtmlfile(path, htmlfile, html):
+    fullpath = '%s/%s' % (path, htmlfile)
+    f = open(fullpath, 'w')
     f.write(html.encode('utf-8'))
     f.close()
 
@@ -54,12 +56,12 @@ def sections(wiki, wikifile):
     
     return wiki
 
-def templates(wiki, wikifile):
+def templates(wiki, path, wikifile):
     templates = re.findall(r'(?im)\{\{([^\{\}]+?)\}\}', wiki)
     for template in templates:
         templatename = template.split('|')[0]
         templateparameters = template.split('|')[1:]
-        wikitemplate = readwikifile('%s.wiki' % templatename.lower())
+        wikitemplate = readwikifile(path, '%s.wiki' % templatename.lower())
         # remove noinclude
         wikitemplate = re.sub(r'(?im)<noinclude>.*?</noinclude>', r'', wikitemplate)
         # clean includeonly
@@ -77,15 +79,15 @@ def templates(wiki, wikifile):
         #remove empty parameters when {{{X|}}}
         wikitemplate = re.sub(r'{{{\d+\|\s*?}}}', '', wikitemplate)
         
-        htmltemplate = wiki2html(wikitemplate, wikifile)
+        htmltemplate = wiki2html(wikitemplate, path, wikifile)
         wiki = wiki.replace('{{%s}}' % (template), htmltemplate)
     
     return wiki
 
-def images(wiki, wikifile):
+def images(wiki, path, wikifile):
     imagepath = '.'
-    if os.path.exists('imagepath.wiki'):
-        f = open('imagepath.wiki')
+    if os.path.exists('%s/imagepath.wiki' % (path)):
+        f = open('%s/imagepath.wiki' % (path))
         imagepath = f.read().strip()
         f.close()
     
@@ -285,15 +287,15 @@ def sitemap(wikilist):
     </tr>"""
     sitemaprows = []
     c = 1
-    for i in wikilist:
-        j = i.split('.wiki')[0]
+    for path, filename in wikilist:
+        filename2 = filename.split('.wiki')[0]
         row = u"""
     <tr>
         <td>%s</td>
-        <td><a href="%s.html">%s.html</a></td>
-        <td><a href="%s.wiki">%s.wiki</a></td>
+        <td><a href="%s/%s.html">%s/%s.html</a></td>
+        <td><a href="%s/%s.wiki">%s/%s.wiki</a></td>
         <td>%d</td>
-    </tr>\n""" % (c, j, j, j, j, len(readwikifile(i)))
+    </tr>\n""" % (c, path, filename2, path, filename2, path, filename2, path, filename2, len(readwikifile(path, filename)))
         sitemaprows.append(row)
         c += 1
     
@@ -308,7 +310,7 @@ def sitemap(wikilist):
     f.write(wikicode.encode('utf-8'))
     f.close()
 
-def search(wiki, wikifile):
+def search(wiki, path, wikifile):
     entry = []
     
     m = re.findall(ur'(?im)\{\{\s*header\s*\|\s*(1=)?\s*([^\}]+?)\s*\}\}', wiki)
@@ -320,15 +322,15 @@ def search(wiki, wikifile):
         keywords = list(keywords)
         keywords.sort()
         #print keyterms
-        entry = [header, wikifile.split('.wiki')[0], keywords]
+        entry = [header, path, wikifile.split('.wiki')[0], keywords]
     
     return entry
 
-def wiki2html(wiki, wikifile):
+def wiki2html(wiki, path, wikifile):
     wiki = includes(wiki, wikifile)
     wiki = sections(wiki, wikifile)
-    wiki = templates(wiki, wikifile)
-    wiki = images(wiki, wikifile)
+    wiki = templates(wiki, path, wikifile)
+    wiki = images(wiki, path, wikifile)
     wiki = paragraphs(wiki, wikifile)
     wiki = references(wiki, wikifile)
     wiki = textformat(wiki, wikifile)
@@ -340,48 +342,26 @@ def wiki2html(wiki, wikifile):
     html = wiki
     return html
 
-def processfile(wikifile):
-    wiki = readwikifile(wikifile)
-    html = wiki2html(wiki, wikifile)
+def processfile(path, wikifile):
+    wiki = readwikifile(path, wikifile)
+    html = wiki2html(wiki, path, wikifile)
     #print(html)
     htmlfile = '%s.html' % wikifile.split('.wiki')[0]
-    print 'Saving', wikifile, 'in', htmlfile
-    savehtmlfile(htmlfile, html)
-    entry = search(wiki, wikifile)
+    print('Saving %s in %s' % (wikifile, htmlfile))
+    savehtmlfile(path, htmlfile, html)
+    entry = search(wiki, path, wikifile)
     return entry
-    
-def main():
-    wikifiles = []
-    
-    if len(sys.argv) < 2:
-        print('Error: parameter needed')
-        sys.exit()
-    
-    if sys.argv[1] == '--all':
-        listdir = os.listdir('.')
-        for filename in listdir:
-            if filename.endswith('.wiki'):
-                wikifiles.append(filename)
-        sitemap(wikifiles)
-    else:
-        wikifiles = [sys.argv[1]]
-    
-    index = []
-    for wikifile in wikifiles:
-        entry = processfile(wikifile)
-        if entry:
-            index.append(entry)
-    
-    #save index for search engine
+
+def searchengine(index):
     if os.path.exists('buscador.wiki'):
         index.sort()
-        print 'Creating search engine index with', len(index), 'entries and', sum([len(x[2]) for x in index]),'keywords'
+        print('Creating search engine index with %s entries and %s keywords' % (len(index), sum([len(x[2]) for x in index])))
         indexplain = u"\n    index = new Array();"
         c = 0
         for entry in index:
             if entry[0].lower() in ['buscador', 'portada']:
                 continue
-            indexplain += u"\n    index[%s] = new Array('%s', '%s', new Array(%s));" % (c, entry[0], entry[1], ', '.join(["'%s'" % x for x in entry[2]]))
+            indexplain += u"\n    index[%s] = new Array('%s', '%s', '%s', new Array(%s));" % (c, entry[0], entry[1], entry[2], ', '.join(["'%s'" % x for x in entry[3]]))
             c += 1
         indexplain += u"\n    "
         
@@ -392,7 +372,37 @@ def main():
         wikicode = u'%s//index start%s//index end%s' % (wikicode.split(u'//index start')[0], indexplain, wikicode.split(u'//index end')[1])
         f.write(wikicode.encode('utf-8'))
         f.close()
-        processfile('buscador.wiki')
+        processfile('.', 'buscador.wiki')
+
+def main():
+    if len(sys.argv) < 2:
+        print('Error: parameter needed')
+        sys.exit()
+    
+    wikifiles = []
+    if sys.argv[1] == '--all':
+        dirs = ['.', 'bio', 'cine', 'fil', 'geo', 'vuelta-a-espana']
+        for path in dirs:
+            listdir = os.listdir(path)
+            for filename in listdir:
+                if filename.endswith('.wiki'):
+                    wikifiles.append([path, filename])
+        sitemap(wikifiles)
+    else:
+        path = '.'
+        filename = sys.argv[1]
+        if '/' in filename:
+            path = '/'.join(filename.split('/')[:-1])
+        wikifiles = [[path, filename]]
+    
+    index = []
+    for path, filename in wikifiles:
+        entry = processfile(path, filename)
+        if entry:
+            index.append(entry)
+    
+    if sys.argv[1] == '--all':
+        searchengine(index)
 
 if __name__ == '__main__':
     main()
