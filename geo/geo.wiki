@@ -1,31 +1,30 @@
 {{header|1=Portada}}
 
-Esta sección pretende ser un '''Diccionario Geográfico''' con entradas para todos los países del mundo, tanto actuales (unos 200 estados) como también otros países que dejaron de existir en diferentes momentos de la historia. Tras una breve introducción para cada país que abordará su historia, cultura (cine, literatura, música, pintura), economía, política y deportes, se indicarán otros datos de interés y bibliografía adicional en diversos formatos (audiovisual, literaria o webs). Siempre que pueda, añadiré algún mapa con puntos de interés lo cuál facilita la visualización y algunas indicaciones genéricas de cómo llegar a cada país desde España (utilizando Google Maps y WikiVoyage básicamente).
+Esta sección pretende ser un '''Diccionario Geográfico''' con entradas para todos los países del mundo, tanto actuales (unos 200 estados) como también otros países que dejaron de existir en diferentes momentos de la historia.
+
+Tras una breve introducción para cada país que abordará su historia, cultura (cine, literatura, música, pintura), economía, política y deportes, se indicarán otros datos de interés y bibliografía adicional en diversos formatos (audiovisual, literaria o webs). Siempre que pueda, añadiré algún mapa con puntos de interés.
+
+{{../button-grey|1=Alemania}}
+{{../button-blue|1=cuba.html|2=Cuba}}
+{{../button-blue|1=hungria.html|2=Hungría}}
+{{../button-grey|1=Libia}}
+{{../button-blue|1=polonia.html|2=Polonia}}
+{{../button-blue|1=rda.html|2=República Democrática Alemana (RDA)}}
+{{../button-blue|1=dprk.html|2=República Popular Democrática de Corea (DPRK)}}
+{{../button-blue|1=rumania.html|2=Rumanía}}
+{{../button-blue|1=siria.html|2=Siria}}
+{{../button-grey|1=Unión Soviética}}
 
 <!--
-{{../button-blue|1=#Cuba|2=Cuba}}
-{{../button-blue|1=#Polonia|2=Polonia}}
-
 <a class="mw-ui-button mw-ui-grey" href="#">Bolivia</a>
-<a class="mw-ui-button mw-ui-grey" href="#">Corea del Norte</a>
 <a class="mw-ui-button mw-ui-grey" href="#">Ecuador</a>
 <a class="mw-ui-button mw-ui-grey" href="#">España</a>
 <a class="mw-ui-button mw-ui-grey" href="#">Estados Unidos</a>
-<a class="mw-ui-button mw-ui-grey" href="#">Libia</a>
 <a class="mw-ui-button mw-ui-grey" href="#">República Árabe Saharaui Democrática (RASD)</a>
-<a class="mw-ui-button mw-ui-grey" href="#">República Democrática Alemana (RDA)</a>
 <a class="mw-ui-button mw-ui-grey" href="#">Siria</a>
 <a class="mw-ui-button mw-ui-grey" href="#">Unión Soviética</a>
 <a class="mw-ui-button mw-ui-grey" href="#">Venezuela</a>
 </p>
 -->
-
-== Cuba ==
-
-{{cuba}}
-
-== Polonia ==
-
-{{polonia}}
 
 {{../footer}}

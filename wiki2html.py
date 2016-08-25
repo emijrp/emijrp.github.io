@@ -121,7 +121,7 @@ def images(wiki, path, wikifile):
     return wiki
 
 def paragraphs(wiki, wikifile):
-    paragraphs = wiki.split('\n')
+    paragraphs = wiki.strip().split('\n')
     wiki2 = ''
     skipline = False
     for paragraph in paragraphs:
@@ -153,7 +153,10 @@ def paragraphs(wiki, wikifile):
                 continue
             wiki2 += '%s\n' % (paragraph)
         else:
-            wiki2 += '<p>%s</p>\n' % (paragraph)
+            if len(paragraphs) > 1: #only add paragraphs for wikitexts longer than 1 paragraph
+                wiki2 += '<p>%s</p>\n' % (paragraph)
+            else: #avoid break lines
+                wiki2 += '%s' % (paragraph)
     wiki = wiki2
     
     return wiki
