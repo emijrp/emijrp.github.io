@@ -1,5 +1,5 @@
 {{header|1=Series}}
-{{vt2|1=cine|2=Cine|3=documentales|4=Documentales}}
+{{../vt2|1=cine|2=Cine|3=documentales|4=Documentales}}
 
 == Friends ==
 
@@ -807,4 +807,4 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
 </table>
 <!-- /tabla completa -->
 
-{{footer}}
+{{../footer}}
