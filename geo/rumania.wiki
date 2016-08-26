@@ -2,4 +2,6 @@
 
 * [https://imbratisare.blogspot.com Un vallekano en Rumania / Un vallekan în România] ({{t|1=vllknoenrumania}})
 
+* [https://en.wikipedia.org/wiki/Category:Romanian_people_of_the_Spanish_Civil_War Category:Romanian_people_of_the_Spanish_Civil_War]
+
 <noinclude>{{../footer}}</noinclude>
