@@ -1,6 +1,6 @@
 {{header|1=Portada}}
 
-Esta sección pretende ser un '''Diccionario Geográfico''' con entradas para todos los países del mundo, tanto actuales (unos 200 estados) como también otros países que dejaron de existir en diferentes momentos de la historia.
+Esta sección pretende ser un '''Diccionario Geográfico''' con entradas para todos los países del mundo, tanto actuales (unos 200 estados) como también otros países que dejaron de existir en diferentes momentos de la historia, como es el caso de la mayoría de estados del campo socialista que sufrieron una transición del comunismo al capitalismo a comienzos de los 90.
 
 Tras una breve introducción para cada país que abordará su historia, cultura (cine, literatura, música, pintura), economía, política y deportes, se indicarán otros datos de interés y bibliografía adicional en diversos formatos (audiovisual, literaria o webs). Siempre que pueda, añadiré algún mapa con puntos de interés.
 
@@ -13,7 +13,8 @@ Tras una breve introducción para cada país que abordará su historia, cultura 
 {{../button-blue|1=dprk.html|2=República Popular Democrática de Corea (DPRK)}}
 {{../button-blue|1=rumania.html|2=Rumanía}}
 {{../button-blue|1=siria.html|2=Siria}}
-{{../button-grey|1=Unión Soviética}}
+{{../button-blue|1=urss.html|2=Unión de Repúblicas Socialistas Soviéticas (URSS)}}
+{{../button-blue|1=yugoslavia.html|2=Yugoslavia}}
 
 <!--
 <a class="mw-ui-button mw-ui-grey" href="#">Bolivia</a>

@@ -1,7 +1,13 @@
 <noinclude>{{header|1=República Democrática Alemana}}</noinclude>
 
-* [https://laotraalemania.wordpress.com La otra Alemania] ({{t|1=laotraalemania}})
-* [https://lugrogeopolitica.blogspot.com.es/2014/11/el-muro-de-berlin-desde-la-optica-de.html El "Muro de Berlín", desde la óptica de los derrotados]
+La '''República Democrática Alemana''' (RDA) fue un estado socialista ubicado en Alemania Oriental, fundado tras la Segunda Guerra Mundial.
+
+En la parte occidental de Alemania se fundó un estado capitalista conocido como la República Federal Alemana (RFA).
+
+== Bibliografía ==
+
+* Baltra Cortés, Alberto. ''Tres países del mundo socialista: la Unión Soviética, la Democracia Popular Alemana y Yugoeslavia''. Editorial del Pacífico, S.A. Santiago de Chile. 1962. "Capítulo I. Berlín Socialista. Capítulo II. Los Partidos Políticos. Capítulo III. La Libertad Religiosa. Capítulo IV. Los Sectores de la Economía. El Sector Socializado. El Sector Capitalista. El Sector Mixto o Semi-estatal. ¿Cómo funciona una empresa socializada? Capítulo V. Resultados de la Economía. Capítulo VI. Los Refugiados y la Muralla. Capítulo VII. La Muralla. Capítulo VIII. Los Refugiados."
+* Corvalán, Luis. ''La otra Alemania: Conversaciones con Margot Honecker''.
 
 == Cine ==
 
@@ -15,6 +21,10 @@ Por desarrollar.
 
 Por desarrollar.
 
+== Otros ==
+
+* [https://laotraalemania.wordpress.com La otra Alemania] ({{t|1=laotraalemania}})
+* [https://lugrogeopolitica.blogspot.com.es/2014/11/el-muro-de-berlin-desde-la-optica-de.html El "Muro de Berlín", desde la óptica de los derrotados]
 
 <!--
 
