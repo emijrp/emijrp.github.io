@@ -57,21 +57,21 @@
         <td>7</td>
         <td><a href="./biblioteca.html">./biblioteca.html</a></td>
         <td><a href="./biblioteca.wiki">./biblioteca.wiki</a></td>
-        <td>42377</td>
+        <td>42453</td>
     </tr>
 
     <tr>
         <td>8</td>
         <td><a href="./bne.html">./bne.html</a></td>
         <td><a href="./bne.wiki">./bne.wiki</a></td>
-        <td>1245</td>
+        <td>1152</td>
     </tr>
 
     <tr>
         <td>9</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>87323</td>
+        <td>89522</td>
     </tr>
 
     <tr>
@@ -113,7 +113,7 @@
         <td>15</td>
         <td><a href="./comunismo.html">./comunismo.html</a></td>
         <td><a href="./comunismo.wiki">./comunismo.wiki</a></td>
-        <td>1309</td>
+        <td>1743</td>
     </tr>
 
     <tr>
@@ -372,7 +372,7 @@
         <td>52</td>
         <td><a href="./sitemap.html">./sitemap.html</a></td>
         <td><a href="./sitemap.wiki">./sitemap.wiki</a></td>
-        <td>23512</td>
+        <td>23898</td>
     </tr>
 
     <tr>
@@ -421,7 +421,7 @@
         <td>59</td>
         <td><a href="./viajes.html">./viajes.html</a></td>
         <td><a href="./viajes.wiki">./viajes.wiki</a></td>
-        <td>14508</td>
+        <td>14068</td>
     </tr>
 
     <tr>
@@ -624,7 +624,7 @@
         <td>88</td>
         <td><a href="geo/geo.html">geo/geo.html</a></td>
         <td><a href="geo/geo.wiki">geo/geo.wiki</a></td>
-        <td>1549</td>
+        <td>1788</td>
     </tr>
 
     <tr>
@@ -659,7 +659,7 @@
         <td>93</td>
         <td><a href="geo/rda.html">geo/rda.html</a></td>
         <td><a href="geo/rda.wiki">geo/rda.wiki</a></td>
-        <td>729</td>
+        <td>3330</td>
     </tr>
 
     <tr>
@@ -678,132 +678,146 @@
 
     <tr>
         <td>96</td>
+        <td><a href="geo/urss.html">geo/urss.html</a></td>
+        <td><a href="geo/urss.wiki">geo/urss.wiki</a></td>
+        <td>1018</td>
+    </tr>
+
+    <tr>
+        <td>97</td>
+        <td><a href="geo/yugoslavia.html">geo/yugoslavia.html</a></td>
+        <td><a href="geo/yugoslavia.wiki">geo/yugoslavia.wiki</a></td>
+        <td>815</td>
+    </tr>
+
+    <tr>
+        <td>98</td>
         <td><a href="vuelta-a-espana/avila-header.html">vuelta-a-espana/avila-header.html</a></td>
         <td><a href="vuelta-a-espana/avila-header.wiki">vuelta-a-espana/avila-header.wiki</a></td>
         <td>197</td>
     </tr>
 
     <tr>
-        <td>97</td>
+        <td>99</td>
         <td><a href="vuelta-a-espana/avila.html">vuelta-a-espana/avila.html</a></td>
         <td><a href="vuelta-a-espana/avila.wiki">vuelta-a-espana/avila.wiki</a></td>
         <td>4372</td>
     </tr>
 
     <tr>
-        <td>98</td>
+        <td>100</td>
         <td><a href="vuelta-a-espana/clear.html">vuelta-a-espana/clear.html</a></td>
         <td><a href="vuelta-a-espana/clear.wiki">vuelta-a-espana/clear.wiki</a></td>
         <td>18</td>
     </tr>
 
     <tr>
-        <td>99</td>
+        <td>101</td>
         <td><a href="vuelta-a-espana/galeria-etapa.html">vuelta-a-espana/galeria-etapa.html</a></td>
         <td><a href="vuelta-a-espana/galeria-etapa.wiki">vuelta-a-espana/galeria-etapa.wiki</a></td>
         <td>178</td>
     </tr>
 
     <tr>
-        <td>100</td>
+        <td>102</td>
         <td><a href="vuelta-a-espana/guadalajara-header.html">vuelta-a-espana/guadalajara-header.html</a></td>
         <td><a href="vuelta-a-espana/guadalajara-header.wiki">vuelta-a-espana/guadalajara-header.wiki</a></td>
         <td>248</td>
     </tr>
 
     <tr>
-        <td>101</td>
+        <td>103</td>
         <td><a href="vuelta-a-espana/guadalajara.html">vuelta-a-espana/guadalajara.html</a></td>
         <td><a href="vuelta-a-espana/guadalajara.wiki">vuelta-a-espana/guadalajara.wiki</a></td>
         <td>2224</td>
     </tr>
 
     <tr>
-        <td>102</td>
+        <td>104</td>
         <td><a href="vuelta-a-espana/header-etapa.html">vuelta-a-espana/header-etapa.html</a></td>
         <td><a href="vuelta-a-espana/header-etapa.wiki">vuelta-a-espana/header-etapa.wiki</a></td>
         <td>922</td>
     </tr>
 
     <tr>
-        <td>103</td>
+        <td>105</td>
         <td><a href="vuelta-a-espana/header.html">vuelta-a-espana/header.html</a></td>
         <td><a href="vuelta-a-espana/header.wiki">vuelta-a-espana/header.wiki</a></td>
         <td>133</td>
     </tr>
 
     <tr>
-        <td>104</td>
+        <td>106</td>
         <td><a href="vuelta-a-espana/headerleaflet.html">vuelta-a-espana/headerleaflet.html</a></td>
         <td><a href="vuelta-a-espana/headerleaflet.wiki">vuelta-a-espana/headerleaflet.wiki</a></td>
         <td>140</td>
     </tr>
 
     <tr>
-        <td>105</td>
+        <td>107</td>
         <td><a href="vuelta-a-espana/imagepath.html">vuelta-a-espana/imagepath.html</a></td>
         <td><a href="vuelta-a-espana/imagepath.wiki">vuelta-a-espana/imagepath.wiki</a></td>
         <td>9</td>
     </tr>
 
     <tr>
-        <td>106</td>
+        <td>108</td>
         <td><a href="vuelta-a-espana/navbox-etapa.html">vuelta-a-espana/navbox-etapa.html</a></td>
         <td><a href="vuelta-a-espana/navbox-etapa.wiki">vuelta-a-espana/navbox-etapa.wiki</a></td>
         <td>253</td>
     </tr>
 
     <tr>
-        <td>107</td>
+        <td>109</td>
         <td><a href="vuelta-a-espana/reflist-end.html">vuelta-a-espana/reflist-end.html</a></td>
         <td><a href="vuelta-a-espana/reflist-end.wiki">vuelta-a-espana/reflist-end.wiki</a></td>
         <td>24</td>
     </tr>
 
     <tr>
-        <td>108</td>
+        <td>110</td>
         <td><a href="vuelta-a-espana/reflist.html">vuelta-a-espana/reflist.html</a></td>
         <td><a href="vuelta-a-espana/reflist.wiki">vuelta-a-espana/reflist.wiki</a></td>
         <td>22</td>
     </tr>
 
     <tr>
-        <td>109</td>
+        <td>111</td>
         <td><a href="vuelta-a-espana/segovia-header.html">vuelta-a-espana/segovia-header.html</a></td>
         <td><a href="vuelta-a-espana/segovia-header.wiki">vuelta-a-espana/segovia-header.wiki</a></td>
         <td>210</td>
     </tr>
 
     <tr>
-        <td>110</td>
+        <td>112</td>
         <td><a href="vuelta-a-espana/segovia.html">vuelta-a-espana/segovia.html</a></td>
         <td><a href="vuelta-a-espana/segovia.wiki">vuelta-a-espana/segovia.wiki</a></td>
         <td>3248</td>
     </tr>
 
     <tr>
-        <td>111</td>
+        <td>113</td>
         <td><a href="vuelta-a-espana/todas-las-etapas.html">vuelta-a-espana/todas-las-etapas.html</a></td>
         <td><a href="vuelta-a-espana/todas-las-etapas.wiki">vuelta-a-espana/todas-las-etapas.wiki</a></td>
         <td>194</td>
     </tr>
 
     <tr>
-        <td>112</td>
+        <td>114</td>
         <td><a href="vuelta-a-espana/toledo-header.html">vuelta-a-espana/toledo-header.html</a></td>
         <td><a href="vuelta-a-espana/toledo-header.wiki">vuelta-a-espana/toledo-header.wiki</a></td>
         <td>203</td>
     </tr>
 
     <tr>
-        <td>113</td>
+        <td>115</td>
         <td><a href="vuelta-a-espana/toledo.html">vuelta-a-espana/toledo.html</a></td>
         <td><a href="vuelta-a-espana/toledo.wiki">vuelta-a-espana/toledo.wiki</a></td>
         <td>2855</td>
     </tr>
 
     <tr>
-        <td>114</td>
+        <td>116</td>
         <td><a href="vuelta-a-espana/vuelta-a-espana.html">vuelta-a-espana/vuelta-a-espana.html</a></td>
         <td><a href="vuelta-a-espana/vuelta-a-espana.wiki">vuelta-a-espana/vuelta-a-espana.wiki</a></td>
         <td>3850</td>
