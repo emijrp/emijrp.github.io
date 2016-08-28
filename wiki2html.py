@@ -377,6 +377,14 @@ def searchengine(index):
         f.close()
         processfile('.', 'buscador.wiki')
 
+def readwikidirs():
+    wikidirs = []
+    if os.path.exists('wikidirs'):
+        f = open('wikidirs', 'r')
+        wikidirs = unicode(f.read(), 'utf-8').strip().splitlines()
+        f.close()
+    return wikidirs
+
 def main():
     if len(sys.argv) < 2:
         print('Error: parameter needed')
@@ -384,7 +392,7 @@ def main():
     
     wikifiles = []
     if sys.argv[1] == '--all':
-        dirs = ['.', 'bio', 'cine', 'fil', 'geo', 'vuelta-a-espana']
+        dirs = readwikidirs()
         for path in dirs:
             listdir = os.listdir(path)
             for filename in listdir:
