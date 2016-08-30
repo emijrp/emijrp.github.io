@@ -6,6 +6,7 @@ Tras una breve introducción para cada país que abordará su historia, cultura 
 
 {{../button-grey|1=Alemania}}
 {{../button-blue|1=cuba.html|2=Cuba}}
+{{../button-blue|1=chile.html|2=Chile}}
 {{../button-blue|1=hungria.html|2=Hungría}}
 {{../button-grey|1=Libia}}
 {{../button-blue|1=polonia.html|2=Polonia}}
