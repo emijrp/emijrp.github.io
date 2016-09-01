@@ -30,6 +30,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=fil/fil.html|2=Diccionario Filosófico-Político}}
     {{button-blue|1=geo/geo.html|2=Diccionario Geográfico}}
     {{button-blue|1=cine/documentales.html|2=Documentales}}
+    {{button-blue|1=geo/espana.html|2=España}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
     {{button-blue|1=feminismo.html|2=Feminismo}}
     {{button-blue|1=fotografia.html|2=Fotografía}}
