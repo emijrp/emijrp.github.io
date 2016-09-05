@@ -1,0 +1,9 @@
+{{header|1=Filmotecas}}
+
+* La '''Filmoteca Española''' es el archivo que custodia el patrimonio fílmico español. Tiene como misión recuperar, investigar y conservar el patrimonio cinematográfico y promover su conocimiento. Es una Subdirección General del Instituto de la Cinematografía y de las Artes Audiovisuales y desde 1956 pertenece a la Federación Internacional de Archivos Fílmicos. [http://www.mecd.gob.es/cultura-mecd/areas-cultura/cine/mc/fe/portada.html Web oficial].
+
+* La '''Filmoteca de Castilla y León''' fue fundada en 1990. Publica una [http://www.filmotecadecastillayleon.es/revista-digital.php revista trimestral].
+
+* La '''Filmoteca de Cataluña''' es una institución cultural gestionada por el Departamento de Cultura de la Generalitat de Cataluña que desde 1981 se dedica a la preservación de material fílmico y a la difusión de la cultura cinematográfica. [http://www.filmoteca.cat Web oficial].
+
+{{../footer}}
