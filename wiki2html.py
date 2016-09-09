@@ -59,7 +59,7 @@ def sections(wiki, wikifile):
 def templates(wiki, path, wikifile):
     templates = re.findall(r'(?im)\{\{([^\{\}]+?)\}\}', wiki)
     for template in templates:
-        templatename = template.split('|')[0]
+        templatename = template.split('|')[0].split('\n')[0].strip()
         templateparameters = template.split('|')[1:]
         wikitemplate = readwikifile(path, '%s.wiki' % templatename.lower())
         # remove noinclude
@@ -79,6 +79,7 @@ def templates(wiki, path, wikifile):
         #remove empty parameters when {{{X|}}}
         wikitemplate = re.sub(r'{{{\d+\|\s*?}}}', '', wikitemplate)
         
+        #recursive template replacing
         htmltemplate = wiki2html(wikitemplate, path, wikifile)
         wiki = wiki.replace('{{%s}}' % (template), htmltemplate)
     
@@ -169,16 +170,22 @@ def textformat(wiki, wikifile):
     return wiki
 
 def linksinternal(wiki, wikifile):
-    wiki = re.sub(r'\[\[(%s)\|([^\]]*?)\]\]' % (wikifile.split('.wiki')[0]), r'<b>\2</b>', wiki)
-    wiki = re.sub(r'\[\[(%s)\]\]' % (wikifile.split('.wiki')[0]), r'<b>\1</b>', wiki)
+    wiki = re.sub(r'(?i)\[\[(%s)\|([^\]]*?)\]\]' % (wikifile.split('.wiki')[0].lower()), r'<b>\2</b>', wiki)
+    wiki = re.sub(r'(?i)\[\[(%s)\]\]' % (wikifile.split('.wiki')[0].lower()), r'<b>\1</b>', wiki)
     
     m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\|([^\[\]\|]+?)\]\]', wiki)
     for i in m:
-        wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i[0].lower()), i[1]), wiki)
+        if i[0].startswith('#'):
+            wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s">%s</a>' % (i[0], i[1]), wiki)
+        else:
+            wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i[0].lower()), i[1]), wiki)
     
     m = re.findall(r'(?im)\[\[([^\[\]\|]+?)\]\]', wiki)
     for i in m:
-        wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i.lower()), i), wiki)
+        if i.startswith('#'):
+            wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s">%s</a>' % (i, i), wiki)
+        else:
+            wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i.lower()), i), wiki)
         
     return wiki
 
