@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Georgi Dimitrov}}</noinclude>
+
+<includeonly>=== Dimitrov, Georgi ===</includeonly>
+
+{{header-bio
+|wiki=dimitrov-georgi
+|nombre y apellidos=Georgi Dimitrov
+|apellidos y nombre=Dimitrov, Georgi
+|imagen=georgi-dimitrov.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=18 de junio de 1882
+|lugar de nacimiento=Pernik, Bulgaria
+|fecha de fallecimiento=2 de julio de 1949
+|lugar de fallecimiento=Moscú, Unión Soviética
+|descripción=Abogado y político búlgaro
+}}
+
+Secretario general de la Internacional Comunista entre 1934 y 1943.  
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>

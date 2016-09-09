@@ -8,150 +8,133 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
 
 -->
 
-<!--
-<b>Índice: 
-<a href="#A">A</a> - 
-<a href="#B">B</a> - 
-<a href="#C">C</a> - 
-<a href="#D">D</a> - 
-<a href="#E">E</a> - 
-<a href="#F">F</a> - 
-<a href="#G">G</a> - 
-<a href="#H">H</a> - 
-<a href="#I">I</a> - 
-<a href="#J">J</a> - 
-<a href="#K">K</a> - 
-<a href="#L">L</a> - 
-<a href="#M">M</a> - 
-<a href="#N">N</a> - 
-<a href="#O">O</a> - 
-<a href="#P">P</a> - 
-<a href="#Q">Q</a> - 
-<a href="#R">R</a> - 
-<a href="#S">S</a> - 
-<a href="#T">T</a> - 
-<a href="#U">U</a> - 
-<a href="#V">V</a> - 
-<a href="#W">W</a> - 
-<a href="#X">X</a> - 
-<a href="#Y">Y</a> - 
-<a href="#Z">Z</a>
-</b>
--->
+<!-- tabla completa -->
+<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
 
-== A ==
+<table class="wikitable sortable" style="text-align: center;">
 
-{{allende-salvador}}
-{{alvarez-santiago}}
+    <tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Nombre</th>
+        <th class="sorttable_alpha">País</th>
+        <th class="sorttable_alpha">Nacimiento</th>
+        <th class="sorttable_alpha">Fallecimiento</th>
+        <th class="sorttable_alpha">Descripción</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td sorttable_customkey="Allende, Salvador"><a href="allende-salvador.html">Allende, Salvador</a></td>
+        <td>Chile</td>
+        <td>1908</td>
+        <td>1973</td>
+        <td></td>
+    </tr>
 
-== B ==
+    <tr>
+        <td>2</td>
+        <td sorttable_customkey="Álvarez, Santiago"><a href="alvarez-santiago.html">Álvarez, Santiago</a></td>
+        <td>Cuba</td>
+        <td>1919</td>
+        <td>1998</td>
+        <td></td>
+    </tr>
 
-{{beauvoir-simone}}
+    <tr>
+        <td>3</td>
+        <td sorttable_customkey="Beauvoir, Simone de"><a href="beauvoir-simone.html">Beauvoir, Simone de</a></td>
+        <td>Francia</td>
+        <td>1908</td>
+        <td>1986</td>
+        <td></td>
+    </tr>
 
-== C ==
+    <tr>
+        <td>4</td>
+        <td sorttable_customkey="Bravo, Estela"><a href="bravo-estela.html">Bravo, Estela</a></td>
+        <td>Estados Unidos</td>
+        <td>1933</td>
+        <td>-</td>
+        <td></td>
+    </tr>
 
-{{castro-fidel}}
-{{chavez-hugo}}
+    <tr>
+        <td>5</td>
+        <td sorttable_customkey="Castro, Fidel"><a href="castro-fidel.html">Castro, Fidel</a></td>
+        <td>Cuba</td>
+        <td>1926</td>
+        <td>-</td>
+        <td></td>
+    </tr>
 
-== D ==
+    <tr>
+        <td>6</td>
+        <td sorttable_customkey="Chávez, Hugo"><a href="chavez-hugo.html">Chávez, Hugo</a></td>
+        <td>Venezuela</td>
+        <td>1954</td>
+        <td>2013</td>
+        <td></td>
+    </tr>
 
-Sin entradas
+    <tr>
+        <td>7</td>
+        <td sorttable_customkey="Dimitrov, Georgi"><a href="dimitrov-georgi.html">Dimitrov, Georgi</a></td>
+        <td>Bulgaria</td>
+        <td>1882</td>
+        <td>1949</td>
+        <td></td>
+    </tr>
 
-== E ==
+    <tr>
+        <td>8</td>
+        <td sorttable_customkey="Galeano, Eduardo"><a href="galeano-eduardo.html">Galeano, Eduardo</a></td>
+        <td>Uruguay</td>
+        <td>1940</td>
+        <td>2015</td>
+        <td></td>
+    </tr>
+</table>
+<!-- /tabla completa -->
 
-{{engels-friedrich}}
+* [[engels-friedrich|Friedrich Engels]]
+* [[gramsci-antonio|Antonio Gramsci]]
+* [[grimaldos-alfredo|Alfredo Grimaldos]]
+* [[guevara-ernesto|Ernesto Che Guevara]]
+* [[hernandez-miguel|Miguel Hernández]]
+* [[ho-chi-minh|Ho Chi Minh]]
+* [[honecker-erich|Erich Honecker]]
+* [[kollontai-alexandra|Alexandra Kollontai]]
+* [[lenin-vladimir|Vladimir Lenin]]
+* [[mandela-nelson|Nelson Mandela]]
+* [[marx-karl|Karl Marx]]
+* [[morales-evo|Evo Morales]]
+* [[sankara-thomas|Thomas Sankara]]
+* [[woolf-virginia|Virginia Wolf]]
+* [[zetkin-clara|Clara Zetkin]]
 
-== F ==
-
-Sin entradas
-
-== G ==
-
-{{galeano-eduardo}}
-{{gramsci-antonio}}
-{{guevara-ernesto}}
-
-== H ==
-
-{{hernandez-miguel}}
-{{ho-chi-minh}}
 <!--
 http://www.filmaffinity.com/es/film680186.html
 -->
-<hr/>
-{{honecker-erich}}
+<!--
+<noinclude>{{header|1=Nombre}}</noinclude>
 
-== I ==
+<includeonly>=== Apellidos, Nombre ===</includeonly>
 
-Sin entradas
+{{header-bio
+|wiki=
+|nombre y apellidos=
+|apellidos y nombre=
+|imagen=
+|imagen tamaño=
+|imagen enlace=
+|fecha de nacimiento=
+|lugar de nacimiento=
+|fecha de fallecimiento=
+|lugar de fallecimiento=ibídem
+|descripción=
+}}
 
-== J ==
+<noinclude>{{../footer}}</noinclude>
 
-Sin entradas
-
-== K ==
-
-Sin entradas
-
-== L ==
-
-{{lenin-vladimir}}
-
-== M ==
-
-{{marx-karl}}
-{{morales-evo}}
-
-== N ==
-
-Sin entradas
-
-== O ==
-
-Sin entradas
-
-== P ==
-
-Sin entradas
-
-== Q ==
-
-Sin entradas
-
-== R ==
-
-Sin entradas
-
-== S ==
-
-{{sankara-thomas}}
-
-== T ==
-
-Sin entradas
-
-== U ==
-
-Sin entradas
-
-== V ==
-
-Sin entradas
-
-== W ==
-
-{{woolf-virginia}}
-
-== X ==
-
-Sin entradas
-
-== Y ==
-
-Sin entradas
-
-== Z ==
-
-{{zetkin-clara}}
+-->
 
 {{../footer}}

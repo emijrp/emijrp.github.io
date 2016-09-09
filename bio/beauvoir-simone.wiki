@@ -2,9 +2,19 @@
 
 <includeonly>=== Beauvoir, Simone de ===</includeonly>
 
-<a href="https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png"><img src="../images/simone-beauvoir.png" width="200px" align="right" /></a>
-
-'''[[beauvoir-simone|Beauvoir, Simone de]]''' (9 de enero de 1908 - 14 de abril de 1986). Escritora francesa, intelectual, filósofa existencial, activista política, feminista y teórica social.
+{{header-bio
+|wiki=beauvoir-simone
+|nombre y apellidos=Simone de Beauvoir
+|apellidos y nombre=Beauvoir, Simone de
+|imagen=simone-beauvoir.png
+|imagen tamaño=200px
+|imagen enlace=https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png
+|fecha de nacimiento=9 de enero de 1908
+|lugar de nacimiento=Francia
+|fecha de fallecimiento=14 de abril de 1986
+|lugar de fallecimiento=íbidem
+|descripción=Escritora francesa, intelectual, filósofa existencial, activista política, feminista y teórica social
+}}
 
 Aunque no se consideraba a sí misma como una filósofa, tuvo una influencia significativa sobre el feminismo existencial y la teoría feminista. De Beauvoir escribió novelas, ensayos, biografías, monografías sobre filosofía, política y temas sociales.
 

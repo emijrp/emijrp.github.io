@@ -11,8 +11,6 @@
 
 Nació en Simbirsk, su nombre real era Vladimir Ilich Ulianov, hijo de Ilia Ulianov y María Alexandrovna Blank. El legado de Karl Marx junto con las aportaciones de Lenin reciben el nombre de Marxismo-Leninismo.
 
-Se puede leer más sobre Lenin en <a href="http://www.ecured.cu/index.php/Vladimir_Ilich_Ulianov">su biografía en EcuRed</a> o en <a href="http://vlenin.blogspot.com.ar/">este blog dedicado a su figura</a>.
-
 La obra de Lenin es abundante. Algunos títulos fundamentales son los siguientes:
 
 * ''[https://www.google.es/#safe=off&q=que+hacer+pdf ¿Qué hacer?]'' (1902)
@@ -26,6 +24,8 @@ Son varias las películas que tratan sobre Vladimir Lenin y su papel en la revol
 * ''Lenin en octubre'' (1937) y ''Lenin en 1918'' (1939) de Mikhail Romm
 * ''Historias de Lenin'' (1957), ''Lenin en Polonia'' (1966) y ''Lenin en París'' (1981) de Sergei Yutkevich
 * ''El tren de Lenin'' (1988) de Damiano Damiani
+
+Se puede leer más sobre Lenin en [http://www.ecured.cu/index.php/Vladimir_Ilich_Ulianov su biografía en EcuRed] o en [http://vlenin.blogspot.com.ar este blog dedicado a su figura].
 
 <!--
 <table>

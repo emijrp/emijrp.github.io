@@ -2,15 +2,25 @@
 
 <includeonly>=== Galeano, Eduardo ===</includeonly>
 
-<a href="https://commons.wikimedia.org/wiki/File:Eduardo_Galeano_%28Feria_del_Libro_de_Madrid,_31_de_mayo_de_2008%29.jpg"><img src="../images/eduardo-galeano.jpg" width="200px" align="right" /></a>
-
-'''[[galeano-eduardo|Galeano, Eduardo]]''' (Montevideo, Uruguay, 3 de septiembre de 1940 - 13 de abril de 2015). Escritor y periodista uruguayo.
+{{header-bio
+|wiki=galeano-eduardo
+|nombre y apellidos=Eduardo Galeano
+|apellidos y nombre=Galeano, Eduardo
+|imagen=eduardo-galeano.jpg
+|imagen tamaño=200px
+|imagen enlace=https://commons.wikimedia.org/wiki/File:Eduardo_Galeano_%28Feria_del_Libro_de_Madrid,_31_de_mayo_de_2008%29.jpg
+|fecha de nacimiento=3 de septiembre de 1940
+|lugar de nacimiento=Montevideo, Uruguay
+|fecha de fallecimiento=13 de abril de 2015
+|lugar de fallecimiento=?
+|descripción=Escritor y periodista uruguayo
+}}
 
 Entre sus obras más conocidas se encuentra <i>Las venas abiertas de América Latina</i> donde relata los sufrimientos que ha padecido esa región del mundo por parte de los distintos imperios que han saqueado sus recursos a lo largo de la historia.
 
 Otras obras suyas incluyen ''Memoria del fuego'', ''Espejos: una historia casi universal'', ''Patas arriba: la escuela del mundo al revés'' y ''Los hijos de los días''.
 
-Protagonizó varias [http://www.encuentro.gov.ar/sitios/encuentro/programas/?tag_id=70576 series para televisión] en el Canal Encuentro de Argentina, como La vida según Galeano y Los días de Galeano, en las que desgranaba parte de su obra.
+Protagonizó varias [http://www.encuentro.gov.ar/sitios/encuentro/programas/?tag_id=70576 series para televisión] en el Canal Encuentro de Argentina, como ''La vida según Galeano'' y ''Los días de Galeano'', en las que desgranaba parte de su obra.
 
 * [https://es.wikipedia.org/wiki/Eduardo_Galeano Biografía de Eduardo Galeano] en Wikipedia
 * [http://www.rebelion.org/mostrar.php?tipo=5&id=Eduardo%20Galeano&inicio=0 Textos de Eduardo Galeano] en Rebelión

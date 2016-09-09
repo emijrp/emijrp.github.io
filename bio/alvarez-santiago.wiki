@@ -2,6 +2,18 @@
 
 <includeonly>=== Álvarez, Santiago ===</includeonly>
 
-'''[[alvarez-santiago|Álvarez, Santiago]]'''. Director de cine cubano.
+{{header-bio
+|wiki=alvarez-santiago
+|nombre y apellidos=Santiago Álvarez
+|apellidos y nombre=Álvarez, Santiago
+|imagen=santiago-alvarez.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=8 de marzo de 1919
+|lugar de nacimiento=Cuba
+|fecha de fallecimiento=20 de mayo de 1998
+|lugar de fallecimiento=íbidem
+|descripción=Director de cine cubano
+}}
 
 <noinclude>{{../footer}}</noinclude>
