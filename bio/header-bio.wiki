@@ -1,2 +1,2 @@
 [[File:{{{imagen}}}|{{{imagen tamaño}}}|link={{{imagen enlace}}}]]
-'''[[{{{wiki}}}|{{{nombre y apellidos}}}]]''' ({{{lugar de nacimiento}}}, {{{fecha de nacimiento}}} - {{{lugar de fallecimiento}}}, {{{fecha de fallecimiento}}}). {{{descripción}}}.
+'''[[{{{wiki}}}|{{{nombre y apellidos}}}]]''' ({{{lugar de nacimiento}}}, {{{fecha de nacimiento}}} - {{{lugar de fallecimiento}}}, {{{fecha de fallecimiento}}}). {{{descripcion}}}.

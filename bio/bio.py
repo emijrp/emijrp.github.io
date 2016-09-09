@@ -48,7 +48,7 @@ def main():
                 'lugardenacimiento': re.findall(r"(?im)lugar de nacimiento\s*=([^\n\|]+)", headerbio) and re.findall(r"(?im)lugar de nacimiento\s*=([^\n\|]+)", headerbio)[0] or '', 
                 'fechadefallecimiento': re.findall(r"(?im)fecha de fallecimiento\s*=([^\n\|]+)", headerbio) and re.findall(r"(?im)fecha de fallecimiento\s*=([^\n\|]+)", headerbio)[0] or '', 
                 'lugardefallecimiento': re.findall(r"(?im)lugar de fallecimiento\s*=([^\n\|]+)", headerbio) and re.findall(r"(?im)lugar de fallecimiento\s*=([^\n\|]+)", headerbio)[0] or '', 
-                'descripcion': re.findall(r"(?im)descripción\s*=([^\n\|]+)", headerbio) and re.findall(r"(?im)descripción\s*=([^\n\|]+)", headerbio)[0] or '', 
+                'descripcion': re.findall(r"(?im)descripcion\s*=([^\n\|]+)", headerbio) and re.findall(r"(?im)descripcion\s*=([^\n\|]+)", headerbio)[0] or '', 
             }
             for k, v in [['fechadenacimiento', 'anyodenacimiento'], ['fechadefallecimiento', 'anyodefallecimiento']]:
                 if bioprops[k]:

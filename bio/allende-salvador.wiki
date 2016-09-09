@@ -13,7 +13,7 @@
 |lugar de nacimiento=Santiago, Chile
 |fecha de fallecimiento=11 de septiembre de 1973
 |lugar de fallecimiento=ibídem
-|descripción=Médico, político y Presidente de Chile
+|descripcion=Médico, político y Presidente de Chile
 }}
 
 <noinclude>{{../footer}}</noinclude>

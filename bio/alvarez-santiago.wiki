@@ -13,7 +13,7 @@
 |lugar de nacimiento=Cuba
 |fecha de fallecimiento=20 de mayo de 1998
 |lugar de fallecimiento=íbidem
-|descripción=Director de cine cubano
+|descripcion=Director de cine cubano
 }}
 
 <noinclude>{{../footer}}</noinclude>

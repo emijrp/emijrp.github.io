@@ -13,7 +13,7 @@
 |lugar de nacimiento=Montevideo, Uruguay
 |fecha de fallecimiento=13 de abril de 2015
 |lugar de fallecimiento=?
-|descripción=Escritor y periodista uruguayo
+|descripcion=Escritor y periodista uruguayo
 }}
 
 Entre sus obras más conocidas se encuentra <i>Las venas abiertas de América Latina</i> donde relata los sufrimientos que ha padecido esa región del mundo por parte de los distintos imperios que han saqueado sus recursos a lo largo de la historia.

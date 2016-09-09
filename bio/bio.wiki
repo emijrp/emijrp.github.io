@@ -27,7 +27,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Chile</td>
         <td>1908</td>
         <td>1973</td>
-        <td></td>
+        <td>Médico, político y Presidente de Chile</td>
     </tr>
 
     <tr>
@@ -36,7 +36,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Cuba</td>
         <td>1919</td>
         <td>1998</td>
-        <td></td>
+        <td>Director de cine cubano</td>
     </tr>
 
     <tr>
@@ -45,7 +45,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Francia</td>
         <td>1908</td>
         <td>1986</td>
-        <td></td>
+        <td>Escritora francesa, filósofa y feminista</td>
     </tr>
 
     <tr>
@@ -54,7 +54,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Estados Unidos</td>
         <td>1933</td>
         <td>-</td>
-        <td></td>
+        <td>Directora de cine</td>
     </tr>
 
     <tr>
@@ -63,7 +63,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Cuba</td>
         <td>1926</td>
         <td>-</td>
-        <td></td>
+        <td>Revolucionario cubano</td>
     </tr>
 
     <tr>
@@ -72,7 +72,7 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Venezuela</td>
         <td>1954</td>
         <td>2013</td>
-        <td></td>
+        <td>Militar, político y revolucionario venezolano</td>
     </tr>
 
     <tr>
@@ -81,21 +81,29 @@ Este es un '''Diccionario Biográfico''' en el que recopilo anotaciones sobre la
         <td>Bulgaria</td>
         <td>1882</td>
         <td>1949</td>
-        <td></td>
+        <td>Abogado y político búlgaro</td>
     </tr>
 
     <tr>
         <td>8</td>
+        <td sorttable_customkey="Engels, Friedrich"><a href="engels-friedrich.html">Engels, Friedrich</a></td>
+        <td>Prusia</td>
+        <td>1820</td>
+        <td>1895</td>
+        <td>Filósofo y revolucionario alemán</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
         <td sorttable_customkey="Galeano, Eduardo"><a href="galeano-eduardo.html">Galeano, Eduardo</a></td>
         <td>Uruguay</td>
         <td>1940</td>
         <td>2015</td>
-        <td></td>
+        <td>Escritor y periodista uruguayo</td>
     </tr>
 </table>
 <!-- /tabla completa -->
 
-* [[engels-friedrich|Friedrich Engels]]
 * [[gramsci-antonio|Antonio Gramsci]]
 * [[grimaldos-alfredo|Alfredo Grimaldos]]
 * [[guevara-ernesto|Ernesto Che Guevara]]
@@ -130,7 +138,7 @@ http://www.filmaffinity.com/es/film680186.html
 |lugar de nacimiento=
 |fecha de fallecimiento=
 |lugar de fallecimiento=ibídem
-|descripción=
+|descripcion=
 }}
 
 <noinclude>{{../footer}}</noinclude>
