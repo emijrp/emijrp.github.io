@@ -6,8 +6,8 @@
 |wiki=alvarez-santiago
 |nombre y apellidos=Santiago Álvarez
 |apellidos y nombre=Álvarez, Santiago
-|imagen=santiago-alvarez.jpg
-|imagen tamaño=200px
+|imagen=
+|imagen tamaño=
 |imagen enlace=
 |fecha de nacimiento=8 de marzo de 1919
 |lugar de nacimiento=Cuba
@@ -15,5 +15,7 @@
 |lugar de fallecimiento=íbidem
 |descripcion=Director de cine cubano
 }}
+
+{{clear}}
 
 <noinclude>{{../footer}}</noinclude>

@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Evo Morales}}</noinclude>
+
+<includeonly>=== Morales, Evo ===</includeonly>
+
+{{header-bio
+|wiki=morales-evo
+|nombre y apellidos=Evo Morales
+|apellidos y nombre=Morales Evo
+|imagen=evo-morales.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=26 de octubre de 1959
+|lugar de nacimiento=Orinoca, Bolivia
+|fecha de fallecimiento=
+|lugar de fallecimiento=
+|descripcion=Sindicalista boliviano y Presidente del Estado Plurinacional de Bolivia
+}}
+
+Evo es un político, sindicalista cocalero, activista y dirigente indígena aymara boliviano, elegido en 2005 Presidente del Estado Plurinacional de Bolivia.
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>

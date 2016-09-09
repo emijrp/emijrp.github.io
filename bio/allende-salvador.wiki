@@ -16,4 +16,6 @@
 |descripcion=Médico, político y Presidente de Chile
 }}
 
+{{clear}}
+
 <noinclude>{{../footer}}</noinclude>

@@ -1,0 +1,25 @@
+<noinclude>{{header|1=Virginia Woolf}}</noinclude>
+
+<includeonly>=== Woolf, Virginia ===</includeonly>
+
+{{header-bio
+|wiki=woolf-virginia
+|nombre y apellidos=Virginia Woolf
+|apellidos y nombre=Woolf, Virginia
+|imagen=virginia-woolf.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=25 de enero de 1882-
+|lugar de nacimiento=Londres, Reino Unido
+|fecha de fallecimiento=28 de marzo de 1941
+|lugar de fallecimiento=Lewes, Reino Unido
+|descripcion=Escritora y feminista británica
+}}
+
+Considerada una de las más destacadas figuras del modernismo literario del siglo XX.
+
+Sus obras más famosas incluyen las novelas ''La señora Dalloway'' (1925), ''Al faro'' (1927), ''Orlando: una biografía'' (1928), ''Las olas'' (1931), y el ensayo ''Una habitación propia'' (1929) ampliamente citado por el movimiento feminista.
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>

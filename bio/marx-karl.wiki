@@ -1,0 +1,25 @@
+<noinclude>{{header|1=Karl Marx}}</noinclude>
+
+<includeonly>=== Marx, Karl ===</includeonly>
+
+{{header-bio
+|wiki=marx-karl
+|nombre y apellidos=Karl Marx
+|apellidos y nombre=Marx, Karl
+|imagen=karl-marx.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=5 de mayo de 1818
+|lugar de nacimiento=Tréveris, Prusia
+|fecha de fallecimiento=14 de marzo de 1883
+|lugar de fallecimiento=Londres, Reino Unido
+|descripcion=Filósofo y militante comunista
+}}
+
+Su vasta e influyente obra abarca la filosofía, la historia, la ciencia política, la sociología y la economía.
+
+Junto a [[engels-friedrich|Friedrich Engels]], es el padre del socialismo científico, del comunismo moderno, del marxismo y del materialismo histórico. Sus escritos más conocidos son el ''Manifiesto del Partido Comunista'' (en coautoría con Engels) y ''El Capital''.
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>

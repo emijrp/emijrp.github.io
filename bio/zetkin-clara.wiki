@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Clara Zetkin}}</noinclude>
+
+<includeonly>=== Zetkin, Clara ===</includeonly>
+
+{{header-bio
+|wiki=zetkin-clara
+|nombre y apellidos=Clara Zetkin
+|apellidos y nombre=Zetkin, Clara
+|imagen=clara-zetkin-rosa-luxemburgo.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=5 de julio de 1857
+|lugar de nacimiento=Imperio alemán
+|fecha de fallecimiento=20 de junio de 1933
+|lugar de fallecimiento=Moscú, Unión Soviética
+|descripcion=Política y feminista alemana
+}}
+
+Luchadora por los derechos de la mujer.
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>
