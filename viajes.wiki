@@ -12,14 +12,17 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
     
     var places = [
         ["Alcalá de Henares", 40.482093, -3.367031], 
+        ["Alcocer", 40.471111, -2.609722], 
         ["Alhaurín el Grande", 36.642119, -4.687833], 
         ["Aranjuez", 40.033333, -3.616666], 
         ["Ávila", 40.65, -4.683333], 
         ["Barcelona", 41.403076, 2.173695], 
         ["Cádiz", 36.529824, -6.292721], 
         ["Cáceres", 39.475111, -6.371400], 
+        ["Chillaron de Cuenca", 40.10472, -2.22138], 
         ["Chipiona", 36.737781, -6.442138], 
         ["Córdoba", 37.877220, -4.778585], 
+        ["Cuenca", 40.071666, -2.135], 
         ["El Puerto de Santa María", 36.598129, -6.223777], 
         ["Espera", 36.866667, -5.8], 
         ["Granada", 37.177050, -3.589184], 
@@ -33,6 +36,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Nerja", 36.772717, -3.880040], 
         ["Puerto Real", 36.529167, -6.191944], 
         ["Rota", 36.622863,-6.359959], 
+        ["Sacedón", 40.48222, -2.73166], 
         ["Segovia", 40.948, -4.1177], 
         ["Sevilla", 37.386128, -5.992103], 
         ["Sierra Nevada", 37.095596, -3.399980], 
@@ -41,6 +45,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Tomares", 37.374252, -6.029259], 
         ["Torrejón de Ardoz", 40.45, -3.483056], 
         ["Trebujena", 36.869315, -6.176710], 
+        ["Villar de Domingo García", 40.238333, -2.294166], 
     ];
 
     var map = L.map('map').setView([40.416957, -3.703478], 6);
@@ -78,8 +83,8 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
 
 * '''Países''' visitados: 1 (España).
 * '''Comunidades autónomas''': 6 (Andalucía, Castilla-La Mancha, Castilla y León, Comunidad de Madrid, Cataluña y Extremadura).
-* '''Provincias''': 12 (Ávila, Cádiz, Barcelona, Cáceres, Córdoba, Granada, Guadalajara, Madrid, Málaga, Segovia, Sevilla y Toledo).
-* '''Municipios''': 27 ([https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], Alhaurín el Grande, [https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Aranjuez], [https://www.flickr.com/photos/emijrp/collections/72157669148531616/ Ávila], [https://www.flickr.com/photos/emijrp/collections/72157634580047584/ Barcelona], [https://www.flickr.com/photos/emijrp/collections/72157633642149931/ Cádiz], [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Cáceres], [https://www.flickr.com/photos/emijrp/sets/72157671659082181 Chipiona], [https://www.flickr.com/photos/emijrp/collections/72157666351052792/ Córdoba], [https://www.flickr.com/photos/emijrp/collections/72157633642136825/ El Puerto de Santa María], [https://www.flickr.com/photos/emijrp/sets/72157633950611807/ Espera], [https://www.flickr.com/photos/emijrp/collections/72157633952224634/ Granada], [https://www.flickr.com/photos/emijrp/collections/72157667313622253/ Guadalajara], [https://www.flickr.com/photos/emijrp/sets/72157633952354780/ Jerez de la Frontera], [https://www.flickr.com/photos/emijrp/sets/72157633950611823/ Lebrija], [https://www.flickr.com/photos/emijrp/sets/72157666455222020 Los Santos de la Humosa], [https://www.flickr.com/photos/emijrp/collections/72157634131100854/ Madrid], [https://www.flickr.com/photos/emijrp/collections/72157633950887134/ Málaga], Mesas de Asta, Nerja, [https://www.flickr.com/photos/emijrp/sets/72157634256591565/ Puerto Real], [https://www.flickr.com/photos/emijrp/sets/72157669418484293 Rota], [https://www.flickr.com/photos/emijrp/collections/72157668823984966/ Segovia], [https://www.flickr.com/photos/emijrp/collections/72157633677997362/ Sevilla], [https://www.flickr.com/photos/emijrp/sets/72157657665293425 Sitges], Tomares, [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Toledo], Torrejón de Ardoz y [https://www.flickr.com/photos/emijrp/sets/72157633950611813/ Trebujena]).
+* '''Provincias''': 13 (Ávila, Cádiz, Barcelona, Cáceres, Córdoba, Cuenca, Granada, Guadalajara, Madrid, Málaga, Segovia, Sevilla y Toledo).
+* '''Municipios''': 32 ([https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares], Alcocer, Alhaurín el Grande, [https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Aranjuez], [https://www.flickr.com/photos/emijrp/collections/72157669148531616/ Ávila], [https://www.flickr.com/photos/emijrp/collections/72157634580047584/ Barcelona], [https://www.flickr.com/photos/emijrp/collections/72157633642149931/ Cádiz], [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Cáceres], Chillaron de Cuenca, [https://www.flickr.com/photos/emijrp/sets/72157671659082181 Chipiona], [https://www.flickr.com/photos/emijrp/collections/72157666351052792/ Córdoba], Cuenca, [https://www.flickr.com/photos/emijrp/collections/72157633642136825/ El Puerto de Santa María], [https://www.flickr.com/photos/emijrp/sets/72157633950611807/ Espera], [https://www.flickr.com/photos/emijrp/collections/72157633952224634/ Granada], [https://www.flickr.com/photos/emijrp/collections/72157667313622253/ Guadalajara], [https://www.flickr.com/photos/emijrp/sets/72157633952354780/ Jerez de la Frontera], [https://www.flickr.com/photos/emijrp/sets/72157633950611823/ Lebrija], [https://www.flickr.com/photos/emijrp/sets/72157666455222020 Los Santos de la Humosa], [https://www.flickr.com/photos/emijrp/collections/72157634131100854/ Madrid], [https://www.flickr.com/photos/emijrp/collections/72157633950887134/ Málaga], Mesas de Asta, Nerja, [https://www.flickr.com/photos/emijrp/sets/72157634256591565/ Puerto Real], [https://www.flickr.com/photos/emijrp/sets/72157669418484293 Rota], Sacedón, [https://www.flickr.com/photos/emijrp/collections/72157668823984966/ Segovia], [https://www.flickr.com/photos/emijrp/collections/72157633677997362/ Sevilla], [https://www.flickr.com/photos/emijrp/sets/72157657665293425 Sitges], Tomares, [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Toledo], Torrejón de Ardoz, [https://www.flickr.com/photos/emijrp/sets/72157633950611813/ Trebujena] y Villar de Domingo García).
 
 * Lugar más al '''Norte''': Barcelona (41.381576 N, 2.194904 E).
 * Lugar más al '''Sur''': Parque natural de Los Alcornocales (36.218819 N, -5.631672 O). Se divisaba el [https://www.flickr.com/photos/emijrp/sets/72157635682682494 Estrecho de Gibraltar y el continente Africano].
@@ -89,9 +94,9 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
 * Lugar a '''menor altitud''': Cádiz (0 msnm).
 * '''Mares y océanos''': [https://www.flickr.com/photos/emijrp/sets/72157635682682454 Mar Mediterráneo] (Barcelona, Málaga y Estrecho de Gibraltar) y [https://www.flickr.com/photos/emijrp/sets/72157635682682424 Océano Atlántico] (Bahía de Cádiz).
 * '''Municipios más poblados''': Madrid (3.165.235), Barcelona (1.602.386), Sevilla (696.676), Málaga (566.913) y Córdoba (328.041).
-* '''Municipios menos poblados''': Mesas de Asta (600), Los Santos de la Humosa (2389), Espera (4000), Trebujena (7072) y Lebrija (27.385).
+* '''Municipios menos poblados''': ACTUALIZAR CON MUNICIPIOS CUENCA Mesas de Asta (600), Los Santos de la Humosa (2389), Espera (4000), Trebujena (7072) y Lebrija (27.385).
 * '''Parques naturales''': Parque natural de Los Alcornocales.
-* '''Ríos''': [https://www.flickr.com/photos/emijrp/sets/72157646249161304 Chillar], Guadalete, Guadalquivir, Guadiana, Henares, San Pedro y Tajo.
+* '''Ríos''': [https://www.flickr.com/photos/emijrp/sets/72157646249161304 Chillar], Guadalete, Guadalquivir, Guadiana, Henares, Huécar, San Pedro y Tajo.
 
 Records relativos a distancias:
 
@@ -112,7 +117,7 @@ Clima y meteorología:
 
 Lugares especialmente destacables:
 
-* '''Ciudades y sitios UNESCO''': [https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares],  la Alhambra (Granada),  el [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo General de Indias] (Sevilla),  [https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba], [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo],  [https://www.flickr.com/photos/emijrp/sets/72157668802519852/ Ciudad vieja de Ávila e iglesias extramuros],  [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres],  [https://www.flickr.com/photos/emijrp/sets/72157666349527594 Ciudad vieja y acueducto de Segovia],  [https://www.flickr.com/photos/emijrp/sets/72157635972571646 Obras de Antonio Gaudí],  Palau de la Música Catalana y [https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Real Sitio de Aranjuez].
+* '''Ciudades y sitios UNESCO''': [https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares],  la Alhambra (Granada),  el [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo General de Indias] (Sevilla), Casas Colgadas de Cuenca,  [https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba], [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo],  [https://www.flickr.com/photos/emijrp/sets/72157668802519852/ Ciudad vieja de Ávila e iglesias extramuros],  [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres],  [https://www.flickr.com/photos/emijrp/sets/72157666349527594 Ciudad vieja y acueducto de Segovia],  [https://www.flickr.com/photos/emijrp/sets/72157635972571646 Obras de Antonio Gaudí],  Palau de la Música Catalana y [https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Real Sitio de Aranjuez].
 
 * '''Museos''': [https://www.flickr.com/photos/emijrp/sets/72157634131283036 Biblioteca y Museo Nacional],  [https://www.flickr.com/photos/emijrp/sets/72157634133013063 Museo Arqueológico Nacional],  [https://www.flickr.com/photos/emijrp/sets/72157635852744953 Museo Arqueológico de Sevilla],  [https://www.flickr.com/photos/emijrp/sets/72157665925760211 Museo Arqueológico Regional] (Alcalá de Henares),  [https://www.flickr.com/photos/emijrp/sets/72157635852753055 Museo de Artes y Costumbres Populares de Sevilla],  Museo de Cádiz,  [https://www.flickr.com/photos/emijrp/sets/72157633642770761 Museo de El Puerto de Santa María],  Museo de Guadalajara,  [https://www.flickr.com/photos/emijrp/sets/72157668264344651 Museo de Santa Cruz],  [https://www.flickr.com/photos/emijrp/sets/72157665373005181 Museo del Prado]*,  Museo Picasso Málaga*,  Museo Reina Sofía*,  [https://www.flickr.com/photos/emijrp/sets/72157666029468026 Museo Thyssen-Bornemisza] y  [https://www.flickr.com/photos/emijrp/sets/72157657439606391 Museu Nacional d'Art de Catalunya]. En los museos marcados con asterisco (*) no permitían hacer fotografías.
 
