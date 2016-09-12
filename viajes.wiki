@@ -94,7 +94,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
 * Lugar a '''menor altitud''': Cádiz (0 msnm).
 * '''Mares y océanos''': [https://www.flickr.com/photos/emijrp/sets/72157635682682454 Mar Mediterráneo] (Barcelona, Málaga y Estrecho de Gibraltar) y [https://www.flickr.com/photos/emijrp/sets/72157635682682424 Océano Atlántico] (Bahía de Cádiz).
 * '''Municipios más poblados''': Madrid (3.165.235), Barcelona (1.602.386), Sevilla (696.676), Málaga (566.913) y Córdoba (328.041).
-* '''Municipios menos poblados''': <!-- ACTUALIZAR CON MUNICIPIOS CUENCA -->Mesas de Asta (600), Los Santos de la Humosa (2389), Espera (4000), Trebujena (7072) y Lebrija (27.385).
+* '''Municipios menos poblados''': Villar de Domingo García (218), Alcocer (360), Chillaron de Cuenca (567), Mesas de Asta (600), Sacedón (1716), Los Santos de la Humosa (2389) y Espera (4005).
 * '''Parques naturales''': Parque natural de Los Alcornocales.
 * '''Ríos''': [https://www.flickr.com/photos/emijrp/sets/72157646249161304 Chillar], Guadalete, Guadalquivir, Guadiana, Henares, Huécar, San Pedro y Tajo.
 
