@@ -260,12 +260,13 @@ Para el caso del Reino Unido existe una web que recopila monumentos a las Brigad
 Cosas por añadir al mapa:
 
 * Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.
-* Calles a las 13 Rosas, a luchadores antifranquistas y a intelectuales.
+* Casas natales y Calles de las 13 Rosas, a luchadores antifranquistas y a intelectuales.
 * Lugares de la memoria en Andalucía.
 * Campos de concentración franquistas, cárceles.
 * Cementerios y lugares de fusilamientos.
 * Buscar algún grupo en Flickr sobre MH y sino existe crearlo.
 * Lugares de batallas, frentes, edificios tomados, etc.
+* Refugios subterráneos de Almería
 
 <div id="map" style="float: center;width: 600px; height: 600px;"></div>
 
