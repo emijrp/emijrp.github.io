@@ -16,294 +16,297 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import json
-import urllib
+import urllib2
 
 def main():
     locapedias = {
-        'Almeriapedia': {
+        u'Almeriapedia': {
             'api': 'https://almeriapedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-almeriapediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Almería', 
+            'country': u'España', 
+            'region': u'Provincia de Almería', 
         }, 
-        'Arija': {
+        u'Arija': {
             'api': 'http://www.arija.org/es/api.php', 
             'dump': 'https://archive.org/details/wiki-arijaorg_es', 
-            'country': 'España', 
-            'region': 'Arija', 
+            'country': u'España', 
+            'region': u'Arija', 
         }, 
-        'Ateneo de Córdoba': {
+        u'Ateneo de Córdoba': {
             'api': 'http://www.ateneodecordoba.com/api.php', 
             'dump': 'https://archive.org/details/wiki-ateneodecordobacom', 
-            'country': 'España', 
-            'region': 'Córdoba', 
+            'country': u'España', 
+            'region': u'Córdoba', 
         }, 
-        'Comuni-Italiani.it': {
+        u'Comuni-Italiani.it': {
             'api': 'http://rete.comuni-italiani.it/w/api.php', 
             'dump': 'https://archive.org/details/wiki-retecomuni_italianiit_w', 
-            'country': 'Italia', 
-            'region': '', 
+            'country': u'Italia', 
+            'region': u'', 
         }, 
-        'Cádizpedia': {
+        u'Cádizpedia': {
             'api': 'https://cadizpedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-cadizpediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Cádiz', 
+            'country': u'España', 
+            'region': u'Provincia de Cádiz', 
         }, 
-        'Córdobapedia': {
+        u'Córdobapedia': {
             'api': 'https://cordobapedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-cordobapediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Córdoba', 
+            'country': u'España', 
+            'region': u'Provincia de Córdoba', 
         }, 
-        'CTpedia': {
+        u'CTpedia': {
             'api': 'http://www.ctpedia.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-ctpediaes_w', 
-            'country': 'España', 
-            'region': 'Cartagena', 
+            'country': u'España', 
+            'region': u'Cartagena', 
+            'stats': 'http://www.ctpedia.es/w/index.php/Special:Statistics?action=raw', 
         }, 
-        'DeLebrija': {
+        u'DeLebrija': {
             'api': 'http://www.delebrija.es/index.php/Portada', 
             'dump': '', 
-            'country': 'España', 
-            'region': 'Lebrija', 
+            'country': u'España', 
+            'region': u'Lebrija', 
             'status': 'offline', 
         }, 
-        'Enciclopedia Guanche': {
+        u'Enciclopedia Guanche': {
             'api': 'http://www.guanches.org/enciclopedia/api.php', 
             'dump': 'https://archive.org/details/wiki-guanchesorg_enciclopedia', 
-            'country': 'España', 
-            'region': 'Islas Canarias', 
+            'country': u'España', 
+            'region': u'Islas Canarias', 
         }, 
-        'Enciclopedia de Oviedo': {
+        u'Enciclopedia de Oviedo': {
             'api': 'http://el.tesorodeoviedo.es', 
             'dump': '', 
-            'country': 'España', 
-            'region': 'Oviedo', 
+            'country': u'España', 
+            'region': u'Oviedo', 
         }, 
-        'EnnstalWiki': {
-            'api': 'http://ennstalwiki.at/w/api.php', 
+        u'EnnstalWiki': {
+            'api': 'http://www.ennstalwiki.at/wiki/api.php', 
             'dump': '', 
-            'country': 'Austria', 
-            'region': 'Enns river valey', 
+            'country': u'Austria', 
+            'region': u'Enns river valey', 
         }, 
-        'EnWada': {
+        u'EnWada': {
             'api': 'http://enwada.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-enwadaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Guadalajara', 
+            'country': u'España', 
+            'region': u'Provincia de Guadalajara', 
         }, 
-        'Granadapedia': {
+        u'Granadapedia': {
             'api': 'https://granadapedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-granadapediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Granada', 
+            'country': u'España', 
+            'region': u'Provincia de Granada', 
         }, 
-        'Huelvapedia': {
+        u'Huelvapedia': {
             'api': 'https://huelvapedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-huelvapediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Huelva', 
+            'country': u'España', 
+            'region': u'Provincia de Huelva', 
         }, 
-        'Jaenpedia': {
+        u'Jaenpedia': {
             'api': 'https://jaenpedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-jaenpediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Jaén', 
+            'country': u'España', 
+            'region': u'Provincia de Jaén', 
         }, 
-        'JerezSiempre': {
+        u'JerezSiempre': {
             'api': 'http://www.jerezsiempre.com/api.php', 
             'dump': 'https://archive.org/details/wiki-jerezsiemprecom', 
-            'country': 'España', 
-            'region': 'Jerez de la Frontera', 
+            'country': u'España', 
+            'region': u'Jerez de la Frontera', 
         }, 
-        'LeonWiki': {
+        u'LeonWiki': {
             'api': 'http://leonwiki.lazorrera.com', 
             'dump': '', 
-            'country': 'España', 
-            'region': 'León', 
+            'country': u'España', 
+            'region': u'León', 
             'status': 'offline', 
         }, 
-        'LinaWiki': {
+        u'LinaWiki': {
             'api': 'http://leonwiki.lazorrera.com', 
             'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
-            'country': 'España', 
-            'region': 'Linares', 
+            'country': u'España', 
+            'region': u'Linares', 
             'status': 'offline', 
         }, 
-        'Madripedia': {
+        u'Madripedia': {
             'api': 'http://www.madripedia.es', 
             'dump': 'https://archive.org/details/wiki-madripediaes_w', 
-            'country': 'España', 
+            'country': u'España', 
             'mirror': 'https://madripedia.wikis.cc', 
-            'region': 'Comunidad de Madrid', 
+            'region': u'Comunidad de Madrid', 
             'status': 'offline', 
         }, 
-        'Málaga Diwiki': {
+        u'Málaga Diwiki': {
             'api': 'http://malaga.diwiki.org', 
             'dump': '', 
-            'country': 'España', 
-            'region': 'Málaga', 
+            'country': u'España', 
+            'region': u'Málaga', 
             'status': 'offline', 
         }, 
-        'Málagapedia': {
+        u'Málagapedia': {
             'api': 'http://malagapedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-malagapediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Málaga', 
+            'country': u'España', 
+            'region': u'Provincia de Málaga', 
         }, 
-        'Malawi360': {
+        u'Malawi360': {
             'api': 'http://www.malawi360.com', 
             'dump': 'https://archive.org/details/wiki-malawi360com_wiki', 
-            'country': 'Malawi', 
+            'country': u'Malawi', 
             'founded': '2007-08-24', 
-            'region': 'Malawi', 
+            'region': u'Malawi', 
         }, 
-        'MiToledo': {
+        u'MiToledo': {
             'api': 'http://wiki.mitoledo.com', 
             'dump': '', 
-            'country': 'España', 
-            'region': 'Toledo', 
+            'country': u'España', 
+            'region': u'Toledo', 
             'status': 'offline', 
         }, 
-        'PlanetNepal': {
+        u'PlanetNepal': {
             'api': 'http://planetnepal.org/w/api.php', 
             'dump': '', 
-            'country': 'Nepal', 
+            'country': u'Nepal', 
             'founded': '2010-01-31', 
-            'region': 'Nepal', 
+            'region': u'Nepal', 
         }, 
-        'Rosèspedia': {
+        u'Rosespèdia': {
             'api': 'http://rosespedia.cat/w/api.php', 
             'dump': '', 
-            'country': 'España', 
-            'region': 'Roses', 
+            'country': u'España', 
+            'region': u'Roses', 
         }, 
-        'Sevillapedia': {
+        u'Sevillapedia': {
             'api': 'https://sevillapedia.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-sevillapediawikandaes_w', 
-            'country': 'España', 
-            'region': 'Provincia de Sevilla', 
+            'country': u'España', 
+            'region': u'Provincia de Sevilla', 
         }, 
-        'Stadtwiki Karlsruhe': {
+        u'Stadtwiki Karlsruhe': {
             'api': 'https://sevillapedia.wikanda.es/w/api.php', 
             'dump': '', 
-            'country': 'Alemania', 
+            'country': u'Alemania', 
             'founded': '2004-07-22', 
-            'region': 'Karlsruhe', 
+            'region': u'Karlsruhe', 
         }, 
-        'Tarracowiki': {
+        u'Tarracowiki': {
             'api': 'http://www.tarracowiki.cat/w/api.php', 
             'dump': 'https://archive.org/details/wiki-tarracowikicat_tarracowiki', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Tarragona', 
+            'region': u'Tarragona', 
+            'stats': 'http://www.tarracowiki.cat/wiki/Special:Statistics?action=raw', 
         }, 
-        'Tomsk Wiki': {
+        u'Tomsk Wiki': {
             'api': 'http://towiki.ru/w/api.php', 
             'dump': '', 
-            'country': 'Rusia', 
+            'country': u'Rusia', 
             'founded': '2007-01-29', 
-            'region': 'Tomsk', 
+            'region': u'Tomsk', 
         }, 
-        'UgandaWiki': {
+        u'UgandaWiki': {
             'api': 'http://www.ugandawiki.ug', 
             'dump': '', 
-            'country': 'Uganda', 
+            'country': u'Uganda', 
             'founded': '', 
-            'region': 'Uganda', 
+            'region': u'Uganda', 
             'status': 'offline', 
         }, 
-        'Vilapedia': {
+        u'Vilapedia': {
             'api': 'http://www.vila-real.info/vilapedia2015/', 
             'dump': 'https://archive.org/details/vila_realinfo_vilapedia-20110427-wikidump.7z', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
             'mirror': 'https://vilapedia.wikis.cc', 
-            'region': 'Villareal', 
+            'region': u'Villareal', 
             'status': 'offline', 
         }, 
-        'Wikanda': {
-            'api': 'http://www.vila-real.info/vilapedia2015/', 
+        u'Wikanda': {
+            'api': 'https://www.wikanda.es/w/api.php', 
             'dump': 'https://archive.org/details/wiki-wikandaes_w', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Andalucía', 
+            'region': u'Andalucía', 
         }, 
-        'WikiBurgos': {
-            'api': 'http://www.wikiburgos.es/w/api.php', 
+        u'WikiBurgos': {
+            'api': 'http://www.wikiburgos.es/api.php', 
             'dump': 'https://archive.org/details/wiki-wikiburgoses', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Burgos', 
+            'region': u'Burgos', 
         }, 
-        'WikiExtremadura': {
+        u'WikiExtremadura': {
             'api': 'http://www.wikiextremadura.org', 
             'dump': '', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Extremadura', 
+            'region': u'Extremadura', 
             'status': 'offline', 
         }, 
-        'WikiLleida': {
+        u'WikiLleida': {
             'api': 'http://www.wikilleida.cat', 
             'dump': '', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Lleida', 
+            'region': u'Lleida', 
             'status': 'offline', 
         }, 
-        'WikiMurcia': {
-            'api': 'http://wikimurcia.com', 
+        u'WikiMurcia': {
+            'api': 'http://wikimurcia.com/api.php', 
             'dump': '', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Murcia', 
+            'region': u'Murcia', 
         }, 
-        'WikiPakistan': {
-            'api': 'http://pakistan.wikia.com', 
+        u'WikiPakistan': {
+            'api': 'http://pakistan.wikia.com/api.php', 
             'dump': '', 
-            'country': 'Pakistán', 
+            'country': u'Pakistán', 
             'founded': '', 
-            'region': 'Pakistán', 
+            'region': u'Pakistán', 
         }, 
-        'WikiRioja': {
-            'api': 'http://wikirioja.com', 
+        u'WikiRioja': {
+            'api': 'http://wikirioja.com/api.php', 
             'dump': 'https://archive.org/details/wiki-wikiriojacom', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'La Rioja', 
+            'region': u'La Rioja', 
         }, 
-        'WikiSalamanca': {
+        u'WikiSalamanca': {
             'api': 'http://www.wikisalamanca.org', 
             'dump': 'https://archive.org/details/wiki-wikisalamancaorg', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
             'mirror': 'https://wikisalamanca.wikis.cc', 
-            'region': 'Provincia de Salamanca', 
+            'region': u'Provincia de Salamanca', 
             'status': 'offline', 
         }, 
-        'WikiTunisie': {
+        u'WikiTunisie': {
             'api': 'http://www.wikitunisie.org', 
             'dump': '', 
-            'country': 'Túnez', 
+            'country': u'Túnez', 
             'founded': '', 
-            'region': 'Túnez', 
+            'region': u'Túnez', 
             'status': 'offline', 
         }, 
-        'Xilocapedia': {
-            'api': 'http://www.xiloca.com/xilocapedia/api.php', 
+        u'Xilocapedia': {
+            'api': '', 
             'dump': 'https://archive.org/details/wiki-xilocacom_xilocapedia', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Valle del Jiloca', 
+            'region': u'Valle del Jiloca', 
+            'stats': 'http://www.tarracowiki.cat/wiki/Special:Statistics?action=raw', 
         }, 
-        'Zaragoza Diwiki': {
+        u'Zaragoza Diwiki': {
             'api': 'http://zaragoza.diwiki.org', 
             'dump': '', 
-            'country': 'España', 
+            'country': u'España', 
             'founded': '', 
-            'region': 'Zaragoza', 
+            'region': u'Zaragoza', 
             'status': 'offline', 
         }, 
     }
@@ -314,28 +317,44 @@ def main():
         if 'status' in locaprops and locaprops['status'].lower() == 'offline':
             continue
         
-        siteinfourl = '%s?action=query&meta=siteinfo&siprop=general|statistics&format=json' % (locaprops['api'])
-        siteinfo = {}
         try:
-            req = urllib.Request(siteinfourl, headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = unicode(urllib.urlopen(req).read(), 'utf-8')
+            siteinfourl = '%s?action=query&meta=siteinfo&siprop=general|statistics&format=json' % (locaprops['api'])
+            siteinfo = {}
+            req = urllib2.Request(siteinfourl, headers={ 'User-Agent': 'Mozilla/5.0' })
+            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
             siteinfo = json.loads(html)
             locapedias2[locapedia]['status'] = 'online'
+            if 'query' in siteinfo and 'general' in siteinfo['query']:
+                for prop in ['base', 'generator', 'lang', 'logo']:
+                    locapedias2[locapedia][prop] = prop in siteinfo['query']['general'] and siteinfo['query']['general'][prop] or ''
+            else:
+                print('Error while retrieving siteinfo for %s %s' % (locapedia, siteinfourl))
+            
+            if 'query' in siteinfo and 'statistics' in siteinfo['query']:
+                for prop in ['articles', 'edits', 'images', 'pages']:
+                    locapedias2[locapedia][prop] = prop in siteinfo['query']['statistics'] and siteinfo['query']['statistics'][prop] or ''
+            else:
+                print('Error while retrieving statistics for %s %s' % (locapedia, siteinfourl))
         except:
-            locapedias2[locapedia]['status'] = 'offline'
-            pass
-        
-        if 'query' in siteinfo and 'general' in siteinfo['query']:
-            for prop in ['base', 'generator', 'lang', 'logo']:
-                locapedias2[locapedia][prop] = prop in siteinfo['query']['general'] and siteinfo['query']['general'][prop] or ''
-        else:
-            print('Error while retrieving siteinfo for %s %s' % (locapedia, siteinfourl))
-        
-        if 'query' in siteinfo and 'statistics' in siteinfo['query']:
-            for prop in ['articles', 'edits', 'images', 'pages']:
-                locapedias2[locapedia][prop] = prop in siteinfo['query']['statistics'] and siteinfo['query']['statistics'][prop] or ''
-        else:
-            print('Error while retrieving statistics for %s %s' % (locapedia, siteinfourl))
+            try:
+                statsurl = locaprops['stats']
+                stats = {}
+                req = urllib2.Request(statsurl, headers={ 'User-Agent': 'Mozilla/5.0' })
+                html = unicode(urllib2.urlopen(req).read(), 'utf-8')
+                for prop, value in [x.split('=') for x in html.split(';')]:
+                    if prop == 'total':
+                        locapedias2[locapedia]['pages'] = value
+                    elif prop == 'good':
+                        locapedias2[locapedia]['articles'] = value
+                    elif prop == 'edits':
+                        locapedias2[locapedia]['edits'] = value
+                    elif prop == 'users':
+                        locapedias2[locapedia]['users'] = value
+                    elif prop == 'images':
+                        locapedias2[locapedia]['images'] = value
+                locapedias2[locapedia]['status'] = 'online'
+            except:
+                locapedias2[locapedia]['status'] = 'offline'
     
     locapedias3 = [[v['name'].lower(), v] for k, v in locapedias2.items()]
     locapedias3.sort()
@@ -357,18 +376,18 @@ def main():
         <td>%s</td>
         <td>%s</td>
         <td>%s</td>
-        <td>%s</td>
+        <td style="background-color: %s;">%s</td>
         <td>%s</td>
         <td>%s</td>
         <td><a href="https://web.archive.org/web/*/%s">IA</a></td>
-    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'], 'dump' in locaprops and locaprops['dump'] and '<a href="%s">Dump</a>' % (locaprops['dump']) or '', 'mirror' in locaprops and locaprops['mirror'] and '<a href="%s">Mirror</a>' % (locaprops['mirror']) or '', 'base' in locaprops and locaprops['base'] or '')
+    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], 'dump' in locaprops and locaprops['dump'] and '<a href="%s">Dump</a>' % (locaprops['dump']) or '', 'mirror' in locaprops and locaprops['mirror'] and '<a href="%s">Mirror</a>' % (locaprops['mirror']) or '', 'base' in locaprops and locaprops['base'] or '')
         locarows.append(locarow)
         locac += 1
     
     #print table
-    table = "\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
-    table += '\n<table class="wikitable sortable" style="text-align: center;">\n'
-    table += """
+    table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
+    table += u"""
     <tr>
         <th class="sorttable_numeric">#</th>
         <th class="sorttable_alpha">Locapedia</th>
@@ -389,10 +408,10 @@ def main():
     locatable += '</table>\n'
     
     with open('locapedias.wiki', 'r') as f:
-        html = f.read()
+        html = unicode(f.read(), 'utf-8')
     with open('locapedias.wiki', 'w') as g:
-        html = '%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], locatable, html.split('<!-- /tabla completa -->')[1])
-        g.write(html)
+        html = u'%s<!-- tabla completa -->%s<!-- /tabla completa -->%s' % (html.split(u'<!-- tabla completa -->')[0], locatable, html.split(u'<!-- /tabla completa -->')[1])
+        g.write(html.encode('utf-8'))
         
 if __name__ == '__main__':
     main()
