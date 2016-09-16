@@ -6,5 +6,6 @@ Estos son algunos mirrors que mantengo:
 
 * [https://emijrp.github.io/www.marxists.org Marxists Internet Archive]: biblioteca de autores marxistas.
 * [https://emijrp.github.io/itdied.com ItDied.com]: web sobre otras webs que cerraron. Cerró a su vez hace algún tiempo.
+* [https://www.wikis.cc/wiki/Wikis_recuperados Wikis recuperados]: algunos wikis que dejaron de funcionar y que hemos recuperado en Wikis.cc a partir de copias de WikiTeam.
 
 {{footer}}
