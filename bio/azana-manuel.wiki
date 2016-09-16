@@ -1,0 +1,27 @@
+<noinclude>{{header|1=Manuel Azaña}}</noinclude>
+
+<includeonly>=== Azaña, Manuel ===</includeonly>
+
+{{header-bio
+|wiki=azana-manuel
+|nombre y apellidos=Manuel Azaña
+|apellidos y nombre=Azaña, Manuel
+|imagen=manuel-azana.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=10 de enero de 1880
+|lugar de nacimiento=Alcalá de Henares, España
+|fecha de fallecimiento=3 de noviembre de 1940
+|lugar de fallecimiento=Montauban, Francia
+|descripcion=Político y escritor español
+}}
+
+Desempeñó los cargos de presidente del Gobierno de España (1931-1933, 1936) y presidente de la Segunda República Española (1936-1939).
+
+De 1911 a 1939 escribió los conocidos como ''Diarios de Azaña'', que recogen información de primera mano de la política española durante la monarquía de Alfonso XIII, la dictadura de Primo de Rivera, la Segunda República y la Guerra Civil.
+
+Su casa natal en Alcalá de Henares que fue saqueada durante el franquismo y posteriormente recuperada y reformada, no está abierta al público.
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>
