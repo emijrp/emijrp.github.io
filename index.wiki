@@ -1,6 +1,6 @@
 {{header|1=Portada}}
 
-[[File:levantando-la-bandera-helio-korzhev.jpg|300px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]
+[[File:levantando-la-bandera-helio-korzhev.jpg|270px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]
 <!--<a href="images/pioneer10plaque.jpg"><img src="images/pioneer10plaque.jpg" width="300px" align="right" alt="Pioneer plaque" /></a>-->
 <!--<iframe align="right" width="400" height="250" src="//www.youtube-nocookie.com/embed/eyU3bRy2x44?autoplay=1" frameborder="0"></iframe>-->
 <!--<iframe align="right" width="400" height="250" src="//www.youtube-nocookie.com/embed/bg_6FYZVFd4?autoplay=1" frameborder="0"></iframe>-->
@@ -16,7 +16,6 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 <p>
     {{button-blue|1=actividad.html|2=Actividad}}
     {{button-blue|1=activismo.html|2=Activismo}}
-    {{button-grey|1=Anarquismo}}
     {{button-blue|1=arte.html|2=Arte}}
     {{button-blue|1=astronomia.html|2=Astronomía}}
     {{button-blue|1=audio.html|2=Audio}}
