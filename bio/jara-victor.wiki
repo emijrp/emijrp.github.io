@@ -1,0 +1,27 @@
+<noinclude>{{header|1=Víctor Jara}}</noinclude>
+
+<includeonly>=== Apellidos, Nombre ===</includeonly>
+
+{{header-bio
+|wiki=jara-victor
+|nombre y apellidos=Víctor Jara
+|apellidos y nombre=Jara, Víctor
+|imagen=victor-jara.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=28 de septiembre de 1932
+|lugar de nacimiento=Ñuble, Chile
+|fecha de fallecimiento=16 de septiembre de 1973
+|lugar de fallecimiento=Santiago, Chile
+|descripcion=Músico, cantautor, profesor, director de teatro y militante del Partido Comunista de Chile
+}}
+
+La figura de Víctor Jara es un referente internacional de la canción protesta y de cantautor, y uno de los artistas más emblemáticos del movimiento músico-social llamado «Nueva Canción Chilena». Su ideología comunista se refleja en su obra artística, de la que fue pieza central.
+
+Tras el golpe de Estado que derrocó al gobierno de Salvador Allende el 11 de septiembre de 1973, Jara fue detenido por las fuerzas represivas de la dictadura militar recién establecida. Fue torturado y posteriormente asesinado en el antiguo Estadio Chile, que con el retorno de la democracia fue renombrado «estadio Víctor Jara».
+
+Existe un documental sobre su figura llamado ''El derecho de vivir en paz''.
+
+{{clear}}
+
+<noinclude>{{../footer}}</noinclude>
