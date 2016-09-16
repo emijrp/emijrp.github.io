@@ -32,6 +32,13 @@ def main():
             'country': u'España', 
             'region': u'Arija', 
         }, 
+        u'Asturpedia': {
+            'api': 'http://asturias.wikia.com/api.php', 
+            'base': 'http://asturias.wikia.com/wiki/Portada', 
+            'dump': '', 
+            'country': u'España', 
+            'region': u'Principado de Asturias', 
+        }, 
         u'Ateneo de Córdoba': {
             'api': 'http://www.ateneodecordoba.com/api.php', 
             'dump': 'https://archive.org/details/wiki-ateneodecordobacom', 
@@ -58,13 +65,15 @@ def main():
         }, 
         u'CTpedia': {
             'api': 'http://www.ctpedia.es/w/api.php', 
+            'base': 'http://www.ctpedia.es', 
             'dump': 'https://archive.org/details/wiki-ctpediaes_w', 
             'country': u'España', 
             'region': u'Cartagena', 
             'stats': 'http://www.ctpedia.es/w/index.php/Special:Statistics?action=raw', 
         }, 
         u'DeLebrija': {
-            'api': 'http://www.delebrija.es/index.php/Portada', 
+            'api': 'http://www.delebrija.es/api.php', 
+            'base': 'http://www.delebrija.es/index.php/Portada', 
             'dump': '', 
             'country': u'España', 
             'region': u'Lebrija', 
@@ -77,7 +86,8 @@ def main():
             'region': u'Islas Canarias', 
         }, 
         u'Enciclopedia de Oviedo': {
-            'api': 'http://el.tesorodeoviedo.es', 
+            'api': 'http://el.tesorodeoviedo.es/api.php', 
+            'base': 'http://el.tesorodeoviedo.es/index.php?title=Portada', 
             'dump': '', 
             'country': u'España', 
             'region': u'Oviedo', 
@@ -90,6 +100,7 @@ def main():
         }, 
         u'EnWada': {
             'api': 'http://enwada.es/w/api.php', 
+            'base': 'http://enwada.es/wiki/P%C3%A1gina_Principal', 
             'dump': 'https://archive.org/details/wiki-enwadaes_w', 
             'country': u'España', 
             'region': u'Provincia de Guadalajara', 
@@ -126,7 +137,8 @@ def main():
             'status': 'offline', 
         }, 
         u'LinaWiki': {
-            'api': 'http://leonwiki.lazorrera.com', 
+            'api': 'http://www.enciclopediadelinares.com/wiki/api.php', #'http://leonwiki.lazorrera.com', 
+            'base': 'http://www.enciclopediadelinares.com/wiki', 
             'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
             'country': u'España', 
             'region': u'Linares', 
@@ -134,6 +146,7 @@ def main():
         }, 
         u'Madripedia': {
             'api': 'http://www.madripedia.es', 
+            'base': 'http://madripedia.es/wiki/Portada', 
             'dump': 'https://archive.org/details/wiki-madripediaes_w', 
             'country': u'España', 
             'mirror': 'https://madripedia.wikis.cc', 
@@ -142,6 +155,7 @@ def main():
         }, 
         u'Málaga Diwiki': {
             'api': 'http://malaga.diwiki.org', 
+            'base': 'http://malaga.diwiki.org', 
             'dump': '', 
             'country': u'España', 
             'region': u'Málaga', 
@@ -154,14 +168,16 @@ def main():
             'region': u'Provincia de Málaga', 
         }, 
         u'Malawi360': {
-            'api': 'http://www.malawi360.com', 
+            'api': 'http://www.malawi360.com/wiki/api.php', 
+            'base': 'http://www.malawi360.com', 
             'dump': 'https://archive.org/details/wiki-malawi360com_wiki', 
             'country': u'Malawi', 
             'founded': '2007-08-24', 
             'region': u'Malawi', 
         }, 
         u'MiToledo': {
-            'api': 'http://wiki.mitoledo.com', 
+            'api': 'http://wiki.mitoledo.com/api.php', 
+            'base': 'http://wiki.mitoledo.com/mediawiki/index.php/Portada', 
             'dump': '', 
             'country': u'España', 
             'region': u'Toledo', 
@@ -176,6 +192,7 @@ def main():
         }, 
         u'Rosespèdia': {
             'api': 'http://rosespedia.cat/w/api.php', 
+            'base': 'http://www.rosespedia.cat/index.php/P%C3%A0gina_principal', 
             'dump': '', 
             'country': u'España', 
             'region': u'Roses', 
@@ -195,6 +212,7 @@ def main():
         }, 
         u'Tarracowiki': {
             'api': 'http://www.tarracowiki.cat/w/api.php', 
+            'base': 'http://www.tarracowiki.cat/wiki/Portada', 
             'dump': 'https://archive.org/details/wiki-tarracowikicat_tarracowiki', 
             'country': u'España', 
             'founded': '', 
@@ -218,6 +236,7 @@ def main():
         }, 
         u'Vilapedia': {
             'api': 'http://www.vila-real.info/vilapedia2015/', 
+            'base': 'http://www.vila-real.info/vilapedia2015/', 
             'dump': 'https://archive.org/details/vila_realinfo_vilapedia-20110427-wikidump.7z', 
             'country': u'España', 
             'founded': '', 
@@ -241,6 +260,7 @@ def main():
         }, 
         u'WikiExtremadura': {
             'api': 'http://www.wikiextremadura.org', 
+            'base': 'http://www.wikiextremadura.org', 
             'dump': '', 
             'country': u'España', 
             'founded': '', 
@@ -249,6 +269,7 @@ def main():
         }, 
         u'WikiLleida': {
             'api': 'http://www.wikilleida.cat', 
+            'base': 'http://www.wikilleida.cat', 
             'dump': '', 
             'country': u'España', 
             'founded': '', 
@@ -278,6 +299,7 @@ def main():
         }, 
         u'WikiSalamanca': {
             'api': 'http://www.wikisalamanca.org', 
+            'base': 'http://www.wikisalamanca.org', 
             'dump': 'https://archive.org/details/wiki-wikisalamancaorg', 
             'country': u'España', 
             'founded': '', 
@@ -287,6 +309,7 @@ def main():
         }, 
         u'WikiTunisie': {
             'api': 'http://www.wikitunisie.org', 
+            'base': 'http://www.wikitunisie.org', 
             'dump': '', 
             'country': u'Túnez', 
             'founded': '', 
@@ -295,6 +318,7 @@ def main():
         }, 
         u'Xilocapedia': {
             'api': '', 
+            'base': 'http://xiloca.org/xilocapedia/index.php?title=P%C3%A1gina_principal', 
             'dump': 'https://archive.org/details/wiki-xilocacom_xilocapedia', 
             'country': u'España', 
             'founded': '', 
@@ -303,6 +327,7 @@ def main():
         }, 
         u'Zaragoza Diwiki': {
             'api': 'http://zaragoza.diwiki.org', 
+            'base': 'http://zaragoza.diwiki.org', 
             'dump': '', 
             'country': u'España', 
             'founded': '', 
@@ -331,10 +356,11 @@ def main():
                 print('Error while retrieving siteinfo for %s %s' % (locapedia, siteinfourl))
             
             if 'query' in siteinfo and 'statistics' in siteinfo['query']:
-                for prop in ['articles', 'edits', 'images', 'pages']:
+                for prop in ['articles', 'edits', 'images', 'pages', 'users']:
                     locapedias2[locapedia][prop] = prop in siteinfo['query']['statistics'] and siteinfo['query']['statistics'][prop] or ''
             else:
                 print('Error while retrieving statistics for %s %s' % (locapedia, siteinfourl))
+                raise Exception('Error while retrieving statistics')
         except:
             try:
                 statsurl = locaprops['stats']
@@ -377,10 +403,10 @@ def main():
         <td>%s</td>
         <td>%s</td>
         <td style="background-color: %s;">%s</td>
-        <td>%s</td>
+        <td style="background-color: %s;">%s</td>
         <td>%s</td>
         <td><a href="https://web.archive.org/web/*/%s">IA</a></td>
-    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], 'dump' in locaprops and locaprops['dump'] and '<a href="%s">Dump</a>' % (locaprops['dump']) or '', 'mirror' in locaprops and locaprops['mirror'] and '<a href="%s">Mirror</a>' % (locaprops['mirror']) or '', 'base' in locaprops and locaprops['base'] or '')
+    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], locaprops['dump'] and 'lightgreen' or 'pink', locaprops['dump'] and u'<a href="%s">Sí</a>' % (locaprops['dump']) or u'No', 'mirror' in locaprops and locaprops['mirror'] and u'<a href="%s">Sí</a>' % (locaprops['mirror']) or 'No', 'base' in locaprops and locaprops['base'] or '')
         locarows.append(locarow)
         locac += 1
     
