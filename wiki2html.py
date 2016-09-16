@@ -109,7 +109,8 @@ def images(wiki, path, wikifile):
             elif re.search(r'(?i)(left|center|right)', imageparameter):
                 imageposition = imageparameter
             elif re.search(r'(?i)link=', imageparameter):
-                imagelink = imageparameter.split('link=')[1].strip()
+                t = imageparameter.split('link=')[1].strip()
+                imagelink = t or imagelink
             else:
                 imagedesc = imageparameter
         
