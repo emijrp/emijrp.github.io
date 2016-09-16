@@ -6,8 +6,8 @@
 |wiki=bravo-estela
 |nombre y apellidos=Estela Bravo
 |apellidos y nombre=Bravo, Estela
-|imagen=
-|imagen tamaño=
+|imagen=estela-bravo.jpg
+|imagen tamaño=200px
 |imagen enlace=
 |fecha de nacimiento=8 de junio de 1933
 |lugar de nacimiento=Estados Unidos
@@ -50,7 +50,11 @@ Comenzó a filmar a los 47 años, habiendo dirigido más de 30 documentales acer
 * ''Mandela y Fidel'' (2013)
 * ''Operación Peter Pan'' (2013) 
 
-Información extraida de la [https://es.wikipedia.org/wiki/Estela_Bravo Biografía de Estela Bravo] en Wikipedia
+== Enlaces externos ==
+* [http://www.estelabravo.com http://www.estelabravo.com]
+* [https://es.wikipedia.org/wiki/Estela_Bravo Biografía de Estela Bravo] en Wikipedia
+* [https://www.ecured.cu/Estela_Bravo Biografía de Estela Bravo] en EcuRed
+* [http://www.rebeldemule.org/foro/monograf/tema4368.html Estela Bravo] en Rebeldemule
 
 {{clear}}
 
