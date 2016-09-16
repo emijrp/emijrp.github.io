@@ -6,19 +6,34 @@ El '''arte''' no es un espejo para reflejar la realidad, es un martillo para dar
 
 '''Períodos artísticos''' en los que se suele dividir la Historia del Arte occidental.
 
-* Orígenes (Prehistoria, Egipto, Mesopotamia, Persia)
-* Grecia y clasicismo
-* Romano
-* Cristiano
-* Hasta el año 1000
-* Románico
-* Gótico
-* Edad Media
-* Renacimiento
-* Clasicismo / Manierismo
-* Barroco
-* Ilustración
-* Vanguardias / Modernismo
+=== Orígenes ===
+
+Prehistoria, Egipto, Mesopotamia, Persia.
+
+=== Grecia y clasicismo  ===
+=== Romano  ===
+=== Cristiano  ===
+=== Hasta el año 1000  ===
+=== Románico  ===
+=== Gótico  ===
+=== Edad Media  ===
+=== Renacimiento  ===
+=== Clasicismo / Manierismo  ===
+=== Barroco  ===
+=== Ilustración  ===
+=== Vanguardias / Modernismo  ===
+
+=== Románico ===
+
+=== Gótico ===
+
+En la transición del gótico tardío al proto-[[#Renacimiento|renacimiento]], en la Corona de Castilla se dan dos estilos principales: el isabelino y el plateresco.
+
+==== Isabelino ====
+
+==== Plateresco ====
+
+=== Renacimiento ===
 
 == Realismo socialista ==
 
@@ -28,5 +43,11 @@ Por desarrollar.
 
 * Hadjinicolaou, Nicos. ''Historia del arte y lucha de clases''.
 * Vallejo, César. ''El arte y la revolución''.
+
+== Enlaces externos ==
+
+<!--
+Listas obras de arte subpages wikidata
+-->
 
 {{footer}}
