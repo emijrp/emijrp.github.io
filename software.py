@@ -74,7 +74,7 @@ def main():
         ghc += 1
     
     #print table
-    ghtable = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    ghtable = u'\n<script type="text/javascript">sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], "es"); }</script>\n'
     ghtable += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
     ghtable += u"""
     <tr>

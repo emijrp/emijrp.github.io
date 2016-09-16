@@ -7,7 +7,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
 
 <div id="map" style="float: right;width: 600px; height: 600px;"></div>
 
-<script>
+<script type="text/javascript">
     // http://leafletjs.com/examples/custom-icons.html
     
     var places = [

@@ -90,7 +90,7 @@ def main():
         bookrows.append(row)
 
     #print table
-    table = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    table = u'\n<script type="text/javascript">sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], "es"); }</script>\n'
     table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
     table += u"""
     <tr>
