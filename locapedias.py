@@ -196,6 +196,7 @@ def main():
             'dump': '', 
             'country': u'España', 
             'region': u'Roses', 
+            'stats': 'http://rosespedia.cat/index.php/Especial:Estad%C3%ADstiques', 
         }, 
         u'Sevillapedia': {
             'api': 'https://sevillapedia.wikanda.es/w/api.php', 
@@ -228,6 +229,7 @@ def main():
         }, 
         u'UgandaWiki': {
             'api': 'http://www.ugandawiki.ug', 
+            'base': 'http://www.ugandawiki.ug', 
             'dump': '', 
             'country': u'Uganda', 
             'founded': '', 
@@ -317,13 +319,13 @@ def main():
             'status': 'offline', 
         }, 
         u'Xilocapedia': {
-            'api': '', 
+            'api': 'http://xiloca.org/xilocapedia/api.php', 
             'base': 'http://xiloca.org/xilocapedia/index.php?title=P%C3%A1gina_principal', 
             'dump': 'https://archive.org/details/wiki-xilocacom_xilocapedia', 
             'country': u'España', 
             'founded': '', 
             'region': u'Valle del Jiloca', 
-            'stats': 'http://www.tarracowiki.cat/wiki/Special:Statistics?action=raw', 
+            'stats': 'http://xiloca.org/xilocapedia/index.php?title=Especial:Estad%C3%ADsticas', 
         }, 
         u'Zaragoza Diwiki': {
             'api': 'http://zaragoza.diwiki.org', 
@@ -346,51 +348,67 @@ def main():
             siteinfourl = '%s?action=query&meta=siteinfo&siprop=general|statistics&format=json' % (locaprops['api'])
             siteinfo = {}
             req = urllib2.Request(siteinfourl, headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
+            html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
             siteinfo = json.loads(html)
             locapedias2[locapedia]['status'] = 'online'
             if 'query' in siteinfo and 'general' in siteinfo['query']:
                 for prop in ['base', 'generator', 'lang', 'logo']:
                     locapedias2[locapedia][prop] = prop in siteinfo['query']['general'] and siteinfo['query']['general'][prop] or ''
             else:
-                print('Error while retrieving siteinfo for %s %s' % (locapedia, siteinfourl))
+                print('Error while retrieving siteinfo API for %s %s' % (locapedia, siteinfourl))
             
             if 'query' in siteinfo and 'statistics' in siteinfo['query']:
                 for prop in ['articles', 'edits', 'images', 'pages', 'users']:
                     locapedias2[locapedia][prop] = prop in siteinfo['query']['statistics'] and siteinfo['query']['statistics'][prop] or ''
             else:
-                print('Error while retrieving statistics for %s %s' % (locapedia, siteinfourl))
-                raise Exception('Error while retrieving statistics')
+                print(u'Error while retrieving statistics API for %s %s' % (locapedia, siteinfourl))
+                raise Exception(u'Error while retrieving statistics')
         except:
-            try:
-                statsurl = locaprops['stats']
-                stats = {}
-                req = urllib2.Request(statsurl, headers={ 'User-Agent': 'Mozilla/5.0' })
-                html = unicode(urllib2.urlopen(req).read(), 'utf-8')
-                for prop, value in [x.split('=') for x in html.split(';')]:
-                    if prop == 'total':
-                        locapedias2[locapedia]['pages'] = value
-                    elif prop == 'good':
-                        locapedias2[locapedia]['articles'] = value
-                    elif prop == 'edits':
-                        locapedias2[locapedia]['edits'] = value
-                    elif prop == 'users':
-                        locapedias2[locapedia]['users'] = value
-                    elif prop == 'images':
-                        locapedias2[locapedia]['images'] = value
-                locapedias2[locapedia]['status'] = 'online'
-            except:
-                locapedias2[locapedia]['status'] = 'offline'
+            if 'stats' in locaprops and locaprops['stats']:
+                try:
+                    req = urllib2.Request(locaprops['stats'], headers={ 'User-Agent': 'Mozilla/5.0' })
+                    html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
+                    if html.startswith('total='):
+                        for prop, value in [x.split('=') for x in html.split(';')]:
+                            if prop == 'total':
+                                locapedias2[locapedia]['pages'] = value
+                            elif prop == 'good':
+                                locapedias2[locapedia]['articles'] = value
+                            elif prop == 'edits':
+                                locapedias2[locapedia]['edits'] = value
+                            elif prop == 'users':
+                                locapedias2[locapedia]['users'] = value
+                            elif prop == 'images':
+                                locapedias2[locapedia]['images'] = value
+                    elif 'mw-statistics-table' in html:
+                        mwtable = html.split('mw-statistics-table')[1].split('</table>')[0]
+                        print(statsurl)
+                        print(mwtable.split('mw-statistics-pages')[1].split('</td></tr>')[0])
+                        locapedias2[locapedia]['pages'] = mwtable.split('mw-statistics-pages')[1].split('</td></tr>')[0].split('>')[1].strip()
+                        locapedias2[locapedia]['articles'] = mwtable.split('mw-statistics-articles')[1].split('</td></tr>')[0].split('>')[1].strip()
+                        locapedias2[locapedia]['edits'] = mwtable.split('mw-statistics-edits')[1].split('</td></tr>')[0].split('>')[1].strip()
+                        locapedias2[locapedia]['users'] = mwtable.split('mw-statistics-users')[1].split('</td></tr>')[0].split('>')[1].strip()
+                        locapedias2[locapedia]['images'] = mwtable.split('mw-statistics-files')[1].split('</td></tr>')[0].split('>')[1].strip()
+                    locapedias2[locapedia]['status'] = 'online'
+                except:
+                    msg = u'Error while retrieving statistics PLAIN for %s %s' % (locapedia, locaprops['stats'])
+                    print(msg.encode('utf-8'))
+                    locapedias2[locapedia]['status'] = 'offline'
     
     locapedias3 = [[v['name'].lower(), v] for k, v in locapedias2.items()]
     locapedias3.sort()
     locarows = []
     locac = 1
     for locapedia, locaprops in locapedias3:
-        if locaprops['status'].lower() == 'offline':
-            locaprops['status'] = 'Offline'
-        elif locaprops['status'].lower() == 'online':
-            locaprops['status'] = 'Online'
+        if 'status' in locaprops:
+            if locaprops['status'].lower() == 'offline':
+                locaprops['status'] = 'Offline'
+            elif locaprops['status'].lower() == 'online':
+                locaprops['status'] = 'Online'
+            else:
+                locaprops['status'] = 'Desconocido'
+        else:
+            locaprops['status'] = 'Desconocido'
         locarow = u"""
     <tr>
         <td>%s</td>

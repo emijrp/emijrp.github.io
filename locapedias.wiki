@@ -95,8 +95,8 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td>Italia</td>
         <td>21317</td>
-        <td>108577</td>
-        <td>72628</td>
+        <td>108581</td>
+        <td>72632</td>
         <td>9133</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-retecomuni_italianiit_w">Sí</a></td>
@@ -178,7 +178,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td>?</td>
-        <td style="background-color: pink;">Offline</td>
+        <td style="background-color: lightgreen;">Desconocido</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://el.tesorodeoviedo.es/index.php?title=Portada">IA</a></td>
@@ -226,7 +226,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td>?</td>
-        <td style="background-color: pink;">Offline</td>
+        <td style="background-color: lightgreen;">Desconocido</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-enwadaes_w">Sí</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://enwada.es/wiki/P%C3%A1gina_Principal">IA</a></td>
@@ -273,7 +273,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>6253</td>
         <td>17739</td>
         <td>6926</td>
-        <td>5307</td>
+        <td>5308</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-jaenpediawikandaes_w">Sí</a></td>
         <td>No</td>
@@ -354,7 +354,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td>?</td>
-        <td style="background-color: pink;">Offline</td>
+        <td style="background-color: lightgreen;">Desconocido</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-malawi360com_wiki">Sí</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.malawi360.com">IA</a></td>
@@ -479,7 +479,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>Tarragona</td>
         <td>España</td>
         <td>1032</td>
-        <td>?</td>
+        <td>4642</td>
         <td>1643</td>
         <td>1153</td>
         <td style="background-color: lightgreen;">Online</td>
@@ -506,7 +506,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>31</td>
-        <td><a href="">UgandaWiki</a></td>
+        <td><a href="http://www.ugandawiki.ug">UgandaWiki</a></td>
         <td></td>
         <td>Uganda</td>
         <td>Uganda</td>
@@ -517,7 +517,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td style="background-color: pink;">Offline</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/">IA</a></td>
+        <td><a href="https://web.archive.org/web/*/http://www.ugandawiki.ug">IA</a></td>
     </tr>
 
     <tr>
@@ -686,11 +686,11 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td>Valle del Jiloca</td>
         <td>España</td>
-        <td>1032</td>
         <td>?</td>
-        <td>1643</td>
-        <td>1153</td>
-        <td style="background-color: lightgreen;">Online</td>
+        <td>?</td>
+        <td>?</td>
+        <td>?</td>
+        <td style="background-color: pink;">Offline</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-xilocacom_xilocapedia">Sí</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://xiloca.org/xilocapedia/index.php?title=P%C3%A1gina_principal">IA</a></td>
