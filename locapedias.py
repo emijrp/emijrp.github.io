@@ -16,6 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import json
+import re
 import urllib2
 
 def main():
@@ -25,6 +26,12 @@ def main():
             'dump': 'https://archive.org/details/wiki-almeriapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Almería', 
+        }, 
+        u'Aragopedia': {
+            'api': 'http://opendata.aragon.es/aragopedia/api.php', 
+            'dump': 'https://archive.org/details/wiki-opendataaragones_aragopedia', 
+            'country': u'España', 
+            'region': u'Aragón', 
         }, 
         u'Arija': {
             'api': 'http://www.arija.org/es/api.php', 
@@ -253,6 +260,55 @@ def main():
             'founded': '', 
             'region': u'Andalucía', 
         }, 
+        u'Wiki-Anjou': {
+            'api': 'http://www.wiki-anjou.fr/api.php', 
+            'dump': '', 
+            'country': u'Francia', 
+            'founded': '', 
+            'region': u'Maine-et-Loire', 
+        }, 
+        u'Wiki-Brest': {
+            'api': 'http://www.wiki-brest.net/api.php', 
+            'dump': '', 
+            'country': u'Francia', 
+            'founded': '', 
+            'region': u'Pays de Brest', 
+        }, 
+        u'Wiki-Grenoble': {
+            'api': 'http://www.wiki-grenoble.fr/api.php', 
+            'base': 'http://wiki-grenoble.fr/index.php/Accueil', 
+            'dump': '', 
+            'country': u'Francia', 
+            'founded': '', 
+            'region': u'Grenoble', 
+            'status': 'offline', 
+        }, 
+        u'Wiki-Massilia': {
+            'api': 'http://wikimassilia.org/api.php', 
+            'base': 'http://wikimassilia.org/index.php/Accueil', 
+            'dump': '', 
+            'country': u'Francia', 
+            'founded': '', 
+            'region': u'Marseille', 
+            'status': 'offline', 
+        }, 
+        u'Wiki-Nanterre': {
+            'api': 'http://www.wiki-nanterre.net/api.php', 
+            'base': 'http://www.wiki-nanterre.net/index.php/Accueil', 
+            'dump': '', 
+            'country': u'Francia', 
+            'founded': '', 
+            'region': u'Nanterre', 
+            'status': 'offline', 
+        }, 
+        u'Wiki-Narbonne': {
+            'api': 'http://www.wiki-narbonne.fr/api.php', 
+            'base': 'http://www.wiki-narbonne.fr/index.php?title=Accueil', 
+            'dump': 'https://archive.org/details/wiki-wiki_narbonnefr', 
+            'country': u'Francia', 
+            'founded': '', 
+            'region': u'Narbonne', 
+        }, 
         u'WikiBurgos': {
             'api': 'http://www.wikiburgos.es/api.php', 
             'dump': 'https://archive.org/details/wiki-wikiburgoses', 
@@ -394,6 +450,20 @@ def main():
                     msg = u'Error while retrieving statistics PLAIN for %s %s' % (locapedia, locaprops['stats'])
                     print(msg.encode('utf-8'))
                     locapedias2[locapedia]['status'] = 'offline'
+        #get dump date
+        if 'dump' in locaprops and 'archive.org' in locaprops['dump']:
+            itemname = locaprops['dump'].split('/details/')[1].split('/')[0]
+            iaurl = 'https://archive.org/download/%s/%s_files.xml' % (itemname, itemname)
+            req = urllib2.Request(iaurl, headers={ 'User-Agent': 'Mozilla/5.0' })
+            html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
+            filedates = [x for x, y in re.findall(ur'name="[^\"]+?-(\d{8})-(wikidump|history)', html)]
+            if filedates:
+                filedates.sort()
+                filedates.reverse()
+                locapedias2[locapedia]['dumpdate'] = '%s-%s-%s' % (filedates[0][0:4], filedates[0][4:6], filedates[0][6:8])
+            else:
+                locapedias2[locapedia]['dumpdate'] = ''
+        print(locapedias2[locapedia])
     
     locapedias3 = [[v['name'].lower(), v] for k, v in locapedias2.items()]
     locapedias3.sort()
@@ -424,12 +494,13 @@ def main():
         <td style="background-color: %s;">%s</td>
         <td>%s</td>
         <td><a href="https://web.archive.org/web/*/%s">IA</a></td>
-    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], locaprops['dump'] and 'lightgreen' or 'pink', locaprops['dump'] and u'<a href="%s">Sí</a>' % (locaprops['dump']) or u'No', 'mirror' in locaprops and locaprops['mirror'] and u'<a href="%s">Sí</a>' % (locaprops['mirror']) or 'No', 'base' in locaprops and locaprops['base'] or '')
+        <td>%s</td>
+    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], locaprops['dump'] and 'lightgreen' or 'pink', locaprops['dump'] and u'<a href="%s">%s</a>' % (locaprops['dump'], 'dumpdate' in locaprops and locaprops['dumpdate'] or u'Sin fecha') or u'No', 'mirror' in locaprops and locaprops['mirror'] and u'<a href="%s">Sí</a>' % (locaprops['mirror']) or 'No', 'base' in locaprops and locaprops['base'] or '', 'generator' in locaprops and locaprops['generator'].split('MediaWiki ')[1] or u'?')
         locarows.append(locarow)
         locac += 1
     
     #print table
-    table = u'\n<script type="text/javascript">sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n'
+    table = u'\n<script type="text/javascript">sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], "es"); }</script>\n'
     table += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
     table += u"""
     <tr>
@@ -446,6 +517,7 @@ def main():
         <th class="sorttable_alpha">Dump</th>
         <th class="sorttable_alpha">Mirror</th>
         <th class="sorttable_alpha">IA</th>
+        <th class="sorttable_alpha">MW</th>
     </tr>"""
     locatable = table
     locatable += ''.join(locarows)
