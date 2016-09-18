@@ -91,9 +91,9 @@ def main():
             'region': u'Oviedo', 
         }, 
         u'EnnstalWiki': {
-            'api': 'http://www.ennstalwiki.at/wiki/api.php', 
+            'api': 'http://ennstalwiki.at/wiki/api.php', 
             'country': u'Austria', 
-            'region': u'Enns river valey', 
+            'region': u'Valle del río Enns', 
         }, 
         u'EnWada': {
             'api': 'http://enwada.es/w/api.php', 

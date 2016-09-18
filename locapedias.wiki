@@ -244,19 +244,19 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>13</td>
-        <td sorttable_customkey="EnnstalWiki"><a href="http://www.ennstalwiki.at/wiki/index.php/Hauptseite">EnnstalWiki</a></td>
+        <td sorttable_customkey="EnnstalWiki"><a href="http://ennstalwiki.at/wiki/index.php/Hauptseite">EnnstalWiki</a></td>
         <td></td>
-        <td>Enns river valey</td>
+        <td>Valle del río Enns</td>
         <td>Austria</td>
         <td>9926</td>
         <td>58807</td>
         <td>44056</td>
         <td>755</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-ennstalwikiat_wiki">2014-02-28</a></td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/http://www.ennstalwiki.at/wiki/index.php/Hauptseite">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.ennstalwiki.at/wiki/index.php/Hauptseite&Bookmarklet[API%20URL]=http://www.ennstalwiki.at/wiki/api.php&Bookmarklet[Name]=EnnstalWiki&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://web.archive.org/web/*/http://ennstalwiki.at/wiki/index.php/Hauptseite">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://ennstalwiki.at/wiki/index.php/Hauptseite&Bookmarklet[API%20URL]=http://ennstalwiki.at/wiki/api.php&Bookmarklet[Name]=EnnstalWiki&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>1.16.0</td>
     </tr>
 
@@ -734,11 +734,11 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td>Narbonne</td>
         <td>Francia</td>
-        <td>1682</td>
-        <td>10043</td>
-        <td>2663</td>
-        <td>6330</td>
-        <td style="background-color: lightgreen;">Online</td>
+        <td>?</td>
+        <td>?</td>
+        <td>?</td>
+        <td>?</td>
+        <td style="background-color: pink;">Offline</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_narbonnefr">2014-03-24</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.wiki-narbonne.fr/index.php?title=Accueil">IA</a></td>
