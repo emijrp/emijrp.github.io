@@ -369,7 +369,7 @@ def main():
         except:
             if 'stats' in locaprops and locaprops['stats']:
                 try:
-                    req = urllib2.Request(locaprops['stats'], headers={ 'User-Agent': 'Mozilla/5.0' })
+                    req = urllib2.Request(locaprops['stats'].encode('utf-8'), headers={ 'User-Agent': 'Mozilla/5.0' })
                     html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
                     if html.startswith('total='):
                         for prop, value in [x.split('=') for x in html.split(';')]:
@@ -385,13 +385,11 @@ def main():
                                 locapedias2[locapedia]['images'] = value
                     elif 'mw-statistics-table' in html:
                         mwtable = html.split('mw-statistics-table')[1].split('</table>')[0]
-                        print(statsurl)
-                        print(mwtable.split('mw-statistics-pages')[1].split('</td></tr>')[0])
-                        locapedias2[locapedia]['pages'] = mwtable.split('mw-statistics-pages')[1].split('</td></tr>')[0].split('>')[1].strip()
-                        locapedias2[locapedia]['articles'] = mwtable.split('mw-statistics-articles')[1].split('</td></tr>')[0].split('>')[1].strip()
-                        locapedias2[locapedia]['edits'] = mwtable.split('mw-statistics-edits')[1].split('</td></tr>')[0].split('>')[1].strip()
-                        locapedias2[locapedia]['users'] = mwtable.split('mw-statistics-users')[1].split('</td></tr>')[0].split('>')[1].strip()
-                        locapedias2[locapedia]['images'] = mwtable.split('mw-statistics-files')[1].split('</td></tr>')[0].split('>')[1].strip()
+                        locapedias2[locapedia]['pages'] = re.sub(ur'[\.\,\xa0 ]', '', mwtable.split('mw-statistics-pages')[1].split('</td></tr>')[0].split('>')[-1].strip())
+                        locapedias2[locapedia]['articles'] = re.sub(ur'[\.\,\xa0 ]', '', mwtable.split('mw-statistics-articles')[1].split('</td></tr>')[0].split('>')[-1].strip())
+                        locapedias2[locapedia]['edits'] = re.sub(ur'[\.\,\xa0 ]', '', mwtable.split('mw-statistics-edits')[1].split('</td></tr>')[0].split('>')[-1].strip())
+                        locapedias2[locapedia]['users'] = re.sub(ur'[\.\,\xa0 ]', '', mwtable.split('mw-statistics-users')[1].split('</td></tr>')[0].split('>')[-1].strip())
+                        locapedias2[locapedia]['images'] = re.sub(ur'[\.\,\xa0 ]', '', mwtable.split('mw-statistics-files')[1].split('</td></tr>')[0].split('>')[-1].strip())
                     locapedias2[locapedia]['status'] = 'online'
                 except:
                     msg = u'Error while retrieving statistics PLAIN for %s %s' % (locapedia, locaprops['stats'])
