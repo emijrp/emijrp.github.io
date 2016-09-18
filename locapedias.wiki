@@ -28,7 +28,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
     </tr>
     <tr>
         <td>1</td>
-        <td><a href="https://almeriapedia.wikanda.es/wiki/Portada">Almeriapedia</a></td>
+        <td sorttable_customkey="Almeriapedia"><a href="https://almeriapedia.wikanda.es/wiki/Portada">Almeriapedia</a></td>
         <td></td>
         <td>Provincia de Almería</td>
         <td>España</td>
@@ -46,7 +46,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>2</td>
-        <td><a href="http://opendata.aragon.es/aragopedia/index.php/P%C3%A1gina_principal">Aragopedia</a></td>
+        <td sorttable_customkey="Aragopedia"><a href="http://opendata.aragon.es/aragopedia/index.php/P%C3%A1gina_principal">Aragopedia</a></td>
         <td></td>
         <td>Aragón</td>
         <td>España</td>
@@ -64,7 +64,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>3</td>
-        <td><a href="http://www.arija.org/es/index.php?title=Portada">Arija</a></td>
+        <td sorttable_customkey="Arija"><a href="http://www.arija.org/es/index.php?title=Portada">Arija</a></td>
         <td></td>
         <td>Arija</td>
         <td>España</td>
@@ -82,7 +82,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>4</td>
-        <td><a href="http://asturias.wikia.com/wiki/Portada">Asturpedia</a></td>
+        <td sorttable_customkey="Asturpedia"><a href="http://asturias.wikia.com/wiki/Portada">Asturpedia</a></td>
         <td></td>
         <td>Principado de Asturias</td>
         <td>España</td>
@@ -100,7 +100,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>5</td>
-        <td><a href="http://www.ateneodecordoba.com/index.php/P%C3%A1gina_principal">Ateneo de Córdoba</a></td>
+        <td sorttable_customkey="Ateneo de Cordoba"><a href="http://ateneodecordoba.com/index.php/P%C3%A1gina_principal">Ateneo de Córdoba</a></td>
         <td></td>
         <td>Córdoba</td>
         <td>España</td>
@@ -109,22 +109,22 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>20560</td>
         <td>1505</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-ateneodecordobacom">2015-07-12</a></td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/http://www.ateneodecordoba.com/index.php/P%C3%A1gina_principal">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.ateneodecordoba.com/index.php/P%C3%A1gina_principal&Bookmarklet[API%20URL]=http://www.ateneodecordoba.com/api.php&Bookmarklet[Name]=Ateneo%%20de%%20Córdoba&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://web.archive.org/web/*/http://ateneodecordoba.com/index.php/P%C3%A1gina_principal">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://ateneodecordoba.com/index.php/P%C3%A1gina_principal&Bookmarklet[API%20URL]=http://ateneodecordoba.com/api.php&Bookmarklet[Name]=Ateneo%%20de%%20Córdoba&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>1.26.2</td>
     </tr>
 
     <tr>
         <td>6</td>
-        <td><a href="http://rete.comuni-italiani.it/wiki/Inizio">Comuni-Italiani.it</a></td>
+        <td sorttable_customkey="Comuni-Italiani.it"><a href="http://rete.comuni-italiani.it/wiki/Inizio">Comuni-Italiani.it</a></td>
         <td></td>
         <td></td>
         <td>Italia</td>
         <td>21320</td>
-        <td>108595</td>
-        <td>72642</td>
+        <td>108604</td>
+        <td>72651</td>
         <td>9133</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-retecomuni_italianiit_w">2014-02-08</a></td>
@@ -136,7 +136,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>7</td>
-        <td><a href="http://www.ctpedia.es">CTpedia</a></td>
+        <td sorttable_customkey="CTpedia"><a href="http://www.ctpedia.es">CTpedia</a></td>
         <td></td>
         <td>Cartagena</td>
         <td>España</td>
@@ -154,12 +154,12 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>8</td>
-        <td><a href="https://cadizpedia.wikanda.es/wiki/Portada">Cádizpedia</a></td>
+        <td sorttable_customkey="Cadizpedia"><a href="https://cadizpedia.wikanda.es/wiki/Portada">Cádizpedia</a></td>
         <td></td>
         <td>Provincia de Cádiz</td>
         <td>España</td>
         <td>5525</td>
-        <td>14358</td>
+        <td>14359</td>
         <td>5460</td>
         <td>5149</td>
         <td style="background-color: lightgreen;">Online</td>
@@ -172,7 +172,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>9</td>
-        <td><a href="https://cordobapedia.wikanda.es/wiki/Portada">Córdobapedia</a></td>
+        <td sorttable_customkey="Cordobapedia"><a href="https://cordobapedia.wikanda.es/wiki/Portada">Córdobapedia</a></td>
         <td></td>
         <td>Provincia de Córdoba</td>
         <td>España</td>
@@ -190,7 +190,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>10</td>
-        <td><a href="http://www.delebrija.es/index.php/Portada">DeLebrija</a></td>
+        <td sorttable_customkey="DeLebrija"><a href="http://www.delebrija.es/index.php/Portada">DeLebrija</a></td>
         <td></td>
         <td>Lebrija</td>
         <td>España</td>
@@ -208,7 +208,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>11</td>
-        <td><a href="http://el.tesorodeoviedo.es/index.php?title=Portada">Enciclopedia de Oviedo</a></td>
+        <td sorttable_customkey="Enciclopedia de Oviedo"><a href="http://el.tesorodeoviedo.es/index.php?title=Portada">Enciclopedia de Oviedo</a></td>
         <td></td>
         <td>Oviedo</td>
         <td>España</td>
@@ -226,7 +226,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>12</td>
-        <td><a href="http://www.guanches.org/enciclopedia/index.php?title=P%C3%A1gina_principal">Enciclopedia Guanche</a></td>
+        <td sorttable_customkey="Enciclopedia Guanche"><a href="http://www.guanches.org/enciclopedia/index.php?title=P%C3%A1gina_principal">Enciclopedia Guanche</a></td>
         <td></td>
         <td>Islas Canarias</td>
         <td>España</td>
@@ -244,13 +244,13 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>13</td>
-        <td><a href="http://www.ennstalwiki.at/wiki/index.php/Hauptseite">EnnstalWiki</a></td>
+        <td sorttable_customkey="EnnstalWiki"><a href="http://www.ennstalwiki.at/wiki/index.php/Hauptseite">EnnstalWiki</a></td>
         <td></td>
         <td>Enns river valey</td>
         <td>Austria</td>
         <td>9926</td>
-        <td>58789</td>
-        <td>44038</td>
+        <td>58807</td>
+        <td>44056</td>
         <td>755</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: pink;">No</td>
@@ -262,7 +262,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>14</td>
-        <td><a href="http://enwada.es/wiki/P%C3%A1gina_Principal">EnWada</a></td>
+        <td sorttable_customkey="EnWada"><a href="http://enwada.es/wiki/P%C3%A1gina_Principal">EnWada</a></td>
         <td></td>
         <td>Provincia de Guadalajara</td>
         <td>España</td>
@@ -280,7 +280,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>15</td>
-        <td><a href="https://granadapedia.wikanda.es/wiki/Portada">Granadapedia</a></td>
+        <td sorttable_customkey="Granadapedia"><a href="https://granadapedia.wikanda.es/wiki/Portada">Granadapedia</a></td>
         <td></td>
         <td>Provincia de Granada</td>
         <td>España</td>
@@ -298,7 +298,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>16</td>
-        <td><a href="https://huelvapedia.wikanda.es/wiki/Portada">Huelvapedia</a></td>
+        <td sorttable_customkey="Huelvapedia"><a href="https://huelvapedia.wikanda.es/wiki/Portada">Huelvapedia</a></td>
         <td></td>
         <td>Provincia de Huelva</td>
         <td>España</td>
@@ -316,7 +316,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>17</td>
-        <td><a href="https://jaenpedia.wikanda.es/wiki/Portada">Jaenpedia</a></td>
+        <td sorttable_customkey="Jaenpedia"><a href="https://jaenpedia.wikanda.es/wiki/Portada">Jaenpedia</a></td>
         <td></td>
         <td>Provincia de Jaén</td>
         <td>España</td>
@@ -334,7 +334,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>18</td>
-        <td><a href="http://www.jerezsiempre.com/index.php/Portada">JerezSiempre</a></td>
+        <td sorttable_customkey="JerezSiempre"><a href="http://www.jerezsiempre.com/index.php/Portada">JerezSiempre</a></td>
         <td></td>
         <td>Jerez de la Frontera</td>
         <td>España</td>
@@ -352,7 +352,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>19</td>
-        <td><a href="">LeonWiki</a></td>
+        <td sorttable_customkey="LeonWiki"><a href="">LeonWiki</a></td>
         <td></td>
         <td>León</td>
         <td>España</td>
@@ -370,7 +370,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>20</td>
-        <td><a href="http://www.enciclopediadelinares.com/wiki">LinaWiki</a></td>
+        <td sorttable_customkey="LinaWiki"><a href="http://www.enciclopediadelinares.com/wiki">LinaWiki</a></td>
         <td></td>
         <td>Linares</td>
         <td>España</td>
@@ -379,7 +379,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td style="background-color: pink;">Offline</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z">2011-04-27</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.enciclopediadelinares.com/wiki">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.enciclopediadelinares.com/wiki&Bookmarklet[API%20URL]=http://www.enciclopediadelinares.com/wiki/api.php&Bookmarklet[Name]=LinaWiki&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -388,7 +388,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>21</td>
-        <td><a href="http://madripedia.es/wiki/Portada">Madripedia</a></td>
+        <td sorttable_customkey="Madripedia"><a href="http://madripedia.es/wiki/Portada">Madripedia</a></td>
         <td></td>
         <td>Comunidad de Madrid</td>
         <td>España</td>
@@ -397,16 +397,16 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td style="background-color: pink;">Offline</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-madripediaes_w">2014-02-07</a></td>
         <td><a href="https://madripedia.wikis.cc">Sí</a></td>
         <td><a href="https://web.archive.org/web/*/http://madripedia.es/wiki/Portada">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://madripedia.es/wiki/Portada&Bookmarklet[API%20URL]=http://www.madripedia.es&Bookmarklet[Name]=Madripedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://madripedia.es/wiki/Portada&Bookmarklet[API%20URL]=http://madripedia.es/w/api.php&Bookmarklet[Name]=Madripedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>?</td>
     </tr>
 
     <tr>
         <td>22</td>
-        <td><a href="http://www.malawi360.com">Malawi360</a></td>
+        <td sorttable_customkey="Malawi360"><a href="http://www.malawi360.com">Malawi360</a></td>
         <td>2007-08-24</td>
         <td>Malawi</td>
         <td>Malawi</td>
@@ -424,7 +424,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>23</td>
-        <td><a href="http://wiki.mitoledo.com/mediawiki/index.php/Portada">MiToledo</a></td>
+        <td sorttable_customkey="MiToledo"><a href="http://wiki.mitoledo.com/mediawiki/index.php/Portada">MiToledo</a></td>
         <td></td>
         <td>Toledo</td>
         <td>España</td>
@@ -442,7 +442,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>24</td>
-        <td><a href="http://malaga.diwiki.org">Málaga Diwiki</a></td>
+        <td sorttable_customkey="Malaga Diwiki"><a href="http://malaga.diwiki.org">Málaga Diwiki</a></td>
         <td></td>
         <td>Málaga</td>
         <td>España</td>
@@ -460,7 +460,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>25</td>
-        <td><a href="https://malagapedia.wikanda.es/wiki/Portada">Málagapedia</a></td>
+        <td sorttable_customkey="Malagapedia"><a href="https://malagapedia.wikanda.es/wiki/Portada">Málagapedia</a></td>
         <td></td>
         <td>Provincia de Málaga</td>
         <td>España</td>
@@ -478,7 +478,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>26</td>
-        <td><a href="http://planetnepal.org/wiki/PlanetNepal">PlanetNepal</a></td>
+        <td sorttable_customkey="PlanetNepal"><a href="http://planetnepal.org/wiki/PlanetNepal">PlanetNepal</a></td>
         <td>2010-01-31</td>
         <td>Nepal</td>
         <td>Nepal</td>
@@ -496,7 +496,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>27</td>
-        <td><a href="http://www.rosespedia.cat/index.php/P%C3%A0gina_principal">Rosespèdia</a></td>
+        <td sorttable_customkey="Rosespedia"><a href="http://www.rosespedia.cat/index.php/P%C3%A0gina_principal">Rosespèdia</a></td>
         <td></td>
         <td>Roses</td>
         <td>España</td>
@@ -514,12 +514,12 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>28</td>
-        <td><a href="https://sevillapedia.wikanda.es/wiki/Portada">Sevillapedia</a></td>
+        <td sorttable_customkey="Sevillapedia"><a href="https://sevillapedia.wikanda.es/wiki/Portada">Sevillapedia</a></td>
         <td></td>
         <td>Provincia de Sevilla</td>
         <td>España</td>
-        <td>7342</td>
-        <td>22254</td>
+        <td>7343</td>
+        <td>22255</td>
         <td>7348</td>
         <td>5302</td>
         <td style="background-color: lightgreen;">Online</td>
@@ -532,12 +532,12 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>29</td>
-        <td><a href="https://sevillapedia.wikanda.es/wiki/Portada">Stadtwiki Karlsruhe</a></td>
+        <td sorttable_customkey="Stadtwiki Karlsruhe"><a href="https://sevillapedia.wikanda.es/wiki/Portada">Stadtwiki Karlsruhe</a></td>
         <td>2004-07-22</td>
         <td>Karlsruhe</td>
         <td>Alemania</td>
-        <td>7342</td>
-        <td>22254</td>
+        <td>7343</td>
+        <td>22255</td>
         <td>7348</td>
         <td>5302</td>
         <td style="background-color: lightgreen;">Online</td>
@@ -550,7 +550,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>30</td>
-        <td><a href="http://www.tarracowiki.cat/wiki/Portada">Tarracowiki</a></td>
+        <td sorttable_customkey="Tarracowiki"><a href="http://www.tarracowiki.cat/wiki/Portada">Tarracowiki</a></td>
         <td></td>
         <td>Tarragona</td>
         <td>España</td>
@@ -568,7 +568,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>31</td>
-        <td><a href="http://towiki.ru/view/%D0%A2%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8">Tomsk Wiki</a></td>
+        <td sorttable_customkey="Tomsk Wiki"><a href="http://towiki.ru/view/%D0%A2%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8">Tomsk Wiki</a></td>
         <td>2007-01-29</td>
         <td>Tomsk</td>
         <td>Rusia</td>
@@ -586,7 +586,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>32</td>
-        <td><a href="http://www.ugandawiki.ug">UgandaWiki</a></td>
+        <td sorttable_customkey="UgandaWiki"><a href="http://www.ugandawiki.ug">UgandaWiki</a></td>
         <td></td>
         <td>Uganda</td>
         <td>Uganda</td>
@@ -604,7 +604,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>33</td>
-        <td><a href="http://www.vila-real.info/vilapedia2015/">Vilapedia</a></td>
+        <td sorttable_customkey="Vilapedia"><a href="http://www.vila-real.info/vilapedia2015/">Vilapedia</a></td>
         <td></td>
         <td>Villareal</td>
         <td>España</td>
@@ -613,7 +613,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td style="background-color: pink;">Offline</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/vila_realinfo_vilapedia-20110427-wikidump.7z">2011-04-27</a></td>
         <td><a href="https://vilapedia.wikis.cc">Sí</a></td>
         <td><a href="https://web.archive.org/web/*/http://www.vila-real.info/vilapedia2015/">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.vila-real.info/vilapedia2015/&Bookmarklet[API%20URL]=http://www.vila-real.info/vilapedia2015/&Bookmarklet[Name]=Vilapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -622,7 +622,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>34</td>
-        <td><a href="https://www.wikanda.es/wiki/Portada">Wikanda</a></td>
+        <td sorttable_customkey="Wikanda"><a href="https://www.wikanda.es/wiki/Portada">Wikanda</a></td>
         <td></td>
         <td>Andalucía</td>
         <td>España</td>
@@ -640,7 +640,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>35</td>
-        <td><a href="http://www.wiki-anjou.fr/index.php/Bienvenue_sur_Wiki-Anjou">Wiki-Anjou</a></td>
+        <td sorttable_customkey="Wiki-Anjou"><a href="http://www.wiki-anjou.fr/index.php/Bienvenue_sur_Wiki-Anjou">Wiki-Anjou</a></td>
         <td></td>
         <td>Maine-et-Loire</td>
         <td>Francia</td>
@@ -658,13 +658,13 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>36</td>
-        <td><a href="http://www.wiki-brest.net/index.php/Accueil">Wiki-Brest</a></td>
+        <td sorttable_customkey="Wiki-Brest"><a href="http://www.wiki-brest.net/index.php/Accueil">Wiki-Brest</a></td>
         <td></td>
         <td>Pays de Brest</td>
         <td>Francia</td>
         <td>4364</td>
-        <td>27476</td>
-        <td>15228</td>
+        <td>27485</td>
+        <td>15237</td>
         <td>1342</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_brestnet">2014-07-03</a></td>
@@ -676,7 +676,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>37</td>
-        <td><a href="http://wiki-grenoble.fr/index.php/Accueil">Wiki-Grenoble</a></td>
+        <td sorttable_customkey="Wiki-Grenoble"><a href="http://wiki-grenoble.fr/index.php/Accueil">Wiki-Grenoble</a></td>
         <td></td>
         <td>Grenoble</td>
         <td>Francia</td>
@@ -694,7 +694,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>38</td>
-        <td><a href="http://wikimassilia.org/index.php/Accueil">Wiki-Massilia</a></td>
+        <td sorttable_customkey="Wiki-Massilia"><a href="http://wikimassilia.org/index.php/Accueil">Wiki-Massilia</a></td>
         <td></td>
         <td>Marseille</td>
         <td>Francia</td>
@@ -712,7 +712,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>39</td>
-        <td><a href="http://www.wiki-nanterre.net/index.php/Accueil">Wiki-Nanterre</a></td>
+        <td sorttable_customkey="Wiki-Nanterre"><a href="http://www.wiki-nanterre.net/index.php/Accueil">Wiki-Nanterre</a></td>
         <td></td>
         <td>Nanterre</td>
         <td>Francia</td>
@@ -730,16 +730,16 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>40</td>
-        <td><a href="http://www.wiki-narbonne.fr/index.php?title=Accueil">Wiki-Narbonne</a></td>
+        <td sorttable_customkey="Wiki-Narbonne"><a href="http://www.wiki-narbonne.fr/index.php?title=Accueil">Wiki-Narbonne</a></td>
         <td></td>
         <td>Narbonne</td>
         <td>Francia</td>
-        <td>?</td>
-        <td>?</td>
-        <td>?</td>
-        <td>?</td>
+        <td>1682</td>
+        <td>10043</td>
+        <td>2663</td>
+        <td>6330</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_narbonnefr">2014-03-24</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.wiki-narbonne.fr/index.php?title=Accueil">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wiki-narbonne.fr/index.php?title=Accueil&Bookmarklet[API%20URL]=http://www.wiki-narbonne.fr/api.php&Bookmarklet[Name]=Wiki-Narbonne&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -748,7 +748,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>41</td>
-        <td><a href="http://www.wikiburgos.es/wiki/P%C3%A1gina_Principal">WikiBurgos</a></td>
+        <td sorttable_customkey="WikiBurgos"><a href="http://www.wikiburgos.es/wiki/P%C3%A1gina_Principal">WikiBurgos</a></td>
         <td></td>
         <td>Burgos</td>
         <td>España</td>
@@ -766,7 +766,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>42</td>
-        <td><a href="http://www.wikiextremadura.org">WikiExtremadura</a></td>
+        <td sorttable_customkey="WikiExtremadura"><a href="http://www.wikiextremadura.org/w/Portada">WikiExtremadura</a></td>
         <td></td>
         <td>Extremadura</td>
         <td>España</td>
@@ -777,14 +777,14 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td style="background-color: pink;">Offline</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/http://www.wikiextremadura.org">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wikiextremadura.org&Bookmarklet[API%20URL]=http://www.wikiextremadura.org&Bookmarklet[Name]=WikiExtremadura&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://web.archive.org/web/*/http://www.wikiextremadura.org/w/Portada">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wikiextremadura.org/w/Portada&Bookmarklet[API%20URL]=http://www.wikiextremadura.org&Bookmarklet[Name]=WikiExtremadura&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>?</td>
     </tr>
 
     <tr>
         <td>43</td>
-        <td><a href="http://www.wikilleida.cat">WikiLleida</a></td>
+        <td sorttable_customkey="WikiLleida"><a href="http://www.wikilleida.cat">WikiLleida</a></td>
         <td></td>
         <td>Lleida</td>
         <td>España</td>
@@ -802,7 +802,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>44</td>
-        <td><a href="http://wikimurcia.com/index.php?title=P%C3%A1gina_principal">WikiMurcia</a></td>
+        <td sorttable_customkey="WikiMurcia"><a href="http://wikimurcia.com/index.php?title=P%C3%A1gina_principal">WikiMurcia</a></td>
         <td></td>
         <td>Murcia</td>
         <td>España</td>
@@ -820,7 +820,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>45</td>
-        <td><a href="http://pakistan.wikia.com/wiki/Main_Page">WikiPakistan</a></td>
+        <td sorttable_customkey="WikiPakistan"><a href="http://pakistan.wikia.com/wiki/Main_Page">WikiPakistan</a></td>
         <td></td>
         <td>Pakistán</td>
         <td>Pakistán</td>
@@ -838,7 +838,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>46</td>
-        <td><a href="http://wikirioja.com/wiki/Portada">WikiRioja</a></td>
+        <td sorttable_customkey="WikiRioja"><a href="http://wikirioja.com/wiki/Portada">WikiRioja</a></td>
         <td></td>
         <td>La Rioja</td>
         <td>España</td>
@@ -856,7 +856,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>47</td>
-        <td><a href="http://www.wikisalamanca.org">WikiSalamanca</a></td>
+        <td sorttable_customkey="WikiSalamanca"><a href="http://www.wikisalamanca.org/?title=Portada">WikiSalamanca</a></td>
         <td></td>
         <td>Provincia de Salamanca</td>
         <td>España</td>
@@ -867,14 +867,14 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td style="background-color: pink;">Offline</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikisalamancaorg">2016-01-08</a></td>
         <td><a href="https://wikisalamanca.wikis.cc">Sí</a></td>
-        <td><a href="https://web.archive.org/web/*/http://www.wikisalamanca.org">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wikisalamanca.org&Bookmarklet[API%20URL]=http://www.wikisalamanca.org&Bookmarklet[Name]=WikiSalamanca&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://web.archive.org/web/*/http://www.wikisalamanca.org/?title=Portada">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wikisalamanca.org/?title=Portada&Bookmarklet[API%20URL]=http://www.wikisalamanca.org&Bookmarklet[Name]=WikiSalamanca&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>?</td>
     </tr>
 
     <tr>
         <td>48</td>
-        <td><a href="http://www.wikitunisie.org">WikiTunisie</a></td>
+        <td sorttable_customkey="WikiTunisie"><a href="http://www.wikitunisie.org">WikiTunisie</a></td>
         <td></td>
         <td>Túnez</td>
         <td>Túnez</td>
@@ -892,7 +892,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>49</td>
-        <td><a href="http://xiloca.org/xilocapedia/index.php?title=P%C3%A1gina_principal">Xilocapedia</a></td>
+        <td sorttable_customkey="Xilocapedia"><a href="http://xiloca.org/xilocapedia/index.php?title=P%C3%A1gina_principal">Xilocapedia</a></td>
         <td></td>
         <td>Valle del Jiloca</td>
         <td>España</td>
@@ -910,7 +910,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
     <tr>
         <td>50</td>
-        <td><a href="http://zaragoza.diwiki.org">Zaragoza Diwiki</a></td>
+        <td sorttable_customkey="Zaragoza Diwiki"><a href="http://zaragoza.diwiki.org">Zaragoza Diwiki</a></td>
         <td></td>
         <td>Zaragoza</td>
         <td>España</td>

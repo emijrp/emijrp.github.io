@@ -17,7 +17,11 @@
 
 import json
 import re
+import unicodedata
 import urllib2
+
+def removeaccute(s):
+    return ''.join((c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn'))
 
 def main():
     locapedias = {
@@ -43,8 +47,7 @@ def main():
             'region': u'Principado de Asturias', 
         }, 
         u'Ateneo de Córdoba': {
-            'api': 'http://www.ateneodecordoba.com/api.php', 
-            #'dump': 'https://archive.org/details/wiki-ateneodecordobacom', 
+            'api': 'http://ateneodecordoba.com/api.php', 
             'country': u'España', 
             'region': u'Córdoba', 
         }, 
@@ -75,7 +78,6 @@ def main():
             'base': 'http://www.delebrija.es/index.php/Portada', 
             'country': u'España', 
             'region': u'Lebrija', 
-            #'status': 'offline', 
         }, 
         u'Enciclopedia Guanche': {
             'api': 'http://www.guanches.org/enciclopedia/api.php', 
@@ -116,7 +118,7 @@ def main():
         }, 
         u'JerezSiempre': {
             'api': 'http://www.jerezsiempre.com/api.php', 
-            #'dump': 'https://archive.org/details/wiki-jerezsiemprecom', 
+            'dump': 'https://archive.org/details/wiki-jerezsiemprecom', 
             'country': u'España', 
             'region': u'Jerez de la Frontera', 
         }, 
@@ -124,31 +126,26 @@ def main():
             'api': 'http://leonwiki.lazorrera.com', 
             'country': u'España', 
             'region': u'León', 
-            #'status': 'offline', 
         }, 
         u'LinaWiki': {
             'api': 'http://www.enciclopediadelinares.com/wiki/api.php', #'http://leonwiki.lazorrera.com', 
             'base': 'http://www.enciclopediadelinares.com/wiki', 
-            #'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
+            'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
             'country': u'España', 
             'region': u'Linares', 
-            #'status': 'offline', 
         }, 
         u'Madripedia': {
-            'api': 'http://www.madripedia.es', 
+            'api': 'http://madripedia.es/w/api.php', 
             'base': 'http://madripedia.es/wiki/Portada', 
-            #'dump': 'https://archive.org/details/wiki-madripediaes_w', 
             'country': u'España', 
             'mirror': 'https://madripedia.wikis.cc', 
             'region': u'Comunidad de Madrid', 
-            #'status': 'offline', 
         }, 
         u'Málaga Diwiki': {
             'api': 'http://malaga.diwiki.org', 
             'base': 'http://malaga.diwiki.org', 
             'country': u'España', 
             'region': u'Málaga', 
-            #'status': 'offline', 
         }, 
         u'Málagapedia': {
             'api': 'http://malagapedia.wikanda.es/w/api.php', 
@@ -161,14 +158,12 @@ def main():
             'country': u'Malawi', 
             'founded': '2007-08-24', 
             'region': u'Malawi', 
-            #'status': 'offline', 
         }, 
         u'MiToledo': {
             'api': 'http://wiki.mitoledo.com/api.php', 
             'base': 'http://wiki.mitoledo.com/mediawiki/index.php/Portada', 
             'country': u'España', 
             'region': u'Toledo', 
-            #'status': 'offline', 
         }, 
         u'PlanetNepal': {
             'api': 'http://planetnepal.org/w/api.php', 
@@ -181,7 +176,7 @@ def main():
             'base': 'http://www.rosespedia.cat/index.php/P%C3%A0gina_principal', 
             'country': u'España', 
             'region': u'Roses', 
-            'stats': 'http://rosespedia.cat/index.php/Especial:Estad%C3%ADstiques', 
+            'stats': u'http://rosespedia.cat/index.php/Especial:Estadístiques', 
         }, 
         u'Sevillapedia': {
             'api': 'https://sevillapedia.wikanda.es/w/api.php', 
@@ -214,17 +209,15 @@ def main():
             'country': u'Uganda', 
             'founded': '', 
             'region': u'Uganda', 
-            #'status': 'offline', 
         }, 
         u'Vilapedia': {
             'api': 'http://www.vila-real.info/vilapedia2015/', 
             'base': 'http://www.vila-real.info/vilapedia2015/', 
-            #'dump': 'https://archive.org/details/vila_realinfo_vilapedia-20110427-wikidump.7z', 
+            'dump': 'https://archive.org/details/vila_realinfo_vilapedia-20110427-wikidump.7z', 
             'country': u'España', 
             'founded': '', 
             'mirror': 'https://vilapedia.wikis.cc', 
             'region': u'Villareal', 
-            #'status': 'offline', 
         }, 
         u'Wikanda': {
             'api': 'https://www.wikanda.es/w/api.php', 
@@ -250,7 +243,6 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Grenoble', 
-            #'status': 'offline', 
         }, 
         u'Wiki-Massilia': {
             'api': 'http://wikimassilia.org/api.php', 
@@ -258,7 +250,6 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Marseille', 
-            #'status': 'offline', 
         }, 
         u'Wiki-Nanterre': {
             'api': 'http://www.wiki-nanterre.net/api.php', 
@@ -266,7 +257,6 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Nanterre', 
-            #'status': 'offline', 
         }, 
         u'Wiki-Narbonne': {
             'api': 'http://www.wiki-narbonne.fr/api.php', 
@@ -274,22 +264,22 @@ def main():
             #'dump': 'https://archive.org/details/wiki-wiki_narbonnefr', 
             'country': u'Francia', 
             'founded': '', 
+            'originalurl': 'http://www.wiki-narbonne.fr/index.php', 
             'region': u'Narbonne', 
+            'stats': u'http://www.wiki-narbonne.fr/index.php?title=Special:Statistics&action=raw', 
         }, 
         u'WikiBurgos': {
             'api': 'http://www.wikiburgos.es/api.php', 
-            #'dump': 'https://archive.org/details/wiki-wikiburgoses', 
             'country': u'España', 
             'founded': '', 
             'region': u'Burgos', 
         }, 
         u'WikiExtremadura': {
             'api': 'http://www.wikiextremadura.org', 
-            'base': 'http://www.wikiextremadura.org', 
+            'base': 'http://www.wikiextremadura.org/w/Portada', 
             'country': u'España', 
             'founded': '', 
             'region': u'Extremadura', 
-            #'status': 'offline', 
         }, 
         u'WikiLleida': {
             'api': 'http://www.wikilleida.cat', 
@@ -297,7 +287,6 @@ def main():
             'country': u'España', 
             'founded': '', 
             'region': u'Lleida', 
-            #'status': 'offline', 
         }, 
         u'WikiMurcia': {
             'api': 'http://wikimurcia.com/api.php', 
@@ -313,20 +302,19 @@ def main():
         }, 
         u'WikiRioja': {
             'api': 'http://www.wikirioja.com/api.php', 
-            #'dump': 'https://archive.org/details/wiki-wikiriojacom', 
             'country': u'España', 
             'founded': '', 
             'region': u'La Rioja', 
         }, 
         u'WikiSalamanca': {
             'api': 'http://www.wikisalamanca.org', 
-            'base': 'http://www.wikisalamanca.org', 
+            'base': 'http://www.wikisalamanca.org/?title=Portada', 
             #'dump': 'https://archive.org/details/wiki-wikisalamancaorg', 
             'country': u'España', 
             'founded': '', 
             'mirror': 'https://wikisalamanca.wikis.cc', 
+            'originalurl': 'http://www.wikisalamanca.org/index.php', 
             'region': u'Provincia de Salamanca', 
-            #'status': 'offline', 
         }, 
         u'WikiTunisie': {
             'api': 'http://www.wikitunisie.org', 
@@ -334,7 +322,6 @@ def main():
             'country': u'Túnez', 
             'founded': '', 
             'region': u'Túnez', 
-            #'status': 'offline', 
         }, 
         u'Xilocapedia': {
             'api': 'http://xiloca.org/xilocapedia/api.php', 
@@ -343,7 +330,7 @@ def main():
             'country': u'España', 
             'founded': '', 
             'region': u'Valle del Jiloca', 
-            'stats': 'http://xiloca.org/xilocapedia/index.php?title=Especial:Estad%C3%ADsticas', 
+            'stats': u'http://xiloca.org/xilocapedia/index.php?title=Especial:Estadísticas', 
         }, 
         u'Zaragoza Diwiki': {
             'api': 'http://zaragoza.diwiki.org', 
@@ -351,7 +338,6 @@ def main():
             'country': u'España', 
             'founded': '', 
             'region': u'Zaragoza', 
-            ##'status': 'offline', 
         }, 
     }
     locapedias2 = locapedias.copy()
@@ -360,8 +346,6 @@ def main():
         print('-'*50)
         print('Analysing: %s' % (locapedia))
         locapedias2[locapedia]['name'] = locapedia
-        #if 'status' in locaprops and locaprops['status'].lower() == 'offline':
-        #    continue
         
         try:
             siteinfourl = '%s?action=query&meta=siteinfo&siprop=general|statistics&format=json' % (locaprops['api'])
@@ -416,8 +400,14 @@ def main():
         
         #search dump in Internet Archive
         if not 'dump' in locaprops or ('dump' in locaprops and not locaprops['dump']):
-            if 'api' in locaprops and locaprops['api']:
-                iasearchurl = 'https://archive.org/search.php?query=originalurl:"%s"' % (locaprops['api'].split('://')[1])
+            originalurl = ''
+            if 'originalurl' in locaprops and locaprops['originalurl']:
+                originalurl = locaprops['originalurl']
+            elif 'api' in locaprops and locaprops['api']:
+                originalurl = locaprops['api']
+            
+            if originalurl:
+                iasearchurl = 'https://archive.org/search.php?query=originalurl:"%s"' % (originalurl.split('://')[1])
                 req = urllib2.Request(iasearchurl, headers={ 'User-Agent': 'Mozilla/5.0' })
                 html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
                 items = re.findall(ur'<a href="/details/([^"]*?)" title="', html)
@@ -458,7 +448,7 @@ def main():
         locarow = u"""
     <tr>
         <td>%s</td>
-        <td><a href="%s">%s</a></td>
+        <td sorttable_customkey="%s"><a href="%s">%s</a></td>
         <td>%s</td>
         <td>%s</td>
         <td>%s</td>
@@ -472,7 +462,7 @@ def main():
         <td><a href="https://web.archive.org/web/*/%s">IA</a></td>
         <td><a href="%s">WA</a></td>
         <td>%s</td>
-    </tr>\n""" % (locac, 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], 'dump' in locaprops and locaprops['dump'] and 'lightgreen' or 'pink', 'dump' in locaprops and locaprops['dump'] and u'<a href="%s">%s</a>' % (locaprops['dump'], 'dumpdate' in locaprops and locaprops['dumpdate'] or u'Sin fecha') or u'No', 'mirror' in locaprops and locaprops['mirror'] and u'<a href="%s">Sí</a>' % (locaprops['mirror']) or 'No', 'base' in locaprops and locaprops['base'] or '', wikiapiaryurl, 'generator' in locaprops and locaprops['generator'].split('MediaWiki ')[1] or u'?')
+    </tr>\n""" % (locac, removeaccute(locaprops['name']), 'base' in locaprops and locaprops['base'] or '', locaprops['name'], 'founded' in locaprops and locaprops['founded'] or '', locaprops['region'], locaprops['country'], 'articles' in locaprops and locaprops['articles'] or '?', 'pages' in locaprops and locaprops['pages'] or '?', 'images' in locaprops and locaprops['images'] or '?', 'users' in locaprops and locaprops['users'] or '?', locaprops['status'].lower() == 'offline' and 'pink' or 'lightgreen', locaprops['status'], 'dump' in locaprops and locaprops['dump'] and 'lightgreen' or 'pink', 'dump' in locaprops and locaprops['dump'] and u'<a href="%s">%s</a>' % (locaprops['dump'], 'dumpdate' in locaprops and locaprops['dumpdate'] or u'Sin fecha') or u'No', 'mirror' in locaprops and locaprops['mirror'] and u'<a href="%s">Sí</a>' % (locaprops['mirror']) or 'No', 'base' in locaprops and locaprops['base'] or '', wikiapiaryurl, 'generator' in locaprops and locaprops['generator'].split('MediaWiki ')[1] or u'?')
         locarows.append(locarow)
         locac += 1
     
