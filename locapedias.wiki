@@ -122,9 +122,9 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td></td>
         <td>Italia</td>
-        <td>21319</td>
-        <td>108594</td>
-        <td>72641</td>
+        <td>21320</td>
+        <td>108595</td>
+        <td>72642</td>
         <td>9133</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-retecomuni_italianiit_w">2014-02-08</a></td>
@@ -216,7 +216,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td>?</td>
-        <td style="background-color: lightgreen;">Desconocido</td>
+        <td style="background-color: pink;">Offline</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://el.tesorodeoviedo.es/index.php?title=Portada">IA</a></td>
@@ -249,8 +249,8 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>Enns river valey</td>
         <td>Austria</td>
         <td>9926</td>
-        <td>58788</td>
-        <td>44037</td>
+        <td>58789</td>
+        <td>44038</td>
         <td>755</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: pink;">No</td>
@@ -270,7 +270,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td>?</td>
-        <td style="background-color: lightgreen;">Desconocido</td>
+        <td style="background-color: pink;">Offline</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-enwadaes_w">2015-09-04</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://enwada.es/wiki/P%C3%A1gina_Principal">IA</a></td>
@@ -343,7 +343,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>33971</td>
         <td>394</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-jerezsiemprecom">2014-03-30</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.jerezsiempre.com/index.php/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.jerezsiempre.com/index.php/Portada&Bookmarklet[API%20URL]=http://www.jerezsiempre.com/api.php&Bookmarklet[Name]=JerezSiempre&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -414,7 +414,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td>?</td>
-        <td style="background-color: lightgreen;">Desconocido</td>
+        <td style="background-color: pink;">Offline</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-malawi360com_wiki">2014-02-04</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.malawi360.com">IA</a></td>
@@ -451,7 +451,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td style="background-color: pink;">Offline</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-malagadiwikiorg">2011-06-11</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://malaga.diwiki.org">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://malaga.diwiki.org&Bookmarklet[API%20URL]=http://malaga.diwiki.org&Bookmarklet[Name]=Málaga%%20Diwiki&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -508,7 +508,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-rosespediacat">2015-08-04</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.rosespedia.cat/index.php/P%C3%A0gina_principal">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.rosespedia.cat/index.php/P%C3%A0gina_principal&Bookmarklet[API%20URL]=http://rosespedia.cat/w/api.php&Bookmarklet[Name]=Rosespèdia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.rosespedia.cat/index.php/P%C3%A0gina_principal&Bookmarklet[API%20URL]=http://rosespedia.cat/api.php&Bookmarklet[Name]=Rosespèdia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>?</td>
     </tr>
 
@@ -562,8 +562,8 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-tarracowikicat_tarracowiki">2014-11-30</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.tarracowiki.cat/wiki/Portada">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.tarracowiki.cat/wiki/Portada&Bookmarklet[API%20URL]=http://www.tarracowiki.cat/w/api.php&Bookmarklet[Name]=Tarracowiki&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
-        <td>?</td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.tarracowiki.cat/wiki/Portada&Bookmarklet[API%20URL]=http://www.tarracowiki.cat/tarracowiki/api.php&Bookmarklet[Name]=Tarracowiki&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td>1.14.0</td>
     </tr>
 
     <tr>
@@ -667,7 +667,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>15228</td>
         <td>1342</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_brestnet">2014-07-03</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.wiki-brest.net/index.php/Accueil">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wiki-brest.net/index.php/Accueil&Bookmarklet[API%20URL]=http://www.wiki-brest.net/api.php&Bookmarklet[Name]=Wiki-Brest&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -757,7 +757,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>8688</td>
         <td>1342</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikiburgoses">2016-02-02</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.wikiburgos.es/wiki/P%C3%A1gina_Principal">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wikiburgos.es/wiki/P%C3%A1gina_Principal&Bookmarklet[API%20URL]=http://www.wikiburgos.es/api.php&Bookmarklet[Name]=WikiBurgos&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -847,7 +847,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>418</td>
         <td>3084</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikiriojacom">2014-07-08</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://wikirioja.com/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://wikirioja.com/wiki/Portada&Bookmarklet[API%20URL]=http://www.wikirioja.com/api.php&Bookmarklet[Name]=WikiRioja&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -865,7 +865,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>?</td>
         <td>?</td>
         <td style="background-color: pink;">Offline</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikisalamancaorg">2016-01-08</a></td>
         <td><a href="https://wikisalamanca.wikis.cc">Sí</a></td>
         <td><a href="https://web.archive.org/web/*/http://www.wikisalamanca.org">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wikisalamanca.org&Bookmarklet[API%20URL]=http://www.wikisalamanca.org&Bookmarklet[Name]=WikiSalamanca&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>

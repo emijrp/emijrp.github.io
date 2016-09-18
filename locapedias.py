@@ -23,19 +23,16 @@ def main():
     locapedias = {
         u'Almeriapedia': {
             'api': 'https://almeriapedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-almeriapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Almería', 
         }, 
         u'Aragopedia': {
             'api': 'http://opendata.aragon.es/aragopedia/api.php', 
-            #'dump': 'https://archive.org/details/wiki-opendataaragones_aragopedia', 
             'country': u'España', 
             'region': u'Aragón', 
         }, 
         u'Arija': {
             'api': 'http://www.arija.org/es/api.php', 
-            #'dump': 'https://archive.org/details/wiki-arijaorg_es', 
             'country': u'España', 
             'region': u'Arija', 
         }, 
@@ -53,26 +50,22 @@ def main():
         }, 
         u'Comuni-Italiani.it': {
             'api': 'http://rete.comuni-italiani.it/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-retecomuni_italianiit_w', 
             'country': u'Italia', 
             'region': u'', 
         }, 
         u'Cádizpedia': {
             'api': 'https://cadizpedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-cadizpediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Cádiz', 
         }, 
         u'Córdobapedia': {
             'api': 'https://cordobapedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-cordobapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Córdoba', 
         }, 
         u'CTpedia': {
             'api': 'http://www.ctpedia.es/w/api.php', 
             'base': 'http://www.ctpedia.es', 
-            #'dump': 'https://archive.org/details/wiki-ctpediaes_w', 
             'country': u'España', 
             'region': u'Cartagena', 
             'stats': 'http://www.ctpedia.es/w/index.php/Special:Statistics?action=raw', 
@@ -82,11 +75,10 @@ def main():
             'base': 'http://www.delebrija.es/index.php/Portada', 
             'country': u'España', 
             'region': u'Lebrija', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Enciclopedia Guanche': {
             'api': 'http://www.guanches.org/enciclopedia/api.php', 
-            #'dump': 'https://archive.org/details/wiki-guanchesorg_enciclopedia', 
             'country': u'España', 
             'region': u'Islas Canarias', 
         }, 
@@ -104,25 +96,21 @@ def main():
         u'EnWada': {
             'api': 'http://enwada.es/w/api.php', 
             'base': 'http://enwada.es/wiki/P%C3%A1gina_Principal', 
-            #'dump': 'https://archive.org/details/wiki-enwadaes_w', 
             'country': u'España', 
             'region': u'Provincia de Guadalajara', 
         }, 
         u'Granadapedia': {
             'api': 'https://granadapedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-granadapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Granada', 
         }, 
         u'Huelvapedia': {
             'api': 'https://huelvapedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-huelvapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Huelva', 
         }, 
         u'Jaenpedia': {
             'api': 'https://jaenpedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-jaenpediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Jaén', 
         }, 
@@ -136,7 +124,7 @@ def main():
             'api': 'http://leonwiki.lazorrera.com', 
             'country': u'España', 
             'region': u'León', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'LinaWiki': {
             'api': 'http://www.enciclopediadelinares.com/wiki/api.php', #'http://leonwiki.lazorrera.com', 
@@ -144,7 +132,7 @@ def main():
             #'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
             'country': u'España', 
             'region': u'Linares', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Madripedia': {
             'api': 'http://www.madripedia.es', 
@@ -153,35 +141,34 @@ def main():
             'country': u'España', 
             'mirror': 'https://madripedia.wikis.cc', 
             'region': u'Comunidad de Madrid', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Málaga Diwiki': {
             'api': 'http://malaga.diwiki.org', 
             'base': 'http://malaga.diwiki.org', 
             'country': u'España', 
             'region': u'Málaga', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Málagapedia': {
             'api': 'http://malagapedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-malagapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Málaga', 
         }, 
         u'Malawi360': {
             'api': 'http://www.malawi360.com/wiki/api.php', 
             'base': 'http://www.malawi360.com', 
-            #'dump': 'https://archive.org/details/wiki-malawi360com_wiki', 
             'country': u'Malawi', 
             'founded': '2007-08-24', 
             'region': u'Malawi', 
+            #'status': 'offline', 
         }, 
         u'MiToledo': {
             'api': 'http://wiki.mitoledo.com/api.php', 
             'base': 'http://wiki.mitoledo.com/mediawiki/index.php/Portada', 
             'country': u'España', 
             'region': u'Toledo', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'PlanetNepal': {
             'api': 'http://planetnepal.org/w/api.php', 
@@ -190,7 +177,7 @@ def main():
             'region': u'Nepal', 
         }, 
         u'Rosespèdia': {
-            'api': 'http://rosespedia.cat/w/api.php', 
+            'api': 'http://rosespedia.cat/api.php', 
             'base': 'http://www.rosespedia.cat/index.php/P%C3%A0gina_principal', 
             'country': u'España', 
             'region': u'Roses', 
@@ -198,7 +185,6 @@ def main():
         }, 
         u'Sevillapedia': {
             'api': 'https://sevillapedia.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-sevillapediawikandaes_w', 
             'country': u'España', 
             'region': u'Provincia de Sevilla', 
         }, 
@@ -209,9 +195,8 @@ def main():
             'region': u'Karlsruhe', 
         }, 
         u'Tarracowiki': {
-            'api': 'http://www.tarracowiki.cat/w/api.php', 
+            'api': 'http://www.tarracowiki.cat/tarracowiki/api.php', 
             'base': 'http://www.tarracowiki.cat/wiki/Portada', 
-            #'dump': 'https://archive.org/details/wiki-tarracowikicat_tarracowiki', 
             'country': u'España', 
             'founded': '', 
             'region': u'Tarragona', 
@@ -229,7 +214,7 @@ def main():
             'country': u'Uganda', 
             'founded': '', 
             'region': u'Uganda', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Vilapedia': {
             'api': 'http://www.vila-real.info/vilapedia2015/', 
@@ -239,11 +224,10 @@ def main():
             'founded': '', 
             'mirror': 'https://vilapedia.wikis.cc', 
             'region': u'Villareal', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Wikanda': {
             'api': 'https://www.wikanda.es/w/api.php', 
-            #'dump': 'https://archive.org/details/wiki-wikandaes_w', 
             'country': u'España', 
             'founded': '', 
             'region': u'Andalucía', 
@@ -266,7 +250,7 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Grenoble', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Wiki-Massilia': {
             'api': 'http://wikimassilia.org/api.php', 
@@ -274,7 +258,7 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Marseille', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Wiki-Nanterre': {
             'api': 'http://www.wiki-nanterre.net/api.php', 
@@ -282,7 +266,7 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Nanterre', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Wiki-Narbonne': {
             'api': 'http://www.wiki-narbonne.fr/api.php', 
@@ -305,7 +289,7 @@ def main():
             'country': u'España', 
             'founded': '', 
             'region': u'Extremadura', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'WikiLleida': {
             'api': 'http://www.wikilleida.cat', 
@@ -313,7 +297,7 @@ def main():
             'country': u'España', 
             'founded': '', 
             'region': u'Lleida', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'WikiMurcia': {
             'api': 'http://wikimurcia.com/api.php', 
@@ -342,7 +326,7 @@ def main():
             'founded': '', 
             'mirror': 'https://wikisalamanca.wikis.cc', 
             'region': u'Provincia de Salamanca', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'WikiTunisie': {
             'api': 'http://www.wikitunisie.org', 
@@ -350,7 +334,7 @@ def main():
             'country': u'Túnez', 
             'founded': '', 
             'region': u'Túnez', 
-            'status': 'offline', 
+            #'status': 'offline', 
         }, 
         u'Xilocapedia': {
             'api': 'http://xiloca.org/xilocapedia/api.php', 
@@ -367,7 +351,7 @@ def main():
             'country': u'España', 
             'founded': '', 
             'region': u'Zaragoza', 
-            'status': 'offline', 
+            ##'status': 'offline', 
         }, 
     }
     locapedias2 = locapedias.copy()
@@ -376,8 +360,8 @@ def main():
         print('-'*50)
         print('Analysing: %s' % (locapedia))
         locapedias2[locapedia]['name'] = locapedia
-        if 'status' in locaprops and locaprops['status'].lower() == 'offline':
-            continue
+        #if 'status' in locaprops and locaprops['status'].lower() == 'offline':
+        #    continue
         
         try:
             siteinfourl = '%s?action=query&meta=siteinfo&siprop=general|statistics&format=json' % (locaprops['api'])
@@ -433,7 +417,7 @@ def main():
         #search dump in Internet Archive
         if not 'dump' in locaprops or ('dump' in locaprops and not locaprops['dump']):
             if 'api' in locaprops and locaprops['api']:
-                iasearchurl = "https://archive.org/search.php?query=originalurl:%s" % (locaprops['api'].split('://')[1])
+                iasearchurl = 'https://archive.org/search.php?query=originalurl:"%s"' % (locaprops['api'].split('://')[1])
                 req = urllib2.Request(iasearchurl, headers={ 'User-Agent': 'Mozilla/5.0' })
                 html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
                 items = re.findall(ur'<a href="/details/([^"]*?)" title="', html)
@@ -469,7 +453,7 @@ def main():
             else:
                 locaprops['status'] = 'Desconocido'
         else:
-            locaprops['status'] = 'Desconocido'
+            locaprops['status'] = 'Offline'
         wikiapiaryurl = "https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=%s&Bookmarklet[API%%20URL]=%s&Bookmarklet[Name]=%s&Bookmarklet[Description]=&wpRunQuery=true" % ('base' in locaprops and locaprops['base'] or '', 'api' in locaprops and locaprops['api'] or '', re.sub(' ', '%%20', locaprops['name']))
         locarow = u"""
     <tr>
