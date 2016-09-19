@@ -1,0 +1,9 @@
+{{header|1=Hemeroteca}}
+
+Diseñar un sistema que indexe y me permita buscar noticias por palabras clave.
+
+Por ejemplo todas las noticias sobre Siria en mis medios de favoritos.
+
+Que almacene los enlaces en la Wayback Machine si no lo están ya.
+
+{{footer}}
