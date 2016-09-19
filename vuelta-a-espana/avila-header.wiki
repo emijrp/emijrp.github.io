@@ -1,1 +1,19 @@
-{{header-etapa|1=avila|2=Etapa 3: Ávila|3=Ávila|4=8.048|5=167.015|6=20|7=Ávila|8=231|9=58.358|10=254|11=110 km|12=1 de junio de 2016|13=1 día|14=|15=|16=|17=|18=|19=avila1.jpg|20=Muralla de Ávila}}
+{{header-etapa
+|wiki=avila
+|etapa=Etapa 3: Ávila
+|provincia=Ávila
+|superficie=8.048
+|poblacion=167.015
+|densidad=20
+|municipios-visitados=Ávila
+|distancia-recorrida=110 km
+|fecha=1 de junio de 2016
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=avila1.jpg
+|imagen-pie=Muralla de Ávila
+}}

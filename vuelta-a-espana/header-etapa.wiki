@@ -1,21 +1,21 @@
 <table class="wikitable" width="100%">
 
-<tr><th colspan=6>[[{{{1}}}|{{{2}}}]]</th></tr>
+<tr><th colspan=6>[[{{{wiki}}}|{{{etapa}}}]]</th></tr>
 
-<tr><td>'''Provincia''': {{{3}}}</td><td width="20%">'''Superficie''': {{{4}}} km<sup>2</sup></td><td width="25%">'''Población''': {{{5}}} ({{{6}}} hab./km<sup>2</sup>)</td><td rowspan="8" width="1%">[[File:{{{19}}}|300px|{{{20}}}]]</td></tr>
+<tr><td>'''Provincia''': {{{provincia}}}</td><td width="20%">'''Superficie''': {{{superficie}}} km<sup>2</sup></td><td width="25%">'''Población''': {{{poblacion}}} ({{{densidad}}} hab./km<sup>2</sup>)</td><td rowspan="8" width="1%">[[File:{{{imagen}}}|300px|{{{imagen-pie}}}]]</td></tr>
 
-<tr><td>'''Municipio(s) visitado(s)''': {{{7}}}</td><td>'''Superficie''': {{{8}}} km<sup>2</sup></td><td>'''Población''': {{{9}}} ({{{10}}} hab./km<sup>2</sup>)</td></tr>
+<tr><td colspan="3">'''Municipio(s) visitado(s)''': {{{municipios-visitados}}}</td></tr>
 
-<tr><td>'''Distancia recorrida''': {{{11}}}</td><td>'''Fecha''': {{{12}}}</td><td>'''Duración''': {{{13}}}</td></tr>
+<tr><td>'''Distancia recorrida''': {{{distancia-recorrida}}}</td><td>'''Fecha''': {{{fecha}}}</td><td>'''Duración''': {{{duracion}}}</td></tr>
 
-<tr><td colspan=3>'''Arquitectura civil''': {{{14}}}</td></tr>
+<tr><td colspan=3>'''Arquitectura civil''': {{{arquitectura-civil}}}</td></tr>
 
-<tr><td colspan=3>'''Arquitectura religiosa''': {{{15}}}</td></tr>
+<tr><td colspan=3>'''Arquitectura religiosa''': {{{arquitectura-religiosa}}}</td></tr>
 
-<tr><td colspan=3>'''Museos''': {{{16}}}</td></tr>
+<tr><td colspan=3>'''Museos''': {{{museos}}}</td></tr>
 
-<tr><td colspan=3>'''Naturaleza''': {{{17}}}</td></tr>
+<tr><td colspan=3>'''Naturaleza''': {{{naturaleza}}}</td></tr>
 
-<tr><td colspan=3>'''Otros''': {{{18}}}</td></tr>
+<tr><td colspan=3>'''Otros''': {{{otros}}}</td></tr>
 
 </table>

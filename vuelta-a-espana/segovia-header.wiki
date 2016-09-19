@@ -1,1 +1,19 @@
-{{header-etapa|1=segovia|2=Etapa 2: Segovia|3=Segovia|4=6.920|5=161.702|6=23|7=Segovia|8=163|9=52.728|10=325|11=90 km|12=24 de mayo de 2016|13=1 día|14=|15=|16=|17=|18=|19=segovia1.jpg|20=Acueducto de Segovia}}
+{{header-etapa
+|wiki=segovia
+|etapa=Etapa 2: Segovia
+|provincia=Segovia
+|superficie=6.920
+|poblacion=161.702
+|densidad=23
+|municipios-visitados=Segovia
+|distancia-recorrida=90 km
+|fecha=24 de mayo de 2016
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=segovia1.jpg
+|imagen-pie=Acueducto de Segovia
+}}

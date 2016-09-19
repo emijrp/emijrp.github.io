@@ -11,12 +11,14 @@
         ["Segovia", 40.948, -4.1177, "segovia1.jpg", "2", "segovia.html"], 
         ["Ávila", 40.65, -4.683333, "avila1.jpg", "3", "avila.html"], 
         ["Guadalajara", 40.63, -3.16, "guadalajara1.jpg", "4", "guadalajara.html"], 
+        ["Madrid", 40.416, -3.703, "madrid1.jpg", "5", "madrid.html"], 
+        ["Cuenca", 40.071, -2.135, "cuenca1.jpg", "6", "cuenca.html"], 
         //["Barcelona", 41.403076, 2.173695], 
         //["Cádiz", 36.529824, -6.292721], 
         //["Cáceres", 39.475111, -6.371400], 
         //["Córdoba", 37.877220, -4.778585], 
         //["Granada", 37.177050, -3.589184], 
-        //["Madrid", 40.416957, -3.703478], 
+        
         //["Málaga", 36.721217, -4.414778], 
     ];
     
@@ -63,6 +65,14 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 === Etapa 4: Guadalajara ===
 
 {{guadalajara-header}}
+
+=== Etapa 5: Madrid ===
+
+{{madrid-header}}
+
+=== Etapa 6: Cuenca ===
+
+{{cuenca-header}}
 
 == Notas ==
 {{reflist}}

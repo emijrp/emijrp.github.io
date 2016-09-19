@@ -1,0 +1,19 @@
+{{header-etapa
+|wiki=cuenca
+|etapa=Etapa 6: Cuenca
+|provincia=Cuenca
+|superficie=17.141
+|poblacion=203.841
+|densidad=11
+|municipios-visitados=Alcocer, Chillaron de Cuenca, Cuenca, Sacedón, Villar de Domingo García
+|distancia-recorrida=60 km
+|fecha=17 de junio de 2016
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=cuenca1.jpg
+|imagen-pie=
+}}

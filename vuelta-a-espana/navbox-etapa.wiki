@@ -4,11 +4,11 @@
 
 <tr>
 
-    <td width="300px">[[{{{1}}}|<< {{{2}}}]]</td>
+    <td width="300px">[[{{{pre-wiki}}}|<< {{{pre-etapa}}}]]</td>
 
-    <td width="300px">'''{{{3}}}'''</td>
+    <td width="300px">'''{{{etapa}}}'''</td>
 
-    <td width="300px">[[{{{4}}}|{{{5}}} >>]]</td>
+    <td width="300px">[[{{{sig-wiki}}}|{{{sig-etapa}}} >>]]</td>
 
 </tr>
 

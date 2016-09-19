@@ -1,1 +1,19 @@
-{{header-etapa|1=guadalajara|2=Etapa 4: Guadalajara|3=Guadalajara|4=12.167|5=259.537|6=21|7=Guadalajara|8=235|9=83.391|10=355|11=60 km|12=17 de junio de 2016|13=1 día|14=|15=|16=|17=|18=|19=guadalajara1.jpg|20=Palacio del Infantado en Guadalajara}}
+{{header-etapa
+|wiki=guadalajara
+|etapa=Etapa 4: Guadalajara
+|provincia=Guadalajara
+|superficie=12.167
+|poblacion=259.537
+|densidad=21
+|municipios-visitados=Guadalajara
+|distancia-recorrida=60 km
+|fecha=17 de junio de 2016
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=guadalajara1.jpg
+|imagen-pie=Palacio del Infantado en Guadalajara
+}}
