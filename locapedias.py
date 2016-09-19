@@ -261,7 +261,6 @@ def main():
         u'Wiki-Narbonne': {
             'api': 'http://www.wiki-narbonne.fr/api.php', 
             'base': 'http://www.wiki-narbonne.fr/index.php?title=Accueil', 
-            #'dump': 'https://archive.org/details/wiki-wiki_narbonnefr', 
             'country': u'Francia', 
             'founded': '', 
             'originalurl': 'http://www.wiki-narbonne.fr/index.php', 
@@ -309,7 +308,6 @@ def main():
         u'WikiSalamanca': {
             'api': 'http://www.wikisalamanca.org', 
             'base': 'http://www.wikisalamanca.org/?title=Portada', 
-            #'dump': 'https://archive.org/details/wiki-wikisalamancaorg', 
             'country': u'España', 
             'founded': '', 
             'mirror': 'https://wikisalamanca.wikis.cc', 
@@ -326,7 +324,7 @@ def main():
         u'Xilocapedia': {
             'api': 'http://xiloca.org/xilocapedia/api.php', 
             'base': 'http://xiloca.org/xilocapedia/index.php?title=P%C3%A1gina_principal', 
-            #'dump': 'https://archive.org/details/wiki-xilocacom_xilocapedia', 
+            'dump': 'https://archive.org/details/wiki-xilocacom_xilocapedia', 
             'country': u'España', 
             'founded': '', 
             'region': u'Valle del Jiloca', 
