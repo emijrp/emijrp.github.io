@@ -91,7 +91,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>71</td>
         <td>7551255</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-asturiaswikiacom">2016-09-18</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://asturias.wikia.com/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://asturias.wikia.com/wiki/Portada&Bookmarklet[API%20URL]=http://asturias.wikia.com/api.php&Bookmarklet[Name]=Asturpedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -122,9 +122,9 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td></td>
         <td>Italia</td>
-        <td>21320</td>
-        <td>108604</td>
-        <td>72651</td>
+        <td>21322</td>
+        <td>108666</td>
+        <td>72709</td>
         <td>9133</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-retecomuni_italianiit_w">2014-02-08</a></td>
@@ -176,9 +176,9 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td>Provincia de Córdoba</td>
         <td>España</td>
-        <td>17537</td>
-        <td>45930</td>
-        <td>14571</td>
+        <td>17539</td>
+        <td>45936</td>
+        <td>14575</td>
         <td>7936</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-cordobapediawikandaes_w">2014-02-22</a></td>
@@ -248,9 +248,9 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td>Valle del río Enns</td>
         <td>Austria</td>
-        <td>9926</td>
-        <td>58807</td>
-        <td>44056</td>
+        <td>9936</td>
+        <td>58825</td>
+        <td>44062</td>
         <td>755</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-ennstalwikiat_wiki">2014-02-28</a></td>
@@ -285,9 +285,9 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>Provincia de Granada</td>
         <td>España</td>
         <td>7051</td>
-        <td>26466</td>
+        <td>26467</td>
         <td>13910</td>
-        <td>6905</td>
+        <td>6907</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-granadapediawikandaes_w">2014-01-16</a></td>
         <td>No</td>
@@ -519,8 +519,8 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>Provincia de Sevilla</td>
         <td>España</td>
         <td>7343</td>
-        <td>22255</td>
-        <td>7348</td>
+        <td>22261</td>
+        <td>7354</td>
         <td>5302</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-sevillapediawikandaes_w">2014-02-19</a></td>
@@ -537,8 +537,8 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>Karlsruhe</td>
         <td>Alemania</td>
         <td>7343</td>
-        <td>22255</td>
-        <td>7348</td>
+        <td>22261</td>
+        <td>7354</td>
         <td>5302</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-sevillapediawikandaes_w">2014-02-19</a></td>
@@ -649,7 +649,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>2270</td>
         <td>287</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_anjoufr">2016-09-18</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://www.wiki-anjou.fr/index.php/Bienvenue_sur_Wiki-Anjou">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://www.wiki-anjou.fr/index.php/Bienvenue_sur_Wiki-Anjou&Bookmarklet[API%20URL]=http://www.wiki-anjou.fr/api.php&Bookmarklet[Name]=Wiki-Anjou&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -662,9 +662,9 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td></td>
         <td>Pays de Brest</td>
         <td>Francia</td>
-        <td>4364</td>
-        <td>27496</td>
-        <td>15248</td>
+        <td>4365</td>
+        <td>27535</td>
+        <td>15287</td>
         <td>1342</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_brestnet">2014-07-03</a></td>
@@ -811,7 +811,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>15</td>
         <td>243</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikimurciacom">2016-09-18</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://wikimurcia.com/index.php?title=P%C3%A1gina_principal">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://wikimurcia.com/index.php?title=P%C3%A1gina_principal&Bookmarklet[API%20URL]=http://wikimurcia.com/api.php&Bookmarklet[Name]=WikiMurcia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -829,7 +829,7 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
         <td>306</td>
         <td>9961284</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: pink;">No</td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-pakistanwikiacom">2016-09-18</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/http://pakistan.wikia.com/wiki/Main_Page">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://pakistan.wikia.com/wiki/Main_Page&Bookmarklet[API%20URL]=http://pakistan.wikia.com/api.php&Bookmarklet[Name]=WikiPakistan&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
