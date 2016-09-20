@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Rafael Alberti}}</noinclude>
+
+<includeonly>=== Alberti, Rafael ===</includeonly>
+
+{{header-bio
+|wiki=alberti-rafael
+|nombre y apellidos=Rafael Alberti
+|apellidos y nombre=Alberti, Rafael
+|imagen=rafael-alberti.jpg
+|imagen tamaño=
+|imagen enlace=
+|fecha de nacimiento=16 de diciembre de 1902
+|lugar de nacimiento=El Puerto de Santa María, España
+|fecha de fallecimiento=28 de octubre de 1999
+|lugar de fallecimiento=ibídem
+|descripcion=Escritor español, comunista, miembro de la Generación del 27
+}}
+
+Entre su obra poética destaca ''Marinero en tierra''. Recoge sus memorias en ''La arboleda perdida''.
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

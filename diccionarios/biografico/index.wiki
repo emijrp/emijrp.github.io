@@ -1,0 +1,301 @@
+{{header|1=Portada}}
+
+En este '''Diccionario Biográfico''' recopilo anotaciones sobre la vida y obra de distintos personajes históricos.
+
+<!--
+
+* https://en.wikipedia.org/wiki/User:Emijrp/POTD
+
+-->
+
+<!-- tabla completa -->
+<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
+
+<table class="wikitable sortable" style="text-align: center;">
+
+    <tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Nombre</th>
+        <th class="sorttable_alpha">País</th>
+        <th class="sorttable_alpha">Nacimiento</th>
+        <th class="sorttable_alpha">Fallecimiento</th>
+        <th class="sorttable_alpha">Descripción</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td sorttable_customkey="Alberti, Rafael"><a href="alberti-rafael.html">Alberti, Rafael</a></td>
+        <td>España</td>
+        <td>1902</td>
+        <td>1999</td>
+        <td>Escritor español, comunista, miembro de la Generación del 27</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td sorttable_customkey="Allende, Salvador"><a href="allende-salvador.html">Allende, Salvador</a></td>
+        <td>Chile</td>
+        <td>1908</td>
+        <td>1973</td>
+        <td>Médico, político y Presidente de Chile</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td sorttable_customkey="Álvarez, Santiago"><a href="alvarez-santiago.html">Álvarez, Santiago</a></td>
+        <td>Cuba</td>
+        <td>1919</td>
+        <td>1998</td>
+        <td>Director de cine cubano</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td sorttable_customkey="Azaña, Manuel"><a href="azana-manuel.html">Azaña, Manuel</a></td>
+        <td>España</td>
+        <td>1880</td>
+        <td>1940</td>
+        <td>Político y escritor español</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td sorttable_customkey="Beauvoir, Simone de"><a href="beauvoir-simone.html">Beauvoir, Simone de</a></td>
+        <td>Francia</td>
+        <td>1908</td>
+        <td>1986</td>
+        <td>Escritora francesa, filósofa y feminista</td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td sorttable_customkey="Bravo, Estela"><a href="bravo-estela.html">Bravo, Estela</a></td>
+        <td>Estados Unidos</td>
+        <td>1933</td>
+        <td>-</td>
+        <td>Directora de cine</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td sorttable_customkey="Castro, Fidel"><a href="castro-fidel.html">Castro, Fidel</a></td>
+        <td>Cuba</td>
+        <td>1926</td>
+        <td>-</td>
+        <td>Revolucionario cubano</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td sorttable_customkey="Chávez, Hugo"><a href="chavez-hugo.html">Chávez, Hugo</a></td>
+        <td>Venezuela</td>
+        <td>1954</td>
+        <td>2013</td>
+        <td>Militar, político y revolucionario venezolano</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td sorttable_customkey="Che Guevara, Ernesto"><a href="che-guevara.html">Che Guevara, Ernesto</a></td>
+        <td>Argentina</td>
+        <td>1928</td>
+        <td>1967</td>
+        <td>Revolucionario, médico y periodista argentino-cubano</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td sorttable_customkey="Dimitrov, Georgi"><a href="dimitrov-georgi.html">Dimitrov, Georgi</a></td>
+        <td>Bulgaria</td>
+        <td>1882</td>
+        <td>1949</td>
+        <td>Abogado y político búlgaro</td>
+    </tr>
+
+    <tr>
+        <td>11</td>
+        <td sorttable_customkey="Engels, Friedrich"><a href="engels-friedrich.html">Engels, Friedrich</a></td>
+        <td>Prusia</td>
+        <td>1820</td>
+        <td>1895</td>
+        <td>Filósofo y revolucionario alemán</td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td sorttable_customkey="Galeano, Eduardo"><a href="galeano-eduardo.html">Galeano, Eduardo</a></td>
+        <td>Uruguay</td>
+        <td>1940</td>
+        <td>2015</td>
+        <td>Escritor y periodista uruguayo</td>
+    </tr>
+
+    <tr>
+        <td>13</td>
+        <td sorttable_customkey="Gramsci, Antonio"><a href="gramsci-antonio.html">Gramsci, Antonio</a></td>
+        <td>Italia</td>
+        <td>1891</td>
+        <td>1937</td>
+        <td>Filósofo, teórico marxista, político y periodista italiano</td>
+    </tr>
+
+    <tr>
+        <td>14</td>
+        <td sorttable_customkey="Grimaldos, Alfredo"><a href="grimaldos-alfredo.html">Grimaldos, Alfredo</a></td>
+        <td>España</td>
+        <td>1956</td>
+        <td>-</td>
+        <td>Periodista de investigación español</td>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td sorttable_customkey="Hernández, Miguel"><a href="hernandez-miguel.html">Hernández, Miguel</a></td>
+        <td>España</td>
+        <td>1910</td>
+        <td>1942</td>
+        <td>Poeta y dramaturgo español</td>
+    </tr>
+
+    <tr>
+        <td>16</td>
+        <td sorttable_customkey="Ho Chi Minh"><a href="ho-chi-minh.html">Ho Chi Minh</a></td>
+        <td>Vietnam</td>
+        <td>1890</td>
+        <td>1969</td>
+        <td>Revolucionario, poeta, Presidente de la República Democrática de Vietnam</td>
+    </tr>
+
+    <tr>
+        <td>17</td>
+        <td sorttable_customkey="Honecker, Erich"><a href="honecker-erich.html">Honecker, Erich</a></td>
+        <td>Alemania</td>
+        <td>1912</td>
+        <td>1994</td>
+        <td>Jefe de Estado de la República Democrática Alemana</td>
+    </tr>
+
+    <tr>
+        <td>18</td>
+        <td sorttable_customkey="Honecker, Margot"><a href="honecker-margot.html">Honecker, Margot</a></td>
+        <td>Alemania</td>
+        <td>1927</td>
+        <td>2016</td>
+        <td>Ministra de Educación Popular de la República Democrática Alemana</td>
+    </tr>
+
+    <tr>
+        <td>19</td>
+        <td sorttable_customkey="Jara, Víctor"><a href="jara-victor.html">Jara, Víctor</a></td>
+        <td>Chile</td>
+        <td>1932</td>
+        <td>1973</td>
+        <td>Músico, cantautor, profesor, director de teatro y militante del Partido Comunista de Chile</td>
+    </tr>
+
+    <tr>
+        <td>20</td>
+        <td sorttable_customkey="Kollontai, Alexandra"><a href="kollontai-alexandra.html">Kollontai, Alexandra</a></td>
+        <td>Rusia</td>
+        <td>1872</td>
+        <td>1952</td>
+        <td>Revolucionaria y feminista rusa</td>
+    </tr>
+
+    <tr>
+        <td>21</td>
+        <td sorttable_customkey="Lenin, Vladimir"><a href="lenin-vladimir.html">Lenin, Vladimir</a></td>
+        <td>Simbirsk</td>
+        <td>1870</td>
+        <td>1924</td>
+        <td>Revolucionario y téorico político ruso, principal dirigente de la Revolución de Octubre</td>
+    </tr>
+
+    <tr>
+        <td>22</td>
+        <td sorttable_customkey="Mandela, Nelson"><a href="mandela-nelson.html">Mandela, Nelson</a></td>
+        <td>Unión Sudafricana</td>
+        <td>1918</td>
+        <td>2013</td>
+        <td>Abogado, activista contra el apartheid</td>
+    </tr>
+
+    <tr>
+        <td>23</td>
+        <td sorttable_customkey="Marx, Karl"><a href="marx-karl.html">Marx, Karl</a></td>
+        <td>Prusia</td>
+        <td>1818</td>
+        <td>1883</td>
+        <td>Filósofo y militante comunista</td>
+    </tr>
+
+    <tr>
+        <td>24</td>
+        <td sorttable_customkey="Morales Evo"><a href="morales-evo.html">Morales Evo</a></td>
+        <td>Bolivia</td>
+        <td>1959</td>
+        <td>-</td>
+        <td>Sindicalista boliviano y Presidente del Estado Plurinacional de Bolivia</td>
+    </tr>
+
+    <tr>
+        <td>25</td>
+        <td sorttable_customkey="Sankara, Thomas"><a href="sankara-thomas.html">Sankara, Thomas</a></td>
+        <td>Alto Volta</td>
+        <td>1949</td>
+        <td>1987</td>
+        <td>Revolucionario, panafricanista, feminista, Presidente de Burkina Faso</td>
+    </tr>
+
+    <tr>
+        <td>26</td>
+        <td sorttable_customkey="Woolf, Virginia"><a href="woolf-virginia.html">Woolf, Virginia</a></td>
+        <td>Reino Unido</td>
+        <td>-</td>
+        <td>1941</td>
+        <td>Escritora y feminista británica</td>
+    </tr>
+
+    <tr>
+        <td>27</td>
+        <td sorttable_customkey="Zetkin, Clara"><a href="zetkin-clara.html">Zetkin, Clara</a></td>
+        <td>Imperio alemán</td>
+        <td>1857</td>
+        <td>1933</td>
+        <td>Política y feminista alemana</td>
+    </tr>
+</table>
+<!-- /tabla completa -->
+
+<!--
+http://www.filmaffinity.com/es/film680186.html
+
+* Antonio Machado
+* Lorca
+* Patrice Lumumba
+* Todos los secretarios del CC de los países del Este
+
+<noinclude>{{header|1=Nombre}}</noinclude>
+
+<includeonly>=== Apellidos, Nombre ===</includeonly>
+
+{{header-bio
+|wiki=
+|nombre y apellidos=
+|apellidos y nombre=
+|imagen=
+|imagen tamaño=
+|imagen enlace=
+|fecha de nacimiento=
+|lugar de nacimiento=
+|fecha de fallecimiento=
+|lugar de fallecimiento=ibídem
+|descripcion=
+}}
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>
+
+-->
+
+{{../../footer}}

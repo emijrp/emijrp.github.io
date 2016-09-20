@@ -24,9 +24,9 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=cocina.html|2=Cocina}}
     {{button-blue|1=comunismo.html|2=Comunismo}}
     <!--<a href="deporte.html">Deporte</a> | -->
-    {{button-blue|1=bio/bio.html|2=Diccionario Biográfico}}
-    {{button-blue|1=fil/fil.html|2=Diccionario Filosófico-Político}}
-    {{button-blue|1=geo/geo.html|2=Diccionario Geográfico}}
+    {{button-blue|1=diccionarios/biografico/index.html|2=Diccionario Biográfico}}
+    {{button-blue|1=diccionarios/filosofico-politico/index.html|2=Diccionario Filosófico-Político}}
+    {{button-blue|1=diccionarios/geografico/index.html|2=Diccionario Geográfico}}
     {{button-blue|1=cine/documentales.html|2=Documentales}}
     {{button-blue|1=geo/espana.html|2=España}}
     {{button-blue|1=favoritas.html|2=Favoritas}}

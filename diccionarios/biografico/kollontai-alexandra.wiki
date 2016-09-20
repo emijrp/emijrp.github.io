@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Alexandra Kollontai}}</noinclude>
+
+<includeonly>=== Kollontai, Alexandra ===</includeonly>
+
+{{header-bio
+|wiki=kollontai-alexandra
+|nombre y apellidos=Alexandra Kollontai
+|apellidos y nombre=Kollontai, Alexandra
+|imagen=alexandra-kollontai.gif
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=31 de marzo de 1872
+|lugar de nacimiento=San Petersburgo, Rusia
+|fecha de fallecimiento=9 de marzo de 1952
+|lugar de fallecimiento=Moscú, Unión Soviética
+|descripcion=Revolucionaria y feminista rusa
+}}
+
+Fue una destacada política comunista, defensora de los derechos de la mujer. Kollontai fue la primera mujer de la historia en ocupar un puesto en el gobierno de una nación.
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

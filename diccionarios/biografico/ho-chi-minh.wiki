@@ -1,0 +1,21 @@
+<noinclude>{{header|1=Ho Chi Minh}}</noinclude>
+
+<includeonly>=== Ho Chi Minh ===</includeonly>
+
+{{header-bio
+|wiki=ho-chi-minh
+|nombre y apellidos=Ho Chi Minh
+|apellidos y nombre=Ho Chi Minh
+|imagen=ho-chi-minh.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=19 de mayo de 1890
+|lugar de nacimiento=Nghe An, Vietnam
+|fecha de fallecimiento=2 de septiembre de 1969
+|lugar de fallecimiento=Hanoi, Vietnam
+|descripcion=Revolucionario, poeta, Presidente de la República Democrática de Vietnam
+}}
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

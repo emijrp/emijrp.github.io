@@ -1,0 +1,27 @@
+<noinclude>{{header|1=Antonio Gramsci}}</noinclude>
+
+<includeonly>=== Gramsci, Antonio ===</includeonly>
+
+{{header-bio
+|wiki=gramsci-antonio
+|nombre y apellidos=Antonio Gramsci
+|apellidos y nombre=Gramsci, Antonio
+|imagen=antonio-gramsci.png
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=22 de enero de 1891
+|lugar de nacimiento=Ales, Italia
+|fecha de fallecimiento=27 de abril de 1937
+|lugar de fallecimiento=Roma, Italia
+|descripcion=Filósofo, teórico marxista, político y periodista italiano
+}}
+
+Escribió sobre teoría política, sociología, antropología y lingüística. Fue uno de los fundadores del Partido Comunista Italiano, encarcelado bajo el régimen fascista de Benito Mussolini.
+
+Gran parte de su obra se condensa en los llamados ''Los cuadernos de la cárcel''.
+
+Existe una película biográfica sobre su figura.
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

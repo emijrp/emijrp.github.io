@@ -1,0 +1,30 @@
+<noinclude>{{header|1=Friedrich Engels}}</noinclude>
+
+<includeonly>=== Engels, Friedrich ===</includeonly>
+
+{{header-bio
+|wiki=engels-friedrich
+|nombre y apellidos=Friedrich Engels
+|apellidos y nombre=Engels, Friedrich
+|imagen=friedrich-engels.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=28 de noviembre de 1820
+|lugar de nacimiento=Barmen-Elberfeld, Prusia
+|fecha de fallecimiento=5 de agosto de 1895
+|lugar de fallecimiento=Londres, Reino Unido
+|descripcion=Filósofo y revolucionario alemán
+}}
+
+Fue junto con su amigo [[marx-karl|Karl Marx]] coautor de obras fundamentales para el surgimiento de los movimientos socialista, comunista y sindical. Engels fue dirigente político de la Primera Internacional y de la Segunda Internacional.
+
+Entre sus obras destacan:
+
+* ''Manifiesto del Partido Comunista''
+* ''La ideología alemana''
+* ''El origen de la familia, la propiedad privada y el Estado''
+* ''Contribución al problema de la vivienda''
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

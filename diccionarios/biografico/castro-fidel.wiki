@@ -1,0 +1,25 @@
+<noinclude>{{header|1=Fidel Castro}}</noinclude>
+
+<includeonly>=== Castro, Fidel ===</includeonly>
+
+{{header-bio
+|wiki=castro-fidel
+|nombre y apellidos=Fidel Castro
+|apellidos y nombre=Castro, Fidel
+|imagen=fidel-castro.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=13 de agosto de 1926
+|lugar de nacimiento=Birán, Cuba
+|fecha de fallecimiento=
+|lugar de fallecimiento=
+|descripcion=Revolucionario cubano
+}}
+
+Primer ministro de Cuba (1959-1976) y presidente (1976-2008). Comandante en jefe de las Fuerzas Armadas Revolucionarias (1956-2008) y primer secretario del Partido Comunista de Cuba (1965-2011).
+
+* Reflexiones de Fidel, Tomo I
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

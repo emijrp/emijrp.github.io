@@ -1,0 +1,27 @@
+<noinclude>{{header|1=Erich Honecker}}</noinclude>
+
+<includeonly>=== Honecker, Erich ===</includeonly>
+
+{{header-bio
+|wiki=honecker-erich
+|nombre y apellidos=Erich Honecker
+|apellidos y nombre=Honecker, Erich
+|imagen=erich-honecker.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=25 de agosto de 1912
+|lugar de nacimiento=Neunkirchen, Alemania
+|fecha de fallecimiento=29 de mayo de 1994
+|lugar de fallecimiento=Santiago, Chile
+|descripcion=Jefe de Estado de la República Democrática Alemana
+}}
+
+Se casó con [[honecker-margot|Margot Honecker]].
+
+Algunos de sus escritos:
+
+* [https://www.marxists.org/espanol/honecker/1992/declaracion.htm Declaración en autodefensa ante tribunal de Berlin]
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

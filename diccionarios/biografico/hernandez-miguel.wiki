@@ -1,0 +1,29 @@
+<noinclude>{{header|1=Miguel Hernández}}</noinclude>
+
+<includeonly>=== Hernández, Miguel ===</includeonly>
+
+{{header-bio
+|wiki=hernandez-miguel
+|nombre y apellidos=Miguel Hernández
+|apellidos y nombre=Hernández, Miguel
+|imagen=miguel-hernandez.jpg
+|imagen tamaño=
+|imagen enlace=
+|fecha de nacimiento=30 de octubre de 1910
+|lugar de nacimiento=Orihuela, España
+|fecha de fallecimiento=28 de marzo de 1942
+|lugar de fallecimiento=Alicante, España
+|descripcion=Poeta y dramaturgo español
+}}
+
+Poeta comunista muerto en las cárceles del franquismo.
+
+Obras:
+* ''El rayo que no cesa''
+* ''Viento del pueblo''
+* ''El hombre acecha''
+* ''Cancionero y romancero de ausencias''
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

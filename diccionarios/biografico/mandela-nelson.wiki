@@ -1,0 +1,33 @@
+<noinclude>{{header|1=Nelson Mandela}}</noinclude>
+
+<includeonly>=== Mandela, Nelson ===</includeonly>
+
+{{header-bio
+|wiki=mandela-nelson
+|nombre y apellidos=Nelson Mandela
+|apellidos y nombre=Mandela, Nelson
+|imagen=nelson-mandela.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=18 de julio de 1918
+|lugar de nacimiento=Mvezo, Unión Sudafricana
+|fecha de fallecimiento=5 de diciembre de 2013
+|lugar de fallecimiento=Johannesburgo, Sudáfrica
+|descripcion=Abogado, activista contra el apartheid
+}}
+
+Mandela fue Presidente de su país de 1994 a 1999. Fue el primer mandatario de raza negra que encabezó el poder ejecutivo y también el primero en resultar elegido por sufragio universal en su país.
+
+Su gobierno se dedicó a desmontar la estructura social y política heredada del apartheid a través del combate al racismo institucionalizado, la pobreza y la desigualdad social, y la promoción de la reconciliación social.
+
+Como nacionalista africano y socialista, presidió el Congreso Nacional Africano (CNA) entre 1991 y 1997, y a nivel internacional fue secretario general del Movimiento de Países No Alineados entre 1998 y 1999.
+
+En el documental ''Mandela y Fidel'' queda reflejada la profunda amistad que unía a Nelson Mandela y Fidel Castro, con numerosas muestras de gratitud hacia Cuba por su apoyo en la lucha contra el apartheid.
+
+<!--
+buscar información sobre el apoyo de otros países socialistas a la lucha contra el apartheid: RDA, DPRK, ...
+-->
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

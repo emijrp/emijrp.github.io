@@ -1,0 +1,21 @@
+<noinclude>{{header|1=Salvador Allende}}</noinclude>
+
+<includeonly>=== Allende, Salvador ===</includeonly>
+
+{{header-bio
+|wiki=allende-salvador
+|nombre y apellidos=Salvador Allende
+|apellidos y nombre=Allende, Salvador
+|imagen=salvador-allende.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=26 de junio de 1908
+|lugar de nacimiento=Santiago, Chile
+|fecha de fallecimiento=11 de septiembre de 1973
+|lugar de fallecimiento=ibídem
+|descripcion=Médico, político y Presidente de Chile
+}}
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>

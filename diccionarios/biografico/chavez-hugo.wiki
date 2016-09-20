@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Hugo Chávez}}</noinclude>
+
+<includeonly>=== Chávez, Hugo ===</includeonly>
+
+{{header-bio
+|wiki=chavez-hugo
+|nombre y apellidos=Hugo Chávez
+|apellidos y nombre=Chávez, Hugo
+|imagen=hugo-chavez.jpg
+|imagen tamaño=200px
+|imagen enlace=
+|fecha de nacimiento=28 de julio de 1954
+|lugar de nacimiento=Sabaneta, Venezuela
+|fecha de fallecimiento=5 de marzo de 2013
+|lugar de fallecimiento=Caracas, Venezuela
+|descripcion=Militar, político y revolucionario venezolano
+}}
+
+Fue Presidente de la República Bolivariana de Venezuela desde el 2 de febrero de 1999 hasta su fallecimiento.
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>
