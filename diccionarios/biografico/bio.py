@@ -94,7 +94,12 @@ def main():
     biotable += u''.join(biorows)
     biotable += u'</table>\n'
     
-    savetable('index.wiki', 'tabla completa', biotable)
+    biogallery = u""
+    for biowiki, bioprops in bios:
+        biogallery += '<a href="%s.html"><img src="../../images/%s" width="80px" height="100px" title="%s" /></a>' % (bioprops['wiki'], bioprops['imagen'], bioprops['nombreyapellidos'])
+    
+    savetable('index.wiki', u'tabla completa', biotable)
+    savetable('index.wiki', u'galería completa', biogallery)
 
 if __name__ == '__main__':
     main()
