@@ -1,4 +1,4 @@
-<noinclude>{{header|1=Etapa 6: Madrid}}</noinclude>
+<noinclude>{{header|1=Etapa 6: Cuenca}}</noinclude>
 
 {{cuenca-header}}
 

@@ -6,8 +6,8 @@
 |poblacion=203.841
 |densidad=11
 |municipios-visitados=Alcocer, Chillaron de Cuenca, Cuenca, Sacedón, Villar de Domingo García
-|distancia-recorrida=60 km
-|fecha=17 de junio de 2016
+|distancia-recorrida=
+|fecha=
 |duracion=1 día
 |arquitectura-civil=
 |arquitectura-religiosa=
