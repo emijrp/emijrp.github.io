@@ -1,0 +1,23 @@
+<noinclude>{{header|1=Francisco de Goya}}</noinclude>
+
+<includeonly>=== Goya, Francisco de ===</includeonly>
+
+{{header-bio
+|wiki=goya-francisco
+|nombre y apellidos=Francisco de Goya
+|apellidos y nombre=Goya, Francisco
+|imagen=
+|imagen tamaño=
+|imagen enlace=
+|fecha de nacimiento=30 de marzo de 1746
+|lugar de nacimiento=Fuendetodos, España
+|fecha de fallecimiento=16 de abril de 1828
+|lugar de fallecimiento=Burdeos, Francia
+|descripcion=Pintor y grabador español
+}}
+
+{{../../youtube|id=1d892kNNuUA|align=left}}
+
+{{clear}}
+
+<noinclude>{{../../footer}}</noinclude>
