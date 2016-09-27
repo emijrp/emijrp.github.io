@@ -55,9 +55,19 @@ Para contrarrestar esto es útil consultar medios de comunicación que den otro 
 
 <table>
 <tr>
-<td>{{youtube|1=52J-TSn38vY}}</td>
-<td>{{youtube|1=BbDWRXd0t-w}}</td>
+<td>{{youtube|id=52J-TSn38vY}}</td>
+<td>{{youtube|id=BbDWRXd0t-w}}</td>
 </tr>
 </table>
+
+
+<!--
+
+analisis de medios, propietarios y referencias en wikipedia
+
+
+-->
+
+
 
 {{footer}}
