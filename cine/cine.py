@@ -110,6 +110,7 @@ def main():
     """
     
     #read filmaffinity profile
+    ratings = []
     for page in range(1, 100):
         faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         print 'Retrieving', faurl
@@ -121,17 +122,18 @@ def main():
         
         #print html
         m = re.findall(ur'(?im)<div class="ur-mr-rat">(\d+)</div>', html)
-        ratings = []
+        del ratings[:]
         for rating in m:
             ratings.append(rating)
         #print('Ratings',len(ratings))
         
-        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">\s*<div class="credits">(?P<director>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)</div>\s*</div>\s*<div class="mc-cast">(<div class="credits">)?(?P<cast>([^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?)*?)(</div>)?</div>', html)
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d\d\d\d)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">\s*(<div class="credits">)?\s*(?P<director>(\s*(<span class="nb">)?\s*[^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?(</span>)?\s*)*?)[^<>]*?(</div>)?[^<>]*?</div>[^<>]*?<div class="mc-cast">\s*(<div class="credits">)?\s*(?P<cast>(\s*(<span class="nb">)?\s*[^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?(</span>)?\s*)*?)[^<>]*?(</div>)?[^<>]*?</div>', html)
         c = 0 #for ratings index
         for i in m:
             filmprops = {}
             filmprops['id'] = i.group('id').strip()
             filmprops['title'] = i.group('title').strip()
+            #print filmprops['title']
             filmprops['year'] = int(i.group('year').strip())
             filmprops['decade'] = filmprops['year'] / 10
             filmprops['countryid'] = i.group('countryid').strip()
@@ -142,13 +144,16 @@ def main():
             films.append([filmprops['title'], filmprops])
             country2id[filmprops['country']] = filmprops['countryid']
             
-            if not 'Documentary' in filmprops['cast']:
+            if not 'Documentary' in filmprops['cast'] and not 'Serie de TV' in filmprops['title']:
                 statsyear[filmprops['year']] = statsyear.has_key(filmprops['year']) and statsyear[filmprops['year']] + 1 or 1
                 statsdecade[filmprops['decade']] = statsdecade.has_key(filmprops['decade']) and statsdecade[filmprops['decade']] + 1 or 1
                 statscountry[filmprops['country']] = statscountry.has_key(filmprops['country']) and statscountry[filmprops['country']] + 1 or 1
                 for director in filmprops['director']:
                     statsdirector[director] = statsdirector.has_key(director) and statsdirector[director] + 1 or 1
             c += 1
+        if (c != 30 or len(ratings) != 30) and not 'El acorazado Potemkin' in html:
+            print 'ERROR al capturar los datos'
+            sys.exit()
         time.sleep(1)
     films.sort()
     print('%d films' % len(films))
