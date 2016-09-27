@@ -178,6 +178,8 @@ def linksinternal(wiki, wikifile):
     for i in m:
         if i[0].startswith('#'):
             wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s">%s</a>' % (i[0], i[1]), wiki)
+        elif '#' in i[0]:
+            wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html#%s">%s</a>' % (i[0].split('#')[0], i[0].split('#')[1], i[1]), wiki)
         else:
             wiki = re.sub(r'(?im)\[\[%s\|%s\]\]' % (i[0], i[1]), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i[0].lower()), i[1]), wiki)
     
@@ -185,6 +187,8 @@ def linksinternal(wiki, wikifile):
     for i in m:
         if i.startswith('#'):
             wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s">%s</a>' % (i, i), wiki)
+        elif '#' in i:
+            wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html#%s">%s</a>' % (i.split('#')[0], i.split('#')[1], i), wiki)
         else:
             wiki = re.sub(r'(?im)\[\[%s\]\]' % (i), '<a href="%s.html">%s</a>' % (re.sub(' ', '-', i.lower()), i), wiki)
         
