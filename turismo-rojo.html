@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Turismo Rojo - La web de emijrp</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="lib/sorttable.js" type="text/javascript"></script>
+</head>
+<body>
+
+<h1>Turismo Rojo - <a href="index.html">La web de emijrp</a></h1>
+
+
+<p>Estoy recopilando información acerca de lo que podría llamarse "<b>turismo rojo</b>", "<b>turismo memorialista</b>", "<b>turismo de izquierdas</b>", es decir, turismo enfocado a lugares, monumentos, calles y otros puntos de interés que tengan que ver con la memoria histórica y el movimiento obrero. La información disponible es escasa y muy dispersa.</p>
+
+<!--
+Para el caso del Reino Unido existe una web que recopila monumentos a las Brigadas Internacionales.
+
+Cosas por añadir al mapa:
+
+<ul><li>Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.</li><li>Casas natales y Calles de las 13 Rosas, a luchadores antifranquistas y a intelectuales.</li><li>Lugares de la memoria en Andalucía.</li><li>Campos de concentración franquistas, cárceles.</li><li>Cementerios y lugares de fusilamientos.</li><li>Buscar algún grupo en Flickr sobre MH y sino existe crearlo.</li><li>Lugares de batallas, frentes, edificios tomados, etc.</li><li>Refugios subterráneos de Almería</li></ul>
+-->
+
+<div id="map" style="float: center;width: 600px; height: 600px;"></div>
+
+<script type="text/javascript">
+    // http://leafletjs.com/examples/custom-icons.html
+    
+    var places = [
+        ["Madrid", 40.416957, -3.703478], 
+    ];
+
+    var map = L.map('map').setView([40.416957, -3.703478], 6);
+    mapLink = 
+        '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 12,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b>')
+            .addTo(map);
+    }
+
+</script>
+
+<div class="footer">
+<hr/>
+<span style="float: right"><i>Con la tecnología de <a href="https://pages.github.com">GitHub pages</a></i></span>
+<span style="float: left"><a href="https://validator.w3.org/check?uri=referer"><img src="images/valid-xhtml10.png" width="88px" align="right" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></span>
+</div>
+
+</body>
+</html>

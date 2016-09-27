@@ -1,0 +1,12 @@
+{{header|1=Historia}}
+
+== Historia de España ==
+
+* [http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html Biblioteca Digital Hispánica] - es la biblioteca digital de la Biblioteca Nacional de España. Proporciona acceso libre y gratuito a miles de documentos digitalizados, entre los que se cuentan libros impresos entre los siglos XV y XIX, manuscritos, dibujos, grabados, folletos, carteles, fotografías, mapas, atlas, partituras, prensa histórica y grabaciones sonoras.
+* [http://www.bne.es/es/Catalogos/HemerotecaDigital/ Hemeroteca Digital de la Biblioteca Nacional de España]
+
+== Historia local ==
+
+* [http://www.revistadehistoriade-elpuerto.org Revista de Historia de El Puerto] - publicación científica semestral editada por el Aula de Historia "Menesteo" de El Puerto de Santa María.
+
+{{footer}}
