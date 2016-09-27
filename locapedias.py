@@ -184,7 +184,7 @@ def main():
             'region': u'Provincia de Sevilla', 
         }, 
         u'Stadtwiki Karlsruhe': {
-            'api': 'https://sevillapedia.wikanda.es/w/api.php', 
+            'api': 'https://ka.stadtwiki.net/api.php', 
             'country': u'Alemania', 
             'founded': '2004-07-22', 
             'region': u'Karlsruhe', 
