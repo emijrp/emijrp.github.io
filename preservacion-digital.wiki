@@ -1,6 +1,6 @@
 {{header|1=Preservación digital}}
 
-{{youtube|1=jzQyHLd8jYo|2=right}}
+{{youtube|id=jzQyHLd8jYo|align=right}}
 
 La '''información''' siempre está en peligro de desaparecer y la información digital todavía más.
 
