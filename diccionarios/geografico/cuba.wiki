@@ -3,7 +3,14 @@
 <!--<img src="../images/cuba-bandera.png" align="right" width="200px" />-->
 <table align="right">
 <!--<tr><td><img src="../images/cuba.gif" align="right" width="400px" /></td></tr>-->
-[[File:cuba-mapa.png|400px|link=https://commons.wikimedia.org/wiki/File:CubaOMC.png]]
+
+{{header-geo
+|wiki=cuba
+|pais=Cuba
+|nombre-oficial=República de Cuba
+|bandera=
+|mapa=cuba-mapa.png
+}}
 
 '''Cuba''' es un país del Caribe, un pueblo digno que se libró de la dictadura de Batista y de la opresión capitalista mediante la revolución cubana.
 

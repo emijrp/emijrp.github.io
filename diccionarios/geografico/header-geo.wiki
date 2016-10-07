@@ -1,0 +1,11 @@
+<table class="wikitable" width="100%">
+
+<tr><th colspan=6>[[{{{wiki}}}|{{{pais}}}]]</th></tr>
+
+<tr>
+    <td rowspan="8" width="1%">[[File:{{{mapa}}}|300px|Mapa]]</td>
+    <td>'''Nombre oficial''': {{{nombre-oficial}}}</td>
+    <td rowspan="8" width="1%">[[File:{{{bandera}}}|300px|Bandera]]</td>
+</tr>
+
+</table>
