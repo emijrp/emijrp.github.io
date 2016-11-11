@@ -168,7 +168,7 @@ http://www.ecured.cu/index.php/Festival_Internacional_de_Cine_Pobre
 
 == Cine anarquista ==
 
-<a href="images/sie.jpg"><img src="images/sie.jpg" width="200px" align="right" /></a>
+[[File:sie.jpg|200px|right|SIE Films]]
 
 Al poco tiempo de comenzar la Guerra Civil Española, la CNT-FAI colectivizó la industria del cine de Barcelona, quedando la creación de películas en manos de los trabajadores a través de los sindicatos, entre ellos el Sindicato de la Industria del Espectáculo (SIE). En un período de tiempo muy corto, de 1936 a 1938, se filmaron una gran cantidad de películas, incluyendo dramas sociales como ''Aurora de esperanza'' (1937) o ''Barrios bajos'' (1937), comedias musicales como ''Nuestro culpable'' (1938), documentales sobre la guerra como ''Alas negras'' (1937), etc.
 
@@ -625,7 +625,7 @@ http://www.cubacine.cult.cu/sitios/contracorriente/index.html
 
 === Documentales, conferencias, programas de televisión y radio ===
 
-{{youtube|1=uEDMSQ1I-H0|2=right}}
+{{../youtube|1=uEDMSQ1I-H0|2=right}}
 
 * Días de cine. ''[http://www.rtve.es/alacarta/videos/dias-de-cine/dias-cine-vanguardia-sovietica-eisenstein/993476/ La vanguardia soviética I: Eisenstein]'', 21 de enero de 2011.
 * Días de cine. ''[http://www.rtve.es/alacarta/videos/dias-de-cine/dias-cine-vanguardia-sovietica-2-dziga-vertov-cine-ojo-kino-glaz/1013730/ La vanguardia soviética II: Dziga Vertov y el Cine-Ojo (Kino-Glaz)]'', 11 de febrero de 2011.
