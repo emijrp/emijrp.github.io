@@ -1,0 +1,15 @@
+{{header|1=Estadísticas de cine}}
+
+Estas son algunas '''estadísticas''' de las películas vistas.
+
+<!-- estadisticas -->
+<!-- /estadisticas -->
+
+== Puntuaciones ==
+
+Esta tabla es una copia de las películas que he puntuado en [http://www.filmaffinity.com/es/userratings.php?user_id=397713 mi perfil de FilmAffinity] excluyendo los [[documentales]] y las [[series|series de televisión]]. Está generado con <a href="cine.py">este script</a> que puedes adaptar a tu caso.
+
+<!-- tabla completa -->
+<!-- /tabla completa -->
+
+{{../footer}}

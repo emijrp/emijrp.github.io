@@ -325,7 +325,7 @@ def main():
     seriestable += u''.join(seriesrows)
     seriestable += u'</table>\n'
     
-    savetable('cine.wiki', 'tabla completa', filmtable)
+    savetable('estadisticas-cine.wiki', 'tabla completa', filmtable)
     savetable('documentales.wiki', 'tabla completa', doctable)
     savetable('series.wiki', 'tabla completa', seriestable)
     
@@ -353,7 +353,7 @@ def main():
     stats += u"<li>Por <b>país</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmCountryLink(x), x, y) for y, x in statscountry_list]))
     stats += u"</ul>\n"
     
-    savetable('cine.wiki', 'stats', stats)
+    savetable('estadisticas-cine.wiki', 'estadisticas', stats)
     
 if __name__ == '__main__':
     main()
