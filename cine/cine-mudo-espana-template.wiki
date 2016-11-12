@@ -1,9 +1,10 @@
 <tr>
-    <td>''{{{titulo}}}''</td>
-    <td>''{{{titulo-original}}}''</td>
+    <td><i>{{{titulo}}}</i></td>
+    <td><i>{{{titulo-original}}}</i></td>
     <td>{{{direccion}}}</td>
     <td>{{{año}}}</td>
     <td>{{{duracion}}}</td>
+    <td>[https://catalogue-lumiere.com/{{{cl}}}/ CL]</td>
     <td>[https://www.filmaffinity.com/es/film{{{fa}}}.html {{{fa}}}]</td>
     <td>[http://www.imdb.com/title/{{{imdb}}}/ {{{imdb}}}]</td>
     <td>[https://www.wikidata.org/wiki/{{{wikidata}}} {{{wikidata}}}]</td>
