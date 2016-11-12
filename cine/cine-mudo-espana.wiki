@@ -1,0 +1,41 @@
+{{header|1=Cine mudo en España}}
+{{../vt|1=cine|2=Cine}}
+
+<table class="wikitable sortable" width="100%" style="text-align: center;">
+<tr>
+    <th>Título</th>
+    <th>Título original</th>
+    <th>Dirección</th>
+    <th>Año</th>
+    <th>Duración</th>
+    <th>FilmAffinity</th>
+    <th>IMDb</th>
+    <th>Wikidata</th>
+    <th>YouTube</th>
+</tr>
+
+{{cine-mudo-espana-template|titulo=Baile en el vivac|titulo-original=Danse au bivouac|direccion=Alexandre Promio|año=1896|duracion=1 minuto|fa=150040|imdb=tt1654009|wikidata=Q27832142|youtube=TVkF-8zG5jI}}
+
+{{cine-mudo-espana-template|titulo=Cambio de guardia en el Palacio Real|titulo-original=Hallebardiers de la Reine|direccion=Alexandre Promio|año=1896|duracion=1 minuto|fa=883720|imdb=no|wikidata=Q27832163|youtube=A3UeJ2aPhHc}}
+
+{{cine-mudo-espana-template|titulo=Carga de los lanceros de la reina|titulo-original=Lanciers de la Reine, charge|direccion=Alexandre Promio|año=1896|duracion=1 minuto|fa=655470|imdb=tt3187610|wikidata=no|youtube=no}}
+
+{{cine-mudo-espana-template|titulo=Ciclistas militares|titulo-original=Cyclistes militaires|direccion=Alexandre Promio|año=1896|duracion=1 minuto|fa=453662|imdb=no|wikidata=no|youtube=no}}
+
+
+
+<!--
+{{cine-mudo-espana-template|titulo=|titulo-original=|direccion=|año=|duracion=|fa=|imdb=|wikidata=|youtube=}}
+
+Añadir enlaces a YouTube reemplazando los " " por "+" https://www.youtube.com/results?search_query=%22Danse+au+bivouac%22+OR+%22Baile+en+el+vivac%22
+
+Mas adelante sacar una captura para cada clip usando el og:image del html de youtube
+-->
+
+</table>
+
+== Bibliografía ==
+
+* Bello Cuevas, José Antonio. ''Cine mudo español 1896-1920. Ficción, documental y reportaje''.
+
+{{../footer}}

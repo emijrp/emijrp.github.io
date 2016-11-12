@@ -1,0 +1,11 @@
+<tr>
+    <td>''{{{titulo}}}''</td>
+    <td>''{{{titulo-original}}}''</td>
+    <td>{{{direccion}}}</td>
+    <td>{{{año}}}</td>
+    <td>{{{duracion}}}</td>
+    <td>[https://www.filmaffinity.com/es/film{{{fa}}}.html {{{fa}}}]</td>
+    <td>[http://www.imdb.com/title/{{{imdb}}}/ {{{imdb}}}]</td>
+    <td>[https://www.wikidata.org/wiki/{{{wikidata}}} {{{wikidata}}}]</td>
+    <td><a href="https://www.youtube.com/watch?v={{{youtube}}}"><img src="https://i.ytimg.com/vi/{{{youtube}}}/default.jpg" width="120px" /></a></td>
+</tr>
