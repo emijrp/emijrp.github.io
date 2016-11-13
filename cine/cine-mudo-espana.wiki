@@ -36,6 +36,11 @@ Cuando las duraciones son de unos segundos, he puesto "1 minuto" a modo genéric
 
 {{cine-mudo-espana-template|titulo=Llegada de los toreros a la plaza|titulo-original=Arrivée des toréadors|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=arrivee-des-toreadors|fa=no|imdb=tt1672803|wikidata=no|youtube=no}}
 
+{{cine-mudo-espana-template|titulo=Maniobras a bordo del Alfonso XIII|titulo-original=?|direccion=Francis Doublier|año=1896|duracion=?|cl=?|fa=?|imdb=?|wikidata=?|youtube=?}}
+
+{{cine-mudo-espana-template|titulo=Maniobras de la artillería en Vicálvaro|titulo-original=Artillerie (exercice du tir)|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=artillerie-exercice-du-tir|fa=no|imdb=no|wikidata=no|youtube=no}}
+
+
 <!--
 {{cine-mudo-espana-template|titulo=|titulo-original=|direccion=|año=|duracion=|cl=|fa=|imdb=|wikidata=|youtube=}}
 
