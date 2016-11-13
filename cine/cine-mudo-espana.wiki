@@ -1,10 +1,11 @@
 {{header|1=Cine mudo en España}}
 {{../vt|1=cine|2=Cine}}
 
+Cuando las duraciones son de unos segundos, he puesto "1 minuto" a modo genérico para permitir que la tabla sea ordenable fácilmente.
+
 <table class="wikitable sortable" width="100%" style="text-align: center;">
 <tr>
     <th>Título</th>
-    <th>Título original</th>
     <th>Dirección</th>
     <th>Año</th>
     <th>Duración</th>
@@ -27,6 +28,13 @@
 
 {{cine-mudo-espana-template|titulo=Descarga de un barco en el puerto de Barcelona|titulo-original=Déchargement d'un navire|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=dechargement-dun-navire|fa=no|imdb=no|wikidata=no|youtube=no}}
 
+{{cine-mudo-espana-template|titulo=Desfile de los lanceros de la reina|titulo-original=Lanciers de la Reine, défilé|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=lanciers-de-la-reine-defile|fa=no|imdb=no|wikidata=no|youtube=no}}
+
+{{cine-mudo-espana-template|titulo=Desfile del cuerpo de ingenieros|titulo-original=Défilé du genié|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=defile-du-genie|fa=no|imdb=no|wikidata=no|youtube=no}}
+
+{{cine-mudo-espana-template|titulo=Distribución de víveres a los soldados|titulo-original=Distribution des vivres aux soldats|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=distribution-des-vivres-aux-soldats|fa=no|imdb=no|wikidata=no|youtube=no}}
+
+{{cine-mudo-espana-template|titulo=Llegada de los toreros a la plaza|titulo-original=Arrivée des toréadors|direccion=Alexandre Promio|año=1896|duracion=1 minuto|cl=arrivee-des-toreadors|fa=no|imdb=tt1672803|wikidata=no|youtube=no}}
 
 <!--
 {{cine-mudo-espana-template|titulo=|titulo-original=|direccion=|año=|duracion=|cl=|fa=|imdb=|wikidata=|youtube=}}
