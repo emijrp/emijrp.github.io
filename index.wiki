@@ -20,15 +20,16 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=astronomia.html|2=Astronomía}}
     {{button-blue|1=audio.html|2=Audio}}
     {{button-blue|1=biblioteca.html|2=Biblioteca}}
+    {{button-blue|1=camino-de-santiago.html|2=Camino de Santiago}}
     {{button-blue|1=cine/cine.html|2=Cine}}
     {{button-blue|1=cocina.html|2=Cocina}}
     {{button-blue|1=comunismo.html|2=Comunismo}}
-    <!--<a href="deporte.html">Deporte</a> | -->
+    <!--{{button-grey|1=Deporte}}-->
     {{button-blue|1=diccionarios/biografico/index.html|2=Diccionario Biográfico}}
     {{button-blue|1=diccionarios/filosofico-politico/index.html|2=Diccionario Filosófico-Político}}
     {{button-blue|1=diccionarios/geografico/index.html|2=Diccionario Geográfico}}
     {{button-blue|1=cine/documentales.html|2=Documentales}}
-    {{button-blue|1=geo/espana.html|2=España}}
+    {{button-blue|1=diccionarios/geografico/espana.html|2=España}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
     {{button-blue|1=feminismo.html|2=Feminismo}}
     {{button-blue|1=cine/filmotecas.html|2=Filmotecas}}
@@ -37,7 +38,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-grey|1=Futuro}}
     {{button-grey|1=Hemeroteca}}
     {{button-blue|1=historia.html|2=Historia}}
-    <!--Informática | -->
+    <!--{{button-grey|1=Informática}}-->
     {{button-blue|1=locapedias.html|2=Locapedias}}
     {{button-blue|1=medios.html|2=Medios}}
     {{button-blue|1=memoria.html|2=Memoria Histórica}}
