@@ -24,24 +24,11 @@ import re
 import sys
 import urllib
 from twython import Twython
+from twitterbots import *
 
 #config
 botscreenname = 'Emijrp'
 imagename = 'memoria.png'
-
-def read_keys():
-    f = open('%s/.twitter_keys' % (os.path.dirname(os.path.realpath(__file__))), 'r')
-    w = f.read()
-    APP_KEY = re.findall(r'(?im)^AP[IP]_KEY\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    APP_SECRET = re.findall(r'(?im)^AP[IP]_SECRET\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    return APP_KEY, APP_SECRET
-
-def read_tokens():
-    f = open('%s/.twitter_tokens' % (os.path.dirname(os.path.realpath(__file__))), 'r')
-    w = f.read()
-    OAUTH_TOKEN = re.findall(r'(?im)^OAUTH_TOKEN\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    OAUTH_TOKEN_SECRET = re.findall(r'(?im)^OAUTH_TOKEN_SECRET\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    return OAUTH_TOKEN, OAUTH_TOKEN_SECRET
 
 def main():
     APP_KEY, APP_SECRET = read_keys()

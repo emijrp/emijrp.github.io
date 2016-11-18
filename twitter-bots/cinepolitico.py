@@ -18,25 +18,13 @@
 import os
 import random
 import re
+import time
 import urllib
 from twython import Twython
+from twitterbots import *
 
 #config
 botscreenname = 'Emijrp'
-
-def read_keys():
-    f = open('%s/.twitter_keys' % (os.path.dirname(os.path.realpath(__file__))), 'r')
-    w = f.read()
-    APP_KEY = re.findall(r'(?im)^AP[IP]_KEY\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    APP_SECRET = re.findall(r'(?im)^AP[IP]_SECRET\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    return APP_KEY, APP_SECRET
-
-def read_tokens():
-    f = open('%s/.twitter_tokens' % (os.path.dirname(os.path.realpath(__file__))), 'r')
-    w = f.read()
-    OAUTH_TOKEN = re.findall(r'(?im)^OAUTH_TOKEN\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    OAUTH_TOKEN_SECRET = re.findall(r'(?im)^OAUTH_TOKEN_SECRET\s*=\s*([^\n]+?)\s*$', w)[0].strip()
-    return OAUTH_TOKEN, OAUTH_TOKEN_SECRET
 
 def main():
     APP_KEY, APP_SECRET = read_keys()
@@ -44,14 +32,12 @@ def main():
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
     films = []
-    for page in range(1, 100):
+    for page in range(1, 10):
+        time.sleep(1)
         faurl = 'https://www.filmaffinity.com/es/userlist.php?user_id=397713&list_id=1031&page=%d' % (page)
         print('Retrieving', faurl)
-        try:
-            req = urllib.request.Request(faurl, data=None, headers={ 'User-Agent': 'Mozilla/5.0' })
-            f = urllib.request.urlopen(req)
-            html = f.read().decode('utf-8')
-        except:
+        html = getURL(url=faurl)
+        if not html:
             break
         #<div class="mc-title"><a  href="/es/film499059.html" title="El capital">El capital</a> (2012) <img src="/imgs/countries/FR.jpg" alt="Francia" title="Francia"></div>
         m = re.finditer(r'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>', html)
