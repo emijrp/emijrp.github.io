@@ -23,9 +23,6 @@ import urllib.request
 from twython import Twython
 from twitterbots import *
 
-#config
-botscreenname = 'Emijrp'
-
 def main():
     APP_KEY, APP_SECRET = read_keys()
     OAUTH_TOKEN, OAUTH_TOKEN_SECRET = read_tokens()

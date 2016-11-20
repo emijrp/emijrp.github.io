@@ -27,7 +27,6 @@ from twython import Twython
 from twitterbots import *
 
 #config
-botscreenname = 'Emijrp'
 imagename = 'memoria.png'
 
 def main():
@@ -75,7 +74,7 @@ def main():
     
     #tuitear imagen
     img = open(imagename, 'rb')
-    status = '#Memoria Un %s el franquismo los fusiló https://15mpedia.org/wiki/%s Que sus nombres no caigan en el olvido' % (today, today_)
+    status = '#MemoriaAntifascista Un %s el franquismo los fusiló https://15mpedia.org/wiki/%s Que sus nombres no caigan en el olvido' % (today, today_)
     print(status)
     response = twitter.upload_media(media=img)
     raw = twitter.update_status(status=status, media_ids=[response['media_id']])
