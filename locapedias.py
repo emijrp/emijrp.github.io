@@ -128,7 +128,7 @@ def main():
             'region': u'León', 
         }, 
         u'LinaWiki': {
-            'api': 'http://www.enciclopediadelinares.com/wiki/api.php', #'http://leonwiki.lazorrera.com', 
+            'api': 'http://www.enciclopediadelinares.com/wiki/api.php', 
             'base': 'http://www.enciclopediadelinares.com/wiki', 
             'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
             'country': u'España', 
