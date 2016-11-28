@@ -4,6 +4,7 @@
 <table align="right">
 <!--<tr><td><img src="../images/cuba.gif" align="right" width="400px" /></td></tr>-->
 
+<!--
 {{header-geo
 |wiki=cuba
 |pais=Cuba
@@ -11,18 +12,31 @@
 |bandera=
 |mapa=cuba-mapa.png
 }}
+-->
 
-'''Cuba''' es un país del Caribe, un pueblo digno que se libró de la dictadura de Batista y de la opresión capitalista mediante la revolución cubana.
+'''Cuba''' es un país del Caribe, un pueblo digno que se libró de la dictadura de Batista y de la opresión capitalista mediante la Revolución Cubana liderada por Fidel Castro.
 
-Aprende más en la [http://www.ecured.cu Enciclopedia Cubana].
+Existe una enciclopedia en línea similar a Wikipedia pero escrita desde un punto de vista cubano llamada [http://www.ecured.cu Enciclopedia Cubana].
 
 == Documentales ==
 
+Estos son algunos '''documentales''' acerca de Cuba, su revolución en todas los campos de la sociedad y las figuras que lideraron este proceso.
+
+* [https://www.youtube.com/watch?v=-2DqEw7moCg 55 hermanos] (1978, Jesús Díaz): Primera visita a Cuba de la Brigada Antonio Maceo formada por jóvenes que a principios de la Revolución, siendo niños, fueron sacados de Cuba por sus padres.
+* [https://www.youtube.com/watch?v=A_pmgGWNMcU Bloqueo, la guerra contra Cuba] (2005, Daniel Desaloms):Narra el origen y las consecuencias de la guerra económica de los Estados Unidos contra Cuba a través de entrevistas realizadas al canciller cubano Felipe Pérez Roque, el vicecanciller Abelardo Moreno, el presidente de la Asamblea del Poder Popular Ricardo Alarcón de Quesada, el economista Juan Triana; junto a otras opiniones recogidas a diferentes ciudadanos cubanos que padecen el día a día, desde hace más de cuatro décadas, de la imposición del imperialismo norteamericano.
+* [https://vimeo.com/99078224 Comandante] (2003, Oliver Stone): Después de tres días de rodaje, Stone nos ofrece, extraído de más de treinta horas de entrevistas y conversaciones, un retrato íntimo y humano del dirigente comunista cubano. Compartiendo el riesgo con Fidel Castro, Stone se pone delante de la cámara y crea un clima cercano que favorece respuestas difíciles de obtener de otro modo, consiguiendo inéditas reflexiones sobre el estado de su gobierno, la actual situación política internacional y reveladores detalles de la historia del siglo XX.
+* [https://www.youtube.com/watch?v=BLoIwfSV0PY El diálogo de América] (1971, Álvaro Covacevich): Histórico diálogo entre Fidel Castro y Salvador Allende en 1971 durante la visita de tres semanas realizada por el primero a Chile. Filmado por el cineasta Álvaro Covacevich y con la participación, como entrevistador, del destacado periodista chileno y asesor personal de Allende, Augusto Olivares. El Diálogo de América fue estrenado mundialmente en París en abril de 1972 como testimonio de la lucha por el proceso chileno.
+* [https://www.youtube.com/watch?v=Eyi68sNofbI Hechos, no palabras. Los derechos humanos en Cuba] (2007, Carolina Silvestre): Documental que aborda las acusaciones de violación de derechos humanos en Cuba e intenta dar respuesta al discurso único de los medios.
 * [https://www.youtube.com/watch?v=tlQ3HgcVQm4 La nueva escuela]: sobre la revolución educativa, construcción de escuelas, formación de nuevos profesores, complementación de la escuela y el trabajo, etc.
+* [https://www.youtube.com/watch?v=KpuIu1x84e4 Por primera vez] (1969, Octavio Cortázar): El cine llega "por primera vez" al monte... Este cortometraje documental cubano, dirigido por Octavio Cortázar, recoge la experiencia de una comunidad rural de las sierras del oriente de la isla, donde llega por primera vez el cine, gracias a los cines móviles creados con este fin por la Revolución. El espectador recibe las diferentes emociones que a un público de hombres, mujeres y niños del campo le provoca el ver el primer film de sus vidas: "Tiempos modernos", de Charles Chaplin.
+
+== Bibliografía ==
+
+* [http://fidelcastro.cu Fidel Castro, soldado de las ideas]: numerosos libros escritos por multitud de autores acerca del proceso revolucionario, sus dificultades, logros, etc. También algunas obras de Fidel.
 
 == Blogs ==
 
-Algunos '''blogs''' sobre Cuba:
+Algunos '''blogs''' sobre Cuba escritos por cubanos:
 
 * [http://gitanacubana.blogspot.com Gitana tropical]: lecturas a las líneas de mi país, de mi poesía y de mí misma.
 * [http://soylamismacubana.blogspot.com Soy la misma]: de todo un poco.
@@ -37,5 +51,16 @@ Se pueden encontrar noticias acerca de este país en [http://www.cubadebate.cu C
 
 * [http://ccaa.elpais.com/ccaa/2013/05/07/valencia/1367953205_577370.html Cubanos engañados por los cantos de sirena del capitalismo piden volver a Cuba]
 * [http://www.20minutos.es/noticia/1590960/0/jovenes-preparados-espanoles/irse-fuera-empleo/emigrar-trabajo/ La mentira de que de Cuba se van y nadie quiere emigrar allí. Cuba el 2º país que más españoles recibe]
+* http://noticias.universia.es/educacion/noticia/2015/04/09/1122936/unesco-cuba-unico-pais-logrado-cumplir-objetivos-2015.html
+* http://www.fao.org/americas/noticias/ver/es/c/230573/
+* http://www.bbc.com/mundo/cultura_sociedad/2010/01/100126_1823_unicef_cuba_gz.shtml
+* http://www.20minutos.es/noticia/165354/0/cuba/desarrollo/sostenible/
+
+== Otros enlaces ==
+
+* [https://en.wikipedia.org/wiki/Cuban_Literacy_Campaign Cuban Literacy Campaign]
+* [https://en.wikipedia.org/wiki/List_of_countries_by_infant_mortality_rate Tasa de mortalidad infantil]
+* http://www.tradingeconomics.com/cuba/unemployment-rate
+* http://www.indexmundi.com/map/?v=2226&l=es
 
 <noinclude>{{../../footer}}</noinclude>
