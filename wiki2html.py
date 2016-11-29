@@ -264,7 +264,7 @@ def toc(wiki, wikifile):
     l4 = 0
     if len(m) >= 2:
          toc = '<table id="toc" class="wikitable">\n'
-         toc += '<th>Tabla de contenidos</th>\n'
+         toc += '<tr><th>Tabla de contenidos</th></tr>\n'
          toc += '<tr><td>\n'
          for i in m:
              if int(i[0]) == 2:
