@@ -6,4 +6,14 @@ Por ejemplo todas las noticias sobre Siria en mis medios de favoritos.
 
 Que almacene los enlaces en la Wayback Machine si no lo están ya.
 
+<form id="search">
+Buscar: <input id="entry" type="text" value="" onkeyup="javascript:search();" /> <input id="button" type="button" value="Buscar" onclick="javascript:search();"/>
+</form>
+
+=== Resultados ===
+
+<div id="results" style="margin-left: 20px;">
+Sin resultados
+</div>
+
 {{footer}}
