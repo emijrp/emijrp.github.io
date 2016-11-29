@@ -242,8 +242,12 @@ Más información:
 * Kabanov, Mikhail (2013). ''[http://www.filmaffinity.com/es/film494778.html Golondrinas de la noche]''.
 * Zhigulenko, Yevgeniya (1981). ''[http://www.filmaffinity.com/es/film338503.html Las brujas de la noche en el cielo]''.
 * [http://contenidosdigitales.uned.es/fez/view/intecca:VideoCMAV-18246 Memorias de lucha: Las brujas de la noche].
- 
+
+== Turismo Rojo ==
+{{vt|1=turismo-rojo|2=Turismo Rojo}}
+
 == Víctimas del franquismo ==
+{{vt|1=cine/documentales#Memoria Histórica|2=Documentales#Memoria Histórica}}
 
 * [[File:fusilados-cementerio-este-iu-2007.pdf|Personas fusiladas por el franquismo en el Cementerio del Este de Madrid]]
 
