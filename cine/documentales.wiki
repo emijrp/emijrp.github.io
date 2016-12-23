@@ -1344,18 +1344,18 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
 
     <tr>
         <td>142</td>
-        <td sorttable_customkey="Planet Earth II (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film107937.html">Planet Earth II</a></i></td>
+        <td sorttable_customkey="Planeta Tierra (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film934135.html">Planeta Tierra</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Alastair+Fothergill">Alastair Fothergill</a></td>
-        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2016&toyear=2016">2016</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2006&toyear=2006">2006</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=GB&genre=&fromyear=&toyear=">Reino Unido</a></td>
         <td>9</td>
     </tr>
 
     <tr>
         <td>143</td>
-        <td sorttable_customkey="Planeta Tierra (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film934135.html">Planeta Tierra</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Alastair+Fothergill">Alastair Fothergill</a></td>
-        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2006&toyear=2006">2006</a></td>
+        <td sorttable_customkey="Planeta Tierra II"><i><a href="http://www.filmaffinity.com/es/film107937.html">Planeta Tierra II</a></i></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Alastair+Fothergill">Alastair Fothergill</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Elizabeth+White">Elizabeth White</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2016&toyear=2016">2016</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=GB&genre=&fromyear=&toyear=">Reino Unido</a></td>
         <td>9</td>
     </tr>
@@ -1506,6 +1506,15 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
 
     <tr>
         <td>160</td>
+        <td sorttable_customkey="Sanfermines 78"><i><a href="http://www.filmaffinity.com/es/film881510.html">Sanfermines 78</a></i></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Juan+Gautier">Juan Gautier</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=José+Ángel+Jiménez">José Ángel Jiménez</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2005&toyear=2005">2005</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=ES&genre=&fromyear=&toyear=">España</a></td>
+        <td>7</td>
+    </tr>
+
+    <tr>
+        <td>161</td>
         <td sorttable_customkey="Saída do Pessoal Operário da Fábrica Confiança (C)"><i><a href="http://www.filmaffinity.com/es/film298282.html">Saída do Pessoal Operário da Fábrica Confiança (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Aurélio+da+Paz+dos+Reis">Aurélio da Paz dos Reis</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900">1896</a></td>
@@ -1514,7 +1523,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>161</td>
+        <td>162</td>
         <td sorttable_customkey="Scenes at Balmoral (C)"><i><a href="http://www.filmaffinity.com/es/film716345.html">Scenes at Balmoral (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=W.+Downey">W. Downey</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900">1896</a></td>
@@ -1523,7 +1532,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>162</td>
+        <td>163</td>
         <td sorttable_customkey="Simulacro de incendio (C)"><i><a href="http://www.filmaffinity.com/es/film580857.html">Simulacro de incendio (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Gabriel+Veyre">Gabriel Veyre</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900">1897</a></td>
@@ -1532,7 +1541,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>163</td>
+        <td>164</td>
         <td sorttable_customkey="Songhwan (Repatriation)"><i><a href="http://www.filmaffinity.com/es/film191627.html">Songhwan (Repatriation)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kim+Dong-weon+(AKA+Kim+Dong-won)">Kim Dong-weon</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2003&toyear=2003">2003</a></td>
@@ -1541,7 +1550,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>164</td>
+        <td>165</td>
         <td sorttable_customkey="Steal This Film II"><i><a href="http://www.filmaffinity.com/es/film394967.html">Steal This Film II</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=J.+J.+King">J. J. King</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2007&toyear=2007">2007</a></td>
@@ -1550,7 +1559,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>165</td>
+        <td>166</td>
         <td sorttable_customkey="Super Size Me"><i><a href="http://www.filmaffinity.com/es/film247742.html">Super Size Me</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Morgan+Spurlock">Morgan Spurlock</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2004&toyear=2004">2004</a></td>
@@ -1559,7 +1568,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>166</td>
+        <td>167</td>
         <td sorttable_customkey="Surf at Monterey (C)"><i><a href="http://www.filmaffinity.com/es/film466754.html">Surf at Monterey (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=James+H.+White">James H. White</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900">1897</a></td>
@@ -1568,7 +1577,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>167</td>
+        <td>168</td>
         <td sorttable_customkey="TPB AFK: The Pirate Bay Away from Keyboard"><i><a href="http://www.filmaffinity.com/es/film617303.html">TPB AFK: The Pirate Bay Away from Keyboard</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Simon+Klose">Simon Klose</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2013&toyear=2013">2013</a></td>
@@ -1577,7 +1586,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>168</td>
+        <td>169</td>
         <td sorttable_customkey="The Barber Shop (C)"><i><a href="http://www.filmaffinity.com/es/film878834.html">The Barber Shop (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+K.L.+Dickson">William K.L. Dickson</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+Heise">William Heise</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900">1894</a></td>
@@ -1586,7 +1595,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>169</td>
+        <td>170</td>
         <td sorttable_customkey="The Bridge"><i><a href="http://www.filmaffinity.com/es/film291043.html">The Bridge</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Eric+Steel">Eric Steel</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2007&toyear=2007">2007</a></td>
@@ -1595,7 +1604,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>170</td>
+        <td>171</td>
         <td sorttable_customkey="The Song of Avila (C)"><i><a href="http://www.filmaffinity.com/es/film795441.html">The Song of Avila (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jonas+Mekas">Jonas Mekas</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1967&toyear=1967">1967</a></td>
@@ -1604,7 +1613,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>171</td>
+        <td>172</td>
         <td sorttable_customkey="Toxic Somalia: la otra piratería"><i><a href="http://www.filmaffinity.com/es/film235751.html">Toxic Somalia: la otra piratería</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Paul+Moreira">Paul Moreira</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2010&toyear=2010">2010</a></td>
@@ -1613,7 +1622,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>172</td>
+        <td>173</td>
         <td sorttable_customkey="Tres días de julio"><i><a href="http://www.filmaffinity.com/es/film227584.html">Tres días de julio</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Santiago+Moreno+Tello">Santiago Moreno Tello</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2016&toyear=2016">2016</a></td>
@@ -1622,7 +1631,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>173</td>
+        <td>174</td>
         <td sorttable_customkey="Turkish Dance, Ella Lola (C)"><i><a href="http://www.filmaffinity.com/es/film132622.html">Turkish Dance, Ella Lola (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=James+H.+White">James H. White</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900">1898</a></td>
@@ -1631,7 +1640,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>174</td>
+        <td>175</td>
         <td sorttable_customkey="Un día con Leopoldo María Panero (C)"><i><a href="http://www.filmaffinity.com/es/film733811.html">Un día con Leopoldo María Panero (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jacobo+Beut">Jacobo Beut</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2005&toyear=2005">2005</a></td>
@@ -1640,7 +1649,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>175</td>
+        <td>176</td>
         <td sorttable_customkey="Un festival (C)"><i><a href="http://www.filmaffinity.com/es/film869163.html">Un festival (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Nicolás+Guillén+Landrián">Nicolás Guillén Landrián</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1963&toyear=1963">1963</a></td>
@@ -1649,7 +1658,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>176</td>
+        <td>177</td>
         <td sorttable_customkey="Viaje al país que ya no existe"><i><a href="http://www.filmaffinity.com/es/film362741.html">Viaje al país que ya no existe</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Isabel+Santos">Isabel Santos</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2014&toyear=2014">2014</a></td>
@@ -1658,7 +1667,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>177</td>
+        <td>178</td>
         <td sorttable_customkey="Viaje del doctor Campos Salles a Buenos Aires (C)"><i><a href="http://www.filmaffinity.com/es/film296244.html">Viaje del doctor Campos Salles a Buenos Aires (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Eugene+Py">Eugene Py</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1900&toyear=1900">1900</a></td>
@@ -1667,7 +1676,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>178</td>
+        <td>179</td>
         <td sorttable_customkey="Vida (C)"><i><a href="http://www.filmaffinity.com/es/film643888.html">Vida (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Artavazd+Pelechian">Artavazd Pelechian</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1993&toyear=1993">1993</a></td>
@@ -1676,7 +1685,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>179</td>
+        <td>180</td>
         <td sorttable_customkey="Vivir de pie. Las guerras de Cipriano Mera"><i><a href="http://www.filmaffinity.com/es/film472753.html">Vivir de pie. Las guerras de Cipriano Mera</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Valentí+Figueres">Valentí Figueres</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2009&toyear=2009">2009</a></td>
@@ -1685,7 +1694,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>180</td>
+        <td>181</td>
         <td sorttable_customkey="WikiRebels: The Documentary"><i><a href="http://www.filmaffinity.com/es/film964368.html">WikiRebels: The Documentary</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jesper+Huor">Jesper Huor</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bosse+Lindquist">Bosse Lindquist</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2010&toyear=2010">2010</a></td>
@@ -1694,7 +1703,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>181</td>
+        <td>182</td>
         <td sorttable_customkey="Woman Draped in Patterned Handkerchiefs (C)"><i><a href="http://www.filmaffinity.com/es/film459659.html">Woman Draped in Patterned Handkerchiefs (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=George+Albert+Smith">George Albert Smith</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1908&toyear=1908">1908</a></td>
@@ -1703,7 +1712,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>182</td>
+        <td>183</td>
         <td sorttable_customkey="Y yo entonces me llevé un tapón"><i><a href="http://www.filmaffinity.com/es/film610459.html">Y yo entonces me llevé un tapón</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Alicia+Alted">Alicia Alted</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=María+Luisa+Capella">María Luisa Capella</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2012&toyear=2012">2012</a></td>
@@ -1712,7 +1721,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>183</td>
+        <td>184</td>
         <td sorttable_customkey="Yolanda en el país de los estudiantes"><i><a href="http://www.filmaffinity.com/es/film361572.html">Yolanda en el país de los estudiantes</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Isabel+Rodríguez">Isabel Rodríguez</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2013&toyear=2013">2013</a></td>
@@ -1721,7 +1730,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>184</td>
+        <td>185</td>
         <td sorttable_customkey="Copiad, malditos"><i><a href="http://www.filmaffinity.com/es/film377979.html">¡Copiad, malditos!</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Stéphane+M.+Grueso">Stéphane M. Grueso</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2011&toyear=2011">2011</a></td>
@@ -1730,7 +1739,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>185</td>
+        <td>186</td>
         <td sorttable_customkey="Ayuda a Madrid (C)"><i><a href="http://www.filmaffinity.com/es/film395113.html">¡¡Ayuda a Madrid!! (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Félix+Marquet">Félix Marquet</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1936&toyear=1936">1936</a></td>
@@ -1739,7 +1748,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>186</td>
+        <td>187</td>
         <td sorttable_customkey="Qué es (C)"><i><a href="http://www.filmaffinity.com/es/film621268.html">¿Qué es? (C)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Pedro+Chaskel">Pedro Chaskel</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1980&toyear=1980">1980</a></td>
@@ -1748,7 +1757,7 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
     </tr>
 
     <tr>
-        <td>187</td>
+        <td>188</td>
         <td sorttable_customkey="À bientôt, j'espère"><i><a href="http://www.filmaffinity.com/es/film362436.html">À bientôt, j'espère</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chris+Marker">Chris Marker</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Mario+Marret">Mario Marret</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1968&toyear=1968">1968</a></td>
