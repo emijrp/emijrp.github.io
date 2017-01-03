@@ -1,0 +1,19 @@
+{{header-etapa
+|wiki=salamanca
+|etapa=Etapa 7: Salamanca
+|provincia=Salamanca
+|superficie=
+|poblacion=
+|densidad=
+|municipios-visitados=Salamanca
+|distancia-recorrida=
+|fecha=
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=salamanca1.jpg
+|imagen-pie=
+}}
