@@ -13,6 +13,7 @@
         ["Guadalajara", 40.63, -3.16, "guadalajara1.jpg", "4", "guadalajara.html"], 
         ["Madrid", 40.416, -3.703, "madrid1.jpg", "5", "madrid.html"], 
         ["Cuenca", 40.071, -2.135, "cuenca1.jpg", "6", "cuenca.html"], 
+        ["Salamanca", 40.964, -5.663, "salamanca1.jpg", "7", "salamanca.html"], 
         //["Barcelona", 41.403076, 2.173695], 
         //["Cádiz", 36.529824, -6.292721], 
         //["Cáceres", 39.475111, -6.371400], 
@@ -24,9 +25,9 @@
     
     var map = L.map('map').setView([40.416957, -3.703478], 6);
     mapLink = 
-        '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        '<a href="https://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
-        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; ' + mapLink + ' Contributors',
         maxZoom: 12,
         }).addTo(map);
@@ -73,6 +74,10 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 === Etapa 6: Cuenca ===
 
 {{cuenca-header}}
+
+=== Etapa 7: Salamanca ===
+
+{{salamanca-header}}
 
 == Notas ==
 {{reflist}}
