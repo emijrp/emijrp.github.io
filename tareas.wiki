@@ -4,7 +4,20 @@ Este es un índice de '''tareas''' por hacer, ya se trate de cosas puntuales o p
 
 == Mensualmente ==
 
-* Por desarrollar
+<table class="wikitable sortable">
+<tr>
+    <th>Tarea</th>
+    <th>Última vez</th>
+    <th>Próxima</th>
+    <td>Automatizado</td>
+</tr>
+<tr>
+    <td>Subir los dumps de Wikanda a Internet Archive</td>
+    <td></td>
+    <td></td>
+    <td>Sí</td>
+</tr>
+</table>
 
 == Anualmente ==
 
@@ -13,12 +26,26 @@ Este es un índice de '''tareas''' por hacer, ya se trate de cosas puntuales o p
     <th>Tarea</th>
     <th>Última vez</th>
     <th>Próxima</th>
+    <td>Automatizado</td>
+</tr>
+<tr>
+    <td>Actualizar estadísticas de dumps de WikiTeam</td>
+    <td>[https://en.wikipedia.org/w/index.php?title=User%3AEmijrp&type=revision&diff=758068003&oldid=756637433 2017-01-03]</td>
+    <td>2018-01-01</td>
+    <td>No</td>
 </tr>
 <tr>
     <td>Subir un dump de [http://www.archiveteam.org/index.php?title=Main_Page Archive Team] a [https://archive.org/download/wiki-archiveteamorg Internet Archive]</td>
-    <td>2015-10-22</td>
+    <td>[https://archive.org/download/wiki-archiveteamorg 2015-10-22]</td>
     <td>2016-10-22</td>
+    <td>No</td>
 </tr>
+<!--<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>-->
 </table>
 
 == Otras ==
