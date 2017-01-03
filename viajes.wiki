@@ -3,9 +3,9 @@
 
 En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios y 50 provincias así que tengo diversión para rato. También recopilo algunos datos curiosos basados en '''mis viajes'''.
 
-== Resumen general ==
+== Mapa ==
 
-<div id="map" style="float: right;width: 600px; height: 600px;"></div>
+<div id="map" style="float: right;width: 100%;height: 600px;"></div>
 
 <script type="text/javascript">
     // http://leafletjs.com/examples/custom-icons.html
@@ -84,6 +84,8 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
     aveSevBcnLine.addTo(map);
 
 </script>
+
+== Resumen general ==
 
 * '''Países''' visitados: 1 (España).
 * '''Comunidades autónomas''': 6 (Andalucía, Castilla-La Mancha, Castilla y León, Comunidad de Madrid, Cataluña y Extremadura).
