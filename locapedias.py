@@ -17,6 +17,7 @@
 
 import json
 import re
+import time
 import unicodedata
 import urllib2
 
@@ -418,8 +419,8 @@ def main():
                 for prop in ['articles', 'edits', 'images', 'pages', 'users']:
                     locapedias2[locapedia][prop] = prop in siteinfo['query']['statistics'] and siteinfo['query']['statistics'][prop] or ''
             else:
-                print(u'Error while retrieving statistics API for %s %s' % (locapedia, siteinfourl))
-                raise Exception(u'Error while retrieving statistics')
+                print('Error while retrieving statistics API for %s %s' % (locapedia, siteinfourl))
+                raise Exception('Error while retrieving statistics')
         except:
             if 'stats' in locaprops and locaprops['stats']:
                 try:
@@ -446,7 +447,7 @@ def main():
                         locapedias2[locapedia]['images'] = re.sub(ur'[\.\,\xa0 ]', '', mwtable.split('mw-statistics-files')[1].split('</td></tr>')[0].split('>')[-1].strip())
                     locapedias2[locapedia]['status'] = 'online'
                 except:
-                    msg = u'Error while retrieving statistics PLAIN for %s %s' % (locapedia, locaprops['stats'])
+                    msg = 'Error while retrieving statistics PLAIN for %s %s' % (locapedia, locaprops['stats'])
                     print(msg.encode('utf-8'))
                     locapedias2[locapedia]['status'] = 'offline'
         
@@ -462,7 +463,7 @@ def main():
                 iasearchurl = 'https://archive.org/search.php?query=originalurl:"%s"' % (originalurl.split('://')[1])
                 req = urllib2.Request(iasearchurl, headers={ 'User-Agent': 'Mozilla/5.0' })
                 html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
-                items = re.findall(ur'<a href="/details/([^"]*?)" title="', html)
+                items = re.findall(r'<a href="/details/([^"]*?)" title="', html)
                 if items:
                     locapedias2[locapedia]['dump'] = 'https://archive.org/details/%s' % (items[0])
                     print('Found dump: %s' % locapedias2[locapedia]['dump'])
@@ -472,7 +473,15 @@ def main():
             itemname = locaprops['dump'].split('/details/')[1].split('/')[0]
             iaitemurl = 'https://archive.org/download/%s/%s_files.xml' % (itemname, itemname)
             req = urllib2.Request(iaitemurl, headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
+            try:
+                html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
+            except:
+                time.sleep(10)
+                try:
+                    html = unicode(urllib2.urlopen(req).read(), 'utf-8').strip()
+                except:
+                    print('Error while retrieving page from IA')
+                    sys.exit()
             filedates = [x for x, y in re.findall(ur'name="[^\"]+?-(\d{8})-(wikidump|history)', html)]
             if filedates:
                 filedates.sort()
