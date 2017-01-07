@@ -350,8 +350,8 @@ def main():
             'region': u'Pakistán', 
         }, 
         u'Wikipasdecalais': {
-            'api': 'http://www.wikipasdecalais.fr/api.php', 
-            'base': 'http://www.wikipasdecalais.fr/index.php?title=Accueil', 
+            'api': 'http://wikipasdecalais.fr/api.php', 
+            'base': 'http://wikipasdecalais.fr/index.php?title=Accueil', 
             'country': u'Francia', 
             'founded': '', 
             'region': u'Pas-de-Calais', 
