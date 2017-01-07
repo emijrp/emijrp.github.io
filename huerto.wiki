@@ -1,6 +1,5 @@
 {{header|1=Huerto}}
 
-
 Fases para cultivar hortalizas:
 
 * Plantar en semillero
@@ -17,6 +16,8 @@ Hortalizas:
 * Lechuga
 * Zanahoria
 
+== Enlaces externos ==
 
+* [https://www.planetahuerto.es/guias Planeta Huerto]
 
 {{footer}}
