@@ -648,7 +648,8 @@ http://www.cubacine.cult.cu/sitios/contracorriente/index.html
 === Sitios web y comunidades ===
 
 * [http://www.abandomoviez.net Abandonmoviez]
-* [http://cinechile.cl/documentales.php Cine Chile, enciclopedia del cine chileno]
+* [http://cinechile.cl/documentales.php Cine Chile, enciclopedia del Cine Chileno]
+* [http://www.cinetecavirtual.cl CinetecaVirtual Chilena]
 * [https://es-la.facebook.com/CineSocialPoliticoYRevolucionarioParaCompartir Cine social, politico y revolucionario para compartir]
 * [http://www.uhu.es/cine.educacion/cineyeducacion/cinerevolucionario.htm El cine político y revolucionario]
 * [http://www.progressivefilmclub.ie/index.html Progressive Film Club]
@@ -657,34 +658,23 @@ http://www.cubacine.cult.cu/sitios/contracorriente/index.html
 <!--
 
 Recomendaciones, cosas por ver, etc:
-* Lucy, Gravity, Elysium, Transcendence
-* Top Gun, En tierra hostil, La noche más oscura, Skyfall
-* Tres mentiras, de Ana Murugarren
-* Mambrú se fue a la guerra, El mundo sigue
-* El empleo del tiempo
-* Recursos humanos
-* http://m.filmaffinity.com/es/search.php?stype=director&stext=Mikhail+Romm
-* http://www.filmaffinity.com/en/search.php?stype=director&stext=Yuli+Raizman
+* Mikhail+Romm
+* Yuli+Raizman
 * Los panteras
 * http://www.filmaffinity.com/es/userlist.php?user_id=307515&list_id=1001
-* Hollywood contra Franco https://es.wikipedia.org/wiki/Hollywood_contra_Franco
-* Misión en Moscú
 * Passolini, Oliveira, Buñuel
 * Ventura Pons
 * John Waters
 * Bergman
 * Fünf Patronenhülsen
 * La hora de los valientes
-* Nuestro culpable
 * Joris Ivens
-* Juan Antonio Bardem: La advertencia
 * Hoy y mañana, Chomski, 2003
 * http://cinematexas.wordpress.com/2014/03/22/la-ii-guerra-mundial-en-el-cine-vi-la-resistencia/
 * https://lebonneloup.wordpress.com/
 * El arca rusa
 * Dziga Vertov http://www.filmaffinity.com/es/search.php?stype=director&stext=Dziga+Vertov
 * https://en.wikipedia.org/wiki/USSR_State_Prize#Recipients_of_the_State_Stalin_Prize_in_arts_by_year
-* Por quién doblan las campanas
 * http://www.cineyderechoshumanos.com/2010/en/largometrajes/el_problema.php
 * http://lavapiesdecine.net/
 * http://www.ecured.cu/index.php/Categor%C3%ADa:Cinematograf%C3%ADa
@@ -751,9 +741,6 @@ Listas en IMDB
 * Gillo Pontecorvo: Kapo
 * Claude Berri parece que hace algunos dramas sociales
 
-* Pelo malo
-* Joven y alocada
-
 * sin ver
 + vista
 
@@ -815,20 +802,6 @@ Listas en IMDB
 * Una mujer singular (Claire de femme)
 * Viva Zapata
 
-La Dirección de la Semana Internacional del Film de Mannheim (Alemania) organizó en 1964 un referéndum para que los críticos e historiadores señalasen los 12 mejores documentales de la Historia. El resultado fue el siguiente:
-
--Nanuk, el esquimal (1920), de Robert J. Flaherty.
--Correo Nocturno (1936), de H. Watt y B. Wright.
--Turksib (1929), de Viktor Turin.
--Berlín, sinfonía de una gran ciudad (1927), de W. Ruttman.
--El hombre con la cámara (1923-29), de Vertov.
--Louisiana Story (1946-48), de R. J. Flaherty.
--Farrebique (1945-46), de G. Rouquier.
--Nuit el brouillard (1955), de Alain Resnais.
--La línea general (1926-29), de Sergei M. Eisenstein.
--Drifters (1929), de J. Griersen.
--Tierra española (1937), de Y. Ivens.
--Las Hurdes (Tierra sin pan), 1932, de Luis Buñuel.
 
 
 * La espalda del mundo (Javier Corcuera)
