@@ -186,6 +186,15 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
 
     <tr>
         <td>17</td>
+        <td sorttable_customkey="Daniel el travieso (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film251033.html">Daniel el travieso</a></i></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Michael+Maliani">Michael Maliani</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1986&toyear=1986">1986</a></td>
+        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
+        <td>6</td>
+    </tr>
+
+    <tr>
+        <td>18</td>
         <td sorttable_customkey="David el gnomo (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film704604.html">David el gnomo</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Claudio+Biern+Boyd+(Creator)">Claudio Biern Boyd</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Luis+Ballester+Bustos">Luis Ballester Bustos</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1985&toyear=1985">1985</a></td>
@@ -194,7 +203,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>18</td>
+        <td>19</td>
         <td sorttable_customkey="Delfy y sus amigos (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film856453.html">Delfy y sus amigos</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Antoni+D'Ocon">Antoni D'Ocon</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1992&toyear=1992">1992</a></td>
@@ -203,7 +212,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>19</td>
+        <td>20</td>
         <td sorttable_customkey="Dinosaurios (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film475857.html">Dinosaurios</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Tom+Trbovich">Tom Trbovich</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bruce+Bilson">Bruce Bilson</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1991&toyear=1991">1991</a></td>
@@ -212,7 +221,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>20</td>
+        <td>21</td>
         <td sorttable_customkey="Doctor en Alaska (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film213157.html">Doctor en Alaska</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joshua+Brand+(Creator)">Joshua Brand</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+Falsey+(Creator)">John Falsey</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1990&toyear=1990">1990</a></td>
@@ -221,7 +230,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>21</td>
+        <td>22</td>
         <td sorttable_customkey="Doraemon, el gato cósmico (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film493448.html">Doraemon, el gato cósmico</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=F.+Fujio+Fujiko+(Creator)">F. Fujio Fujiko</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Tsutomu+Shibayama">Tsutomu Shibayama</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1979&toyear=1979">1979</a></td>
@@ -230,7 +239,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>22</td>
+        <td>23</td>
         <td sorttable_customkey="Dos hombres y medio (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film685459.html">Dos hombres y medio</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chuck+Lorre+(Creator)">Chuck Lorre</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Lee+Aronsohn+(Creator)">Lee Aronsohn</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2003&toyear=2003">2003</a></td>
@@ -239,7 +248,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>23</td>
+        <td>24</td>
         <td sorttable_customkey="Dragon Ball (Bola de Dragón) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film271885.html">Dragon Ball (Bola de Dragón)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Akira+Toriyama+(Creator)">Akira Toriyama</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Daisuke+Nishio">Daisuke Nishio</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1986&toyear=1986">1986</a></td>
@@ -248,7 +257,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>24</td>
+        <td>25</td>
         <td sorttable_customkey="Dragon Ball Z (Bola de Dragón Z) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film942334.html">Dragon Ball Z (Bola de Dragón Z)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Akira+Toriyama+(Creator)">Akira Toriyama</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Daisuke+Nishio">Daisuke Nishio</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1989&toyear=1989">1989</a></td>
@@ -257,7 +266,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>25</td>
+        <td>26</td>
         <td sorttable_customkey="El Chapulín Colorado (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film271374.html">El Chapulín Colorado</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Enrique+Segoviano">Enrique Segoviano</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Roberto+Gómez+Bolaños">Roberto Gómez Bolaños</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1972&toyear=1972">1972</a></td>
@@ -266,7 +275,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>26</td>
+        <td>27</td>
         <td sorttable_customkey="El chavo del ocho (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film777337.html">El chavo del ocho</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Roberto+Gómez+Bolaños+(Creator)">Roberto Gómez Bolaños</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1972&toyear=1972">1972</a></td>
@@ -275,7 +284,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>27</td>
+        <td>28</td>
         <td sorttable_customkey="El correcaminos (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film539733.html">El correcaminos</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chuck+Jones">Chuck Jones</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Gerry+Chiniquy">Gerry Chiniquy</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1966&toyear=1966">1966</a></td>
@@ -284,7 +293,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>28</td>
+        <td>29</td>
         <td sorttable_customkey="El laboratorio de Dexter (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film952447.html">El laboratorio de Dexter</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Genndy+Tartakovsky">Genndy Tartakovsky</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+McIntyre">John McIntyre</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1996&toyear=1996">1996</a></td>
@@ -293,7 +302,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>29</td>
+        <td>30</td>
         <td sorttable_customkey="El mundo de Beakman (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film165173.html">El mundo de Beakman</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jok+R.+Church+(Creator)">Jok R. Church</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jay+Dubin">Jay Dubin</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1992&toyear=1992">1992</a></td>
@@ -302,7 +311,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>30</td>
+        <td>31</td>
         <td sorttable_customkey="El príncipe de Bel-Air (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film225440.html">El príncipe de Bel-Air</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Andy+Borowitz+(Creator)">Andy Borowitz</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Susan+Borowitz+(Creator)">Susan Borowitz</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1990&toyear=1990">1990</a></td>
@@ -311,7 +320,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>31</td>
+        <td>32</td>
         <td sorttable_customkey="El pájaro loco (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film478237.html">El pájaro loco</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Sid+Marcus">Sid Marcus</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+Owan">Robert Owan</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1957&toyear=1957">1957</a></td>
@@ -320,7 +329,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>32</td>
+        <td>33</td>
         <td sorttable_customkey="Farmacia de guardia (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film414181.html">Farmacia de guardia</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Antonio+Mercero+(Creator)">Antonio Mercero</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Antonio+Mercero">Antonio Mercero</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1991&toyear=1991">1991</a></td>
@@ -329,7 +338,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>33</td>
+        <td>34</td>
         <td sorttable_customkey="Friends (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film745443.html">Friends</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Crane+(Creator)">David Crane</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Marta+Kauffman+(Creator)">Marta Kauffman</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1994&toyear=1994">1994</a></td>
@@ -338,7 +347,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>34</td>
+        <td>35</td>
         <td sorttable_customkey="Futurama (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film826281.html">Futurama</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Matt+Groening+(Creator)">Matt Groening</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Peter+Avanzino">Peter Avanzino</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1999&toyear=1999">1999</a></td>
@@ -347,7 +356,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>35</td>
+        <td>36</td>
         <td sorttable_customkey="Gárgolas (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film456566.html">Gárgolas</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Greg+Weisman+(Creator)">Greg Weisman</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Dennis+Woodyard">Dennis Woodyard</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1994&toyear=1994">1994</a></td>
@@ -356,7 +365,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>36</td>
+        <td>37</td>
         <td sorttable_customkey="Heidi (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film524561.html">Heidi</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Isao+Takahata">Isao Takahata</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Atsuji+Hayakawa">Atsuji Hayakawa</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1974&toyear=1974">1974</a></td>
@@ -365,7 +374,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>37</td>
+        <td>38</td>
         <td sorttable_customkey="Hostal Royal Manzanares (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film952454.html">Hostal Royal Manzanares</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Sebastián+Junyent">Sebastián Junyent</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1996&toyear=1996">1996</a></td>
@@ -374,7 +383,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>38</td>
+        <td>39</td>
         <td sorttable_customkey="House (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film709243.html">House</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Shore+(Creator)">David Shore</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Greg+Yaitanes">Greg Yaitanes</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2004&toyear=2004">2004</a></td>
@@ -383,7 +392,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>39</td>
+        <td>40</td>
         <td sorttable_customkey="Inspector Gadget (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film841922.html">Inspector Gadget</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bruno+Bianchi">Bruno Bianchi</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Dave+Cox">Dave Cox</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1983&toyear=1983">1983</a></td>
@@ -392,7 +401,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>40</td>
+        <td>41</td>
         <td sorttable_customkey="La Pantera Rosa (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film434217.html">La Pantera Rosa</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Hawley+Pratt+(Creator)">Hawley Pratt</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Friz+Freleng+(Creator)">Friz Freleng</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1964&toyear=1964">1964</a></td>
@@ -401,7 +410,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>41</td>
+        <td>42</td>
         <td sorttable_customkey="La pajarería de Transilvania (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film274897.html">La pajarería de Transilvania</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Tony+Barnes">Tony Barnes</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1994&toyear=1994">1994</a></td>
@@ -410,7 +419,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>42</td>
+        <td>43</td>
         <td sorttable_customkey="La vuelta al mundo de Willy Fog (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film489140.html">La vuelta al mundo de Willy Fog</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Luis+Ballester+Bustos">Luis Ballester Bustos</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Fumio+Kurokawa">Fumio Kurokawa</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1983&toyear=1983">1983</a></td>
@@ -419,7 +428,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>43</td>
+        <td>44</td>
         <td sorttable_customkey="Las Supernenas (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film908845.html">Las Supernenas</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Craig+McCracken">Craig McCracken</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Genndy+Tartakovsky">Genndy Tartakovsky</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1998&toyear=1998">1998</a></td>
@@ -428,7 +437,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>44</td>
+        <td>45</td>
         <td sorttable_customkey="Las Tortugas Ninja (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film863778.html">Las Tortugas Ninja</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Yoshikatsu+Kasai">Yoshikatsu Kasai</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1987&toyear=1987">1987</a></td>
@@ -437,7 +446,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>45</td>
+        <td>46</td>
         <td sorttable_customkey="Las aventuras de la abeja Maya (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film188246.html">Las aventuras de la abeja Maya</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Hiroshi+Saitô">Hiroshi Saitô</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Mitsuo+Kaminashi">Mitsuo Kaminashi</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1975&toyear=1975">1975</a></td>
@@ -446,7 +455,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>46</td>
+        <td>47</td>
         <td sorttable_customkey="Las nuevas e inesperadas aventuras de Enjuto Mojamuto (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film624231.html">Las nuevas e inesperadas aventuras de Enjuto Mojamuto</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joaquín+Reyes+(Creator)">Joaquín Reyes</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2010&toyear=2010">2010</a></td>
@@ -455,7 +464,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>47</td>
+        <td>48</td>
         <td sorttable_customkey="Las tres mellizas (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film378699.html">Las tres mellizas</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+Balser">Robert Balser</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Baltasar+Roca">Baltasar Roca</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1995&toyear=1995">1995</a></td>
@@ -464,7 +473,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>48</td>
+        <td>49</td>
         <td sorttable_customkey="Looney Tunes (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film431773.html">Looney Tunes</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chuck+Jones">Chuck Jones</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Friz+Freleng">Friz Freleng</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1930&toyear=1930">1930</a></td>
@@ -473,7 +482,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>49</td>
+        <td>50</td>
         <td sorttable_customkey="Los Caballeros del Zodiaco (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film653033.html">Los Caballeros del Zodiaco</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Yasuhito+Kikuchi">Yasuhito Kikuchi</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kôzô+Morishita">Kôzô Morishita</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1986&toyear=1986">1986</a></td>
@@ -482,7 +491,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>50</td>
+        <td>51</td>
         <td sorttable_customkey="Los Fruitis (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film166793.html">Los Fruitis</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Toni+Babia+(Creator)">Toni Babia</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Antoni+D´Ocón+(Creator)">Antoni D´Ocón</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1991&toyear=1991">1991</a></td>
@@ -491,7 +500,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>51</td>
+        <td>52</td>
         <td sorttable_customkey="Los Picapiedra (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film863872.html">Los Picapiedra</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+Hanna">William Hanna</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joseph+Barbera">Joseph Barbera</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1960&toyear=1960">1960</a></td>
@@ -500,7 +509,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>52</td>
+        <td>53</td>
         <td sorttable_customkey="Los Pitufos (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film743744.html">Los Pitufos</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=José+Dutillieu">José Dutillieu</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=George+Gordon">George Gordon</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1981&toyear=1981">1981</a></td>
@@ -509,7 +518,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>53</td>
+        <td>54</td>
         <td sorttable_customkey="Los Serrano (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film888937.html">Los Serrano</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Daniel+Écija+(Creator)">Daniel Écija</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Álex+Pina+(Creator)">Álex Pina</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2003&toyear=2003">2003</a></td>
@@ -518,7 +527,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>54</td>
+        <td>55</td>
         <td sorttable_customkey="Los Simpson (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film372160.html">Los Simpson</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Matt+Groening+(Creator)">Matt Groening</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Sam+Simon+(Creator)">Sam Simon</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1989&toyear=1989">1989</a></td>
@@ -527,7 +536,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>55</td>
+        <td>56</td>
         <td sorttable_customkey="Los autos locos (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film323328.html">Los autos locos</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+Hanna">William Hanna</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joseph+Barbera">Joseph Barbera</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1968&toyear=1968">1968</a></td>
@@ -536,7 +545,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>56</td>
+        <td>57</td>
         <td sorttable_customkey="Los diminutos (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film114325.html">Los diminutos</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bernard+Deyriès">Bernard Deyriès</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1983&toyear=1983">1983</a></td>
@@ -545,7 +554,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>57</td>
+        <td>58</td>
         <td sorttable_customkey="Los trotamúsicos (Los 4 músicos de Bremen) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film143573.html">Los trotamúsicos (Los 4 músicos de Bremen)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Cruz+Delgado">Cruz Delgado</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1989&toyear=1989">1989</a></td>
@@ -554,7 +563,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>58</td>
+        <td>59</td>
         <td sorttable_customkey="Los vigilantes de la playa (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film886864.html">Los vigilantes de la playa</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Douglas+Schwartz+(Creator)">Douglas Schwartz</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Gregory+J.+Bonann+(Creator)">Gregory J. Bonann</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1989&toyear=1989">1989</a></td>
@@ -563,7 +572,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>59</td>
+        <td>60</td>
         <td sorttable_customkey="Marco, de los Apeninos a los Andes (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film655093.html">Marco, de los Apeninos a los Andes</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Isao+Takahata">Isao Takahata</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1976&toyear=1976">1976</a></td>
@@ -572,7 +581,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>60</td>
+        <td>61</td>
         <td sorttable_customkey="Masters del Universo (He-Man y los Amos del Universo) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film260796.html">Masters del Universo (He-Man y los Amos del Universo)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Ed+Friedman">Ed Friedman</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Lou+Kachivas">Lou Kachivas</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1983&toyear=1983">1983</a></td>
@@ -581,7 +590,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>61</td>
+        <td>62</td>
         <td sorttable_customkey="Mazinger Z (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film801526.html">Mazinger Z</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Tomoharu+Katsumata">Tomoharu Katsumata</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bonjin+Nagaki">Bonjin Nagaki</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1972&toyear=1972">1972</a></td>
@@ -590,7 +599,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>62</td>
+        <td>63</td>
         <td sorttable_customkey="Mortadelo y Filemón, agencia de información (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film586827.html">Mortadelo y Filemón, agencia de información</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Rafael+Vara">Rafael Vara</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1969&toyear=1969">1969</a></td>
@@ -599,7 +608,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>63</td>
+        <td>64</td>
         <td sorttable_customkey="Muchachada Nui (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film362749.html">Muchachada Nui</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joaquín+Reyes+(Creator)">Joaquín Reyes</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joaquín+Reyes">Joaquín Reyes</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2007&toyear=2007">2007</a></td>
@@ -608,7 +617,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>64</td>
+        <td>65</td>
         <td sorttable_customkey="Más allá del límite (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film775123.html">Más allá del límite</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Neill+Fearnley">Neill Fearnley</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jimmy+Kaufman">Jimmy Kaufman</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1995&toyear=1995">1995</a></td>
@@ -617,7 +626,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>65</td>
+        <td>66</td>
         <td sorttable_customkey="Médico de familia (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film682843.html">Médico de familia</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Emilio+Aragón+(Creator)">Emilio Aragón</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Daniel+Écija+(Creator)">Daniel Écija</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1995&toyear=1995">1995</a></td>
@@ -626,7 +635,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>66</td>
+        <td>67</td>
         <td sorttable_customkey="Padre Made in USA (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film197656.html">Padre Made in USA</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Seth+MacFarlane+(Creator)">Seth MacFarlane</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Mike+Barker+(Creator)">Mike Barker</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2005&toyear=2005">2005</a></td>
@@ -635,7 +644,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>67</td>
+        <td>68</td>
         <td sorttable_customkey="Padre de familia (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film248183.html">Padre de familia</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Seth+MacFarlane+(Creator)">Seth MacFarlane</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Peter+Shin">Peter Shin</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1999&toyear=1999">1999</a></td>
@@ -644,7 +653,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>68</td>
+        <td>69</td>
         <td sorttable_customkey="Pat y Mat (Los chapuceros) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film220211.html">Pat y Mat (Los chapuceros)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Lubomir+Benes">Lubomir Benes</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1976&toyear=1976">1976</a></td>
@@ -653,7 +662,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>69</td>
+        <td>70</td>
         <td sorttable_customkey="Pokémon (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film419407.html">Pokémon</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Satoshi+Tajiri+(Creator)">Satoshi Tajiri</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kunihiko+Yuyama">Kunihiko Yuyama</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1997&toyear=1997">1997</a></td>
@@ -662,7 +671,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>70</td>
+        <td>71</td>
         <td sorttable_customkey="Popeye el marino (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film738266.html">Popeye el marino</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+Hanna+(Creator)">William Hanna</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joseph+Barbera+(Creator)">Joseph Barbera</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1960&toyear=1960">1960</a></td>
@@ -671,7 +680,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>71</td>
+        <td>72</td>
         <td sorttable_customkey="Sailor Moon (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film889556.html">Sailor Moon</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Junichi+Sato">Junichi Sato</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1992&toyear=1992">1992</a></td>
@@ -680,7 +689,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>72</td>
+        <td>73</td>
         <td sorttable_customkey="Scooby-Doo (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film199978.html">Scooby-Doo</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+Hanna">William Hanna</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joseph+Barbera">Joseph Barbera</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1969&toyear=1969">1969</a></td>
@@ -689,7 +698,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>73</td>
+        <td>74</td>
         <td sorttable_customkey="Shin Chan (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film307437.html">Shin Chan</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Yoshito+Usui+(Creator)">Yoshito Usui</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Keiichi+Hara">Keiichi Hara</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1992&toyear=1992">1992</a></td>
@@ -698,7 +707,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>74</td>
+        <td>75</td>
         <td sorttable_customkey="South Park (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film189667.html">South Park</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Trey+Parker+(Creator)">Trey Parker</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Matt+Stone+(Creator)">Matt Stone</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1997&toyear=1997">1997</a></td>
@@ -707,7 +716,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>75</td>
+        <td>76</td>
         <td sorttable_customkey="Spider-Man: La serie animada (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film446899.html">Spider-Man: La serie animada</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bob+Richardson">Bob Richardson</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1994&toyear=1994">1994</a></td>
@@ -716,7 +725,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>76</td>
+        <td>77</td>
         <td sorttable_customkey="The IT Crowd (Los Informáticos) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film914339.html">The IT Crowd (Los Informáticos)</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Graham+Linehan+(Creator)">Graham Linehan</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Ben+Fuller">Ben Fuller</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2006&toyear=2006">2006</a></td>
@@ -725,7 +734,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>77</td>
+        <td>78</td>
         <td sorttable_customkey="Tom y Jerry (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film468700.html">Tom y Jerry</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=William+Hanna">William Hanna</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Joseph+Barbera">Joseph Barbera</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1940&toyear=1940">1940</a></td>
@@ -734,7 +743,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>78</td>
+        <td>79</td>
         <td sorttable_customkey="Un chapuzas en casa (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film984700.html">Un chapuzas en casa</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Carmen+Finestra+(Creator)">Carmen Finestra</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+McFadzean+(Creator)">David McFadzean</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1991&toyear=1991">1991</a></td>
@@ -743,7 +752,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>79</td>
+        <td>80</td>
         <td sorttable_customkey="Vaca y Pollo (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film119706.html">Vaca y Pollo</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Feiss">David Feiss</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+Alvarez">Robert Alvarez</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1997&toyear=1997">1997</a></td>
@@ -752,7 +761,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>80</td>
+        <td>81</td>
         <td sorttable_customkey="Vigilados: Person of Interest (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film908540.html">Vigilados: Person of Interest</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jonathan+Nolan+(Creator)">Jonathan Nolan</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Semel">David Semel</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2011&toyear=2011">2011</a></td>
@@ -761,7 +770,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>81</td>
+        <td>82</td>
         <td sorttable_customkey="Xena, la princesa guerrera (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film100408.html">Xena, la princesa guerrera</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+Schulian+(Creator)">John Schulian</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+G.+Tapert+(Creator)">Robert G. Tapert</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1995&toyear=1995">1995</a></td>
@@ -770,7 +779,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>82</td>
+        <td>83</td>
         <td sorttable_customkey="Érase una vez... el espacio (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film958488.html">Érase una vez... el espacio</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Albert+Barillé">Albert Barillé</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1982&toyear=1982">1982</a></td>
@@ -779,7 +788,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>83</td>
+        <td>84</td>
         <td sorttable_customkey="Érase una vez... el hombre (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film308615.html">Érase una vez... el hombre</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Albert+Barillé">Albert Barillé</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1978&toyear=1978">1978</a></td>
@@ -788,7 +797,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>84</td>
+        <td>85</td>
         <td sorttable_customkey="Érase una vez... la vida (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film974286.html">Érase una vez... la vida</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Albert+Barillé">Albert Barillé</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1986&toyear=1986">1986</a></td>
@@ -797,7 +806,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     </tr>
 
     <tr>
-        <td>85</td>
+        <td>86</td>
         <td sorttable_customkey="Érase una vez... los inventores (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film825727.html">Érase una vez... los inventores</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Albert+Barillé">Albert Barillé</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1994&toyear=1994">1994</a></td>
