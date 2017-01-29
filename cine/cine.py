@@ -112,6 +112,7 @@ def main():
     #read filmaffinity profile
     ratings = []
     for page in range(1, 100):
+    #for page in range(1, 2):
         faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         print 'Retrieving', faurl
         try:
@@ -160,6 +161,7 @@ def main():
     
     #read films to watch
     for page in range(1, 100):
+        #continue
         faurl = 'https://www.filmaffinity.com/es/userlist.php?user_id=%s&list_id=201&page=%s&orderby=0' % (userid, page)
         print 'Retrieving', faurl
         try:
@@ -354,6 +356,23 @@ def main():
     stats += u"</ul>\n"
     
     savetable('estadisticas-cine.wiki', 'estadisticas', stats)
+    
+    #graphs
+    graphdecade = ['["%s0", %s]' % (x, y) for x, y in statsdecade.items()]
+    graphdecade.sort()
+    graphdecade = """
+    <script type="text/javascript">
+    $(function () {
+        var graphdecade_data = [%s];
+       
+        var graphdecade = $("#graphdecade");
+        var graphdecade_data = [ graphdecade_data, ];
+        var graphdecade_options = { xaxis: { mode: null, tickSize: 10, tickDecimals: 0, min: 1880, max: 2017}, bars: { show: true, barWidth: 3 }, points: { show: false }, legend: { noColumns: 1 }, grid: { hoverable: true }, };
+        $.plot(graphdecade, graphdecade_data, graphdecade_options);
+    });
+    </script>
+""" % (', '.join(graphdecade))
+    savetable('estadisticas-cine.wiki', 'graphdecade', graphdecade)
     
 if __name__ == '__main__':
     main()
