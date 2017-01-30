@@ -1,7 +1,10 @@
 {{headerflot|1=Estadísticas de cine}}
 {{../vt|1=cine|2=Cine}}
 
-<div id="graphdecade" style="float: right;width: 600px;height: 150px;"></div>
+<div style="float: right;">
+<table>
+<tr><td>
+<div id="graphdecade" style="width: 500px;height: 150px;"></div>
 <!-- graphdecade -->
     <script type="text/javascript">
     $(function () {
@@ -9,11 +12,29 @@
        
         var graphdecade = $("#graphdecade");
         var graphdecade_data = [ graphdecade_data, ];
-        var graphdecade_options = { xaxis: { mode: null, tickSize: 10, tickDecimals: 0, min: 1880, max: 2017}, bars: { show: true, barWidth: 3 }, points: { show: false }, legend: { noColumns: 1 }, grid: { hoverable: true }, };
+        var graphdecade_options = { xaxis: { mode: null, tickSize: 10, tickDecimals: 0, min: 1880, max: 2017}, bars: { show: true, barWidth: 5 }, points: { show: false }, legend: { noColumns: 1 }, grid: { hoverable: true }, };
         $.plot(graphdecade, graphdecade_data, graphdecade_options);
     });
     </script>
 <!-- /graphdecade -->
+</td></tr>
+<tr><td>
+<div id="graphcountrylegend" style="float: right;font-size: 80%;"></div>
+<div id="graphcountry" style="float: right;width: 250px;height: 250px;"></div>
+<!-- graphcountry -->
+    <script type="text/javascript">
+    $(function () {
+        var graphcountry_data = [{label: "Estados Unidos (36%)", data: 258 }, {label: "Francia (15%)", data: 107 }, {label: "España (12%)", data: 90 }, {label: "Reino Unido (7%)", data: 51 }, {label: "Unión Soviética (URSS) (4%)", data: 31 }, {label: "Alemania del Este (RDA) (2%)", data: 15 }, {label: "Italia (2%)", data: 14 }, {label: "Argentina (1%)", data: 10 }, {label: "Japón (1%)", data: 8 }, {label: "Cuba (1%)", data: 8 }, {label: "Otros (15%)", data: 108 }];
+       
+        var graphcountry = $("#graphcountry");
+        var graphcountry_options = { series: { pie: { show: true, radius: 1 } }, legend: { show: true, container: $('#graphcountrylegend') }, };
+        $.plot(graphcountry, graphcountry_data, graphcountry_options);
+    });
+    </script>
+<!-- /graphcountry -->
+</td></tr>
+</table>
+</div>
 Estas son algunas '''estadísticas''' de las películas vistas y mis puntuaciones.
 
 == Estadísticas ==

@@ -112,7 +112,7 @@ def main():
     #read filmaffinity profile
     ratings = []
     for page in range(1, 100):
-    #for page in range(1, 2):
+    #for page in range(1, 5):
         faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         print 'Retrieving', faurl
         try:
@@ -333,20 +333,13 @@ def main():
     
     #print stats
     statsyear_list = [[y, x] for x, y in statsyear.items()]
-    statsyear_list.sort()
-    statsyear_list.reverse()
-    
+    statsyear_list.sort(reverse=True)
     statsdecade_list = [[y, x] for x, y in statsdecade.items()]
-    statsdecade_list.sort()
-    statsdecade_list.reverse()
-    
+    statsdecade_list.sort(reverse=True)
     statsdirector_list = [[y, x] for x, y in statsdirector.items()]
-    statsdirector_list.sort()
-    statsdirector_list.reverse()
-    
+    statsdirector_list.sort(reverse=True)
     statscountry_list = [[y, x] for x, y in statscountry.items()]
-    statscountry_list.sort()
-    statscountry_list.reverse()
+    statscountry_list.sort(reverse=True)
     
     stats = u"<ul>\n"
     stats += u"<li>Por <b>años</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmYearLink(x), x, y) for y, x in statsyear_list]))
@@ -367,12 +360,35 @@ def main():
        
         var graphdecade = $("#graphdecade");
         var graphdecade_data = [ graphdecade_data, ];
-        var graphdecade_options = { xaxis: { mode: null, tickSize: 10, tickDecimals: 0, min: 1880, max: 2017}, bars: { show: true, barWidth: 3 }, points: { show: false }, legend: { noColumns: 1 }, grid: { hoverable: true }, };
+        var graphdecade_options = { xaxis: { mode: null, tickSize: 10, tickDecimals: 0, min: 1880, max: 2017}, bars: { show: true, barWidth: 5 }, points: { show: false }, legend: { noColumns: 1 }, grid: { hoverable: true }, };
         $.plot(graphdecade, graphdecade_data, graphdecade_options);
     });
     </script>
 """ % (', '.join(graphdecade))
     savetable('estadisticas-cine.wiki', 'graphdecade', graphdecade)
+    
+    graphcountry = [[y, x] for x, y in statscountry.items()]
+    graphcountry.sort(reverse=True)
+    maxlegend = 10
+    if len(graphcountry) >= maxlegend:
+        restsum = sum([y for y, x in graphcountry[maxlegend-1:]])
+        graphcountry = graphcountry[:maxlegend]
+        graphcountry.sort(reverse=True)
+        graphcountry.append([restsum, 'Otros'])
+        totalsum = sum([y for y, x in graphcountry])
+    graphcountry = ['{label: "%s (%d%%)", data: %s }' % (x, y/(totalsum/100.0), y) for y, x in graphcountry]
+    graphcountry = """
+    <script type="text/javascript">
+    $(function () {
+        var graphcountry_data = [%s];
+       
+        var graphcountry = $("#graphcountry");
+        var graphcountry_options = { series: { pie: { show: true, radius: 1 } }, legend: { show: true, container: $('#graphcountrylegend') }, };
+        $.plot(graphcountry, graphcountry_data, graphcountry_options);
+    });
+    </script>
+""" % (', '.join(graphcountry))
+    savetable('estadisticas-cine.wiki', 'graphcountry', graphcountry)
     
 if __name__ == '__main__':
     main()
