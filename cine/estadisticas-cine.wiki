@@ -1,10 +1,14 @@
 {{headerflot|1=Estadísticas de cine}}
 {{../vt|1=cine|2=Cine}}
 
-<div style="float: right;">
-<table>
-<tr><td>
-<div id="graphdecade" style="width: 500px;height: 150px;"></div>
+Estas son algunas '''estadísticas y gráficas ''' de las películas vistas y mis puntuaciones. A <!-- fecha -->febrero de 2017<!-- /fecha --> he visto unas <!-- total cine -->696<!-- /total cine --> películas (de las que <!-- total cortos -->194<!-- /total cortos --> son cortometrajes) de <!-- total paises -->52<!-- /total paises --> países y <!-- total directores -->489<!-- /total directores --> directores diferentes.
+
+== Gráficas ==
+
+<center>
+<table border=0>
+<tr><td width=600px>
+<div id="graphdecade" style="width: 600px;height: 250px;"></div>
 <!-- graphdecade -->
     <script type="text/javascript">
     $(function () {
@@ -17,10 +21,11 @@
     });
     </script>
 <!-- /graphdecade -->
-</td></tr>
-<tr><td>
-<div id="graphcountrylegend" style="float: right;font-size: 80%;"></div>
-<div id="graphcountry" style="float: right;width: 250px;height: 250px;"></div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width=600px>
+<div id="graphcountry" style="float: left;width: 250px;height: 250px;"></div>
+<div id="graphcountrylegend" style="float: left;font-size: 80%;"></div>
 <!-- graphcountry -->
     <script type="text/javascript">
     $(function () {
@@ -34,8 +39,7 @@
 <!-- /graphcountry -->
 </td></tr>
 </table>
-</div>
-Estas son algunas '''estadísticas''' de las películas vistas y mis puntuaciones. A febrero de 2017 he visto unas <!-- total cine -->862<!-- /total cine --> películas (de las que <!-- total cortos -->0<!-- /total cortos --> son cortometrajes) de <!-- total paises -->52<!-- /total paises --> países y <!-- total directores -->489<!-- /total directores --> directores diferentes.
+</center>
 
 == Estadísticas ==
 

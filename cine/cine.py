@@ -22,6 +22,7 @@ import time
 import urllib
 import urllib2
 
+monthnames = { 1: 'enero', 2: 'febrero', 3: 'marzo', 4: 'abril', 5: 'mayo', 6: 'junio', 7: 'julio', 8: 'agosto', 9: 'septiembre', 10: 'octubre', 11: 'noviembre', 12: 'diciembre' }
 country2id = {
     u'Unión Soviética': u'ZY', 
 }
@@ -191,6 +192,7 @@ def main():
     years = set([])
     countries = set([])
     filmc = 0
+    shortc = 0
     docc = 0
     seriesc = 0
     for filmtitle, filmprops in films:
@@ -237,6 +239,8 @@ def main():
             seriesrows.append(row)
         else:
             filmc += 1
+            if '(C)' in filmtitle_:
+                shortc += 1
             years.add(filmprops['year'])
             countries.add(filmprops['countryid'])
             row = u"""
@@ -318,8 +322,6 @@ def main():
     filmtable = table
     filmtable += u''.join(filmrows)
     filmtable += u'</table>\n'
-    filmtotal = len(filmrows)
-    shorttotal = len(re.findall('(C)</a>', filmtable))
     doctable = table
     doctable += u''.join(docrows)
     doctable += u'</table>\n'
@@ -329,8 +331,10 @@ def main():
     seriestable += u'</table>\n'
     seriestotal = len(seriesrows)
     savetable('estadisticas-cine.wiki', 'tabla completa', filmtable)
-    savetable('estadisticas-cine.wiki', 'total cine', filmtotal)
-    savetable('estadisticas-cine.wiki', 'total cortos', shorttotal)
+    fecha = '%s de %s' % (monthnames[int(datetime.datetime.now().strftime('%m'))], datetime.datetime.now().strftime('%Y'))
+    savetable('estadisticas-cine.wiki', 'fecha', fecha)
+    savetable('estadisticas-cine.wiki', 'total cine', filmc)
+    savetable('estadisticas-cine.wiki', 'total cortos', shortc)
     savetable('documentales.wiki', 'tabla completa', doctable)
     savetable('series.wiki', 'tabla completa', seriestable)
     
