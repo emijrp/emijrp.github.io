@@ -1,7 +1,7 @@
 {{headerflot|1=Estadísticas de cine}}
 {{../vt|1=cine|2=Cine}}
 
-Estas son algunas '''estadísticas y gráficas ''' de las películas vistas y mis puntuaciones. A <!-- fecha -->febrero de 2017<!-- /fecha --> he visto unas <!-- total cine -->696<!-- /total cine --> películas (de las que <!-- total cortos -->194<!-- /total cortos --> son cortometrajes) de <!-- total paises -->52<!-- /total paises --> países y <!-- total directores -->489<!-- /total directores --> directores diferentes.
+Estas son algunas '''estadísticas y gráficas ''' de las películas vistas y mis puntuaciones. A <!-- fecha -->febrero de 2017<!-- /fecha --> he visto unas <!-- total pelis -->696<!-- /total pelis --> películas y <!-- total cortos -->194<!-- /total cortos --> cortometrajes de <!-- total paises -->52<!-- /total paises --> países y <!-- total directores -->489<!-- /total directores --> directores diferentes.
 
 == Gráficas ==
 

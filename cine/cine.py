@@ -333,7 +333,7 @@ def main():
     savetable('estadisticas-cine.wiki', 'tabla completa', filmtable)
     fecha = '%s de %s' % (monthnames[int(datetime.datetime.now().strftime('%m'))], datetime.datetime.now().strftime('%Y'))
     savetable('estadisticas-cine.wiki', 'fecha', fecha)
-    savetable('estadisticas-cine.wiki', 'total cine', filmc)
+    savetable('estadisticas-cine.wiki', 'total pelis', filmc-shortc)
     savetable('estadisticas-cine.wiki', 'total cortos', shortc)
     savetable('documentales.wiki', 'tabla completa', doctable)
     savetable('series.wiki', 'tabla completa', seriestable)
