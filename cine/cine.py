@@ -319,7 +319,7 @@ def main():
     filmtable += u''.join(filmrows)
     filmtable += u'</table>\n'
     filmtotal = len(filmrows)
-    shorttotal = len(re.findall('(C)', filmtable))
+    shorttotal = len(re.findall('(C)</a>', filmtable))
     doctable = table
     doctable += u''.join(docrows)
     doctable += u'</table>\n'
@@ -354,7 +354,6 @@ def main():
     stats += u"<li>Por <b>director</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmDirectorLink(x), cleanFilmDirector(x), y) for y, x in statsdirector_list]))
     stats += u"<li>Por <b>país</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmCountryLink(x), x, y) for y, x in statscountry_list]))
     stats += u"</ul>\n"
-    
     savetable('estadisticas-cine.wiki', 'estadisticas', stats)
     
     #graphs
