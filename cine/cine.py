@@ -318,16 +318,19 @@ def main():
     filmtable = table
     filmtable += u''.join(filmrows)
     filmtable += u'</table>\n'
-    
+    filmtotal = len(filmrows)
+    shorttotal = len(re.findall('(C)', filmtable))
     doctable = table
     doctable += u''.join(docrows)
     doctable += u'</table>\n'
-    
+    doctotal = len(docrows)
     seriestable = table
     seriestable += u''.join(seriesrows)
     seriestable += u'</table>\n'
-    
+    seriestotal = len(seriesrows)
     savetable('estadisticas-cine.wiki', 'tabla completa', filmtable)
+    savetable('estadisticas-cine.wiki', 'total cine', filmtotal)
+    savetable('estadisticas-cine.wiki', 'total cortos', shorttotal)
     savetable('documentales.wiki', 'tabla completa', doctable)
     savetable('series.wiki', 'tabla completa', seriestable)
     
@@ -338,8 +341,12 @@ def main():
     statsdecade_list.sort(reverse=True)
     statsdirector_list = [[y, x] for x, y in statsdirector.items()]
     statsdirector_list.sort(reverse=True)
+    directortotal = len(statsdirector_list)
+    savetable('estadisticas-cine.wiki', 'total directores', directortotal)
     statscountry_list = [[y, x] for x, y in statscountry.items()]
     statscountry_list.sort(reverse=True)
+    countrytotal = len(statscountry_list)
+    savetable('estadisticas-cine.wiki', 'total paises', countrytotal)
     
     stats = u"<ul>\n"
     stats += u"<li>Por <b>años</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmYearLink(x), x, y) for y, x in statsyear_list]))
