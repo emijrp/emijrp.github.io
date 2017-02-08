@@ -16,6 +16,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 <p>
     {{button-blue|1=actividad.html|2=Actividad}}
     {{button-blue|1=activismo.html|2=Activismo}}
+    {{button-blue|1=aprender.html|2=Aprender}}
     {{button-blue|1=arte.html|2=Arte}}
     {{button-blue|1=astronomia.html|2=Astronomía}}
     {{button-blue|1=audio.html|2=Audio}}
