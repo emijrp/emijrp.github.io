@@ -15,15 +15,6 @@ Prehistoria, Egipto, Mesopotamia, Persia.
 === Cristiano  ===
 === Hasta el año 1000  ===
 === Románico  ===
-=== Gótico  ===
-=== Edad Media  ===
-=== Renacimiento  ===
-=== Clasicismo / Manierismo  ===
-=== Barroco  ===
-=== Ilustración  ===
-=== Vanguardias / Modernismo  ===
-
-=== Románico ===
 
 === Gótico ===
 
@@ -33,7 +24,17 @@ En la transición del gótico tardío al proto-[[#Renacimiento|renacimiento]], e
 
 ==== Plateresco ====
 
-=== Renacimiento ===
+=== Edad Media  ===
+=== Renacimiento  ===
+=== Clasicismo / Manierismo  ===
+=== Barroco  ===
+
+=== Romanticismo ===
+
+=== Ilustración  ===
+=== Vanguardias / Modernismo  ===
+
+
 
 == Realismo socialista ==
 
@@ -51,5 +52,7 @@ Por desarrollar.
 <!--
 Listas obras de arte subpages wikidata
 -->
+* [https://www.youtube.com/user/ivanevskyvideo Aprender a dibujar historieta]
+
 
 {{footer}}
