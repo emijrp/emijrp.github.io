@@ -1,5 +1,6 @@
 {{headerleaflet|1=Viajes}}
 {{vt|1=vuelta-a-espana/vuelta-a-espana|2=Vuelta a España}}
+{{vt|1=viajar-por-carretera|2=Viajar por carretera}}
 
 En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios y 50 provincias así que tengo diversión para rato. También recopilo algunos datos curiosos basados en '''mis viajes'''.
 
