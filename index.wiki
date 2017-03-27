@@ -39,6 +39,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-grey|1=Futuro}}
     {{button-grey|1=Hemeroteca}}
     {{button-blue|1=historia.html|2=Historia}}
+    {{button-blue|1=idiomas/idiomas.html|2=Idiomas}}
     <!--{{button-grey|1=Informática}}-->
     {{button-blue|1=locapedias.html|2=Locapedias}}
     {{button-blue|1=medios.html|2=Medios}}
