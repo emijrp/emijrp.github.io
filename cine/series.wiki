@@ -106,7 +106,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>8</td>
         <td sorttable_customkey="Bob Esponja (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film959114.html">Bob Esponja</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Stephen+Hillenburg+(Creator)">Stephen Hillenburg</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Alan+Smart">Alan Smart</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Stephen+Hillenburg+(Creator)">Stephen Hillenburg</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Paul+Tibbitt">Paul Tibbitt</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1999&toyear=1999">1999</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>5</td>
@@ -295,7 +295,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>29</td>
         <td sorttable_customkey="El laboratorio de Dexter (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film952447.html">El laboratorio de Dexter</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Genndy+Tartakovsky">Genndy Tartakovsky</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+McIntyre">John McIntyre</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Genndy+Tartakovsky">Genndy Tartakovsky</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Rob+Renzetti">Rob Renzetti</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1996&toyear=1996">1996</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>4</td>
@@ -430,7 +430,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>44</td>
         <td sorttable_customkey="Las Supernenas (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film908845.html">Las Supernenas</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Craig+McCracken">Craig McCracken</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Genndy+Tartakovsky">Genndy Tartakovsky</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Craig+McCracken">Craig McCracken</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+McIntyre">John McIntyre</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1998&toyear=1998">1998</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>6</td>
@@ -439,7 +439,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>45</td>
         <td sorttable_customkey="Las Tortugas Ninja (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film863778.html">Las Tortugas Ninja</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Yoshikatsu+Kasai">Yoshikatsu Kasai</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bill+Wolf">Bill Wolf</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Tony+Love">Tony Love</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1987&toyear=1987">1987</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>7</td>
@@ -583,7 +583,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>61</td>
         <td sorttable_customkey="Masters del Universo (He-Man y los Amos del Universo) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film260796.html">Masters del Universo (He-Man y los Amos del Universo)</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Ed+Friedman">Ed Friedman</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Lou+Kachivas">Lou Kachivas</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Gwen+Wetzler">Gwen Wetzler</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Lou+Kachivas">Lou Kachivas</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1983&toyear=1983">1983</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>6</td>
@@ -727,7 +727,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>77</td>
         <td sorttable_customkey="Spider-Man: La serie animada (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film446899.html">Spider-Man: La serie animada</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bob+Richardson">Bob Richardson</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bob+Richardson">Bob Richardson</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+Shellhorn">Robert Shellhorn</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=1994&toyear=1994">1994</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>5</td>
@@ -772,7 +772,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>82</td>
         <td sorttable_customkey="Vigilados: Person of Interest (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film908540.html">Vigilados: Person of Interest</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jonathan+Nolan+(Creator)">Jonathan Nolan</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Semel">David Semel</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jonathan+Nolan+(Creator)">Jonathan Nolan</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chris+Fisher">Chris Fisher</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=2011&toyear=2011">2011</a></td>
         <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=US&genre=&fromyear=&toyear=">Estados Unidos</a></td>
         <td>6</td>
