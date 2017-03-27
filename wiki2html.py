@@ -99,6 +99,7 @@ def images(wiki, path, wikifile):
         imageparameters = image.split('|')[1:]
         imagewidth = ''
         imageposition = 'right'
+        imagefooter = False
         imagelink = '%s/%s' % (imagepath, imagename)
         imagedesc = imagename
         for imageparameter in imageparameters:
@@ -108,6 +109,8 @@ def images(wiki, path, wikifile):
                 imagewidth = imageparameter
             elif re.search(r'(?i)(left|center|right)', imageparameter):
                 imageposition = imageparameter
+            elif re.search(r'(?i)(thumb)', imageparameter):
+                imagefooter = True
             elif re.search(r'(?i)link=', imageparameter):
                 t = imageparameter.split('link=')[1].strip()
                 imagelink = t or imagelink
@@ -118,7 +121,10 @@ def images(wiki, path, wikifile):
             #wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s/%s">%s</a> (PDF)' % (imagepath, imagename, imagedesc))
             wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s">%s</a>' % (imagelink, imagedesc))
         else:
-            wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagelink, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
+            if imagefooter:
+                wiki = wiki.replace('[[File:%s]]' % (image), '<div width="%s" style="float: %s;padding: 3px;"><table width="%s" style="float: %s;border: 1px solid lightgrey;padding: 0px;"><tr><td><a href="%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a></td></tr><tr><td style="font-size: 90%%;">%s</td></tr></table></div>' % (imagewidth, imageposition, imagewidth, imageposition, imagelink, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc, imagedesc))
+            else:
+                wiki = wiki.replace('[[File:%s]]' % (image), '<a href="%s"><img src="%s/%s" width="%s" align="%s" alt="%s" title="%s" /></a>' % (imagelink, imagepath, imagename, imagewidth, imageposition, imagedesc, imagedesc))
     
     return wiki
 
