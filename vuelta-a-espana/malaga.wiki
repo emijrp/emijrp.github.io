@@ -1,0 +1,10 @@
+<noinclude>{{header|1=Etapa 10: Málaga}}</noinclude>
+
+{{sevilla-header}}
+
+
+<!--{{galeria-etapa|1=|2=|3=|4=}}-->
+
+<noinclude>{{navbox-etapa|pre-wiki=cadiz|pre-etapa=Etapa 9: Cádiz|etapa=Etapa 10: Málaga|sig-wiki=|sig-etapa=}}</noinclude>
+
+<noinclude>{{../footer}}</noinclude>
