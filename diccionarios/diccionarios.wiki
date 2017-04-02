@@ -1,0 +1,7 @@
+{{header|1=Portada}}
+
+* [[biografico/index|Diccionario Biográfico]]
+* [[filosofico-politico/index|Diccionario Filosófico-Político]]
+* [[geografico/index|Diccionario Geográfico]]
+    
+{{../footer}}
