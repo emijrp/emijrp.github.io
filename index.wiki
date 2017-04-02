@@ -15,29 +15,22 @@ Si quieres, puedes [[contacto|contactar conmigo]].
 
 <p>
     {{button-blue|1=actividad.html|2=Actividad}}
-    {{button-blue|1=activismo.html|2=Activismo}}
     {{button-blue|1=aprender.html|2=Aprender}}
     {{button-blue|1=arte.html|2=Arte}}
     {{button-blue|1=astronomia.html|2=Astronomía}}
     {{button-blue|1=audio.html|2=Audio}}
     {{button-blue|1=biblioteca.html|2=Biblioteca}}
-    {{button-blue|1=camino-de-santiago.html|2=Camino de Santiago}}
     {{button-blue|1=cine/cine.html|2=Cine}}
     {{button-blue|1=cocina.html|2=Cocina}}
     {{button-blue|1=comunismo.html|2=Comunismo}}
     <!--{{button-grey|1=Deporte}}-->
-    {{button-blue|1=diccionarios/biografico/index.html|2=Diccionario Biográfico}}
-    {{button-blue|1=diccionarios/filosofico-politico/index.html|2=Diccionario Filosófico-Político}}
-    {{button-blue|1=diccionarios/geografico/index.html|2=Diccionario Geográfico}}
-    {{button-blue|1=cine/documentales.html|2=Documentales}}
-    {{button-blue|1=diccionarios/geografico/espana.html|2=España}}
+    {{button-blue|1=diccionarios/diccionarios.html|2=Diccionarios}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
     {{button-blue|1=feminismo.html|2=Feminismo}}
-    {{button-blue|1=cine/filmotecas.html|2=Filmotecas}}
     {{button-blue|1=fotografia.html|2=Fotografía}}
-    {{button-grey|1=Frases}}
-    {{button-grey|1=Futuro}}
-    {{button-grey|1=Hemeroteca}}
+    <!--{{button-grey|1=Frases}}-->
+    <!--{{button-grey|1=Futuro}}-->
+    <!--{{button-grey|1=Hemeroteca}}-->
     {{button-blue|1=historia.html|2=Historia}}
     {{button-blue|1=idiomas/idiomas.html|2=Idiomas}}
     <!--{{button-grey|1=Informática}}-->
@@ -50,11 +43,9 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=nostalgia.html|2=Nostalgia}}
     {{button-blue|1=preservacion-digital.html|2=Preservación digital}}
     {{button-blue|1=publicaciones.html|2=Publicaciones}}
-    {{button-blue|1=cine/series.html|2=Series}}
     {{button-blue|1=snail-mail.html|2=Snail mail}}
     {{button-blue|1=software.html|2=Software}}
     {{button-blue|1=tareas.html|2=Tareas}}
-    {{button-blue|1=turismo-rojo.html|2=Turismo Rojo}}
     {{button-blue|1=viajes.html|2=Viajes}}
     {{button-blue|1=wikis.html|2=Wikis}}
     {{button-blue|1=sitemap.html|2=Sitemap}}

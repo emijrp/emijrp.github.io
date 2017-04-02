@@ -6,9 +6,18 @@ Esta sección está dedicada a recopilar detalles de '''mis viajes''', pequeños
 
 En el mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios y 50 provincias así que tengo diversión para rato.
 
+<table style="margin-top: -20px;">
+<tr><td valign="top">
+Por '''región''':
 * [[vuelta-a-espana/vuelta-a-espana|Vuelta a España]]
 * [[vuelta-a-andalucia/vuelta-a-andalucia|Vuelta a Andalucía]]
 * [[vuelta-a-cadiz/vuelta-a-cadiz|Vuelta a la provincia de Cádiz]]
+</td><td valign="top">
+Por '''tema''':
+* [[camino-de-santiago|Camino de Santiago]]
+* [[turismo-rojo|Turismo Rojo]]
+</td></tr>
+</table>
 
 <script type="text/javascript">
     // http://leafletjs.com/examples/custom-icons.html
