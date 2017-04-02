@@ -334,7 +334,7 @@ def sitemap(wikilist):
 def search(wiki, path, wikifile):
     entry = []
     
-    m = re.findall(ur'(?im)\{\{\s*header\s*\|\s*(1=)?\s*([^\}]+?)\s*\}\}', wiki)
+    m = re.findall(ur'(?im)\{\{\s*header[^\{\}\|\n\r]*?\s*\|\s*(1=)?\s*([^\{\}\|\n\r]+?)\s*\}\}', wiki)
     if m and m[0][1]:
         header = m[0][1]
         keywords = []
