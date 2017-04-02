@@ -1,0 +1,95 @@
+{{header|1=Portada}}
+
+Otro de los hitos que me gustaría completar relativo a viajes es '''visitar los 44 municipios de la provincia de Cádiz'''.
+
+Más adelante iré adecentando esta página, pero de momento dejo aquí una tabla con los municipios.
+
+<table class="wikitable sortable" style="text-align: center;">
+
+<tr>
+<th class="sorttable_alpha">Municipio</th>
+<th class="sorttable_numeric">Población</th>
+<th class="sorttable_alpha">Visitado</th>
+</tr>
+
+<tr>
+<td>Arcos de la Frontera</td>
+<td>31.410</td>
+<td>2017</td>
+</tr>
+
+<tr>
+<td>Benalup-Casas Viejas</td>
+<td>6.970</td>
+<td>2017</td>
+</tr>
+
+<tr>
+<td>Cádiz</td>
+<td>121.739</td>
+<td>Muchas veces</td>
+</tr>
+
+<tr>
+<td>Chipiona</td>
+<td>19.101</td>
+<td>2016</td>
+</tr>
+
+<tr>
+<td>El Puerto de Santa María</td>
+<td>88.068</td>
+<td>Muchas veces</td>
+</tr>
+
+<tr>
+<td>Jerez de la Frontera</td>
+<td>215.134</td>
+<td>Muchas veces</td>
+</tr>
+
+<tr>
+<td>La Línea de la Concepción</td>
+<td>64.704</td>
+<td>2017</td>
+</tr>
+
+<tr>
+<td>Medina-Sidonia</td>
+<td>11.863</td>
+<td>2016</td>
+</tr>
+
+<tr>
+<td>Puerto Real</td>
+<td>41.564</td>
+<td>2017</td>
+</tr>
+
+<tr>
+<td>Rota</td>
+<td>30.019</td>
+<td>2016</td>
+</tr>
+
+<tr>
+<td>Sanlúcar de Barrameda</td>
+<td>67.308</td>
+<td>2017</td>
+</tr>
+
+<tr>
+<td>Trebujena</td>
+<td>7.091</td>
+<td>2011</td>
+</tr>
+
+<tr>
+<td>Vejer de la Frontera</td>
+<td>12.857</td>
+<td>2017</td>
+</tr>
+
+</table>
+
+{{../footer}}

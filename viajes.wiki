@@ -1,12 +1,14 @@
 {{headerleaflet|1=Viajes}}
-{{vt|1=vuelta-a-espana/vuelta-a-espana|2=Vuelta a España}}
-{{vt|1=viajar-por-carretera|2=Viajar por carretera}}
 
-En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios y 50 provincias así que tengo diversión para rato. También recopilo algunos datos curiosos basados en '''mis viajes'''.
+<div id="map" style="float: right;width: 450px;height: 320px;"></div>
 
-== Mapa ==
+Esta sección está dedicada a recopilar detalles de '''mis viajes''', pequeños diarios y algunos datos curiosos. 
 
-<div id="map" style="float: right;width: 100%;height: 600px;"></div>
+En el mapa voy añadiendo un punto por cada lugar que he podido visitar. En España hay más de 8.000 municipios y 50 provincias así que tengo diversión para rato.
+
+* [[vuelta-a-espana/vuelta-a-espana|Vuelta a España]]
+* [[vuelta-a-andalucia/vuelta-a-andalucia|Vuelta a Andalucía]]
+* [[vuelta-a-cadiz/vuelta-a-cadiz|Vuelta a la provincia de Cádiz]]
 
 <script type="text/javascript">
     // http://leafletjs.com/examples/custom-icons.html
@@ -58,7 +60,7 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
         ["Villar de Domingo García", 40.238333, -2.294166], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 6);
+    var map = L.map('map').setView([40.416957, -3.703478], 5);
     mapLink = 
         '<a href="https://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
@@ -91,8 +93,6 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
 
 </script>
 
-{{clear}}
-
 == Resumen general ==
 
 * '''Países''' visitados: 1 (España).
@@ -115,10 +115,10 @@ En este mapa voy añadiendo un punto por cada lugar que he podido visitar. En Es
 Records relativos a distancias:
 
 <!--* '''Mayor distancia''' recorrida '''a pie''': 0 km-->
-* '''Mayor distancia''' recorrida en '''barco''': 5 km ([https://www.flickr.com/search/?user_id=96396586%40N07&sort=date-taken-desc&text=catamaran&view_all=1 Catamarán Bahía de Cádiz]).
-* '''Mayor distancia''' recorrida en '''coche''': 648 km ([https://www.flickr.com/photos/emijrp/sets/72157666413017526 Madrid-Cádiz por la A4]).
-* '''Mayor distancia''' recorrida en '''tren''': 1079 km ([https://www.flickr.com/photos/emijrp/sets/72157634580849470 AVE Sevilla-Barcelona]).
 <!--* '''Mayor distancia''' recorrida en '''avión''': 0 km-->
+* '''Mayor distancia''' recorrida en '''barco''': 5 km ([https://www.flickr.com/search/?user_id=96396586%40N07&sort=date-taken-desc&text=catamaran&view_all=1 Catamarán Bahía de Cádiz]).
+* '''Mayor distancia''' recorrida en '''coche''': 648 km ([https://www.flickr.com/photos/emijrp/sets/72157666413017526 Madrid-Cádiz por la A4]). Ver [[Viajar por carretera]].
+* '''Mayor distancia''' recorrida en '''tren''': 1079 km ([https://www.flickr.com/photos/emijrp/sets/72157634580849470 AVE Sevilla-Barcelona]).
 
 <!--
 Clima y meteorología:
