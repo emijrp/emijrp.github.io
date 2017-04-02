@@ -10,6 +10,7 @@ Estas gráficas, en forma de calendario-mapa de calor, muestran mi actividad en 
 <tr><td><div id="actividad-2011"></div></td><td><div id="actividad-2012"></div></td></tr>
 <tr><td><div id="actividad-2013"></div></td><td><div id="actividad-2014"></div></td></tr>
 <tr><td><div id="actividad-2015"></div></td><td valign=top><div id="actividad-2016"></div></td></tr>
+<tr><td><div id="actividad-2017"></div></td><td valign=top><div id="actividad-2018"></div></td></tr>
 </table>
 </center>
 
@@ -27,11 +28,13 @@ highlights[2013] = [ ];
 highlights[2014] = [ ];
 highlights[2015] = [ ];
 highlights[2016] = [ ];
+highlights[2017] = [ ];
+highlights[2018] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2016; i++) {
-    displaylegend = i == 2015;
+for (i = 2005; i <= 2017; i++) {
+    displaylegend = i == 2017;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-"+i, 
