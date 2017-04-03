@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 9: Cádiz}}</noinclude>
 
-{{sevilla-header}}
+{{cadiz-header}}
 
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
