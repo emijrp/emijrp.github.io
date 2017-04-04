@@ -85,7 +85,7 @@
         <td>11</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>125516</td>
+        <td>125584</td>
     </tr>
 
     <tr>
@@ -1016,7 +1016,7 @@
         <td>144</td>
         <td><a href="idiomas/idiomas.html">idiomas/idiomas.html</a></td>
         <td><a href="idiomas/idiomas.wiki">idiomas/idiomas.wiki</a></td>
-        <td>46</td>
+        <td>57</td>
     </tr>
 
     <tr>
