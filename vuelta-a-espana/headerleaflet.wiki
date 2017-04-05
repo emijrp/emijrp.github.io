@@ -1,2 +1,0 @@
-{{../headerleaflethtml|1={{{1}}} - Vuelta a España|2=../}}
-= {{{1}}} - [[vuelta-a-espana|Vuelta a España]] - [[../index|La web de emijrp]] =

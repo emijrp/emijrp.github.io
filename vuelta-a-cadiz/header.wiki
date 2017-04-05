@@ -1,2 +1,0 @@
-{{../headerhtml|1={{{1}}} - Vuelta a la provincia de Cádiz|2=../}}
-= {{{1}}} - [[vuelta-a-cadiz|Vuelta a la provincia de Cádiz]] - [[../index|La web de emijrp]] =
