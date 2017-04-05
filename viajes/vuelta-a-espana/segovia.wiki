@@ -1,0 +1,21 @@
+<noinclude>{{header|1=Etapa 2: Segovia}}</noinclude>
+
+{{segovia-header}}
+
+La '''provincia de Segovia''' se encuentra en '''Castilla y León''', al noroeste de Madrid. Es otro destino próximo a la capital de España y al que se puede llegar en tren también en una media hora (10 euros ida, 20 euros ida-vuelta). Me sorprendió mucho que los últimos 10-15 minutos del trayecto se hacen dentro de un túnel larguísimo y completamente oscuro, por lo que solo se puede disfrutar de las vistas desde el tren en la primera parte del viaje. (Nota: Días después buscando información sobre este tema, descubrí que se trata del '''Túnel ferroviario que atraviesa la Sierra de Guadarrama''', es el más largo de España)
+
+En mi caso llegué a la estación de Segovia-Guiomar, ya que el tren era de alta velocidad. Esta estación se encuentra en las afueras de Segovia por lo que hay que tomar un autobus local (2 euros) que te espera justo al salir de la estación y que te deja en la '''Plaza de la Artillería''', junto al acueducto, tras un trayecto de unos 15-20 minutos.
+
+Tengo que reconocer que el '''acueducto''' no me sorprendió tanto como esperaba. No sé si fue por tratarse de una construcción repetitiva (arcos y más arcos) y con poco ornamento o detalles en los que fijarse. En cualquier caso, es una gran obra de ingeniería romana, seguramente la más importante en España de las que se conservan, y Patrimonio de la Humanidad. Existen unas escaleras que permiten acceder a una zona alta próxima al acueducto, desde la que se puede ver la obra con otra perspectiva, además de la sierra (Peñalara) y el resto de la ciudad. Pasé allí bastante rato contemplando las vistas.
+
+Tras ver durante un rato el acueducto me dispuse a callejear y he de reconocer que me gustaron mucho sus calles, más que en el [[toledo|caso de Toledo]] (¿quizás porque no hay tantas cuestas?). Segovia está llena de miradores y si caminas durante unos minutos seguro que llegarás a alguno de ellos, desde los que se puede ver tanto las '''murallas de la ciudad''' como la naturaleza que rodea a la misma.
+
+Otros monumentos que pude ver fueron el '''Alcazar de Segovia, la Catedral, la Plaza Mayor, una estatua de Antonio Machado y la casa donde vivió''' (aunque estaba cerrada a la hora en la que me pasé, al almuerzo). Allí me encontré con una mujer uruguaya, profesora de literatura, que estaba recorriendo España y especialmente interesada en visitar la Casa de Machado, además de la de Lope de Vega (en Madrid) y la de Cervantes (en Alcalá de Henares). No pudo entrar pues como digo estaba cerrada. Estuvimos hablando durante un buen rato y luego nos despedimos. Después me di cuenta de que no nos habíamos dicho nuestros nombres y que quizás en el futuro, si converso con otros viajeros, podría intercambiar correos o algo para mantener el contacto.
+
+Compré unas postales como suelo hacer, en este caso en unas tiendas de recuerdos próximas a la catedral. Ya por la tarde regresé a la zona del acueducto para volver a verlo y un rato después tomé el autobus de regreso a la estación de Guiomar.
+
+<!--{{galeria-etapa|1=|2=|3=|4=}}-->
+
+<noinclude>{{navbox-etapa|pre-wiki=toledo|pre-etapa=Etapa 1: Toledo|etapa=Etapa 2: Segovia|sig-wiki=avila|sig-etapa=Etapa 3: Ávila}}</noinclude>
+
+<noinclude>{{../../footer}}</noinclude>

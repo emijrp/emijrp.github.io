@@ -1,0 +1,10 @@
+<noinclude>{{header|1=Etapa 8: Sevilla}}</noinclude>
+
+{{sevilla-header}}
+
+
+<!--{{galeria-etapa|1=|2=|3=|4=}}-->
+
+<noinclude>{{navbox-etapa|pre-wiki=salamanca|pre-etapa=Etapa 7: Salamanca|etapa=Etapa 8: Sevilla|sig-wiki=cadiz|sig-etapa=Etapa 9: Cádiz}}</noinclude>
+
+<noinclude>{{../../footer}}</noinclude>

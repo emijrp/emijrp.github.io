@@ -1,0 +1,10 @@
+
+<center>
+<table class="wikitable">
+
+<tr><td>{{{1}}}</td><td>{{{2}}}</td><td>{{{3}}}</td><td>{{{4}}}</td></tr>
+
+</table>
+</center>
+
+Puedes encontrar la galería completa en Flickr.

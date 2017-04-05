@@ -1,0 +1,19 @@
+{{header-etapa
+|wiki=sevilla
+|etapa=Etapa 8: Sevilla
+|provincia=Sevilla
+|superficie=
+|poblacion=
+|densidad=
+|municipios-visitados=Santiponce
+|distancia-recorrida=
+|fecha=
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=sevilla1.jpg
+|imagen-pie=
+}}
