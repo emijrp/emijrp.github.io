@@ -1,15 +1,13 @@
 {{header|1=Portada}}
 
-[[File:levantando-la-bandera-helio-korzhev.jpg|270px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]
-<!--<a href="images/pioneer10plaque.jpg"><img src="images/pioneer10plaque.jpg" width="300px" align="right" alt="Pioneer plaque" /></a>-->
-<!--<iframe align="right" width="400" height="250" src="//www.youtube-nocookie.com/embed/eyU3bRy2x44?autoplay=1" frameborder="0"></iframe>-->
-<!--<iframe align="right" width="400" height="250" src="//www.youtube-nocookie.com/embed/bg_6FYZVFd4?autoplay=1" frameborder="0"></iframe>-->
+<table align="right">
+<tr><td>[[File:levantando-la-bandera-helio-korzhev.jpg|270px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]</td></tr>
+<tr><td><iframe align="right" width="270" height="150" src="//www.youtube-nocookie.com/embed/S-zzlr3pThI" frameborder="0"></iframe></td></tr>
+</table>
 
 '''Te doy la bienvenida a mi web personal.''' Este sitio lo uso para recopilar información, tomar notas sobre todos los temas que me interesan y difundir mis ideas y proyectos. He tenido varios sitios web a lo largo de mi vida y este es el más reciente y donde trabajo actualmente (2017).
 
 Es un trabajo en continuo desarrollo, por ello las secciones pueden estar incompletas o contener ''herrores''. Espero ir añadiendo más información poco a poco. Si encuentras algo que te resulte de interés, fantástico.
-
-Si quieres, puedes [[contacto|contactar conmigo]].
 
 <!--'''Welcome to my website!''' I use this place to compile information, take some notes about all topics of my interest and spread the word about my ideas and projects. This is a work in-progress, so sections may be incomplete or contain ''msitakes''. If you find anything of your interest, great. You can [[contacto|contact me]] if you want.-->
 
@@ -39,7 +37,7 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=memoria.html|2=Memoria Histórica}}
     {{button-blue|1=mirrors.html|2=Mirrors}}
     {{button-blue|1=musica.html|2=Música}}
-    {{button-grey|1=Naturaleza}}
+    <!--{{button-grey|1=Naturaleza}}-->
     {{button-blue|1=nostalgia.html|2=Nostalgia}}
     {{button-blue|1=poesia.html|2=Poesía}}
     {{button-blue|1=preservacion-digital.html|2=Preservación digital}}
@@ -52,10 +50,9 @@ Si quieres, puedes [[contacto|contactar conmigo]].
     {{button-blue|1=sitemap.html|2=Sitemap}}
 </p>
 
-<p>Otras cosas: [[bne|Biblioteca Nacional de España]]{{o}} [[voynich|Manuscrito Voynich]]
-</p>
+Otras cosas: [[bne|Biblioteca Nacional de España]]{{o}} [[voynich|Manuscrito Voynich]]
 
-<p>También puedes usar el [[buscador]]</p>
+También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]].
 
 <!--Actualizaciones-->
 <!--Anotaciones
