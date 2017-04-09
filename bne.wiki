@@ -1,5 +1,7 @@
 {{header|1=Biblioteca Nacional de España}}
 
+La '''Biblioteca Nacional de España''' tiene su sede principal en el Paseo de Recoletos en Madrid, donde comparte edificio con el Museo Arqueológico Nacional. También tiene dependencias en Alcalá de Henares.
+
 == Libros que faltan en la Biblioteca Nacional de España ==
 
 La Biblioteca Nacional de España cuenta con un fondo de más de 15 millones de libros. Aun así, no están todos los libros, ni siquiera todos los que existen en español. A continuación enumero algunos títulos que he detectado que faltan en el [http://catalogo.bne.es/uhtbin/webcat catálogo de la biblioteca].
