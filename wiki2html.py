@@ -338,8 +338,8 @@ def search(wiki, path, wikifile):
     if m and m[0][1]:
         header = m[0][1]
         keywords = set([])
-        keywords |= set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{1,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{1,})*)', wiki)])
-        keywords |= set([x for x in re.findall(ur'([A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{3,})', wiki)])
+        keywords |= set([x[0].lower() for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{1,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{1,})*)', wiki)])
+        keywords |= set([x.lower() for x in re.findall(ur'([A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{3,})', wiki)])
         keywords.add(header)
         keywords = list(keywords)
         keywords.sort()
