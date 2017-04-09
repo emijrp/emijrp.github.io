@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2016 emijrp <emijrp@gmail.com>
+# Copyright (C) 2016-2017 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -337,8 +337,9 @@ def search(wiki, path, wikifile):
     m = re.findall(ur'(?im)\{\{\s*header[^\{\}\|\n\r]*?\s*\|\s*(1=)?\s*([^\{\}\|\n\r]+?)\s*\}\}', wiki)
     if m and m[0][1]:
         header = m[0][1]
-        keywords = []
-        keywords = set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{1,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{1,})*)', wiki)])
+        keywords = set([])
+        keywords |= set([x[0] for x in re.findall(ur'([A-ZÁÉÍÓÚÀÈÌÒÙÑÇ][A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{1,}([ \.][A-ZÁÉÍÓÚÑ][a-záéíóúñ]{1,})*)', wiki)])
+        keywords |= set([x for x in re.findall(ur'([A-Za-zÁÉÍÓÚÀÈÌÒÙÑÇáéíóúàèìòùñç\-]{3,})', wiki)])
         keywords.add(header)
         keywords = list(keywords)
         keywords.sort()
