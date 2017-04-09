@@ -141,22 +141,15 @@
         entry = document.getElementById('entry').value;
         if (entry.length <= 2) { return 0; }
         found = false;
-        
         document.getElementById('results').innerHTML = '<ul >';
-        results = array();
         for (i = 0; i < index.length; i++) {
             for (j = 0; j < index[i][3].length; j++) {
                 if (index[i][3][j].toLowerCase().indexOf(entry.toLowerCase()) == 0) {
                     document.getElementById('results').innerHTML += '    <li>Encontrado <i>' + index[i][3][j] + '</i> en <a href="' + index[i][1] + '/' + index[i][2] + '.html">' + index[i][0] + '</a></li>';
                     found = true;
-                    
                 }
             }
         }
-        if ( found ) {
-            
-        }
-        
         document.getElementById('results').innerHTML += '</ul >';
         if (!found) {
             document.getElementById('results').innerHTML = 'Sin resultados'; 
