@@ -28,6 +28,7 @@
 &nbsp;4. <a href="#Silvio Rodríguez">Silvio Rodríguez</a><br/>
 &nbsp;5. <a href="#Víctor Jara">Víctor Jara</a><br/>
 &nbsp;6. <a href="#Música por país">Música por país</a><br/>
+&nbsp;7. <a href="#Trucos">Trucos</a><br/>
 </td></tr>
 </table>
 
@@ -70,6 +71,10 @@
 
 
 <ul><li><b>Corea del Norte</b>: (<a href="https://www.youtube.com/watch?v=RrZkd4k_QPQ">1</a>) (2) (3) (4) (5) (<a href="https://www.youtube.com/channel/UChp0f0Tm7s3mFhYPg0Gh-sw">dprkconcert</a>) (<a href="https://www.youtube.com/user/201201051658">DPRK Music Fan</a>)</li><li><b>Cuba</b>: (1) (2) (3) (4) (5)</li><li><b>Japón</b>: (<a href="https://www.youtube.com/watch?v=-xu24sPbVR0">1</a>) (2) (3) (4) (5)</li><li><b>Vietnam</b>: (1) (2) (3) (4) (5)</li></ul>
+
+<h2 id="Trucos">Trucos</h2>
+
+<ul><li>Cómo fusionar varios mp3 usando ffmpeg: ffmpeg -i "concat:file1.mp3|file2.mp3|file3.mp3|file4.mp3|file5.mp3" -acodec copy output.mp3</li><li>Cómo añadir una imagen a un mp3 y generar un mp4: ffmpeg -loop 1 -i folder.jpg -i output.mp3 -shortest -b 1000k -acodec copy output.mp4</li><li>Cómo limitar consumo cpu a ffmpeg: cpulimit -z -e ffmpeg -l 50</li></ul>
 
 <div class="footer">
 <hr/>

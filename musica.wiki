@@ -45,5 +45,11 @@ Algunas muestras de música por país.
 * '''Japón''': ([https://www.youtube.com/watch?v=-xu24sPbVR0 1]) (2) (3) (4) (5)
 * '''Vietnam''': (1) (2) (3) (4) (5)
 
+== Trucos ==
+
+* Cómo fusionar varios mp3 usando ffmpeg: ffmpeg -i "concat:file1.mp3|file2.mp3|file3.mp3|file4.mp3|file5.mp3" -acodec copy output.mp3
+* Cómo añadir una imagen a un mp3 y generar un mp4: ffmpeg -loop 1 -i folder.jpg -i output.mp3 -shortest -b 1000k -acodec copy output.mp4
+* Cómo limitar consumo cpu a ffmpeg: cpulimit -z -e ffmpeg -l 50
+
 {{footer}}
 
