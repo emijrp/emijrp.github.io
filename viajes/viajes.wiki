@@ -218,4 +218,4 @@ Fuera ya de Europa... lo iré mirando...
 
 -->
 
-{{footer}}
+{{../footer}}
