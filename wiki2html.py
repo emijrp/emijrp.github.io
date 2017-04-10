@@ -25,6 +25,12 @@ import sys
 # que genere una galeria de archivos con todo el directorio images
 # generar jpg con la portada de los pdf
 
+def log(error=False, msg=""):
+    if error:
+        with open("error.log", "a") as f:
+            msg = "%s\n" % (msg)
+            f.write(msg.encode("utf-8"))
+
 def readwikifile(path, wikifile):
     fullpath = '%s/%s' % (path, wikifile)
     if os.path.exists(fullpath):
@@ -33,6 +39,7 @@ def readwikifile(path, wikifile):
         f.close()
     else:
         wiki = u'<span style="text-color: #FF0000;">[Página %s no encontrada]</span>' % (fullpath)
+        log(error=True, msg="%s not found" % (fullpath))
     
     return wiki
 
