@@ -241,8 +241,9 @@ def main():
             filmc += 1
             if '(C)' in filmtitle_:
                 shortc += 1
+            else:
+                countries.add(filmprops['countryid'])
             years.add(filmprops['year'])
-            countries.add(filmprops['countryid'])
             row = u"""
     <tr>
         <td>%s</td>
