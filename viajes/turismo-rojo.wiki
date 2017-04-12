@@ -13,7 +13,8 @@ Cosas por añadir al mapa:
 
 * Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.
 * Casas natales y Calles de las 13 Rosas, a luchadores antifranquistas y a intelectuales.
-* Lugares de la memoria en Andalucía.
+* Lugares de la memoria en Andalucía
+** Sincronizar con https://memoriahistorica.wikis.cc/wiki/Lugares_de_Memoria_Hist%C3%B3rica_de_Andaluc%C3%ADa
 * Campos de concentración franquistas, cárceles.
 * Cementerios y lugares de fusilamientos.
 * Buscar algún grupo en Flickr sobre MH y sino existe crearlo.
@@ -30,8 +31,13 @@ Cosas por añadir al mapa:
         //["Madrid", 40.416957, -3.703478], 
         
         //Andalucía
+        
         //Provincia de Almería
+        ["Antigua cárcel del Ingenio", 36.843728, -2.434214, "", "Lugares de Memoria Histórica de Andalucía."], 
+        ["Monumento a los asesinados en el Campo de Concentración de Mauthausen, en el Parque de las Almadrabillas", 36.830819, -2.457363, "", "Lugares de Memoria Histórica de Andalucía."], 
+        
         //Provincia de Cádiz
+        
         //Cádiz
         ["Castillo de San Sebastián", 36.528662, -6.316686, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
         ["Muros de Puerta Tierra", 36.526296, -6.288413, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
@@ -41,11 +47,14 @@ Cosas por añadir al mapa:
         ["Calle Daniel Ortega", 36.603951, -6.227174, "", "Médico comunista, Diputado a Cortes durante la II República"], 
         ["Monumento a los presos políticos del franquismo", 36.605419, -6.217750, "", "En el jardín del Monasterio de la Victoria"], 
         ["Monumento a Rafael Alberti", 36.594830, -6.227157, "", "En la Plaza del Polvorista"], 
+        
         //Puerto Real
         ["Avda. 14 de Abril", 36.525493, -6.173916, "", "Toda la zona tiene calles con nombres memorialistas. A destacar la Glorieta dedicada a las Brigadas Internacionales"], 
         ["Glorieta de las Brigadas Internacionales", 36.525746, -6.174687, "", "Estrella roja de tres puntas"], 
+        
         //Jimena de la Frontera
         ["Casa de la Memoria 'La Sauceda'", 36.433831, -5.453072, "", "En Jimena de la Frontera"], 
+        
         //Sanlúcar de Barrameda
         ["Monumento a los fusilados por el franquismo en Sanlúcar de Barrameda", 36.776720, -6.350988, "", "Junto al Castillo de Santiago"], 
 
