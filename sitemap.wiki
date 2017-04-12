@@ -85,7 +85,7 @@
         <td>11</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>277747</td>
+        <td>277761</td>
     </tr>
 
     <tr>
@@ -561,14 +561,14 @@
         <td>79</td>
         <td><a href="cine/documentales.html">cine/documentales.html</a></td>
         <td><a href="cine/documentales.wiki">cine/documentales.wiki</a></td>
-        <td>144334</td>
+        <td>145102</td>
     </tr>
 
     <tr>
         <td>80</td>
         <td><a href="cine/estadisticas-cine.html">cine/estadisticas-cine.html</a></td>
         <td><a href="cine/estadisticas-cine.wiki">cine/estadisticas-cine.wiki</a></td>
-        <td>639119</td>
+        <td>651454</td>
     </tr>
 
     <tr>
