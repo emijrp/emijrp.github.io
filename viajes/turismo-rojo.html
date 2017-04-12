@@ -32,6 +32,8 @@ Cosas por añadir al mapa:
 
 <div id="map" style="float: center;width: 100%; height: 400px;"></div>
 
+<div id="table"></div>
+
 <script type="text/javascript">
     // http://leafletjs.com/examples/custom-icons.html
     
@@ -41,30 +43,30 @@ Cosas por añadir al mapa:
         //Andalucía
         
         //Provincia de Almería
-        ["Antigua cárcel del Ingenio", 36.843728, -2.434214, "", "Lugares de Memoria Histórica de Andalucía."], 
-        ["Monumento a los asesinados en el Campo de Concentración de Mauthausen, en el Parque de las Almadrabillas", 36.830819, -2.457363, "", "Lugares de Memoria Histórica de Andalucía."], 
+        ["Antigua cárcel del Ingenio", "Provincia de Almería", "Andalucía", 36.843728, -2.434214, "", "Lugares de Memoria Histórica de Andalucía."], 
+        ["Monumento a los asesinados en el Campo de Concentración de Mauthausen, en el Parque de las Almadrabillas", "Provincia de Almería", "Andalucía", 36.830819, -2.457363, "", "Lugares de Memoria Histórica de Andalucía."], 
         
         //Provincia de Cádiz
         
         //Cádiz
-        ["Castillo de San Sebastián", 36.528662, -6.316686, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
-        ["Muros de Puerta Tierra", 36.526296, -6.288413, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
+        ["Castillo de San Sebastián", "Provincia de Cádiz", "Andalucía", 36.528662, -6.316686, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
+        ["Muros de Puerta Tierra", "Provincia de Cádiz", "Andalucía", 36.526296, -6.288413, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
         
         //El Puerto de Santa María
-        ["Antiguo Penal de El Puerto", 36.605517, -6.217236, "", "Lugar de Memoria Histórica de Andalucía. Hoy Monasterio de la Victoria"], 
-        ["Calle Daniel Ortega", 36.603951, -6.227174, "", "Médico comunista, Diputado a Cortes durante la II República"], 
-        ["Monumento a los presos políticos del franquismo", 36.605419, -6.217750, "", "En el jardín del Monasterio de la Victoria"], 
-        ["Monumento a Rafael Alberti", 36.594830, -6.227157, "", "En la Plaza del Polvorista"], 
+        ["Antiguo Penal de El Puerto", "Provincia de Cádiz", "Andalucía", 36.605517, -6.217236, "", "Lugar de Memoria Histórica de Andalucía. Hoy Monasterio de la Victoria"], 
+        ["Calle Daniel Ortega", "Provincia de Cádiz", "Andalucía", 36.603951, -6.227174, "", "Médico comunista, Diputado a Cortes durante la II República"], 
+        ["Monumento a los presos políticos del franquismo", "Provincia de Cádiz", "Andalucía", 36.605419, -6.217750, "", "En el jardín del Monasterio de la Victoria"], 
+        ["Monumento a Rafael Alberti", "Provincia de Cádiz", "Andalucía", 36.594830, -6.227157, "", "En la Plaza del Polvorista"], 
         
         //Puerto Real
-        ["Avda. 14 de Abril", 36.525493, -6.173916, "", "Toda la zona tiene calles con nombres memorialistas. A destacar la Glorieta dedicada a las Brigadas Internacionales"], 
-        ["Glorieta de las Brigadas Internacionales", 36.525746, -6.174687, "", "Estrella roja de tres puntas"], 
+        ["Avda. 14 de Abril", "Provincia de Cádiz", "Andalucía", 36.525493, -6.173916, "", "Toda la zona tiene calles con nombres memorialistas. A destacar la Glorieta dedicada a las Brigadas Internacionales"], 
+        ["Glorieta de las Brigadas Internacionales", "Provincia de Cádiz", "Andalucía", 36.525746, -6.174687, "", "Estrella roja de tres puntas"], 
         
         //Jimena de la Frontera
-        ["Casa de la Memoria 'La Sauceda'", 36.433831, -5.453072, "", "En Jimena de la Frontera"], 
+        ["Casa de la Memoria 'La Sauceda'", "Provincia de Cádiz", "Andalucía", 36.433831, -5.453072, "", "En Jimena de la Frontera"], 
         
         //Sanlúcar de Barrameda
-        ["Monumento a los fusilados por el franquismo en Sanlúcar de Barrameda", 36.776720, -6.350988, "", "Junto al Castillo de Santiago"], 
+        ["Monumento a los fusilados por el franquismo en Sanlúcar de Barrameda", "Provincia de Cádiz", "Andalucía", 36.776720, -6.350988, "", "Junto al Castillo de Santiago"], 
 
     ];
 
@@ -75,13 +77,19 @@ Cosas por añadir al mapa:
         'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; ' + mapLink + ' Contributors',
         }).addTo(map);
-
+    
+    places.sort();
+    table = '<table class="wikitable sortable">';
+    table += '<tr><th>Punto de interés</th><th width="200px">Provincia</th><th width="200px">Comunidad autónoma</th><th>Detalles</th></tr>';
     for (var i = 0; i < places.length; i++) {
-        marker = new L.marker([places[i][1],places[i][2]])
-            .bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '" width="0px" /><br/>' + places[i][4] + '')
+        marker = new L.marker([places[i][3],places[i][4]])
+            .bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][5] + '" width="0px" /><br/>' + places[i][6] + '')
             //.bindPopup('<b>' + places[i][0] + '</b>')
             .addTo(map);
+        table += '\n<tr><td>' + places[i][0] + '</td><td style="text-align: center;">' + places[i][1] + '</td><td style="text-align: center;">' + places[i][2] + '</td><td>' + places[i][6] + '</td></tr>';
     }
+    table += '\n</table>';
+    document.getElementById('table').innerHTML = table;
 
 </script>
 
