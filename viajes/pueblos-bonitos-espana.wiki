@@ -1,0 +1,80 @@
+{{headerleaflet|1=Los pueblos más bonitos de España}}
+
+<table class="wikitable sortable" style="text-align: center;">
+
+<tr><th>Pueblo</th><th>Provincia</th><th>Comunidad autónoma</th><th>Designado en</th></tr>
+
+
+<tr><td>Lucainena de las Torres</td><td>Almería</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Mojácar</td><td>Almería</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Grazalema</td><td>Cádiz</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Vejer de la Frontera</td><td>Cádiz</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Zuheros</td><td>Córdoba</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Capileira</td><td>Granada</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Pampaneira</td><td>Granada</td><td>Andalucía</td><td>?</td></tr>
+
+<tr><td>Frigiliana</td><td>Málaga</td><td>Andalucía</td><td>?</td></tr>
+
+
+<tr><td>Aínsa</td><td>Huesca</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Alquézar</td><td>Huesca</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Ansó</td><td>Huesca</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Albarracín</td><td>Teruel</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Calaceite</td><td>Teruel</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Cantavieja</td><td>Teruel</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Puertomingalvo</td><td>Teruel</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Rubielos de Mora</td><td>Teruel</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Valderrobres</td><td>Teruel</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Anento</td><td>Zaragoza</td><td>Aragón</td><td>?</td></tr>
+
+<tr><td>Sos del Rey Católico</td><td>Zaragoza</td><td>Aragón</td><td>?</td></tr>
+
+
+<tr><td>Lastres</td><td>Asturias</td><td>Asturias</td><td>?</td></tr>
+
+<tr><td>Torazo</td><td>Asturias</td><td>Asturias</td><td>?</td></tr>
+
+
+<tr><td>Fornalutx</td><td>Baleares</td><td>Baleares</td><td>?</td></tr>
+
+
+<tr><td>Tejeda</td><td>Las Palmas</td><td>Canarias</td><td>?</td></tr>
+
+
+<tr><td>Bárcena Mayor</td><td>Cantabria</td><td>Cantabria</td><td>?</td></tr>
+
+<tr><td>Liérganes</td><td>Cantabria</td><td>Cantabria</td><td>?</td></tr>
+
+<tr><td>Santillana del Mar</td><td>Cantabria</td><td>Cantabria</td><td>?</td></tr>
+
+
+<tr><td>Alcalá del Júcar</td><td>Albacete</td><td>Castilla-La Mancha</td><td>?</td></tr>
+
+<tr><td>Almagro</td><td>Ciudad Real</td><td>Castilla-La Mancha</td><td>?</td></tr>
+
+<tr><td>Villanueva de los Infantes</td><td>Ciudad Real</td><td>Castilla-La Mancha</td><td>?</td></tr>
+
+<tr><td>Valverde de los Arroyos</td><td>Guadalajara</td><td>Castilla-La Mancha</td><td>?</td></tr>
+
+<tr><td>Hita</td><td>Guadalajara</td><td>Castilla-La Mancha</td><td>?</td></tr>
+
+
+
+</table>
+
+{{../footer}}
