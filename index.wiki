@@ -1,9 +1,6 @@
 {{header|1=Portada}}
 
-<table align="right">
-<tr><td>[[File:levantando-la-bandera-helio-korzhev.jpg|270px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]</td></tr>
-<tr><td><iframe align="right" width="275" height="180" src="//www.youtube-nocookie.com/embed/S-zzlr3pThI" frameborder="0"></iframe></td></tr>
-</table>
+[[File:levantando-la-bandera-helio-korzhev.jpg|270px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]
 
 '''Te doy la bienvenida a mi web personal.''' Este sitio lo uso para recopilar información, tomar notas sobre todos los temas que me interesan y difundir mis ideas y proyectos. He tenido varios sitios web a lo largo de mi vida y este es el más reciente y donde trabajo actualmente (2017).
 
@@ -33,6 +30,7 @@ Es un trabajo en continuo desarrollo, por ello las secciones pueden estar incomp
     {{button-blue|1=idiomas/idiomas.html|2=Idiomas}}
     <!--{{button-grey|1=Informática}}-->
     {{button-blue|1=locapedias.html|2=Locapedias}}
+    <!--{{button-grey|1=Mecánica}}-->
     {{button-blue|1=medios.html|2=Medios}}
     {{button-blue|1=memoria.html|2=Memoria Histórica}}
     {{button-blue|1=mirrors.html|2=Mirrors}}
