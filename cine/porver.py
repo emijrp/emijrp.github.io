@@ -46,12 +46,12 @@ def main():
         m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>', raw)
         for i in m:
             filmswatched.append(i.group('id').strip())
-        time.sleep(2)
+        time.sleep(1)
     
     #films to check
     filmstocheck = []
     for page in range(1, 100):
-        faurl = 'https://www.filmaffinity.com/es/advsearch.php?page=%s&stype[]=title&toyear=1900' % (page)
+        faurl = 'https://www.filmaffinity.com/es/advsearch.php?page=%s&stype[]=title&toyear=1905' % (page)
         print 'Retrieving', faurl
         raw = getURL(url=faurl)
         if not raw:
@@ -59,7 +59,7 @@ def main():
         m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>', raw)
         for i in m:
             filmstocheck.append(i.group('id').strip())
-        time.sleep(2)
+        time.sleep(1)
     
     rows = []
     for filmtocheck in filmstocheck:
@@ -82,7 +82,7 @@ def main():
             except:
                 print 'Error'
                 pass
-            time.sleep(3)
+            time.sleep(1.5)
     
     table = u'<table class="wikitable sortable" style="text-align: center;">\n'
     table += u'<tr><th>#</th><th>Título</th><th>Dirección</th><th>Año</th><th>País</th><th>Duración</th><th>Vídeos</th></tr>\n'
