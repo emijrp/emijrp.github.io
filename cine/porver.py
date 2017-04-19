@@ -85,7 +85,15 @@ def main():
             time.sleep(1.5)
     
     table = u'<table class="wikitable sortable" style="text-align: center;">\n'
-    table += u'<tr><th>#</th><th>Título</th><th>Dirección</th><th>Año</th><th>País</th><th>Duración</th><th>Vídeos</th></tr>\n'
+    table += u"""<tr>
+    <th class="sorttable_numeric">#</th>
+    <th class="sorttable_alpha">Título</th>
+    <th class="sorttable_alpha">Dirección</th>
+    <th class="sorttable_numeric">Año</th>
+    <th class="sorttable_alpha">País</th>
+    <th class="sorttable_numeric">Duración</th>
+    <th class="sorttable_alpha">Vídeos</th>
+</tr>\n"""
     c = 1
     for row in rows:
         filmtocheck, title, country, year, directors, duration, videos, faurl = row
