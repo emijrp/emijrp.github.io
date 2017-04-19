@@ -6,7 +6,27 @@ Suelo escuchar principalmente '''música libre''', es decir, aquellas canciones 
 
 También me gusta que las canciones tengan mensaje, por ello me interesan los siguientes músicos o grupos.
 
-== Dead Prez ==
+== Música por país ==
+
+Algunas muestras de música por país.
+{{youtube|id=RrZkd4k_QPQ}}
+
+* '''Alemania del Este (RDA)''': ([https://www.youtube.com/watch?v=22L5FCNPkrA 1]) (2) (3) (4) (5)
+* '''Corea del Norte (RPDC)''': ([https://www.youtube.com/watch?v=RrZkd4k_QPQ 1]) ([https://www.youtube.com/watch?v=zq54msMu3Sc]) (3) (4) (5) ([https://www.youtube.com/channel/UChp0f0Tm7s3mFhYPg0Gh-sw dprkconcert]) ([https://www.youtube.com/user/201201051658 DPRK Music Fan])
+* '''Cuba''': (1) (2) (3) (4) (5)
+* '''Japón''': ([https://www.youtube.com/watch?v=-xu24sPbVR0 1]) (2) (3) (4) (5)
+* '''Unión Soviética (URSS)''': ([https://www.youtube.com/watch?v=_L1Eh5iJBS4 1]) (2) (3) (4) (5)
+* '''Vietnam''': ([https://www.youtube.com/watch?v=By3tadgWESM 1]) ([https://www.youtube.com/watch?v=jPWGGJEQT8Y 2]) (3) (4) (5)
+
+<!--
+
+Música revolucionaria de Vietnam del Norte https://en.wikipedia.org/wiki/Nh%E1%BA%A1c_%C4%91%E1%BB%8F
+
+-->
+
+== Por cantante o grupo ==
+
+=== Dead Prez ===
 {{youtube|id=NWSs77u4_I0}}
 
 Dúo de hip hop creado en Nueva York en 1996 por stic.man y M-1. Conocidos por su estilo combativo y letras de carácter socialista enfocadas a la justicia social y el panafricanismo. Se oponen al control de los medios y sellos de hip hop por parte de las corporaciones. ([https://es.wikipedia.org/wiki/Dead_prez Sigue en Wikipedia])
@@ -15,7 +35,7 @@ Dúo de hip hop creado en Nueva York en 1996 por stic.man y M-1. Conocidos por s
     <li>[https://www.youtube.com/playlist?list=PLSNLaAwR6E8xQFzXM3EgjLxoi54FmHema Lista de reproducción con algunas canciones]</li>
 </ul>
 
-== Ismael Serrano ==
+=== Ismael Serrano ===
 
 Cantautor español con letras comprometidas con algunas causas sociales, como la guerrilla zapatista en ''México insurgente'' o las víctimas de la represión de las dictaduras Argentina y Chile en ''A las madres de Mayo'' y ''Vine del norte'' respectivamente. También contra las guerras de Vietnam y en Oriente Próximo en ''Papá cuéntame otra vez'', la lucha por la República en España y la recuperación de la memoria histórica, entre otras. ([https://es.wikipedia.org/wiki/Ismael_Serrano Sigue en Wikipedia])</p>
 
@@ -23,27 +43,17 @@ Cantautor español con letras comprometidas con algunas causas sociales, como la
     <li>[https://www.youtube.com/playlist?list=PLSNLaAwR6E8xOTQm4zjEyg2g7wr4V1hSS Lista de reproducción con algunas canciones]</li>
 </ul>
 
-== Pablo Hasél ==
+=== Pablo Hasél ===
 
 Por expandir
 
-== Silvio Rodríguez ==
+=== Silvio Rodríguez ===
 
 Por expandir
 
-== Víctor Jara ==
+=== Víctor Jara ===
 
 Por expandir
-
-== Música por país ==
-
-Algunas muestras de música por país.
-{{youtube|id=RrZkd4k_QPQ}}
-
-* '''Corea del Norte''': ([https://www.youtube.com/watch?v=RrZkd4k_QPQ 1]) (2) (3) (4) (5) ([https://www.youtube.com/channel/UChp0f0Tm7s3mFhYPg0Gh-sw dprkconcert]) ([https://www.youtube.com/user/201201051658 DPRK Music Fan])
-* '''Cuba''': (1) (2) (3) (4) (5)
-* '''Japón''': ([https://www.youtube.com/watch?v=-xu24sPbVR0 1]) (2) (3) (4) (5)
-* '''Vietnam''': (1) (2) (3) (4) (5)
 
 == Trucos ==
 
