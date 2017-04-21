@@ -71,11 +71,14 @@ def main():
             try:
                 raw = getURL(url=faurl)
                 title = re.findall(ur'(?im)<h1 id="main-title">\s*<span itemprop="name">([^<>]*?)</span>\s*</h1>', raw)[0]
-                duration = re.findall(ur'(?im)<dd itemprop="duration">(\d+) min\.</dd>', raw)[0]
+                duration = re.findall(ur'(?im)<dd itemprop="duration">(\d+) min\.</dd>', raw)
+                duration = duration and duration[0] or '?'
                 videos = re.search(ur'Tráilers', raw) and True or False
                 directors = re.findall(ur'(?im)title="([^<>]+?)">', raw.split('<dd class="directors">')[1].split('</dd>')[0])
-                country = re.findall(ur'<dd><span id="country-img"><img src="/imgs/countries/.+jpg" alt="[^<>]+" title="([^<>]+)"></span>[^<>]+</dd>', raw)[0]
-                year = re.findall(ur'<dd itemprop="datePublished">(\d\d\d\d)</dd>', raw)[0]
+                country = re.findall(ur'<dd><span id="country-img"><img src="/imgs/countries/.+jpg" alt="[^<>]+" title="([^<>]+)"></span>[^<>]+</dd>', raw)
+                country = country and country[0] or '?'
+                year = re.findall(ur'<dd itemprop="datePublished">(\d\d\d\d)</dd>', raw)
+                year = year and year[0] or '?'
                 row = [filmtocheck, title, country, year, directors, duration, videos, faurl]
                 print row
                 rows.append(row)
