@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2015-2016 emijrp <emijrp@gmail.com>
+# Copyright (C) 2015-2017 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -81,34 +81,6 @@ def main():
     statscountry = {}
     statsyear = {}
     statsdecade = {}
-    
-    """
-    #read 15mpedia pages, lo comento porque la mayoría de pelis no tiene cabida en el wiki, habría que enfocarlo de otra forma esto
-    pediafilms = {}
-    startid = u'-'
-    while startid:
-        print startid
-        print 'Reading 15Mpedia films from %s' % startid
-        queryurl = u'https://15mpedia.org/w/index.php?title=Especial%%3AAsk&q=[[Page+has+default+form%%3A%%3APelícula]][[filmaffinity+id%%3A%%3A!no]][[filmaffinity+id%%3A%%3A%%3E%s]]&p=format%%3Dbroadtable%%2Flink%%3Dall%%2Fheaders%%3Dshow%%2Fclass%%3Dsortable-20wikitable-20smwtable&po=%%3FFilmaffinity+id%%0A%%3FRebeldemule+url%%0A%%3FVimeo+id%%0A%%3FYoutube+id%%0A&eq=yes' % (startid)
-        try:
-            req = urllib2.Request(queryurl.encode('utf-8'), headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
-        except:
-            break
-        #print html
-        m = re.findall(ur'(?im)<tr class="row-(?:even|odd)">\s*<td[^<>]*?><a href=[^<>]*?>([^<>]*?)</a></td>\s*<td[^<>]*?>([^<>]*?)</td>\s*<td[^<>]*?>(?:<a [^<>]*?>([^<>]*?)</a>|)</td>\s*<td[^<>]*?>([^<>]*?)</td>\s*<td[^<>]*?>([^<>]*?)</td>\s*</tr>', html)
-        if len(m) > 0:
-            for i in m:
-                pediafilms[i[1]] = {'title':i[0], 'fa':i[1], 'rm':i[2], 'vimeo':i[3], 'youtube':i[4]}
-            if startid == i[1]:
-                break
-            else:
-                startid = i[1]
-        else:
-            print 'La regexp fallo'
-            sys.exit()
-    #print pediafilms.items()
-    """
     
     #read filmaffinity profile
     ratings = []
