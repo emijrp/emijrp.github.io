@@ -71,4 +71,4 @@ for (i = 2005; i <= 2017; i++) {
 
 La gráfica está generada usando la biblioteca [https://github.com/kamisama/cal-heatmap cal-heatmap] y un [https://github.com/emijrp/emijrp.github.io/blob/master/actividad.py script ad-hoc].
 
-{{footer}}
+{{../footer}}
