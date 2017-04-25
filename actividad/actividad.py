@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2014-2016 emijrp <emijrp@gmail.com>
+# Copyright (C) 2014-2017 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -25,6 +25,7 @@ def main():
     projects = [
         ['Emijrp', '15mpedia', 'https://15mpedia.org/w/api.php'], 
         ['Emijrp', 'Almeriapedia', 'https://almeriapedia.wikanda.es/w/api.php'], 
+        ['Emijrp', 'Archive Team', 'http://archiveteam.org/api.php'], 
         ['Emijrp', 'Cadizpedia', 'https://cadizpedia.wikanda.es/w/api.php'], 
         ['Emijrp', 'Comunpedia', 'https://comunpedia.wikis.cc/w/api.php'], 
         ['Emijrp', 'Cordobapedia', 'https://cordobapedia.wikanda.es/w/api.php'], 
