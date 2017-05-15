@@ -1,0 +1,7 @@
+{{header|1=Genios atormentados}}
+
+* Cantor
+* Godel
+* Nash
+
+{{footer}}
