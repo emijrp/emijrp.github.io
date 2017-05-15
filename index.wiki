@@ -35,7 +35,7 @@ Es un trabajo en continuo desarrollo, por ello las secciones pueden estar incomp
     {{button-blue|1=memoria.html|2=Memoria Histórica}}
     {{button-blue|1=mirrors.html|2=Mirrors}}
     {{button-blue|1=musica.html|2=Música}}
-    <!--{{button-grey|1=Naturaleza}}-->
+    {{button-blue|1=naturaleza.html|2=Naturaleza}}
     {{button-blue|1=nostalgia.html|2=Nostalgia}}
     {{button-blue|1=poesia.html|2=Poesía}}
     {{button-blue|1=preservacion-digital.html|2=Preservación digital}}
