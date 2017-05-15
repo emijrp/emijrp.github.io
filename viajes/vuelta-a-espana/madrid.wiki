@@ -4,29 +4,25 @@
 
 Dado que he estado unos meses viviendo en la Comunidad de Madrid, han sido varios los días salteados en los que he hecho turismo por la provincia. Esta es una etapa «especial» que resume algunos de los lugares visitados, sin más orden que el alfabético para los municipios y el cronológico cuando he repetido visita.
 
-== Alcalá de Henares ==
+* Alcalá de Henares
+** Casa Cervantes
+** Museo Arqueológico Regional
+** Torre de Santa María
 
-* Casa Cervantes
-* Museo Arqueológico Regional
-* Torre de Santa María
+* Aranjuez
+** Palacio Real
 
-== Aranjuez ==
+* Madrid
+** Museos: Prado, RS, Thyssen, Antropológico
+** Jardín Botánico
+** Callejeando
+** Feria del libro, El Retiro
+** Biblioteca Nacional
+** Congreso
+** Faro de Moncloa
 
-* Palacio Real
-
-== Madrid ==
-
-* Museos: Prado, RS, Thyssen, Antropológico
-* Jardín Botánico
-* Callejeando
-* Feria del libro, El Retiro
-* Biblioteca Nacional
-* Congreso
-* Faro de Moncloa
-
-== Torrejón de Ardoz ==
-
-* Parque Europa
+* Torrejón de Ardoz
+** Parque Europa
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 

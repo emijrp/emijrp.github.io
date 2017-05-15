@@ -16,4 +16,32 @@
 
 {{guadalajara}}
 
-{{../footer}}
+== Etapa 5: Madrid ==
+
+{{madrid}}
+
+== Etapa 6: Cuenca ==
+
+{{cuenca}}
+
+== Etapa 7: Salamanca ==
+
+{{salamanca}}
+
+== Etapa 8: Sevilla ==
+
+{{sevilla}}
+
+== Etapa 9: Cádiz ==
+
+{{cadiz}}
+
+== Etapa 10: Málaga ==
+
+{{malaga}}
+
+== Etapa 11: Burgos ==
+
+{{burgos}}
+
+{{../../footer}}

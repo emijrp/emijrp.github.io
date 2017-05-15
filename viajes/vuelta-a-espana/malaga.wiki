@@ -5,6 +5,6 @@
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=cadiz|pre-etapa=Etapa 9: Cádiz|etapa=Etapa 10: Málaga|sig-wiki=|sig-etapa=}}</noinclude>
+<noinclude>{{navbox-etapa|pre-wiki=cadiz|pre-etapa=Etapa 9: Cádiz|etapa=Etapa 10: Málaga|sig-wiki=burgos|sig-etapa=Etapa 11: Burgos}}</noinclude>
 
 <noinclude>{{../../footer}}</noinclude>

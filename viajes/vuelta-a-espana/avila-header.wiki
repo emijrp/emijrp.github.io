@@ -9,11 +9,11 @@
 |distancia-recorrida=110 km
 |fecha=1 de junio de 2016
 |duracion=1 día
-|arquitectura-civil=
-|arquitectura-religiosa=
-|museos=
-|naturaleza=
-|otros=
+|arquitectura-civil=Murallas de Ávila
+|arquitectura-religiosa=Basílica de San Vicente, Catedral de Ávila, Los 4 Postes
+|museos=Archivo General Militar de Ávila
+|naturaleza=Río Adaja
+|otros=Arco del Mariscal, Plaza del Mercado chico
 |imagen=avila1.jpg
 |imagen-pie=Muralla de Ávila
 }}

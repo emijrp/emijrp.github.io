@@ -9,11 +9,11 @@
 |distancia-recorrida=70 km
 |fecha=17 de mayo de 2016
 |duracion=1 día
-|arquitectura-civil=
-|arquitectura-religiosa=
-|museos=
-|naturaleza=
-|otros=
+|arquitectura-civil=Alcázar de Toledo, Castillo de San Severiano, Estación de tren de Toledo
+|arquitectura-religiosa=Catedral de Toledo, Sinagoga de Toledo
+|museos=Museo de El Greco, Museo de Santa Cruz
+|naturaleza=Río Tajo
+|otros=Academia de Infantería, Plaza Zocodover, Puente de Alcántara
 |imagen=toledo1.jpg
 |imagen-pie=Alcazar de Toledo
 }}

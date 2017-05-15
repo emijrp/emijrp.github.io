@@ -1,0 +1,19 @@
+{{header-etapa
+|wiki=burgos
+|etapa=Etapa 11: Burgos
+|provincia=Burgos
+|superficie=
+|poblacion=
+|densidad=
+|municipios-visitados=Burgos
+|distancia-recorrida=
+|fecha=
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=burgos1.jpg
+|imagen-pie=
+}}

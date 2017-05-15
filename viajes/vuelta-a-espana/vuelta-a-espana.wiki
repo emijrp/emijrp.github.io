@@ -40,7 +40,7 @@
     
 </script>
 
-La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas,<ref>La semana del 6 al 12 de junio no visité ninguna provincia nueva, sino que hice turismo por Madrid que ya la conocía. De modo que esa semana rompí la continuidad de 1 semana = 1 provincia nueva.</ref> pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.
+La '''Vuelta a España''' es un intento por recorrer las 50 provincias de España y sus 2 ciudades autónomas (Ceuta y Melilla) en 50+2 semanas, justamente las semanas que componen un año. No sé si lograré la meta de visitarlas todas y casi con toda seguridad no será en 52 semanas consecutivas,<ref>La semana del 6 al 12 de junio de 2016 no visité ninguna provincia nueva, sino que hice turismo por Madrid que ya la conocía. De modo que esa semana rompí la continuidad de 1 semana = 1 provincia nueva.</ref> pero lo intentaré. De todas formas si necesitara 2 ó 3 años (o más) para completar la ruta, no me importaría.<ref>A 17 de mayo de 2017, un año después de haber comenzado este reto, solo había logrado recorrer 11 provincias distintas ([[Toledo]], [[Segovia]], [[Ávila]], [[Guadalajara]], [[Madrid]], [[Cuenca]], [[Salamanca]], [[Sevilla]], [[Cádiz]], [[Málaga]] y [[Burgos]]). Redondeando y haciendo la media sale a casi 1 por mes. El reto sigue en pie y espero completarlo tomando el tiempo que sea necesario.</ref>
 
 A lo largo de mi vida ya había visitado las provincias de Barcelona, Cáceres, Cádiz, Córdoba, Granada, Madrid, Málaga y Sevilla, por lo que daré prioridad a visitar aquellas que aún no he conocido. La idea de dar la vuelta a España me surgió después de visitar en menos de 15 días las provincias de [[Toledo]] y [[Segovia]], gracias a su proximidad a Madrid, donde estoy viviendo temporalmente. Entonces pensé en la posibilidad de visitar otras provincias limítrofes con Madrid y quizás más alla.
 
@@ -90,6 +90,10 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 === Etapa 10: Málaga ===
 
 {{malaga-header}}
+
+=== Etapa 11: Burgos ===
+
+{{burgos-header}}
 
 == Notas ==
 {{reflist}}
