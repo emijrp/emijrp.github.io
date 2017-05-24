@@ -20,6 +20,13 @@ Por '''tema''':
 </td></tr>
 </table>
 
+<!--
+Añadir lineas al mapa para:
+* Viaje coche Madrid-Cuenca
+* Viaje coche Madrid-Burgos
+* Viaje bus Madrid-Cádiz
+-->
+
 <script type="text/javascript">
     // http://leafletjs.com/examples/custom-icons.html
     
