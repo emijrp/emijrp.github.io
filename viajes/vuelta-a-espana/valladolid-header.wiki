@@ -1,0 +1,19 @@
+{{header-etapa
+|wiki=valladolid
+|etapa=Etapa 12: Valladolid
+|provincia=Valladolid
+|superficie=
+|poblacion=
+|densidad=
+|municipios-visitados=Valladolid
+|distancia-recorrida=
+|fecha=
+|duracion=1 día
+|arquitectura-civil=
+|arquitectura-religiosa=
+|museos=
+|naturaleza=
+|otros=
+|imagen=valladolid1.jpg
+|imagen-pie=
+}}

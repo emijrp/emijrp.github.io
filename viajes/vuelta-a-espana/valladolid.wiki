@@ -1,0 +1,10 @@
+<noinclude>{{header|1=Etapa 12: Valladolid}}</noinclude>
+
+{{valladolid-header}}
+
+
+<!--{{galeria-etapa|1=|2=|3=|4=}}-->
+
+<noinclude>{{navbox-etapa|pre-wiki=burgos|pre-etapa=Etapa 11: Burgos|etapa=Etapa 12: Valladolid|sig-wiki=|sig-etapa=}}</noinclude>
+
+<noinclude>{{../../footer}}</noinclude>

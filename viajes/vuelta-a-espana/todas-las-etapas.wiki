@@ -44,4 +44,8 @@
 
 {{burgos}}
 
+== Etapa 12: Valladolid ==
+
+{{valladolid}}
+
 {{../../footer}}

@@ -95,6 +95,10 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 
 {{burgos-header}}
 
+=== Etapa 12: Valladolid ===
+
+{{valladolid-header}}
+
 == Notas ==
 {{reflist}}
 {{reflist-end}}

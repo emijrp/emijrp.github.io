@@ -1,0 +1,8 @@
+{{header|1=Matemáticas}}
+
+* Teorema de incompletitud de Godel
+* Hipótesis del contínuo de Cantor
+* Alan Turing
+
+
+{{footer}}
