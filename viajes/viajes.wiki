@@ -81,13 +81,13 @@ Añadir lineas al mapa para:
         ["Villar de Domingo García", 40.238333, -2.294166], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 5);
+    var map = L.map('map').setView([40.416957, -3.703478], 6);
     mapLink = 
         '<a href="https://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
         'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; ' + mapLink + ' Contributors',
-        maxZoom: 13,
+        maxZoom: 12,
         }).addTo(map);
 
     for (var i = 0; i < places.length; i++) {
@@ -120,7 +120,8 @@ Añadir lineas al mapa para:
     var cocheMadridBurgosLine = new L.Polyline(cocheMadridBurgosPoints, { color: 'yellow', weight: 3, opacity: 0.5, smoothFactor: 1 });
     
     
-    aveSevBcnLine.addTo(map);
+    aveSevillaBarcelonaLine.addTo(map);
+    cocheMadridBurgosLine.addTo(map);
 
 </script>
 
