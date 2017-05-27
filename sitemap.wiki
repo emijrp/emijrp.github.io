@@ -64,7 +64,7 @@
         <td>8</td>
         <td><a href="./biblioteca.html">./biblioteca.html</a></td>
         <td><a href="./biblioteca.wiki">./biblioteca.wiki</a></td>
-        <td>47422</td>
+        <td>47521</td>
     </tr>
 
     <tr>
@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>293269</td>
+        <td>293853</td>
     </tr>
 
     <tr>
@@ -302,7 +302,7 @@
         <td>42</td>
         <td><a href="./locapedias.html">./locapedias.html</a></td>
         <td><a href="./locapedias.wiki">./locapedias.wiki</a></td>
-        <td>56453</td>
+        <td>56489</td>
     </tr>
 
     <tr>
@@ -456,7 +456,7 @@
         <td>64</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>65397</td>
+        <td>65709</td>
     </tr>
 
     <tr>
@@ -596,14 +596,14 @@
         <td>84</td>
         <td><a href="cine/documentales.html">cine/documentales.html</a></td>
         <td><a href="cine/documentales.wiki">cine/documentales.wiki</a></td>
-        <td>171159</td>
+        <td>175728</td>
     </tr>
 
     <tr>
         <td>85</td>
         <td><a href="cine/estadisticas-cine.html">cine/estadisticas-cine.html</a></td>
         <td><a href="cine/estadisticas-cine.wiki">cine/estadisticas-cine.wiki</a></td>
-        <td>694659</td>
+        <td>696598</td>
     </tr>
 
     <tr>
@@ -638,7 +638,7 @@
         <td>90</td>
         <td><a href="cine/porver.html">cine/porver.html</a></td>
         <td><a href="cine/porver.wiki">cine/porver.wiki</a></td>
-        <td>486</td>
+        <td>49839</td>
     </tr>
 
     <tr>
