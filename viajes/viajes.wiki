@@ -23,7 +23,6 @@ Por '''tema''':
 <!--
 Añadir lineas al mapa para:
 * Viaje coche Madrid-Cuenca
-* Viaje coche Madrid-Burgos
 * Viaje bus Madrid-Cádiz
 -->
 
@@ -81,7 +80,7 @@ Añadir lineas al mapa para:
         ["Villar de Domingo García", 40.238333, -2.294166], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 6);
+    var map = L.map('map').setView([40.416957, -3.703478], 5);
     mapLink = 
         '<a href="https://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
@@ -117,7 +116,7 @@ Añadir lineas al mapa para:
         new L.LatLng(42.026171, -3.768706), // Lerma
         new L.LatLng(42.340659, -3.704412), // Burgos
     ];
-    var cocheMadridBurgosLine = new L.Polyline(cocheMadridBurgosPoints, { color: 'yellow', weight: 3, opacity: 0.5, smoothFactor: 1 });
+    var cocheMadridBurgosLine = new L.Polyline(cocheMadridBurgosPoints, { color: 'purple', weight: 3, opacity: 0.5, smoothFactor: 1 });
     
     
     aveSevillaBarcelonaLine.addTo(map);
