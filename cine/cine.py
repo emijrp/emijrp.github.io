@@ -326,8 +326,8 @@ def main():
     savetable('estadisticas-cine.wiki', 'total paises', countrytotal)
     
     stats = u"<ul>\n"
-    stats += u"<li>Por <b>años</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmYearLink(x), x, y) for y, x in statsyear_list]))
-    stats += u"<li>Por <b>décadas</b>: %s</a>\n" % (', '.join([u'%s0 (%s)' % (x, y) for y, x in statsdecade_list]))
+    stats += u"<li>Por <b>año</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmYearLink(x), x, y) for y, x in statsyear_list]))
+    stats += u"<li>Por <b>década</b>: %s</a>\n" % (', '.join([u'%s0 (%s)' % (x, y) for y, x in statsdecade_list]))
     stats += u"<li>Por <b>director</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmDirectorLink(x), cleanFilmDirector(x), y) for y, x in statsdirector_list]))
     stats += u"<li>Por <b>país</b>: %s</a>\n" % (', '.join([u'<a href="%s">%s</a> (%s)' % (getFilmCountryLink(x), x, y) for y, x in statscountry_list]))
     stats += u"</ul>\n"
