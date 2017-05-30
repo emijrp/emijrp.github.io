@@ -1,8 +1,9 @@
 body{
-    background-color: #ffffe5;
     font-family: "dejavu sans","arial",sans-Serif;
     font-size: 100%;
     margin: 20px;
+    width: 1240px;
+    background: -webkit-linear-gradient(left, lightgrey, lightgrey 1240px, white 100%, white);
 }
 
 a:link, a:visited{
