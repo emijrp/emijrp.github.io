@@ -21,7 +21,7 @@ import re
 import sys
 
 def main():
-    #load json
+    #load json files
     foto = {}
     with open('actividad-foto.json', 'r') as infile:
         foto = json.loads(infile.read())
@@ -39,7 +39,7 @@ def main():
             else:
                 total[k] = v
     
-    #save json
+    #save json total
     with open('actividad-total.json', 'w') as outfile:
         outfile.write(json.dumps(total, indent=4, sort_keys=True))
     print('Saved in actividad-total.json')
