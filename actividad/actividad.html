@@ -52,7 +52,7 @@ ideas para añadir a actividad:
 
 <script type="text/javascript">
 var highlights = new Array();
-highlights[2005] = [ new Date(2005, 3, 19) ];
+highlights[2005] = [ new Date(2005, 0, 1) ];
 highlights[2006] = [ ];
 highlights[2007] = [ ];
 highlights[2008] = [ ];
@@ -102,7 +102,6 @@ for (i = 2005; i <= 2017; i++) {
         }, 
     });
 }
-
 </script>
 
 <h2 id="Cine">Cine</h2>
@@ -113,9 +112,73 @@ for (i = 2005; i <= 2017; i++) {
 
 <h2 id="Fotografía">Fotografía</h2>
 
-<p>Mi <b>actividad en fotografía</b> consiste en la publicación en Flickr y Commons de la mayoría de las fotografías que hago.</p>
+<p>Mi <b>actividad en fotografía</b> consiste en la publicación en <a href="https://www.flickr.com/photos/emijrp/">Flickr</a> y <a href="https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1">Commons</a> de la mayoría de las fotografías que tomo. La fecha está extraida de los metadatos EXIF que todas las cámaras insertan en las imágenes. La primera fotografía digital que subí a Commons mostraba el monumento de <a href="https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg">Puerta Tierra en Cádiz</a> y la tomé el 20 de enero de 2005.</p>
 
-<p>por desarrollar</p>
+<center>
+<table style="text-align: center;">
+<tr style="margin-bottom:20px;"><td><div id="actividad-foto-2005"></div></td><td><div id="actividad-foto-2006"></div></td></tr>
+<tr><td><div id="actividad-foto-2007"></div></td><td><div id="actividad-foto-2008"></div></td></tr>
+<tr><td><div id="actividad-foto-2009"></div></td><td><div id="actividad-foto-2010"></div></td></tr>
+<tr><td><div id="actividad-foto-2011"></div></td><td><div id="actividad-foto-2012"></div></td></tr>
+<tr><td><div id="actividad-foto-2013"></div></td><td><div id="actividad-foto-2014"></div></td></tr>
+<tr><td><div id="actividad-foto-2015"></div></td><td valign=top><div id="actividad-foto-2016"></div></td></tr>
+<tr><td><div id="actividad-foto-2017"></div></td><td valign=top><div id="actividad-foto-2018"></div></td></tr>
+</table>
+</center>
+
+<script type="text/javascript">
+var highlights = new Array();
+highlights[2005] = [ new Date(2005, 0, 1) ];
+highlights[2006] = [ ];
+highlights[2007] = [ ];
+highlights[2008] = [ ];
+highlights[2009] = [ ];
+highlights[2010] = [ ];
+highlights[2011] = [ ];
+highlights[2012] = [ ];
+highlights[2013] = [ ];
+highlights[2014] = [ ];
+highlights[2015] = [ ];
+highlights[2016] = [ ];
+highlights[2017] = [ ];
+highlights[2018] = [ ];
+
+var years = new Array();
+moment.lang("es");
+for (i = 2005; i <= 2017; i++) {
+    displaylegend = i == 2017;
+    years[i] = new CalHeatMap();
+    years[i].init({
+        itemSelector: "#actividad-foto-"+i, 
+        itemName: ["fotografía", "fotografías"], 
+        domain: "year", 
+        subDomain: "day", 
+        data: "actividad-foto.json", 
+        start: new Date(i, 0), 
+        weekStartOnMonday: true, 
+        highlight: highlights[i], 
+        cellSize: 10, 
+        range: 1, 
+        displayLegend: displaylegend,
+        legend: [20, 40, 60, 80], 
+        legendTitleFormat: {
+            lower: "Menos de {min} {name}",
+            inner: "Entre {down} y {up} {name}",
+            upper: "Más de {max} {name}"
+        },
+        subDomainDateFormat:  function(date) {
+            return moment(date).format("LL");
+        }, 
+        subDomainTextFormat: function(date, value) {
+            if (value > 80) {
+                return ;
+            } else {
+                return value;
+            }
+        }, 
+    });
+}
+</script>
 
 <h2 id="Wikis">Wikis</h2>
 
@@ -187,7 +250,6 @@ for (i = 2005; i <= 2017; i++) {
         }, 
     });
 }
-
 </script>
 
 <div class="footer">

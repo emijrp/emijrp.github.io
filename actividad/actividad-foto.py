@@ -30,6 +30,7 @@ def main():
     uccontinue = True
     uccontinue_name = 'gcmcontinue'
     c = 0
+    activity = {}
     rows = []
     while uccontinue:
         sys.stderr.write(".")
@@ -55,6 +56,14 @@ def main():
                 for metadict in data2['query']['pages'][pageid]['imageinfo'][0]['metadata']:
                     if metadict['name'].lower() == 'datetimeoriginal':
                         originaldate = metadict['value'].strip()
+                        d1 = originaldate.split(' ')[0]
+                        if d1 != '0000:00:00':
+                            d = datetime.datetime.strptime(d1, "%Y:%m:%d")
+                            unixtime = d.strftime('%s')
+                            if activity.has_key(unixtime):
+                                activity[unixtime] += 1
+                            else:
+                                activity[unixtime] = 1
                     if metadict['name'].lower() == 'model':
                         model = metadict['value'].strip()
             
