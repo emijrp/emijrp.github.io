@@ -156,6 +156,12 @@ for (i = 2005; i <= 2017; i++) {
 }
 </script>
 
+== Software ==
+
+Actividad en distintas forjas, GitHub principalmente.
+
+por desarrollar
+
 == Wikis ==
 
 Mi '''actividad en wikis''' se concentra en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://wiki.15m.cc 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers].
