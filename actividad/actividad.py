@@ -101,7 +101,6 @@ def main():
             else:
                 json_data = urllib.urlopen(api+apiquery+'&'+uccontinue_name+'='+uccontinue)
             data = json.load(json_data)
-            #print data
             for edit in data['query']['usercontribs']:
                 #d = datetime.datetime.strptime(edit['timestamp'], "%Y-%m-%dT%H:%M:%SZ")
                 d = datetime.datetime.strptime(edit['timestamp'].split('T')[0], "%Y-%m-%d")
@@ -113,7 +112,6 @@ def main():
                 subtotal += 1
                 total += 1
             json_data.close()
-            #print data
             if data.has_key('query-continue'):
                 if not data['query-continue']['usercontribs'].has_key(uccontinue_name):
                     uccontinue_name = 'ucstart'
@@ -123,13 +121,12 @@ def main():
             else:
                 uccontinue = ''
             
-            #print uccontinue
-            #break
         print '\n', project, subtotal, 'ediciones'
     
     print '\nTotal', total, 'ediciones'
     
-    with open('actividad.json', 'w') as outfile:
+    #save json
+    with open('actividad-wiki.json', 'w') as outfile:
         outfile.write(json.dumps(activity, indent=4, sort_keys=True))
 
 if __name__ == '__main__':

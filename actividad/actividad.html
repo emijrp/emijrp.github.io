@@ -19,18 +19,34 @@
 
 <h1>Actividad - <a href="../index.html">La web de emijrp</a></h1>
 
+<!--
+ideas para añadir a actividad:
+<ul><li>hacer un total</li><li>subsecciones para:</li><ul><li>wikis (actual)</li><li>cine (Filmaffinity)</li><li>fotografía (flickr&commons)</li><li>twitter (log descargable)</li><li>forjas (github)</li></ul></ul>
 
-<p>Estas gráficas, en forma de calendario-mapa de calor, muestran mi actividad en <a href="https://www.wikipedia.org">Wikipedia</a>, <a href="https://commons.wikimedia.org">Commons</a>, <a href="https://www.wikidata.org">Wikidata</a>, <a href="https://es.wikibooks.org">Wikibooks</a>, <a href="https://es.wiktionary.org">Wiktionary</a>, <a href="https://es.wikinews.org">Wikinews</a> y otros wikis como <a href="https://wiki.15m.cc">15Mpedia</a>, <a href="http://archiveteam.org">Archive Team</a>, <a href="http://wiki.nolesvotes.org">No les votes</a>, <a href="http://wikiindex.org">Wikiindex</a> y <a href="http://wikipapers.referata.com">WikiPapers</a>. Solamente están contadas las aportaciones con la cuenta "Emijrp" que suman más de 150.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). En estas gráficas no se incluyen las aportaciones realizadas con los bots que controlo (<a href="https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT">AVBOT</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo">BOTijo</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot">Emijrpbot</a> y otros), que en total superan las 10 millones de ediciones. Más que las cifras totales, lo que me llamó la atención cuando vi los resultados dibujados es la constancia a lo largo del tiempo, con pocos días de inactividad.</p>
+-->
+<p>Esta página recoge mi <b>actividad</b> en distintas facetas a lo largo del tiempo. Dado que la mayoría de los sitios web en los que participo registran la fecha en la que se realiza cada acción, solo hay que saber extraer el listado completo y representarlas visualmente. Para ello he escogido un calendario-mapa de calor, generadas con la biblioteca <a href="https://github.com/kamisama/cal-heatmap">cal-heatmap</a> y un <a href="https://github.com/emijrp/emijrp.github.io/blob/master/actividad.py">script ad-hoc</a>.</p>
+
+<table id="toc" class="wikitable">
+<tr><th>Tabla de contenidos</th></tr>
+<tr><td>
+&nbsp;1. <a href="#Total">Total</a><br/>
+&nbsp;2. <a href="#Cine">Cine</a><br/>
+&nbsp;3. <a href="#Fotografía">Fotografía</a><br/>
+&nbsp;4. <a href="#Wikis">Wikis</a><br/>
+</td></tr>
+</table>
+
+<h2 id="Total">Total</h2>
 
 <center>
 <table style="text-align: center;">
-<tr style="margin-bottom:20px;"><td><div id="actividad-2005"></div></td><td><div id="actividad-2006"></div></td></tr>
-<tr><td><div id="actividad-2007"></div></td><td><div id="actividad-2008"></div></td></tr>
-<tr><td><div id="actividad-2009"></div></td><td><div id="actividad-2010"></div></td></tr>
-<tr><td><div id="actividad-2011"></div></td><td><div id="actividad-2012"></div></td></tr>
-<tr><td><div id="actividad-2013"></div></td><td><div id="actividad-2014"></div></td></tr>
-<tr><td><div id="actividad-2015"></div></td><td valign=top><div id="actividad-2016"></div></td></tr>
-<tr><td><div id="actividad-2017"></div></td><td valign=top><div id="actividad-2018"></div></td></tr>
+<tr style="margin-bottom:20px;"><td><div id="actividad-total-2005"></div></td><td><div id="actividad-total-2006"></div></td></tr>
+<tr><td><div id="actividad-total-2007"></div></td><td><div id="actividad-total-2008"></div></td></tr>
+<tr><td><div id="actividad-total-2009"></div></td><td><div id="actividad-total-2010"></div></td></tr>
+<tr><td><div id="actividad-total-2011"></div></td><td><div id="actividad-total-2012"></div></td></tr>
+<tr><td><div id="actividad-total-2013"></div></td><td><div id="actividad-total-2014"></div></td></tr>
+<tr><td><div id="actividad-total-2015"></div></td><td valign=top><div id="actividad-total-2016"></div></td></tr>
+<tr><td><div id="actividad-total-2017"></div></td><td valign=top><div id="actividad-total-2018"></div></td></tr>
 </table>
 </center>
 
@@ -57,11 +73,11 @@ for (i = 2005; i <= 2017; i++) {
     displaylegend = i == 2017;
     years[i] = new CalHeatMap();
     years[i].init({
-        itemSelector: "#actividad-"+i, 
-        itemName: ["edición", "ediciones"], 
+        itemSelector: "#actividad-total-"+i, 
+        itemName: ["acción", "acciones"], 
         domain: "year", 
         subDomain: "day", 
-        data: "actividad.json", 
+        data: "actividad-total.json", 
         start: new Date(i, 0), 
         weekStartOnMonday: true, 
         highlight: highlights[i], 
@@ -79,7 +95,7 @@ for (i = 2005; i <= 2017; i++) {
         }, 
         subDomainTextFormat: function(date, value) {
             if (value > 80) {
-                return '';
+                return ;
             } else {
                 return value;
             }
@@ -89,7 +105,90 @@ for (i = 2005; i <= 2017; i++) {
 
 </script>
 
-<p>La gráfica está generada usando la biblioteca <a href="https://github.com/kamisama/cal-heatmap">cal-heatmap</a> y un <a href="https://github.com/emijrp/emijrp.github.io/blob/master/actividad.py">script ad-hoc</a>.</p>
+<h2 id="Cine">Cine</h2>
+
+<p>Mi <b>actividad en cine</b> se centra en visionar películas, documentales y cortometrajes que luego puntuo en el portal FilmAffinity. La siguiente gráfica recoge los días en los que he puntuado alguna de estas obras.</p>
+
+<p>por desarrollar</p>
+
+<h2 id="Fotografía">Fotografía</h2>
+
+<p>Mi <b>actividad en fotografía</b> consiste en la publicación en Flickr y Commons de la mayoría de las fotografías que hago.</p>
+
+<p>por desarrollar</p>
+
+<h2 id="Wikis">Wikis</h2>
+
+<p>Mi <b>actividad en wikis</b> se concentra en <a href="https://www.wikipedia.org">Wikipedia</a>, <a href="https://commons.wikimedia.org">Commons</a>, <a href="https://www.wikidata.org">Wikidata</a>, <a href="https://es.wikibooks.org">Wikibooks</a>, <a href="https://es.wiktionary.org">Wiktionary</a>, <a href="https://es.wikinews.org">Wikinews</a> y otros como <a href="https://wiki.15m.cc">15Mpedia</a>, <a href="http://archiveteam.org">Archive Team</a>, <a href="http://wiki.nolesvotes.org">No les votes</a>, <a href="http://wikiindex.org">Wikiindex</a> y <a href="http://wikipapers.referata.com">WikiPapers</a>.</p>
+
+<p>Solamente están contadas las aportaciones con mi cuenta "Emijrp" que suman más de 150.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo (<a href="https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT">AVBOT</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo">BOTijo</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot">Emijrpbot</a> y otros), que en total superan las 10 millones de ediciones.</p>
+
+<center>
+<table style="text-align: center;">
+<tr style="margin-bottom:20px;"><td><div id="actividad-wiki-2005"></div></td><td><div id="actividad-wiki-2006"></div></td></tr>
+<tr><td><div id="actividad-wiki-2007"></div></td><td><div id="actividad-wiki-2008"></div></td></tr>
+<tr><td><div id="actividad-wiki-2009"></div></td><td><div id="actividad-wiki-2010"></div></td></tr>
+<tr><td><div id="actividad-wiki-2011"></div></td><td><div id="actividad-wiki-2012"></div></td></tr>
+<tr><td><div id="actividad-wiki-2013"></div></td><td><div id="actividad-wiki-2014"></div></td></tr>
+<tr><td><div id="actividad-wiki-2015"></div></td><td valign=top><div id="actividad-wiki-2016"></div></td></tr>
+<tr><td><div id="actividad-wiki-2017"></div></td><td valign=top><div id="actividad-wiki-2018"></div></td></tr>
+</table>
+</center>
+
+<script type="text/javascript">
+var highlights = new Array();
+highlights[2005] = [ new Date(2005, 3, 19) ];
+highlights[2006] = [ ];
+highlights[2007] = [ ];
+highlights[2008] = [ ];
+highlights[2009] = [ ];
+highlights[2010] = [ ];
+highlights[2011] = [ ];
+highlights[2012] = [ ];
+highlights[2013] = [ ];
+highlights[2014] = [ ];
+highlights[2015] = [ ];
+highlights[2016] = [ ];
+highlights[2017] = [ ];
+highlights[2018] = [ ];
+
+var years = new Array();
+moment.lang("es");
+for (i = 2005; i <= 2017; i++) {
+    displaylegend = i == 2017;
+    years[i] = new CalHeatMap();
+    years[i].init({
+        itemSelector: "#actividad-wiki-"+i, 
+        itemName: ["edición", "ediciones"], 
+        domain: "year", 
+        subDomain: "day", 
+        data: "actividad-wiki.json", 
+        start: new Date(i, 0), 
+        weekStartOnMonday: true, 
+        highlight: highlights[i], 
+        cellSize: 10, 
+        range: 1, 
+        displayLegend: displaylegend,
+        legend: [20, 40, 60, 80], 
+        legendTitleFormat: {
+            lower: "Menos de {min} {name}",
+            inner: "Entre {down} y {up} {name}",
+            upper: "Más de {max} {name}"
+        },
+        subDomainDateFormat:  function(date) {
+            return moment(date).format("LL");
+        }, 
+        subDomainTextFormat: function(date, value) {
+            if (value > 80) {
+                return ;
+            } else {
+                return value;
+            }
+        }, 
+    });
+}
+
+</script>
 
 <div class="footer">
 <hr/>

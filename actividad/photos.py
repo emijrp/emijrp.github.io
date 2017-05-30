@@ -73,12 +73,16 @@ def main():
     
     #todo
     
-    #Save CSV
+    #save csv
     rows.sort()
     with open('photos.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for row in rows:
             writer.writerow(row)
+    
+    #save json
+    with open('actividad-foto.json', 'w') as outfile:
+        outfile.write(json.dumps(activity, indent=4, sort_keys=True))
 
 if __name__ == '__main__':
     main()
