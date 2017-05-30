@@ -15,6 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import datetime
 import os
 import re
 import sys
@@ -266,6 +267,13 @@ def itemlist(wiki, wikifile):
     
     return wiki
 
+def timestamp(wiki, path, wikifile):
+    pathtofile = '%s/%s' % (path, wikifile)
+    dt = datetime.datetime.utcfromtimestamp(os.path.getmtime(pathtofile))
+    wiki = re.sub('<!-- timestamp -->.*?<!-- /timestamp -->', '<!-- timestamp -->%s<!-- /timestamp -->' % (dt.strftime('%Y-%m-%d %H:%M:%S')), wiki)
+    
+    return wiki
+
 def toc(wiki, wikifile):
     if '__notoc__' in wiki.lower():
         wiki = re.sub(r'(?im)__NOTOC__', '', wiki)
@@ -367,6 +375,7 @@ def wiki2html(wiki, path, wikifile):
     wiki = linksexternal(wiki, wikifile)
     wiki = itemlist(wiki, wikifile)
     wiki = toc(wiki, wikifile)
+    wiki = timestamp(wiki, path, wikifile)
     
     html = wiki
     return html
@@ -413,7 +422,7 @@ def readwikidirs():
 
 def main():
     if len(sys.argv) < 2:
-        print('Error: parameter needed')
+        print('Error, parameter needed. Supported params are --all or filename to process')
         sys.exit()
     
     wikifiles = []
