@@ -23,7 +23,8 @@ import urllib.request
 
 medios = {
     'diariooctubre': { 'nombre': 'Diario Octubre', 'portada': 'https://diario-octubre.com', 'feed': 'https://diario-octubre.com/feed/' }, 
-    'elterritoriodellince': { 'nombre': 'El Territorio del Lince', 'portada': 'https://elterritoriodellince.blogspot.com', 'feed': 'https://elterritoriodellince.blogspot.com' }, 
+    'elterritoriodellince': { 'nombre': 'El Territorio del Lince', 'portada': 'https://elterritoriodellince.blogspot.com', 'feed': 'https://elterritoriodellince.blogspot.com/feeds/posts/default' }, 
+    'labocadora': { 'nombre': "La Boca d'Or", 'portada': 'https://labocadora.blogspot.com', 'feed': 'https://labocadora.blogspot.com/feeds/posts/default' }, 
 }
 
 def getURL(url=''):
@@ -37,29 +38,36 @@ def diariooctubre(medio=''):
     xtitles = re.findall(r'<title>([^<>]+?)</title>', raw)
     xposts = re.findall(r"<link>(https?://diario-octubre.com[^ ]+?)</link>", raw)
     xdates = re.findall(r"<pubDate>([^<>]+?)</pubDate>", raw)
-    if len(xposts) != len(xdates):
-        print('Error en %s' % (medio))
-    else:
-        c = 1
-        while c < len(xposts):
-            dt = datetime.datetime.strptime(xdates[c].split(' +')[0], "%a, %d %b %Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")  
-            posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': dt }
-            c += 1
+    c = 1
+    while c < len(xposts):
+        dt = datetime.datetime.strptime(xdates[c].split(' +')[0], "%a, %d %b %Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")  
+        posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': dt }
+        c += 1
     return posts
 
 def elterritoriodellince(medio=''):
     posts = {}
     raw = getURL(url=medios[medio]['feed'])
-    xtitles = re.findall(r'<span style="color: red; font-size: large;"><b>([^<>]+?)</b></span>', raw)
-    xposts = re.findall(r"<meta content='(https?://elterritoriodellince.blogspot.com[^ ]+?)' itemprop='url'/>", raw)
-    xdates = re.findall(r"itemprop='datePublished' title='(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)", raw)
-    if len(xposts) != len(xdates):
-        print('Error en %s' % (medio))
-    else:
-        c = 0
-        while c < len(xposts):
-            posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': re.sub('T', ' ', xdates[c]) }
-            c += 1
+    #xtitles = re.findall(r"<title type='text'>([^<>]*?)</title>", raw)
+    xtitles = re.findall(r"color: red; font-size: large;&quot;&gt;&lt;b&gt;([^<>]*?)&lt;/b&gt;&lt;/span&gt;", raw)
+    xposts = re.findall(r"<link rel='alternate' type='text/html' href='([^<>]*?)' title='", raw)
+    xdates = re.findall(r"<published>(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)[^<>]*?</published>", raw)
+    c = 0
+    while c < len(xposts):
+        posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': re.sub('T', ' ', xdates[c]) }
+        c += 1
+    return posts
+
+def labocadora(medio=''):
+    posts = {}
+    raw = getURL(url=medios[medio]['feed'])
+    xtitles = re.findall(r"<title type='text'>([^<>]*?)</title>", raw)
+    xposts = re.findall(r"<link rel='alternate' type='text/html' href='([^<>]*?)' title='", raw)
+    xdates = re.findall(r"<published>(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)[^<>]*?</published>", raw)
+    c = 0
+    while c < len(xposts):
+        posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c+1]), 'fecha': re.sub('T', ' ', xdates[c]) }
+        c += 1
     return posts
 
 def savetable(filename, tablemark, table):
@@ -77,6 +85,7 @@ def main():
     posts = []
     posts.append(diariooctubre(medio='diariooctubre'))
     posts.append(elterritoriodellince(medio='elterritoriodellince'))
+    posts.append(labocadora(medio='labocadora'))
     postsall = {}
     for posts2 in posts:
         for k, v in posts2.items():

@@ -11,69 +11,241 @@ Para contrarrestar esto es útil consultar medios de comunicación que den otro 
     <th>Medio</th>
 </tr>
 <tr>
+    <td>2017-05-31 19:04:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/bombardeo-almeria-1937.html Bombardeo Almería. 1937.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
     <td>2017-05-31 14:56:01</td>
     <td>[https://diario-octubre.com/2017/05/31/ejercito-sirio-despliega-fuerzas-cerca-de-las-tropas-de-eeuu/ La popularidad de Rusia se dispara en Europa del Este]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 13:52:51</td>
     <td>[https://diario-octubre.com/2017/05/31/lavrov-sobre-las-acusaciones-de-macron-contra-rt-y-sputnik-no-hay-pruebas/ Ejército sirio despliega fuerzas cerca de las tropas de EEUU]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 13:49:58</td>
     <td>[https://diario-octubre.com/2017/05/31/dos-portaviones-de-eeuu-maniobran-cerca-de-la-peninsula-de-corea/ Lavrov sobre las acusaciones de Macron contra RT y Sputnik: “No hay pruebas”]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 13:16:00</td>
     <td>[https://diario-octubre.com/2017/05/31/amnistia-internacional-condena-la-violencia-policial-contra-los-periodistas-en-francia/ Dos portaviones de EEUU maniobran cerca de la península de Corea]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 13:07:00</td>
     <td>[https://diario-octubre.com/2017/05/31/desaparecen-activistas-que-investigaban-fabrica-de-ivanka-trump-en-china/ Amnistía Internacional condena la violencia policial contra los periodistas en Francia]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 12:47:12</td>
     <td>[https://diario-octubre.com/2017/05/31/temer-hizo-el-trabajo-sucio-contra-dilma-pero-o-globo-ya-tiene-sustituto-frente-a-lula/ Desaparecen activistas que investigaban fábrica de Ivanka Trump en China]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 12:15:00</td>
     <td>[https://diario-octubre.com/2017/05/31/todos-juntos-en-comunion/ Temer hizo el trabajo sucio contra Dilma, pero ¿O Globo ya tiene sustituto frente a Lula?]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 12:06:00</td>
     <td>[https://diario-octubre.com/2017/05/31/moscu-ataques-aereos-de-la-coalicion-de-eeuu-agravan-la-situacion-en-siria/ Todos juntos en comunión]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 12:05:00</td>
     <td>[https://diario-octubre.com/2017/05/31/ultima-hora-trump-toma-la-decision-de-sacar-a-ee-uu-del-acuerdo-de-paris-sobre-el-cambio-climatico/ Moscú: ataques aéreos de la coalición de EEUU agravan la situación en Siria]</td>
-    <td>[https://diario-octubre.com Diario Octubre]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-30 17:25:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/felix-cadras-y-jacques-decour-1942.html Felix Cadras y Jacques Decour. 1942.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
 </tr><tr>
     <td>2017-05-30 03:21:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/un-crujido-de-hojas-hace-ya-muchos-anos.html Un crujido de hojas]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-29 19:29:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/antonia-fontanillas-1917.html Antonia Fontanillas. 1917.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
 </tr><tr>
     <td>2017-05-28 05:26:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/y-entre-los-otros-los-dos-grandes-para.html Y entre los otros, los dos grandes]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
 </tr><tr>
     <td>2017-05-26 04:45:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/y-todo-esto-que-dicen-los-otros-con-los.html Y a todo esto, ¿qué dicen los otros?]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-24 17:10:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/felix-marti-ibanez-1972.html Félix Martí Ibáñez. 1972.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
 </tr><tr>
     <td>2017-05-24 00:08:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/el-engano-que-oculta-el-miedo-hay-un.html El engaño que oculta el miedo]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-22 18:24:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/ezra-heywood-1893.html Ezra Heywood. 1893.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
 </tr><tr>
     <td>2017-05-22 01:58:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/y-el-verdadero-enemigo-es.html Y el verdadero enemigo es...]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-19 18:50:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/joan-josep-peidro-vilaplana-1897.html Joan Josep Peidro Vilaplana. 1897.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
 </tr><tr>
     <td>2017-05-19 02:27:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/una-ayuda-inesperada-o-tal-vez-un.html Una ayuda inesperada]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
 </tr><tr>
     <td>2017-05-17 03:46:00</td>
     <td>[http://elterritoriodellince.blogspot.com/2017/05/y-como-se-vive-no-hay-novedades.html ¿Y cómo se vive?]</td>
-    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-16 17:46:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/maria-lacerda-de-moura-1887.html Maria Lacerda de Moura. 1887.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-05-15 06:21:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/entre-una-piedra-en-el-zapato-y-la.html Entre una piedra en el zapato y la aldea de Asterix]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-12 17:52:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/francisco-javier-elola-diaz-varela-1939.html Francisco Javier Elola Díaz-Varela. 1939.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-05-12 03:50:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/eeuu-se-rinde-un-poco-y-de-forma.html EEUU se rinde (un poco y de forma honrosa)]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-11 04:53:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/que-alumbra-si-es-que-lo-hace-la-luna.html ¿Qué alumbra, si es que lo hace, la luna?]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-10 19:08:00</td>
+    <td>[http://labocadora.blogspot.com/2017/05/antonio-garcia-baron-1922.html Antonio García Barón. 1922.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-05-09 05:34:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/nunca-sera-suficiente.html Nunca será suficiente...]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-08 06:13:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/tu-nombre-es-desconocido-tu-hazana-es.html Tu nombre es desconocido, tu hazaña es inmortal]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-06 00:39:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/a-un-hilo-de-la-ruptura-segundo-intento.html A un hilo de la ruptura&nbsp;]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-04 03:32:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/hablamos-mucho-pero-que-conocemos-el.html Hablamos mucho, pero ¿qué conocemos?]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-02 03:21:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/tres-anos-de-una-matanza-odessa-2-de.html Tres años de una matanza]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-01 09:31:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/primer-intento-de-ofrecer-algo-de-luz.html Primer intento de ofrecer algo de luz]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-29 12:24:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/eres-muy-malo-trump-lo-ha-dicho-en-su.html ¡Eres muy malo!]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-27 01:55:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/tarde-pero-por-fin-venezuela-hace-algo.html Tarde, pero por fin Venezuela hace algo bien]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-26 03:04:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/como-hemos-llegado-esto-os-decia-que-no.html ¿Cómo hemos llegado a ésto?]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-24 17:48:00</td>
+    <td>[http://labocadora.blogspot.com/2017/04/leonor-serrano-pablo-1942.html Leonor Serrano Pablo. 1942.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-04-24 03:20:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/extranar-fidel-castro-no-han-pasado-ni.html Extrañar a Fidel Castro]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-22 05:49:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/juego-de-los-barquitos-y-3-para.html &nbsp;El juego de los barquitos (y 3)]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-20 17:53:00</td>
+    <td>[http://labocadora.blogspot.com/2017/04/georgi-getchev-1897.html Georgi Getchev. 1897.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-04-20 03:17:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/la-fase-final-del-colapso-del.html La fase final del colapso del imperialismo (2)]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-19 18:45:00</td>
+    <td>[http://labocadora.blogspot.com/2017/04/chemin-des-dames-1917.html Chemin des Dames. 1917.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-04-18 02:22:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/la-fase-final-estamos-asistiendo-la.html La fase final]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-13 19:11:00</td>
+    <td>[http://labocadora.blogspot.com/2017/04/antonio-ortiz-ramirez-1907.html Antonio Ortiz Ramírez. 1907.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-04-12 02:23:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/la-politica-del-yo-y-yo-entiendo-gaugin.html La política del yo (y yo entiendo a Gauguin)]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-11 17:12:00</td>
+    <td>[http://labocadora.blogspot.com/2017/04/maria-camino-oscoz-1910.html María Camino Oscoz. 1910.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-04-10 04:02:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/04/45-negaciones-y-alguna-afirmacion-los.html 45 negaciones y alguna afirmación]</td>
+    <td style="text-align: center;">[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-04-03 18:33:00</td>
+    <td>[http://labocadora.blogspot.com/2017/04/manuel-fernandez-marquez-1973.html Manuel Fernández Márquez. 1973.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-31 20:22:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/juan-miguel-de-mora-1921-2017.html Juan Miguel de Mora. 1921 - 2017]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-30 17:27:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/ramon-cambra-turias-1917.html Ramon Cambra Turias. 1917.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-29 19:36:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/esteban-muruetagoiena-1982.html Esteban Muruetagoiena. 1982.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-22 19:46:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/maria-collazo-1942.html María Collazo. 1942.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-20 17:42:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/rohatyn-1942.html Rohatyn. 1942.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-17 17:29:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/manuel-alba-blanes-1937.html Manuel Alba Blanes. 1937.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-15 18:35:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/helios-ziglioli-1927.html Helios Ziglioli. 1927.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-08 17:33:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/dolors-prat-coll-1905.html Dolors Prat Coll. 1905.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-07 18:22:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/josep-xarles-santalo-1936-2017.html Josep Xarles Santaló. 1936 - 2017.]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
+</tr><tr>
+    <td>2017-03-06 19:46:00</td>
+    <td>[http://labocadora.blogspot.com/2017/03/alejandra-soler-1913-2017.html Alejandra Soler. 1913 - 2017]</td>
+    <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
 </tr>
 </table><!-- /ultimasnoticias -->
 
@@ -152,6 +324,11 @@ Sin resultados
 <td>{{youtube|id=BbDWRXd0t-w}}</td>
 </tr>
 </table>
+
+más en https://15mpedia.org/wiki/Usuario:Emijrp/Medios
+La bocadora
+
+rss voltaire http://www.voltairenet.org/spip.php?page=backend&id_secteur=1110&lang=es
 
 analisis de medios, propietarios y referencias en wikipedia
 
