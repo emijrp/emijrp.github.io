@@ -6,6 +6,12 @@ body{
     background: -webkit-linear-gradient(left, lightgrey, lightgrey 1240px, white 100%, white);
 }
 
+@media screen and (max-width: 1240px) {
+    body {
+        width: 1200px;
+    }
+}
+
 a:link, a:visited{
     text-decoration: none;
 }
