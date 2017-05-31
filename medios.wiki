@@ -4,69 +4,7 @@ Los '''medios''' de comunicación deberían ser herramientas para informar a la 
 
 Para contrarrestar esto es útil consultar medios de comunicación que den otro punto de vista de la noticia o que informen de asuntos que no aparecen en los medios dominantes. A estos se les suele llamar «medios alternativos», incluso desde sus propios ámbitos, autoasignandose inconsciente y torpemente una etiqueta como si fueran medios de segunda, pero no dejan de ser medios de comunicación y sin duda más dignos que los grandes.
 
-<table width=100%>
-<tr>
-<td valign=top>
-=== Noticias ===
-* [http://www.cubainformacion.tv Cuba Información]
-* [http://www.librered.net LibreRed]
-* [http://rebelion.org Rebelión]
-* [http://www.redroja.net Red Roja]
-* [http://mundo.sputniknews.com Sputnik Mundo]
 
-<!--
-* [http://www.cubadebate.cu Cubadebate]
-* [https://news.ycombinator.com Hacker News]
-* [http://www.insurgente.org Insurgente]
-* [http://www.rebelion.org Rebelion]
-* [http://www.tercerainformacion.es Tercera Información]
-* [http://larepublica.es La República]
-* [http://kaosenlared.net Kaos en la red]
-* [http://www.lahaine.org La Haine]
-* [http://www.agitacion.org Agitación]
-* [http://www.solidaridadobrera.org Confederación Sindical Solidaridad Obrera]
-* [http://pravdainternacional.blogspot.com Pravda Internacional]
-* [http://www.quehacer.com.uy Qué hacer]
--->
-</td>
-<td valign=top>
-=== Blogs ===
-* [http://labocadora.blogspot.com La Boca d'Or]
-
-</td>
-<td valign=top>
-=== Radio ===
-* [http://alacarta.canalsur.es/radio La Memoria]
-* [http://www.radiohc.cu Radio Habana Cuba]
-* [http://www.vok.rep.kp/CBC/ Voice of Korea]
-</td>
-<td valign=top>
-=== Televisiones ===
-* [http://www.aljazeera.com/watch_now/ Al Jazeera]
-* [http://www.democracynow.org/es Democracy Now!]
-* [https://www.youtube.com/watch?v=dpwV6NvIarg HispanTV]
-* [http://www.rtve.es/noticias/directo/canal-24h/ RTVE]
-* [https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw Russia Today]
-* [http://www.telesurtv.net teleSUR TV]
-* [http://www.tomalatele.tv/web/ Toma la Tele]
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td>{{youtube|id=52J-TSn38vY}}</td>
-<td>{{youtube|id=BbDWRXd0t-w}}</td>
-</tr>
-</table>
-
-
-<!--
-
-analisis de medios, propietarios y referencias en wikipedia
-
-
--->
 
 
 
