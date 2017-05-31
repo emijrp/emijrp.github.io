@@ -1,5 +1,84 @@
 {{header|1=Hemeroteca}}
 
+Los '''medios de comunicación''' deberían ser herramientas para informar a la gente. Hoy en día, en su práctica totalidad, se utilizan para controlar a la opinión pública, a través de la emisión de información sesgada en favor de los intereses de los propietarios del medio de comunicación o silenciando noticias que va contra sus intereses o los del sistema imperante. Entre los libros que tratan sobre la manipulación en los mass media están ''Traficantes de información'' y ''Desinformación'', ambos de Pascual Serrano.
+
+Para contrarrestar esto es útil consultar medios de comunicación que den otro punto de vista de la noticia o que informen de asuntos que no aparecen en los medios dominantes. A estos se les suele llamar «medios alternativos», incluso desde sus propios ámbitos, autoasignandose inconsciente y torpemente una etiqueta como si fueran medios de segunda, pero no dejan de ser medios de comunicación y sin duda más dignos que los grandes.
+
+<!-- ultimasnoticias --><table class="wikitable sortable">
+<tr>
+    <th>Fecha</th>
+    <th>Título</th>
+    <th>Medio</th>
+</tr>
+<tr>
+    <td>2017-05-31 14:56:01</td>
+    <td>[https://diario-octubre.com/2017/05/31/ejercito-sirio-despliega-fuerzas-cerca-de-las-tropas-de-eeuu/ La popularidad de Rusia se dispara en Europa del Este]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 13:52:51</td>
+    <td>[https://diario-octubre.com/2017/05/31/lavrov-sobre-las-acusaciones-de-macron-contra-rt-y-sputnik-no-hay-pruebas/ Ejército sirio despliega fuerzas cerca de las tropas de EEUU]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 13:49:58</td>
+    <td>[https://diario-octubre.com/2017/05/31/dos-portaviones-de-eeuu-maniobran-cerca-de-la-peninsula-de-corea/ Lavrov sobre las acusaciones de Macron contra RT y Sputnik: “No hay pruebas”]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 13:16:00</td>
+    <td>[https://diario-octubre.com/2017/05/31/amnistia-internacional-condena-la-violencia-policial-contra-los-periodistas-en-francia/ Dos portaviones de EEUU maniobran cerca de la península de Corea]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 13:07:00</td>
+    <td>[https://diario-octubre.com/2017/05/31/desaparecen-activistas-que-investigaban-fabrica-de-ivanka-trump-en-china/ Amnistía Internacional condena la violencia policial contra los periodistas en Francia]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 12:47:12</td>
+    <td>[https://diario-octubre.com/2017/05/31/temer-hizo-el-trabajo-sucio-contra-dilma-pero-o-globo-ya-tiene-sustituto-frente-a-lula/ Desaparecen activistas que investigaban fábrica de Ivanka Trump en China]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 12:15:00</td>
+    <td>[https://diario-octubre.com/2017/05/31/todos-juntos-en-comunion/ Temer hizo el trabajo sucio contra Dilma, pero ¿O Globo ya tiene sustituto frente a Lula?]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 12:06:00</td>
+    <td>[https://diario-octubre.com/2017/05/31/moscu-ataques-aereos-de-la-coalicion-de-eeuu-agravan-la-situacion-en-siria/ Todos juntos en comunión]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-31 12:05:00</td>
+    <td>[https://diario-octubre.com/2017/05/31/ultima-hora-trump-toma-la-decision-de-sacar-a-ee-uu-del-acuerdo-de-paris-sobre-el-cambio-climatico/ Moscú: ataques aéreos de la coalición de EEUU agravan la situación en Siria]</td>
+    <td>[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-05-30 03:21:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/un-crujido-de-hojas-hace-ya-muchos-anos.html Un crujido de hojas]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-28 05:26:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/y-entre-los-otros-los-dos-grandes-para.html Y entre los otros, los dos grandes]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-26 04:45:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/y-todo-esto-que-dicen-los-otros-con-los.html Y a todo esto, ¿qué dicen los otros?]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-24 00:08:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/el-engano-que-oculta-el-miedo-hay-un.html El engaño que oculta el miedo]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-22 01:58:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/y-el-verdadero-enemigo-es.html Y el verdadero enemigo es...]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-19 02:27:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/una-ayuda-inesperada-o-tal-vez-un.html Una ayuda inesperada]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr><tr>
+    <td>2017-05-17 03:46:00</td>
+    <td>[http://elterritoriodellince.blogspot.com/2017/05/y-como-se-vive-no-hay-novedades.html ¿Y cómo se vive?]</td>
+    <td>[https://elterritoriodellince.blogspot.com El Territorio del Lince]</td>
+</tr>
+</table><!-- /ultimasnoticias -->
+
+
+<!--
 Diseñar un sistema que indexe y me permita buscar noticias por palabras clave.
 
 Por ejemplo todas las noticias sobre Siria en mis medios de favoritos.
@@ -15,5 +94,68 @@ Buscar: <input id="entry" type="text" value="" onkeyup="javascript:search();" />
 <div id="results" style="margin-left: 20px;">
 Sin resultados
 </div>
+-->
 
-{{footer}}
+<!--
+<table width=100%>
+<tr>
+<td valign=top>
+=== Noticias ===
+* [http://www.cubainformacion.tv Cuba Información]
+* [http://www.librered.net LibreRed]
+* [http://rebelion.org Rebelión]
+* [http://www.redroja.net Red Roja]
+* [http://mundo.sputniknews.com Sputnik Mundo]
+
+
+* [http://www.cubadebate.cu Cubadebate]
+* [https://news.ycombinator.com Hacker News]
+* [http://www.insurgente.org Insurgente]
+* [http://www.rebelion.org Rebelion]
+* [http://www.tercerainformacion.es Tercera Información]
+* [http://larepublica.es La República]
+* [http://kaosenlared.net Kaos en la red]
+* [http://www.lahaine.org La Haine]
+* [http://www.agitacion.org Agitación]
+* [http://www.solidaridadobrera.org Confederación Sindical Solidaridad Obrera]
+* [http://pravdainternacional.blogspot.com Pravda Internacional]
+* [http://www.quehacer.com.uy Qué hacer]
+
+</td>
+<td valign=top>
+=== Blogs ===
+* [http://labocadora.blogspot.com La Boca d'Or]
+
+</td>
+<td valign=top>
+=== Radio ===
+* [http://alacarta.canalsur.es/radio La Memoria]
+* [http://www.radiohc.cu Radio Habana Cuba]
+* [http://www.vok.rep.kp/CBC/ Voice of Korea]
+</td>
+<td valign=top>
+=== Televisiones ===
+* [http://www.aljazeera.com/watch_now/ Al Jazeera]
+* [http://www.democracynow.org/es Democracy Now!]
+* [https://www.youtube.com/watch?v=dpwV6NvIarg HispanTV]
+* [http://www.rtve.es/noticias/directo/canal-24h/ RTVE]
+* [https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw Russia Today]
+* [http://www.telesurtv.net teleSUR TV]
+* [http://www.tomalatele.tv/web/ Toma la Tele]
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>{{youtube|id=52J-TSn38vY}}</td>
+<td>{{youtube|id=BbDWRXd0t-w}}</td>
+</tr>
+</table>
+
+analisis de medios, propietarios y referencias en wikipedia
+
+-->
+
+
+{{../footer}}
