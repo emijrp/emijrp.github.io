@@ -12,7 +12,7 @@ Es un trabajo en continuo desarrollo, por ello las secciones pueden estar incomp
 
 También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]].
 
-<div style="width: 800px;border: 2px solid pink;background-color: #FAD6A5;padding: 0px 10px 10px 10px;">
+<div style="width: 85%;border: 2px solid pink;background-color: #FAD6A5;padding: 0px 10px 10px 10px;">
 '''Anotaciones rápidas:'''
 
 * Los directores de documentales '''John Pilger''' y '''Nattie Wild''' parecen muy comprometidos. Intentaré mirar su trabajo.
