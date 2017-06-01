@@ -166,30 +166,21 @@ def main():
         postslist.append([props['date'], props['title'], props['image'], props['content'], props['site'], posturl])
     postslist.sort(reverse=True)
     
-    output = """<table class="wikitable sortable">
-<tr>
-    <th width="180px">Fecha</th>
-    <th>Título</th>
-    <th width="180px">Medio</th>
-</tr>
-"""
-    for date, title, image, content, site, url in postslist:
-        output += """<tr>
-    <td>%s</td>
-    <td>[%s %s]</td>
-    <td style="text-align: center;">[%s %s]</td>
-</tr>""" % (date, url, title, sites[site]['mainpage'], sites[site]['name'])
-    output += '\n</table>'
-    
+    c = 0
     output = """<table style="border: 0px;">"""
     for date, title, image, content, site, url in postslist:
-        output += """<tr>
-    <td rowspan=3><a href="%s"><img src="%s" width="72px" height="72px" /></a></td>
-    <td><big>'''[%s %s]'''</big></td>
-</tr>
-    <tr><td style="height: 90%%;">%s<a href="%s">...</a></td></tr>
-    <tr><td><small>[%s %s] | %s</small></td></tr>""" % (url, image, url, title, content, url, sites[site]['mainpage'], sites[site]['name'], date)
-    output += '\n</table>'
+        if c % 2 == 0:
+           if c != 0:
+               output += "\n</tr>" 
+           output += "\n<tr>" 
+        output += """<td style="border-bottom: 1px solid grey;padding-right: 25px;">
+    <p><big>'''[%s %s]'''</big></p>
+    <p><a href="%s"><img src="%s" align="right" width="72px" height="72px" /></a>%s[<a href="%s">...</a>]</p>
+    <p><small>[%s %s] | %s</small></p>
+</td>""" % (url, title, url, image, content, url, sites[site]['mainpage'], sites[site]['name'], date)
+        c += 1
+    
+    output += """</tr>\n</table>"""
     savetable('hemeroteca.wiki', 'ultimasnoticias', output)
             
 if __name__ == '__main__':
