@@ -11,40 +11,44 @@ Para contrarrestar esto es útil consultar medios de comunicación que den otro 
     <th>Medio</th>
 </tr>
 <tr>
+    <td>2017-06-01 08:27:59</td>
+    <td>[https://diario-octubre.com/2017/06/01/destacan-en-cuba-rol-de-energia-renovable-en-el-desarrollo-economicofotos/ Destacan en Cuba rol de energía renovable en el desarrollo económico(+Fotos)]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
     <td>2017-06-01 08:12:08</td>
-    <td>[https://diario-octubre.com/2017/06/01/siempre-tras-la-sonrisa-de-un-nino/ Destacan en Cuba rol de energía renovable en el desarrollo económico(+Fotos)]</td>
+    <td>[https://diario-octubre.com/2017/06/01/siempre-tras-la-sonrisa-de-un-nino/ Siempre tras la sonrisa de un niño]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 07:51:14</td>
-    <td>[https://diario-octubre.com/2017/06/01/ejercito-sirio-avanza-en-el-campo-este-de-alepo/ Siempre tras la sonrisa de un niño]</td>
+    <td>[https://diario-octubre.com/2017/06/01/ejercito-sirio-avanza-en-el-campo-este-de-alepo/ Ejército sirio avanza en el campo este de Alepo]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 07:26:28</td>
-    <td>[https://diario-octubre.com/2017/06/01/preside-miguel-diaz-canel-grupo-de-trabajo-del-parlamento-cubano/ Ejército sirio avanza en el campo este de Alepo]</td>
+    <td>[https://diario-octubre.com/2017/06/01/preside-miguel-diaz-canel-grupo-de-trabajo-del-parlamento-cubano/ Preside Miguel Díaz-Canel grupo de trabajo del Parlamento cubano]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 07:10:18</td>
-    <td>[https://diario-octubre.com/2017/06/01/cazas-rusos-descargan-aluvion-de-bombas-sobre-daesh-en-siria/ Preside Miguel Díaz-Canel grupo de trabajo del Parlamento cubano]</td>
+    <td>[https://diario-octubre.com/2017/06/01/cazas-rusos-descargan-aluvion-de-bombas-sobre-daesh-en-siria/ Cazas rusos descargan aluvión de bombas sobre Daesh en Siria]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 06:48:14</td>
-    <td>[https://diario-octubre.com/2017/06/01/familiares-de-victimas-del-plan-condor-en-bolivia-esperan-juicios-contra-represores/ Cazas rusos descargan aluvión de bombas sobre Daesh en Siria]</td>
+    <td>[https://diario-octubre.com/2017/06/01/familiares-de-victimas-del-plan-condor-en-bolivia-esperan-juicios-contra-represores/ Familiares de víctimas del Plan Cóndor en Bolivia esperan juicios contra represores]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 06:24:46</td>
-    <td>[https://diario-octubre.com/2017/06/01/diputados-cubanos-definen-el-pais-que-queremos-construir/ Familiares de víctimas del Plan Cóndor en Bolivia esperan juicios contra represores]</td>
+    <td>[https://diario-octubre.com/2017/06/01/diputados-cubanos-definen-el-pais-que-queremos-construir/ Diputados cubanos definen el país que queremos construir]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 06:15:00</td>
-    <td>[https://diario-octubre.com/2017/06/01/venezolanos-expresan-repudio-a-la-oea-en-las-calles-de-caracas/ Diputados cubanos definen el país que queremos construir]</td>
+    <td>[https://diario-octubre.com/2017/06/01/venezolanos-expresan-repudio-a-la-oea-en-las-calles-de-caracas/ Venezolanos expresan repudio a la OEA en las calles de Caracas]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 05:48:00</td>
-    <td>[https://diario-octubre.com/2017/06/01/netanyahu-rechaza-la-retirada-israeli-de-cisjordania/ Venezolanos expresan repudio a la OEA en las calles de Caracas]</td>
+    <td>[https://diario-octubre.com/2017/06/01/netanyahu-rechaza-la-retirada-israeli-de-cisjordania/ Netanyahu rechaza la retirada israelí de Cisjordania]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-06-01 05:34:00</td>
-    <td>[https://diario-octubre.com/2017/06/01/avanza-en-el-senado-de-brasil-una-propuesta-para-celebrar-elecciones-anticipadas/ Netanyahu rechaza la retirada israelí de Cisjordania]</td>
+    <td>[https://diario-octubre.com/2017/06/01/avanza-en-el-senado-de-brasil-una-propuesta-para-celebrar-elecciones-anticipadas/ Avanza en el Senado de Brasil una propuesta para celebrar elecciones anticipadas]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-31 19:04:00</td>
