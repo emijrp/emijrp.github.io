@@ -6,7 +6,7 @@ Para contrarrestar esto es útil consultar medios de comunicación que den otro 
 
 <!-- ultimasnoticias --><table class="wikitable sortable">
 <tr>
-    <th width="150px">Fecha</th>
+    <th width="180px">Fecha</th>
     <th>Título</th>
     <th>Medio</th>
 </tr>
