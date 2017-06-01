@@ -6,11 +6,19 @@ Para contrarrestar esto es útil consultar medios de comunicación que den otro 
 
 <!-- ultimasnoticias --><table class="wikitable sortable">
 <tr>
-    <th>Fecha</th>
+    <th width="120px">Fecha</th>
     <th>Título</th>
     <th>Medio</th>
 </tr>
 <tr>
+    <td>2017-06-01 08:12:08</td>
+    <td>[https://diario-octubre.com/2017/06/01/siempre-tras-la-sonrisa-de-un-nino/ Destacan en Cuba rol de energía renovable en el desarrollo económico(+Fotos)]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
+    <td>2017-06-01 07:51:14</td>
+    <td>[https://diario-octubre.com/2017/06/01/ejercito-sirio-avanza-en-el-campo-este-de-alepo/ Siempre tras la sonrisa de un niño]</td>
+    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
+</tr><tr>
     <td>2017-06-01 07:26:28</td>
     <td>[https://diario-octubre.com/2017/06/01/preside-miguel-diaz-canel-grupo-de-trabajo-del-parlamento-cubano/ Ejército sirio avanza en el campo este de Alepo]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
@@ -39,17 +47,9 @@ Para contrarrestar esto es útil consultar medios de comunicación que den otro 
     <td>[https://diario-octubre.com/2017/06/01/avanza-en-el-senado-de-brasil-una-propuesta-para-celebrar-elecciones-anticipadas/ Netanyahu rechaza la retirada israelí de Cisjordania]</td>
     <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
-    <td>2017-06-01 05:28:00</td>
-    <td>[https://diario-octubre.com/2017/06/01/roma-no-paga-traidores/ Avanza en el Senado de Brasil una propuesta para celebrar elecciones anticipadas]</td>
-    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
-</tr><tr>
     <td>2017-05-31 19:04:00</td>
     <td>[http://labocadora.blogspot.com/2017/05/bombardeo-almeria-1937.html Bombardeo Almería. 1937.]</td>
     <td style="text-align: center;">[https://labocadora.blogspot.com La Boca d'Or]</td>
-</tr><tr>
-    <td>2017-05-31 15:57:45</td>
-    <td>[https://diario-octubre.com/2017/05/31/la-popularidad-de-rusia-se-dispara-en-europa-del-este/ Roma no paga traidores]</td>
-    <td style="text-align: center;">[https://diario-octubre.com Diario Octubre]</td>
 </tr><tr>
     <td>2017-05-30 17:25:00</td>
     <td>[http://labocadora.blogspot.com/2017/05/felix-cadras-y-jacques-decour-1942.html Felix Cadras y Jacques Decour. 1942.]</td>
