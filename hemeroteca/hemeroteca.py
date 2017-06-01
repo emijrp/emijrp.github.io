@@ -40,8 +40,10 @@ def diariooctubre(medio=''):
     xdates = re.findall(r"<pubDate>([^<>]+?)</pubDate>", raw)
     c = 1
     while c < len(xposts):
-        dt = datetime.datetime.strptime(xdates[c].split(' +')[0], "%a, %d %b %Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")  
-        posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': dt }
+        dt = datetime.datetime.strptime(xdates[c].split(' +')[0], "%a, %d %b %Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")
+        posturl = xposts[c]
+        posturl = '%s://%s' % (medios[medio]['portada'].split('://')[0], posturl.split('://')[1])
+        posts[posturl] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': dt }
         c += 1
     return posts
 
@@ -54,7 +56,9 @@ def elterritoriodellince(medio=''):
     xdates = re.findall(r"<published>(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)[^<>]*?</published>", raw)
     c = 0
     while c < len(xposts):
-        posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': re.sub('T', ' ', xdates[c]) }
+        posturl = xposts[c]
+        posturl = '%s://%s' % (medios[medio]['portada'].split('://')[0], posturl.split('://')[1])
+        posts[posturl] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': re.sub('T', ' ', xdates[c]) }
         c += 1
     return posts
 
@@ -66,7 +70,9 @@ def labocadora(medio=''):
     xdates = re.findall(r"<published>(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)[^<>]*?</published>", raw)
     c = 0
     while c < len(xposts):
-        posts[xposts[c]] = { 'medio': medio, 'titulo': html.unescape(xtitles[c+1]), 'fecha': re.sub('T', ' ', xdates[c]) }
+        posturl = xposts[c]
+        posturl = '%s://%s' % (medios[medio]['portada'].split('://')[0], posturl.split('://')[1])
+        posts[posturl] = { 'medio': medio, 'titulo': html.unescape(xtitles[c+1]), 'fecha': re.sub('T', ' ', xdates[c]) }
         c += 1
     return posts
 
@@ -103,7 +109,7 @@ def main():
     
     output = """<table class="wikitable sortable">
 <tr>
-    <th>Fecha</th>
+    <th width="180px">Fecha</th>
     <th>Título</th>
     <th>Medio</th>
 </tr>
