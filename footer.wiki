@@ -4,7 +4,7 @@
 <tr>
 <td style="width: 15%;">[[File:valid-xhtml10.png|88px|left|link=https://validator.w3.org/check?uri=referer|Valid XHTML 1.0 Transitional]]</td>
 <td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el <!-- timestamp --><!-- /timestamp --> (UTC)</td>
-<td style="width: 20%;text-align: right;">''Publicado con [https://pages.github.com GitHub pages]''</td>
+<td style="width: 20%;text-align: right;">''[https://pages.github.com GitHub pages]''</td>
 </tr>
 </table>
 </div>
