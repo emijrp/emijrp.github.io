@@ -4,6 +4,8 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
 
 [https://github.com/WikiTeam/wikiteam WikiTeam], el proyecto para preservar wikis, no apareció hasta el año 2011, por lo que aquellas wikis que desaparecieron antes de esa fecha no disponen de un backup público. Parece el caso de LeonWiki, MiToledo, WikiExtremadura y WikiLleida. En esta tabla (generada con <a href="locapedias.py">este script</a>) llevo un registro del estado de las distintas locapedias, si siguen en funcionamiento y si existe algún backup, para que en caso de que el proyecto cierre se pueda [https://www.wikis.cc/wiki/Wikis_recuperados recuperar].
 
+La fecha de fundación ha sido extraída de la edición ''oldid=1'' de cada wiki. Cuando no estaba disponible, se ha utilizado la edición con ''oldid'' más bajo posible.
+
 <!-- tabla completa -->
 <script type="text/javascript">sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], "es"); }</script>
 
@@ -1071,11 +1073,6 @@ La primera enciclopedia wiki sobre un municipio de la que se tiene constancia es
     </tr>
 </table>
 <!-- /tabla completa -->
-
-== Referencias ==
-
-{{reflist}}
-{{reflist-end}}
 
 <!--
 
