@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>324638</td>
+        <td>324652</td>
     </tr>
 
     <tr>
@@ -225,7 +225,7 @@
         <td>31</td>
         <td><a href="./headerflothtml.html">./headerflothtml.html</a></td>
         <td><a href="./headerflothtml.wiki">./headerflothtml.wiki</a></td>
-        <td>765</td>
+        <td>773</td>
     </tr>
 
     <tr>
@@ -239,14 +239,14 @@
         <td>33</td>
         <td><a href="./headerheatmaphtml.html">./headerheatmaphtml.html</a></td>
         <td><a href="./headerheatmaphtml.wiki">./headerheatmaphtml.wiki</a></td>
-        <td>1088</td>
+        <td>1096</td>
     </tr>
 
     <tr>
         <td>34</td>
         <td><a href="./headerhtml.html">./headerhtml.html</a></td>
         <td><a href="./headerhtml.wiki">./headerhtml.wiki</a></td>
-        <td>501</td>
+        <td>509</td>
     </tr>
 
     <tr>
@@ -260,7 +260,7 @@
         <td>36</td>
         <td><a href="./headerleaflethtml.html">./headerleaflethtml.html</a></td>
         <td><a href="./headerleaflethtml.wiki">./headerleaflethtml.wiki</a></td>
-        <td>743</td>
+        <td>751</td>
     </tr>
 
     <tr>
@@ -449,7 +449,7 @@
         <td>63</td>
         <td><a href="./sitemap.html">./sitemap.html</a></td>
         <td><a href="./sitemap.wiki">./sitemap.wiki</a></td>
-        <td>48758</td>
+        <td>48954</td>
     </tr>
 
     <tr>
