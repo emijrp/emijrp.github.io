@@ -37,4 +37,4 @@
     {{button-blue|1=sitemap.html|2=Sitemap}}
 </p>
 
-Otras cosas: [[bne|Biblioteca Nacional de España]]{{o}} [[voynich|Manuscrito Voynich]]
+Otras cosas: [[bne|Biblioteca Nacional de España]]{{o}} [[voynich|Manuscrito Voynich]]{{o}} [[806.4616.0110]]
