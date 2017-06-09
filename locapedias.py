@@ -57,6 +57,15 @@ def main():
             'founded': '2008-03-03', 
             'region': u'Córdoba', 
         }, 
+        u'Bierzopedia': {
+            #https://lazorrera.wordpress.com/2006/01/24/la-polemica-de-los-wikis-locales/
+            #https://web.archive.org/web/20060216094406/http://bierzopedia.com:80/index.php?title=Portada
+            'api': 'http://bierzopedia.com/api.php', 
+            'base': 'http://bierzopedia.com/index.php?title=Portada', 
+            'country': u'España', 
+            'founded': '2005', 
+            'region': u'Comarca de El Bierzo', 
+        }, 
         u'Comuni-Italiani.it': {
             'api': 'http://rete.comuni-italiani.it/w/api.php', 
             'country': u'Italia', 
@@ -87,6 +96,7 @@ def main():
             'api': 'http://www.delebrija.es/api.php', 
             'base': 'http://www.delebrija.es/index.php/Portada', 
             'country': u'España', 
+            'founded': '2007', 
             'region': u'Lebrija', 
         }, 
         u'Enciclopedia Guanche': {
@@ -142,15 +152,19 @@ def main():
             'region': u'Jerez de la Frontera', 
         }, 
         u'LeonWiki': {
-            'api': 'http://leonwiki.lazorrera.com', 
+            'api': 'http://leonwiki.lazorrera.com/api.php', 
+            'base': 'http://leonwiki.lazorrera.com/Portada', 
             'country': u'España', 
+            'founded': '2005-12-16', 
             'region': u'León', 
         }, 
         u'LinaWiki': {
+            #https://web.archive.org/web/20080704092406/http://www.enciclopediadelinares.com:80/wiki/index.php/Portada
             'api': 'http://www.enciclopediadelinares.com/wiki/api.php', 
-            'base': 'http://www.enciclopediadelinares.com/wiki', 
+            'base': 'http://www.enciclopediadelinares.com/wiki/index.php/Portada', 
             'dump': 'https://archive.org/details/enciclopediadelinarescom_wiki-20110427-wikidump.7z', 
             'country': u'España', 
+            'founded': '2007-08-18', 
             'region': u'Linares', 
         }, 
         u'Madripedia': {
@@ -330,6 +344,14 @@ def main():
             'country': u'Francia', 
             'founded': '', 
             'region': u'Côtes d\'Armor', 
+        }, 
+        u'Wikibierzo': {
+            #https://web.archive.org/web/20051212044753/http://www.bierzototal.com:80/wikibierzo/index.php?title=Portada
+            'api': 'http://www.bierzototal.com/wikibierzo/api.php', 
+            'base': 'http://www.bierzototal.com/wikibierzo/index.php?title=Portada', 
+            'country': u'España', 
+            'founded': '2005', 
+            'region': u'Comarca de El Bierzo', 
         }, 
         u'WikiBurgos': {
             'api': 'http://www.wikiburgos.es/api.php', 
