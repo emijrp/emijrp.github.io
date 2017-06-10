@@ -26,6 +26,7 @@ sites = {
         'name': 'Diario Octubre', 
         'mainpage': 'https://diario-octubre.com', 
         'feed': 'https://diario-octubre.com/feed/', 
+        'logo': 'https://secure.gravatar.com/avatar/bb791a3c2193c87a403d578a388fe643?s=96&r=g', 
     }, 
     'elterritoriodellince': {
         'name': 'El Territorio del Lince', 
@@ -55,20 +56,24 @@ def getURL(url=''):
     f = urllib.request.urlopen(req)
     return f.read().decode('utf-8')
 
-def diariooctubre(medio=''):
+def diariooctubre(site=''):
     posts = {}
-    raw = getURL(url=medios[medio]['feed'])
-    raw = '<item>'.join(raw.split('<item>')[1:])
-    xtitles = re.findall(r'<title>([^<>]+?)</title>', raw)
-    xurls = re.findall(r"<link>(https?://diario-octubre.com[^ ]+?)</link>", raw)
-    xdates = re.findall(r"<pubDate>([^<>]+?)</pubDate>", raw)
-    c = 0
-    while c < len(xurls):
-        dt = datetime.datetime.strptime(xdates[c].split(' +')[0], "%a, %d %b %Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")
-        posturl = xurls[c]
-        posturl = '%s://%s' % (medios[medio]['portada'].split('://')[0], posturl.split('://')[1])
-        posts[posturl] = { 'medio': medio, 'titulo': html.unescape(xtitles[c]), 'fecha': dt }
-        c += 1
+    raw = getURL(url=sites[site]['feed'])
+    rawposts = raw.split('<item>')[1:]
+    for rawpost in rawposts:
+        posttitle = re.findall(r'<title>([^<>]+?)</title>', rawpost)[0]
+        posturl = re.findall(r"<link>(https?://diario-octubre.com[^ ]+?)</link>", rawpost)[0]
+        postdate = re.findall(r"<pubDate>([^<>]+?)</pubDate>", rawpost)[0]
+        postimages = re.findall(r"(?i)(https?://[^ ]+?\.(jpg|png))", rawpost)
+        postimage = sites[site]['logo']
+        if postimages:
+            postimage = postimages[0][0]
+        postcontent = rawpost.split("<content:encoded><![CDATA[")[1].split("]]></content:encoded>")[0]
+        postcontent = html.unescape(postcontent)
+        postcontent = cleancontent(postcontent)[:250]
+        posturl = '%s://%s' % (sites[site]['mainpage'].split('://')[0], posturl.split('://')[1])
+        dt = datetime.datetime.strptime(postdate.split(' +')[0], "%a, %d %b %Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")
+        posts[posturl] = { 'site': site, 'title': html.unescape(posttitle), 'date': dt, 'image': postimage, 'content': postcontent }
     return posts
 
 def elterritoriodellince(site=''):
@@ -147,10 +152,10 @@ def savetable(filename, tablemark, table):
 
 def main():
     posts = []
-    #posts.append(diariooctubre(medio='diariooctubre'))
+    posts.append(diariooctubre(site='diariooctubre'))
     posts.append(elterritoriodellince(site='elterritoriodellince'))
     posts.append(labocadora(site='labocadora'))
-    #posts.append(sputniknews(medio='sputniknews'))
+    #posts.append(sputniknews(site='sputniknews'))
     postsall = {}
     for posts2 in posts:
         for k, v in posts2.items():
@@ -173,7 +178,7 @@ def main():
            if c != 0:
                output += "\n</tr>" 
            output += "\n<tr>" 
-        output += """<td style="border-bottom: 1px solid grey;padding-right: 25px;">
+        output += """<td valign="top" width="50%%" style="border-bottom: 1px solid grey;padding-right: 25px;">
     <p><big>'''[%s %s]'''</big></p>
     <p><a href="%s"><img src="%s" align="right" width="72px" height="72px" /></a>%s[<a href="%s">...</a>]</p>
     <p><small>[%s %s] | %s</small></p>

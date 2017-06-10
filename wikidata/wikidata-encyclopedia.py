@@ -72,6 +72,11 @@ def sitelinkshtml(sitelinks):
 
 def main():
     preferedlangs = ['es', 'en', 'ca', 'gl', 'pt', 'it', 'fr', 'de', 'eu', 'cz', 'hu', 'nl', 'sv', 'no', 'fi', 'ro', 'eo', 'da','sk', 'tr']
+    excludedP31 = [
+        'Q4167410', #disambig page
+        'Q17633526', #wikinews article
+        'Q13406463', #wikimedia list
+    ]
     c = 0
     t1 = time.time()
     items = {}
@@ -79,11 +84,10 @@ def main():
         line = line.strip().rstrip(',')
         if not line.startswith('{'):
             continue
-        js = json.loads(line)
-        if js['type'] != 'item':
+        item = json.loads(line)
+        if item['type'] != 'item':
             continue
         
-        q = js['id']
         P31 = ''
         sex = ''
         country = ''
@@ -96,24 +100,34 @@ def main():
         label = ''
         viaf = '' #P214
         
-        if not q:
+        if not item['id']:
             continue
         
         #labels
-        if 'labels' in js:
+        if 'labels' in item:
             for preflang in preferedlangs:
-                if preflang in js['labels']:
+                if preflang in item['labels']:
                     label = js['labels'][preflang]['value']
                     break
         if not label:
             continue
         #claims
-        if 'claims' in js and 'P31' in js['claims']:
+        getClaim(item=item, 'P31')
+        if 'claims' in js and 'P31' in js['claims'] and 'datavalue' in js['claims']['P31'][0]['mainsnak']:
             P31 = 'Q%s' % js['claims']['P31'][0]['mainsnak']['datavalue']['value']['numeric-id']
+            if P31 not in excludedP31:
+                items[q] = {'label': label}
             if P31 != 'Q5':
                 continue
         else:
             continue
+        
+        c += 1
+        if c % 1000 == 0:
+            print(len(items.keys()),'items with label')
+            c = 0
+        continue
+        
         if 'claims' in js and 'P21' in js['claims'] and 'datavalue' in js['claims']['P21'][0]['mainsnak']:
             sex = 'Q%s' % js['claims']['P21'][0]['mainsnak']['datavalue']['value']['numeric-id']
         if 'claims' in js and 'P27' in js['claims'] and 'datavalue' in js['claims']['P27'][0]['mainsnak']:
@@ -136,7 +150,7 @@ def main():
         if 'claims' in js and 'P214' in js['claims'] and 'datavalue' in js['claims']['P214'][0]['mainsnak']:
             viaf = js['claims']['P214'][0]['mainsnak']['datavalue']['value']
         
-        items[q] = {'q': q, 'label': label, 'sex': sex, 'country': country, 'birthdate': birthdate, 'deathdate': deathdate, 'occupations': occupations, 'images': images, 'viaf': viaf, 'sitelinks': js['sitelinks']}
+        items[q] = {'label': label, 'sex': sex, 'country': country, 'birthdate': birthdate, 'deathdate': deathdate, 'occupations': occupations, 'images': images, 'viaf': viaf, 'sitelinks': js['sitelinks']}
         
         #print(json.dumps(js['claims']['P18'], indent=4, sort_keys=True))
         

@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>324652</td>
+        <td>325153</td>
     </tr>
 
     <tr>
@@ -162,7 +162,7 @@
         <td>22</td>
         <td><a href="./footer.html">./footer.html</a></td>
         <td><a href="./footer.wiki">./footer.wiki</a></td>
-        <td>487</td>
+        <td>493</td>
     </tr>
 
     <tr>
@@ -225,7 +225,7 @@
         <td>31</td>
         <td><a href="./headerflothtml.html">./headerflothtml.html</a></td>
         <td><a href="./headerflothtml.wiki">./headerflothtml.wiki</a></td>
-        <td>773</td>
+        <td>792</td>
     </tr>
 
     <tr>
@@ -239,14 +239,14 @@
         <td>33</td>
         <td><a href="./headerheatmaphtml.html">./headerheatmaphtml.html</a></td>
         <td><a href="./headerheatmaphtml.wiki">./headerheatmaphtml.wiki</a></td>
-        <td>1096</td>
+        <td>1115</td>
     </tr>
 
     <tr>
         <td>34</td>
         <td><a href="./headerhtml.html">./headerhtml.html</a></td>
         <td><a href="./headerhtml.wiki">./headerhtml.wiki</a></td>
-        <td>509</td>
+        <td>528</td>
     </tr>
 
     <tr>
@@ -260,7 +260,7 @@
         <td>36</td>
         <td><a href="./headerleaflethtml.html">./headerleaflethtml.html</a></td>
         <td><a href="./headerleaflethtml.wiki">./headerleaflethtml.wiki</a></td>
-        <td>751</td>
+        <td>770</td>
     </tr>
 
     <tr>
@@ -288,7 +288,7 @@
         <td>40</td>
         <td><a href="./index.html">./index.html</a></td>
         <td><a href="./index.wiki">./index.wiki</a></td>
-        <td>1844</td>
+        <td>1843</td>
     </tr>
 
     <tr>
@@ -309,7 +309,7 @@
         <td>43</td>
         <td><a href="./locapedias.html">./locapedias.html</a></td>
         <td><a href="./locapedias.wiki">./locapedias.wiki</a></td>
-        <td>57154</td>
+        <td>59447</td>
     </tr>
 
     <tr>
@@ -428,7 +428,7 @@
         <td>60</td>
         <td><a href="./secciones.html">./secciones.html</a></td>
         <td><a href="./secciones.wiki">./secciones.wiki</a></td>
-        <td>1829</td>
+        <td>1852</td>
     </tr>
 
     <tr>
@@ -463,7 +463,7 @@
         <td>65</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>65709</td>
+        <td>68018</td>
     </tr>
 
     <tr>
@@ -554,7 +554,7 @@
         <td>78</td>
         <td><a href="actividad/actividad.html">actividad/actividad.html</a></td>
         <td><a href="actividad/actividad.wiki">actividad/actividad.wiki</a></td>
-        <td>9525</td>
+        <td>9586</td>
     </tr>
 
     <tr>
