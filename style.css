@@ -2,7 +2,7 @@ body{
     font-family: "dejavu sans","arial",sans-Serif;
     font-size: 100%;
     margin: auto;
-    max-width: 1240px;
+    max-width: 1340px;
     background: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -12,24 +12,15 @@ body{
 div.main{
     border-radius: 15px;
     padding: 5px 20px 5px 20px;
-    /*background: -webkit-linear-gradient(left, lightgrey, lightgrey 1240px, white 100%, white);*/
-    background: -webkit-linear-gradient(left, #FFEFD5, #FFEFD5 1240px, white 100%, white);
+    background: -webkit-linear-gradient(left, #FFEFD5, #FFEFD5 1340px, white 100%, white);
 }
-
-@media screen and (max-width: 1240px) {
+div.activity{
+    float: left;
+    margin-right: 10px;
+}
+@media screen and (max-width: 1340px) {
     body {
         width: 98%;
-    }
-}
-@media screen and (min-width: 1240px) {
-    body {
-        width: 98%;
-        background: lightgrey;
-        /*background: url('') no-repeat center center fixed; */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
     }
 }
 a:link, a:visited{

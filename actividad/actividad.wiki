@@ -12,18 +12,23 @@ ideas para añadir a actividad:
 -->
 Esta página recoge mi '''actividad''' en distintas facetas a lo largo del tiempo. Dado que la mayoría de los sitios web en los que participo registran la fecha en la que se realiza cada acción, solo hay que saber extraer el listado completo y representarlas visualmente. Para ello he escogido un calendario-mapa de calor, generadas con la biblioteca [https://github.com/kamisama/cal-heatmap cal-heatmap] y un [https://github.com/emijrp/emijrp.github.io/blob/master/actividad.py script ad-hoc].
 
-== Total ==
+Esta primera gráfica combina '''todas''' las demás que aparecen más abajo y puede considerarse el '''resumen global'''.
 
 <center>
-<table style="text-align: center;">
-<tr style="margin-bottom:20px;"><td><div id="actividad-total-2005"></div></td><td><div id="actividad-total-2006"></div></td></tr>
-<tr><td><div id="actividad-total-2007"></div></td><td><div id="actividad-total-2008"></div></td></tr>
-<tr><td><div id="actividad-total-2009"></div></td><td><div id="actividad-total-2010"></div></td></tr>
-<tr><td><div id="actividad-total-2011"></div></td><td><div id="actividad-total-2012"></div></td></tr>
-<tr><td><div id="actividad-total-2013"></div></td><td><div id="actividad-total-2014"></div></td></tr>
-<tr><td><div id="actividad-total-2015"></div></td><td valign=top><div id="actividad-total-2016"></div></td></tr>
-<tr><td><div id="actividad-total-2017"></div></td><td valign=top><div id="actividad-total-2018"></div></td></tr>
-</table>
+<div class="activity" id="actividad-total-2005"></div>
+<div class="activity" id="actividad-total-2006"></div>
+<div class="activity" id="actividad-total-2007"></div>
+<div class="activity" id="actividad-total-2008"></div>
+<div class="activity" id="actividad-total-2009"></div>
+<div class="activity" id="actividad-total-2010"></div>
+<div class="activity" id="actividad-total-2011"></div>
+<div class="activity" id="actividad-total-2012"></div>
+<div class="activity" id="actividad-total-2013"></div>
+<div class="activity" id="actividad-total-2014"></div>
+<div class="activity" id="actividad-total-2015"></div>
+<div class="activity" id="actividad-total-2016"></div>
+<div class="activity" id="actividad-total-2017"></div>
+<div class="activity" id="actividad-total-2018"></div>
 </center>
 
 <script type="text/javascript">
@@ -80,27 +85,36 @@ for (i = 2005; i <= 2017; i++) {
 }
 </script>
 
+<br clear="all" />
+
 == Cine ==
 {{../vt|1=../cine/estadisticas-cine|2=Estadísticas de cine}}
 
 Mi '''actividad en cine''' se centra en visionar películas, documentales y cortometrajes que luego puntuo en el portal FilmAffinity. La siguiente gráfica recoge los días en los que he puntuado alguna de estas obras.
 
-por desarrollar
+(por desarrollar)
+
+<br clear="all" />
 
 == Fotografía ==
 
 Mi '''actividad en fotografía''' consiste en la publicación en [https://www.flickr.com/photos/emijrp/ Flickr] y [https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1 Commons] de la mayoría de las fotografías que tomo. La fecha está extraida de los metadatos EXIF que todas las cámaras insertan en las imágenes. La primera fotografía digital que subí a Commons mostraba el monumento de [https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg Puerta Tierra en Cádiz] y la tomé el 20 de enero de 2005.
 
 <center>
-<table style="text-align: center;">
-<tr style="margin-bottom:20px;"><td><div id="actividad-foto-2005"></div></td><td><div id="actividad-foto-2006"></div></td></tr>
-<tr><td><div id="actividad-foto-2007"></div></td><td><div id="actividad-foto-2008"></div></td></tr>
-<tr><td><div id="actividad-foto-2009"></div></td><td><div id="actividad-foto-2010"></div></td></tr>
-<tr><td><div id="actividad-foto-2011"></div></td><td><div id="actividad-foto-2012"></div></td></tr>
-<tr><td><div id="actividad-foto-2013"></div></td><td><div id="actividad-foto-2014"></div></td></tr>
-<tr><td><div id="actividad-foto-2015"></div></td><td valign=top><div id="actividad-foto-2016"></div></td></tr>
-<tr><td><div id="actividad-foto-2017"></div></td><td valign=top><div id="actividad-foto-2018"></div></td></tr>
-</table>
+<div class="activity" id="actividad-foto-2005"></div>
+<div class="activity" id="actividad-foto-2006"></div>
+<div class="activity" id="actividad-foto-2007"></div>
+<div class="activity" id="actividad-foto-2008"></div>
+<div class="activity" id="actividad-foto-2009"></div>
+<div class="activity" id="actividad-foto-2010"></div>
+<div class="activity" id="actividad-foto-2011"></div>
+<div class="activity" id="actividad-foto-2012"></div>
+<div class="activity" id="actividad-foto-2013"></div>
+<div class="activity" id="actividad-foto-2014"></div>
+<div class="activity" id="actividad-foto-2015"></div>
+<div class="activity" id="actividad-foto-2016"></div>
+<div class="activity" id="actividad-foto-2017"></div>
+<div class="activity" id="actividad-foto-2018"></div>
 </center>
 
 <script type="text/javascript">
@@ -157,11 +171,15 @@ for (i = 2005; i <= 2017; i++) {
 }
 </script>
 
+<br clear="all" />
+
 == Software ==
 
 Actividad en distintas forjas, GitHub principalmente.
 
-por desarrollar
+(por desarrollar)
+
+<br clear="all" />
 
 == Wikis ==
 
@@ -170,15 +188,20 @@ Mi '''actividad en wikis''' se concentra en [https://www.wikipedia.org Wikipedia
 Solamente están contadas las aportaciones con mi cuenta "Emijrp" que suman más de 150.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan las 10 millones de ediciones.
 
 <center>
-<table style="text-align: center;">
-<tr style="margin-bottom:20px;"><td><div id="actividad-wiki-2005"></div></td><td><div id="actividad-wiki-2006"></div></td></tr>
-<tr><td><div id="actividad-wiki-2007"></div></td><td><div id="actividad-wiki-2008"></div></td></tr>
-<tr><td><div id="actividad-wiki-2009"></div></td><td><div id="actividad-wiki-2010"></div></td></tr>
-<tr><td><div id="actividad-wiki-2011"></div></td><td><div id="actividad-wiki-2012"></div></td></tr>
-<tr><td><div id="actividad-wiki-2013"></div></td><td><div id="actividad-wiki-2014"></div></td></tr>
-<tr><td><div id="actividad-wiki-2015"></div></td><td valign=top><div id="actividad-wiki-2016"></div></td></tr>
-<tr><td><div id="actividad-wiki-2017"></div></td><td valign=top><div id="actividad-wiki-2018"></div></td></tr>
-</table>
+<div class="activity" id="actividad-wiki-2005"></div>
+<div class="activity" id="actividad-wiki-2006"></div>
+<div class="activity" id="actividad-wiki-2007"></div>
+<div class="activity" id="actividad-wiki-2008"></div>
+<div class="activity" id="actividad-wiki-2009"></div>
+<div class="activity" id="actividad-wiki-2010"></div>
+<div class="activity" id="actividad-wiki-2011"></div>
+<div class="activity" id="actividad-wiki-2012"></div>
+<div class="activity" id="actividad-wiki-2013"></div>
+<div class="activity" id="actividad-wiki-2014"></div>
+<div class="activity" id="actividad-wiki-2015"></div>
+<div class="activity" id="actividad-wiki-2016"></div>
+<div class="activity" id="actividad-wiki-2017"></div>
+<div class="activity" id="actividad-wiki-2018"></div>
 </center>
 
 <script type="text/javascript">
@@ -234,5 +257,7 @@ for (i = 2005; i <= 2017; i++) {
     });
 }
 </script>
+
+<br clear="all" />
 
 {{../footer}}

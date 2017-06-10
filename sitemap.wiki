@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>325153</td>
+        <td>325211</td>
     </tr>
 
     <tr>
@@ -554,7 +554,7 @@
         <td>78</td>
         <td><a href="actividad/actividad.html">actividad/actividad.html</a></td>
         <td><a href="actividad/actividad.wiki">actividad/actividad.wiki</a></td>
-        <td>9586</td>
+        <td>9681</td>
     </tr>
 
     <tr>
