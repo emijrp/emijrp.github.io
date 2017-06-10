@@ -4,16 +4,11 @@ body{
     margin: auto;
     max-width: 1340px;
     background: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
     background: white;
-    box-shadow: 0px 0px 15px #000000;
-    border-radius: 15px;
 }
 div.main{
-    border-radius: 15px;
-    padding: 5px 20px 5px 20px;
     background: #FFEFD5;
+    padding: 2px 10px 2px 10px;
 }
 div.activity{
     float: left;
@@ -21,7 +16,19 @@ div.activity{
 }
 @media screen and (max-width: 1340px) {
     body {
-        width: 98%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        box-shadow: 0px 0px 15px #000000;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    div.main{
+        border-radius: 15px;
+        padding: 5px 20px 5px 20px;
     }
 }
 a:link, a:visited{
