@@ -6,13 +6,14 @@ body{
     background: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    background: white;
     box-shadow: 0px 0px 15px #000000;
     border-radius: 15px;
 }
 div.main{
     border-radius: 15px;
     padding: 5px 20px 5px 20px;
-    background: -webkit-linear-gradient(left, #FFEFD5, #FFEFD5 1340px, white 100%, white);
+    background: #FFEFD5;
 }
 div.activity{
     float: left;
