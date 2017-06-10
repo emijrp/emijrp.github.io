@@ -81,7 +81,7 @@ for (i = 2005; i <= 2017; i++) {
 </script>
 
 == Cine ==
-{{../vt|1=cine/estadisticas-cine|2=Estadísticas de cine}}
+{{../vt|1=../cine/estadisticas-cine|2=Estadísticas de cine}}
 
 Mi '''actividad en cine''' se centra en visionar películas, documentales y cortometrajes que luego puntuo en el portal FilmAffinity. La siguiente gráfica recoge los días en los que he puntuado alguna de estas obras.
 
