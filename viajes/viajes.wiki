@@ -1,6 +1,6 @@
 {{headerleaflet|1=Viajes}}
 
-<div id="map" style="float: right;width: 550px;height: 420px;"></div>
+<div id="map" style="float: right;width: 480px;height: 360px;"></div>
 
 Esta sección está dedicada a recopilar detalles de '''mis viajes''', pequeños diarios y algunos datos curiosos. 
 
