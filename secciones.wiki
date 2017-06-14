@@ -33,6 +33,7 @@
     {{button-blue|1=software.html|2=Software}}
     {{button-blue|1=tareas.html|2=Tareas}}
     {{button-blue|1=viajes/viajes.html|2=Viajes}}
+    {{button-blue|1=videoteca/videoteca.html|2=Videoteca}}
     {{button-blue|1=wikis.html|2=Wikis}}
     {{button-blue|1=sitemap.html|2=Sitemap}}
 </p>

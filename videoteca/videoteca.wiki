@@ -1,0 +1,79 @@
+{{header|1=Videoteca}}
+{{../vt|1=cine|2=Cine}}
+
+Esta '''videoteca''' es una colección de vídeos de múltiples temas.
+
+== Vídeos sueltos ==
+
+<!-- youtubevideostable -->
+<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
+
+<table class="wikitable sortable" style="text-align: center;">
+
+    <tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Título</th>
+        <th class="sorttable_numeric">Duración</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td sorttable_customkey="JORNALEROS ANDALUCES ,El loco y Diego Cañamero.vob"><a href="https://www.youtube.com/watch?v=jgKmHirg0pY">JORNALEROS ANDALUCES ,El loco y Diego Cañamero.vob</a></td>
+        <td>9:19</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td sorttable_customkey="Preguntas sobre Jesús de Nazaret"><a href="https://www.youtube.com/watch?v=mX_D1o8wbUo">Preguntas sobre Jesús de Nazaret</a></td>
+        <td>1:19:54</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td sorttable_customkey="Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (1)"><a href="https://www.youtube.com/watch?v=IDd8vaNBHTY">Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (1)</a></td>
+        <td>14:59</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td sorttable_customkey="Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (2)"><a href="https://www.youtube.com/watch?v=wn3wwi_Tet4">Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (2)</a></td>
+        <td>15:00</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td sorttable_customkey="Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (3)"><a href="https://www.youtube.com/watch?v=1O3eEjOSoj4">Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (3)</a></td>
+        <td>15:01</td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td sorttable_customkey="Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (4)"><a href="https://www.youtube.com/watch?v=1WOi7avKb94">Un domingo rojo en Marinaleda: De la casa a la lucha (1986) - Andalucía entera como Marinaleda (4)</a></td>
+        <td>4:41</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td sorttable_customkey="Marinaleda. El sueño de la tierra"><a href="https://www.youtube.com/watch?v=lNAJfyzjGrs">Marinaleda. El sueño de la tierra</a></td>
+        <td>1:04:00</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td sorttable_customkey="Marinaleda no se rinde"><a href="https://www.youtube.com/watch?v=PpicoWLva9c">Marinaleda no se rinde</a></td>
+        <td>30:30</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td sorttable_customkey="Mis Enigmas Favoritos [Antonio Piñero][Jesús de Nazaret][24-7-2012]"><a href="https://www.youtube.com/watch?v=fNRRfFAnDkY">Mis Enigmas Favoritos [Antonio Piñero][Jesús de Nazaret][24-7-2012]</a></td>
+        <td>1:17:21</td>
+    </tr>
+</table>
+<!-- /youtubevideostable -->
+
+== Canales de vídeos ==
+
+
+
+
+{{../footer}}
