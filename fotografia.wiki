@@ -4,10 +4,10 @@
 
 <table align="center" style="text-align: center;font-size: 90%;">
 <tr>
-    <td valign="top" width="250px"><a href="images/torre-poniente.jpg"><img src="images/torre-poniente.jpg" width="250px" align="center" alt="Vistas desde la Torre de Poniente de la Catedral de Cádiz." title="Vistas desde la Torre de Poniente de la Catedral de Cádiz." /></a></td>
-    <td valign="top" width="250px"><a href="images/mani-15o.jpg"><img src="images/mani-15o.jpg" width="250px" align="center" alt="Manifestación del 15-O en la Plaza de España en Cádiz." title="Manifestación del 15-O en la Plaza de España en Cádiz." /></a></td>
-    <td valign="top" width="250px"><a href="images/iridium8.jpg"><img src="images/iridium8.jpg" width="250px" align="center" alt="Estela del satélite Iridium 8 en verano de 2013." title="Estela del satélite Iridium 8 en verano de 2013." /></a></td>
-    <td valign="top" width="250px"><a href="images/vaporcito.jpg"><img src="images/vaporcito.jpg" width="250px" align="center" alt="Vaporcito de El Puerto surcando el Guadalete." title="Vaporcito de El Puerto surcando el Guadalete." /></a></td>
+    <td valign="top" width="250px">[[File:torre-poniente.jpg|250px|center|Vistas desde la Torre de Poniente de la Catedral de Cádiz.]]</td>
+    <td valign="top" width="250px">[[File:mani-15o.jpg|250px|center|Manifestación del 15-O en la Plaza de España en Cádiz.]]</td>
+    <td valign="top" width="250px">[[File:iridium8.jpg|250px|center|Estela del satélite Iridium 8 en verano de 2013.]]</td>
+    <td valign="top" width="250px">[[File:vaporcito.jpg|250px|center|Vaporcito de El Puerto surcando el Guadalete.]]</td>
 </tr>
 <tr>
     <td valign="top"><p>Vistas desde la Torre de Poniente de la Catedral de Cádiz.</p></td>
