@@ -96,7 +96,7 @@ def main():
     
     biogallery = u""
     for biowiki, bioprops in bios:
-        biogallery += '<a href="%s.html"><img src="../../images/%s" width="80px" height="100px" title="%s" /></a>' % (bioprops['wiki'], bioprops['imagen'], bioprops['nombreyapellidos'])
+        biogallery += '[[File:%s|80px|center|link=%s.html|%s]]' % (bioprops['imagen'], bioprops['wiki'], bioprops['nombreyapellidos'])
     
     savetable('index.wiki', u'tabla completa', biotable)
     savetable('index.wiki', u'galería completa', biogallery)
