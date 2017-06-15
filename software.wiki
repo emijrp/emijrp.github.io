@@ -18,19 +18,19 @@ Desde que me registré en Wikipedia en 2005 he contribuido asiduamente a esta en
     <td>[https://github.com/emijrp/avbot GitHub]</td>
     <td>AVBOT es un '''bot anti-vandalismo''' para wikis MediaWiki. Está desarrollado en Python y utiliza el framework pywikibot. AVBOT ha estado funcionando en [https://es.wikipedia.org/wiki/Usuario:AVBOT Wikipedia en español] desde 2008, donde ha revertido más de 250.000 vandalismos. También existen [https://es.wikipedia.org/wiki/Usuario:AVBOT#Clones varios clones] controlados por otros usuarios. En 2009, el proyecto fue galardonado con el '''Premio Nacional al "Mejor proyecto comunitario"''' en el [http://www.concursosoftwarelibre.org/0809/premios-iii-concurso-universitario-software-libre III Concurso Universitario de Software Libre].
     <!--'''English:''' AVBOT is an anti-vandalism bot for MediaWiki wikis. It is developed in Python, using <a href="http://pywikipediabot.sourceforge.net/">pywikipediabot</a> and <a href="http://python-irclib.sourceforge.net/">irclib</a>. AVBOT has been working in <a href="http://es.wikipedia.org/wiki/Usuario:AVBOT">Spanish Wikipedia</a> from 2008, it has reverted more than 250,000 vandalism edits, and it has <a href="http://es.wikipedia.org/wiki/Usuario:AVBOT#Clones">several clones</a> managed by other users. In 2009, this project was awarded with <b>Premio Nacional al "Mejor proyecto comunitario"</b> in the <a href="http://www.concursosoftwarelibre.org/0809/premios-iii-concurso-universitario-software-libre">III Concurso Universitario de Software Libre</a>.--></td>
-    <td><img src="images/avbot-logo.png" width=180px /></td>
+    <td>[[File:avbot-logo.png|180px|center]]</td>
 </tr>
 <tr>
     <td>'''[https://tools.wmflabs.org/commons-coverage/ Commons Coverage]'''</td>
     <td>[https://github.com/emijrp/commons-coverage GitHub]</td>
     <td>'''Mapa''' que muestra todas las '''imágenes geolocalizadas''' de Wikimedia Commons sobre un mapamundi. Cuando hay una fotografía en cualquier zona, se ilumina un círculo de 1 km a la redonda, indicando que esa parte ya "se considera" explorada. El resto del mundo aparece sombreado. De esta forma se invita a mejorar la cobertura de imágenes disponibles en Wikipedia hasta que quizás un día haya una imagen de cada kilómetro cuadrado del planeta.</td>
-    <td><a href="images/commons-coverage.png"><img src="images/commons-coverage.png" width=180px /></a></td>
+    <td>[[File:commons-coverage.png|180px|center]]</td>
 </tr>
 <tr>
     <td>'''Images for bio'''</td>
     <td>[https://github.com/emijrp/imagesforbio GitHub]</td>
     <td>Herramienta que '''recopila biografías''' que carecían de '''imagen''' y busca en otras Wikipedias si existe imagen de esa persona. El resultado es un listado de páginas a las que se les puede añadir las imágenes fácilmente mediante un clic. Se encuentra fuera de funcionamiento al haber aparecido proyectos como Wikidata.</td>
-    <td><a href="images/imagesforbio.png"><img src="images/imagesforbio.png" width=180px /></a></td>
+    <td>[[File:imagesforbio.png|180px|center]]</td>
 </tr>
 <!--<tr>
     <td>'''wikistatistics-mediawiki-extension'''</td>
@@ -42,7 +42,7 @@ Desde que me registré en Wikipedia en 2005 he contribuido asiduamente a esta en
     <td>'''WikiTeam'''</td>
     <td>[https://github.com/WikiTeam/wikiteam GitHub]</td>
     <td>El software de '''WikiTeam''' es un conjunto de herramientas para preservación y '''archivo de wikis'''. Funcionan sobre wikis MediaWiki, aunque es posible que se añada soporte para otros motores en el futuro. A enero de 2017, '''WikiTeam ha preservado más de 27.000 wikis''', varias wikifarms, dumps de todos los idiomas de Wikipedia y 34 TB de imágenes de Wikimedia Commons.</td>
-    <td><a href="images/wikiteam.png"><img src="images/wikiteam.png" width=180px /></a></td>
+    <td>[[File:wikiteam.png|180px|center]]</td>
 </tr>
 <!--<tr>
     <td>'''[https://tools.wmflabs.org/wikitweets/ wikitweets]'''</td>
@@ -54,25 +54,25 @@ Desde que me registré en Wikipedia en 2005 he contribuido asiduamente a esta en
     <td>'''[https://tools.wmflabs.org/wlm-maps/ WLM maps]'''</td>
     <td>[https://github.com/emijrp/wlm-maps GitHub]</td>
     <td>'''Mapa''' que muestra '''todos los monumentos''' para los que se conoce sus coordenadas, indicando si éste dispone de imagen en Wikipedia o no. De esta forma permite encontrar monumentos a los que todavía hay que hacerle fotografías para ilustrar sus artículos en la enciclopedia. Se utiliza para el mayor concurso fotográfico del mundo, [http://www.wikilovesmonuments.org Wiki Loves Monuments].</td>
-    <td><a href="images/wlm-maps.png"><img src="images/wlm-maps.png" width=180px /></a></td>
+    <td>[[File:wlm-maps.png|180px|center]]</td>
 </tr>
 <tr>
     <td>'''[https://tools.wmflabs.org/wlm-stats/ WLM stats]'''</td>
     <td><a href="https://github.com/emijrp/wlm-stats">GitHub</a></td>
     <td>Genera '''gráficas y estadísticas''' de las imágenes y vídeos subidos durante las distintas ediciones del concurso fotográfico [http://www.wikilovesmonuments.org Wiki Loves Monuments]. También ofrece un fichero con los metadatos recopilados de todas las imágenes subidas, de esta forma otros usuarios pueden crear sus estadísticas fácilmente.</td>
-    <td><a href="images/wlm-stats.png"><img src="images/wlm-stats.png" width=180px /></a></td>
+    <td>[[File:wlm-stats.png|180px|center]]</td>
 </tr>
 <tr>
     <td>'''[https://tools.wmflabs.org/wmcharts/ wmcharts]'''</td>
     <td>[https://github.com/emijrp/wmcharts GitHub]</td>
     <td>Es una colección de '''gráficas''' sobre distintos aspectos y '''métricas''' de los proyectos Wikimedia, por ejemplo la actividad de los cambios recientes, páginas nuevas, borrados, bloqueos a usuarios, protecciones de páginas, subidas de ficheros, ediciones revertidas y más.</td>
-    <td><a href="images/wmcharts.png"><img src="images/wmcharts.png" width=180px /></a></td>
+    <td>[[File:wmcharts.png|180px|center]]</td>
 </tr>
 <tr>
     <td>'''[https://tools.wmflabs.org/wmcounter/ wmcounter]'''</td>
     <td>[https://github.com/emijrp/wmcounter GitHub]</td>
     <td>Es un '''contador''' que muestra el '''total de ediciones''' que se han hecho a [https://www.wikipedia.org Wikipedia] y sus [https://www.wikimedia.org proyectos hermanos] desde que se fundaron en el año 2001. Va creciendo a cada instante por lo que puede verse en vivo como la gente aporta a Wikipedia. A veces el ritmo alcanza las 10 ediciones/segundo o más. La edición número 1.000.000.000 (mil millones) tuvo lugar el 16 de abril de 2010.</td>
-    <td><a href="images/wmcounter.png"><img src="images/wmcounter.png" width=180px /></a></td>
+    <td>[[File:wmcounter.png|180px|center]]</td>
 </tr>
 
 </table>
