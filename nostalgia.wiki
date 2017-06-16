@@ -2,6 +2,7 @@
 
 <table align=right>
 <tr><td>[[File:beakman.jpg|200px|El mundo de Beakman, uno de los programas más educativos que había en la televisión.]]</td></tr>
+<tr><td>[[File:polo-sur.jpg|200px|Seguidores incondicionales de Beakman en el Polo Sur.]]</td></tr>
 <!--<tr><td>[[File:alley-cat.png|200px|Alley Cat es un juego antiguo para MS-DOS de los años 80, en el que eres un gato que come ratones, huyes de perros, etc, vaya lo típico que hace un gato.]]</td></tr>-->
 </table>
 
