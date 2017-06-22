@@ -14,7 +14,7 @@ También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar co
 <div style="width: 85%;border: 2px solid pink;background-color: #FAD6A5;padding: 0px 10px 10px 10px;">
 '''Anotaciones rápidas:'''
 
-* Los directores de documentales '''John Pilger''' y '''Nattie Wild''' parecen muy comprometidos. Intentaré mirar su trabajo.
+* Los directores de documentales '''[https://vimeo.com/user5080139/videos/sort:date John Pilger]''' y '''Nattie Wild''' parecen muy comprometidos. Intentaré mirar su trabajo.
 * '''[http://www.librered.net LibreRed]''' desaparece en el mes de mayo de 2017 sin aviso previo. Era un excelente portal de noticias alternativas, que daba una visión diferente a la de los mass media. Aunque hacían refritos de muchos otros sitios alternativos, tras varios años funcionando tenían una excelente hemeroteca. Aparentemente se han transformado en [https://lazurda.tv LaZurda.tv], un canal de programas televisivos.
 
 <!--
