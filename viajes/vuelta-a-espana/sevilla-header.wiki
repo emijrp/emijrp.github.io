@@ -7,13 +7,13 @@
 |densidad=
 |municipios-visitados=Santiponce
 |distancia-recorrida=
-|fecha=
-|duracion=1 día
+|fecha=2007, 2009, 2011, 2013
+|duracion=Varios días
 |arquitectura-civil=
 |arquitectura-religiosa=
 |museos=
 |naturaleza=
 |otros=
 |imagen=sevilla1.jpg
-|imagen-pie=
+|imagen-pie=Catedral de Sevilla y Giralda desde la Torre del Oro
 }}

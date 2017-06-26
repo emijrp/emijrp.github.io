@@ -9,11 +9,11 @@
 |distancia-recorrida=60 km
 |fecha=17 de junio de 2016
 |duracion=1 día
-|arquitectura-civil=
-|arquitectura-religiosa=
-|museos=
-|naturaleza=
-|otros=
+|arquitectura-civil=Palacio del Infantado
+|arquitectura-religiosa=Concatedral de Santa María de Guadalajara
+|museos=Museo de Guadalajara, Archivo Provincial
+|naturaleza=Río Henares, Zoológico de Guadalajara
+|otros=Alcázar de Guadalajara (cerrado), Torreón del Alamín, Torreón de Alvar Fáñez
 |imagen=guadalajara1.jpg
 |imagen-pie=Palacio del Infantado en Guadalajara
 }}

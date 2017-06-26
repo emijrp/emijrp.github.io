@@ -5,15 +5,15 @@
 |superficie=
 |poblacion=
 |densidad=
-|municipios-visitados=Arcos de la Frontera, Benalup-Casas Viejas, Medina-Sidonia, Vejer de la Frontera
+|municipios-visitados=Arcos de la Frontera, Benalup-Casas Viejas, Chipiona, Jerez de la Frontera, Medina-Sidonia, Paterna de Rivera, Puerto Real, Sanlúcar de Barrameda, Trebujena, Vejer de la Frontera
 |distancia-recorrida=
-|fecha=
-|duracion=4 días (1 día por municipio)
+|fecha=1986-2017
+|duracion=Varios años
 |arquitectura-civil=
 |arquitectura-religiosa=
 |museos=
 |naturaleza=
 |otros=
 |imagen=cadiz1.jpg
-|imagen-pie=
+|imagen-pie=Cádiz desde la Torre Tavira
 }}

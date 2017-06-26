@@ -7,7 +7,7 @@
 |densidad=11
 |municipios-visitados=Alcocer, Chillaron de Cuenca, Cuenca, Sacedón, Villar de Domingo García
 |distancia-recorrida=
-|fecha=
+|fecha=10 de septiembre de 2016
 |duracion=1 día
 |arquitectura-civil=
 |arquitectura-religiosa=
@@ -15,5 +15,5 @@
 |naturaleza=
 |otros=
 |imagen=cuenca1.jpg
-|imagen-pie=
+|imagen-pie=Casas Colgadas de Cuenca
 }}

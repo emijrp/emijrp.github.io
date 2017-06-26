@@ -7,7 +7,7 @@
 |densidad=
 |municipios-visitados=Salamanca
 |distancia-recorrida=
-|fecha=
+|fecha=26 de octubre de 2016
 |duracion=1 día
 |arquitectura-civil=
 |arquitectura-religiosa=
@@ -15,5 +15,5 @@
 |naturaleza=
 |otros=
 |imagen=salamanca1.jpg
-|imagen-pie=
+|imagen-pie=Plaza Mayor de Salamanca
 }}

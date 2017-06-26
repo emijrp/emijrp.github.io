@@ -5,15 +5,15 @@
 |superficie=
 |poblacion=
 |densidad=
-|municipios-visitados=Estepona
+|municipios-visitados=Estepona, Málaga, Nerja
 |distancia-recorrida=
-|fecha=
-|duracion=1 día
+|fecha=2012, 2017
+|duracion=Varios días
 |arquitectura-civil=
 |arquitectura-religiosa=
 |museos=
 |naturaleza=
 |otros=
 |imagen=malaga1.jpg
-|imagen-pie=
+|imagen-pie=Catedral de Málaga desde la Alcazaba
 }}

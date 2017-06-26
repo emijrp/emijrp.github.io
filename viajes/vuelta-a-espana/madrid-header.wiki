@@ -7,13 +7,13 @@
 |densidad=809
 |municipios-visitados=Alcalá de Henares, Aranjuez, Madrid
 |distancia-recorrida=0 km
-|fecha=2016
-|duracion=
+|fecha=2008, 2016, 2017
+|duracion=Varios meses
 |arquitectura-civil=
 |arquitectura-religiosa=
 |museos=
 |naturaleza=
 |otros=
 |imagen=madrid1.jpg
-|imagen-pie=
+|imagen-pie=Museo del Prado y estatua de Francisco de Goya
 }}

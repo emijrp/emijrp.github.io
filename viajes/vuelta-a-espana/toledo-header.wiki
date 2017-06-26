@@ -15,5 +15,5 @@
 |naturaleza=Río Tajo
 |otros=Academia de Infantería, Plaza Zocodover, Puente de Alcántara
 |imagen=toledo1.jpg
-|imagen-pie=Alcazar de Toledo
+|imagen-pie=Alcazar de Toledo vista desde el puente del Tajo
 }}

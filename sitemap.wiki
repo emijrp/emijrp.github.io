@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>326263</td>
+        <td>327131</td>
     </tr>
 
     <tr>
@@ -1212,21 +1212,21 @@
         <td>172</td>
         <td><a href="viajes/vuelta-a-espana/burgos-header.html">viajes/vuelta-a-espana/burgos-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/burgos-header.wiki">viajes/vuelta-a-espana/burgos-header.wiki</a></td>
-        <td>292</td>
+        <td>327</td>
     </tr>
 
     <tr>
         <td>173</td>
         <td><a href="viajes/vuelta-a-espana/burgos.html">viajes/vuelta-a-espana/burgos.html</a></td>
         <td><a href="viajes/vuelta-a-espana/burgos.wiki">viajes/vuelta-a-espana/burgos.wiki</a></td>
-        <td>279</td>
+        <td>309</td>
     </tr>
 
     <tr>
         <td>174</td>
         <td><a href="viajes/vuelta-a-espana/cadiz-header.html">viajes/vuelta-a-espana/cadiz-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/cadiz-header.wiki">viajes/vuelta-a-espana/cadiz-header.wiki</a></td>
-        <td>384</td>
+        <td>501</td>
     </tr>
 
     <tr>
@@ -1247,14 +1247,14 @@
         <td>177</td>
         <td><a href="viajes/vuelta-a-espana/cuenca-header.html">viajes/vuelta-a-espana/cuenca-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/cuenca-header.wiki">viajes/vuelta-a-espana/cuenca-header.wiki</a></td>
-        <td>371</td>
+        <td>419</td>
     </tr>
 
     <tr>
         <td>178</td>
         <td><a href="viajes/vuelta-a-espana/cuenca.html">viajes/vuelta-a-espana/cuenca.html</a></td>
         <td><a href="viajes/vuelta-a-espana/cuenca.wiki">viajes/vuelta-a-espana/cuenca.wiki</a></td>
-        <td>276</td>
+        <td>303</td>
     </tr>
 
     <tr>
@@ -1268,7 +1268,7 @@
         <td>180</td>
         <td><a href="viajes/vuelta-a-espana/guadalajara-header.html">viajes/vuelta-a-espana/guadalajara-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/guadalajara-header.wiki">viajes/vuelta-a-espana/guadalajara-header.wiki</a></td>
-        <td>391</td>
+        <td>606</td>
     </tr>
 
     <tr>
@@ -1310,7 +1310,7 @@
         <td>186</td>
         <td><a href="viajes/vuelta-a-espana/madrid-header.html">viajes/vuelta-a-espana/madrid-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/madrid-header.wiki">viajes/vuelta-a-espana/madrid-header.wiki</a></td>
-        <td>340</td>
+        <td>410</td>
     </tr>
 
     <tr>
@@ -1324,7 +1324,7 @@
         <td>188</td>
         <td><a href="viajes/vuelta-a-espana/malaga-header.html">viajes/vuelta-a-espana/malaga-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/malaga-header.wiki">viajes/vuelta-a-espana/malaga-header.wiki</a></td>
-        <td>294</td>
+        <td>361</td>
     </tr>
 
     <tr>
@@ -1359,7 +1359,7 @@
         <td>193</td>
         <td><a href="viajes/vuelta-a-espana/salamanca-header.html">viajes/vuelta-a-espana/salamanca-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/salamanca-header.wiki">viajes/vuelta-a-espana/salamanca-header.wiki</a></td>
-        <td>306</td>
+        <td>351</td>
     </tr>
 
     <tr>
@@ -1387,7 +1387,7 @@
         <td>197</td>
         <td><a href="viajes/vuelta-a-espana/sevilla-header.html">viajes/vuelta-a-espana/sevilla-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/sevilla-header.wiki">viajes/vuelta-a-espana/sevilla-header.wiki</a></td>
-        <td>299</td>
+        <td>379</td>
     </tr>
 
     <tr>
@@ -1408,7 +1408,7 @@
         <td>200</td>
         <td><a href="viajes/vuelta-a-espana/toledo-header.html">viajes/vuelta-a-espana/toledo-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/toledo-header.wiki">viajes/vuelta-a-espana/toledo-header.wiki</a></td>
-        <td>562</td>
+        <td>593</td>
     </tr>
 
     <tr>
@@ -1422,7 +1422,7 @@
         <td>202</td>
         <td><a href="viajes/vuelta-a-espana/valladolid-header.html">viajes/vuelta-a-espana/valladolid-header.html</a></td>
         <td><a href="viajes/vuelta-a-espana/valladolid-header.wiki">viajes/vuelta-a-espana/valladolid-header.wiki</a></td>
-        <td>312</td>
+        <td>393</td>
     </tr>
 
     <tr>

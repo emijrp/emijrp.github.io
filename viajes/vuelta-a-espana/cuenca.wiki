@@ -5,6 +5,6 @@
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=madrid|pre-etapa=Etapa 5: Madrid|etapa=Etapa 6: Cuenca|sig-wiki=|sig-etapa=}}</noinclude>
+<noinclude>{{navbox-etapa|pre-wiki=madrid|pre-etapa=Etapa 5: Madrid|etapa=Etapa 6: Cuenca|sig-wiki=salamanca|sig-etapa=Etapa 7: Salamanca}}</noinclude>
 
 <noinclude>{{../../footer}}</noinclude>

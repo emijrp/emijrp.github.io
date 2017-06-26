@@ -7,7 +7,7 @@
 |densidad=
 |municipios-visitados=Burgos
 |distancia-recorrida=
-|fecha=
+|fecha=7 de mayo de 2017
 |duracion=1 día
 |arquitectura-civil=
 |arquitectura-religiosa=
@@ -15,5 +15,5 @@
 |naturaleza=
 |otros=
 |imagen=burgos1.jpg
-|imagen-pie=
+|imagen-pie=Catedral de Burgos
 }}

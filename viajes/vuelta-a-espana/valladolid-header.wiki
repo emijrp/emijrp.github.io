@@ -7,7 +7,7 @@
 |densidad=
 |municipios-visitados=Valladolid
 |distancia-recorrida=
-|fecha=
+|fecha=23 de mayo de 2017
 |duracion=1 día
 |arquitectura-civil=
 |arquitectura-religiosa=
@@ -15,5 +15,5 @@
 |naturaleza=
 |otros=
 |imagen=valladolid1.jpg
-|imagen-pie=
+|imagen-pie=Museo de Arte Africano, situado en la Universidad de Valladolid
 }}
