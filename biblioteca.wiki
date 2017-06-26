@@ -259,7 +259,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     <tr>
         <td>21</td>
         <td sorttable_customkey="El estado y la revolución: la doctrina marxista del estado y las tareas del proletariado en la revolución"><i><a href="https://www.goodreads.com/book/show/22890311-el-estado-y-la-revoluci-n">El estado y la revolución: la doctrina marxista del estado y las tareas del proletariado en la revolución</a></i></td>
-        <td><a href="https://www.goodreads.com/author/show/104630.Vladimir_Ilyich_Lenin">Lenin, Vladimir Ilyich</a></td>
+        <td><a href="https://www.goodreads.com/author/show/104630.Vladimir_Lenin">Lenin, Vladimir Ilyich</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn="></a></td>
         <td><a href="https://www.google.es/?gws_rd=ssl#q=El+estado+y+la+revolución:+la+doctrina+marxista+del+estado+y+las+tareas+del+proletariado+en+la+revolución">Buscar</a></td>
         <!--<td>...</td>-->
@@ -628,7 +628,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     <tr>
         <td>62</td>
         <td sorttable_customkey="Superfuerza"><i><a href="https://www.goodreads.com/book/show/22975187-superfuerza">Superfuerza</a></i></td>
-        <td><a href="https://www.goodreads.com/author/show/1360299.Paul_Davies">Davies, Paul</a></td>
+        <td><a href="https://www.goodreads.com/author/show/1876666.Paul_Davies">Davies, Paul Charles William</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788434583764">9788434583764</a></td>
         <td><a href="https://www.google.es/?gws_rd=ssl#q=Superfuerza">Buscar</a></td>
         <!--<td>...</td>-->
