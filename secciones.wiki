@@ -12,7 +12,7 @@
     {{button-blue|1=diccionarios/diccionarios.html|2=Diccionarios}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
     {{button-blue|1=feminismo.html|2=Feminismo}}
-    {{button-blue|1=fotografia.html|2=Fotografía}}
+    {{button-blue|1=fotografia/fotografia.html|2=Fotografía}}
     <!--{{button-grey|1=Frases}}-->
     <!--{{button-grey|1=Futuro}}-->
     {{button-blue|1=hemeroteca/hemeroteca.html|2=Hemeroteca}}
