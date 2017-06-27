@@ -2133,6 +2133,6 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
 
 == Repositorios en Rediris ==
 
-'''Rediris''' disponía de una forja de código en [https://forja.rediris.es forja.rediris.es] que en 2016 fue cerrada y reemplazada por [https://forja.cica.es forja.cica.es]. Lo que sucedió es que los proyectos no fueron trasladados automáticamente al nuevo lugar, sino que lo tenía que hacer cada desarrollador, de modo que la mayoría quedaron inaccesibles. 
+'''Rediris''' disponía de una forja de código en [https://forja.rediris.es forja.rediris.es] que en 2016 fue cerrada y reemplazada por [https://forja.cica.es forja.cica.es]. Lo que sucedió es que los proyectos no fueron trasladados automáticamente al nuevo lugar, sino que lo tenía que hacer cada desarrollador, de modo que la mayoría quedaron inaccesibles. De más de [https://web.archive.org/web/20160422022457/http://forja.rediris.es/ 1.000 proyectos] que había en la anterior forja en 2016, solo 25 fueron migrados a la nueva forja.
 
 {{footer}}
