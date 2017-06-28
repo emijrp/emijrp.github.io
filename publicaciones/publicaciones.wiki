@@ -1,46 +1,50 @@
 {{header|1=Publicaciones}}
 
-Algunas '''publicaciones''' de mi autoría o co-autoría en congresos y revistas nacionales e internacionales, que contienen los resultados de algunos trabajos que he llevado a cabo. Aparecen listadas en orden cronológico inverso. Los enlaces llevan a las versiones completas de los artículos para que puedas descargarlos y leerlos. Puedes mirar también mi perfil en [http://wikipapers.referata.com/wiki/Emilio_J._Rodr%C3%ADguez-Posada WikiPapers], [http://scholar.google.es/citations?user=YKrAl7UAAAAJ Google Scholar] y [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rodr=iacute=guez=Posada:Emilio_J=.html DBLP].
+En esta página recopila en orden cronológico inverso algunas '''publicaciones''' de mi autoría o co-autoría en congresos y revistas nacionales e internacionales, que contienen los resultados de algunos trabajos que he llevado a cabo. También incluyo ''preprints'' que no han sido formalmente publicados. Los enlaces llevan a las versiones completas de los artículos para que puedas descargarlos y leerlos. También puedes mirar mi perfil en [http://wikipapers.referata.com/wiki/Emilio_J._Rodr%C3%ADguez-Posada WikiPapers], [http://scholar.google.es/citations?user=YKrAl7UAAAAJ Google Scholar] y [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rodr=iacute=guez=Posada:Emilio_J=.html DBLP].
 
 <!--
 Añadir mi perfil en https://arxiv.org cuando haya subido material
 -->
 
+== 2017 ==
+
+* «[./tex/2017-preprint-wikiteam/2017-preprint-wikiteam.es.pdf WikiTeam, un proyecto para la preservación digital de wikis]». ''Preprint'', junio de 2017.
+
 == 2012 ==
 
-* «[./publicaciones/2012-predoctorales-estadodelarte.es.pdf Estado del arte de la investigación sobre wikis]». Proyecto de Investigación, Modelado, Simulación y Pruebas de Procesos y Tratamiento de Señales y de Datos, Universidad de Cádiz, diciembre de 2012 ([./publicaciones/2012-predoctorales-estadodelarte-ppt.es.pdf Presentación])
+* «[./2012-predoctorales-estadodelarte.es.pdf Estado del arte de la investigación sobre wikis]». Proyecto de Investigación, Modelado, Simulación y Pruebas de Procesos y Tratamiento de Señales y de Datos, Universidad de Cádiz, diciembre de 2012 ([./2012-predoctorales-estadodelarte-ppt.es.pdf Presentación])
 
-* «[./publicaciones/2012-predoctorales-wikipapers.es.pdf WikiPapers, una recopilación colaborativa de literatura sobre wikis usando MediaWiki y su extensión semántica]». IV Jornadas Predoctorales de la ESI, diciembre de 2012. ISBN 978-84-695-6550-6 ([./publicaciones/2012-predoctorales-wikipapers-ppt.es.pdf Presentación])
+* «[./2012-predoctorales-wikipapers.es.pdf WikiPapers, una recopilación colaborativa de literatura sobre wikis usando MediaWiki y su extensión semántica]». IV Jornadas Predoctorales de la ESI, diciembre de 2012. ISBN 978-84-695-6550-6 ([./2012-predoctorales-wikipapers-ppt.es.pdf Presentación])
 
-* «[./publicaciones/2012-bid-enlaces.es.pdf Análisis de enlaces hacia Bibliotecas y Archivos Digitales de Patrimonio Cultural desde Wikipedia en español y catalán]». BiD: textos universitaris de biblioteconomia i documentació, [http://www.ub.edu/bid/bid28.php nº 28], julio de 2012. ISSN 1575-5886
+* «[./2012-bid-enlaces.es.pdf Análisis de enlaces hacia Bibliotecas y Archivos Digitales de Patrimonio Cultural desde Wikipedia en español y catalán]». BiD: textos universitaris de biblioteconomia i documentació, [http://www.ub.edu/bid/bid28.php nº 28], julio de 2012. ISSN 1575-5886
 
-* «[./publicaciones/2012-revision-wikidocencia.es.pdf Tecnologías wiki en la docencia de Ingeniería Informática]». ReVisión, Revista de AENUI (Asociación de Enseñantes Universitarios de la Informática) de investigación en Docencia Universitaria de la Informática, <a href="http://www.aenui.net/ojs/index.php?journal=revision&page=issue&op=view&path[]=10">vol. 5, nº 1</a>, junio de 2012. ISSN 1989-1199
+* «[./2012-revision-wikidocencia.es.pdf Tecnologías wiki en la docencia de Ingeniería Informática]». ReVisión, Revista de AENUI (Asociación de Enseñantes Universitarios de la Informática) de investigación en Docencia Universitaria de la Informática, <a href="http://www.aenui.net/ojs/index.php?journal=revision&page=issue&op=view&path[]=10">vol. 5, nº 1</a>, junio de 2012. ISSN 1989-1199
 
-* «[./publicaciones/2012-digithum-wlm.es.pdf Wiki Loves Monuments 2011: experiencia en España y reflexiones desde la difusión del patrimonio cultural]». Digithum [http://digithum.uoc.edu/ojs/index.php/digithum/issue/view/n14 nº 14], mayo de 2012. ISSN 1575-2275. DOI [https://doi.org/10.7238/d.v0i14.1472 10.7238/d.v0i14.1472]
+* «[./2012-digithum-wlm.es.pdf Wiki Loves Monuments 2011: experiencia en España y reflexiones desde la difusión del patrimonio cultural]». Digithum [http://digithum.uoc.edu/ojs/index.php/digithum/issue/view/n14 nº 14], mayo de 2012. ISSN 1575-2275. DOI [https://doi.org/10.7238/d.v0i14.1472 10.7238/d.v0i14.1472]
 
-* «[./publicaciones/2012-ile-assessment.en.pdf Assessment of collaborative learning experiences by graphical analysis of wiki contributions]». Interactive Learning Environments, mayo de 2012. DOI [https://dx.doi.org/10.1080/10494820.2012.680969 10.1080/10494820.2012.680969]
+* «[./2012-ile-assessment.en.pdf Assessment of collaborative learning experiences by graphical analysis of wiki contributions]». Interactive Learning Environments, mayo de 2012. DOI [https://dx.doi.org/10.1080/10494820.2012.680969 10.1080/10494820.2012.680969]
 
 == 2011 ==
 
-* «[./publicaciones/2011-upgrade-avbot.en.pdf AVBOT: Detecting and fixing Vandalism in Wikipedia]». UPGRADE, [http://www.cepis.org/upgrade/index.jsp?p=2701&n=2757 vol. 2011, nº 3], julio de 2011
+* «[./2011-upgrade-avbot.en.pdf AVBOT: Detecting and fixing Vandalism in Wikipedia]». UPGRADE, [http://www.cepis.org/upgrade/index.jsp?p=2701&n=2757 vol. 2011, nº 3], julio de 2011
 
-* «[./publicaciones/2011-csedu-assessment.en.pdf Learning-Oriented Assesment of Wiki Contributions: How to Assess Wiki Contributions in a Higher Education Learning Setting]». 3rd International Conference on Computer Supported Education ([http://www.csedu.org/CSEDU2011/ CSEDU 2011]). Noordwijkerhout, Países Bajos, 2011. ISBN 978-989-8425-50-8
+* «[./2011-csedu-assessment.en.pdf Learning-Oriented Assesment of Wiki Contributions: How to Assess Wiki Contributions in a Higher Education Learning Setting]». 3rd International Conference on Computer Supported Education ([http://www.csedu.org/CSEDU2011/ CSEDU 2011]). Noordwijkerhout, Países Bajos, 2011. ISBN 978-989-8425-50-8
 
 == 2010 ==
 
-* «[./publicaciones/2010-jenui-wikidocencia.es.pdf Tecnologías wiki en la docencia de Ingeniería Informática]». Actas de las XVI Jornadas de Enseñanza Universitaria de la Informática ([http://www.jenui2010.es/ JENUI 2010]), pp. 371-378. Santiago de Compostela, 2010. ISBN 84-693-3741-7 (nº registro: 10/60190)
+* «[./2010-jenui-wikidocencia.es.pdf Tecnologías wiki en la docencia de Ingeniería Informática]». Actas de las XVI Jornadas de Enseñanza Universitaria de la Informática ([http://www.jenui2010.es/ JENUI 2010]), pp. 371-378. Santiago de Compostela, 2010. ISBN 84-693-3741-7 (nº registro: 10/60190)
 
-* «[./publicaciones/2010-spdece-wikidocencia.es.pdf Wikis en docencia: una experiencia con WikiHaskell y StatMediaWiki]». Actas del Simposio Pluridisciplinar sobre Diseño y Evaluación de Contenidos Digitales Educativos ([http://ccita2010.uca.es/spdece SPDECE, celebrado dentro de CcITA 2010]), pp. 127-134. Cádiz, 2010. ISBN obra completa: 978-607-95446-0-7, ISBN Volumen SPDECE: 978-607-95446-2-1
+* «[./2010-spdece-wikidocencia.es.pdf Wikis en docencia: una experiencia con WikiHaskell y StatMediaWiki]». Actas del Simposio Pluridisciplinar sobre Diseño y Evaluación de Contenidos Digitales Educativos ([http://ccita2010.uca.es/spdece SPDECE, celebrado dentro de CcITA 2010]), pp. 127-134. Cádiz, 2010. ISBN obra completa: 978-607-95446-0-7, ISBN Volumen SPDECE: 978-607-95446-2-1
 ** Trabajo seleccionado para publicarse extendido en la [http://rusc.uoc.edu/ojs/index.php/rusc/issue/view/v9n1 Revista de Universidad y Sociedad del Conocimiento (RUSC) vol. 9, nº 1], enero de 2012
 
-* «[./publicaciones/2010-novatica-avbot.es.pdf AVBOT: detección y corrección de vandalismos en Wikipedia]». NovATIca, nº 203, pp. 51-53, 2010 ([http://www.ati.es/spip.php?article1775 Artículo ganador de la V Edición del Premio Novática])
+* «[./2010-novatica-avbot.es.pdf AVBOT: detección y corrección de vandalismos en Wikipedia]». NovATIca, nº 203, pp. 51-53, 2010 ([http://www.ati.es/spip.php?article1775 Artículo ganador de la V Edición del Premio Novática])
 
 == 2009 ==
 
-* «[./publicaciones/2009-cisl-wikidocencia.es.pdf Tecnologías wiki y conocimiento abierto en la Universidad]». Actas de la V Conferencia Internacional de Software Libre, pp. 16-19. Cáceres, 2009. ISBN 978-84-692-8739-2
+* «[./2009-cisl-wikidocencia.es.pdf Tecnologías wiki y conocimiento abierto en la Universidad]». Actas de la V Conferencia Internacional de Software Libre, pp. 16-19. Cáceres, 2009. ISBN 978-84-692-8739-2
 
-* «[./publicaciones/2009-linuxmagazine-proyectos.es.pdf Los proyectos de los nuevos desarrolladores españoles]». Linux Magazine [http://www.linux-magazine.es/issue/49 nº 49], pp. 93-94
+* «[./2009-linuxmagazine-proyectos.es.pdf Los proyectos de los nuevos desarrolladores españoles]». Linux Magazine [http://www.linux-magazine.es/issue/49 nº 49], pp. 93-94
 
-* «[./publicaciones/2009-pfc-avbot.es.pdf Detector y corrector automático de ediciones maliciosas en Wikipedia]». Proyecto Fin de Carrera, Ingeniería Técnica en Informática de Sistemas, Universidad de Cádiz, enero de 2009. [http://hdl.handle.net/10498/8691 DOI 10498/8691] ([./publicaciones/2009-pfc-avbot-ppt.es.pdf Presentación]) ([./publicaciones/2009-pfc-avbot-manualinstalacion.es.pdf Manual de instalación]) ([./publicaciones/2009-pfc-avbot-manualusuario.es.pdf Manual de usuario])
+* «[./2009-pfc-avbot.es.pdf Detector y corrector automático de ediciones maliciosas en Wikipedia]». Proyecto Fin de Carrera, Ingeniería Técnica en Informática de Sistemas, Universidad de Cádiz, enero de 2009. [http://hdl.handle.net/10498/8691 DOI 10498/8691] ([./2009-pfc-avbot-ppt.es.pdf Presentación]) ([./2009-pfc-avbot-manualinstalacion.es.pdf Manual de instalación]) ([./2009-pfc-avbot-manualusuario.es.pdf Manual de usuario])
 
 {{footer}}
