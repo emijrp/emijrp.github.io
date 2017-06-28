@@ -1,5 +1,11 @@
-*.pyc
+*.7z
+*.aux
+*.bbl
+*.blg
+*.gz
 *.log
+*.out
+*.pyc
+flickrtags.html
 wiki2html.py
 youtube-dl
-flickrtags.html
