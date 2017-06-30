@@ -71,9 +71,20 @@ def savetable(filename, tablemark, table):
     f.write(html.encode('utf-8'))
     f.close()
 
+def getURL(url=''):
+    print 'Retrieving', url
+    html = ''
+    try:
+        req = urllib2.Request(url, headers={ 'User-Agent': 'Mozilla/5.0' })
+        html = unicode(urllib2.urlopen(req).read(), 'utf-8')
+    except:
+        pass
+    return html
+
 def main():
     films = []
     films2watch = []
+    filmswatched = []
     userid = 397713
     
     #stats
@@ -84,14 +95,11 @@ def main():
     
     #read filmaffinity profile
     ratings = []
-    for page in range(1, 100):
-    #for page in range(1, 5):
+    for page in range(1, 1000):
+    #for page in range(1, 3):
         faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
-        print 'Retrieving', faurl
-        try:
-            req = urllib2.Request(faurl, headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
-        except:
+        html = getURL(url=faurl)
+        if not html:
             break
         
         #print html
@@ -116,6 +124,7 @@ def main():
             filmprops['cast'] = i.group('cast').strip()
             filmprops['rating'] = ratings[c]
             films.append([filmprops['title'], filmprops])
+            filmswatched.append(filmprops['id'])
             country2id[filmprops['country']] = filmprops['countryid']
             
             if not 'Documentary' in filmprops['cast'] and not 'Serie de TV' in filmprops['title']:
@@ -128,19 +137,16 @@ def main():
         if (c != 30 or len(ratings) != 30) and not 'El acorazado Potemkin' in html:
             print 'ERROR al capturar los datos'
             sys.exit()
-        time.sleep(1)
+        time.sleep(5)
     films.sort()
     print('%d films' % len(films))
     
     #read films to watch
-    for page in range(1, 100):
+    for page in range(1, 1000):
         #continue
         faurl = 'https://www.filmaffinity.com/es/userlist.php?user_id=%s&list_id=201&page=%s&orderby=0' % (userid, page)
-        print 'Retrieving', faurl
-        try:
-            req = urllib2.Request(faurl, headers={ 'User-Agent': 'Mozilla/5.0' })
-            html = unicode(urllib2.urlopen(req).read(), 'utf-8')
-        except:
+        html = getURL(url=faurl)
+        if not html:
             break
         
         m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d+?)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>', html)
@@ -153,7 +159,7 @@ def main():
             filmprops['country'] = i.group('country').strip()
             films2watch.append([filmprops['title'], filmprops])
             country2id[filmprops['country']] = filmprops['countryid']
-        time.sleep(1)
+        time.sleep(5)
     films2watch.sort()
     print('%d films to watch' % len(films2watch))
     
@@ -373,5 +379,48 @@ def main():
 """ % (', '.join(graphcountry))
     savetable('estadisticas-cine.wiki', 'graphcountry', graphcountry)
     
+    #temas
+    topicsurl = 'https://www.filmaffinity.com/es/topics.php'
+    html = getURL(url=topicsurl)
+    m = re.findall(r'(?im)<a class="topic" href="https://www\.filmaffinity\.com/es/movietopic\.php\?topic=(\d+)[^<>]*?">([^<>]+?)<em>\((\d+)\)</em></a>', html)
+    topictopnum = 10
+    topicrows = []
+    c = 1
+    for topicid, topicname, topictotal in m:
+        topicname = topicname.strip()
+        topicurl = 'https://www.filmaffinity.com/es/movietopic.php?topic=%s&nodoc&notvse' % (topicid)
+        html2 = getURL(url=topicurl)
+        m2 = re.findall(r'(?im)<div class="mc-title"><a\s*href="/es/film(\d+)\.html"\s*title="([^<>]+?)">', html2)
+        topicwatched = sum([filmid in filmswatched for filmid, filmtitle in m2[:topictopnum]])
+        topicnotwatched = []
+        for filmid, filmtitle in m2[:topictopnum]:
+            if not filmid in filmswatched:
+                topicnotwatched.append([filmid, filmtitle])
+        print(topicid, topicname, topicwatched)
+        topicrow = u"""
+    <tr>
+        <td>%d</td>
+        <td><a href="https://www.filmaffinity.com/es/movietopic.php?topic=%s&nodoc&notvse">%s</a></td>
+        <td>%d</td>
+        <td>%s</td>
+    </tr>\n""" % (c, topicid, topicname, topicwatched, ', '.join(['<a href="https://www.filmaffinity.com/es/film%s.html">%s</a>' % (filmid, filmtitle) for filmid, filmtitle in topicnotwatched]))
+        topicrows.append(topicrow)
+        time.sleep(5)
+        c += 1
+        #if topicid == '461156':
+        #    break
+    topicstable = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    topicstable += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
+    topicstable += u"""
+    <tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Tema</th>
+        <th class="sorttable_numeric">Vistas (TOP 10)</th>
+        <th class="sorttable_alpha">Por ver (TOP 10)</th>
+    </tr>"""
+    topicstable += u''.join(topicrows)
+    topicstable += u'</table>\n'
+    savetable('estadisticas-cine.wiki', 'tabla temas', topicstable)
+
 if __name__ == '__main__':
     main()
