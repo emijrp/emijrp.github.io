@@ -6,6 +6,7 @@
 *.log
 *.out
 *.pyc
+*.token
 flickrtags.html
 wiki2html.py
 youtube-dl
