@@ -188,6 +188,7 @@ def main():
         directors = []
         for d in range(0, len(director_)):
             directors.append('<a href="%s">%s</a>' % (directorlink[d], director_[d]))
+            #directors.append('%s' % (director_[d]))
         directors = '<br/>'.join(directors)
         if 'Documentary' in filmprops['cast']:
             filmtitle_ = filmtitle_.split(' (Serie de TV)')[0] # some documentaries include (Serie de TV) suffix
@@ -197,10 +198,10 @@ def main():
         <td>%s</td>
         <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
         <td>%s</td>
-        <td><a href="%s">%s</a></td>
-        <td><a href="%s">%s</a></td>
         <td>%s</td>
-    </tr>\n""" % (docc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
+        <td>%s</td>
+        <td>%s</td>
+    </tr>\n""" % (docc, customkey, filmprops['id'], filmtitle_, directors, filmprops['year'], country, filmprops['rating'])
             docrows.append(row)
         elif 'Serie de TV' in filmtitle_:
             filmtitle_ = filmtitle_.split(' (Serie de TV)')[0]
@@ -210,10 +211,10 @@ def main():
         <td>%s</td>
         <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
         <td>%s</td>
-        <td><a href="%s">%s</a></td>
-        <td><a href="%s">%s</a></td>
         <td>%s</td>
-    </tr>\n""" % (seriesc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
+        <td>%s</td>
+        <td>%s</td>
+    </tr>\n""" % (seriesc, customkey, filmprops['id'], filmtitle_, directors, filmprops['year'], country, filmprops['rating'])
             seriesrows.append(row)
         else:
             filmc += 1
@@ -227,10 +228,10 @@ def main():
         <td>%s</td>
         <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
         <td>%s</td>
-        <td><a href="%s">%s</a></td>
-        <td><a href="%s">%s</a></td>
         <td>%s</td>
-    </tr>\n""" % (filmc, customkey, filmprops['id'], filmtitle_, directors, yearlink, filmprops['year'], countrylink, country, filmprops['rating'])
+        <td>%s</td>
+        <td>%s</td>
+    </tr>\n""" % (filmc, customkey, filmprops['id'], filmtitle_, directors, filmprops['year'], country, filmprops['rating'])
             filmrows.append(row)
     
     #add missing years
@@ -383,7 +384,7 @@ def main():
     topicsurl = 'https://www.filmaffinity.com/es/topics.php'
     html = getURL(url=topicsurl)
     m = re.findall(r'(?im)<a class="topic" href="https://www\.filmaffinity\.com/es/movietopic\.php\?topic=(\d+)[^<>]*?">([^<>]+?)<em>\((\d+)\)</em></a>', html)
-    topictopnum = 10
+    topictopnum = 5
     topicrows = []
     c = 1
     for topicid, topicname, topictotal in m:
@@ -403,7 +404,8 @@ def main():
         <td><a href="https://www.filmaffinity.com/es/movietopic.php?topic=%s&nodoc&notvse">%s</a></td>
         <td>%d</td>
         <td>%s</td>
-    </tr>\n""" % (c, topicid, topicname, topicwatched, ', '.join(['<a href="https://www.filmaffinity.com/es/film%s.html">%s</a>' % (filmid, filmtitle) for filmid, filmtitle in topicnotwatched]))
+    </tr>\n""" % (c, topicid, topicname, topicwatched, ' · '.join(['%s' % (filmtitle) for filmid, filmtitle in topicnotwatched]))
+    #', '.join(['<a href="https://www.filmaffinity.com/es/film%s.html">%s</a>' % (filmid, filmtitle) for filmid, filmtitle in topicnotwatched])
         topicrows.append(topicrow)
         time.sleep(5)
         c += 1
@@ -415,9 +417,9 @@ def main():
     <tr>
         <th class="sorttable_numeric">#</th>
         <th class="sorttable_alpha">Tema</th>
-        <th class="sorttable_numeric">Vistas (TOP 10)</th>
-        <th class="sorttable_alpha">Por ver (TOP 10)</th>
-    </tr>"""
+        <th class="sorttable_numeric">Vistas (TOP %d)</th>
+        <th class="sorttable_alpha">Por ver (TOP %d)</th>
+    </tr>""" % (topictopnum, topictopnum)
     topicstable += u''.join(topicrows)
     topicstable += u'</table>\n'
     savetable('estadisticas-cine.wiki', 'tabla temas', topicstable)
