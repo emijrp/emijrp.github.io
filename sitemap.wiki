@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>269098</td>
+        <td>367767</td>
     </tr>
 
     <tr>
@@ -435,7 +435,7 @@
         <td>61</td>
         <td><a href="./sitemap.html">./sitemap.html</a></td>
         <td><a href="./sitemap.wiki">./sitemap.wiki</a></td>
-        <td>50601</td>
+        <td>50605</td>
     </tr>
 
     <tr>
@@ -449,7 +449,7 @@
         <td>63</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>71222</td>
+        <td>71305</td>
     </tr>
 
     <tr>
@@ -540,7 +540,7 @@
         <td>76</td>
         <td><a href="actividad/actividad.html">actividad/actividad.html</a></td>
         <td><a href="actividad/actividad.wiki">actividad/actividad.wiki</a></td>
-        <td>9681</td>
+        <td>12628</td>
     </tr>
 
     <tr>
@@ -1177,7 +1177,7 @@
         <td>167</td>
         <td><a href="viajes/viajes.html">viajes/viajes.html</a></td>
         <td><a href="viajes/viajes.wiki">viajes/viajes.wiki</a></td>
-        <td>19332</td>
+        <td>19475</td>
     </tr>
 
     <tr>
