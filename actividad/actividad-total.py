@@ -26,13 +26,17 @@ def main():
     with open('actividad-foto.json', 'r') as infile:
         foto = json.loads(infile.read())
     
+    software = {}
+    with open('actividad-software.json', 'r') as infile:
+        software = json.loads(infile.read())
+    
     wiki = {}
     with open('actividad-wiki.json', 'r') as infile:
         wiki = json.loads(infile.read())
     
     #sum subtotals
     total = {}
-    for subtotal in [foto, wiki]:
+    for subtotal in [foto, wiki, software]:
         for k, v in subtotal.items():
             if k in total:
                 total[k] += v
