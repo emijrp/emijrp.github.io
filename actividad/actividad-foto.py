@@ -20,9 +20,16 @@ import datetime
 import json
 import re
 import sys
+import time
 import urllib
+from xml.etree import ElementTree as ET # para ver los XMl que devuelve flickrapi con ET.dump(resp)
+
+import flickrapi
 
 def main():
+    activity = {}
+    
+    """
     #Commons
     cat = 'Category:Files_by_User:Emijrp'
     api = 'https://commons.wikimedia.org/w/api.php'
@@ -30,7 +37,6 @@ def main():
     uccontinue = True
     uccontinue_name = 'gcmcontinue'
     c = 0
-    activity = {}
     rows = []
     while uccontinue:
         sys.stderr.write(".")
@@ -77,17 +83,54 @@ def main():
         else:
             uccontinue = ''
     print '\n', c, 'files in Commons'
-    
-    #Flickr
-    
-    #todo
-    
+
     #save csv
     rows.sort()
     with open('photos.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for row in rows:
             writer.writerow(row)
+    
+    """
+    
+    #Flickr
+    with open('flickr.token', 'r') as f:
+        api_key, api_secret = f.read().strip().splitlines()
+    
+    flickr = flickrapi.FlickrAPI(api_key, api_secret)
+    flickruserid = '96396586@N07' #it isn't secret, don't worry
+    print('Step 1: authenticate')
+    if not flickr.token_valid(perms=u'read'):
+        flickr.get_request_token(oauth_callback=u'oob')
+        authorize_url = flickr.auth_url(perms=u'read')
+        print(authorize_url)
+        verifier = unicode(raw_input(u'Verifier code: '), 'utf-8')
+        flickr.get_access_token(verifier)
+    print('Step 2: use Flickr')
+    resp = flickr.photosets.getList(user_id=flickruserid)
+    xmlraw = ET.tostring(resp, encoding='utf8', method='xml')
+    photosets = re.findall(r' id="(\d+)"', xmlraw)
+    flickrdone = []
+    for photoset in photosets:
+        print(photoset)
+        resp2 = flickr.photosets.getPhotos(photoset_id=photoset, user_id=flickruserid, extras='date_taken')
+        xmlraw2 = ET.tostring(resp2, encoding='utf8', method='xml')
+        #print(xmlraw2)
+        datetakens = re.findall(r'(?im)datetaken="(\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d)"[^<>]*? id="(\d+)"', xmlraw2)
+        print(datetakens)
+        for datetaken, photoid in datetakens:
+            if photoid in flickrdone:
+                continue
+            else:
+                flickrdone.append(photoid)
+            d1 = datetaken.split(' ')[0]
+            d = datetime.datetime.strptime(d1, "%Y-%m-%d")
+            unixtime = d.strftime('%s')
+            if activity.has_key(unixtime):
+                activity[unixtime] += 1
+            else:
+                activity[unixtime] = 1
+        time.sleep(0.2)
     
     #save json
     with open('actividad-foto.json', 'w') as outfile:
