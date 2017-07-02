@@ -15,23 +15,76 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import datetime
 import random
 import re
-import urllib
-import urllib.parse
+from xml.etree import ElementTree as ET # para ver los XMl que devuelve flickrapi con ET.dump(resp)
+
+import flickrapi
 
 def savetable(filename, tablemark, table):
     f = open(filename, 'r')
-    html = f.read()
+    html = unicode(f.read(), 'utf-8')
     f.close()
     f = open(filename, 'w')
     before = html.split(u'<!-- %s -->' % tablemark)[0]
     after = html.split(u'<!-- /%s -->' % tablemark)[1]
     html = u'%s<!-- %s -->%s<!-- /%s -->%s' % (before, tablemark, table, tablemark, after)
-    f.write(html)
+    f.write(html.encode('utf-8'))
     f.close()
 
 def main():
+    #sets
+    with open('flickr.token', 'r') as f:
+        api_key, api_secret = f.read().strip().splitlines()
+    
+    flickr = flickrapi.FlickrAPI(api_key, api_secret)
+    flickruserid = '96396586@N07' #it isn't secret, don't worry
+    print('Step 1: authenticate')
+    if not flickr.token_valid(perms=u'read'):
+        flickr.get_request_token(oauth_callback=u'oob')
+        authorize_url = flickr.auth_url(perms=u'read')
+        print(authorize_url)
+        verifier = unicode(raw_input(u'Verifier code: '), 'utf-8')
+        flickr.get_access_token(verifier)
+    print('Step 2: use Flickr')
+    resp = flickr.photosets.getList(user_id=flickruserid)
+    xmlraw = ET.tostring(resp, encoding='utf8', method='xml')
+    xmlraw = unicode(xmlraw, 'utf-8')
+    photosets = re.findall(ur'(?im) date_create="(\d+)".*?date_update="(\d+)".*?id="(\d+)".*?photos="(\d+)".*?videos="(\d+)"[^<>]*?>\s*<title>([^<>]*?)</title>', xmlraw)
+    flickrdone = []
+    setrows = []
+    c = 1
+    for date_create, date_update, photosetid, photos, videos, title in photosets:
+        print(photosetid, photos, videos, title, date_create, date_update)
+        date_create = datetime.datetime.fromtimestamp(int(date_create))
+        date_update = datetime.datetime.fromtimestamp(int(date_update))
+        row = u"""
+    <tr>
+        <td>%s</td>
+        <td><a href="https://www.flickr.com/photos/emijrp/albums/%s">%s</a></td>
+        <td>%s</td>
+        <td>%s</td>
+        <td>%s</td>
+        <td>%s</td>
+    </tr>""" % (c, photosetid, title, photos, videos, date_create.strftime("%Y-%m-%d"), date_update.strftime("%Y-%m-%d"))
+        setrows.append(row)
+        c += 1
+    setstable = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
+    setstable += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
+    setstable += u"""<tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Título</th>
+        <th class="sorttable_numeric">Fotos</th>
+        <th class="sorttable_numeric">Vídeos</th>
+        <th class="sorttable_alpha">Fecha de creación</th>
+        <th class="sorttable_alpha">Fecha de actualización</th>
+    </tr>"""
+    setstable += u''.join(setrows)
+    setstable += u'</table>\n'
+    savetable('fotografia.wiki', 'tabla sets', setstable)
+    
+    #tagcloud
     blacklist = [
         'art', 
         'beach', 
@@ -40,15 +93,16 @@ def main():
         'museum', 
         'painting', 
         'sea', 
+        'spain', 
         'street', 
         'streets', 
     ]
     
     html = ''
     with open('flickrtags.html', 'r') as f:
-        html = f.read()
+        html = unicode(f.read(), 'utf-8')
     
-    m = re.findall(r'<a href="/photos/emijrp/tags/([^/]+?)/">([^<>]+?)</a>\s*</td>\s*<td>\s*([^<>]+?)\s*</td>\s*<td class="PhotoCount">\s*<b>(\d+)</b> elementos', html)
+    m = re.findall(ur'<a href="/photos/emijrp/tags/([^/]+?)/">([^<>]+?)</a>\s*</td>\s*<td>\s*([^<>]+?)\s*</td>\s*<td class="PhotoCount">\s*<b>(\d+)</b> elementos', html)
     tags = []
     for tag in m:
         tags.append([int(tag[3]), tag[0], tag[2]])
@@ -78,17 +132,18 @@ def main():
         if c >= cmax:
             break
     
+    print(toptags)
     cloud = []
-    maxfontsize = 350
-    minfontsize = 100
+    maxfontsize = 350.0
+    minfontsize = 100.0
     maxcount  = toptags[0][0]
     mincount = toptags[-1][0]
     percent = (maxfontsize - minfontsize) / (maxcount - mincount)
     random.shuffle(toptags)
     for count, tagurl, label in toptags:
         size = minfontsize + ((count - mincount) * percent)
-        cloud.append('<span style="font-size: %s%%;"><a href="https://www.flickr.com/search/?user_id=96396586@N07&sort=date-taken-desc&text=%s&view_all=1">%s</a></span>' % (size, tagurl, label))
-    cloud = ' · '.join(cloud)
+        cloud.append(u'<span style="font-size: %s%%;"><a href="https://www.flickr.com/search/?user_id=96396586@N07&sort=date-taken-desc&text=%s&view_all=1">%s</a></span>' % (size, tagurl, label))
+    cloud = u' · '.join(cloud)
     savetable('fotografia.wiki', 'nube', cloud)
 
 if __name__ == '__main__':
