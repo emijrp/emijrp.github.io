@@ -26,6 +26,7 @@ monthnames = { 1: 'enero', 2: 'febrero', 3: 'marzo', 4: 'abril', 5: 'mayo', 6: '
 country2id = {
     u'Unión Soviética': u'ZY', 
 }
+sleep = 2
 
 def cleanFilmCountry(filmcountry):
     filmcountry = filmcountry.strip()
@@ -137,7 +138,7 @@ def main():
         if (c != 30 or len(ratings) != 30) and not 'El acorazado Potemkin' in html:
             print 'ERROR al capturar los datos'
             sys.exit()
-        time.sleep(5)
+        time.sleep(sleep)
     films.sort()
     print('%d films' % len(films))
     
@@ -159,7 +160,7 @@ def main():
             filmprops['country'] = i.group('country').strip()
             films2watch.append([filmprops['title'], filmprops])
             country2id[filmprops['country']] = filmprops['countryid']
-        time.sleep(5)
+        time.sleep(sleep)
     films2watch.sort()
     print('%d films to watch' % len(films2watch))
     
@@ -404,10 +405,10 @@ def main():
         <td><a href="https://www.filmaffinity.com/es/movietopic.php?topic=%s&nodoc&notvse">%s</a></td>
         <td>%d</td>
         <td>%s</td>
-    </tr>\n""" % (c, topicid, topicname, topicwatched, ' · '.join(['%s' % (filmtitle) for filmid, filmtitle in topicnotwatched]))
+    </tr>\n""" % (c, topicid, topicname, topicwatched, u' · '.join([u'%s' % (filmtitle) for filmid, filmtitle in topicnotwatched]))
     #', '.join(['<a href="https://www.filmaffinity.com/es/film%s.html">%s</a>' % (filmid, filmtitle) for filmid, filmtitle in topicnotwatched])
         topicrows.append(topicrow)
-        time.sleep(5)
+        time.sleep(sleep)
         c += 1
         #if topicid == '461156':
         #    break
