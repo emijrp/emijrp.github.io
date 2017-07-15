@@ -121,7 +121,7 @@ Mi '''actividad en fotografía''' consiste en la publicación en [https://www.fl
 
 <script type="text/javascript">
 var highlights = new Array();
-highlights[2005] = [ new Date(2005, 0, 20) ];
+highlights[2005] = [ new Date(2005, 2, 20) ];
 highlights[2006] = [ ];
 highlights[2007] = [ ];
 highlights[2008] = [ ];
