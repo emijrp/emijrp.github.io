@@ -22,6 +22,14 @@ Cosas por añadir al mapa:
 * Refugios subterráneos de Almería
 * Marinaleda y Orihuela y sus murales
 * Monunmento represaliados Paterna de Rivera
+* Monolito en monte de O Castro
+
+Otros países:
+* Tumba de Karl Marx en Londres
+* Buscar donde estan enterrados otros revolucionarios
+* Ostalgie, Berlín Este: monumento Marx&Engels, calles, museo RDA
+* Monumentos norcoreanos en Africa
+* Tumba de Francisco Boix y otros resistentes al fascismo enterrados en Francia
 -->
 
 <div id="map" style="float: center;width: 100%; height: 400px;"></div>
