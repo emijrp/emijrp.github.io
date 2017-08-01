@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>361068</td>
+        <td>361251</td>
     </tr>
 
     <tr>
@@ -456,7 +456,7 @@
         <td>64</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>72769</td>
+        <td>72770</td>
     </tr>
 
     <tr>
@@ -589,21 +589,21 @@
         <td>83</td>
         <td><a href="cine/cine.html">cine/cine.html</a></td>
         <td><a href="cine/cine.wiki">cine/cine.wiki</a></td>
-        <td>54621</td>
+        <td>54919</td>
     </tr>
 
     <tr>
         <td>84</td>
         <td><a href="cine/documentales.html">cine/documentales.html</a></td>
         <td><a href="cine/documentales.wiki">cine/documentales.wiki</a></td>
-        <td>120156</td>
+        <td>123812</td>
     </tr>
 
     <tr>
         <td>85</td>
         <td><a href="cine/estadisticas-cine.html">cine/estadisticas-cine.html</a></td>
         <td><a href="cine/estadisticas-cine.wiki">cine/estadisticas-cine.wiki</a></td>
-        <td>628242</td>
+        <td>647233</td>
     </tr>
 
     <tr>
@@ -1170,7 +1170,7 @@
         <td>166</td>
         <td><a href="viajes/turismo-rojo.html">viajes/turismo-rojo.html</a></td>
         <td><a href="viajes/turismo-rojo.wiki">viajes/turismo-rojo.wiki</a></td>
-        <td>5568</td>
+        <td>5882</td>
     </tr>
 
     <tr>
