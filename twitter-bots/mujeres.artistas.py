@@ -74,7 +74,7 @@ def main():
     print(len(qlist))
     random.shuffle(qlist)
     
-    for work in qlist[:4]:
+    for work in qlist[:1]:
         print(work)
         imagename = urllib.parse.unquote(work[4].split('/Special:FilePath/')[1])
         x, xx = getCommonsMD5(imagename)
