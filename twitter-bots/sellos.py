@@ -18,6 +18,7 @@
 import os
 import random
 import re
+import sys
 import urllib
 import urllib.request
 from twython import Twython
@@ -28,7 +29,29 @@ def main():
     OAUTH_TOKEN, OAUTH_TOKEN_SECRET = read_tokens()
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
-    commonsurl = 'https://commons.wikimedia.org/wiki/User:Emijrp/Sellos_RDA?action=raw'
+    sellos = {
+        'rda': {
+            'title': 'Sellos de la República Democrática Alemana', 
+            'hashtags': ['#SellosRDA', '#GDRstamps', '#RDA', '#GDR', '#sellos', '#stamps'], 
+            'url': 'https://commons.wikimedia.org/wiki/User:Emijrp/Sellos_RDA?action=raw',
+        },
+        'urss': {
+            'title': 'Sellos de la Unión Soviética', 
+            'hashtags': ['#SellosURSS', '#USSRstamps', '#URSS', '#USSR', '#sellos', '#stamps'], 
+            'url': 'https://commons.wikimedia.org/wiki/User:Emijrp/Sellos_URSS?action=raw',
+        },
+    }
+    
+    if len(sys.argv) > 1:
+        tema = sys.argv[1]
+        if not tema in sellos.keys():
+            print('Tema %s no encontrado' % (texto))
+            sys.exit()
+    else:
+        print('No has indicado un tema')
+        sys.exit()
+    
+    commonsurl = sellos[tema]['url']
     raw = getURL(url=commonsurl)
     works = re.findall(r'(?im)File:([^\|\n]+?)\n', raw)
     random.shuffle(works)
@@ -46,7 +69,7 @@ def main():
         img = open('sellos-tempimage.jpg', 'rb')
         response = twitter.upload_media(media=img)
         media_ids.append(response['media_id'])
-    status = 'Sellos de la República Democrática Alemana #SellosRDA #GDRstamps #sellos #stamps'
+    status = '%s %s' % (sellos[tema]['title'], ' '.join(sellos[tema]['hashtags']))
     print(status)
     raw = twitter.update_status(status=status, media_ids=media_ids)
     tweetid = raw['id_str']
