@@ -45,7 +45,7 @@ def main():
     if len(sys.argv) > 1:
         tema = sys.argv[1]
         if not tema in sellos.keys():
-            print('Tema %s no encontrado' % (texto))
+            print('Tema %s no encontrado' % (tema))
             sys.exit()
     else:
         print('No has indicado un tema')
