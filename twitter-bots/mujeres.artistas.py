@@ -81,17 +81,19 @@ def main():
         imgurl = 'https://commons.wikimedia.org/wiki/File:%s' % (re.sub(' ', '_', imagename))
         imagenamequoted = urllib.parse.quote(re.sub(' ', '_', imagename))
         try:
-            imgurl2 = 'https://upload.wikimedia.org/wikipedia/commons/%s/%s/%s' % (x, xx, imagenamequoted)
+            imgurl2 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/%s/%s/%s/1200px-%s' % (x, xx, imagenamequoted, imagenamequoted)
             print(imgurl2)
             urllib.request.urlretrieve(imgurl2, 'mujeresartistas-tempimage.jpg')
         except:
             print('Error bajando')
             try:
-                imgurl2 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/%s/%s/%s/1200px-%s' % (x, xx, imagenamequoted, imagenamequoted)
+                imgurl2 = 'https://upload.wikimedia.org/wikipedia/commons/%s/%s/%s' % (x, xx, imagenamequoted)
                 print(imgurl2)
                 urllib.request.urlretrieve(imgurl2, 'mujeresartistas-tempimage.jpg')
             except:
                 print('Error bajando')
+                continue
+        
         img = open('mujeresartistas-tempimage.jpg', 'rb')
         response = twitter.upload_media(media=img)
         
