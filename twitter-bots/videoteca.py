@@ -38,6 +38,10 @@ def main():
             'hashtags': ['#VideotecaFeminista', '#VideotecaPolítica', '#feminismo'], 
             'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Videoteca_feminista?action=raw',
         },
+        'urss': {
+            'hashtags': ['#VideotecaPolítica', '#URSS', '#USSR'], 
+            'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Videoteca_urss?action=raw',
+        },
     }
     
     if len(sys.argv) > 1:
