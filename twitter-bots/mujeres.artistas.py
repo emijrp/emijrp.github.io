@@ -57,10 +57,10 @@ def main():
         date = result['date']['value']
         image = result['image']['value']
         
-        if re.search('Q\d+', label) or \
-            re.search('Q\d+', creator) or \
-            re.search('Q\d+', date) or \
-            re.search('Q\d+', image):
+        if re.search('[Qt]\d+', label) or \
+            re.search('[Qt]\d+', creator) or \
+            re.search('[Qt]\d+', date) or \
+            re.search('[Qt]\d+', image):
             continue
         
         if len(label) < 5 or \
@@ -69,6 +69,12 @@ def main():
         
         year = date.split('-')[0]
         if not q in [x[0] for x in qlist]:
+            if re.search(r'(?im)(princess|queen|virgin)', label):
+                continue
+            if re.search(r'(?im)^self[ -]*portrait$', label):
+                label = 'Autorretrato'
+            if int(year) > 1980:
+                continue
             qlist.append([q, label, creator, year, image])
     
     print(len(qlist))
@@ -97,13 +103,13 @@ def main():
         img = open('mujeresartistas-tempimage.jpg', 'rb')
         response = twitter.upload_media(media=img)
         
-        status = '%s (%s, %s) %s #ArteFemenino #ArteMujer #WomenArt #arte #art' % (work[1], work[2], work[3], imgurl)
+        title = len(work[1]) > 30 and ('%s...' % work[1][:30]) or work[1]
+        status = '%s (%s, %s) %s #ArteFemenino #ArteMujer #WomenArt' % (title, work[2], work[3], imgurl)
         print(status)
         raw = twitter.update_status(status=status, media_ids=[response['media_id']])
         tweetid = raw['id_str']
         print('Status:',status)
         print('Returned ID:',tweetid)
-        time.sleep(60*15)
 
 if __name__ == '__main__':
     main()
