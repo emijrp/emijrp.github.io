@@ -69,7 +69,7 @@ def main():
         
         year = date.split('-')[0]
         if not q in [x[0] for x in qlist]:
-            if re.search(r'(?im)(duch|duchess|king|prince|princess|queen|virgin)', label):
+            if re.search(r'(?im)(baron|duch|duchess|king|marques|mon[jk]|nun|prince|princess|queen|virgin)', label):
                 continue
             if re.search(r'(?im)^self[ -]*portrait$', label):
                 label = 'Autorretrato'
