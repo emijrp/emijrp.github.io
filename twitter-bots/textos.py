@@ -30,6 +30,15 @@ def main():
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
     textos = {
+        'dicfidel': {
+            'title': 'Diccionario de Pensamientos de Fidel Castro', 
+            'author': 'Salomón Susi', 
+            'pages': [10, 336], 
+            'pageoffset': -7,
+            'pageshow': True,
+            'hashtags': ['#TextosPolíticos', '#Cuba'], 
+            'filename': 'dicfidel.pdf',
+        }, 
         'dicros': {
             'title': 'Diccionario Filosófico Marxista', 
             'author': 'M. Rosental', 
