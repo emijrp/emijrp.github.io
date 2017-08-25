@@ -58,7 +58,7 @@ def main():
     works = re.findall(r'(?im)([^\|\n]+?)\|([^\|\n]+?)\n', raw)
     random.shuffle(works)
     selectedwork = works[0]
-    status = '%s https://www.youtube.com/watch?v=%s %s' % (selectedwork[1], selectedwork[0], ' '.join(videoteca[tema]['hashtags']))
+    status = '%s\n\n%s\n\nhttps://www.youtube.com/watch?v=%s' % (' '.join(videoteca[tema]['hashtags'], selectedwork[1], selectedwork[0]))
     print(status)
     raw = twitter.update_status(status=status)
     tweetid = raw['id_str']

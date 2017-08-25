@@ -69,7 +69,7 @@ def main():
         img = open('sellos-tempimage.jpg', 'rb')
         response = twitter.upload_media(media=img)
         media_ids.append(response['media_id'])
-    status = '%s %s' % (sellos[tema]['title'], ' '.join(sellos[tema]['hashtags']))
+    status = '%s\n\n%s' % (' '.join(sellos[tema]['hashtags'], sellos[tema]['title']))
     print(status)
     raw = twitter.update_status(status=status, media_ids=media_ids)
     tweetid = raw['id_str']

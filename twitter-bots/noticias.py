@@ -84,7 +84,7 @@ def addHashtags(s=''):
     s = re.sub(r'(?m)(BuenosAires|Caracas|Quito|Washington)', r'#\1', s)
     s = re.sub(r'(?m)(Lula|Macri|Maduro|Moreno|Temer|Trump)', r'#\1', s)
     s = re.sub(r'(?m)(Parlasur)', r'#\1', s)
-    s = re.sub(r'(?im)(bloqueo|constituyente|educa|energía|huelga|injerencias?|paro|petróle|reformas?|sanciones|salud|trabajo|transport)', r'#\1', s)
+    s = re.sub(r'(?im)(bloqueo|constituyente|educa|energía|huelga|injerencias?|paro|petróle|reformas?|sanciones|salud|tarifazo|trabajo|transport)', r'#\1', s)
     s = re.sub(r'(?m)([A-Z]{3,})', r'#\1', s) #ONU, OEA, ALBA, DDHH, EEUU, etc
     return s
 
@@ -125,7 +125,7 @@ def main():
     for noticia in noticias:
         title = len(noticia['title']) >= titlelimit and '%s...' % (noticia['title'][:titlelimit]) or noticia['title']
         title = addHashtags(s=title)
-        status = '%s %s %s' % (title, noticia['url'], ' '.join(medios[medio]['hashtags']))
+        status = '%s\n\n%s\n\n%s' % (' '.join(medios[medio]['hashtags'], title, noticia['url']))
         print(status)
         try:
             raw = twitter.update_status(status=status)

@@ -43,7 +43,7 @@ def main():
     urllib.request.urlretrieve(imgurl2, 'memoriamonumentos-tempimage.jpg')
     img = open('memoriamonumentos-tempimage.jpg', 'rb')
     
-    status = '#MemoriaAntifascista %s %s' % (desc, imgurl)
+    status = '#MemoriaAntifascista\n\n%s\n\n%s' % (desc, imgurl)
     print(status)
     response = twitter.upload_media(media=img)
     raw = twitter.update_status(status=status, media_ids=[response['media_id']])

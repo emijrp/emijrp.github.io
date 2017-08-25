@@ -60,7 +60,7 @@ def main():
     urllib.request.urlretrieve(imgurl2, 'fototeca-tempimage.jpg')
     img = open('fototeca-tempimage.jpg', 'rb')
     
-    status = '%s %s %s' % (desc, ' '.join(fototeca[tema]['hashtags']), imgurl)
+    status = '%s\n\n%s\n\n%s' % (' '.join(fototeca[tema]['hashtags']), desc, imgurl)
     print(status)
     response = twitter.upload_media(media=img)
     raw = twitter.update_status(status=status, media_ids=[response['media_id']])
