@@ -45,7 +45,7 @@ def main():
     temas = {
         'deportados': {
             'title': 'Campos de concentración nazis',
-            'intro': 'Estos deportados fueron asesinados',
+            'intro': 'Deportados asesinados',
             'outro': 'Que sus nombres no caigan en el olvido.',
             'source': 'Libro Memorial',
             'graph': '15Mpedia',
@@ -53,7 +53,7 @@ def main():
         },
         'fusilados': {
             'title': 'Represión franquista',
-            'intro': 'Estas personas fueron fusiladas',
+            'intro': 'Personas fusiladas',
             'outro': 'Que sus nombres no caigan en el olvido.',
             'source': 'Memoria y Libertad',
             'graph': '15Mpedia',
@@ -77,13 +77,15 @@ def main():
         m = re.findall(r'(?im)<td><a href="[^<>]*?" title="[^<>]*?">([^<>]*?)</a></td>\s*<td class="Fecha-string">(\d\d\d\d)[^<>]+?</td>\s*<td class="Lugar">Campo de concentración de ([^<>]*?)</td>', raw)
         victimas = []
         for i in m:
-            victimas.append([i[1],i[0],i[2]])
+            if not '(' in i[0]:
+                victimas.append([i[1],i[0],i[2]])
     elif tema == 'fusilados':
         raw = urllib.request.urlopen('https://15mpedia.org/w/index.php?title=Especial:Ask&q=[[persona+represaliada%%3A%%3A%%2B]]+[[represor%%3A%%3AFranquismo]]+[[represi%%C3%%B3n%%3A%%3AFusilamiento]]+[[fecha+string%%3A%%3A~*%%2F%s%%2F%s]]&p=format%%3Dbroadtable%%2Flink%%3Dall%%2Fheaders%%3Dshow%%2Fsearchlabel%%3D-26hellip%%3B-20siguientes-20resultados%%2Fclass%%3Dsortable-20wikitable-20smwtable&po=%%3FFecha+string%%0A&limit=500&eq=no' % (d.strftime('%m'), d.strftime('%d'))).read().decode('utf-8')
         m = re.findall(r'(?im)<td><a href="[^<>]*?" title="[^<>]*?">([^<>]*?)</a></td>\s*<td class="Fecha-string">(\d\d\d\d)[^<>]+?</td>', raw)
         victimas = []
         for i in m:
-            victimas.append([i[1],i[0],''])
+            if not '(' in i[0]:
+                victimas.append([i[1],i[0],''])
     
     victimas.sort()
     if not victimas:
