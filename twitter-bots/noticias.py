@@ -43,7 +43,7 @@ def getNews(url=''):
     if not raw:
         return news
     #print(raw[:1000])
-    rsslimit = 25
+    rsslimit = 10
     
     if 'hispantv' in url:
         m = re.findall('(?im)<title>([^<>]+?)</title>\s*<link>([^<>]+?)</link>', raw)
@@ -51,7 +51,7 @@ def getNews(url=''):
             title, url = item
             oldnews = loadOldNews()
             if not url in oldnews:
-                news.append({'title':title.strip(),'url':url.strip()})
+                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip()})
                 oldnews.append(url.strip())
             saveOldNews(oldnews=oldnews)
     elif 'telesurtv' in url:
@@ -60,11 +60,33 @@ def getNews(url=''):
             title, url = item
             oldnews = loadOldNews()
             if not url in oldnews:
-                news.append({'title':title.strip(),'url':url.strip()})
+                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip()})
                 oldnews.append(url.strip())
             saveOldNews(oldnews=oldnews)
     
     return news
+
+def addHashtags(s=''):
+    s = re.sub('DD\.?HH\.?', 'DDHH', s)
+    s = re.sub('EE\.?UU\.?', 'EEUU', s)
+    rr = [ #para eliminar espacios para hashtags
+        'Costa Rica', 
+        'El Salvador',
+        'Estados Unidos',
+        'Puerto Rico',
+        'República Dominicana',
+        
+        'Buenos Aires',
+    ]
+    for r in rr:
+        s = re.sub(r, re.sub(' ', '', r), s)
+    s = re.sub(r'(?m)(Argentina|Bolivia|Brasil|Chile|Colombia|CostaRica|Cuba|Ecuador|ElSalvador|España|EstadosUnidos|Guatemala|Honduras|M[eé][jx]ico|Nicaragua|Panam[áa]|Paraguay|Per[úu]|PuertoRico|Rep[úu]blicaDominicana|Rusia|Uruguay|Venezuela)', r'#\1', s)
+    s = re.sub(r'(?m)(BuenosAires|Caracas|Quito|Washington)', r'#\1', s)
+    s = re.sub(r'(?m)(Lula|Macri|Maduro|Moreno|Temer|Trump)', r'#\1', s)
+    s = re.sub(r'(?m)(Parlasur)', r'#\1', s)
+    s = re.sub(r'(?im)(bloqueo|constituyente|educa|energía|huelga|injerencias?|paro|petróle|reformas?|sanciones|salud|trabajo|transport)', r'#\1', s)
+    s = re.sub(r'(?m)([A-Z]{3,})', r'#\1', s) #ONU, OEA, ALBA, DDHH, EEUU, etc
+    return s
 
 def main():
     APP_KEY, APP_SECRET = read_keys()
@@ -74,27 +96,36 @@ def main():
     medios = {
         'hispantv-latinoamerica': {
             'rss': 'http://www.hispantv.com/services/news.asmx/Rss?category=51,52,54,55,56,57,58,59,110,148,149',
-            'hashtags': ['#LatinoAmérica'],
+            'hashtags': ['#Noticia', '#AméricaLatina'],
         },
         'telesur-latinoamerica': {
             'rss': 'http://www.telesurtv.net/rss/RssLatinoamerica.html',
-            'hashtags': ['#LatinoAmérica'],
+            'hashtags': ['#Noticia', '#AméricaLatina'],
         },
     }
-    
+    medio = ''
     if len(sys.argv) > 1:
         medio = sys.argv[1]
         if not medio in medios.keys():
             print('Medio %s no encontrado' % (medio))
             sys.exit()
     else:
-        print('No has indicado un medio')
-        sys.exit()
+        print('No has indicado un medio, se leeran todos')
     
-    noticias = getNews(url=medios[medio]['rss'])
+    if medio:
+        mediosaleer = [medio]
+    else:
+        mediosaleer = medios.keys()
+    
+    noticias = []
+    for medio in mediosaleer:
+        noticias += getNews(url=medios[medio]['rss'])
+    
     titlelimit = 75
     for noticia in noticias:
-        status = '#Noticia %s %s %s' % (len(noticia['title']) >= titlelimit and '%s...' % (noticia['title'][:titlelimit]) or noticia['title'], noticia['url'], ' '.join(medios[medio]['hashtags']))
+        title = len(noticia['title']) >= titlelimit and '%s...' % (noticia['title'][:titlelimit]) or noticia['title']
+        title = addHashtags(s=title)
+        status = '%s %s %s' % (title, noticia['url'], ' '.join(medios[medio]['hashtags']))
         print(status)
         try:
             raw = twitter.update_status(status=status)
