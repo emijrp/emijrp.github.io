@@ -43,14 +43,24 @@ def getNews(url=''):
     if not raw:
         return news
     #print(raw[:1000])
+    rsslimit = 25
     
-    if 'telesurtv' in url:
-        newsraw = re.findall('(?im)<title><!\[CDATA\[([^<>]+?)\]\]></title>\s*<link>([^<>]+?)</link>', raw)
-        for item in newsraw:
+    if 'hispantv' in url:
+        m = re.findall('(?im)<title>([^<>]+?)</title>\s*<link>([^<>]+?)</link>', raw)
+        for item in m[1:rsslimit]:
             title, url = item
             oldnews = loadOldNews()
             if not url in oldnews:
-                news.append({'title':title.strip(),'url':url.strip(),'hashtags':['#LatinoAmérica']})
+                news.append({'title':title.strip(),'url':url.strip()})
+                oldnews.append(url.strip())
+            saveOldNews(oldnews=oldnews)
+    elif 'telesurtv' in url:
+        m = re.findall('(?im)<title><!\[CDATA\[([^<>]+?)\]\]></title>\s*<link>([^<>]+?)</link>', raw)
+        for item in m[:rsslimit]:
+            title, url = item
+            oldnews = loadOldNews()
+            if not url in oldnews:
+                news.append({'title':title.strip(),'url':url.strip()})
                 oldnews.append(url.strip())
             saveOldNews(oldnews=oldnews)
     
@@ -62,8 +72,13 @@ def main():
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
     medios = {
+        'hispantv-latinoamerica': {
+            'rss': 'http://www.hispantv.com/services/news.asmx/Rss?category=51,52,54,55,56,57,58,59,110,148,149',
+            'hashtags': ['#LatinoAmérica'],
+        },
         'telesur-latinoamerica': {
             'rss': 'http://www.telesurtv.net/rss/RssLatinoamerica.html',
+            'hashtags': ['#LatinoAmérica'],
         },
     }
     
@@ -79,7 +94,7 @@ def main():
     noticias = getNews(url=medios[medio]['rss'])
     titlelimit = 75
     for noticia in noticias:
-        status = '#Noticia %s %s %s' % (len(noticia['title']) >= titlelimit and '%s...' % (noticia['title'][:titlelimit]) or noticia['title'], noticia['url'], ' '.join(noticia['hashtags']))
+        status = '#Noticia %s %s %s' % (len(noticia['title']) >= titlelimit and '%s...' % (noticia['title'][:titlelimit]) or noticia['title'], noticia['url'], ' '.join(medios[medio]['hashtags']))
         print(status)
         try:
             raw = twitter.update_status(status=status)
