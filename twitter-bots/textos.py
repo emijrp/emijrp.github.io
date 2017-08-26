@@ -90,9 +90,9 @@ def main():
     img = open('%s.png' % (texto), 'rb')
     response = twitter.upload_media(media=img)
     if textos[texto]['pageshow']:
-        status = '%s\n\n%s\n(%s, página %s)' % (' '.join(textos[texto]['hashtags'], textos[texto]['title'], textos[texto]['author'], (randompagenum+textos[texto]['pageoffset'])))
+        status = '%s\n\n%s\n(%s, página %s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], (randompagenum+textos[texto]['pageoffset']))
     else:
-        status = '%s\n\n%s\n(%s)' % (' '.join(textos[texto]['hashtags'], textos[texto]['title'], textos[texto]['author']))
+        status = '%s\n\n%s\n(%s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'])
     print(status)
     raw = twitter.update_status(status=status, media_ids=[response['media_id']])
     tweetid = raw['id_str']

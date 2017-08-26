@@ -104,7 +104,7 @@ def main():
         response = twitter.upload_media(media=img)
         
         title = len(work[1]) > 30 and ('%s...' % work[1][:30]) or work[1]
-        status = '%s (%s, %s) %s #ArteFemenino #ArteMujer #WomenArt' % (title, work[2], work[3], imgurl)
+        status = '#ArteFemenino #ArteMujer #WomenArt\n\n%s\n(%s, %s)\n\n%s' % (title, work[2], work[3], imgurl)
         print(status)
         raw = twitter.update_status(status=status, media_ids=[response['media_id']])
         tweetid = raw['id_str']

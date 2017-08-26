@@ -125,7 +125,7 @@ def main():
     for noticia in noticias:
         title = len(noticia['title']) >= titlelimit and '%s...' % (noticia['title'][:titlelimit]) or noticia['title']
         title = addHashtags(s=title)
-        status = '%s\n\n%s\n\n%s' % (' '.join(medios[medio]['hashtags'], title, noticia['url']))
+        status = '%s\n\n%s\n\n%s' % (' '.join(medios[medio]['hashtags']), title, noticia['url'])
         print(status)
         try:
             raw = twitter.update_status(status=status)
