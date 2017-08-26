@@ -22,6 +22,7 @@
     {{button-blue|1=locapedias.html|2=Locapedias}}
     <!--{{button-grey|1=Mecánica}}-->
     {{button-blue|1=memoria.html|2=Memoria Histórica}}
+    {{button-blue|1=micronaciones/micronaciones.html|2=Micronaciones}}
     {{button-blue|1=mirrors.html|2=Mirrors}}
     {{button-blue|1=musica.html|2=Música}}
     {{button-blue|1=naturaleza.html|2=Naturaleza}}
