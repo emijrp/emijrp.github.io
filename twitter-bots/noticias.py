@@ -96,11 +96,11 @@ def main():
     medios = {
         'hispantv-latinoamerica': {
             'rss': 'http://www.hispantv.com/services/news.asmx/Rss?category=51,52,54,55,56,57,58,59,110,148,149',
-            'hashtags': ['#Noticia', '#AméricaLatina'],
+            'hashtags': ['#Noticias', '#AméricaLatina'],
         },
         'telesur-latinoamerica': {
             'rss': 'http://www.telesurtv.net/rss/RssLatinoamerica.html',
-            'hashtags': ['#Noticia', '#AméricaLatina'],
+            'hashtags': ['#Noticias', '#AméricaLatina'],
         },
     }
     medio = ''

@@ -116,9 +116,9 @@ def main():
     #tuitear imagen
     img = open(imagename, 'rb')
     if tema == 'fusilados':
-        status = '#MemoriaAntifascista\n\nUn %s el franquismo los fusiló\n\nQue sus nombres no caigan en el olvido\n\nhttps://15mpedia.org/wiki/%s' % (today, today_)
+        status = '#MemoriaAntifascista\n\nUn %s el franquismo los fusiló\nQue sus nombres no caigan en el olvido\n\nhttps://15mpedia.org/wiki/%s' % (today, today_)
     elif tema == 'deportados':
-        status = '#MemoriaAntifascista\n\nUn %s el nazismo los asesinó\n\nQue sus nombres no caigan en el olvido\n\nhttps://15mpedia.org/wiki/%s' % (today, today_)
+        status = '#MemoriaAntifascista\n\nUn %s el nazismo los asesinó\nQue sus nombres no caigan en el olvido\n\nhttps://15mpedia.org/wiki/%s' % (today, today_)
     print(status)
     response = twitter.upload_media(media=img)
     raw = twitter.update_status(status=status, media_ids=[response['media_id']])
