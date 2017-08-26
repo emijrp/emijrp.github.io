@@ -1,0 +1,9 @@
+{{header|1=Spam telefónico}}
+
+* [http://www.agpd.es Agencia Española de Protección de Datos]
+** [http://www.agpd.es/portalwebAGPD/CanalDelCiudadano/Publicidad_no_deseada/index-ides-idphp.php Cómo evitar la publicidad no deseada]
+* [https://www.listarobinson.es Lista Robinson]
+* [http://www.usuariosteleco.es/Paginas/index.aspx Oficina de Atención a los Usuarios de Telecomunicaciones]
+* [https://es.wikipedia.org/wiki/Spam_telef%C3%B3nico Spam telefónico] en Wikipedia
+
+{{footer}}
