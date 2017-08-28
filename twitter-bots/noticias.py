@@ -96,12 +96,14 @@ def addHashtags(s=''):
         
         'Buenos Aires',
         'La Habana',
+        'New York',
+        'Nueva York',
         'Tel Aviv',
     ]
     for r in rr:
         s = re.sub(r, re.sub(' ', '', r), s)
-    s = re.sub(r'(?m)(Afganist[áa]n|ArabiaSaud[íi]|ArabiaSaudita|Argentina|Bolivia|Brasil|Chile|Colombia|CoreadelNorte|CoreadelSur|CostaRica|Cuba|Ecuador|Egipto|ElSalvador|España|EstadosUnidos|Guatemala|Honduras|Irán|Ira[qk]|Israel|Japón|Jordania|L[íi]bano|M[eé][jx]ico|Nicaragua|Panam[áa]|Paraguay|Per[úu]|PuertoRico|Rep[úu]blicaDominicana|Rusia|Siria|Turquía|Uruguay|Venezuela)', r'#\1', s)
-    s = re.sub(r'(?m)(Bogotá|BuenosAires|Caracas|Damasco|Kabul|LaHabana|Pyongyang|Quito|Riad|Seúl|TelAviv|Tokio|Washington)', r'#\1', s)
+    s = re.sub(r'(?m)(Afganist[áa]n|ArabiaSaud[íi]|ArabiaSaudita|Argentina|Bolivia|Brasil|Canada|Chile|China|Colombia|CoreadelNorte|CoreadelSur|CostaRica|Cuba|Ecuador|Egipto|ElSalvador|España|EstadosUnidos|Guatemala|Honduras|India|Irán|Ira[qk]|Israel|Japón|Jordania|L[íi]bano|M[eé][jx]ico|Nicaragua|Panam[áa]|Pakistán|Paquistán|Paraguay|Per[úu]|PuertoRico|Rep[úu]blicaDominicana|Rusia|Siria|Turquía|Uruguay|Venezuela)', r'#\1', s)
+    s = re.sub(r'(?m)(Bagdad|Barcelona|Bogotá|BuenosAires|Caracas|Damasco|Kabul|LaHabana|Madrid|Montevideo|NewYork|NuevaYork|Pek[íi]n|Pyongyang|Quito|Riad|Seúl|Teherán|TelAviv|Tokio|Washington)', r'#\1', s)
     s = re.sub(r'(?m)(Assad|Lula|Macri|Maduro|Moreno|Temer|Trump)', r'#\1', s)
     s = re.sub(r'(?m)(Parlasur|Unicef)', r'#\1', s)
     s = re.sub(r'(?im)(bloqueo|constituyente|educa|energía|huelga|injerencias?|paro|petróle|reformas?|sanciones|salud|tarifazo|trabajo|transport)', r'#\1', s)
