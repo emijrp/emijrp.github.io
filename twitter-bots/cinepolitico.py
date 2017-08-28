@@ -23,9 +23,6 @@ import urllib
 from twython import Twython
 from twitterbots import *
 
-#config
-botscreenname = 'Emijrp'
-
 def main():
     APP_KEY, APP_SECRET = read_keys()
     OAUTH_TOKEN, OAUTH_TOKEN_SECRET = read_tokens()
@@ -54,7 +51,8 @@ def main():
     selectedfilm = films[0][1]
     print(selectedfilm)
     
-    status = '#CinePolítico %s (%s) #%s http://www.filmaffinity.com/es/film%s.html' % (selectedfilm['title'], selectedfilm['year'], selectedfilm['country'].replace(' ', ''), selectedfilm['id'])
+    country_ = selectedfilm['country'].replace(' ', '')
+    status = '#CinePolítico\n\n%s\n(%s, #%s)\nhttp://www.filmaffinity.com/es/film%s.html' % (selectedfilm['title'], selectedfilm['year'], country_, selectedfilm['id'])
     print(status)
     raw = twitter.update_status(status=status)
     tweetid = raw['id_str']
