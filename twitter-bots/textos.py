@@ -15,6 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import datetime
 import os
 import random
 import re
@@ -30,6 +31,16 @@ def main():
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
     textos = {
+        'constesp1931': {
+            'title': 'Constitución española de 1931', 
+            'author': 'Segúnda República', 
+            'pages': [1, 31], 
+            'pageoffset': 0,
+            'pageshow': True,
+            'hashtags': ['#TextosPolíticos', '#IIRepública'], 
+            'filename': 'constesp1931.pdf',
+            'order': 'dayofmonth',
+        }, 
         'dicfidel': {
             'title': 'Diccionario de Pensamientos de Fidel Castro', 
             'author': 'Salomón Susi', 
@@ -38,6 +49,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#TextosPolíticos', '#Cuba'], 
             'filename': 'dicfidel.pdf',
+            'order': 'random',
         }, 
         'dicros': {
             'title': 'Diccionario Filosófico Marxista', 
@@ -47,6 +59,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#TextosPolíticos'], 
             'filename': 'dicros.pdf',
+            'order': 'random',
         }, 
         'laotraalemania': {
             'title': 'La otra Alemania, la RDA', 
@@ -56,6 +69,7 @@ def main():
             'pageshow': False,
             'hashtags': ['#RDA', '#TextosPolíticos'], 
             'filename': 'laotraalemania.pdf',
+            'order': 'random',
         }, 
         'librorojo': {
             'title': 'Citas del Presidente Mao', 
@@ -65,6 +79,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#LibroRojo', '#TextosPolíticos'], 
             'filename': 'librorojo.pdf',
+            'order': 'random',
         }, 
         'mancom': {
             'title': 'Manifiesto del Partido Comunista', 
@@ -74,6 +89,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#ManifiestoComunista', '#TextosPolíticos'], 
             'filename': 'mancom.pdf',
+            'order': 'random',
         }, 
     }
     if len(sys.argv) > 1:
@@ -85,12 +101,22 @@ def main():
         print('No has indicado un texto')
         sys.exit()
     
-    randompagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
-    os.system('pdftoppm -f %d -singlefile -png %s %s' % (randompagenum, textos[texto]['filename'], texto))
+    pagenum = ''
+    if textos[texto]['order'] == 'dayofmonth':
+        pagenum = datetime.datetime.today().day + (textos[texto]['pages'][0] - 1)
+    elif textos[texto]['order'] == 'random':
+        pagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
+    else:
+        pagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
+    if not pagenum:
+        print('ERROR, no pagenum')
+        sys.exit()
+    
+    os.system('pdftoppm -f %d -singlefile -png %s %s' % (pagenum, textos[texto]['filename'], texto))
     img = open('%s.png' % (texto), 'rb')
     response = twitter.upload_media(media=img)
     if textos[texto]['pageshow']:
-        status = '%s\n\n%s\n(%s, página %s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], (randompagenum+textos[texto]['pageoffset']))
+        status = '%s\n\n%s\n(%s, página %s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], (pagenum+textos[texto]['pageoffset']))
     else:
         status = '%s\n\n%s\n(%s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'])
     print(status)

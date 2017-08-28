@@ -35,7 +35,7 @@ def main():
             'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Videoteca_escueladecuadros?action=raw',
         },
         'feminista': {
-            'hashtags': ['#VideotecaFeminista', '#VideotecaPolítica', '#feminismo'], 
+            'hashtags': ['#VideotecaPolítica', '#feminismo'], 
             'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Videoteca_feminista?action=raw',
         },
         'urss': {

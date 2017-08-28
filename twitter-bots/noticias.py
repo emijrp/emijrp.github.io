@@ -43,7 +43,7 @@ def getNews(url=''):
     if not raw:
         return news
     #print(raw[:1000])
-    rsslimit = 10
+    rsslimit = 5
     
     if 'hispantv' in url:
         m = re.findall('(?im)<title>(?P<title>[^<>]+?)</title>\s*<link>(?P<url>[^<>]+?)</link>', raw)
