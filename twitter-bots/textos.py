@@ -91,39 +91,60 @@ def main():
             'filename': 'mancom.pdf',
             'order': 'random',
         }, 
+        'tengounsueno': {
+            'title': 'Tengo un sueño', 
+            'author': 'Martin Luther King', 
+            'pages': [2, 4], 
+            'pageoffset': -1,
+            'pageshow': True,
+            'hashtags': ['#TextosPolíticos'], 
+            'filename': 'tengounsueno.pdf',
+            'url': 'https://web.archive.org/web/20150421021808/https://www.msssi.gob.es/ssi/igualdadOportunidades/noDiscriminacion/documentos/Martin_Luther_King_Tengo_un_sueno.pdf',
+            'order': 'random',
+        }, 
     }
+    
+    texto = ''
     if len(sys.argv) > 1:
         texto = sys.argv[1]
         if not texto in textos.keys():
             print('Texto %s no encontrado' % (texto))
             sys.exit()
     else:
-        print('No has indicado un texto')
-        sys.exit()
+        print('No has indicado un texto. Se publicara uno aleatorio')
     
-    pagenum = ''
-    if textos[texto]['order'] == 'dayofmonth':
-        pagenum = datetime.datetime.today().day + (textos[texto]['pages'][0] - 1)
-    elif textos[texto]['order'] == 'random':
-        pagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
+    if texto:
+        if not textos[texto]['filename'] or \
+           not os.path.exists(textos[texto]['filename']):
+            print('Error, el fichero %s no existe' % (textos[texto]['filename']))
+            sys.exit()
+        
+        pagenum = ''
+        if textos[texto]['order'] == 'dayofmonth':
+            pagenum = datetime.datetime.today().day + (textos[texto]['pages'][0] - 1)
+        elif textos[texto]['order'] == 'random':
+            pagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
+        else:
+            pagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
+        if not pagenum:
+            print('ERROR, no pagenum')
+            sys.exit()
+        
+        os.system('pdftoppm -f %d -singlefile -png %s %s' % (pagenum, textos[texto]['filename'], texto))
+        img = open('%s.png' % (texto), 'rb')
+        response = twitter.upload_media(media=img)
+        if textos[texto]['pageshow']:
+            status = '%s\n\n%s\n(%s, página %s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], (pagenum+textos[texto]['pageoffset']))
+        else:
+            status = '%s\n\n%s\n(%s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'])
+        print(status)
+        raw = twitter.update_status(status=status, media_ids=[response['media_id']])
+        tweetid = raw['id_str']
+        print('Status:',status)
+        print('Returned ID:',tweetid)
     else:
-        pagenum = random.randint(textos[texto]['pages'][0], textos[texto]['pages'][1])
-    if not pagenum:
-        print('ERROR, no pagenum')
-        sys.exit()
-    
-    os.system('pdftoppm -f %d -singlefile -png %s %s' % (pagenum, textos[texto]['filename'], texto))
-    img = open('%s.png' % (texto), 'rb')
-    response = twitter.upload_media(media=img)
-    if textos[texto]['pageshow']:
-        status = '%s\n\n%s\n(%s, página %s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], (pagenum+textos[texto]['pageoffset']))
-    else:
-        status = '%s\n\n%s\n(%s)' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'])
-    print(status)
-    raw = twitter.update_status(status=status, media_ids=[response['media_id']])
-    tweetid = raw['id_str']
-    print('Status:',status)
-    print('Returned ID:',tweetid)
+        status = '%s\n\n%s\n(%s)\n\n%s' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], textos[texto]['url'])
+        pass
 
 if __name__ == '__main__':
     main()
