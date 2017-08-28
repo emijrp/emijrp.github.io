@@ -39,6 +39,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#TextosPolíticos', '#IIRepública'], 
             'filename': 'constesp1931.pdf',
+            'url': '',
             'order': 'dayofmonth',
         }, 
         'dicfidel': {
@@ -49,6 +50,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#TextosPolíticos', '#Cuba'], 
             'filename': 'dicfidel.pdf',
+            'url': '',
             'order': 'random',
         }, 
         'dicros': {
@@ -59,6 +61,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#TextosPolíticos'], 
             'filename': 'dicros.pdf',
+            'url': '',
             'order': 'random',
         }, 
         'laotraalemania': {
@@ -69,6 +72,7 @@ def main():
             'pageshow': False,
             'hashtags': ['#RDA', '#TextosPolíticos'], 
             'filename': 'laotraalemania.pdf',
+            'url': '',
             'order': 'random',
         }, 
         'librorojo': {
@@ -79,6 +83,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#LibroRojo', '#TextosPolíticos'], 
             'filename': 'librorojo.pdf',
+            'url': '',
             'order': 'random',
         }, 
         'mancom': {
@@ -89,6 +94,7 @@ def main():
             'pageshow': True,
             'hashtags': ['#ManifiestoComunista', '#TextosPolíticos'], 
             'filename': 'mancom.pdf',
+            'url': '',
             'order': 'random',
         }, 
         'tengounsueno': {
@@ -143,8 +149,13 @@ def main():
         print('Status:',status)
         print('Returned ID:',tweetid)
     else:
-        status = '%s\n\n%s\n(%s)\n\n%s' % (' '.join(textos[texto]['hashtags']), textos[texto]['title'], textos[texto]['author'], textos[texto]['url'])
-        pass
+        t = list(set([v['url'] and k or '' for k, v in textos.items()]))
+        t.remove('')
+        random.shuffle(t)
+        textoale = t[0]
+        os.system('pdftoppm -f %d -singlefile -png %s %s' % (textos[textoale]['pages'][0], textos[textoale]['filename'], textoale))
+        status = '%s\n\n%s\n(%s)\n\n%s' % (' '.join(textos[textoale]['hashtags']), textos[textoale]['title'], textos[textoale]['author'], textos[textoale]['url'])
+        print(status)
 
 if __name__ == '__main__':
     main()
