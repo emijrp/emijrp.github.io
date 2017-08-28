@@ -35,7 +35,7 @@ def saveOldNews(oldnews=[]):
     with open('noticias.oldnews.txt', 'w') as f:
         f.write('\n'.join(oldnews))
 
-def getNews(url=''):
+def getNews(url='',medio=''):
     news = []
     if not url:
         return news
@@ -52,7 +52,7 @@ def getNews(url=''):
             url = item[1]
             oldnews = loadOldNews()
             if not url in oldnews:
-                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip()})
+                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip(),'medio':medio})
                 oldnews.append(url.strip())
             saveOldNews(oldnews=oldnews)
     elif 'telesurtv' in url and 'rss' in url:
@@ -62,7 +62,7 @@ def getNews(url=''):
             url = item[1]
             oldnews = loadOldNews()
             if not url in oldnews:
-                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip()})
+                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip(),'medio':medio})
                 oldnews.append(url.strip())
             saveOldNews(oldnews=oldnews)
     elif 'telesurtv' in url and 'tags' in url:
@@ -73,7 +73,7 @@ def getNews(url=''):
             url = 'http://www.telesurtv.net' + url
             oldnews = loadOldNews()
             if not url in oldnews:
-                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip()})
+                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip(),'medio':medio})
                 oldnews.append(url.strip())
             saveOldNews(oldnews=oldnews)
     
@@ -153,11 +153,11 @@ def main():
     
     noticias = []
     for medio in mediosaleer:
-        noticias += getNews(url=medios[medio]['rss'])
+        noticias += getNews(url=medios[medio]['rss'], medio=medio)
     
-    hashtagsplain = ' '.join(medios[medio]['hashtags'])
-    titlelimit = 140 - (len(hashtagsplain) + 23 + 4 + 5) #23 (link), 4 (\n*4) + 5 (# hashtags)
     for noticia in noticias:
+        hashtagsplain = ' '.join(medios[noticia['medio']]['hashtags'])
+        titlelimit = 140 - (len(hashtagsplain) + 23 + 4 + 5) #23 (link), 4 (\n*4) + 5 (# hashtags)
         title = len(noticia['title']) > titlelimit and '%s...' % (noticia['title'][:titlelimit-3]) or noticia['title']
         title = addHashtags(s=title)
         status = '%s\n\n%s\n\n%s' % (hashtagsplain, title, noticia['url'])
