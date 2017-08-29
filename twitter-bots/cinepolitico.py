@@ -52,7 +52,7 @@ def main():
     print(selectedfilm)
     
     country_ = selectedfilm['country'].replace(' ', '')
-    status = '#CinePolítico\n\n%s\n(%s, #%s)\nhttp://www.filmaffinity.com/es/film%s.html' % (selectedfilm['title'], selectedfilm['year'], country_, selectedfilm['id'])
+    status = '#CinePolítico\n\n%s\n(%s, #%s)\n\nhttp://www.filmaffinity.com/es/film%s.html' % (selectedfilm['title'], selectedfilm['year'], country_, selectedfilm['id'])
     print(status)
     raw = twitter.update_status(status=status)
     tweetid = raw['id_str']
