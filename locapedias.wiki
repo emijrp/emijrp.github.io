@@ -61,7 +61,7 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>5582</td>
         <td>5083</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-almeriapediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-almeriapediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://almeriapedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://almeriapedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://almeriapedia.wikanda.es/w/api.php&Bookmarklet[Name]=Almeriapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -92,9 +92,9 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2003-02-18</td>
         <td>Arija</td>
         <td>España</td>
-        <td>2933</td>
-        <td>11340</td>
-        <td>6874</td>
+        <td>2934</td>
+        <td>11368</td>
+        <td>6902</td>
         <td>762</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-arijaorg_es">2017-01-05</a></td>
@@ -128,10 +128,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2008-03-03</td>
         <td>Córdoba</td>
         <td>España</td>
-        <td>22027</td>
-        <td>84574</td>
-        <td>20604</td>
-        <td>1508</td>
+        <td>22028</td>
+        <td>84577</td>
+        <td>20607</td>
+        <td>1509</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-ateneodecordobacom">2015-07-12</a></td>
         <td>No</td>
@@ -142,20 +142,20 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
 
     <tr>
         <td>6</td>
-        <td sorttable_customkey="Bierzopedia"><a href="http://bierzopedia.com/index.php?title=Portada">Bierzopedia</a></td>
+        <td sorttable_customkey="Bierzopedia"><a href="https://bierzopedia.com/P%C3%A1gina_principal">Bierzopedia</a></td>
         <td>2005</td>
         <td>Comarca de El Bierzo</td>
         <td>España</td>
-        <td>?</td>
-        <td>?</td>
-        <td>?</td>
-        <td>?</td>
-        <td style="background-color: pink;">Offline</td>
+        <td>363</td>
+        <td>1346</td>
+        <td>349</td>
+        <td>297</td>
+        <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/http://bierzopedia.com/index.php?title=Portada">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://bierzopedia.com/index.php?title=Portada&Bookmarklet[API%20URL]=http://bierzopedia.com/api.php&Bookmarklet[Name]=Bierzopedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
-        <td>?</td>
+        <td><a href="https://web.archive.org/web/*/https://bierzopedia.com/P%C3%A1gina_principal">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://bierzopedia.com/P%C3%A1gina_principal&Bookmarklet[API%20URL]=http://bierzopedia.com/api.php&Bookmarklet[Name]=Bierzopedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td>1.29.0</td>
     </tr>
 
     <tr>
@@ -164,10 +164,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2007-07-30</td>
         <td></td>
         <td>Italia</td>
-        <td>21727</td>
-        <td>113678</td>
-        <td>76656</td>
-        <td>9147</td>
+        <td>21768</td>
+        <td>113934</td>
+        <td>76841</td>
+        <td>9153</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-retecomuni_italianiit_w">2014-02-08</a></td>
         <td>No</td>
@@ -185,7 +185,7 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>1911</td>
         <td>4688</td>
         <td>2057</td>
-        <td>556</td>
+        <td>557</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-ctpediaes_w">2017-01-05</a></td>
         <td>No</td>
@@ -200,12 +200,12 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2007-07-02</td>
         <td>Provincia de Cádiz</td>
         <td>España</td>
-        <td>6054</td>
-        <td>15724</td>
-        <td>5869</td>
+        <td>6217</td>
+        <td>15993</td>
+        <td>5898</td>
         <td>5181</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-cadizpediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-cadizpediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://cadizpedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://cadizpedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://cadizpedia.wikanda.es/w/api.php&Bookmarklet[Name]=Cádizpedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -218,12 +218,12 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2005-03-08</td>
         <td>Provincia de Córdoba</td>
         <td>España</td>
-        <td>17689</td>
-        <td>46842</td>
-        <td>14933</td>
-        <td>8173</td>
+        <td>17639</td>
+        <td>46912</td>
+        <td>14990</td>
+        <td>8184</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-cordobapediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-cordobapediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://cordobapedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://cordobapedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://cordobapedia.wikanda.es/w/api.php&Bookmarklet[Name]=Córdobapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -272,8 +272,8 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2006-02-04</td>
         <td>Islas Canarias</td>
         <td>España</td>
-        <td>6030</td>
-        <td>17487</td>
+        <td>6113</td>
+        <td>18064</td>
         <td>2004</td>
         <td>3632</td>
         <td style="background-color: lightgreen;">Online</td>
@@ -327,11 +327,11 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>Provincia de Granada</td>
         <td>España</td>
         <td>7113</td>
-        <td>31636</td>
+        <td>31637</td>
         <td>13967</td>
-        <td>6973</td>
+        <td>6974</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-granadapediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-granadapediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://granadapedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://granadapedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://granadapedia.wikanda.es/w/api.php&Bookmarklet[Name]=Granadapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -345,11 +345,11 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>Provincia de Huelva</td>
         <td>España</td>
         <td>6256</td>
-        <td>19751</td>
+        <td>19752</td>
         <td>6688</td>
-        <td>4941</td>
+        <td>4942</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-huelvapediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-huelvapediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://huelvapedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://huelvapedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://huelvapedia.wikanda.es/w/api.php&Bookmarklet[Name]=Huelvapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -363,11 +363,11 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>Provincia de Jaén</td>
         <td>España</td>
         <td>6256</td>
-        <td>21473</td>
+        <td>21483</td>
         <td>6945</td>
-        <td>5336</td>
+        <td>5339</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-jaenpediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-jaenpediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://jaenpedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://jaenpedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://jaenpedia.wikanda.es/w/api.php&Bookmarklet[Name]=Jaenpedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -380,9 +380,9 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2007-12-01</td>
         <td>Jerez de la Frontera</td>
         <td>España</td>
-        <td>14206</td>
-        <td>49831</td>
-        <td>34089</td>
+        <td>14208</td>
+        <td>49849</td>
+        <td>34105</td>
         <td>394</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-jerezsiemprecom">2014-03-30</a></td>
@@ -507,11 +507,11 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>Provincia de Málaga</td>
         <td>España</td>
         <td>8329</td>
-        <td>29233</td>
+        <td>29235</td>
         <td>9805</td>
         <td>5197</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-malagapediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-malagapediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://malagapedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://malagapedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=http://malagapedia.wikanda.es/w/api.php&Bookmarklet[Name]=Málagapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -520,20 +520,20 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
 
     <tr>
         <td>27</td>
-        <td sorttable_customkey="PlanetNepal"><a href="http://planetnepal.org/wiki/PlanetNepal">PlanetNepal</a></td>
+        <td sorttable_customkey="PlanetNepal"><a href="">PlanetNepal</a></td>
         <td>2010-01-31</td>
         <td>Nepal</td>
         <td>Nepal</td>
-        <td>4763</td>
-        <td>9358</td>
-        <td>293</td>
-        <td>5</td>
-        <td style="background-color: lightgreen;">Online</td>
+        <td>?</td>
+        <td>?</td>
+        <td>?</td>
+        <td>?</td>
+        <td style="background-color: pink;">Offline</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/http://planetnepal.org/wiki/PlanetNepal">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://planetnepal.org/wiki/PlanetNepal&Bookmarklet[API%20URL]=http://planetnepal.org/w/api.php&Bookmarklet[Name]=PlanetNepal&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
-        <td>1.17.0</td>
+        <td><a href="https://web.archive.org/web/*/">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=&Bookmarklet[API%20URL]=http://planetnepal.org/w/api.php&Bookmarklet[Name]=PlanetNepal&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td>?</td>
     </tr>
 
     <tr>
@@ -563,9 +563,9 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>7431</td>
         <td>22565</td>
         <td>7488</td>
-        <td>5352</td>
+        <td>5357</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-sevillapediawikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-sevillapediawikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://sevillapedia.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://sevillapedia.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://sevillapedia.wikanda.es/w/api.php&Bookmarklet[Name]=Sevillapedia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -578,10 +578,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2004-07-22</td>
         <td>Karlsruhe</td>
         <td>Alemania</td>
-        <td>25178</td>
-        <td>91163</td>
-        <td>32094</td>
-        <td>7200</td>
+        <td>25238</td>
+        <td>91563</td>
+        <td>32276</td>
+        <td>7243</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-kastadtwikinet">2014-04-21</a></td>
         <td>No</td>
@@ -614,10 +614,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2007-01-29</td>
         <td>Tomsk</td>
         <td>Rusia</td>
-        <td>4712</td>
-        <td>32048</td>
-        <td>4879</td>
-        <td>3213</td>
+        <td>4740</td>
+        <td>32381</td>
+        <td>4895</td>
+        <td>3221</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-towikiru_w">2014-11-30</a></td>
         <td>No</td>
@@ -668,12 +668,12 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2007-07-02</td>
         <td>Andalucía</td>
         <td>España</td>
-        <td>2814</td>
-        <td>14581</td>
+        <td>2813</td>
+        <td>14584</td>
         <td>4049</td>
-        <td>18385</td>
+        <td>18392</td>
         <td style="background-color: lightgreen;">Online</td>
-        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikandaes_w">2017-07-01</a></td>
+        <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikandaes_w">2017-08-01</a></td>
         <td>No</td>
         <td><a href="https://web.archive.org/web/*/https://www.wikanda.es/wiki/Portada">IA</a></td>
         <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://www.wikanda.es/wiki/Portada&Bookmarklet[API%20URL]=https://www.wikanda.es/w/api.php&Bookmarklet[Name]=Wikanda&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
@@ -686,10 +686,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2009-02-25</td>
         <td>Maine-et-Loire</td>
         <td>Francia</td>
-        <td>3229</td>
-        <td>8523</td>
-        <td>2829</td>
-        <td>311</td>
+        <td>3267</td>
+        <td>8677</td>
+        <td>2931</td>
+        <td>316</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_anjoufr">2016-09-18</a></td>
         <td>No</td>
@@ -704,10 +704,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2010</td>
         <td>Pays de Brest</td>
         <td>Francia</td>
-        <td>4492</td>
-        <td>29307</td>
-        <td>16399</td>
-        <td>1242</td>
+        <td>4495</td>
+        <td>29518</td>
+        <td>16556</td>
+        <td>1246</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_brestnet">2014-07-03</a></td>
         <td>No</td>
@@ -794,10 +794,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2010</td>
         <td>Rennes</td>
         <td>Francia</td>
-        <td>3873</td>
-        <td>12191</td>
-        <td>5505</td>
-        <td>931</td>
+        <td>3909</td>
+        <td>12480</td>
+        <td>5734</td>
+        <td>934</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wiki_rennesfr">2015-07-09</a></td>
         <td>No</td>
@@ -831,8 +831,8 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>Thionville</td>
         <td>Francia</td>
         <td>1592</td>
-        <td>142866</td>
-        <td>5424</td>
+        <td>142868</td>
+        <td>5426</td>
         <td>1874</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikithionvillefr">2014-12-05</a></td>
@@ -887,7 +887,7 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>745</td>
         <td>1725</td>
         <td>456</td>
-        <td>932</td>
+        <td>940</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: pink;">No</td>
         <td>No</td>
@@ -974,10 +974,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2007-04-26</td>
         <td>Manche</td>
         <td>Francia</td>
-        <td>17247</td>
-        <td>43168</td>
-        <td>10398</td>
-        <td>7112</td>
+        <td>17365</td>
+        <td>44009</td>
+        <td>10893</td>
+        <td>7121</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikimanchefr">2014-07-08</a></td>
         <td>No</td>
@@ -988,19 +988,19 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
 
     <tr>
         <td>53</td>
-        <td sorttable_customkey="WikiMurcia"><a href="http://wikimurcia.com/index.php?title=P%C3%A1gina_principal">WikiMurcia</a></td>
+        <td sorttable_customkey="WikiMurcia"><a href="https://wikimurcia.com/index.php?title=P%C3%A1gina_principal">WikiMurcia</a></td>
         <td>2016-02-14</td>
         <td>Murcia</td>
         <td>España</td>
-        <td>9</td>
-        <td>655</td>
+        <td>10</td>
+        <td>867</td>
         <td>15</td>
-        <td>1189</td>
+        <td>1845</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikimurciacom">2016-09-18</a></td>
         <td>No</td>
-        <td><a href="https://web.archive.org/web/*/http://wikimurcia.com/index.php?title=P%C3%A1gina_principal">IA</a></td>
-        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=http://wikimurcia.com/index.php?title=P%C3%A1gina_principal&Bookmarklet[API%20URL]=http://wikimurcia.com/api.php&Bookmarklet[Name]=WikiMurcia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
+        <td><a href="https://web.archive.org/web/*/https://wikimurcia.com/index.php?title=P%C3%A1gina_principal">IA</a></td>
+        <td><a href="https://wikiapiary.com/wiki/Special:RunQuery/Bookmarklet?Bookmarklet[URL]=https://wikimurcia.com/index.php?title=P%C3%A1gina_principal&Bookmarklet[API%20URL]=http://wikimurcia.com/api.php&Bookmarklet[Name]=WikiMurcia&Bookmarklet[Description]=&wpRunQuery=true">WA</a></td>
         <td>1.26.2</td>
     </tr>
 
@@ -1010,10 +1010,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2005-06-15</td>
         <td>Pakistán</td>
         <td>Pakistán</td>
-        <td>500</td>
-        <td>2593</td>
+        <td>501</td>
+        <td>2602</td>
         <td>294</td>
-        <td>13070142</td>
+        <td>13054406</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-pakistanwikiacom">2016-09-18</a></td>
         <td>No</td>
@@ -1028,10 +1028,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2011-07-09</td>
         <td>Pas-de-Calais</td>
         <td>Francia</td>
-        <td>45011</td>
-        <td>66449</td>
-        <td>16499</td>
-        <td>314</td>
+        <td>45022</td>
+        <td>66531</td>
+        <td>16563</td>
+        <td>320</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-wikipasdecalaisfr">2014-04-09</a></td>
         <td>No</td>
@@ -1100,10 +1100,10 @@ http://ateneodecordoba.net/index.php/Categor%C3%ADa:Comunidades_wiki
         <td>2008-04-10</td>
         <td>Valle del Jiloca</td>
         <td>España</td>
-        <td>48</td>
-        <td>1099</td>
-        <td>72</td>
-        <td>692</td>
+        <td>49</td>
+        <td>1109</td>
+        <td>81</td>
+        <td>693</td>
         <td style="background-color: lightgreen;">Online</td>
         <td style="background-color: lightgreen;"><a href="https://archive.org/details/wiki-xilocacom_xilocapedia">2014-03-24</a></td>
         <td>No</td>

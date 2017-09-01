@@ -142,7 +142,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>12</td>
         <td sorttable_customkey="Chicho Terremoto (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film743650.html">Chicho Terremoto</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Seitarô+Hara">Seitarô Hara</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Masayuki+Hayashi">Masayuki Hayashi</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Masayuki+Hayashi">Masayuki Hayashi</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Seitarô+Hara">Seitarô Hara</a></td>
         <td>1981</td>
         <td>Japón</td>
         <td>5</td>
@@ -385,7 +385,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>39</td>
         <td sorttable_customkey="House (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film709243.html">House</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Shore+(Creator)">David Shore</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Greg+Yaitanes">Greg Yaitanes</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=David+Shore">David Shore</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Greg+Yaitanes">Greg Yaitanes</a></td>
         <td>2004</td>
         <td>Estados Unidos</td>
         <td>7</td>
@@ -466,7 +466,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>48</td>
         <td sorttable_customkey="Las tres mellizas (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film378699.html">Las tres mellizas</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+Balser">Robert Balser</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Baltasar+Roca">Baltasar Roca</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+Balser">Robert Balser</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Baltasar+Pedrosa">Baltasar Pedrosa</a></td>
         <td>1995</td>
         <td>España</td>
         <td>4</td>
@@ -484,7 +484,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>50</td>
         <td sorttable_customkey="Los Caballeros del Zodiaco (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film653033.html">Los Caballeros del Zodiaco</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Yasuhito+Kikuchi">Yasuhito Kikuchi</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kôzô+Morishita">Kôzô Morishita</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kozo+Morishita">Kozo Morishita</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kazuhito+Kikuchi">Kazuhito Kikuchi</a></td>
         <td>1986</td>
         <td>Japón</td>
         <td>3</td>
@@ -520,9 +520,9 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>54</td>
         <td sorttable_customkey="Los Pitufos (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film743744.html">Los Pitufos</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=José+Dutillieu">José Dutillieu</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=George+Gordon">George Gordon</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=George+Gordon">George Gordon</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Bob+Hathcook">Bob Hathcook</a></td>
         <td>1981</td>
-        <td>Estados Unidos</td>
+        <td>Bélgica</td>
         <td>6</td>
     </tr>
 
@@ -691,7 +691,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>73</td>
         <td sorttable_customkey="Sailor Moon (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film889556.html">Sailor Moon</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Junichi+Sato">Junichi Sato</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Junichi+Sato">Junichi Sato</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kunihiko+Ikuhara">Kunihiko Ikuhara</a></td>
         <td>1992</td>
         <td>Japón</td>
         <td>3</td>
@@ -709,7 +709,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>75</td>
         <td sorttable_customkey="Shin Chan (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film307437.html">Shin Chan</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Yoshito+Usui+(Creator)">Yoshito Usui</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Keiichi+Hara">Keiichi Hara</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Mitsuru+Hongo">Mitsuru Hongo</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Keiichi+Hara">Keiichi Hara</a></td>
         <td>1992</td>
         <td>Japón</td>
         <td>5</td>
