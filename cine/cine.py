@@ -110,7 +110,7 @@ def main():
             ratings.append(rating)
         #print('Ratings',len(ratings))
         
-        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d\d\d\d)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg" [^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mc-director">\s*(<div class="credits">)?\s*(?P<director>(\s*(<span class="nb">)?\s*[^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?(</span>)?\s*)*?)[^<>]*?(</div>)?[^<>]*?</div>[^<>]*?<div class="mc-cast">\s*(<div class="credits">)?\s*(?P<cast>(\s*(<span class="nb">)?\s*[^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?(</span>)?\s*)*?)[^<>]*?(</div>)?[^<>]*?</div>', html)
+        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>(?P<title>[^<>]*?)</a>\s*\((?P<year>\d\d\d\d)\)\s*<img src="/imgs/countries/(?P<countryid>[^<>]+)\.jpg"\s*[^<>]*?title="(?P<country>[^<>]+?)">\s*</div>\s*<div class="mr-rating">\s*<div class="avgrat-box">[^<>]*?</div>\s*(<div\s*class="ratcount-box">[^<>]*?<i class="[^<>]*?">\s*</i>\s*</div>)?\s*</div>\s*<div class="mc-director">\s*(<div class="credits">)?\s*(?P<director>(\s*(<span class="nb">)?\s*[^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?(</span>)?\s*)*?)[^<>]*?(</div>)?[^<>]*?</div>[^<>]*?<div class="mc-cast">\s*(<div class="credits">)?\s*(?P<cast>(\s*(<span class="nb">)?\s*[^<>]*?<a[^<>]*?>[^<>]*?</a>[^<>]*?(</span>)?\s*)*?)[^<>]*?(</div>)?[^<>]*?</div>', html)
         c = 0 #for ratings index
         for i in m:
             filmprops = {}
@@ -135,6 +135,7 @@ def main():
                 for director in filmprops['director']:
                     statsdirector[director] = statsdirector.has_key(director) and statsdirector[director] + 1 or 1
             c += 1
+        print 'Parseadas %d peliculas' % (c)
         if (c != 30 or len(ratings) != 30) and not 'El acorazado Potemkin' in html:
             print 'ERROR al capturar los datos'
             sys.exit()
