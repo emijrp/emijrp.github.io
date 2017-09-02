@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>365184</td>
+        <td>366044</td>
     </tr>
 
     <tr>
@@ -1261,7 +1261,7 @@
         <td>179</td>
         <td><a href="viajes/vuelta-a-cadiz/vuelta-a-cadiz.html">viajes/vuelta-a-cadiz/vuelta-a-cadiz.html</a></td>
         <td><a href="viajes/vuelta-a-cadiz/vuelta-a-cadiz.wiki">viajes/vuelta-a-cadiz/vuelta-a-cadiz.wiki</a></td>
-        <td>1378</td>
+        <td>3845</td>
     </tr>
 
     <tr>
