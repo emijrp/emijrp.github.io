@@ -15,6 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import html
 import os
 import random
 import re
@@ -44,38 +45,40 @@ def getNews(url='',medio=''):
         return news
     #print(raw[:1000])
     rsslimit = 5
-    
-    if 'hispantv' in url:
+    results = []
+    if 'almayadeen' in url:
+        m = re.findall('(?im)<h3>\n*<a href="(?P<url>/news/[^<>]+?)">(?P<title>[^<>]+?)</a>', raw)
+        for item in m[:rsslimit]:
+            title = html.unescape(item[1])
+            url = 'http://espanol.almayadeen.net' + html.unescape(item[0])
+            results.append([title, url])
+    elif 'hispantv' in url:
         m = re.findall('(?im)<title>(?P<title>[^<>]+?)</title>\s*<link>(?P<url>[^<>]+?)</link>', raw)
         for item in m[1:rsslimit]:
             title = item[0]
             url = item[1]
-            oldnews = loadOldNews()
-            if not url in oldnews:
-                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip(),'medio':medio})
-                oldnews.append(url.strip())
-            saveOldNews(oldnews=oldnews)
+            results.append([title, url])
     elif 'telesurtv' in url and 'rss' in url:
         m = re.findall('(?im)<title><!\[CDATA\[(?P<title>[^<>]+?)\]\]></title>\s*<link>(?P<url>[^<>]+?)</link>', raw)
         for item in m[:rsslimit]:
             title = item[0]
             url = item[1]
-            oldnews = loadOldNews()
-            if not url in oldnews:
-                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip(),'medio':medio})
-                oldnews.append(url.strip())
-            saveOldNews(oldnews=oldnews)
+            results.append([title, url])
     elif 'telesurtv' in url and 'tags' in url:
         m = re.findall('(?im)<p class="titsearch2" itemprop="name headline"><a href="(?P<url>[^<>]+?)"[^<>]*?>(?P<title>[^<>]+?)</a></p>', raw)
         for item in m[:rsslimit]:
             title = item[1]
-            url = item[0]
-            url = 'http://www.telesurtv.net' + url
-            oldnews = loadOldNews()
-            if not url in oldnews:
-                news.append({'title':re.sub('  +', ' ', title.strip()),'url':url.strip(),'medio':medio})
-                oldnews.append(url.strip())
-            saveOldNews(oldnews=oldnews)
+            url = 'http://www.telesurtv.net' + item[0]
+            results.append([title, url])
+    
+    for title, url in results:
+        oldnews = loadOldNews()
+        if not url in oldnews:
+            title = re.sub('  +', ' ', title.strip())
+            url = url.strip()
+            news.append({'title': title, 'url': url, 'medio': medio})
+            oldnews.append(url.strip())
+        saveOldNews(oldnews=oldnews)
     
     return news
 
@@ -116,6 +119,10 @@ def main():
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
     medios = {
+        'almayadeen-siria': {
+            'rss': 'http://espanol.almayadeen.net/news?tags=Siria',
+            'hashtags': ['#Noticias', '#Siria'],
+        },
         'hispantv-latinoamerica': {
             'rss': 'http://www.hispantv.com/services/news.asmx/Rss?category=51,52,54,55,56,57,58,59,110,148,149',
             'hashtags': ['#Noticias', '#AméricaLatina'],
@@ -175,4 +182,3 @@ def main():
     
 if __name__ == '__main__':
     main()
-
