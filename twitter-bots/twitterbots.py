@@ -39,14 +39,34 @@ def read_tokens():
     return OAUTH_TOKEN, OAUTH_TOKEN_SECRET
 
 def getURL(url=''):
-    html = ''
+    raw = ''
+    req = urllib.request.Request(url, headers={ 'User-Agent': 'Mozilla/5.0' })
     try:
-        req = urllib.request.Request(url, data=None, headers={ 'User-Agent': 'Mozilla/5.0' })
-        f = urllib.request.urlopen(req)
-        html = f.read().decode('utf-8')
+        raw = urllib.request.urlopen(req).read()
+        try:
+            raw = raw.strip().decode('utf-8')
+        except:
+            try:
+                raw = raw.strip().decode('latin-1')
+            except:
+                pass
     except:
-        pass
-    return html
+        sleep = 10 # seconds
+        maxsleep = 100
+        while sleep <= maxsleep:
+            print('Error while retrieving: %s' % (url))
+            print('Retry in %s seconds...' % (sleep))
+            time.sleep(sleep)
+            raw = urllib.request.urlopen(req).read()
+            try:
+                raw = raw.strip().decode('utf-8')
+            except:
+                try:
+                    raw = raw.strip().decode('latin-1')
+                except:
+                    pass
+            sleep = sleep * 2
+    return raw
 
 def getCommonsMD5(filename=''):
     filename = re.sub(' ', '_', filename)
