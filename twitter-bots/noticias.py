@@ -46,6 +46,7 @@ def getNews(url='',medio=''):
     #print(raw[:1000])
     rsslimit = 5
     results = []
+    
     if 'almayadeen' in url:
         m = re.findall('(?im)<h3>\n*<a href="(?P<url>/news/[^<>]+?)">(?P<title>[^<>]+?)</a>', raw)
         for item in m[:rsslimit]:
@@ -57,6 +58,12 @@ def getNews(url='',medio=''):
         for item in m[1:rsslimit]:
             title = item[0]
             url = item[1]
+            results.append([title, url])
+    elif 'prensa-latina' in url:
+        m = re.findall('(?im)font-size: 20pt;"><a href="(?P<url>[^<>]+?)">(?P<title>[^<>]+?)</a></h1>', raw)
+        for item in m[:rsslimit]:
+            title = item[1]
+            url = 'http://www.prensa-latina.cu' + html.unescape(item[0])
             results.append([title, url])
     elif 'telesurtv' in url and 'rss' in url:
         m = re.findall('(?im)<title><!\[CDATA\[(?P<title>[^<>]+?)\]\]></title>\s*<link>(?P<url>[^<>]+?)</link>', raw)
@@ -126,6 +133,10 @@ def main():
         'hispantv-latinoamerica': {
             'rss': 'http://www.hispantv.com/services/news.asmx/Rss?category=51,52,54,55,56,57,58,59,110,148,149',
             'hashtags': ['#Noticias', '#AméricaLatina'],
+        },
+        'prensalatina-cubainterior': {
+            'rss': 'http://www.prensa-latina.cu/index.php?o=vt&id=interior-cuba&SEO=noticias-interior-cuba&page=1',
+            'hashtags': ['#Noticias', '#Cuba'],
         },
         'telesur-dprk': {
             'rss': 'http://www.telesurtv.net/tags/Corea%20del%20Norte',
