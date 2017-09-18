@@ -1,6 +1,6 @@
 {{header|1=Astronomía}}
 
-[[File:venus-torunos.jpg|thumb|300px|right|Venus desde Los Toruños.]]
+[[File:venus-torunos.jpg|thumb|right|300px|Venus desde Los Toruños.]]
 
 Desde siempre me ha gustado mirar al cielo por la noche, hay algo ahí arriba que me llama la atención. La <b>astronomía</b> se puede dividir en dos partes, la astronomía de observación (parte práctica) y la astronomía teórica (teorías, explicaciones, de cómo funciona el universo). Ha habido épocas que me ha dado más por curiosear libros de astronomía y otros momentos en los que he observado el cielo.
 
@@ -32,25 +32,34 @@ Estas son algunas fotografías que he podido tomar desde mi ciudad en la provinc
 
 <table align="center" style="text-align: center;font-size: 90%;">
 <tr>
-    <td valign="top" width="250px">[[File:iridium5.jpg|250px|Iridium 5]]</td>
-    <td valign="top" width="250px">[[File:iridium8.jpg|250px|Iridium 8]]</td>
-    <td valign="top" width="250px">[[File:iridium34.jpg|250px|Iridium 34]]</td>
-    <td valign="top" width="250px">[[File:iridium61.jpg|250px|Iridium 61]]</td>
-</tr>
-<tr>
-    <td valign="top"><p>Iridium 5</p></td>
-    <td valign="top"><p>Iridium 8</p></td>
-    <td valign="top"><p>Iridium 34</p></td>
-    <td valign="top"><p>Iridium 61</p></td>
+    <td valign="top" width="250px">[[File:iridium5.jpg|thumb|center|250px|Iridium 5]]</td>
+    <td valign="top" width="250px">[[File:iridium8.jpg|thumb|center|250px|Iridium 8]]</td>
+    <td valign="top" width="250px">[[File:iridium34.jpg|thumb|center|250px|Iridium 34]]</td>
+    <td valign="top" width="250px">[[File:iridium61.jpg|thumb|center|250px|Iridium 61]]</td>
 </tr>
 </table>
 
 == Eclipses ==
 
-* Eclipse solar total del 12 de agosto de 2026
+=== Eclipse solar total del 12 de agosto de 2026 ===
+[[File:eclipse2026.png|thumb|right|300px|Ruta del eclipse de 2026.]]
+
+En España el eclipse podrá verse como total desde las siguientes capitales de provincia: Bilbao, Burgos, Castellón, La Coruña, Cuenca, Guadalajara, Huesca, León, Lérida, Logroño, Lugo, Oviedo, Palencia, Palma de Mallorca, Santander, Segovia, Soria, Tarragona, Teruel, Valladolid, Vitoria, Zamora y Zaragoza. Tanto Huesca como Zamora quedan en el límite de totalidad, con lo que en parte de dichos municipios el eclipse se verá sólo como parcial. Madrid y Barcelona quedan fuera del área de totalidad.
+
+De entre todas las capitales mencionadas será Oviedo donde la magnitud (1,015) y la duración de la fase de totalidad eclipse (1m 48s) serán mayores. La línea central del eclipse, o de máxima duración, seguirá aproximadamente una trayectoria trazada entre la localidad asturiana de Luarca y la castellonense de Peñíscola. En una ubicación ligeramente al este de Luarca la duración de la fase de totalidad (1m 50s) y la magnitud del eclipse (1,017) serán las máximas dentro del territorio español
+
+{{clear}}
+
+=== Eclipse solar total del 2 de agosto de 2027 ===
+[[File:eclipse2026.png|thumb|right|300px|Ruta del eclipse de 2027.]]
+
+Será visible desde Andalucía.
+
+{{clear}}
+
 
 == Miscelánea ==
 
-* Emisiones electromagnéticas de cuerpos celestes convertidas al rango audible por el ser humano: [https://www.youtube.com/watch?v=e3fqE01YYWs Júpiter], [https://www.youtube.com/watch?v=rwnpXll_A_E Neptuno], [https://www.youtube.com/watch?v=Sh2-P8hG5-E Saturno], el [https://www.youtube.com/watch?v=GvMbUxqGuOc Sol] y [https://www.youtube.com/watch?v=80Ngl2RY8sA Urano] (y [https://www.youtube.com/watch?v=AxEa5KdPFRw sus anillos]).
+Emisiones electromagnéticas de cuerpos celestes convertidas al rango audible por el ser humano: [https://www.youtube.com/watch?v=e3fqE01YYWs Júpiter], [https://www.youtube.com/watch?v=rwnpXll_A_E Neptuno], [https://www.youtube.com/watch?v=Sh2-P8hG5-E Saturno], el [https://www.youtube.com/watch?v=GvMbUxqGuOc Sol] y [https://www.youtube.com/watch?v=80Ngl2RY8sA Urano] (y [https://www.youtube.com/watch?v=AxEa5KdPFRw sus anillos]).
 
 {{footer}}
