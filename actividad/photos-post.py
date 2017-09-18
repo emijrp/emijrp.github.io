@@ -24,17 +24,24 @@ ideas:
 """
 
 def main():
-    years = {}
-    with open('photos.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',', quotechar='"')
-        for row in reader:
-            date = row[4]
-            year = date.split(':')[0]
-            if year in years:
-                years[year] += 1
-            else:
-                years[year] = 1
-    print(years)
+    for filename, datepos in [
+        ['photos-commons.csv', 4], 
+        ['photos-flickr.csv', 2],
+        ]:
+        print(filename)
+        years = {}
+        with open(filename, 'r') as csvfile:
+            reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+            for row in reader:
+                date = row[datepos]
+                year = date.split('-')[0]
+                if year in years:
+                    years[year] += 1
+                else:
+                    years[year] = 1
+        years_list = [[year, count] for year, count in years.items()]
+        years_list.sort()
+        print('\n'.join(['%s: %s' % (year, count) for year, count in years_list]))
 
 if __name__ == '__main__':
     main()

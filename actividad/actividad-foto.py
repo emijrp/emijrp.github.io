@@ -28,8 +28,8 @@ import flickrapi
 
 def main():
     activity = {}
+    originaldates = [] # to avoid count twice a photo, if it is both in commons and flickr
     
-    """
     #Commons
     cat = 'Category:Files_by_User:Emijrp'
     api = 'https://commons.wikimedia.org/w/api.php'
@@ -62,14 +62,17 @@ def main():
                 for metadict in data2['query']['pages'][pageid]['imageinfo'][0]['metadata']:
                     if metadict['name'].lower() == 'datetimeoriginal':
                         originaldate = metadict['value'].strip()
+                        originaldate = originaldate.split(' ')[0].replace(':', '-') + ' ' + originaldate.split(' ')[1]
                         d1 = originaldate.split(' ')[0]
-                        if d1 != '0000:00:00':
-                            d = datetime.datetime.strptime(d1, "%Y:%m:%d")
+                        if d1 != '0000:00:00' and d1 != '0000-00-00' and \
+                            originaldate not in originaldates:
+                            d = datetime.datetime.strptime(d1, "%Y-%m-%d")
                             unixtime = d.strftime('%s')
                             if activity.has_key(unixtime):
                                 activity[unixtime] += 1
                             else:
                                 activity[unixtime] = 1
+                            originaldates.append(originaldate)
                     if metadict['name'].lower() == 'model':
                         model = metadict['value'].strip()
             
@@ -83,15 +86,12 @@ def main():
         else:
             uccontinue = ''
     print '\n', c, 'files in Commons'
-
-    #save csv
+    #save commons csv
     rows.sort()
-    with open('photos.csv', 'w') as csvfile:
+    with open('photos-commons.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for row in rows:
             writer.writerow(row)
-    
-    """
     
     #Flickr
     with open('flickr.token', 'r') as f:
@@ -111,6 +111,7 @@ def main():
     xmlraw = ET.tostring(resp, encoding='utf8', method='xml')
     photosets = re.findall(r' id="(\d+)"', xmlraw)
     flickrdone = []
+    rows = []
     for photoset in photosets:
         print(photoset)
         resp2 = flickr.photosets.getPhotos(photoset_id=photoset, user_id=flickruserid, extras='date_taken')
@@ -123,16 +124,26 @@ def main():
                 continue
             else:
                 flickrdone.append(photoid)
-            d1 = datetaken.split(' ')[0]
-            d = datetime.datetime.strptime(d1, "%Y-%m-%d")
-            unixtime = d.strftime('%s')
-            if activity.has_key(unixtime):
-                activity[unixtime] += 1
-            else:
-                activity[unixtime] = 1
+                row = ['flickr', photoid, datetaken]
+                rows.append(row)
+            if not datetaken in originaldates:
+                d1 = datetaken.split(' ')[0]
+                d = datetime.datetime.strptime(d1, "%Y-%m-%d")
+                unixtime = d.strftime('%s')
+                if activity.has_key(unixtime):
+                    activity[unixtime] += 1
+                else:
+                    activity[unixtime] = 1
+                originaldates.append(datetaken)
         time.sleep(0.2)
+    #save flickr csv
+    rows.sort()
+    with open('photos-flickr.csv', 'w') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        for row in rows:
+            writer.writerow(row)
     
-    #save json
+    #save global activity json
     with open('actividad-foto.json', 'w') as outfile:
         outfile.write(json.dumps(activity, indent=4, sort_keys=True))
 
