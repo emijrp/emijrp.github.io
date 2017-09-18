@@ -15,9 +15,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import csv
 import datetime
 import random
 import re
+import time
 from xml.etree import ElementTree as ET # para ver los XMl que devuelve flickrapi con ET.dump(resp)
 
 import flickrapi
@@ -34,6 +36,14 @@ def savetable(filename, tablemark, table):
     f.close()
 
 def main():
+    #load photos in commons
+    photodatescommons = []
+    with open('../actividad/photos-commons.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+        for row in reader:
+            date = row[4]
+            photodatescommons.append(date)
+            
     #sets
     with open('flickr.token', 'r') as f:
         api_key, api_secret = f.read().strip().splitlines()
@@ -56,9 +66,23 @@ def main():
     setrows = []
     c = 1
     for date_create, date_update, photosetid, photos, videos, title in photosets:
-        print(photosetid, photos, videos, title, date_create, date_update)
+        photos = int(photos)
+        videos = int(videos)
         date_create = datetime.datetime.fromtimestamp(int(date_create))
         date_update = datetime.datetime.fromtimestamp(int(date_update))
+        #how many in commons
+        resp2 = flickr.photosets.getPhotos(photoset_id=photosetid, user_id=flickruserid, extras='date_taken')
+        xmlraw2 = ET.tostring(resp2, encoding='utf8', method='xml')
+        #print(xmlraw2)
+        datetakens = re.findall(r'(?im)datetaken="(\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d)"[^<>]*? id="(\d+)"', xmlraw2)
+        photosincommons = 0
+        photosnotincommons = 0
+        for datetaken, photoid in datetakens:
+            if datetaken in photodatescommons:
+                photosincommons += 1
+            else:
+                photosnotincommons += 1
+        print(photosetid, title, photos, videos, photosincommons, date_create.isoformat(), date_update.isoformat())
         row = u"""
     <tr>
         <td>%s</td>
@@ -66,10 +90,14 @@ def main():
         <td>%s</td>
         <td>%s</td>
         <td>%s</td>
+        <td>%.1d%%</td>
         <td>%s</td>
-    </tr>""" % (c, photosetid, title, photos, videos, date_create.strftime("%Y-%m-%d"), date_update.strftime("%Y-%m-%d"))
+        <td>%s</td>
+    </tr>""" % (c, photosetid, title, photos, videos, photosincommons, photosincommons/((photosincommons+photosnotincommons)/100.0), date_create.strftime("%Y-%m-%d"), date_update.strftime("%Y-%m-%d"))
         setrows.append(row)
         c += 1
+        time.sleep(0.2)
+    
     setstable = u"\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
     setstable += u'\n<table class="wikitable sortable" style="text-align: center;">\n'
     setstable += u"""<tr>
@@ -77,8 +105,10 @@ def main():
         <th class="sorttable_alpha">Título</th>
         <th class="sorttable_numeric">Fotos</th>
         <th class="sorttable_numeric">Vídeos</th>
-        <th class="sorttable_alpha">Fecha de creación</th>
-        <th class="sorttable_alpha">Fecha de actualización</th>
+        <th class="sorttable_numeric">En Commons</th>
+        <th class="sorttable_numeric">%</th>
+        <th class="sorttable_alpha">Creación</th>
+        <th class="sorttable_alpha">Actualización</th>
     </tr>"""
     setstable += u''.join(setrows)
     setstable += u'</table>\n'
