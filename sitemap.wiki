@@ -43,7 +43,7 @@
         <td>5</td>
         <td><a href="./astronomia.html">./astronomia.html</a></td>
         <td><a href="./astronomia.wiki">./astronomia.wiki</a></td>
-        <td>3541</td>
+        <td>4655</td>
     </tr>
 
     <tr>
@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>366044</td>
+        <td>358686</td>
     </tr>
 
     <tr>
@@ -442,7 +442,7 @@
         <td>62</td>
         <td><a href="./sitemap.html">./sitemap.html</a></td>
         <td><a href="./sitemap.wiki">./sitemap.wiki</a></td>
-        <td>51976</td>
+        <td>51975</td>
     </tr>
 
     <tr>
@@ -1037,7 +1037,7 @@
         <td>147</td>
         <td><a href="fotografia/fotografia.html">fotografia/fotografia.html</a></td>
         <td><a href="fotografia/fotografia.wiki">fotografia/fotografia.wiki</a></td>
-        <td>151106</td>
+        <td>178219</td>
     </tr>
 
     <tr>
