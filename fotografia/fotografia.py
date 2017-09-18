@@ -90,6 +90,7 @@ def main():
         'beach', 
         'calles', 
         'de', 
+        'la', 
         'museum', 
         'painting', 
         'sea', 

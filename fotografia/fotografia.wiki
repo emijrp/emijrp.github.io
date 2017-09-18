@@ -1,6 +1,6 @@
 {{header|1=Fotografía}}
 
-'''Me encanta hacer fotos''', sobre todo de monumentos, museos, lugares de importancia histórica, paisajes, eventos culturales y desde zonas elevadas. Tras tener varias cámaras compactas, en 2012 compré mi primera reflex, una NIKON D3100. La diferencia en calidad es notable, aunque también es algo más difícil de usar. Aún estoy aprendiendo a manejar todas sus funciones, ya que a pesar de que tiene un modo automático, lo suyo es hacerlo en manual y exprimir toda su capacidad.
+'''Me encanta hacer fotos''', sobre todo de monumentos, museos, lugares de importancia histórica, calles, paisajes, eventos culturales y desde zonas elevadas. Tras tener varias cámaras compactas, en 2012 compré mi primera reflex, una NIKON D3100. La diferencia en calidad es notable, aunque también es algo más difícil de usar. Aún estoy aprendiendo a manejar todas sus funciones, ya que a pesar de que tiene un modo automático, lo suyo es hacerlo en manual y exprimir toda su capacidad.
 
 == Galería ==
 
@@ -8,16 +8,10 @@ Esta '''galería''' es una pequeña muestra de las fotografías que he tomado a 
 
 <table align="center" style="text-align: center;font-size: 90%;">
 <tr>
-    <td valign="top" width="250px">[[File:torre-poniente.jpg|250px|center|Vistas desde la Torre de Poniente de la Catedral de Cádiz.]]</td>
-    <td valign="top" width="250px">[[File:mani-15o.jpg|250px|center|Manifestación del 15-O en la Plaza de España en Cádiz.]]</td>
-    <td valign="top" width="250px">[[File:iridium8.jpg|250px|center|Estela del satélite Iridium 8 en verano de 2013.]]</td>
-    <td valign="top" width="250px">[[File:vaporcito.jpg|250px|center|Vaporcito de El Puerto surcando el Guadalete.]]</td>
-</tr>
-<tr>
-    <td valign="top"><p>Vistas desde la Torre de Poniente de la Catedral de Cádiz.</p></td>
-    <td valign="top"><p>Manifestación del 15-O en la Plaza de España en Cádiz.</p></td>
-    <td valign="top"><p>Estela del satélite Iridium 8 en verano de 2013.</p></td>
-    <td valign="top"><p>Vaporcito de El Puerto surcando el Guadalete.</p></td>
+    <td valign="top" width="250px">[[File:torre-poniente.jpg|thumb|center|250px|Vistas desde la Torre de Poniente de la Catedral de Cádiz.]]</td>
+    <td valign="top" width="250px">[[File:mani-15o.jpg|thumb|center|250px|Manifestación del 15-O en la Plaza de España en Cádiz.]]</td>
+    <td valign="top" width="250px">[[File:iridium8.jpg|thumb|center|250px|Estela del satélite Iridium 8 en verano de 2013.]]</td>
+    <td valign="top" width="250px">[[File:vaporcito.jpg|thumb|center|250px|Vaporcito de El Puerto surcando el Guadalete.]]</td>
 </tr>
 </table>
 
