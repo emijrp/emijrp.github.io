@@ -1,28 +1,22 @@
 {{header|1=Feminismo}}
 
-Comunidades, blogs, etc:
+El '''feminismo''' es un movimiento social y político que se inicia formalmente a finales del siglo XVIII, aunque sin adoptar todavía esta denominación, y que supone la '''toma de conciencia de las mujeres''' como grupo o colectivo humano, de la opresión, dominación, y explotación de que han sido y son objeto por parte del colectivo de varones en el seno del patriarcado bajo sus distintas fases históricas de modelo de producción, lo cual las mueve a la acción para la liberación de su sexo con todas las transformaciones de la sociedad que aquella requiera. ([http://www.mujeresenred.net/spip.php?article1308 ¿Qué es el feminismo?])
 
-<ul>
-    <li><a href="http://www.feminicidio.net">Feminicidio</a></li>
-    <li><a href="http://www.jessicafillol.es">Jéssica Fillol</a></li>
-    <li><a href="http://www.locasdelcoño.com">Locas del Coño</a></li>
-</ul>
+== Comunidades ==
 
+* [http://www.feminicidio.net Feminicidio]
+* [http://www.jessicafillol.es Jéssica Fillol]
+* [http://www.locasdelcoño.com Locas del Coño]
+* [http://www.peliculasfeministas.com/inicio/ Películas feministas]
 
-<h2>Vídeos</h2>
+== Vídeos ==
 
-<ul>
+* [https://wiki.15m.cc/wiki/El_Tornillo El Tornillo]: es el microespacio feminista de La Tuerka, presentado por Irantzu Varela. (Estoy subtitulando los vídeos en Amara, ejemplo [http://www.amara.org/en/videos/0a1fg2CMOurs/info/el-tornillo-1x01/ 1x01])
 
-    <li><b><a href="http://wiki.15m.cc/wiki/El_Tornillo">El Tornillo</a></b>: es el microespacio feminista de La Tuerka, presentado por Irantzu Varela. (Estoy subtitulando los vídeos en Amara, ejemplo <a href="http://www.amara.org/en/videos/0a1fg2CMOurs/info/el-tornillo-1x01/">1x01</a>)</li>
+== Bibliografía ==
 
-</ul>
-
-<h2>Bibliografía</h2>
-
-<ul>
-    <li></li>
-    
-</ul>
+* [https://www.marxists.org/espanol/zetkin/ Archivo Clara Zetkin]
+* [https://www.marxists.org/espanol/luxem/index.htm Archivo Rosa Luxemburgo]
 
 {{footer}}
 
