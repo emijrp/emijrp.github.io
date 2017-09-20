@@ -1,6 +1,10 @@
 {{header|1=Publicaciones}}
 
-En esta página recopila en orden cronológico inverso algunas '''publicaciones''' de mi autoría o co-autoría en congresos y revistas nacionales e internacionales, que contienen los resultados de algunos trabajos que he llevado a cabo. También incluyo ''preprints'' que no han sido formalmente publicados. Los enlaces llevan a las versiones completas de los artículos para que puedas descargarlos y leerlos. También puedes mirar mi perfil en [http://wikipapers.referata.com/wiki/Emilio_J._Rodr%C3%ADguez-Posada WikiPapers], [http://scholar.google.es/citations?user=YKrAl7UAAAAJ Google Scholar] y [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rodr=iacute=guez=Posada:Emilio_J=.html DBLP].
+En esta página recopila en orden cronológico inverso algunas '''publicaciones''' de mi autoría o co-autoría en congresos y revistas nacionales e internacionales, que contienen los resultados de algunos trabajos que he llevado a cabo. También incluyo ''preprints'' que no han sido formalmente publicados.
+
+Entre los temas que aparecen con frecuencia en mis publicaciones se incluyen los '''wikis''' y su estudio estadístico, la relación entre estas plataformas de documentación colaborativa y la '''educación universitaria''', la creación y evaluación de '''herramientas anti-vandalismo''', así como la '''preservación digital''' de wikis y otros proyectos de contenido libre.
+
+Los enlaces llevan a las versiones completas de los artículos para que puedas descargarlos y leerlos. También puedes mirar mi perfil en [http://wikipapers.referata.com/wiki/Emilio_J._Rodr%C3%ADguez-Posada WikiPapers], [http://scholar.google.es/citations?user=YKrAl7UAAAAJ Google Scholar] y [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rodr=iacute=guez=Posada:Emilio_J=.html DBLP].
 
 <!--
 Añadir mi perfil en https://arxiv.org cuando haya subido material
