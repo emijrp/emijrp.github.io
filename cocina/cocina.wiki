@@ -1,0 +1,28 @@
+{{header|1=Cocina}}
+
+Algunas recetas y otras cosillas gastronómicas. Sección en desarrollo.
+
+== Potajes ==
+
+* Lentejas con chorizo
+* Menudo
+
+== Batidos ==
+
+Superbatidos.
+
+== Bocadillos ==
+
+Bocadillos de dos pisos.
+
+<!--
+Coliflor cocida:
+* Trocear la coliflor
+* Hervir con agua, sal y ajo
+* Cuando esté blanda, apartarla
+* Tirar agua
+* Machacarla
+
+-->
+
+{{footer}}

@@ -6,7 +6,7 @@
     {{button-blue|1=audio.html|2=Audio}}
     {{button-blue|1=biblioteca.html|2=Biblioteca}}
     {{button-blue|1=cine/cine.html|2=Cine}}
-    {{button-blue|1=cocina.html|2=Cocina}}
+    {{button-blue|1=cocina/cocina.html|2=Cocina}}
     {{button-blue|1=comunismo.html|2=Comunismo}}
     <!--{{button-grey|1=Deporte}}-->
     {{button-blue|1=diccionarios/diccionarios.html|2=Diccionarios}}
@@ -27,7 +27,7 @@
     {{button-blue|1=musica.html|2=Música}}
     {{button-blue|1=naturaleza.html|2=Naturaleza}}
     {{button-blue|1=nostalgia.html|2=Nostalgia}}
-    {{button-blue|1=poesia.html|2=Poesía}}
+    {{button-blue|1=poesia/poesia.html|2=Poesía}}
     {{button-blue|1=preservacion-digital.html|2=Preservación digital}}
     {{button-blue|1=publicaciones/publicaciones.html|2=Publicaciones}}
     {{button-blue|1=snail-mail.html|2=Snail mail}}
