@@ -140,6 +140,9 @@ Análisis de wikis sobre activismo, su estado actual, si hay backup, etc.
 
 </table>
 
+== Locapedias ==
+{{ap|1=locapedias.html|2=Locapedias}}
+
 == Wikifarms ==
 
 <p>Las granjas de wikis son servicios de alojamiento de wikis, generalmente gratuitos o con distintos planes, muy utilizados y que pueden llegar a hospedar miles de wikis.</p>
