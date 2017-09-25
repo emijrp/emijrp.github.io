@@ -1,6 +1,6 @@
 {{header|1=Favoritas}}
 
-Mis webs favoritas, muchas son bien conocidas, otras menos por ser más específicas.
+Mis webs '''favoritas''', muchas son bien conocidas, otras menos por ser más específicas.
 
 * [[File:favicon-15mpedia.ico|left|15px|15Mpedia]] [https://15mpedia.org 15Mpedia]: enciclopedia libre sobre el '''movimiento 15M''' y otras luchas sociales, anteriores o posteriores.
 {{clear}}
@@ -27,11 +27,13 @@ Mis webs favoritas, muchas son bien conocidas, otras menos por ser más específ
 * [[File:favicon-youtube.ico|left|15px|YouTube]] [https://www.youtube.com YouTube]: el portal de '''vídeos''' más usado de la red.
 {{clear}}
 
+<!--
 == Por tema ==
 
 === Salud ===
 
 * [https://www.youtube.com/watch?v=6ZAj2UibCsc ¿Cómo cepillarse los dientes con un cepillo manual?]
 * [https://www.youtube.com/watch?v=w4RWl6we6rk ¿Cómo se usa el hilo dental?]
+-->
 
 {{footer}}
