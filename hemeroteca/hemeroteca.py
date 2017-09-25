@@ -82,22 +82,25 @@ def elterritoriodellince(site=''):
     rawposts = raw.split('<entry>')[1:]
     for rawpost in rawposts:
         #posttitle = re.findall(r"<title type='text'>([^<>]*?)</title>", raw)[0]
-        posttitle = re.findall(r"color: red; font-size: large;&quot;&gt;&lt;b&gt;([^<>]*?)&lt;/b&gt;&lt;/span&gt;", rawpost)[0]
-        posturl = re.findall(r"<link rel='alternate' type='text/html' href='([^<>]*?)' title='", rawpost)[0]
-        postdate = re.findall(r"<published>(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)[^<>]*?</published>", rawpost)[0]
-        postimages = re.findall(r"(?i)(https?://[^ ]+?\.(jpg|png))", rawpost)
-        postimage = sites[site]['logo']
-        if postimages:
-            postimage = postimages[0][0]
-            for fileurl, fileext in postimages:
-                if 's72-c' in fileurl:
-                    postimage = fileurl
-                    break
-        postcontent = re.findall(r"<content type='html'>(.*?)</content>", rawpost)[0]
-        postcontent = html.unescape(postcontent)
-        postcontent = cleancontent(postcontent)[:250]
-        posturl = '%s://%s' % (sites[site]['mainpage'].split('://')[0], posturl.split('://')[1])
-        posts[posturl] = { 'site': site, 'title': html.unescape(posttitle), 'date': re.sub('T', ' ', postdate), 'image': postimage, 'content': postcontent }
+        try:
+            posttitle = re.findall(r"color: red; font-size: large;&quot;&gt;&lt;b&gt;([^<>]*?)&lt;/b&gt;&lt;/span&gt;", rawpost)[0]
+            posturl = re.findall(r"<link rel='alternate' type='text/html' href='([^<>]*?)' title='", rawpost)[0]
+            postdate = re.findall(r"<published>(\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d)[^<>]*?</published>", rawpost)[0]
+            postimages = re.findall(r"(?i)(https?://[^ ]+?\.(jpg|png))", rawpost)
+            postimage = sites[site]['logo']
+            if postimages:
+                postimage = postimages[0][0]
+                for fileurl, fileext in postimages:
+                    if 's72-c' in fileurl:
+                        postimage = fileurl
+                        break
+            postcontent = re.findall(r"<content type='html'>(.*?)</content>", rawpost)[0]
+            postcontent = html.unescape(postcontent)
+            postcontent = cleancontent(postcontent)[:250]
+            posturl = '%s://%s' % (sites[site]['mainpage'].split('://')[0], posturl.split('://')[1])
+            posts[posturl] = { 'site': site, 'title': html.unescape(posttitle), 'date': re.sub('T', ' ', postdate), 'image': postimage, 'content': postcontent }
+        except:
+            print(rawpost)
     return posts
 
 def labocadora(site=''):
