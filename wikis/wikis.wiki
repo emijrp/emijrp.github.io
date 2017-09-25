@@ -108,6 +108,9 @@ Análisis de wikis sobre activismo, su estado actual, si hay backup, etc.
 
 </table>
 
+== Locapedias ==
+{{../ap|1=locapedias.html|2=Locapedias}}
+
 == Otras ==
 
 <table class="wikitable sortable" style="text-align: center;">
@@ -139,9 +142,6 @@ Análisis de wikis sobre activismo, su estado actual, si hay backup, etc.
 -->
 
 </table>
-
-== Locapedias ==
-{{ap|1=locapedias.html|2=Locapedias}}
 
 == Wikifarms ==
 
