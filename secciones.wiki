@@ -7,11 +7,11 @@
     {{button-blue|1=biblioteca.html|2=Biblioteca}}
     {{button-blue|1=cine/cine.html|2=Cine}}
     {{button-blue|1=cocina/cocina.html|2=Cocina}}
-    {{button-blue|1=comunismo.html|2=Comunismo}}
+    {{button-blue|1=comunismo/comunismo.html|2=Comunismo}}
     <!--{{button-grey|1=Deporte}}-->
     {{button-blue|1=diccionarios/diccionarios.html|2=Diccionarios}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
-    {{button-blue|1=feminismo.html|2=Feminismo}}
+    {{button-blue|1=feminismo/feminismo.html|2=Feminismo}}
     {{button-blue|1=fotografia/fotografia.html|2=Fotografía}}
     <!--{{button-grey|1=Frases}}-->
     <!--{{button-grey|1=Futuro}}-->
@@ -35,7 +35,7 @@
     {{button-blue|1=tareas.html|2=Tareas}}
     {{button-blue|1=viajes/viajes.html|2=Viajes}}
     {{button-blue|1=videoteca/videoteca.html|2=Videoteca}}
-    {{button-blue|1=wikis.html|2=Wikis}}
+    {{button-blue|1=wikis/wikis.html|2=Wikis}}
     {{button-blue|1=sitemap.html|2=Sitemap}}
 </p>
 
