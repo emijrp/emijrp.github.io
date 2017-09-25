@@ -21,7 +21,7 @@ El '''comunismo''' es el más alto estado de las formaciones socio-economicas qu
 * [https://lugrogeopolitica.blogspot.com Traduciendo la realidad]
 
 == Cine ==
-{{ap|1=cine/cine-rda.html|2=Cine de la RDA}}
+{{../ap|1=cine/cine-rda.html|2=Cine de la RDA}}
 
 Los países socialistas que han existido han producido cinematografías de muy alta calidad, belleza y valores. Las producciones no tenían como principal objetivo el ser éxitos comerciales. Estos son algunos lugares donde podrás encontrar muestras de este cine.
 
@@ -57,6 +57,6 @@ La bibliografía comunista es extensísima y se ha diversificado tanto como rama
 
 === Artículos ===
 
-* {{w|1=es|2=Transición del feudalismo al capitalismo}}
+* {{../w|1=es|2=Transición del feudalismo al capitalismo}}
 
 {{footer}}
