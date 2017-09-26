@@ -5,14 +5,14 @@ Algunas anotaciones sobre las posibilidades de viaje por carretera en distintos 
 == Europa ==
 [[File:red-carreteras-europeas.png|300px|right|Mapa de la red de carreteras europea.]]
 
-{{../clear}}
+{{clear}}
 
 === España ===
 [[File:red-autovias-espana.png|300px|right|Mapa de la red de autovías de España.]]
 
 En España la autovía más larga es la A-7 que va desde Algeciras a Barcelona. También se le conoce como el tramo español de la E-15 (Red de Carreteras Europeas).
 
-{{../clear}}
+{{clear}}
 
 == Estados Unidos ==
 
@@ -20,9 +20,9 @@ En España la autovía más larga es la A-7 que va desde Algeciras a Barcelona. 
 
 La red de autopistas interestatales de Estados Unidos tiene unos 70.000 kilómetros. Se nombran con la letra I seguida de un número. Las que acaban en cero son iterestatales que cruzan todo el país de Este a Oeste (o viceversa). La más larga de todas es la I-90 con 4.800 kilómetros de longitud y que va desde Boston (Massachusetts) a Seattle (Washington).
 
-* {{../wikipedia|1=en|2=Interstate Highway System}}
+* {{wikipedia|1=en|2=Interstate Highway System}}
 * [https://www.youtube.com/watch?v=kYreI6mAP30 Recorriendo la I-90 completa]
 
-{{../clear}}
+{{clear}}
 
-{{../footer}}
+{{footer}}

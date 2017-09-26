@@ -4,4 +4,4 @@
 * [[filosofico-politico/index|Diccionario Filosófico-Político]]
 * [[geografico/index|Diccionario Geográfico]]
     
-{{../footer}}
+{{footer}}

@@ -1,5 +1,5 @@
 {{header|1=Cine de la RDA}}
-{{../vt|1=cine|2=Cine}}
+{{vt|1=cine|2=Cine}}
 
 Esta página está dedicada al '''Cine de la República Democrática Alemana'''.
 
@@ -39,4 +39,4 @@ Un listado de directores prolíficos.
 * [http://ost-tv-gesichter.forumprofi.de/index.php OST TV GESICHTER]
 * [https://en.wikipedia.org/wiki/User:Emijrp/Cinema_of_East_Germany User:Emijrp/Cinema_of_East_Germany] (Wikidata list)
 
-{{../footer}}
+{{footer}}

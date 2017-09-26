@@ -630,7 +630,7 @@ http://www.cubacine.cult.cu/sitios/contracorriente/index.html
 
 === Documentales, conferencias, programas de televisión y radio ===
 
-{{../youtube|id=uEDMSQ1I-H0|align=right}}
+{{youtube|id=uEDMSQ1I-H0|align=right}}
 
 * Días de cine. ''[http://www.rtve.es/alacarta/videos/dias-de-cine/dias-cine-vanguardia-sovietica-eisenstein/993476/ La vanguardia soviética I: Eisenstein]'', 21 de enero de 2011.
 * Días de cine. ''[http://www.rtve.es/alacarta/videos/dias-de-cine/dias-cine-vanguardia-sovietica-2-dziga-vertov-cine-ojo-kino-glaz/1013730/ La vanguardia soviética II: Dziga Vertov y el Cine-Ojo (Kino-Glaz)]'', 11 de febrero de 2011.
@@ -803,4 +803,4 @@ Listas en IMDB
 
 -->
 
-{{../footer}}
+{{footer}}

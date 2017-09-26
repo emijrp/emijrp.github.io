@@ -96,4 +96,4 @@ Otros países:
 
 </script>
 
-{{../footer}}
+{{footer}}

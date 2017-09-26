@@ -1,5 +1,5 @@
 {{header|1=Videoteca}}
-{{../vt|1=cine|2=Cine}}
+{{vt|1=cine|2=Cine}}
 
 Esta '''videoteca''' es una colección de vídeos de múltiples temas.
 
@@ -76,4 +76,4 @@ Esta '''videoteca''' es una colección de vídeos de múltiples temas.
 
 
 
-{{../footer}}
+{{footer}}

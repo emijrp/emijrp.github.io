@@ -1,5 +1,5 @@
 {{header|1=Documentales}}
-{{../vt2|1=cine|2=Cine|3=series|4=Series}}
+{{vt2|1=cine|2=Cine|3=series|4=Series}}
 
 Una colección de '''documentales''' interesantes sobre política, historia, sociedad, etc.
 
@@ -2566,4 +2566,4 @@ http://www.lamarea.com/2013/10/20/los-documentales-prohibidos-de-la-transicion-y
 
 -->
 
-{{../footer}}
+{{footer}}

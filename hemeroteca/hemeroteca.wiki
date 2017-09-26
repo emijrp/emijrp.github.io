@@ -4,9 +4,9 @@ Los '''medios de comunicación''' deberían ser herramientas para informar a la 
 
 Para contrarrestar esto es útil consultar medios de comunicación que den otro punto de vista de la noticia o que informen de asuntos que no aparecen en los medios dominantes. A estos se les suele llamar «medios alternativos», incluso desde sus propios ámbitos, autoasignandose inconsciente y torpemente una etiqueta como si fueran medios de segunda, pero no dejan de ser medios de comunicación y sin duda más dignos que los grandes.
 
-{{../button-blue|1=|2=Todas}}
-{{../button-blue|1=|2=Noticias}}
-{{../button-blue|1=|2=Blogs}}
+{{button-blue|1=|2=Todas}}
+{{button-blue|1=|2=Noticias}}
+{{button-blue|1=|2=Blogs}}
 
 <!-- ultimasnoticias --><table style="border: 0px;">
 <tr><td valign="top" width="50%" style="border-bottom: 1px solid grey;padding-right: 25px;">
@@ -399,4 +399,4 @@ analisis de medios, propietarios y referencias en wikipedia
 -->
 
 
-{{../footer}}
+{{footer}}

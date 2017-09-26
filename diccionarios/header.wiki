@@ -1,2 +1,0 @@
-{{../headerhtml|1={{{1}}} - Diccionarios|2=../}}
-= {{{1}}} - [[diccionarios|Diccionarios]] - [[../index|La web de emijrp]] =

@@ -1,6 +1,6 @@
 {{header|1=Ruso}}
 
-{{../youtube|id=09Db0WiDI1E|align=right}}
+{{youtube|id=09Db0WiDI1E|align=right}}
 
 * Privet: Hola
 * Ya jachú: Yo quiero

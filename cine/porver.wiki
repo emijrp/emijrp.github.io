@@ -202,4 +202,4 @@ Películas para ver.
 </table><!-- /porver -->
 
 
-{{../footer}}
+{{footer}}

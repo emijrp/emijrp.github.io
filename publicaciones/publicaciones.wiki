@@ -51,4 +51,4 @@ Añadir mi perfil en https://arxiv.org cuando haya subido material
 
 * «[./2009-pfc-avbot.es.pdf Detector y corrector automático de ediciones maliciosas en Wikipedia]». Proyecto Fin de Carrera, Ingeniería Técnica en Informática de Sistemas, Universidad de Cádiz, enero de 2009. [http://hdl.handle.net/10498/8691 DOI 10498/8691] ([./2009-pfc-avbot-ppt.es.pdf Presentación]) ([./2009-pfc-avbot-manualinstalacion.es.pdf Manual de instalación]) ([./2009-pfc-avbot-manualusuario.es.pdf Manual de usuario])
 
-{{../footer}}
+{{footer}}
