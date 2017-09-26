@@ -35,7 +35,9 @@ a:link, a:visited{
     text-decoration: none;
 }
 a:hover, a:active{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    border-bottom: 2px solid ;
+    margin-bottom: 0px;
 }
 
 div.footer{
