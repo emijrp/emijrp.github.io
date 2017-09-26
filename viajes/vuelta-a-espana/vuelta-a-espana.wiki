@@ -34,7 +34,7 @@
 
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][1],places[i][2]])
-            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><a href="' + places[i][5] + '"><img src="../images/' + places[i][3] + '" width="180px" /></a>')
+            .bindPopup('<b><a href="' + places[i][5] + '">Etapa ' + places[i][4] + ': ' + places[i][0] + '</a></b>' + '<br/><a href="' + places[i][5] + '"><img src="../../images/' + places[i][3] + '" width="180px" /></a>')
             .addTo(map);
     }
     
