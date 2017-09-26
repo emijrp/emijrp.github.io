@@ -5,6 +5,7 @@ body{
     max-width: 1340px;
     background: white;
     background: white;
+    line-height: 21px;
 }
 div.main{
     background: #FFEFD5;
@@ -36,8 +37,8 @@ a:link, a:visited{
 }
 a:hover, a:active{
     /*text-decoration: underline;*/
-    border-bottom: 2px solid ;
-    margin-bottom: 0px;
+    border-bottom: 0.12em solid ;
+    margin-bottom: -1px;
 }
 
 div.footer{
