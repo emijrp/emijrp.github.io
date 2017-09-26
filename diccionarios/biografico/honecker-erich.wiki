@@ -2,7 +2,7 @@
 
 <includeonly>=== Honecker, Erich ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=honecker-erich
 |nombre y apellidos=Erich Honecker
 |apellidos y nombre=Honecker, Erich
@@ -24,4 +24,4 @@ Algunos de sus escritos:
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

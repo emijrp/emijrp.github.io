@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=guadalajara
 |etapa=Etapa 4: Guadalajara
 |provincia=Guadalajara

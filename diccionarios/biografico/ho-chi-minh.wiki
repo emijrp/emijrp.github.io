@@ -2,7 +2,7 @@
 
 <includeonly>=== Ho Chi Minh ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=ho-chi-minh
 |nombre y apellidos=Ho Chi Minh
 |apellidos y nombre=Ho Chi Minh
@@ -18,4 +18,4 @@
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

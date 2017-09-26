@@ -2,7 +2,7 @@
 
 <includeonly>=== Gramsci, Antonio ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=gramsci-antonio
 |nombre y apellidos=Antonio Gramsci
 |apellidos y nombre=Gramsci, Antonio
@@ -24,4 +24,4 @@ Existe una película biográfica sobre su figura.
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

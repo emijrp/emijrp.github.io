@@ -2,7 +2,7 @@
 
 <includeonly>=== Álvarez, Santiago ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=alvarez-santiago
 |nombre y apellidos=Santiago Álvarez
 |apellidos y nombre=Álvarez, Santiago
@@ -18,4 +18,4 @@
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

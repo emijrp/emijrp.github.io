@@ -2,7 +2,7 @@
 
 <includeonly>=== Goya, Francisco de ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=goya-francisco
 |nombre y apellidos=Francisco de Goya
 |apellidos y nombre=Goya, Francisco
@@ -16,8 +16,8 @@
 |descripcion=Pintor y grabador español
 }}
 
-{{../../youtube|id=1d892kNNuUA|align=left}}
+{{youtube|id=1d892kNNuUA|align=left}}
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

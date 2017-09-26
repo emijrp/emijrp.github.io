@@ -2,50 +2,50 @@
 
 == Etapa 1: Toledo ==
 
-{{toledo}}
+{{:toledo}}
 
 == Etapa 2: Segovia ==
 
-{{segovia}}
+{{:segovia}}
 
 == Etapa 3: Ávila ==
 
-{{avila}}
+{{:avila}}
 
 == Etapa 4: Guadalajara ==
 
-{{guadalajara}}
+{{:guadalajara}}
 
 == Etapa 5: Madrid ==
 
-{{madrid}}
+{{:madrid}}
 
 == Etapa 6: Cuenca ==
 
-{{cuenca}}
+{{:cuenca}}
 
 == Etapa 7: Salamanca ==
 
-{{salamanca}}
+{{:salamanca}}
 
 == Etapa 8: Sevilla ==
 
-{{sevilla}}
+{{:sevilla}}
 
 == Etapa 9: Cádiz ==
 
-{{cadiz}}
+{{:cadiz}}
 
 == Etapa 10: Málaga ==
 
-{{malaga}}
+{{:malaga}}
 
 == Etapa 11: Burgos ==
 
-{{burgos}}
+{{:burgos}}
 
 == Etapa 12: Valladolid ==
 
-{{valladolid}}
+{{:valladolid}}
 
-{{../../footer}}
+{{footer}}

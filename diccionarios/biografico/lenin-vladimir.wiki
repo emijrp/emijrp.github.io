@@ -7,7 +7,7 @@
 <!--<img src="../images/lenin2.gif" width="300px" align="right" />-->
 <!--<img src="../images/lenin-cleaning.jpg" width="200px" align="right" alt="Lenin limpiando el mundo de escoria" />-->
 
-{{header-bio
+{{:header-bio
 |wiki=lenin-vladimir
 |nombre y apellidos=Vladimir Lenin
 |apellidos y nombre=Lenin, Vladimir
@@ -49,4 +49,4 @@ Se puede leer más sobre Lenin en [http://www.ecured.cu/index.php/Vladimir_Ilich
 </table>
 -->
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

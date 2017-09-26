@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=sevilla
 |etapa=Etapa 8: Sevilla
 |provincia=Sevilla

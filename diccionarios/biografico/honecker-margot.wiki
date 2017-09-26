@@ -2,7 +2,7 @@
 
 <includeonly>=== Honecker, Margot ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=honecker-margot
 |nombre y apellidos=Margot Honecker
 |apellidos y nombre=Honecker, Margot
@@ -22,4 +22,4 @@ El chileno [[Luis Corvalán]] publicó el libro ''La otra Alemania, la RDA: Conv
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

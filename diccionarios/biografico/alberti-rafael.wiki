@@ -2,7 +2,7 @@
 
 <includeonly>=== Alberti, Rafael ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=alberti-rafael
 |nombre y apellidos=Rafael Alberti
 |apellidos y nombre=Alberti, Rafael
@@ -20,4 +20,4 @@ Entre su obra poética destaca ''Marinero en tierra''. Recoge sus memorias en ''
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

@@ -2,7 +2,7 @@
 
 <includeonly>=== Bravo, Estela ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=bravo-estela
 |nombre y apellidos=Estela Bravo
 |apellidos y nombre=Bravo, Estela
@@ -58,4 +58,4 @@ Comenzó a filmar a los 47 años, habiendo dirigido más de 30 documentales acer
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

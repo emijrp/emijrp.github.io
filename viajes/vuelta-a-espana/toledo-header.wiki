@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=toledo
 |etapa=Etapa 1: Toledo
 |provincia=Toledo

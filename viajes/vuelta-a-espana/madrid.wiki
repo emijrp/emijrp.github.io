@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 5: Madrid}}</noinclude>
 
-{{madrid-header}}
+{{:madrid-header}}
 
 Dado que he estado unos meses viviendo en la Comunidad de Madrid, han sido varios los días salteados en los que he hecho turismo por la provincia. Esta es una etapa «especial» que resume algunos de los lugares visitados, sin más orden que el alfabético para los municipios y el cronológico cuando he repetido visita.
 
@@ -30,6 +30,6 @@ Dado que he estado unos meses viviendo en la Comunidad de Madrid, han sido vario
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=guadalajara|pre-etapa=Etapa 4: Guadalajara|etapa=Etapa 5: Madrid|sig-wiki=cuenca|sig-etapa=Etapa 6: Cuenca}}</noinclude>
+<noinclude>{{:navbox-etapa|pre-wiki=guadalajara|pre-etapa=Etapa 4: Guadalajara|etapa=Etapa 5: Madrid|sig-wiki=cuenca|sig-etapa=Etapa 6: Cuenca}}</noinclude>
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

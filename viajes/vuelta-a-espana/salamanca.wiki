@@ -1,10 +1,10 @@
 <noinclude>{{header|1=Etapa 7: Salamanca}}</noinclude>
 
-{{salamanca-header}}
+{{:salamanca-header}}
 
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=cuenca|pre-etapa=Etapa 6: Cuenca|etapa=Etapa 7: Salamanca|sig-wiki=sevilla|sig-etapa=Etapa 8: Sevilla}}</noinclude>
+<noinclude>{{:navbox-etapa|pre-wiki=cuenca|pre-etapa=Etapa 6: Cuenca|etapa=Etapa 7: Salamanca|sig-wiki=sevilla|sig-etapa=Etapa 8: Sevilla}}</noinclude>
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

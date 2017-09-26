@@ -2,7 +2,7 @@
 
 <includeonly>=== Engels, Friedrich ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=engels-friedrich
 |nombre y apellidos=Friedrich Engels
 |apellidos y nombre=Engels, Friedrich
@@ -27,4 +27,4 @@ Entre sus obras destacan:
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=avila
 |etapa=Etapa 3: Ávila
 |provincia=Ávila

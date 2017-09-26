@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 4: Guadalajara}}</noinclude>
 
-{{guadalajara-header}}
+{{:guadalajara-header}}
 
 La '''provincia de Guadalajara''' es la penúltima provincia limítrofe con la de Madrid que me quedaba por visitar (ahora la que me queda es Cuenca). Se encuentra en '''Castilla-La Mancha''' y ha sido con diferencia la menos turística de las hasta ahora visitadas. Aun así hay algunas cosillas que destacar y que resumo a continuación.
 
@@ -19,7 +19,7 @@ Sorprendentemente no vi '''ninguna tienda de souvenirs''', la primera vez que me
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=avila|pre-etapa=Etapa 3: Ávila|etapa=Etapa 4: Guadalajara|sig-wiki=madrid|sig-etapa=Etapa 6: Madrid}}</noinclude>
+<noinclude>{{:navbox-etapa|pre-wiki=avila|pre-etapa=Etapa 3: Ávila|etapa=Etapa 4: Guadalajara|sig-wiki=madrid|sig-etapa=Etapa 6: Madrid}}</noinclude>
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>
 

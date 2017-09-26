@@ -2,7 +2,7 @@
 
 <includeonly>=== Zetkin, Clara ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=zetkin-clara
 |nombre y apellidos=Clara Zetkin
 |apellidos y nombre=Zetkin, Clara
@@ -20,4 +20,4 @@ Luchadora por los derechos de la mujer.
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

@@ -2,7 +2,7 @@
 
 <includeonly>=== Grimaldos, Alfredo ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=grimaldos-alfredo
 |nombre y apellidos=Alfredo Grimaldos
 |apellidos y nombre=Grimaldos, Alfredo
@@ -30,4 +30,4 @@ Entre sus obras destacan:
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

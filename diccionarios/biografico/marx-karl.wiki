@@ -2,7 +2,7 @@
 
 <includeonly>=== Marx, Karl ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=marx-karl
 |nombre y apellidos=Karl Marx
 |apellidos y nombre=Marx, Karl
@@ -22,4 +22,4 @@ Junto a [[engels-friedrich|Friedrich Engels]], es el padre del socialismo cient√
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

@@ -2,7 +2,7 @@
 
 <includeonly>=== Apellidos, Nombre ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=jara-victor
 |nombre y apellidos=Víctor Jara
 |apellidos y nombre=Jara, Víctor
@@ -24,4 +24,4 @@ Existe un documental sobre su figura llamado ''El derecho de vivir en paz''.
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

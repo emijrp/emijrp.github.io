@@ -1,4 +1,4 @@
-{{header|1=Portada}}
+{{header|1=Vuelta a Cádiz}}
 
 Otro de los hitos que me gustaría completar relativo a viajes es '''visitar los 44 municipios de la provincia de Cádiz'''.
 
@@ -323,4 +323,4 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 
 </table>
 
-{{../../footer}}
+{{footer}}

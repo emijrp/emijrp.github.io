@@ -2,7 +2,7 @@
 
 <includeonly>=== Che Guevara, Ernesto ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=che-guevara
 |nombre y apellidos=Ernesto Che Guevara
 |apellidos y nombre=Che Guevara, Ernesto
@@ -35,4 +35,4 @@ Son varias las películas basadas en la vida del Che. En 2004, Walter Salles fil
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

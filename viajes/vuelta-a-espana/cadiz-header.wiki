@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=cadiz
 |etapa=Etapa 9: Cádiz
 |provincia=Cádiz

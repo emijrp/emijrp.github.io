@@ -2,7 +2,7 @@
 
 <includeonly>=== Woolf, Virginia ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=woolf-virginia
 |nombre y apellidos=Virginia Woolf
 |apellidos y nombre=Woolf, Virginia
@@ -22,4 +22,4 @@ Sus obras más famosas incluyen las novelas ''La señora Dalloway'' (1925), ''Al
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

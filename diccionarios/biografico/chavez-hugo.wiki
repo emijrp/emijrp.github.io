@@ -2,7 +2,7 @@
 
 <includeonly>=== Chávez, Hugo ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=chavez-hugo
 |nombre y apellidos=Hugo Chávez
 |apellidos y nombre=Chávez, Hugo
@@ -20,4 +20,4 @@ Fue Presidente de la República Bolivariana de Venezuela desde el 2 de febrero d
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

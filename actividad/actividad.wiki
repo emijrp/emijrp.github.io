@@ -178,7 +178,7 @@ for (i = 2005; i <= 2017; i++) {
 == Software ==
 {{ap|1=../software|2=Software}}
 
-Mi '''actividad en software''' consiste en el desarrollo de software libre que he publicado en distintas forjas a lo largo de los años, en [https://github.com/emijrp GitHub] principalmente. El resto de código que había subido a Rediris o Google Code, lo migré en su mayoría a GitHub cuando aquellos servicios cerraron. La primera vez que subí código a la red fue el 12 de agosto de 2006. Esta gráfica ha sido generada con <a href="actividad-software.py">este script</a>.
+Mi '''actividad en [[../software|software]]''' consiste en el desarrollo de software libre que he publicado en distintas forjas a lo largo de los años, en [https://github.com/emijrp GitHub] principalmente. El resto de código que había subido a Rediris o Google Code, lo migré en su mayoría a GitHub cuando aquellos servicios cerraron. La primera vez que subí código a la red fue el 12 de agosto de 2006. Esta gráfica ha sido generada con <a href="actividad-software.py">este script</a>.
 
 <center>
 <div class="activity" id="actividad-software-2005"></div>
@@ -254,9 +254,9 @@ for (i = 2005; i <= 2017; i++) {
 {{clear}}
 
 == Wikis ==
-{{ap|1=../wikis|2=Wikis}}
+{{ap|1=../wikis/wikis|2=Wikis}}
 
-Mi '''actividad en [[../wikis.html|wikis]]''' se concentra en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://wiki.15m.cc 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers]. Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 150.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 15 millones de ediciones. Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
+Mi '''actividad en [[../wikis/wikis|wikis]]''' se concentra en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://wiki.15m.cc 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers]. Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 150.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 15 millones de ediciones. Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
 
 <center>
 <div class="activity" id="actividad-wiki-2005"></div>

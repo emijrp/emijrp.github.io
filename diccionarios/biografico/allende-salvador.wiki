@@ -2,7 +2,7 @@
 
 <includeonly>=== Allende, Salvador ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=allende-salvador
 |nombre y apellidos=Salvador Allende
 |apellidos y nombre=Allende, Salvador
@@ -18,4 +18,4 @@
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

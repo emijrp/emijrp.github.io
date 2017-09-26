@@ -2,7 +2,7 @@
 
 <includeonly>=== Sankara, Thomas ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=sankara-thomas
 |nombre y apellidos=Thomas Sankara
 |apellidos y nombre=Sankara, Thomas
@@ -20,4 +20,4 @@ Presidió Burkina Faso de 1983 a 1987. Es visto como una figura carismática e i
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

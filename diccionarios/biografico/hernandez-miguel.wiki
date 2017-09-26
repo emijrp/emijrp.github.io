@@ -2,7 +2,7 @@
 
 <includeonly>=== Hernández, Miguel ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=hernandez-miguel
 |nombre y apellidos=Miguel Hernández
 |apellidos y nombre=Hernández, Miguel
@@ -26,4 +26,4 @@ Obras:
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

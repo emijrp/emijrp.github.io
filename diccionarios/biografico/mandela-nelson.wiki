@@ -2,7 +2,7 @@
 
 <includeonly>=== Mandela, Nelson ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=mandela-nelson
 |nombre y apellidos=Nelson Mandela
 |apellidos y nombre=Mandela, Nelson
@@ -30,4 +30,4 @@ buscar información sobre el apoyo de otros países socialistas a la lucha contr
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

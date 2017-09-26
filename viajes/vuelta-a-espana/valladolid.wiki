@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 12: Valladolid}}</noinclude>
 
-{{valladolid-header}}
+{{:valladolid-header}}
 
 La '''provincia de Valladolid''' se encuentra en la comunidad autónoma de '''Castilla y León''', separada de la provincia de Madrid por la de Segovia.
 
@@ -24,6 +24,6 @@ Tras esto, no me quedaban fuerzas para mucho más. He de reconocer que no vi el 
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=burgos|pre-etapa=Etapa 11: Burgos|etapa=Etapa 12: Valladolid|sig-wiki=|sig-etapa=}}</noinclude>
+<noinclude>{{:navbox-etapa|pre-wiki=burgos|pre-etapa=Etapa 11: Burgos|etapa=Etapa 12: Valladolid|sig-wiki=|sig-etapa=}}</noinclude>
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

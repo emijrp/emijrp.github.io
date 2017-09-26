@@ -292,7 +292,7 @@ http://www.filmaffinity.com/es/film680186.html
 
 <includeonly>=== Apellidos, Nombre ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=
 |nombre y apellidos=
 |apellidos y nombre=
@@ -308,8 +308,8 @@ http://www.filmaffinity.com/es/film680186.html
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>
 
 -->
 
-{{../../footer}}
+{{footer}}

@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=segovia
 |etapa=Etapa 2: Segovia
 |provincia=Segovia

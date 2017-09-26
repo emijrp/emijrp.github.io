@@ -2,7 +2,7 @@
 
 <includeonly>=== Castro, Fidel ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=castro-fidel
 |nombre y apellidos=Fidel Castro
 |apellidos y nombre=Castro, Fidel
@@ -22,4 +22,4 @@ Primer ministro de Cuba (1959-1976) y presidente (1976-2008). Comandante en jefe
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

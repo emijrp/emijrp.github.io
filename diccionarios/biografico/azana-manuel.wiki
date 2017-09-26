@@ -2,7 +2,7 @@
 
 <includeonly>=== Azaña, Manuel ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=azana-manuel
 |nombre y apellidos=Manuel Azaña
 |apellidos y nombre=Azaña, Manuel
@@ -24,4 +24,4 @@ Su casa natal en Alcalá de Henares que fue saqueada durante el franquismo y pos
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

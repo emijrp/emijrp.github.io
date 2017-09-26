@@ -1,6 +1,6 @@
 <noinclude>{{header|1=Etapa 3: Ávila}}</noinclude>
 
-{{avila-header}}
+{{:avila-header}}
 
 La '''provincia de Ávila''', limítrofe con la de Madrid (al igual que [[Toledo]] y [[Segovia]]), se encuentra en '''Castilla y León'''. Ávila es una ciudad cuyo '''centro histórico''' se encuentra dentro de un '''recinto amurallado''' de unos 3 km. Llegué a Ávila tras 1 hora y 30 minutos de trayecto aproximadamente, abordo de un tren media-distancia. Se trataba de un tren con destino [[Salamanca]] y que hacía parada en Ávila, entre otras, como El Escorial.
 
@@ -22,7 +22,7 @@ Callejeé un poco más y luego ya puse rumbo de vuelta hacia la estación.
 
 <!--{{galeria-etapa|1=|2=|3=|4=}}-->
 
-<noinclude>{{navbox-etapa|pre-wiki=segovia|pre-etapa=Etapa 2: Segovia|etapa=Etapa 3: Ávila|sig-wiki=guadalajara|sig-etapa=Etapa 4: Guadalajara}}</noinclude>
+<noinclude>{{:navbox-etapa|pre-wiki=segovia|pre-etapa=Etapa 2: Segovia|etapa=Etapa 3: Ávila|sig-wiki=guadalajara|sig-etapa=Etapa 4: Guadalajara}}</noinclude>
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>
 

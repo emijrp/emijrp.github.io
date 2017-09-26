@@ -2,7 +2,7 @@
 
 <includeonly>=== Kollontai, Alexandra ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=kollontai-alexandra
 |nombre y apellidos=Alexandra Kollontai
 |apellidos y nombre=Kollontai, Alexandra
@@ -20,4 +20,4 @@ Fue una destacada política comunista, defensora de los derechos de la mujer. Ko
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

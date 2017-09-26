@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=salamanca
 |etapa=Etapa 7: Salamanca
 |provincia=Salamanca

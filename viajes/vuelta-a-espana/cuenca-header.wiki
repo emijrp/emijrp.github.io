@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=cuenca
 |etapa=Etapa 6: Cuenca
 |provincia=Cuenca

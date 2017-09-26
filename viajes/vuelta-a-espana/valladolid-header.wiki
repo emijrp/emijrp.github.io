@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=valladolid
 |etapa=Etapa 12: Valladolid
 |provincia=Valladolid

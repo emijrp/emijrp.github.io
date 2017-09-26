@@ -1,2 +1,0 @@
-{{../headerleaflethtml|1={{{1}}}|2=../}}
-= {{{1}}} - [[../index|La web de emijrp]] =

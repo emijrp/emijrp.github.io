@@ -2,7 +2,7 @@
 
 <includeonly>=== Dimitrov, Georgi ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=dimitrov-georgi
 |nombre y apellidos=Georgi Dimitrov
 |apellidos y nombre=Dimitrov, Georgi
@@ -20,4 +20,4 @@ Secretario general de la Internacional Comunista entre 1934 y 1943.
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

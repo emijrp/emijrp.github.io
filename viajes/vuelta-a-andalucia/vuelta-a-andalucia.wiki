@@ -1,4 +1,4 @@
-{{header|1=Portada}}
+{{header|1=Vuelta a Andalucía}}
 
 Próximamente...
 
@@ -8,4 +8,4 @@ Santiponce, Estepona, Córdoba, Granada, Sevilla, Málaga
 
 -->
 
-{{../../footer}}
+{{footer}}

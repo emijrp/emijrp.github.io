@@ -2,7 +2,7 @@
 
 <includeonly>=== Morales, Evo ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=morales-evo
 |nombre y apellidos=Evo Morales
 |apellidos y nombre=Morales Evo
@@ -20,4 +20,4 @@ Evo es un político, sindicalista cocalero, activista y dirigente indígena ayma
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

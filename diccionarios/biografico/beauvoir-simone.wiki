@@ -2,7 +2,7 @@
 
 <includeonly>=== Beauvoir, Simone de ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=beauvoir-simone
 |nombre y apellidos=Simone de Beauvoir
 |apellidos y nombre=Beauvoir, Simone de
@@ -25,4 +25,4 @@ Es conocida sobre todo por su tratado de 1949 ''El segundo sexo'', un análisis 
 
 {{clear}}
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>

@@ -1,4 +1,4 @@
-{{header-etapa
+{{:header-etapa
 |wiki=madrid
 |etapa=Etapa 5: Madrid
 |provincia=Madrid

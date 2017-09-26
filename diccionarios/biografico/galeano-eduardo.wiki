@@ -2,7 +2,7 @@
 
 <includeonly>=== Galeano, Eduardo ===</includeonly>
 
-{{header-bio
+{{:header-bio
 |wiki=galeano-eduardo
 |nombre y apellidos=Eduardo Galeano
 |apellidos y nombre=Galeano, Eduardo
@@ -30,4 +30,4 @@ Protagonizó varias [http://www.encuentro.gov.ar/sitios/encuentro/programas/?tag
 * [https://www.youtube.com/results?search_query=%22la+vida+segun+galeano%22 La vida según Galeano] en YouTube
 * [https://www.youtube.com/watch?v=jUd_IMm-tFQ Galeano habla de su profunda amistad con Salvador Allende] en YouTube
 
-<noinclude>{{../../footer}}</noinclude>
+<noinclude>{{footer}}</noinclude>
