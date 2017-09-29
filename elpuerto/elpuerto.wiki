@@ -3,15 +3,20 @@ El '''Puerto de Menesteo''' o '''Gran Puerto de Santa María'''.
 
 == Historia ==
 
+{{expandir}}
 
 == Calles ==
 
 Resumen del significado de algunas de las calles de El Puerto, breves reseñas biográficas, etc.
 
-* Avenida de Antonio Fernández Sevilla: 
-* Avenida de Menesteo: 
-* Avenida del Monasterio: 
-* Avenida de la Bajamar: 
+* '''Avenida de Antonio Fernández Sevilla''': se encuentra situada entre la '''Plaza de la Noria''' y la '''Rotonda del Magisterio''' y está dedicada al pintor y restaurador portuense '''Juan Antonio Fernández Sevilla''' (1929-2000). Estudió en la Academia de Bellas Artes Santa Cecilia de El Puerto, en la Escuela Central de Artes y Oficios de Madrid y en el Instituto Central de Restauración de Roma. En 1975 fue nombrado Jefe de Restauración del Museo del Prado. Fue galardonado con numerosos premios de dibujo y pintura a lo largo de su vida. El cartel de la Feria de El Puerto de 1993 fue obra suya.<ref>[http://www.gentedelpuerto.com/2010/10/27/815-antonio-fernandez-sevilla-jefe-de-restauracion-del-museo-del-prado/ 815. ANTONIO FERNÁNDEZ SEVILLA. Jefe de Restauración del Museo del Prado.]</ref><ref>{{wikidata|1=Q41343362|2=Antonio Fernández Sevilla}}</ref>
+
+* '''Avenida de Menesteo''': 
+
+* '''Avenida del Monasterio''': 
+
+* '''Avenida de la Bajamar''': 
+
 * Calle Chanca: 
 * Calle Comedias: 
 * Calle Doctor Daniel Ortega: 
@@ -42,6 +47,7 @@ Resumen del significado de algunas de las calles de El Puerto, breves reseñas b
 
 == Mapas ==
 
+{{expandir}}
 
 == Medios ==
 
@@ -61,6 +67,11 @@ Resumen del significado de algunas de las calles de El Puerto, breves reseñas b
 == Bibliografía ==
 
 === Biblioteca de temas portuenses ===
+
+== Referencias ==
+
+{{reflist}}
+{{reflist-end}}
 
 == Enlaces externos ==
 
