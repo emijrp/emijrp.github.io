@@ -448,7 +448,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     <tr>
         <td>42</td>
         <td sorttable_customkey="La comuna de París"><i><a href="https://www.goodreads.com/book/show/24394004-la-comuna-de-par-s">La comuna de París</a></i></td>
-        <td><a href="https://www.goodreads.com/author/show/12247691.Vladimir_Ilich_Lenin_Karl_Marx_Friedrich_Engels">Engels, Vladimir Ilich Lenin,Ka</a></td>
+        <td><a href="https://www.goodreads.com/author/show/104630.Vladimir_Lenin">Lenin, Vladimir Ilyich</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788446031833">9788446031833</a></td>
         <td><a href="https://www.google.es/?gws_rd=ssl#q=La+comuna+de+París">Buscar</a></td>
         <!--<td>...</td>-->

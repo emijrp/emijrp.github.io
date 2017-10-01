@@ -448,7 +448,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>46</td>
         <td sorttable_customkey="Las aventuras de la abeja Maya (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film188246.html">Las aventuras de la abeja Maya</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Hiroshi+Saitô">Hiroshi Saitô</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Mitsuo+Kaminashi">Mitsuo Kaminashi</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Hiroshi+Saitô">Hiroshi Saitô</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Seiji+Endô">Seiji Endô</a></td>
         <td>1975</td>
         <td>Japón</td>
         <td>6</td>
@@ -772,7 +772,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>82</td>
         <td sorttable_customkey="Vigilados: Person of Interest (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film908540.html">Vigilados: Person of Interest</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jonathan+Nolan+(Creator)">Jonathan Nolan</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chris+Fisher">Chris Fisher</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jonathan+Nolan++(Creator)">Jonathan Nolan </a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Chris+Fisher">Chris Fisher</a></td>
         <td>2011</td>
         <td>Estados Unidos</td>
         <td>6</td>
