@@ -1,0 +1,1 @@
+[https://dialnet.unirioja.es/servlet/autor?codigo={{{1}}} {{{2}}}] en Dialnet
