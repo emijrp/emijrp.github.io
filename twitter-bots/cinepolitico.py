@@ -33,7 +33,11 @@ def main():
         time.sleep(1)
         faurl = 'https://www.filmaffinity.com/es/userlist.php?user_id=397713&list_id=1031&page=%d' % (page)
         print('Retrieving', faurl)
-        html = getURL(url=faurl)
+        html = ''
+        try:
+            html = getURL(url=faurl)
+        except:
+            pass
         if not html:
             break
         #<div class="mc-title"><a  href="/es/film499059.html" title="El capital">El capital</a> (2012) <img src="/imgs/countries/FR.jpg" alt="Francia" title="Francia"></div>

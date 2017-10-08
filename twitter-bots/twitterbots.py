@@ -21,6 +21,7 @@ except ImportError:             # Python 2.4 compatibility
     from md5 import new as md5
 import os
 import re
+import time
 import urllib
 import urllib.request
 
