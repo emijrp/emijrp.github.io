@@ -9,7 +9,7 @@ El '''Puerto de Menesteo''' o '''Gran Puerto de Santa María'''.
 == Calles ==
 {{youtube|id=0lm2Ll4jzCA|align=right}}
 
-Resumen del significado de algunas de las calles de El Puerto, breves reseñas biográficas, etc.
+Selección de algunas '''calles''' notables de El Puerto junto con el significado de sus nombres o breves reseñas biográficas acerca de las personas a las que fueron dedicadas.
 
 * '''Avenida de Antonio Fernández Sevilla''': se encuentra situada entre la '''Plaza de la Noria''' y la '''Rotonda del Magisterio''' y está dedicada al pintor y restaurador portuense '''Juan Antonio Fernández Sevilla''' (1929-2000). Estudió en la Academia de Bellas Artes Santa Cecilia de El Puerto, en la Escuela Central de Artes y Oficios de Madrid y en el Instituto Central de Restauración de Roma. En 1975 fue nombrado Jefe de Restauración del Museo del Prado. Fue galardonado con numerosos premios de dibujo y pintura a lo largo de su vida. El cartel de la Feria de El Puerto de 1993 fue obra suya.<ref>[http://www.gentedelpuerto.com/2010/10/27/815-antonio-fernandez-sevilla-jefe-de-restauracion-del-museo-del-prado/ 815. ANTONIO FERNÁNDEZ SEVILLA. Jefe de Restauración del Museo del Prado.]</ref><ref>{{wikidata|1=Q41343362|2=Antonio Fernández Sevilla}}</ref>
 
@@ -19,15 +19,25 @@ Resumen del significado de algunas de las calles de El Puerto, breves reseñas b
 
 * '''Avenida de la Bajamar''': 
 
+* '''Avenida del Doctor Marañón''': 
+
 * '''Avenida del Monasterio''': 
+
+* '''Calle Antonio Machado''': 
 
 * '''Calle Chanca''': 
 
 * '''Calle Comedias''': 
 
+* '''Calle Compositor Javier Caballero''': <ref>[http://www.gentedelpuerto.com/2015/01/11/2-350-francisco-javier-caballero-maldoqui-el-maestro-caballero/ 2.350. FRANCISCO JAVIER CABALLERO MALDOQUI. El maestro Caballero.]</ref>
+
 * '''Calle Doctor Daniel Ortega''': 
 
 * '''Calle Enrique Ochoa''': 
+
+* '''Calle Escritor Salvador Rueda''': 
+
+* '''Calle Escultor Antonio Acuña''': 
 
 * '''Calle Federico Rubio''': dedicada al médico y político '''Federico Rubio y Galí''' (1827-1902), apodado el "médico de los pobres". Estudió en la Facultad de Medicina de la Universidad de Cádiz, opositando para ser cirujano del Hospital de Sevilla. Con la llegada de la I República, el gobierno le nombraría embajador en Londres. Formó parte de la Real Academia Nacional de Medicina en la que ingresó con el discurso "Cómo deben prevenirse las hemorragias en los actos quirúrgicos" y además fue nombrado profesor honorario del Real Colegio de Cirujanos de Londres. Entre sus obras, además de temas médicos, figuran publicaciones acerca de Cádiz y memorias ([http://bdh.bne.es/bnesearch/Search.do?visor=&text=&field1val=%22Rubio+y+Gal%c3%ad%2c+Federico%22&showYearItems=&field1Op=AND&numfields=1&exact=on&textH=&advanced=true&field1=autor&completeText=&pageNumber=1&pageSize=30&language=es ver obras]).<ref>[https://www.ranm.es/academicos/academicos-de-numero-anteriores/936-1874-rubio-y-gali-federico.html 1874 - Rubio y Galí, Federico]</ref><ref>{{wikidata|1=Q5857841|2=Federico Rubio y Galí}}</ref>
 
@@ -37,15 +47,27 @@ Resumen del significado de algunas de las calles de El Puerto, breves reseñas b
 
 * '''Calle Gatona''': 
 
+* '''Calle Giner de los Ríos''': 
+
+* '''Calle José Cándido''':
+
 * '''Calle Luja''': 
 
+* '''Calle Maestro Manuel Peñalver''':
+
+* '''Calle Luis Mazzantini''': 
+
 * '''Calle Micaela Aramburu''': 
+
+* '''Calle Miguel del Pino''': 
 
 * '''Calle Pagador''': 
 
 * '''Calle Palacios''': 
 
 * '''Calle Pedro Muñoz Seca''': 
+
+* '''Calle Pintor Manolo Prieto''': 
 
 * '''Calle Pozos Dulces''': 
 
@@ -61,6 +83,8 @@ Resumen del significado de algunas de las calles de El Puerto, breves reseñas b
 
 * '''Plaza de Elías Ahúja''': 
 
+* '''Plaza de Enrique Bartolomé López-Somoza''':
+
 * '''Plaza de Juan de la Cosa''': 
 
 * '''Plaza de Juan Gavala''': 
@@ -75,8 +99,11 @@ Resumen del significado de algunas de las calles de El Puerto, breves reseñas b
 
 * '''Plaza del Polvorista''': 
 
-Calles renombradas:
-* 
+'''Calles renombradas''':
+
+* Plaza de la Tradición ahora es '''Plaza 14 de abril'''.<ref name="renombracalle1">[http://www.todoslosnombres.org/content/noticias/el-puerto-santa-maria-cadiz-la-plaza-la-tradicion-pasa-denominarse-plaza-14-abril La Plaza de la Tradición pasa a denominarse Plaza 14 de Abril]</ref>
+* Calle del Falangista Ángel Pérez Rodríguez ahora es '''Calle del [[#DanielOrtega|Doctor Daniel Ortega]]'''.<ref name="renombracalle1" />
+* Calle del Falangista Juan López Chorro ahora es '''Calle [[#FdezMoro|Manuel Fernández Moro]]'''.<ref name="renombracalle1" />
 
 == Edificios ==
 
@@ -122,7 +149,11 @@ Calles renombradas:
 
 Una lista no exhaustiva de personas represaliadas durante la Guerra Civil, la posguerra y el franquismo. Actualmente existen en la ciudad dos monumentos en memoria de los represaliados, uno es el Antiguo Penal de El Puerto convertido en Lugar de la Memoria Histórica de Andalucía y otro es un mural-monumento situado en el cementerio municipal.
 
+{{anchor|1=FdezMoro}}
 * '''Manuel Fernández Moro''': último alcalde republicado de El Puerto<ref>[https://web.archive.org/web/20160616111328/http://www.juntadeandalucia.es/export/drupaljda/libro_alcaldes_cadiz_volumen_ii.pdf La destrucción de la Democracia: Vida y muerte de los alcaldes del Frente Popular en la provincia de Cádiz (volúmen 2)]</ref>
+
+{{anchor|1=DanielOrtega}}
+* '''Daniel Ortega Martínez''': 
 
 === Investigadores ===
 
