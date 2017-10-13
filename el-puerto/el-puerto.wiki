@@ -16,13 +16,27 @@ El '''Puerto de Menesteo''' o '''Gran Puerto de Santa María'''.
 
 === Siglo XVIII ===
 
-* '''1779''': El 14 de febrero fallecen más de 100 personas durante la inauguración de un puente.
+* '''1755''': El '''terremoto de Lisboa''' del '''1 de noviembre''' se dejó sentir en El Puerto durante algunos minutos, produciendo numerosos desperfectos en casas particulares y edificios como la Iglesia Mayor Prioral, así como en la cárcel pública que hubo que derribarla. El posterior maremoto que llegó hasta las costas de la Bahía de Cádiz alrededor de una hora después, inundó las zonas próximas a la costa, provocando más daños a las construcciones y causando varias víctimas mortales: dos mujeres, un pescador en su barca, y una niña y un niño.<ref>[https://web.archive.org/web/20160305193242/http://www.ign.es/ign/resources/sismologia/publicaciones/EfectosEspanaterremotoLisboa.pdf Los efectos en España del terremoto de Lisboa (1 de noviembre de 1755)] (Página 535 y siguientes)</ref>
+
+* '''1779''': El '''14 de febrero''' fallecen más de 100 portuenses durante la '''inauguración de un puente''' de madera construido sobre el Guadalete, al desplomarse este por el peso de la multitud. En la Iglesia Mayor Prioral hay una lápida que recuerda a 111 víctimas. Tras las reparaciones, el puente volvería a abrirse el 25 de febrero.<ref>[http://www.diariodecadiz.es/opinion/articulos/catastrofe_0_488951321.html La catástrofe de 1779]</ref><ref>[http://www.gentedelpuerto.com/2015/02/15/2-384-el-hundimiento-del-puente-de-san-alejandro-hace-236-anos/ 2.384. EL HUNDIMIENTO DEL PUENTE DE SAN ALEJANDRO. Hace 236 años.]</ref>
 
 === Siglo XIX ===
 
+* '''1839''': Se desploma el '''1 de diciembre''' el puente de barcas de San Alejandro. Pasarían varios años hasta que se terminase de construir uno nuevo, esta vez colgante.<ref name="gentepuerto2322">[http://www.gentedelpuerto.com/2014/12/14/2-322-cuando-el-puente-colgante-se-hundio/ 2.322. CUANDO EL PUENTE COLGANTE SE HUNDIÓ]</ref>
+
+* '''1846''': Se inaugura el nuevo puente de San Alejandro el '''18 de enero''' de tipo colgante. Este nuevo puente se hundiría en 1877.<ref name="gentepuerto2322" />
+
+* '''1877''': El '''15 de mayo''' se hunde el puente colgante de San Alejandro.<ref name="gentepuerto2322" />
+
+* '''1884''': Se construye el tercer puente de San Alejandro, de hierro, diseñado por el ingeniero Emilio Iznardi. Este puente sería desmontado a finales de los años 1970 y en la actualidad todavía se conservan los pilares en medio del río.
+
 === Siglo XX ===
 
+* '''1978''': Fallece una persona el '''7 de mayo''' al caerse por un agujero del puente de San Alejandro.
+
 === Siglo XXI ===
+
+* '''2012''': Se inaugura el '''14 de agosto''' la pasarela peatonal sobre el Guadalete, con 104 metros de longitud, dedicada a José Fernández Sanjuan más conocido como "Pepe el del Vapor".<ref>[http://www.diariodecadiz.es/elpuerto/pasarela-Guadalete-inaugura-proximo-martes_0_614639066.html La pasarela sobre el río Guadalete se inaugura por fin este próximo martes]</ref>
 
 == Calles ==
 
@@ -290,5 +304,6 @@ Cosas a añadir:
 * Programas de radiopuerto de historia
 * Barrios: juncal, alto, crevillet, ...
 * Yacimientos: El manantial, La Florida, El Aculadero, Arroyo Campin y Campin bajo, La Puntilla.
+* Puente romano, puente San Cristóbal, muelle de estacas (muelle de madera)
 -->
 {{footer}}
