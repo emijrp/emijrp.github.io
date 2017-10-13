@@ -10,7 +10,7 @@
     {{button-blue|1=comunismo/comunismo.html|2=Comunismo}}
     <!--{{button-grey|1=Deporte}}-->
     {{button-blue|1=diccionarios/diccionarios.html|2=Diccionarios}}
-    {{button-blue|1=elpuerto/elpuerto.html|2=El Puerto}}
+    {{button-blue|1=el-puerto/el-puerto.html|2=El Puerto}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
     {{button-blue|1=feminismo/feminismo.html|2=Feminismo}}
     {{button-blue|1=fotografia/fotografia.html|2=Fotografía}}
@@ -22,7 +22,7 @@
     <!--{{button-grey|1=Informática}}-->
     {{button-blue|1=wikis/locapedias.html|2=Locapedias}}
     <!--{{button-grey|1=Mecánica}}-->
-    {{button-blue|1=memoria.html|2=Memoria Histórica}}
+    {{button-blue|1=memoria-historica/memoria-historica.html|2=Memoria Histórica}}
     {{button-blue|1=micronaciones/micronaciones.html|2=Micronaciones}}
     {{button-blue|1=mirrors.html|2=Mirrors}}
     {{button-blue|1=musica.html|2=Música}}
