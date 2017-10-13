@@ -2,7 +2,7 @@
     {{button-blue|1=actividad/actividad.html|2=Actividad}}
     {{button-blue|1=aprender.html|2=Aprender}}
     {{button-blue|1=arte.html|2=Arte}}
-    {{button-blue|1=astronomia.html|2=Astronomía}}
+    {{button-blue|1=astronomia/astronomia.html|2=Astronomía}}
     {{button-blue|1=audio.html|2=Audio}}
     {{button-blue|1=biblioteca.html|2=Biblioteca}}
     {{button-blue|1=cine/cine.html|2=Cine}}
