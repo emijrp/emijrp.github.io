@@ -1,10 +1,34 @@
 {{header|1=El Puerto de Santa María}}
 {{youtube|id=Fwm5y8V8jNY|align=right}}
-El '''Puerto de Menesteo''' o '''Gran Puerto de Santa María'''.
+El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Gran Puerto de Santa María''' o '''Ciudad de los Cien Palacios''' son las denominaciones que ha ostentado la ciudad de '''El Puerto de Santa María''' a lo largo de su historia.
 
 == Historia ==
 
+=== Prehistoria ===
+
+* '''III Milenio adC''': Poblado de la Dehesa.
+
+=== Antes de Cristo ===
+
+* '''1200-1100 adC''': Al finalizar la Guerra de Troya, el rey ateniense '''Menesteo''' al ver que le habían arrebatado el trono en su asusencia, navegó sin rumbo, llegando a la desembocadura del Guadalete Allí se estableció, fundando un asentamiento al que puso su nombre, '''Puerto de Menesteo'''. Dicho puerto se cree que se situaba en las proximidades de lo que hoy es El Puerto de Santa María, por lo que habría sido fundada hace 3200 años.
+
+* '''800-200 adC''': Se establece un poblado fenicio a los pies de la Sierra de San Cristóbal, en las inmediaciones donde hoy se encuentra el Castillo de Doña Blanca, que permanecería ocupado hasta el siglo III adC.<ref>[http://www.lavozdigital.es/jerez/v/20120331/opinion/poblado-fenicio-castillo-dona-20120331.html El poblado fenicio del Castillo de Doña Blanca]</ref>
+
+* '''19 adC''': Lucio Cornelio Balbo el Menor ordena '''desviar el curso final del Guadalete''', que por aquel entonces desembocaba donde actualmente transcurre el río San Pedro. Esta desembocadura artificial realizada a pico y pala denominada '''Canal de Balbo''' se mantiene hasta hoy.<ref>[http://www.diariodecadiz.es/elpuerto/desembocadura-artificial_0_598140676.html Una desembocadura artificial]</ref> La ciudad entonces floreció entorno a esa zona, donde sería construido el '''Portus Gaditanus''', uno de los puertos más importantes. La calle principal de la ciudad, lo que hoy sería la Calle Larga, discurría en paralelo al río.
+
+=== Primer milenio ===
+
+* '''711''': Con la derrota de los visigodos en la '''Batalla del Guadalete''', que aunque se llama así quizás tuviera lugar en La Janda o Medina-Sidonia, comienza la conquista musulmana de la Península Ibérica.
+
+=== Siglo XI ===
+
+=== Siglo XII ===
+
 === Siglo XIII ===
+
+* '''1260''': Alfonso X El Sabio reconquista la ciudad que pasó a llamarse '''Santa María del Puerto'''.
+* '''1268''': Libro del Repartimiento.
+* '''1281''': Carta-Puebla.
 
 === Siglo XIV ===
 
@@ -225,7 +249,7 @@ Selección de '''investigadores''' de temas portuenses.
 === Otros ===
 
 * '''Rafael Gómez Ojeda'''
-* '''Antonio Muñoz Cuenca "Muñoli"'''.
+* '''Antonio Muñoz Cuenca "Muñoli"'''.<ref>[http://www.gentedelpuerto.com/2008/10/03/69-munoli-el-portuensismo-erudito-y-su-amor-a-el-puerto/ 69. MUÑOLI. El portuensismo erudito y su amor a El Puerto.]</ref>
 
 == Bibliografía ==
 
@@ -293,6 +317,7 @@ Selección de '''investigadores''' de temas portuenses.
 === Oficial ===
 
 * [http://www.elpuertodesantamaria.es Web del Ayuntamiento]
+* [http://bibliotecapublicapsm.blogspot.com Biblioteca Pública Municipal] ([https://www.juntadeandalucia.es/culturaydeporte/rbpa/abnetcl.cgi?.&SUBC=CA/CA02/208 catálogo])
 * [http://www.turismoelpuerto.com Portal de Turismo del Ayuntamiento]
 
 === Vídeos ===
@@ -307,6 +332,7 @@ Selección de '''investigadores''' de temas portuenses.
 * {{wikipedia|1=es|2=El_Puerto_de_Santa_María}}
 * {{wikipedia|1=en|2=El_Puerto_de_Santa_María}}
 * {{wikipedia|1=es|2=Categoría:El_Puerto_de_Santa_María}}
+* [https://archive.org/search.php?query=el%20puerto%20de%20santa%20maria Búsqueda "El Puerto de Santa María"] en Internet Archive
 
 <!--
 Cosas a añadir:
@@ -316,5 +342,10 @@ Cosas a añadir:
 * Barrios: juncal, alto, crevillet, ...
 * Yacimientos: El manantial, La Florida, El Aculadero, Arroyo Campin y Campin bajo, La Puntilla.
 * Puente romano, puente San Cristóbal, muelle de estacas (muelle de madera)
+* barco de vapor "el correa"
+* https://archive.org/details/CASGA_380212_014
+* https://archive.org/details/A10916601
+* teatro principal incendio
+* incendio archivo monasterio
 -->
 {{footer}}
