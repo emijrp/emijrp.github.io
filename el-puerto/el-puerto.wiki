@@ -1,10 +1,16 @@
 {{header|1=El Puerto de Santa María}}
 {{youtube|id=Fwm5y8V8jNY|align=right}}
-El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Gran Puerto de Santa María''' o '''Ciudad de los Cien Palacios''' son las denominaciones que ha ostentado la ciudad de '''El Puerto de Santa María''' a lo largo de su historia.
+El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Amaría Alcanter''', '''Puerto de las Salinas''', '''Gran Puerto de Santa María''' o '''Ciudad de los Cien Palacios''' son las denominaciones que ha ostentado la ciudad de '''El Puerto de Santa María''' a lo largo de su historia.
 
 == Historia ==
 
 === Prehistoria ===
+
+<!--
+http://pequehistoriapuerto.blogspot.com.es/p/la-prehistoria.html
+-->
+
+* '''500.000 adC''': Yacimiento de El Aculadero.
 
 * '''III Milenio adC''': Poblado de la Dehesa.
 
@@ -18,7 +24,7 @@ El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Gran Puerto de Santa Mar
 
 === Primer milenio ===
 
-* '''711''': Con la derrota de los visigodos en la '''Batalla del Guadalete''', que aunque se llama así quizás tuviera lugar en La Janda o Medina-Sidonia, comienza la conquista musulmana de la Península Ibérica.
+* '''711''': Con la derrota de los visigodos en la '''Batalla del Guadalete''', que aunque se llama tradicionalmente así quizás tuviera lugar en La Janda o Medina-Sidonia, comienza la conquista musulmana de la Península Ibérica. El Puerto recibiría el nombre árabe de ''Amaría Alcanter'', ''Alcanate'' o ''Alcanatif'', que algunos autores traducen como '''Puerto de las Salinas'''.
 
 === Siglo XI ===
 
@@ -26,19 +32,43 @@ El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Gran Puerto de Santa Mar
 
 === Siglo XIII ===
 
-* '''1260''': Alfonso X El Sabio reconquista la ciudad que pasó a llamarse '''Santa María del Puerto'''.
+* '''1260''': Alfonso X El Sabio reconquista la ciudad.
+
 * '''1268''': Libro del Repartimiento.
-* '''1281''': Carta-Puebla.
+
+* '''1281''': El '''16 de diciembre''' el rey Alfonso X otorga la '''carta-puebla'''. Esto significa que la localidad pasa de aldea musulmana tributaria del reino de Castilla a '''ciudad de realengo''', constituyendo concejo propio y siendo denominada oficialmente '''Gran Puerto de Santa María'''.<ref name="elpuertohistoria">[https://web.archive.org/web/20171014223633/http://www.elpuertodesantamaria.es/contenido/399/13298/historia Historia del municipio y del Ayuntamiento de El Puerto]</ref>
+
+* '''1284''': De ciudad de realengo pasa a '''señorío''', tras ser vendida por Sancho IV al comerciante genovés Benedetto Zaccaria.<ref name="elpuertohistoria" />
 
 === Siglo XIV ===
 
+* '''1368''': El Puerto se integra en la casa de '''Medinaceli'''.
+
 === Siglo XV ===
+<!--
+
+http://www.cadizturismo.com/destinos/provincias/cadiz/municipios/el-puerto-de-santa-maria/historia/
+
+-->
+* '''1480-1491''': '''Cristóbal Colón''' se hospeda en la ciudad y recibe aportaciones para su '''primer viaje''', en el que llegaría a América.
+
+* '''1493''': '''Cristóbal Colón''' pasa algún tiempo en El Puerto mientras prepara su '''segundo viaje'''.
 
 === Siglo XVI ===
 
+* '''1500''': '''Juan de la Cosa''' realiza en la ciudad el '''primer mapamundi''' que incluye América.
+
 === Siglo XVII ===
 
+* Base de las Galeras Reales.
+
 === Siglo XVIII ===
+<!--
+
+https://cadizpedia.wikanda.es/wiki/El_Puerto_de_Santa_Mar%C3%ADa
+
+-->
+* '''1729-30''': La ciudad es residencia oficial veraniega de Felipe V.
 
 * '''1755''': El '''terremoto de Lisboa''' del '''1 de noviembre''' se dejó sentir en El Puerto durante algunos minutos, produciendo numerosos desperfectos en casas particulares y edificios como la Iglesia Mayor Prioral, así como en la cárcel pública que hubo que derribarla. El posterior maremoto que llegó hasta las costas de la Bahía de Cádiz alrededor de una hora después, inundó las zonas próximas a la costa, provocando más daños a las construcciones y causando varias víctimas mortales: dos mujeres, un pescador en su barca, y una niña y un niño.<ref>[https://web.archive.org/web/20160305193242/http://www.ign.es/ign/resources/sismologia/publicaciones/EfectosEspanaterremotoLisboa.pdf Los efectos en España del terremoto de Lisboa (1 de noviembre de 1755)] (Página 535 y siguientes)</ref>
 
@@ -214,6 +244,17 @@ Selección de algunas '''calles''' notables de El Puerto junto con el significad
 
 == Personalidades ==
 
+=== Alcaldes ===
+
+* Antonio Álvarez Herrera (1979-1983). Partido Comunista de Andalucía.
+* Rafael Gómez Ojeda (1983-1987). Partido Comunista de Andalucía.
+* Juan Manuel Torres (1987-1991). PSOE.
+* Hernán Díaz Cortés (1991-2006). Independientes Portuenses.
+* Fernando Gago García (2006-2007). Independientes Portuenses.
+* Enrique Moresco (2007-2014). PP.
+* Alfonso Candón (2014-2015). PP.
+* David de la Encina (2015-Presente). PSOE.
+
 === Artistas ===
 
 {{anchor|1=Alberti}}
@@ -317,6 +358,7 @@ Selección de '''investigadores''' de temas portuenses.
 === Oficial ===
 
 * [http://www.elpuertodesantamaria.es Web del Ayuntamiento]
+* [http://www.elpuertodesantamaria.es/index.php?art_id=12700 Hijos predilectos y adoptivos de El Puerto]
 * [http://bibliotecapublicapsm.blogspot.com Biblioteca Pública Municipal] ([https://www.juntadeandalucia.es/culturaydeporte/rbpa/abnetcl.cgi?.&SUBC=CA/CA02/208 catálogo])
 * [http://www.turismoelpuerto.com Portal de Turismo del Ayuntamiento]
 
