@@ -1,12 +1,32 @@
 {{header|1=Nostalgia}}
 
+Cosas que forman parte de mi pasado y que cuando las recuerdo me producen '''nostalgia'''.
+
+== Genio 2000 ==
+[[File:genio2000.jpg|thumb|right|200px|Genio 2000]]
+El '''Genio 2000''' era un ordenador de juguete educativo con apariencia de portátil fabricado por VTech. Contaba con multitud de programas para aprender sobre todas las áreas del conocimiento.<ref>[https://es.wikipedia.org/wiki/Genio_2000 Genio 2000] en Wikipedia</ref><ref>[http://museo8bits.com/wiki/index.php?title=Genio_2000 Genio 2000] en Museo8bits</ref>
+
+La pantalla mostraba texto únicamente, hasta cuatro líneas. El Genio 2000 era ampliable con cartuchos con otras actividades o más memoria. Funcionaba con pilas o con adaptador de corriente y tenía un puerto paralelo para conectarle una impresora.
+
+Estas son las actividades con las que contaba:
+
+* '''Juegos de palabras''': Busca la letra, Recuerda la palabra, Plurales, Verbos, Revoltijo de letras, La palabra misteriosa, Derivados, Sinónimos, Antónimos, La letra loca, La nueva palabra, Trueque de letras, Alfapuzzle, Revoltijo, Acertijo gramatical.
+* '''Matemáticas''': Suma, Resta, Multiplicación, División, Fracciones/Decimales, Fracciones/Porcentajes, Ratios, Álgebra, Repaso a las matemáticas, El signo perdido.
+* '''Trivial''': Ciencias, Cine y televisión, Historia y geografía, General, ¿Qué soy?
+* '''Juegos y funciones''': El número relámpago, BASIC, Imprimir texto, Calculadora, Cartuchos adicionales.
+
+Se podían jugar en cuatro niveles de dificultad y con hasta dos jugadores.
+
+Este fue mi primer "ordenador". Luego vendría el Amstrad PC-1512.
+
+== Otros ==
+
 <table align=right>
 <tr><td>[[File:beakman.jpg|200px|El mundo de Beakman, uno de los programas más educativos que había en la televisión.]]</td></tr>
 <tr><td>[[File:polo-sur.jpg|200px|Seguidores incondicionales de Beakman en el Polo Sur.]]</td></tr>
 <!--<tr><td>[[File:alley-cat.png|200px|Alley Cat es un juego antiguo para MS-DOS de los años 80, en el que eres un gato que come ratones, huyes de perros, etc, vaya lo típico que hace un gato.]]</td></tr>-->
 </table>
 
-* [https://es.wikipedia.org/wiki/Genio_2000 Genio 2000]: mi primer ordenador de juguete
 * [https://www.youtube.com/watch?v=42JFRBlUpIA Amstrad PC-1512]: mi primer ordenador de verdad
 * El chavo del 8: serie mexicana
 * El mundo de Beakman: programa educativo sobre ciencia
@@ -22,5 +42,10 @@
 * [https://www.youtube.com/watch?v=uPhWOjwLnHk El Juego de la Oca]
 * [https://www.youtube.com/watch?v=cVmqsw7HhP0 La Banda del Sur]
 * Series: Doraemon, Los Fruitis, Los Pitufos, Los Supersónicos, Dinosaurios, 
+
+== Referencias ==
+
+{{reflist}}
+{{reflist-end}}
 
 {{footer}}
