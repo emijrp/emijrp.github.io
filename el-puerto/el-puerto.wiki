@@ -1,5 +1,5 @@
-{{header|1=El Puerto de Santa María}}
-{{youtube|id=Fwm5y8V8jNY|align=right}}
+{{headerleaflet|1=El Puerto de Santa María}}
+<!--{{youtube|id=Fwm5y8V8jNY|align=right}}-->
 El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Amaría Alcanter''', '''Puerto de las Salinas''', '''Gran Puerto de Santa María''' o '''Ciudad de los Cien Palacios''' son las denominaciones que ha ostentado la ciudad de '''El Puerto de Santa María''' a lo largo de su historia.
 
 == Historia ==
@@ -230,11 +230,113 @@ Selección de algunas '''calles''' notables de El Puerto junto con el significad
 
 == Mapas ==
 
-{{expandir}}
 <!--
 * dibujo de Anton van den Wyngaerde
 * cartografía en la expo del monasterio
 -->
+
+Puntos de interés en El Puerto.
+
+<div id="map" style="float: center;width: 100%;height: 500px;"></div>
+
+<script type="text/javascript">
+    // http://leafletjs.com/examples/custom-icons.html
+    
+    var places = [
+        ["Castillo de San Marcos", 36.596481, -6.226729], 
+        ["Iglesia Mayor Prioral", 36.599849, -6.228824], 
+        ["Playa de la Puntilla", 36.585829, -6.239376], 
+        ["Plaza de Toros", 36.596864, -6.232907], 
+        
+        ["Fuente de las Galeras Reales", 36.59745, -6.22383], 
+        ["Playa de la Muralla", 36.581091, -6.263001], 
+        ["Murallas de Santa Catalina", 36.58072, -6.264074], 
+        ["Restos de la Torre de Santa Catalina", 36.579956, -6.265635], 
+        ["Fuerte de Santa Catalina", 36.580156, -6.265262], 
+        ["Casas de colores junto a la Playa de la Muralla", 36.580096, -6.260694], 
+        ["Espigón", 36.572423, -6.249118], 
+        ["Playa de Valdelagrana", 36.577007, -6.22663], 
+        ["Río Guadalete", 36.600266, -6.217661], 
+        ["Desembocadura del Guadalete", 36.583589, -6.235857], 
+        ["Terminal marítima del Catamarán a Cádiz", 36.593694, -6.226802], 
+        ["Edificio San Luis Gonzaga", 36.598647, -6.233068], 
+        ["Colegio San Luis Gonzaga", 36.598906, -6.233937], 
+        
+        ["Capilla de la Aurora", 36.599737, -6.229382], 
+        ["Reloj de Sol en la esquina Cruces con San Sebastián", 36.600275, -6.230627], 
+        ["Plaza de España", 36.599422, -6.228744], 
+        ["Museo Municipal", 36.59919, -6.228702], 
+        ["Convento del Espíritu Santo", 36.6022, -6.220499], 
+        
+        ["Estación de tren", 36.603949, -6.217972], 
+        ["Monasterio de la Victoria", 36.605671, -6.217462], 
+        ["Yacimiento arqueológico de Doña Blanca", 36.627901, -6.160519], 
+        ["Torre de Doña Blanca", 36.627075, -6.161292], 
+        ["Plaza del Castillo", 36.596692, -6.226432], 
+        ["Palacio de Araníbar", 36.596451, -6.226142], 
+        ["Bajada del Castillo", 36.596317, -6.226249], 
+        ["Antigua Lonja", 36.595964, -6.226062], 
+        ["Parque Calderón", 36.597984, -6.22391], 
+        ["Iglesia de San Francisco", 36.598953, -6.233282], 
+        ["Plaza del Polvorista", 36.595019, -6.227362], 
+        ["Palacio Reinoso Mendoza", 36.594685, -6.227711], 
+        ["Teatro Pedro Muñoz Seca", 36.595305, -6.227966], 
+        ["Muelle del Vapor", 36.597196, -6.223771], 
+        ["Playa del Aculadero", 36.583822, -6.249644], 
+        ["Playa de la Calita", 36.582685, -6.267813], 
+        ["Batería de Fuerte Ciudad", 36.583591, -6.268969], 
+        ["Puente sobre río San Pedro", 36.576283, -6.210022], 
+        ["Río San Pedro", 36.56715, -6.211824], 
+        ["Casa Vizarrón (casa de las cadenas)", 36.594917, -6.226839], 
+        ["Casa de Roque Aguado", 36.594629, -6.227102], 
+        ["Palacio del Almirante Valdivieso", 36.595981, -6.227038], 
+        
+        ["Plaza del Ave María", 36.598389, -6.232751], 
+        ["Palacio de Purullena", 36.59931, -6.231657], 
+        ["Plaza de Isaac Peral", 36.600208, -6.225048], 
+        ["Monumento a Pedro Muñoz Seca", 36.600303, -6.22493], 
+        ["Monumento a Rafael Alberti", 36.594869, -6.22727], 
+        ["Monumento a José Luis Tejada", 36.58587, -6.234741], 
+        ["Monumento a Paquirri", 36.597179, -6.232118], 
+        ["Escultura del toro", 36.596313, -6.233373], 
+        ["Plaza de la Herrería", 36.598875, -6.224109], 
+        ["Fuente de la Cárcel", 36.599293, -6.224104], 
+        ["Iglesia Concepcionistas", 36.597054, -6.2278], 
+        ["Centro Cultural Alfonso X El Sabio", 36.599091, -6.22545], 
+        ["Antiguo Posito / Mapa Juan de la Cosa", 36.596649, -6.226968], 
+        ["Iglesia de las Esclavas", 36.598191, -6.225525], 
+        ["Casa Museo Pedro Muñoz Seca", 36.597325, -6.228159], 
+        ["Museo Fundación Rafael Alberti", 36.598096, -6.228341], 
+        ["Plaza de Abastos", 36.600533, -6.226818], 
+        ["Casa de Los Leones", 36.60006, -6.226872], 
+        ["Paseo de la Victoria", 36.605559, -6.219147], 
+        ["Parroquia de San Joaquín", 36.602642, -6.223661], 
+        ["Glorieta de las Américas", 36.594082, -6.222339], 
+        ["Reloj de sol", 36.585834, -6.244236], 
+        ["Paseo marítimo", 36.584761, -6.246913], 
+        ["Castillito", 36.585771, -6.24367], 
+        ["Playa de El Buzo", 36.589818, -6.271005], 
+        ["Piedras para mariscar en bajamar", 36.579368, -6.266477], 
+        ["Piedras para mariscar en bajamar", 36.583495, -6.248024], 
+    ];
+
+    var map = L.map('map').setView([36.596481, -6.226729], 13);
+    mapLink = 
+        '<a href="https://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 20,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b>')
+            .addTo(map);
+    }
+
+</script>
 
 == Medios ==
 
