@@ -29,7 +29,7 @@
     {{button-blue|1=naturaleza.html|2=Naturaleza}}
     {{button-blue|1=nostalgia.html|2=Nostalgia}}
     {{button-blue|1=poesia/poesia.html|2=Poesía}}
-    {{button-blue|1=preservacion-digital.html|2=Preservación digital}}
+    {{button-blue|1=preservacion-digital/preservacion-digital.html|2=Preservación digital}}
     {{button-blue|1=publicaciones/publicaciones.html|2=Publicaciones}}
     {{button-blue|1=snail-mail.html|2=Snail mail}}
     {{button-blue|1=software.html|2=Software}}
