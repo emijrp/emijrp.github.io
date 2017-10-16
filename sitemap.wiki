@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>389819</td>
+        <td>393283</td>
     </tr>
 
     <tr>
@@ -792,7 +792,7 @@
         <td>112</td>
         <td><a href="el-puerto/el-puerto.html">el-puerto/el-puerto.html</a></td>
         <td><a href="el-puerto/el-puerto.wiki">el-puerto/el-puerto.wiki</a></td>
-        <td>20723</td>
+        <td>28084</td>
     </tr>
 
     <tr>
@@ -918,7 +918,7 @@
         <td>130</td>
         <td><a href="memoria-historica/memoria-historica.html">memoria-historica/memoria-historica.html</a></td>
         <td><a href="memoria-historica/memoria-historica.wiki">memoria-historica/memoria-historica.wiki</a></td>
-        <td>10368</td>
+        <td>10807</td>
     </tr>
 
     <tr>
