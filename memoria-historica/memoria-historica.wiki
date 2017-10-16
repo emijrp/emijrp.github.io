@@ -1,6 +1,6 @@
 {{header|1=Memoria Histórica}}
 
-Para que su rostro y su nombre no se borren de la historia.
+Sección dedicada a la '''Memoria Histórica''', a todas aquellas personas que lucharon contra el fascismo, por la república, por la democracia, en definitiva por un mundo mejor. Para que su rostro y su nombre no se borren de la historia.
 
 == 46º Regimiento "Taman" ==
 
@@ -244,15 +244,34 @@ Más información:
 * [http://contenidosdigitales.uned.es/fez/view/intecca:VideoCMAV-18246 Memorias de lucha: Las brujas de la noche].
 
 == Turismo Rojo ==
-{{vt|1=turismo-rojo|2=Turismo Rojo}}
+{{vt|1=../viajes/turismo-rojo|2=Turismo Rojo}}
+
+Se trata de un turismo enfocado a lugares, monumentos, calles y otros puntos de interés que tengan que ver con la memoria histórica, el socialismo/comunismo y el movimiento obrero. La información disponible es escasa y muy dispersa.
 
 == Víctimas del franquismo ==
-{{vt|1=cine/documentales#Memoria Histórica|2=Documentales#Memoria Histórica}}
+{{ap|1=../cine/documentales#Memoria Histórica|2=Documentales#Memoria Histórica}}
 
 * [[File:fusilados-cementerio-este-iu-2007.pdf|Personas fusiladas por el franquismo en el Cementerio del Este de Madrid]]
 
 === Las Trece Rosas ===
 
-Los nombres de las 13 mujeres (más una): [https://15mpedia.org/wiki/Carmen_Barrero_Aguado Carmen Barrero Aguado], [https://15mpedia.org/wiki/Martina_Barroso_Garc%C3%ADa Martina Barroso García], [https://15mpedia.org/wiki/Blanca_Brisac_V%C3%A1zquez Blanca Brisac Vázquez], [https://15mpedia.org/wiki/Pilar_Bueno_Ib%C3%A1%C3%B1ez Pilar Bueno Ibáñez], [https://15mpedia.org/wiki/Julia_Conesa_Conesa Julia Conesa Conesa], [https://15mpedia.org/wiki/Avelina_Garc%C3%ADa_Casillas Avelina García Casillas], [https://15mpedia.org/wiki/Elena_Gil_Olaya Elena Gil Olaya], [https://15mpedia.org/wiki/Virtudes_Gonz%C3%A1lez_Garc%C3%ADa Virtudes González García], [https://15mpedia.org/wiki/Ana_L%C3%B3pez_Gallego Ana López Gallego], [https://15mpedia.org/wiki/Joaquina_L%C3%B3pez_Laffite Joaquina López Laffite], [https://15mpedia.org/wiki/Dionisia_Manzanero_Salas Dionisia Manzanero Salas], [https://15mpedia.org/wiki/Victoria_Mu%C3%B1oz_Garc%C3%ADa Victoria Muñoz García], [https://15mpedia.org/wiki/Luisa_Rodr%C3%ADguez_de_la_Fuente Luisa Rodríguez de la Fuente], [https://15mpedia.org/wiki/Antonia_Torre_Yela Antonia Torre Yela] ([https://secure.findagrave.com/cgi-bin/fg.cgi?page=vcsr&GSvcid=627741 Cementerio virtual] en Find A Grave).
+Los nombres de las 13 mujeres (más una):
+
+# [https://15mpedia.org/wiki/Carmen_Barrero_Aguado Carmen Barrero Aguado]
+# [https://15mpedia.org/wiki/Martina_Barroso_Garc%C3%ADa Martina Barroso García]
+# [https://15mpedia.org/wiki/Blanca_Brisac_V%C3%A1zquez Blanca Brisac Vázquez]
+# [https://15mpedia.org/wiki/Pilar_Bueno_Ib%C3%A1%C3%B1ez Pilar Bueno Ibáñez]
+# [https://15mpedia.org/wiki/Julia_Conesa_Conesa Julia Conesa Conesa]
+# [https://15mpedia.org/wiki/Avelina_Garc%C3%ADa_Casillas Avelina García Casillas]
+# [https://15mpedia.org/wiki/Elena_Gil_Olaya Elena Gil Olaya]
+# [https://15mpedia.org/wiki/Virtudes_Gonz%C3%A1lez_Garc%C3%ADa Virtudes González García]
+# [https://15mpedia.org/wiki/Ana_L%C3%B3pez_Gallego Ana López Gallego]
+# [https://15mpedia.org/wiki/Joaquina_L%C3%B3pez_Laffite Joaquina López Laffite]
+# [https://15mpedia.org/wiki/Dionisia_Manzanero_Salas Dionisia Manzanero Salas]
+# [https://15mpedia.org/wiki/Victoria_Mu%C3%B1oz_Garc%C3%ADa Victoria Muñoz García]
+# [https://15mpedia.org/wiki/Luisa_Rodr%C3%ADguez_de_la_Fuente Luisa Rodríguez de la Fuente]
+# [https://15mpedia.org/wiki/Antonia_Torre_Yela Antonia Torre Yela]
+
+[https://secure.findagrave.com/cgi-bin/fg.cgi?page=vcsr&GSvcid=627741 Cementerio virtual] en Find A Grave.
 
 {{footer}}
