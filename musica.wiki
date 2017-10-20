@@ -6,8 +6,25 @@ Suelo escuchar principalmente '''música libre''', es decir, aquellas canciones 
 
 == Selección ==
 
+Una selección no exhaustiva de grandes obras.
+
+{{div col 3}}
+
 '''Bandas sonoras'''
+
+* [https://www.youtube.com/watch?v=JYMySrHL0Fo Braveheart]
+* [https://www.youtube.com/watch?v=FcOt6mfjxeA Forrest Gump] (Alan Silvestri)
+* [https://www.youtube.com/watch?v=RxabLA7UQ9k Inception] (Hans Zimmer)
+* [https://www.youtube.com/watch?v=D8zlUUrFK-M Jurassic Park] (John Williams)
+* [https://www.youtube.com/watch?v=fMoFmICrISE Náufrago] (Alan Silvestri)
 * [https://www.youtube.com/watch?v=0P47yvI7SWM The Pacific] (Hans Zimmer)
+
+'''Cantautor'''
+
+* [https://www.youtube.com/watch?v=-xqySMMXKRM Ardió mi memoria] (Manolo García)
+* [https://www.youtube.com/watch?v=wyvjI9X67gQ Saldremos a la lluvia] (Manolo García)
+* [https://www.youtube.com/watch?v=NLezigoDTNI Si te vienes conmigo] (Manolo García)
+* [https://www.youtube.com/watch?v=uwt6UpTnSIc Sin que sepas de mí] (Manolo García)
 
 '''Clásica'''
 
@@ -15,11 +32,34 @@ Suelo escuchar principalmente '''música libre''', es decir, aquellas canciones 
 
 '''Himnos'''
 
+* [https://www.youtube.com/watch?v=WFUovewipxo República Democrática Alemana]
+* [https://www.youtube.com/watch?v=CH3Vexu8tlU República Popular Democrática de Corea]
+* [https://www.youtube.com/watch?v=OMxRX8zWlnQ Unión Soviética] ([https://www.youtube.com/watch?v=TFS316SzGFQ otra versión])
+
+'''Poemas'''
+
+* [https://www.youtube.com/watch?v=UtxqUeoTjOs Hazme caso] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=q5CVCKGTOyc Lejos de ti] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=vJ8ThxfAqG8 Mi abrigo] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=v7J4BcAYUYY Sin señales] (Pablo Hasél)
+
+'''Pop'''
+
+'''Rap'''
+
+* [https://www.youtube.com/watch?v=eakiePMbIBU Marxismo-Leninismo] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=Fx2_JXVY0dU Ostalgie] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=9rJykHwCRw4 Perdidos en el infinito] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=tW40lQ51LH8 Perdón, me equivoqué de planeta] (Pablo Hasél)
+* [https://www.youtube.com/watch?v=8727zorgS5M Resiste Venezuela] (Pablo Hasél)
 
 '''Otras'''
 
+* [https://www.youtube.com/watch?v=QMKHFZEY2VU Eternal flame] (Audiomachine)
 * [https://www.youtube.com/watch?v=RCMXO9sBIcU Everdream] (Epic Soul Factory)
 * [https://www.youtube.com/watch?v=3Kf-FlECN7M Suns and stars] (Really Slow Motion)
+
+{{div col end}}
 
 == Música por país ==
 
@@ -56,17 +96,21 @@ Cantautor español con letras comprometidas con algunas causas sociales, como la
 
 * [https://www.youtube.com/playlist?list=PLSNLaAwR6E8xOTQm4zjEyg2g7wr4V1hSS Lista de reproducción con algunas canciones]
 
+=== Lucía Socam ===
+
+{{expandir}}
+
 === Pablo Hasél ===
 
-Por expandir
+{{expandir}}
 
 === Silvio Rodríguez ===
 
-Por expandir
+{{expandir}}
 
 === Víctor Jara ===
 
-Por expandir
+{{expandir}}
 
 == Trucos ==
 
