@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>397483</td>
+        <td>398160</td>
     </tr>
 
     <tr>
@@ -113,7 +113,7 @@
         <td>15</td>
         <td><a href="./historia.html">./historia.html</a></td>
         <td><a href="./historia.wiki">./historia.wiki</a></td>
-        <td>825</td>
+        <td>890</td>
     </tr>
 
     <tr>
@@ -162,7 +162,7 @@
         <td>22</td>
         <td><a href="./musica.html">./musica.html</a></td>
         <td><a href="./musica.wiki">./musica.wiki</a></td>
-        <td>5512</td>
+        <td>6489</td>
     </tr>
 
     <tr>
