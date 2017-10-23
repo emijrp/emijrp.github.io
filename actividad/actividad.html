@@ -36,7 +36,9 @@ ideas para añadir a actividad:
 <ul><li>subsecciones para:</li><ul><li>cine (Filmaffinity)</li><li>fotografía (flickr&commons)</li><li>twitter (log descargable)</li></ul></ul>
 
 -->
-<p>Esta página recoge mi <b>actividad</b> en distintas facetas a lo largo del tiempo. Dado que la mayoría de los sitios web en los que participo registran la fecha en la que se realiza cada acción, solo hay que extraer el listado completo de fechas y representarlas visualmente. Para ello he escogido un calendario-mapa de calor que ayuda a condensar mucha información en poco espacio. Las gráficas han sido generadas con la biblioteca <a href="https://github.com/kamisama/cal-heatmap">cal-heatmap</a>.</p>
+<p>Esta página recoge mi <b>actividad</b> en distintas facetas a lo largo del tiempo, principalmente tomando <b>fotografías</b>, desarrollando <b>software</b> o editando <b>wikis</b>.</p>
+
+<p>Dado que la mayoría de los sitios web en los que participo registran la fecha en la que se realiza cada acción, solo hay que extraer el listado completo de fechas y representarlas visualmente. Para representarlo visualmente he escogido un calendario-mapa de calor que ayuda a condensar mucha información en poco espacio. Las gráficas han sido generadas con la biblioteca <a href="https://github.com/kamisama/cal-heatmap">cal-heatmap</a> y una serie de scripts hechos por mí.</p>
 
 <table id="toc" class="wikitable">
 <tr><th>Tabla de contenidos</th></tr>
@@ -140,7 +142,7 @@ Mi <b>actividad en cine</b> se centra en visionar películas, documentales y cor
 <h2 id="Fotografía">Fotografía</h2>
 <p>&nbsp;&nbsp;&nbsp;<i>Artículo principal: <a href="../fotografia/fotografia.html">Fotografía</a></i></p>
 
-<p>Mi <b>actividad en fotografía</b> consiste en la publicación en <a href="https://www.flickr.com/photos/emijrp/">Flickr</a> y <a href="https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1">Commons</a> de la mayoría de las fotografías que tomo. La fecha está extraída de los metadatos EXIF que todas las cámaras insertan en las imágenes por defecto. La primera fotografía digital que subí a Commons mostraba el monumento de <a href="https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg">Puerta Tierra en Cádiz</a> y la tomé el 20 de enero de 2005. Esta gráfica ha sido generada con <a href="actividad-foto.py">este script</a>.</p>
+<p>Mi <b>actividad en <a href="../fotografia/fotografia.html">fotografía</a></b> consiste en la publicación en <a href="https://www.flickr.com/photos/emijrp/">Flickr</a> y <a href="https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1">Commons</a> de la mayoría de las fotografías que tomo. La fecha está extraída de los metadatos EXIF que todas las cámaras insertan en las imágenes por defecto. La primera fotografía digital que subí a Commons mostraba el monumento de <a href="https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg">Puerta Tierra en Cádiz</a> y la tomé el 20 de enero de 2005. Hasta 2017 he publicado unas 9.000 fotos en Flickr y 7.000 en Commons. Esta gráfica ha sido generada con <a href="actividad-foto.py">este script</a>.</p>
 
 <center>
 <div class="activity" id="actividad-foto-2005"></div>
@@ -161,7 +163,7 @@ Mi <b>actividad en cine</b> se centra en visionar películas, documentales y cor
 
 <script type="text/javascript">
 var highlights = new Array();
-highlights[2005] = [ new Date(2005, 2, 20) ];
+highlights[2005] = [ new Date(2005, 0, 20) ];
 highlights[2006] = [ ];
 highlights[2007] = [ ];
 highlights[2008] = [ ];
@@ -298,7 +300,7 @@ for (i = 2005; i <= 2017; i++) {
 <h2 id="Wikis">Wikis</h2>
 <p>&nbsp;&nbsp;&nbsp;<i>Artículo principal: <a href="../wikis/wikis.html">Wikis</a></i></p>
 
-<p>Mi <b>actividad en <a href="../wikis/wikis.html">wikis</a></b> se concentra en <a href="https://www.wikipedia.org">Wikipedia</a>, <a href="https://commons.wikimedia.org">Commons</a>, <a href="https://www.wikidata.org">Wikidata</a>, <a href="https://es.wikibooks.org">Wikibooks</a>, <a href="https://es.wiktionary.org">Wiktionary</a>, <a href="https://es.wikinews.org">Wikinews</a> y otros como <a href="https://wiki.15m.cc">15Mpedia</a>, <a href="http://archiveteam.org">Archive Team</a>, <a href="http://wiki.nolesvotes.org">No les votes</a>, <a href="http://wikiindex.org">Wikiindex</a> y <a href="http://wikipapers.referata.com">WikiPapers</a>. Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 150.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo (<a href="https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT">AVBOT</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo">BOTijo</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot">Emijrpbot</a> y otros), que en total superan los 15 millones de ediciones. Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.</p>
+<p>Mi <b>actividad en <a href="../wikis/wikis.html">wikis</a></b> se concentra en <a href="https://www.wikipedia.org">Wikipedia</a>, <a href="https://commons.wikimedia.org">Commons</a>, <a href="https://www.wikidata.org">Wikidata</a>, <a href="https://es.wikibooks.org">Wikibooks</a>, <a href="https://es.wiktionary.org">Wiktionary</a>, <a href="https://es.wikinews.org">Wikinews</a> y otros como <a href="https://wiki.15m.cc">15Mpedia</a>, <a href="http://archiveteam.org">Archive Team</a>, <a href="http://wiki.nolesvotes.org">No les votes</a>, <a href="http://wikiindex.org">Wikiindex</a> y <a href="http://wikipapers.referata.com">WikiPapers</a>. Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 170.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo (<a href="https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT">AVBOT</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo">BOTijo</a>, <a href="https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot">Emijrpbot</a> y otros), que en total superan los 20 millones de ediciones. Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.</p>
 
 <center>
 <div class="activity" id="actividad-wiki-2005"></div>
@@ -379,7 +381,7 @@ for (i = 2005; i <= 2017; i++) {
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2017-09-26 14:51:25 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2017-10-23 19:59:50 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
