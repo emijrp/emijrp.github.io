@@ -1,5 +1,5 @@
 {{header|1=Comunismo}}
-
+[[File:constitucion-urss.jpg|thumb|right|300px|Constitución de la Unión Soviética.]]
 El '''comunismo''' es el más alto estado de las formaciones socio-economicas que propone Karl Marx, basado en la '''propiedad pública de los medios de producción''' con el objetivo inmediato del desarrollo libre y completo de todas las personas. ([https://comunpedia.wikis.cc/wiki/Comunismo Comunpedia])
 
 == Historia ==
@@ -21,8 +21,8 @@ El '''comunismo''' es el más alto estado de las formaciones socio-economicas qu
 * [https://lugrogeopolitica.blogspot.com Traduciendo la realidad]
 
 == Cine ==
-{{ap|1=cine/cine-rda.html|2=Cine de la RDA}}
-
+{{ap|1=../cine/cine-rda|2=Cine de la RDA}}
+[[File:defa.jpg|150px|right|DEFA]]
 Los países socialistas que han existido han producido cinematografías de muy alta calidad, belleza y valores. Las producciones no tenían como principal objetivo el ser éxitos comerciales. Estos son algunos lugares donde podrás encontrar muestras de este cine.
 
 * [http://ecommerce.umass.edu/defa/films DEFA Film Library]
@@ -57,6 +57,6 @@ La bibliografía comunista es extensísima y se ha diversificado tanto como rama
 
 === Artículos ===
 
-* {{w|1=es|2=Transición del feudalismo al capitalismo}}
+* {{w|1=es|2=Transición_del_feudalismo_al_capitalismo}}
 
 {{footer}}
