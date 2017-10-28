@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>398160</td>
+        <td>399652</td>
     </tr>
 
     <tr>
@@ -162,7 +162,7 @@
         <td>22</td>
         <td><a href="./musica.html">./musica.html</a></td>
         <td><a href="./musica.wiki">./musica.wiki</a></td>
-        <td>6489</td>
+        <td>6569</td>
     </tr>
 
     <tr>
@@ -267,7 +267,7 @@
         <td>37</td>
         <td><a href="actividad/actividad.html">actividad/actividad.html</a></td>
         <td><a href="actividad/actividad.wiki">actividad/actividad.wiki</a></td>
-        <td>12706</td>
+        <td>12960</td>
     </tr>
 
     <tr>
@@ -316,7 +316,7 @@
         <td>44</td>
         <td><a href="cine/cine-rda.html">cine/cine-rda.html</a></td>
         <td><a href="cine/cine-rda.wiki">cine/cine-rda.wiki</a></td>
-        <td>1077</td>
+        <td>1111</td>
     </tr>
 
     <tr>
@@ -400,7 +400,7 @@
         <td>56</td>
         <td><a href="comunismo/comunismo.html">comunismo/comunismo.html</a></td>
         <td><a href="comunismo/comunismo.wiki">comunismo/comunismo.wiki</a></td>
-        <td>3296</td>
+        <td>3412</td>
     </tr>
 
     <tr>
@@ -785,7 +785,7 @@
         <td>111</td>
         <td><a href="el-puerto/el-puerto.html">el-puerto/el-puerto.html</a></td>
         <td><a href="el-puerto/el-puerto.wiki">el-puerto/el-puerto.wiki</a></td>
-        <td>32223</td>
+        <td>34147</td>
     </tr>
 
     <tr>
@@ -1072,7 +1072,7 @@
         <td>152</td>
         <td><a href="viajes/viajes.html">viajes/viajes.html</a></td>
         <td><a href="viajes/viajes.wiki">viajes/viajes.wiki</a></td>
-        <td>19472</td>
+        <td>19756</td>
     </tr>
 
     <tr>
@@ -1100,7 +1100,7 @@
         <td>156</td>
         <td><a href="viajes/vuelta-a-cadiz/vuelta-a-cadiz.html">viajes/vuelta-a-cadiz/vuelta-a-cadiz.html</a></td>
         <td><a href="viajes/vuelta-a-cadiz/vuelta-a-cadiz.wiki">viajes/vuelta-a-cadiz/vuelta-a-cadiz.wiki</a></td>
-        <td>3846</td>
+        <td>3855</td>
     </tr>
 
     <tr>
