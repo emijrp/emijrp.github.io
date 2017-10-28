@@ -124,6 +124,11 @@ Cantautor español con letras comprometidas con algunas causas sociales, como la
 
 {{expandir}}
 
+=== Francisco Narváez ===
+{{youtube|id=jwyL6mIhCuQ|align=right}}
+
+{{expandir}}
+
 == Trucos ==
 
 * Cómo fusionar varios mp3 usando ffmpeg: ffmpeg -i "concat:file1.mp3|file2.mp3|file3.mp3|file4.mp3|file5.mp3" -acodec copy output.mp3
