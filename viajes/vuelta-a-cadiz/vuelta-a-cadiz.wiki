@@ -14,6 +14,13 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 </tr>
 
 <tr>
+<td>Alcalá de los Gazules</td>
+<td>5.439</td>
+<td>63</td>
+<td>2017</td>
+</tr>
+
+<tr>
 <td>Arcos de la Frontera</td>
 <td>31.410</td>
 <td>54</td>
@@ -24,6 +31,13 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 <td>Benalup-Casas Viejas</td>
 <td>6.970</td>
 <td>66</td>
+<td>2017</td>
+</tr>
+
+<tr>
+<td>Bornos</td>
+<td>8.083</td>
+<td>61</td>
 <td>2017</td>
 </tr>
 
@@ -46,6 +60,13 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 <td>88.068</td>
 <td>23</td>
 <td>Varias</td>
+</tr>
+
+<tr>
+<td>Espera</td>
+<td>3.951</td>
+<td>63</td>
+<td>2017</td>
 </tr>
 
 <tr>
@@ -112,13 +133,6 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 </tr>
 
 <tr>
-<td>Alcalá de los Gazules</td>
-<td>5.439</td>
-<td>63</td>
-<td>-</td>
-</tr>
-
-<tr>
 <td>Alcalá del Valle</td>
 <td>5.261</td>
 <td>130</td>
@@ -168,13 +182,6 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 </tr>
 
 <tr>
-<td>Bornos</td>
-<td>8.083</td>
-<td>61</td>
-<td>-</td>
-</tr>
-
-<tr>
 <td>El Bosque</td>
 <td>2.094</td>
 <td>82</td>
@@ -199,13 +206,6 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 <td>Conil de la Frontera</td>
 <td>22.313</td>
 <td>57</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>Espera</td>
-<td>3.951</td>
-<td>63</td>
 <td>-</td>
 </tr>
 
