@@ -619,7 +619,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>65</td>
         <td sorttable_customkey="Más allá del límite (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film775123.html">Más allá del límite</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Neill+Fearnley">Neill Fearnley</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jimmy+Kaufman">Jimmy Kaufman</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Neill+Fearnley">Neill Fearnley</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Jim+Kaufman">Jim Kaufman</a></td>
         <td>1995</td>
         <td>Estados Unidos</td>
         <td>9</td>

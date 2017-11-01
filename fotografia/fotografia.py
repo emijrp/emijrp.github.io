@@ -43,6 +43,7 @@ def main():
         for row in reader:
             date = row[4]
             photodatescommons.append(date)
+    print('Loaded %d metadata' % (len(photodatescommons)))
             
     #sets
     with open('flickr.token', 'r') as f:
@@ -71,7 +72,10 @@ def main():
         date_create = datetime.datetime.fromtimestamp(int(date_create))
         date_update = datetime.datetime.fromtimestamp(int(date_update))
         #how many in commons
-        resp2 = flickr.photosets.getPhotos(photoset_id=photosetid, user_id=flickruserid, extras='date_taken')
+        try:
+            resp2 = flickr.photosets.getPhotos(photoset_id=photosetid, user_id=flickruserid, extras='date_taken')
+        except:
+            continue
         xmlraw2 = ET.tostring(resp2, encoding='utf8', method='xml')
         #print(xmlraw2)
         datetakens = re.findall(r'(?im)datetaken="(\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d)"[^<>]*? id="(\d+)"', xmlraw2)

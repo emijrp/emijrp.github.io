@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>399652</td>
+        <td>399673</td>
     </tr>
 
     <tr>
@@ -232,7 +232,7 @@
         <td>32</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>73550</td>
+        <td>74273</td>
     </tr>
 
     <tr>
@@ -330,14 +330,14 @@
         <td>46</td>
         <td><a href="cine/documentales.html">cine/documentales.html</a></td>
         <td><a href="cine/documentales.wiki">cine/documentales.wiki</a></td>
-        <td>128018</td>
+        <td>131638</td>
     </tr>
 
     <tr>
         <td>47</td>
         <td><a href="cine/estadisticas-cine.html">cine/estadisticas-cine.html</a></td>
         <td><a href="cine/estadisticas-cine.wiki">cine/estadisticas-cine.wiki</a></td>
-        <td>654752</td>
+        <td>663091</td>
     </tr>
 
     <tr>
@@ -372,7 +372,7 @@
         <td>52</td>
         <td><a href="cine/series.html">cine/series.html</a></td>
         <td><a href="cine/series.wiki">cine/series.wiki</a></td>
-        <td>44178</td>
+        <td>44174</td>
     </tr>
 
     <tr>
@@ -827,7 +827,7 @@
         <td>117</td>
         <td><a href="fotografia/fotografia.html">fotografia/fotografia.html</a></td>
         <td><a href="fotografia/fotografia.wiki">fotografia/fotografia.wiki</a></td>
-        <td>181539</td>
+        <td>187504</td>
     </tr>
 
     <tr>

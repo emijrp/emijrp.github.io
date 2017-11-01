@@ -114,7 +114,10 @@ def main():
     rows = []
     for photoset in photosets:
         print(photoset)
-        resp2 = flickr.photosets.getPhotos(photoset_id=photoset, user_id=flickruserid, extras='date_taken')
+        try: #error in set ids, broken sets?
+            resp2 = flickr.photosets.getPhotos(photoset_id=photoset, user_id=flickruserid, extras='date_taken')
+        except:
+            continue
         xmlraw2 = ET.tostring(resp2, encoding='utf8', method='xml')
         #print(xmlraw2)
         datetakens = re.findall(r'(?im)datetaken="(\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d)"[^<>]*? id="(\d+)"', xmlraw2)
