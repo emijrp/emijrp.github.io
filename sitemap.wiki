@@ -71,7 +71,7 @@
         <td>9</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>399673</td>
+        <td>401593</td>
     </tr>
 
     <tr>
@@ -232,7 +232,7 @@
         <td>32</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>74273</td>
+        <td>74272</td>
     </tr>
 
     <tr>
@@ -330,14 +330,14 @@
         <td>46</td>
         <td><a href="cine/documentales.html">cine/documentales.html</a></td>
         <td><a href="cine/documentales.wiki">cine/documentales.wiki</a></td>
-        <td>131638</td>
+        <td>132799</td>
     </tr>
 
     <tr>
         <td>47</td>
         <td><a href="cine/estadisticas-cine.html">cine/estadisticas-cine.html</a></td>
         <td><a href="cine/estadisticas-cine.wiki">cine/estadisticas-cine.wiki</a></td>
-        <td>663091</td>
+        <td>667026</td>
     </tr>
 
     <tr>
@@ -358,7 +358,7 @@
         <td>50</td>
         <td><a href="cine/porver.html">cine/porver.html</a></td>
         <td><a href="cine/porver.wiki">cine/porver.wiki</a></td>
-        <td>45563</td>
+        <td>41965</td>
     </tr>
 
     <tr>
@@ -372,7 +372,7 @@
         <td>52</td>
         <td><a href="cine/series.html">cine/series.html</a></td>
         <td><a href="cine/series.wiki">cine/series.wiki</a></td>
-        <td>44174</td>
+        <td>44623</td>
     </tr>
 
     <tr>
@@ -785,7 +785,7 @@
         <td>111</td>
         <td><a href="el-puerto/el-puerto.html">el-puerto/el-puerto.html</a></td>
         <td><a href="el-puerto/el-puerto.wiki">el-puerto/el-puerto.wiki</a></td>
-        <td>34147</td>
+        <td>34508</td>
     </tr>
 
     <tr>
@@ -827,7 +827,7 @@
         <td>117</td>
         <td><a href="fotografia/fotografia.html">fotografia/fotografia.html</a></td>
         <td><a href="fotografia/fotografia.wiki">fotografia/fotografia.wiki</a></td>
-        <td>187504</td>
+        <td>188995</td>
     </tr>
 
     <tr>

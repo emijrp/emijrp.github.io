@@ -148,9 +148,9 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>No</td>
         <td>None</td>
         <td>44</td>
-        <td>126</td>
+        <td>128</td>
         <td>A curated list of awesome curated lists of many topics.</td>
-        <td>939</td>
+        <td>960</td>
     </tr>
 
     <tr>
@@ -207,10 +207,10 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>None</td>
-        <td>153</td>
+        <td>10</td>
         <td>1</td>
         <td>A curated list of awesome Wikipedia-related frameworks, libraries, software, datasets and references.</td>
-        <td>30</td>
+        <td>31</td>
     </tr>
 
     <tr>
@@ -291,7 +291,7 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>HTML</td>
-        <td>36893</td>
+        <td>37277</td>
         <td>1</td>
         <td>Personal website</td>
         <td>1</td>
@@ -579,10 +579,10 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>Python</td>
-        <td>670</td>
-        <td>10</td>
+        <td>763</td>
+        <td>12</td>
         <td>Scripts for Wikidata</td>
-        <td>4</td>
+        <td>7</td>
     </tr>
 
     <tr>
@@ -663,10 +663,10 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>Python</td>
-        <td>23</td>
+        <td>25</td>
         <td>0</td>
         <td>Some scripts and bots for Wikipedia</td>
-        <td>1</td>
+        <td>2</td>
     </tr>
 
     <tr>
@@ -675,7 +675,7 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>PHP</td>
-        <td>211</td>
+        <td>184</td>
         <td>1</td>
         <td>A radio for Wikimedia Commons audio files</td>
         <td>10</td>

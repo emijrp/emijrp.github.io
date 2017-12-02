@@ -46,7 +46,7 @@ def main():
         m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>', raw)
         for i in m:
             filmswatched.append(i.group('id').strip())
-        time.sleep(1)
+        time.sleep(3)
     
     #films to check
     filmstocheck = []
@@ -59,7 +59,7 @@ def main():
         m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>', raw)
         for i in m:
             filmstocheck.append(i.group('id').strip())
-        time.sleep(1)
+        time.sleep(3)
     
     rows = []
     for filmtocheck in filmstocheck:
