@@ -402,15 +402,6 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
 
     <tr>
         <td>37</td>
-        <td sorttable_customkey="La Conexión Cósmica"><i><a href="https://www.goodreads.com/book/show/4506076-la-conexi-n-c-smica">La Conexión Cósmica</a></i></td>
-        <td><a href="https://www.goodreads.com/author/show/10538.Carl_Sagan">Sagan, Carl</a></td>
-        <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788476341155">9788476341155</a></td>
-        <td><a href="https://www.google.es/?gws_rd=ssl#q=La+Conexión+Cósmica">Buscar</a></td>
-        <!--<td>...</td>-->
-    </tr>
-
-    <tr>
-        <td>38</td>
         <td sorttable_customkey="La Creacion"><i><a href="https://www.goodreads.com/book/show/20941684-la-creacion">La Creacion</a></i></td>
         <td><a href="https://www.goodreads.com/author/show/7164718.Peter_Atkins">Atkins, Peter</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn="></a></td>
@@ -419,7 +410,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     </tr>
 
     <tr>
-        <td>39</td>
+        <td>38</td>
         <td sorttable_customkey="La Estrella de Los Cheroquis"><i><a href="https://www.goodreads.com/book/show/2794142-la-estrella-de-los-cheroquis">La Estrella de Los Cheroquis</a></i></td>
         <td><a href="https://www.goodreads.com/author/show/67388.Forrest_Carter">Carter, Forrest</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788434815797">9788434815797</a></td>
@@ -428,7 +419,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     </tr>
 
     <tr>
-        <td>40</td>
+        <td>39</td>
         <td sorttable_customkey="La Lucha Obrera En El Cine: Sindicalismo y Derechos de Los Trabajadores En La Gran Pantalla"><i><a href="https://www.goodreads.com/book/show/17060133-la-lucha-obrera-en-el-cine">La Lucha Obrera En El Cine: Sindicalismo y Derechos de Los Trabajadores En La Gran Pantalla</a></i></td>
         <td><a href="https://www.goodreads.com/author/show/6828688.Enrique_P_rez_Romero">Romero, Enrique Pérez</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788493635299">9788493635299</a></td>
@@ -437,7 +428,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     </tr>
 
     <tr>
-        <td>41</td>
+        <td>40</td>
         <td sorttable_customkey="La arboleda perdida"><i><a href="https://www.goodreads.com/book/show/5294231-la-arboleda-perdida">La arboleda perdida</a></i></td>
         <td><a href="https://www.goodreads.com/author/show/54952.Rafael_Alberti">Alberti, Rafael</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788432202858">9788432202858</a></td>
@@ -446,11 +437,20 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     </tr>
 
     <tr>
-        <td>42</td>
+        <td>41</td>
         <td sorttable_customkey="La comuna de París"><i><a href="https://www.goodreads.com/book/show/24394004-la-comuna-de-par-s">La comuna de París</a></i></td>
         <td><a href="https://www.goodreads.com/author/show/104630.Vladimir_Lenin">Lenin, Vladimir Ilyich</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788446031833">9788446031833</a></td>
         <td><a href="https://www.google.es/?gws_rd=ssl#q=La+comuna+de+París">Buscar</a></td>
+        <!--<td>...</td>-->
+    </tr>
+
+    <tr>
+        <td>42</td>
+        <td sorttable_customkey="La conexión cósmica"><i><a href="https://www.goodreads.com/book/show/4506076-la-conexi-n-c-smica">La conexión cósmica</a></i></td>
+        <td><a href="https://www.goodreads.com/author/show/10538.Carl_Sagan">Sagan, Carl</a></td>
+        <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=9788476341155">9788476341155</a></td>
+        <td><a href="https://www.google.es/?gws_rd=ssl#q=La+conexión+cósmica">Buscar</a></td>
         <!--<td>...</td>-->
     </tr>
 
