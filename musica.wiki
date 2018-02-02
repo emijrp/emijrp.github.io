@@ -10,11 +10,20 @@ Una selección no exhaustiva de grandes canciones.
 
 {{div col 3}}
 
+'''Ambient'''
+
+* [https://www.youtube.com/watch?v=7AoJwMImQZE Doves] (We Are All Astronauts)
+* [https://www.youtube.com/watch?v=QMKHFZEY2VU Eternal flame] (Audiomachine)
+* [https://www.youtube.com/watch?v=-fFbeSykaJk Ether] (We Are All Astronauts)
+* [https://www.youtube.com/watch?v=RCMXO9sBIcU Everdream] (Epic Soul Factory)
+* [https://www.youtube.com/watch?v=3Kf-FlECN7M Suns and stars] (Really Slow Motion)
+
 '''Bandas sonoras'''
 
 * [https://www.youtube.com/watch?v=JYMySrHL0Fo Braveheart]
 * [https://www.youtube.com/watch?v=FcOt6mfjxeA Forrest Gump] (Alan Silvestri)
 * [https://www.youtube.com/watch?v=RxabLA7UQ9k Inception] (Hans Zimmer)
+* [https://www.youtube.com/watch?v=UDVtMYqUAyw Interstellar] (Hans Zimmer)
 * [https://www.youtube.com/watch?v=D8zlUUrFK-M Jurassic Park] (John Williams)
 * [https://www.youtube.com/watch?v=fMoFmICrISE Náufrago] (Alan Silvestri)
 * [https://www.youtube.com/watch?v=0P47yvI7SWM The Pacific] (Hans Zimmer)
@@ -54,6 +63,7 @@ Una selección no exhaustiva de grandes canciones.
 
 '''Pop'''
 
+* [https://www.youtube.com/watch?v=GZXHBgjQjNM Drowning] (Backstreet Boys)
 * [https://www.youtube.com/watch?v=OT5msu-dap8 Shape of my heart] (Backstreet Boys)
 
 '''Rap'''
@@ -64,12 +74,6 @@ Una selección no exhaustiva de grandes canciones.
 * [https://www.youtube.com/watch?v=9rJykHwCRw4 Perdidos en el infinito] (Pablo Hasél)
 * [https://www.youtube.com/watch?v=tW40lQ51LH8 Perdón, me equivoqué de planeta] (Pablo Hasél)
 * [https://www.youtube.com/watch?v=8727zorgS5M Resiste Venezuela] (Pablo Hasél)
-
-'''Otras'''
-
-* [https://www.youtube.com/watch?v=QMKHFZEY2VU Eternal flame] (Audiomachine)
-* [https://www.youtube.com/watch?v=RCMXO9sBIcU Everdream] (Epic Soul Factory)
-* [https://www.youtube.com/watch?v=3Kf-FlECN7M Suns and stars] (Really Slow Motion)
 
 {{div col end}}
 
