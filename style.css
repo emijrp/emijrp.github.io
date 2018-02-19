@@ -15,6 +15,9 @@ div.activity{
     float: left;
     margin-right: 10px;
 }
+h1{
+    line-height: 120%;
+}
 @media screen and (max-width: 1340px) {
     body {
         width: 100%;

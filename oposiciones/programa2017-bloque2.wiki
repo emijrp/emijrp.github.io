@@ -1,0 +1,25 @@
+{{header|1=Bloque II. Tecnología básica}}
+
+# '''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.
+
+# '''Periféricos''': conectividad y administración. Elementos de impresión. Elementos de almacenamiento. Elementos de visualización y digitalización.
+
+# '''Tipos abstractos y Estructuras de datos'''. Organizaciones de ficheros. '''Algoritmos'''. Formatos de información y ficheros.
+
+# '''Sistemas operativos'''. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Sistemas operativos para dispositivos móviles.
+
+** [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
+** [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
+** [https://en.wikipedia.org/wiki/Linux_distribution#Examples Distribuciones de Linux]
+
+** [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
+
+# Sistemas de gestión de '''bases de datos''' relacionales, orientados a objetos y NoSQL: características y componentes.
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+== Enlaces externos ==
+
+{{footer}}

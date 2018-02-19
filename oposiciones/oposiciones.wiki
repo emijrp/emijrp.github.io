@@ -1,0 +1,117 @@
+{{header|1=Oposiciones}}
+
+Las '''oposiciones''' en las que estoy interesado por ahora son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado].
+
+<!--
+Cosas a hacer:
+* Revisar exámenes anteriores y ver qué temas salen y con qué frecuencia, de los 4 bloques. Generar un temario en base al programa y profundizar en base al análisis de los exámenes.
+* Usar tanto recursos web como apuntes o libros de la carrera.
+
+-->
+
+== Programa ==
+
+El '''programa de 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2017-ingreso-libre TAI 2017 Ingreso Libre]</ref>
+
+* [[programa2017-bloque1|Bloque I. Organización del Estado y Administración electrónica]] (11 temas)
+* [[programa2017-bloque2|Bloque II. Tecnología básica]] (5 temas)
+* [[programa2017-bloque3|Bloque III. Desarrollo de sistemas]] (10 temas)
+* [[programa2017-bloque4|Bloque IV. Sistemas y comunicaciones]] (10 temas)
+
+== Exámenes ==
+
+=== 2016 (Libre) ===
+
+* '''Bloque 1:''' Constitución (8), Transparencia (2), Estatuto Empleo Público (1), Igualdad (1), Violencia de Género (1), Firma electrónica (3), Comercio electrónico (1), Sedes electrónicas (1), Esquema Nacional de Seguridad (1)
+
+* '''Bloque 2:''' 
+
+* '''Bloque 3:''' 
+
+* '''Bloque 4:''' 
+
+=== 2015 (Libre) ===
+
+* '''Bloque 1:''' Constitución (6), Decreto-ley (1), Igualdad (1), Discapacidad (1), Firma electrónica (2), Comercio electrónico (1), Protección de datos (3), Sedes electrónicas (1), Interoperabilidad (1), Otras (3)
+
+* '''Bloque 2:''' 
+
+* '''Bloque 3:''' 
+
+* '''Bloque 4:''' 
+
+=== 2014 (Promoción interna) ===
+
+* '''Bloque 1:''' Comercio electrónico (1), DNI electrónico (4), Protección de datos (3), Esquema Nacional de Seguridad (1), Interoperabilidad (1), Sedes electrónicas (1)
+
+* '''Bloque 2:''' 
+
+* '''Bloque 3:''' 
+
+* '''Bloque 4:''' 
+
+<!--
+
+otros textos:
+
+dependencia, violencia de genero, defensor del pueblo, ens (esquema nacional de seguridad), eni (esquema nacional de interoperabilidad), las normas tecnicas de interoperabilidad, 39/2015, 40/2015, reglamento europeo de proteccion de datos
+
+preguntas recurrentes:
+* velocidades usb
+* algoritmos de ordenación
+* raid
+* chmod
+-->
+
+== Anotaciones ==
+
+=== Constitución ===
+
+'''Fechas importantes:'''
+
+* 31 de octubre de 1978 (aprobación por las Cortes Generales: Congreso y Senado)
+* 6 de diciembre de 1978 (ratificada mediante referendum por el pueblo español)
+* 27 de diciembre de 1978 (sancionada y promulgada por el rey)
+* 29 de diciembre de 1978 (publicada en el BOE y entrada en vigor)
+* 27 de agosto de 1992 (reforma del artículo 13.2: derecho de sufragio pasivo a los extranjeros)
+* 27 de septiembre de 2011 (reforma del artículo 135: estabilidad presupuestaria)
+
+'''Estructura formal:''' Preámbulo, título preliminar, 10 títulos, 4 disposiciones adicionales, 9 disposiciones transitorias, 1 disposición derogatoria, 1 disposición final. Tiene 169 artículos.
+
+=== Puertos ===
+
+Puertos de red.<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref>
+
+* 21: File Transfer Protocol (FTP)
+* 22: Secure Shell (SSH)
+* 23: Telnet remote login service
+* 25: Simple Mail Transfer Protocol (SMTP)
+* 53: Domain Name System (DNS) service
+* 80: Hypertext Transfer Protocol (HTTP) used in the World Wide Web
+* 110: Post Office Protocol (POP3)
+* 119: Network News Transfer Protocol (NNTP)
+* 123: Network Time Protocol (NTP)
+* 143: Internet Message Access Protocol (IMAP)
+* 161: Simple Network Management Protocol (SNMP)
+* 194: Internet Relay Chat (IRC)
+* 443: HTTP Secure (HTTPS)
+* 993: IMAP over SSL
+
+<!--
+
+listado de comandos unix citados en examenes
+* https://en.wikipedia.org/wiki/List_of_Unix_commands
+
+listado de lenguajes mencionados
+
+-->
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+== Enlaces externos ==
+
+* [https://ips.redsara.es/IPSC/action/secure/buscarConvocatorias.do Inscripción de Pruebas Selectivas]
+
+{{footer}}
