@@ -7,35 +7,50 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 {{recuadro|1='''Tema 1.''' La '''Constitución Española de 1978'''. Derechos y deberes fundamentales. Su garantía y suspensión. La Jefatura del Estado. La Corona. Funciones constitucionales del Rey.}}
 
 {{youtube|id=bDf3rkh7kqU|align=right}}
+
 * [https://www.boe.es/legislacion/documentos/ConstitucionCASTELLANO.pdf Constitución Española de 1978] (51 páginas)
-* [https://www.youtube.com/watch?v=ZjKTjk0DurY Fechas importantes] (6 minutos)
-* [https://www.youtube.com/watch?v=bDf3rkh7kqU Características y estructura] (10 minutos)
+** [https://www.youtube.com/watch?v=ZjKTjk0DurY Fechas importantes] (6 minutos)
+** [https://www.youtube.com/watch?v=bDf3rkh7kqU Características y estructura] (10 minutos)
 * Derechos y deberes fundamentales (Título I de la Constitución)
-* Su garantía y suspensión (Capítulos IV y V de la Constitución)
+** Su garantía y suspensión (Capítulos IV y V del Título I de la Constitución)
 * La Jefatura del Estado. La Corona (Título II de la Constitución)
-* [https://www.youtube.com/watch?v=IjmjDJklJ24 La Corona] (22 minutos)
-* Funciones constitucionales del Rey (?)
+** [https://www.youtube.com/watch?v=IjmjDJklJ24 La Corona] (22 minutos)
+* Funciones constitucionales del Rey (Artículo 62 de la Constitución)
+
+{{clear}}
 
 == Tema 2 ==
 
 {{recuadro|1='''Tema 2.''' Las '''Cortes Generales'''. Atribuciones del Congreso de los Diputados y del Senado. El Tribunal Constitucional. Composición y atribuciones. El Defensor del Pueblo.}}
 
+{{youtube|id=8MMCWgR4RFs|align=right}}
+
 * Las Cortes Generales (Título III de la Constitución)
+** [https://www.youtube.com/watch?v=8MMCWgR4RFs Las Cámaras] (35 minutos)
+** [https://www.youtube.com/watch?v=-lcR4hPX5EA La elaboración de las leyes] (34 minutos)
 * Atribuciones del Congreso de los Diputados y del Senado (Título III de la Constitución)
 * El Tribunal Constitucional. Composición y atribuciones (Título IX de la Constitución)
 * [https://www.boe.es/buscar/doc.php?id=BOE-A-1981-10325 Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo] (5 páginas)
 
+{{clear}}
+
 == Tema 3 ==
 
-{{recuadro|1='''Tema 3.''' }}
+{{recuadro|1='''Tema 3.''' El '''Gobierno'''. Su composición. Nombramiento y cese. Las funciones del Gobierno. Relaciones entre el Gobierno y las Cortes Generales.}}
 
-# El '''Gobierno'''.<ref>Título IV de la Constitución.</ref> Su composición. Nombramiento y cese. Las funciones del Gobierno. Relaciones entre el Gobierno y las Cortes Generales.<ref>Título V de la Constitución.</ref>
+* El Gobierno (Título IV de la Constitución)
+* Relaciones entre el Gobierno y las Cortes Generales (Título V de la Constitución)
+
+{{clear}}
 
 == Tema 4 ==
 
-{{recuadro|1='''Tema 4.''' }}
+{{recuadro|1='''Tema 4.''' El '''Gobierno Abierto'''. Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas. La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. El Consejo de Transparencia y Buen Gobierno: funciones.}}
 
-# El '''Gobierno Abierto'''. Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas. La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.<ref name="leytransparencia">[https://boe.es/buscar/doc.php?id=BOE-A-2013-12887 Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno] (31 páginas)</ref> El Consejo de Transparencia y Buen Gobierno: funciones.<ref>Título III de la Ley de transparencia.</ref>
+* El '''Gobierno Abierto'''
+* Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas
+* [https://boe.es/buscar/doc.php?id=BOE-A-2013-12887 Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno] (31 páginas)
+* El Consejo de Transparencia y Buen Gobierno: funciones (Título III de la Ley de transparencia)
 
 == Tema 5 ==
 
@@ -75,9 +90,7 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 == Tema 11 ==
 
-{{recuadro|1='''Tema 11.''' }}
-
-# Instrumentos para el acceso electrónico a las Administraciones públicas: '''sedes electrónicas''', canales y puntos de acceso, identificación y autenticación. Infraestructuras y servicios comunes.
+{{recuadro|1='''Tema 11.''' Instrumentos para el acceso electrónico a las Administraciones públicas: '''sedes electrónicas''', canales y puntos de acceso, identificación y autenticación. Infraestructuras y servicios comunes.}}
 
 == Referencias ==
 {{reflist}}
