@@ -21,6 +21,7 @@
     {{button-blue|1=historia.html|2=Historia}}
     {{button-blue|1=idiomas/idiomas.html|2=Idiomas}}
     <!--{{button-grey|1=Informática}}-->
+    {{button-blue|1=latinajos.html|2=Latinajos}}
     {{button-blue|1=wikis/locapedias.html|2=Locapedias}}
     <!--{{button-grey|1=Mecánica}}-->
     {{button-blue|1=memoria-historica/memoria-historica.html|2=Memoria Histórica}}
