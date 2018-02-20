@@ -1,0 +1,21 @@
+{{header|1=Locuciones latinas}}
+
+Algunas expresiones en latín.<ref>[https://es.wikipedia.org/wiki/Anexo:Locuciones_latinas Anexo:Locuciones latinas]</ref><ref>[https://en.wikipedia.org/wiki/List_of_Latin_phrases_(full) List of Latin phrases (full)]</ref><ref>[http://www.unae.edu.py/biblio/libros/Diccionario-de-frases-y-aforismos-latinos.pdf Diccionario de frases y aforismos latinos] - Una compilación sencilla de términos jurídicos</ref>
+
+* Alea iacta est
+* Ars longa, vita brevis
+* Carpe diem
+* Errare humanum est
+* Grosso modo
+* In dubiis, abstine
+* Memento mori
+* Mens sana in corpore sano
+* Motu proprio
+* Sic transit gloria mundi
+* Tempus fugit
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+{{footer}}
