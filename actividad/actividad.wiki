@@ -3,9 +3,7 @@
 ideas para añadir a actividad:
 * subsecciones para:
 ** cine (Filmaffinity)
-** fotografía (flickr&commons)
 ** twitter (log descargable)
-
 -->
 Esta página recoge mi '''actividad''' en distintas facetas a lo largo del tiempo, principalmente tomando '''fotografías''', desarrollando '''software''' o editando '''wikis'''.
 
@@ -102,7 +100,7 @@ Mi '''actividad en cine''' se centra en visionar películas, documentales y cort
 == Fotografía ==
 {{ap|1=../fotografia/fotografia|2=Fotografía}}
 
-Mi '''actividad en [[../fotografia/fotografia|fotografía]]''' consiste en la publicación en [https://www.flickr.com/photos/emijrp/ Flickr] y [https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1 Commons] de la mayoría de las fotografías que tomo. La fecha está extraída de los metadatos EXIF que todas las cámaras insertan en las imágenes por defecto. La primera fotografía digital que subí a Commons mostraba el monumento de [https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg Puerta Tierra en Cádiz] y la tomé el 20 de enero de 2005. Hasta 2017 he publicado unas 9.000 fotos en Flickr y 7.000 en Commons. Esta gráfica ha sido generada con <a href="actividad-foto.py">este script</a>.
+Mi '''actividad en [[../fotografia/fotografia|fotografía]]''' consiste en la publicación en [https://www.flickr.com/photos/emijrp/ Flickr] y [https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1 Commons] de la mayoría de las fotografías que tomo. La fecha está extraída de los metadatos EXIF que todas las cámaras insertan en las imágenes por defecto. La primera fotografía digital que subí a Commons mostraba el monumento de [https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg Puerta Tierra en Cádiz] y la tomé el 20 de enero de 2005. Hasta 2018 he publicado unas 10.000 fotos en Flickr y 7.000 en Commons. Esta gráfica ha sido generada con <a href="actividad-foto.py">este script</a>.
 
 <center>
 <div class="activity" id="actividad-foto-2005"></div>
@@ -258,7 +256,7 @@ for (i = 2005; i <= 2017; i++) {
 == Wikis ==
 {{ap|1=../wikis/wikis|2=Wikis}}
 
-Mi '''actividad en [[../wikis/wikis|wikis]]''' se concentra en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://wiki.15m.cc 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers]. Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 170.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 20 millones de ediciones. Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
+Mi '''actividad en [[../wikis/wikis|wikis]]''' se concentra en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://wiki.15m.cc 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers]. Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 170.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 22 millones de ediciones. Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
 
 <center>
 <div class="activity" id="actividad-wiki-2005"></div>
