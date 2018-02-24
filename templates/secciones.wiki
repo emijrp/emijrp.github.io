@@ -1,5 +1,6 @@
 <p>
     {{button-blue|1=actividad/actividad.html|2=Actividad}}
+    {{button-blue|1=agenda.html|2=Agenda}}
     {{button-blue|1=aprender.html|2=Aprender}}
     {{button-blue|1=arte.html|2=Arte}}
     {{button-blue|1=astronomia/astronomia.html|2=Astronomía}}
