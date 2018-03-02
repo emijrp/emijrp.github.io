@@ -8,9 +8,11 @@ En esta '''agenda''' voy recopilando todos los colectivos, instituciones, etc, q
 * [http://asambleafeministapuerto.blogspot.com.es/ Asamblea Feminista Las Tres Rosas] ([https://www.facebook.com/Asamblea-Feminista-Las-Tres-Rosas-1486329731661400/ Facebook]{{o}} [https://twitter.com/asambleatres Twitter])
 * [https://ferminsalvocheaateneo.wordpress.com Ateneo Libertario Fermín Salvochea]
 * [http://www.ateneorepublicanopr.org Ateneo Republicano de Puerto Real] ([https://www.facebook.com/pg/Ateneo-Republicano-de-Puerto-Real-378609635495273/ Facebook])
+* [http://www.revistadehistoriade-elpuerto.org/menesteo/index.htm Aula de Historia Menesteo]
 * [https://filomonium.wordpress.com Filomonium]
 * [https://www.facebook.com/memoriaelpuerto Foro por la Memoria de El Puerto]
 * Fundación Rafael Alberti
+* [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
 
 == Fechas ==
 
@@ -22,72 +24,122 @@ Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acont
 
 * Año Nuevo (1)
 * Cabalgata de Reyes Magos (5)
-* Festividad de San Antón
+* Día de reyes (6)
 * Homenaje Abogados de Atocha (24)
 
+* Festividad de San Antón
+
+
 '''Febrero'''
+
+* Día de Andalucía (28)
 
 * Carnaval de Cádiz (Cabalgata, Coros, Callejeras)
 * Cabalgata de carnaval de El Puerto
 * Carnaval de los jartibles
 * Carnaval chiquito de mujeres
 
-* Día de Andalucía (28)
 
 '''Marzo'''
 
 * Día de la Mujer (8)
+* Comienza la Primavera (20-21)
+
+* Semana Santa<ref>[http://www.guiadecadiz.com/es/agenda/abril/2017/semana-santa-en-provincia-cadiz-2017&localidad=cadiz Semana Santa en la provincia de Cádiz]</ref>
+
 
 '''Abril'''
 
+* Día Internacional del Libro (23)
+
+* Feria de El Puerto
+* Feria de Jerez
+* Feria de Puerto Real
+* Feria de Rota
+* Feria de Sanlúcar de Barrameda
+* Feria de Sevilla
 * Fiesta de los Patios Portuenses
+
 
 '''Mayo'''
 
+* Fiesta del Trabajo (1)
 * Día Internacional de los Museos (18)
+
+* Carrera Popular Los Toruños-La Algaida
+* Feria del Libro de Cádiz
+* Feria del Libro de Sevilla
+* Gran Premio de Motociclismo de Jerez
+* Trofeo de Ciclismo "Ciudad de El Puerto"
+
 
 '''Junio'''
 
 * Día de los Archivos (9)
+* Comienza el Verano (21)
 
 * Homenaje a los fusilados en el Cementerio de Puerto Real
+* Noche de San Juan
+
 
 '''Julio'''
 
 * Festividad de la Virgen del Carmen (16)
 * Actos memorialistas contra el golpe del 18 de julio (18)
 
-* Charlas sobre Patrimonio en El Puerto
+* Actividades de Patrimonio Histórico y Museaciones de Verano
+* Insomnia - Festival de Cine Fantástico
+
 
 '''Agosto'''
 
 * Homenaje a Las Trece Rosas (5)
+* Asunción de la Virgen (15)
 
-* Charlas sobre Patrimonio en El Puerto
+* Actividades de Patrimonio Histórico y Museaciones de Verano
+* Perseidas
 * Vuelta Ciclista a España
+
 
 '''Septiembre'''
 
 * Festividad de la Virgen de los Milagros (8)
+* Comienza el Otoño (23)
 * Día del Turismo (27)
 
-* Festival aéreo
+* Festival aéreo Rota-El Puerto
+
 
 '''Octubre'''
 
+* Fiesta Nacional de España (12)
+
+
 '''Noviembre'''
+
+* Todos los Santos (1)
+
+* Carrera Popular Puerto Menesteo
+
 
 '''Diciembre'''
 
 * Día de la Constitución (6)
+* Inmaculada Concepción (8)
+* Comienza el Invierno (21)
+* Nochebuena (24)
+* Navidad (25)
 * Fin de año (31)
 
 {{div col end}}
 
-== Medios ==
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
 
-'''Medios de comunicación''' y otros sitios web en los que consultar actividades de interés.
+== Enlaces externos ==
 
+* [http://www.seg-social.es/Internet_1/Masinformacion/CalendarioLaboral/index.htm Calendario Laboral]
 * [https://el-boletin.com/ El Boletín], folleto informativo para el ocio y la cultura en El Puerto y la Bahía de Cádiz
 * [http://radiopuerto.fm RadioPuerto], la radio local de El Puerto
 * [http://www.turismoelpuerto.com/index.php?art_id=383 Turismo El Puerto]
