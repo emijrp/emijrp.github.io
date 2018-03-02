@@ -49,8 +49,8 @@ highlights[2018] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2017; i++) {
-    displaylegend = i == 2017;
+for (i = 2005; i <= 2018; i++) {
+    displaylegend = i == 2018;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-total-"+i, 
@@ -138,8 +138,8 @@ highlights[2018] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2017; i++) {
-    displaylegend = i == 2017;
+for (i = 2005; i <= 2018; i++) {
+    displaylegend = i == 2018;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-foto-"+i, 
@@ -216,8 +216,8 @@ highlights[2018] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2017; i++) {
-    displaylegend = i == 2017;
+for (i = 2005; i <= 2018; i++) {
+    displaylegend = i == 2018;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-software-"+i, 
@@ -294,8 +294,8 @@ highlights[2018] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2017; i++) {
-    displaylegend = i == 2017;
+for (i = 2005; i <= 2018; i++) {
+    displaylegend = i == 2018;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-wiki-"+i, 
