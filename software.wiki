@@ -148,9 +148,9 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>No</td>
         <td>None</td>
         <td>47</td>
-        <td>149</td>
+        <td>150</td>
         <td>A curated list of awesome curated lists of many topics.</td>
-        <td>1032</td>
+        <td>1058</td>
     </tr>
 
     <tr>
@@ -210,7 +210,7 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>10</td>
         <td>1</td>
         <td>A curated list of awesome Wikipedia-related frameworks, libraries, software, datasets and references.</td>
-        <td>33</td>
+        <td>35</td>
     </tr>
 
     <tr>
@@ -267,7 +267,7 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>Python</td>
-        <td>155</td>
+        <td>66</td>
         <td>0</td>
         <td>Bot para grupo de cine en Telegram</td>
         <td>1</td>
@@ -291,7 +291,7 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>HTML</td>
-        <td>37412</td>
+        <td>37597</td>
         <td>1</td>
         <td>Personal website</td>
         <td>1</td>
@@ -579,10 +579,10 @@ Cuando en la columna '''fork''' pone "No" (por ejemplo en AVBOT), significa que 
         <td>Público</td>
         <td>No</td>
         <td>Python</td>
-        <td>806</td>
+        <td>781</td>
         <td>13</td>
         <td>Scripts for Wikidata</td>
-        <td>7</td>
+        <td>8</td>
     </tr>
 
     <tr>
