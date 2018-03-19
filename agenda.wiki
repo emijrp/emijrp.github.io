@@ -2,18 +2,6 @@
 
 En esta '''agenda''' voy recopilando todos los colectivos, instituciones, etc, que organizan actos de interés, así como las fechas en las que suele haber actividades.
 
-== Colectivos ==
-
-* [http://amigosarchivojerez.com Amigos del Archivo de Jerez]
-* [http://asambleafeministapuerto.blogspot.com.es/ Asamblea Feminista Las Tres Rosas] ([https://www.facebook.com/Asamblea-Feminista-Las-Tres-Rosas-1486329731661400/ Facebook]{{o}} [https://twitter.com/asambleatres Twitter])
-* [https://ferminsalvocheaateneo.wordpress.com Ateneo Libertario Fermín Salvochea]
-* [http://www.ateneorepublicanopr.org Ateneo Republicano de Puerto Real] ([https://www.facebook.com/pg/Ateneo-Republicano-de-Puerto-Real-378609635495273/ Facebook])
-* [http://www.revistadehistoriade-elpuerto.org/menesteo/index.htm Aula de Historia Menesteo]
-* [https://filomonium.wordpress.com Filomonium]
-* [https://www.facebook.com/memoriaelpuerto Foro por la Memoria de El Puerto]
-* Fundación Rafael Alberti
-* [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
-
 == Fechas ==
 
 Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acontecimientos, celebraciones, festividades, etc. Entre paréntesis se indica el día cuando sucede siempre en una fecha concreta, o se deja abierto cuando depende del año.
@@ -166,6 +154,18 @@ Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acont
 * Fin de año (31)
 
 {{div col end}}
+
+== Colectivos ==
+
+* [http://amigosarchivojerez.com Amigos del Archivo de Jerez]
+* [http://asambleafeministapuerto.blogspot.com.es/ Asamblea Feminista Las Tres Rosas] ([https://www.facebook.com/Asamblea-Feminista-Las-Tres-Rosas-1486329731661400/ Facebook]{{o}} [https://twitter.com/asambleatres Twitter])
+* [https://ferminsalvocheaateneo.wordpress.com Ateneo Libertario Fermín Salvochea]
+* [http://www.ateneorepublicanopr.org Ateneo Republicano de Puerto Real] ([https://www.facebook.com/pg/Ateneo-Republicano-de-Puerto-Real-378609635495273/ Facebook])
+* [http://www.revistadehistoriade-elpuerto.org/menesteo/index.htm Aula de Historia Menesteo]
+* [https://filomonium.wordpress.com Filomonium]
+* [https://www.facebook.com/memoriaelpuerto Foro por la Memoria de El Puerto]
+* Fundación Rafael Alberti
+* [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
 
 == Referencias ==
 {{reflist}}
