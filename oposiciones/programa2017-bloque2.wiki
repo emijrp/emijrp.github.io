@@ -1,20 +1,191 @@
 {{header|1=Bloque II. Tecnología básica}}
 
-# '''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.
+== Tema 1: Informática básica ==
 
-# '''Periféricos''': conectividad y administración. Elementos de impresión. Elementos de almacenamiento. Elementos de visualización y digitalización.
+{{recuadro|1='''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.}}
 
-# '''Tipos abstractos y Estructuras de datos'''. Organizaciones de ficheros. '''Algoritmos'''. Formatos de información y ficheros.
+=== Sistemas numéricos ===
 
-# '''Sistemas operativos'''. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Sistemas operativos para dispositivos móviles.
+* '''Binario''': base 2, solamente se utilizan el 0 y el 1.
+* '''Octal''': base 8, se utilizan del 0 al 7.
+* '''Decimal''': base 10, se utlizan del 0 al 9.
+* '''Hexadecimal''': base 16, se utilizan del 0 al 9 y de la A a la F.
 
-** [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
-** [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
-** [https://en.wikipedia.org/wiki/Linux_distribution#Examples Distribuciones de Linux]
+Para convertir un número en decimal a binario, se divide el número entre 2 sucesivamente. Los restos colocados a la inversa componen el número en binario.
 
-** [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
+* 8 / 2 = 4. Resto 0.
+* 4 / 2 = 2. Resto 0.
+* 2 / 2 = 1. Resto 0.
+* 1 / 2 = 0. Resto 1.
+* 8 en decimal es 1000 en binario.
 
-# Sistemas de gestión de '''bases de datos''' relacionales, orientados a objetos y NoSQL: características y componentes.
+Para convertir de decimal a octal se utiliza el mismo método.
+
+* 34 / 8 = 4. Resto 2.
+* 4 / 8 = 0. Resto 4.
+* 34 en decimal es 42 en octal.
+
+=== Arquitecturas de ordenador ===
+
+* RISC
+
+=== Componentes internos ===
+
+* Disco duro:
+* Memoria RAM:
+* Microprocesador:
+* Placa base:
+
+== Tema 2: Periféricos ==
+
+{{recuadro|1='''Periféricos''': conectividad y administración. Elementos de impresión. Elementos de almacenamiento. Elementos de visualización y digitalización.}}
+
+Los '''puertos''' son interfaces entre un ordenador y otros ordenadores o periféricos.
+
+Tipos de '''USB''':
+
+* '''USB 1.0''': Desde 1.5 Mbit/s hasta 12 Mbit/s.
+* '''USB 2.0''': Hasta 480 Mbit/s (35 MB/s).
+* '''USB 3.0''': SuperSpeed USB (SS). Hasta 5 Gbit/s (625 MB/s), unas 10 veces más rápido que USB 2.0. El conector es de color azul.
+* '''USB 3.1''': Hasta 10 Gbit/s (1250 MB/s). Dos veces más rápido que USB 3.0.
+
+El conector plano USB es el estándar A. El estándar B es el cuadrado. Ambos tienen 4 pines (voltaje, data-, data+ y tierra).
+
+Otros puertos:
+
+* '''eSATA''': External SATA.
+* '''Ethernet''': 
+* '''Firewire''': Diseñado por Apple. Desde 400 Mbit/s (50 MB/s) hasta 3200 Mbit/s (400 MB/s). El estándar es IEEE 1394.
+* '''HDMI / DVI / VGA''': 
+* '''Jack''': 
+* '''SCSI''': 
+* '''PS/2''': conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).
+* '''Puerto paralelo''': envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.
+* '''Puerto serie''': permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.
+
+=== Elementos de impresión ===
+
+Las '''impresoras''' pueden ser:
+
+* '''De impacto''': matriciales (o de agujas), de margarita, de bola, de línea. Limitadas a texto o gráficos muy básicos. Monocromáticas.
+* '''Sin impacto''': térmicas, de inyección o chorro de tinta, láser.
+
+Según el '''método de impresión''':
+
+* '''Carácter a carácter''': matriciales, inyección, térmicas, margarita.
+* '''Línea a línea''': cinta, cadena, tambor.
+* '''Página a página''': láser.
+
+Las de inyección de tinta pueden ser térmicas o piezoelétricas.
+
+'''Lenguajes''' de descripción de página:
+
+* '''PostScript''': creado en 1982 en Adobe Systems.
+* '''Printer Command Language''' (PCL): desarrollado por Hewlett Packard en 1980 para impresoras de chorro de tinta. Actualmente hay 6 versiones, hasta PCL6.
+* '''HPGL''': para plóter. Existe una segunda versión HPGL2.
+
+Las conexiones más frecuentes son con puerto paralelo o USB. Las impresoras en red utilizan el RJ-45.
+
+=== Elementos de almacenamiento ===
+
+* '''Parallel ATA''' (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive electronics (IDE). Su extensión ATAPI permite lectoras de CD.
+
+* '''Serial ATA''' (SATA): Reemplaza a PATA. Sirve para discos duros, lectoras de CD y discos de estado sólido SSD.
+* '''SATA 1.0''': 1.5 Gbit/s (150 MB/s) SATA-150.
+* '''SATA 2.0''': 3 Gbit/s (300 MB/s) SATA-300.
+* '''SATA 3.0''': 6 Gbit/s (600 MB/s) SATA-600.
+
+=== Elementos de visualización ===
+
+* Monitores LCD
+* Monitores CRT
+
+* Píxel
+* Resolución de pantalla
+
+=== Elementos de digitalización ===
+
+Los '''escáneres''' pueden ser:
+
+* '''De mano''': se mueven a mano sobre el sujeto a escanear. Hay dos tipos: de documentos y 3D.
+* '''De tambor''': 
+* '''De cama plana''': los más comunes.
+
+== Tema 3: Tipos abstractos y Estructuras de datos ==
+
+{{recuadro|1='''Tipos abstractos y Estructuras de datos'''. Organizaciones de ficheros. '''Algoritmos'''. Formatos de información y ficheros.}}
+
+=== Estructuras de datos ===
+
+* '''Pila''': cuenta con dos operaciones principales ('''push''' y '''pop'''). Push añade un elemento a la cima de la pila, mientras que pop elimina el elemento situado en la cima de la pila. Este orden se conoce como '''LIFO''' (Last In, First Out; Último en entrar, Primero en salir).
+
+* '''Cola''': en esta estructura de datos, la operación '''push''' se realiza por un extremo de la cola, y la operación '''pop''' por el extremo opuesto. Este orden se conoce como '''FIFO''' (First In, First Out; Primero en entrar, Primero en salir).
+
+* '''Lista''': secuencia de elementos que siguen un orden.
+
+* '''Árbol''': estructura jerárquica con un nodo raíz y subárboles que cuelgan de dicho ndo principal u otros inferiores.
+
+* '''Grafo''': conjunto de nodos conectados, puede haber grafos dirigidos (vértices con orientación) y grafos no dirigidos (vértices sin orientación).
+
+=== Sistemas de ficheros ===
+
+Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.
+
+* '''FAT''': existen tres variantes: FAT12, FAT16 y FAT32. Diseñado en 1977. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).
+
+* '''NTFS''': diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.
+
+* '''EXT''': sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología ''journaling'' que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.
+
+* '''JFS''': creado en 1991 por IBM, cuenta con journaling.
+
+* '''XFS''': creado en 1993 por Silicon Graphics, cuenta con journaling.
+
+* '''ZFS''': creado en 1995 por Oracle.
+
+* '''ReiserFS''': creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.
+
+* '''HFS Plus''': desarrollado por Apple.
+
+* '''ISO 9660''': es un sistema de archivos para medios ópticos (CD, DVD).
+
+=== Algoritmos de ordenación ===
+
+* Burbuja
+* 
+
+=== Formatos de ficheros ===
+
+* Windows
+* Linux
+* Android
+* Apple
+
+== Tema 4: Sistemas operativos ==
+
+{{recuadro|1='''Sistemas operativos'''. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Sistemas operativos para dispositivos móviles.}}
+
+=== Android ===
+
+=== GNU/Linux ===
+
+* [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
+* [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
+* [https://en.wikipedia.org/wiki/Linux_distribution#Examples Distribuciones de Linux]
+
+=== Microsoft Windows ===
+
+* [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
+
+== Tema 5: Bases de datos ==
+
+{{recuadro|1=Sistemas de gestión de '''bases de datos''' relacionales, orientados a objetos y NoSQL: características y componentes.}}
+
+=== Relacionales ===
+
+=== Orientados a objetos ===
+
+=== NoSQL ===
 
 == Referencias ==
 {{reflist}}
