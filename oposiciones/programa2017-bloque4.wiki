@@ -1,0 +1,27 @@
+{{header|1=Bloque IV. Sistemas y comunicaciones}}
+
+Puertos de red.<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref>
+
+* 21: File Transfer Protocol (FTP)
+* 22: Secure Shell (SSH)
+* 23: Telnet remote login service
+* 25: Simple Mail Transfer Protocol (SMTP)
+* 53: Domain Name System (DNS) service
+* 80: Hypertext Transfer Protocol (HTTP) used in the World Wide Web
+* 110: Post Office Protocol (POP3)
+* 119: Network News Transfer Protocol (NNTP)
+* 123: Network Time Protocol (NTP)
+* 143: Internet Message Access Protocol (IMAP)
+* 161: Simple Network Management Protocol (SNMP)
+* 194: Internet Relay Chat (IRC)
+* 443: HTTP Secure (HTTPS)
+* 993: IMAP over SSL
+
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+== Enlaces externos ==
+
+{{footer}}

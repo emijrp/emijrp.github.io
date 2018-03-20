@@ -56,54 +56,6 @@ otros textos:
 
 dependencia, violencia de genero, defensor del pueblo, ens (esquema nacional de seguridad), eni (esquema nacional de interoperabilidad), las normas tecnicas de interoperabilidad, 39/2015, 40/2015, reglamento europeo de proteccion de datos
 
-preguntas recurrentes:
-* velocidades usb
-* algoritmos de ordenación
-* raid
-* chmod
--->
-
-== Anotaciones ==
-
-=== Constitución ===
-
-'''Fechas importantes:'''
-
-* 31 de octubre de 1978 (aprobación por las Cortes Generales: Congreso y Senado)
-* 6 de diciembre de 1978 (ratificada mediante referendum por el pueblo español)
-* 27 de diciembre de 1978 (sancionada y promulgada por el rey)
-* 29 de diciembre de 1978 (publicada en el BOE y entrada en vigor)
-* 27 de agosto de 1992 (reforma del artículo 13.2: derecho de sufragio pasivo a los extranjeros)
-* 27 de septiembre de 2011 (reforma del artículo 135: estabilidad presupuestaria)
-
-'''Estructura formal:''' Preámbulo, título preliminar, 10 títulos, 4 disposiciones adicionales, 9 disposiciones transitorias, 1 disposición derogatoria, 1 disposición final. Tiene 169 artículos.
-
-=== Puertos ===
-
-Puertos de red.<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref>
-
-* 21: File Transfer Protocol (FTP)
-* 22: Secure Shell (SSH)
-* 23: Telnet remote login service
-* 25: Simple Mail Transfer Protocol (SMTP)
-* 53: Domain Name System (DNS) service
-* 80: Hypertext Transfer Protocol (HTTP) used in the World Wide Web
-* 110: Post Office Protocol (POP3)
-* 119: Network News Transfer Protocol (NNTP)
-* 123: Network Time Protocol (NTP)
-* 143: Internet Message Access Protocol (IMAP)
-* 161: Simple Network Management Protocol (SNMP)
-* 194: Internet Relay Chat (IRC)
-* 443: HTTP Secure (HTTPS)
-* 993: IMAP over SSL
-
-<!--
-
-listado de comandos unix citados en examenes
-* https://en.wikipedia.org/wiki/List_of_Unix_commands
-
-listado de lenguajes mencionados
-
 -->
 
 == Referencias ==
