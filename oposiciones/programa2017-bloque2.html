@@ -76,11 +76,25 @@
 
 <h3 id="Arquitecturas de ordenador">Arquitecturas de ordenador</h3>
 
-<ul><li>RISC</li></ul>
+<p>Según la <b>estructura</b>:</p>
+
+<ul><li><b>Arquitectura von Neumann</b>: consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (con registros del procesador) y una unidad de control (con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanimos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus.</li><li><b>Arquitectura Harvard</b>: cuentan con conjunto de direcciones y buses separados para instrucciones y datos.</li></ul>
+
+<p>La arquitectura von Neumann es más sencilla que la Harvard, que es más moderna. Ambas son sistemas de programas almacenados, es decir, mantiene las instrucciones de programa y los datos en una memoria de lectura-escritura.</p>
+
+<p>Según el conjunto de <b>instrucciones</b>:</p>
+
+<ul><li><b>Arquitectura CISC</b>: estos microprocesadores cuentan con un conjunto de instrucciones amplio capaces de realizar operaciones complejas. Los operandos de estas operaciones pueden estar en memoria o en registros internos. Es acrónimo de <b>Complex Instruction Set Computer</b> (Ordenador de Conjunto de Instrucciones Complejo). Son anteriores a los RISC. Ejemplos: Motorola 68000, Zilog Z80, Intel x86, AMD x86-64.</li><li><b>Arquitectura RISC</b>: microprocesadores con instrucciones de tamaño fijo. Conjunto de instrucciones reducido y que realizan operaciones simples. Solo las instrucciones de carga y almacenamiento acceden a memoria, a diferencia de CISC. Es acrónimo de <b>Reduced Instruction Set Computer</b>. Facilita la segmentación y el paralelismo. Ejemplos: PowerPC, DEC Alpha, MIPS, ARM, SPARC.</li><li><b>Arquitectura SISC</b>: un subtipo de RISC, orientada al procesamiento en paralelo. Utiliza la tecnología VLSI. Es acrónimo de Simple Instruction Set Computing.</li></ul>
 
 <h3 id="Componentes internos">Componentes internos</h3>
 
-<ul><li>Disco duro:</li><li>Memoria RAM:</li><li>Microprocesador:</li><li>Placa base:</li></ul>
+<p>Los <b>componentes internos</b> básicos de un ordenador son:</p>
+
+<ul><li><b>Disco duro</b>: dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.</li><li><b>Memoria RAM</b>: </li><li><b>Microprocesador</b>: </li><li><b>Placa base</b>: </li><li><b>Tarjeta gráfica</b>: </li><li><b>Tarjeta de sonido</b>: </li></ul>
+
+<p>Las <b>memorias no volátiles</b> no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquettes, discos duros, ROM (read-only memory) y sus variantes, NVRAM (non-volatile RAM), etc.</p>
+
+<p>Las <b>memorias volátiles</b> pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM) y DRAM (dynamic RAM).</p>
 
 <h2 id="Tema 2: Periféricos">Tema 2: Periféricos</h2>
 
@@ -148,7 +162,7 @@
 
 <p>Los <b>sistemas de ficheros</b> controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.</p>
 
-<ul><li><b>FAT</b>: existen tres variantes: FAT12, FAT16 y FAT32. Diseñado en 1977. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).</li><li><b>NTFS</b>: diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.</li><li><b>EXT</b>: sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología <i>journaling</i> que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.</li><li><b>JFS</b>: creado en 1991 por IBM, cuenta con journaling.</li><li><b>XFS</b>: creado en 1993 por Silicon Graphics, cuenta con journaling.</li><li><b>ZFS</b>: creado en 1995 por Oracle.</li><li><b>ReiserFS</b>: creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.</li><li><b>HFS Plus</b>: desarrollado por Apple.</li><li><b>ISO 9660</b>: es un sistema de archivos para medios ópticos (CD, DVD).</li></ul>
+<ul><li><b>FAT</b>: diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).</li><li><b>NTFS</b>: diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.</li><li><b>EXT</b>: sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología <i>journaling</i> que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.</li><li><b>JFS</b>: creado en 1991 por IBM, cuenta con journaling.</li><li><b>XFS</b>: creado en 1993 por Silicon Graphics, cuenta con journaling.</li><li><b>ZFS</b>: creado en 1995 por Oracle.</li><li><b>ReiserFS</b>: creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.</li><li><b>HFS Plus</b>: desarrollado por Apple.</li><li><b>ISO 9660</b>: es un sistema de archivos para medios ópticos (CD, DVD).</li></ul>
 
 <h3 id="Algoritmos de ordenación">Algoritmos de ordenación</h3>
 
@@ -206,7 +220,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-03-19 19:52:11 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-03-20 19:42:41 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

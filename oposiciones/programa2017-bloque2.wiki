@@ -27,14 +27,41 @@ Para convertir de decimal a octal se utiliza el mismo método.
 
 === Arquitecturas de ordenador ===
 
-* RISC
+Según la '''estructura''':
+
+* '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (con registros del procesador) y una unidad de control (con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanimos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus.
+
+* '''Arquitectura Harvard''': cuentan con conjunto de direcciones y buses separados para instrucciones y datos.
+
+La arquitectura von Neumann es más sencilla que la Harvard, que es más moderna. Ambas son sistemas de programas almacenados, es decir, mantiene las instrucciones de programa y los datos en una memoria de lectura-escritura.
+
+Según el conjunto de '''instrucciones''':
+
+* '''Arquitectura CISC''': estos microprocesadores cuentan con un conjunto de instrucciones amplio capaces de realizar operaciones complejas. Los operandos de estas operaciones pueden estar en memoria o en registros internos. Es acrónimo de '''Complex Instruction Set Computer''' (Ordenador de Conjunto de Instrucciones Complejo). Son anteriores a los RISC. Ejemplos: Motorola 68000, Zilog Z80, Intel x86, AMD x86-64.
+
+* '''Arquitectura RISC''': microprocesadores con instrucciones de tamaño fijo. Conjunto de instrucciones reducido y que realizan operaciones simples. Solo las instrucciones de carga y almacenamiento acceden a memoria, a diferencia de CISC. Es acrónimo de '''Reduced Instruction Set Computer'''. Facilita la segmentación y el paralelismo. Ejemplos: PowerPC, DEC Alpha, MIPS, ARM, SPARC.
+
+* '''Arquitectura SISC''': un subtipo de RISC, orientada al procesamiento en paralelo. Utiliza la tecnología VLSI. Es acrónimo de Simple Instruction Set Computing.
 
 === Componentes internos ===
 
-* Disco duro:
-* Memoria RAM:
-* Microprocesador:
-* Placa base:
+Los '''componentes internos''' básicos de un ordenador son:
+
+* '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.
+
+* '''Memoria RAM''': 
+
+* '''Microprocesador''': 
+
+* '''Placa base''': 
+
+* '''Tarjeta gráfica''': 
+
+* '''Tarjeta de sonido''': 
+
+Las '''memorias no volátiles''' no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquettes, discos duros, ROM (read-only memory) y sus variantes, NVRAM (non-volatile RAM), etc.
+
+Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM) y DRAM (dynamic RAM).
 
 == Tema 2: Periféricos ==
 
@@ -131,7 +158,7 @@ Los '''escáneres''' pueden ser:
 
 Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.
 
-* '''FAT''': existen tres variantes: FAT12, FAT16 y FAT32. Diseñado en 1977. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).
+* '''FAT''': diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).
 
 * '''NTFS''': diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.
 
