@@ -40,8 +40,11 @@
 &nbsp;3. <a href="#Tema 3: Tipos abstractos y Estructuras de datos">Tema 3: Tipos abstractos y Estructuras de datos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Estructuras de datos">Estructuras de datos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#Sistemas de ficheros">Sistemas de ficheros</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="#Algoritmos de ordenación">Algoritmos de ordenación</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="#Algoritmos">Algoritmos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="#Formatos de ficheros">Formatos de ficheros</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 <a href="#Windows">Windows</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 <a href="#Linux">Linux</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.3 <a href="#Otras">Otras</a><br/>
 &nbsp;4. <a href="#Tema 4: Sistemas operativos">Tema 4: Sistemas operativos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#Android">Android</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.2 <a href="#GNU/Linux">GNU/Linux</a><br/>
@@ -50,8 +53,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;5.1 <a href="#Relacionales">Relacionales</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;5.2 <a href="#Orientados a objetos">Orientados a objetos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;5.3 <a href="#NoSQL">NoSQL</a><br/>
-&nbsp;6. <a href="#Referencias">Referencias</a><br/>
-&nbsp;7. <a href="#Enlaces externos">Enlaces externos</a><br/>
+&nbsp;6. <a href="#Fuentes">Fuentes</a><br/>
+&nbsp;7. <a href="#Referencias">Referencias</a><br/>
+&nbsp;8. <a href="#Enlaces externos">Enlaces externos</a><br/>
 </td></tr>
 </table>
 
@@ -73,6 +77,9 @@
 <p>Para convertir de decimal a octal se utiliza el mismo método.</p>
 
 <ul><li>34 / 8 = 4. Resto 2.</li><li>4 / 8 = 0. Resto 4.</li><li>34 en decimal es 42 en octal.</li></ul>
+
+
+<p>¿Cómo convertir al contrario?</p>
 
 <h3 id="Arquitecturas de ordenador">Arquitecturas de ordenador</h3>
 
@@ -113,7 +120,11 @@
 
 <p>Otros puertos:</p>
 
-<ul><li><b>eSATA</b>: External SATA.</li><li><b>Ethernet</b>: </li><li><b>Firewire</b>: Diseñado por Apple. Desde 400 Mbit/s (50 MB/s) hasta 3200 Mbit/s (400 MB/s). El estándar es IEEE 1394.</li><li><b>HDMI / DVI / VGA</b>: </li><li><b>Jack</b>: </li><li><b>SCSI</b>: </li><li><b>PS/2</b>: conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).</li><li><b>Puerto paralelo</b>: envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.</li><li><b>Puerto serie</b>: permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.</li></ul>
+<ul><li><b>eSATA</b>: External SATA.</li><li><b>Ethernet</b>: </li><li><b>Firewire</b>: Diseñado por Apple. Desde 400 Mbit/s (50 MB/s) hasta 3200 Mbit/s (400 MB/s). El estándar es IEEE 1394.</li><li><b>HDMI / DVI / VGA</b>: </li><li><b>Jack</b>: </li><li><b>SCSI</b>: generalmente para discos duros y cintas. Acrónimo de Small Computer System Interface.</li><li><b>PS/2</b>: conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).</li><li><b>Puerto paralelo</b>: envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.</li><li><b>Puerto serie</b>: permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.</li></ul>
+
+<p>Tipos de <b>teclado</b>:</p>
+
+<ul><li><b>QWERTY</b>: Es la distribución de teclado más común.</li><li><b>QWERTZ / QWERTZU</b>: Utilizado en regiones germanohablantes. Intercambia la Z e Y con los teclados QWERTY, ya que la Z es más frecuente en alemán que la Y, y la T y Z aparecen juntas en palabras alemanas.</li><li><b>AZERTY</b>: Utilizado en páises francófonos.</li><li><b>HCESAR</b>: Utilizado en Portugal durante algún tiempo. Después pasaron al QWERTY.</li><li><b>Dvorak</b>: Tiene como objetivo ser más ergonómico para reducir los errores en mecanografía.</li></ul>
 
 <h3 id="Elementos de impresión">Elementos de impresión</h3>
 
@@ -135,7 +146,24 @@
 
 <h3 id="Elementos de almacenamiento">Elementos de almacenamiento</h3>
 
+<p>Tipos de <b>interfaces</b>:</p>
+
 <ul><li><b>Parallel ATA</b> (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive electronics (IDE). Su extensión ATAPI permite lectoras de CD.</li><li><b>Serial ATA</b> (SATA): Reemplaza a PATA. Sirve para discos duros, lectoras de CD y discos de estado sólido SSD.</li><li><b>SATA 1.0</b>: 1.5 Gbit/s (150 MB/s) SATA-150.</li><li><b>SATA 2.0</b>: 3 Gbit/s (300 MB/s) SATA-300.</li><li><b>SATA 3.0</b>: 6 Gbit/s (600 MB/s) SATA-600.</li></ul>
+
+<p>Tipos de <b>RAID</b>:</p>
+
+<ul><li><b>RAID 0</b>: Los datos se distribuyen entre dos o más discos, sin información de paridad, redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.</li><li><b>RAID 1</b>: Consiste en la copia exacta (mirror) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.</li><li><b>RAID 2</b>: Reparte los datos a nivel de bits en vez de bloques. No tiene redundacia pero sí "paridad" con Hamming code. Se utiliza muy poco.</li><li><b>RAID 3</b>: Reparte los datos a nivel de bytes, con un disco con información de paridad. Se utiliza muy poco.</li><li><b>RAID 4</b>: Reparte los datos a nivel de bloque, con un disco dedicado a paridad. El rendimiento de lectura es alto, pero la escritura es baja al ir toda la información de paridad en el mismo disco.</li><li><b>RAID 5</b>: Datos repartidos a nivel de bloque, con paridad distribuida entre varios discos. Si falla un disco, la información puede reconstruirse con la paridad. Requiere al menos tres discos.</li><li><b>RAID 6</b>: Como el RAID 5 pero con dos bloques de paridad en distintos discos.</li></ul>
+
+<table class="wikitable" style="text-align: center;">
+<tr><th>Nivel</th><th>Discos (mínimo)</th><th>Eficiencia espacio</th><th>Tolerancia a fallos</th></tr>
+<tr><td><b>RAID 0</b></td><td>2</td><td>1</td><td>Ninguna</td></tr>
+<tr><td><b>RAID 1</b></td><td>2</td><td>1/N</td><td>N-1 pueden fallar</td></tr>
+<tr><td><b>RAID 2</b></td><td>3</td><td>1-(1/N * log2 (n-1))</td><td>1</td></tr>
+<tr><td><b>RAID 3</b></td><td>3</td><td>1-(1/N)</td><td>1</td></tr>
+<tr><td><b>RAID 4</b></td><td>3</td><td>1-(1/N)</td><td>1</td></tr>
+<tr><td><b>RAID 5</b></td><td>3</td><td>1-(1/N)</td><td>1</td></tr>
+<tr><td><b>RAID 6</b></td><td>4</td><td>1-(2/N)</td><td>2</td></tr>
+</table>
 
 <h3 id="Elementos de visualización">Elementos de visualización</h3>
 
@@ -156,7 +184,7 @@
 
 <h3 id="Estructuras de datos">Estructuras de datos</h3>
 
-<ul><li><b>Pila</b>: cuenta con dos operaciones principales (<b>push</b> y <b>pop</b>). Push añade un elemento a la cima de la pila, mientras que pop elimina el elemento situado en la cima de la pila. Este orden se conoce como <b>LIFO</b> (Last In, First Out; Último en entrar, Primero en salir).</li><li><b>Cola</b>: en esta estructura de datos, la operación <b>push</b> se realiza por un extremo de la cola, y la operación <b>pop</b> por el extremo opuesto. Este orden se conoce como <b>FIFO</b> (First In, First Out; Primero en entrar, Primero en salir).</li><li><b>Lista</b>: secuencia de elementos que siguen un orden.</li><li><b>Árbol</b>: estructura jerárquica con un nodo raíz y subárboles que cuelgan de dicho ndo principal u otros inferiores.</li><li><b>Grafo</b>: conjunto de nodos conectados, puede haber grafos dirigidos (vértices con orientación) y grafos no dirigidos (vértices sin orientación).</li></ul>
+<ul><li><b>Pila</b>: cuenta con dos operaciones principales (<b>push</b> y <b>pop</b>). Push añade un elemento a la cima de la pila, mientras que pop elimina el elemento situado en la cima de la pila. Este orden se conoce como <b>LIFO</b> (Last In, First Out; Último en entrar, Primero en salir).</li><li><b>Cola</b>: en esta estructura de datos, la operación <b>push</b> se realiza por un extremo de la cola, y la operación <b>pop</b> por el extremo opuesto. Este orden se conoce como <b>FIFO</b> (First In, First Out; Primero en entrar, Primero en salir).</li><li><b>Lista</b>: secuencia de elementos que siguen un orden.</li><li><b>Árbol</b>: estructura jerárquica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Un <b>árbol binario</b> es aquel cuyos nodos pueden tener un máximo de dos hijos.</li><ul><li><b>Nodo externo</b>: Cuando un nodo no apunta a ningún hijo.</li><li><b>Nivel</b>: Se comienza en el nivel 0 (nodo raiz).</li><li><b>Altura</b>: Número de niveles + 1. Un árbol con nivel 0, 1 y 2, tiene altura 3.</li><li><b>Recorrido en profundidad</b>: ???</li><ul><li>Recorrido en <b>preorden</b>: ???</li><li>Recorrido en <b>postorden</b>: ???</li><li>Recorrido en <b>inorden</b>: ???</li></ul></ul><li><b>Grafo</b>: conjunto de nodos conectados, puede haber grafos dirigidos (vértices con orientación) y grafos no dirigidos (vértices sin orientación).</li></ul>
 
 <h3 id="Sistemas de ficheros">Sistemas de ficheros</h3>
 
@@ -164,13 +192,47 @@
 
 <ul><li><b>FAT</b>: diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).</li><li><b>NTFS</b>: diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.</li><li><b>EXT</b>: sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología <i>journaling</i> que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.</li><li><b>JFS</b>: creado en 1991 por IBM, cuenta con journaling.</li><li><b>XFS</b>: creado en 1993 por Silicon Graphics, cuenta con journaling.</li><li><b>ZFS</b>: creado en 1995 por Oracle.</li><li><b>ReiserFS</b>: creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.</li><li><b>HFS Plus</b>: desarrollado por Apple.</li><li><b>ISO 9660</b>: es un sistema de archivos para medios ópticos (CD, DVD).</li></ul>
 
-<h3 id="Algoritmos de ordenación">Algoritmos de ordenación</h3>
+<p>Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).</p>
 
-<ul><li>Burbuja</li><li></li></ul>
+<h3 id="Algoritmos">Algoritmos</h3>
+
+<p>Un <b>algoritmo</b> es un conjunto de instrucciones bien definidas, ordenadas y finitas, que permiten realizar una tarea mediante la ejecución de dichos pasos. A partir de un estado inicial y con unos datos de entrada, siguiendo las instrucciones, se llega al estado final obteniendo el resultado.</p>
+
+<p>Algoritmos de <b>ordenación</b>:</p>
+
+<ul><li><b>Burbuja / Bubblesort</b>: consiste en revisar cada elemento con el siguiente, intercambiándolos si es necesario. ¿N-1 pasadas?</li><li><b>Rápido / Quicksort</b>:  </li></ul>
 
 <h3 id="Formatos de ficheros">Formatos de ficheros</h3>
 
-<ul><li>Windows</li><li>Linux</li><li>Android</li><li>Apple</li></ul>
+<h4 id="Windows">Windows</h4>
+
+<p>Extensiones más frecuentes:</p>
+
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>AVI</b></li><li><b>BAT</b></li><li><b>BIN</b></li><li><b>BMP</b></li><li><b>CAB</b></li><li><b>CHM</b></li><li><b>DAT</b></li><li><b>DLL</b></li><li><b>DOC</b></li><li><b>DOCX</b></li><li><b>EPS</b></li><li><b>EXE</b></li><li><b>FLV</b></li><li><b>GIF</b></li><li><b>GZ/GZIP</b></li><li><b>HTM/HTML</b></li><li><b>ISO</b></li><li><b>JAR</b></li><li><b>JPG/JPEG</b></li><li><b>LNK</b></li><li><b>LOG</b></li><li><b>M4A</b></li><li><b>MP3</b></li><li><b>MPG/MPEG</b></li><li><b>MSI</b></li><li><b>PDF</b></li><li><b>PNG</b></li><li><b>PPS/PPT</b></li><li><b>PUB</b></li><li><b>RAR</b></li><li><b>RM</b></li><li><b>RMVB</b></li><li><b>RTF</b>: Rich Text Format</li><li><b>SQL</b></li><li><b>SWF</b></li><li><b>TGZ</b></li><li><b>TIF</b>:</li><li><b>TORRENT</b></li><li><b>TTF</b></li><li><b>TXT</b></li><li><b>VOB</b></li><li><b>WAV</b></li><li><b>WMA</b></li><li><b>WMV</b></li><li><b>XLS</b></li><li><b>XLSX</b></li><li><b>ZIP</b></li></ul>
+
+</div>
+
+
+
+<h4 id="Linux">Linux</h4>
+
+<p>Extensiones más frecuentes:</p>
+
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>ARJ</b>: Compresión</li><li><b>BZ2</b>: Compresión con BZIP2</li><li><b>C</b>: Código en C</li><li><b>CPP</b>: Código en C++</li><li><b>DEB</b>: Paquetes Debian</li><li><b>DIFF</b>: Diferencia entre 2 ficheros</li><li><b>ELF</b>: Binario</li><li><b>GZ</b>: Compresión con GZIP</li><li><b>H</b>: Código en C (Headers)</li><li><b>JAR</b>: Aplicación Java</li><li><b>LOG</b>: Ficheros de registros</li><li><b>O</b>: Compilación temporal</li><li><b>ODB</b>: OpenDocument Base</li><li><b>ODG</b>: OpenDocument Dibujo Vectorial</li><li><b>ODP</b>: OpenDocument Presentaciones</li><li><b>ODS</b>: OpenDocument Calc</li><li><b>ODT</b>: OpenDocument Text</li><li><b>OGG</b>: Ogg Vorbis</li><li><b>PID</b>: Identificadores de procesos</li><li><b>PL</b>: Script en Perl</li><li><b>PY</b>: Script en Python</li><li><b>RPM</b>: Paquetes Red Hat, SUSE, Mandriva</li><li><b>SH</b>: Script de Shell</li><li><b>SQL</b>: Structured Query Language</li><li><b>TAR</b>: Archivo empaquetado</li><li><b>TGZ</b>: </li></ul>
+</div>
+
+
+<h4 id="Otras">Otras</h4>
+
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>APK</b>: Android Application Package</li><li>Apple</li></ul>
+</div>
+
 
 <h2 id="Tema 4: Sistemas operativos">Tema 4: Sistemas operativos</h2>
 
@@ -179,11 +241,21 @@
 </div>
 
 
+<p>Un <b>sistema operativo</b> es el software principal que gestiona los recursos hardware y proporciona servicios a los demás programas.</p>
+
+<ul><li><b>Núcleo monolítico</b>: arquitectura de sistema operativo donde éste trabaja en espacio del núcleo, estando él solo en modo supervisor. Provee una interfaz de <b>alto nivel</b> para el hardware. Ejemplos: Unix, Linux, DOS, Windows 9x, FreeDOS.</li><li><b>Micronúcleo</b>: el software mínimo que provee de mecanismos necesarios para implementar un sistema operativo. Incluye control de memoria, hilos y comunicación entre procesos a <b>bajo nivel</b>.</li></ul>
+
 <h3 id="Android">Android</h3>
 
 <h3 id="GNU/Linux">GNU/Linux</h3>
 
-<ul><li><a href="https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/">400 comandos Linux</a> </li><li><a href="https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html">Directorios comunes</a></li><li><a href="https://en.wikipedia.org/wiki/Linux_distribution#Examples">Distribuciones de Linux</a></li></ul>
+<ul><li><a href="https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/">400 comandos Linux</a> </li><li><a href="https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html">Directorios comunes</a></li><li><a href="https://en.wikipedia.org/wiki/Linux_distribution#Examples">Distribuciones de Linux</a></li><li>Debian</li><ul><li>Knoppix</li><li>Linux Mint Debian Edition</li><li>Ubuntu</li><ul><li>Kubuntu</li><li>Linux Mint</li><li>Trisquel</li><li>Elementary OS</li></ul></ul><li>Fedora</li><ul><li>Red Hat</li><ul><li>CentOS</li><li>Oracle Linux</li><li>Scientific Linux</li></ul></ul><li>Mandriva</li><ul><li>Mageia</li><li>PCLinuxOS</li><li>ROSA Linux</li></ul><li>openSUSE</li><ul><li>SUSE Linux Enterprise</li></ul><li>Arch Linux</li><ul><li>Manjaro Linux</li></ul><li>Gentoo</li><ul><li>Chrome OS</li><ul><li>Chromium OS</li></ul></ul><li>Slackware</li></ul>
+
+<p>Distribuciones ligeras (lightweight):</p>
+<ul><li>Damn Small Linux</li><li>Knoppix</li><li>Linux Lite</li><li>LXLE</li><li>CLinuxOS</li><li>Puppy Linux</li><li>Slax</li><li>Tiny Core Linux</li><li>Trisquel</li><li>Xubuntu</li></ul>
+
+<p>Opciones de programas comunes:</p>
+<ul><li>vi</li><li>emacs</li><li>nano</li></ul>
 
 <h3 id="Microsoft Windows">Microsoft Windows</h3>
 
@@ -201,6 +273,10 @@
 <h3 id="Orientados a objetos">Orientados a objetos</h3>
 
 <h3 id="NoSQL">NoSQL</h3>
+
+<h2 id="Fuentes">Fuentes</h2>
+
+<ul><li>Para confeccionar estos apuntes se han utilizado en ocasiones artículos de <a href="https://www.wikipedia.org">Wikipedia</a>.</li></ul>
 
 <h2 id="Referencias">Referencias</h2>
 <div style="font-size: 90%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em;">
@@ -220,7 +296,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-03-20 19:42:41 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-03-22 19:49:22 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
