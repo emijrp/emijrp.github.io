@@ -1,6 +1,63 @@
 {{header|1=Bloque III. Desarrollo de sistemas}}
 
+== Tema 1: Modelo conceptual de datos ==
 
+{{recuadro|1='''Modelo conceptual de datos'''. Entidades, atributos y relaciones. Reglas de modelización. Diagramas de flujo de datos. Reglas de construcción. Descomposición en niveles. Flujogramas.}}
+
+== Tema 2: Diseño de bases de datos ==
+
+{{recuadro|1='''Diseño de bases de datos'''. Diseño lógico y físico. El modelo lógico relacional. Normalización.}}
+
+== Tema 3: Lenguajes de programación ==
+
+{{recuadro|1='''Lenguajes de programación'''. Representación de tipos de datos. Operadores. Instrucciones condicionales. Bucles y recursividad. Procedimientos, funciones y parámetros. Vectores y registros. Estructura de un programa.}}
+
+Los '''paradigmas de programación''' son formas de clasificar los lenguajes de programación en base a las características de su estructura, control de flujo y elementos. Un mismo lenguaje puede pertenecer a varios paradigmas.
+
+* '''Imperativo''': es el más extendido. Consiste en dar instrucciones al ordenador, en forma de algoritmos, sobre cómo hacer las cosas. Ejemplos: lenguaje máquina, C, BASIC, Pascal.
+** '''Orientado a objetos''': basado en el imperativo pero encapsula variables y funciones en entidades llamadas objetos. Ejemplos: C++, C#, Java, Python, Smalltalk.
+** '''Procedural''': agrupa el código en funciones. Ejemplos: Fortran, ALGOL, COBOL, BASIC, C.
+
+* '''Declarativo''': describen la lógica pero sin expresar el control de flujo. Ejemplos: Lisp, Haskell, ML, Prolog, Curry.
+** '''Funcional''': se basa en el uso de funciones matemáticas en vez de en la mutación de variables (imperativa). Ejemplos: Haskell, Erlang.
+** '''Lógico''': basado en la lógica formal, expresando hechos y reglas sobre el dominio del problema a resolver. Ejemplos: Prolog, Datalog.
+** '''Algebraicos''': Ejemplos: Maude, SQL.
+
+* '''Simbólico''': permite manipular sus propias fórmulas y componentes como si fueran datos. Ejemplos: Wolfram, Lisp, Prolog.
+
+== Tema 4: Lenguajes de interrogación de bases de datos ==
+
+{{recuadro|1='''Lenguajes de interrogación de bases de datos'''. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.}}
+
+== Tema 5: Diseño y programación orientada a objetos ==
+
+{{recuadro|1='''Diseño y programación orientada a objetos'''. Elementos y componentes software: objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML).}}
+
+== Tema 6: Arquitectura Java EE y plataforma .NET ==
+
+{{recuadro|1='''Arquitectura Java EE y plataforma .NET''': componentes, persistencia y seguridad. Características, elementos y funciones en entornos Java, C, C++ y .Net.}}
+
+== Tema 7: Arquitectura de sistemas cliente/servidor ==
+
+{{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
+
+== Tema 8: Aplicaciones web ==
+
+{{recuadro|1='''Aplicaciones web'''. Desarrollo web front-end y en servidor. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.}}
+
+== Tema 9: Accesibilidad y usabilidad  ==
+
+{{recuadro|1='''Accesibilidad, diseño universal y usabilidad'''. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final.}}
+
+== Tema 10: Herramientas CASE ==
+
+{{recuadro|1='''Herramientas CASE''': características. Repositorios: estructura y actualización. Generación de código y documentación. Programas para control de versiones. Plataformas de desarrollo colaborativo de software.}}
+
+=== Control de versiones ===
+
+* Git
+* Mercurial
+* Subversion
 
 == Referencias ==
 {{reflist}}

@@ -399,9 +399,16 @@ También existe un grupo de distribuciones ligeras (lightweight) cuyo objetivo e
 Un '''sistema de ventanas''' proporciona la interfaz gráfica de usuario a un sistema operativo, implementando las ventanas, iconos, menúes, etc. El más común en sistemas Linux es '''X Window System'''. En Windows se llama '''Desktop Window Manager'''.
 
 Opciones de programas comunes:
-* vi
-* emacs
-* nano
+
+* '''vi''': w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
+
+* '''emacs''': C-x C-s (guardar)
+
+* '''nano''': ^O (guardar), ^W (buscar), ^X (salir)
+
+Comandos básicos:
+
+* '''chmod''': cambiar permisos. Ejecución (x) = 1, Escritura (w) = 2, Lectura (r) = 4, Todo = 7, Ninguno = 0. chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file
 
 * [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
 * [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
