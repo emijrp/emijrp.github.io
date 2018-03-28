@@ -12,6 +12,8 @@
 
 {{recuadro|1='''Lenguajes de programación'''. Representación de tipos de datos. Operadores. Instrucciones condicionales. Bucles y recursividad. Procedimientos, funciones y parámetros. Vectores y registros. Estructura de un programa.}}
 
+=== Paradigmas ===
+
 Los '''paradigmas de programación''' son formas de clasificar los lenguajes de programación en base a las características de su estructura, control de flujo y elementos. Un mismo lenguaje puede pertenecer a varios paradigmas.
 
 * '''Imperativo''': es el más extendido. Consiste en dar instrucciones al ordenador, en forma de algoritmos, sobre cómo hacer las cosas. Ejemplos: lenguaje máquina, C, BASIC, Pascal.
@@ -24,6 +26,57 @@ Los '''paradigmas de programación''' son formas de clasificar los lenguajes de 
 ** '''Algebraicos''': Ejemplos: Maude, SQL.
 
 * '''Simbólico''': permite manipular sus propias fórmulas y componentes como si fueran datos. Ejemplos: Wolfram, Lisp, Prolog.
+
+=== Estructuras ===
+
+Una '''instrucción condicional''' es aquella que tras ser evaluada determina qué fragmento de código se ejecutará. Puede ser un '''if''' simple (solo un caso, la evaluación afirmativa), un '''if-else''' (con código tanto para la evaluación afirmativa como negativa de la condición) o un '''switch/select-case''' (múltiples casos).
+
+Un '''bucle''' es una sentencia que ejecuta repetidas veces un trozo de código, hasta que la condición asignada a dicho bucle deja de cumplirse. Los tres bucles más utilizados en programación son el bucle '''while''', el bucle '''for''' y el bucle '''do-while'''.
+
+Un '''algoritmo recursivo''' es un algoritmo que expresa la solución de un problema en términos de una llamada a sí mismo. La llamada a sí mismo se conoce como llamada recursiva o recurrente.
+
+Un '''procedimiento''' es una subrutina dentro de un programa que resuelve una tarea específica. Una '''función''' es aquella subrutina que devuelve un valor. Los '''parámetros''' son aquellas variables que se le pasan a los procedimientos o funciones para que sean utilizados en la resolución de la tarea.
+
+=== Lenguajes ===
+
+Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Algunos no son estrictamente lenguajes de programación (como HTML, CSS, XML) pero se incluyen por ser de interés:
+
+* '''ALGOL''': familia de lenguajes imperativos cuya primera versión ALGOL 58 apareció en 1958. Fue el que más influyó a lenguajes posteriores en cuanto a sintaxis, de entre sus contemporáneos de alto nivel (FORTRAN, Lisp y COBOL).
+* '''Batch''': un script batch es un fichero en texto plano que incluye comandos para ser ejecutados por el intérprete de comandos. Su extensión suele ser .bat, .cmd o .btm.
+* '''Bash''': escrito por Brian Fox para el Proyecto GNU. Primera versión en 1989.
+* '''BASIC''': familia de lenguajes de alto nivel y de propósito general con la finalidad de ser fáciles de usar. Primera versión en 1964.
+* '''C''': lenguaje imperativo de propósito general, estructurado y con capacidad de recursión, de tipado estático. Desarrollado por Dennis Ritchie en los Laboratorios Bell entre 1969 y 1972. Proviene del lenguaje B.
+* '''C++''': imperativo, orientado a objetos, de propósito general. Creado por Bjarne Stroustrup en 1985.
+* '''C#''': lenguaje multiparadigma, desarrollado por Microsoft en 2000.
+* '''COBOL''': lenguaje imperativo y procedural. Enfocado a finanzas y negocios. Creado en 1959.
+* '''CSS''':
+* '''Eiffel''':
+* '''Erlang''':
+* '''Ensamblador''':
+* '''FORTRAN''':
+* '''Go''':
+* '''Haskell''':
+* '''HTML''':
+* '''Java''': 
+* '''JavaScript''':
+* '''LaTeX''': 
+* '''Lisp''':
+* '''Lua''':
+* '''make''':
+* '''Modula''':
+* '''Occam''':
+* '''Pascal''':
+* '''Perl''':
+* '''PHP''':
+* '''Prolog''':
+* '''Python''':
+* '''R''':
+* '''Ruby''':
+* '''Scala''':
+* '''Smalltalk''':
+* '''Visual Basic''':
+* '''Visual Basic .NET''':
+* '''XML''':
 
 == Tema 4: Lenguajes de interrogación de bases de datos ==
 
