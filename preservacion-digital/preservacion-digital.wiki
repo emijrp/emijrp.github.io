@@ -23,11 +23,23 @@ Si nos salimos de los archivos producidos por uno mismo, en Internet también ha
 ** '''Jamendo''': web con miles de albumes musicales subidos por sus propios autores. Anunció en cierto momento que iba a cerrar, de modo que nos pusimos manos a la obra para descargar todo. Más adelante anunciaron que mantendrían el sitio en funcionamiento.
 ** '''[https://github.com/WikiTeam/wikiteam WikiTeam]''': proyecto con el que hemos descargado más de 20.000 wikis.
 
+== Archivistas destacados ==
+
+Breves reseñas biográficas de personas que dedicaron parte de su vida a la preservación de información o conocimientos en distintos formatos.
+
+[[File:marion-stokes.jpg|thumb|right|200px|Marion Stokes]]
+* '''Marion Stokes''' (1929-2012), productora televisiva, activista por los derechos civiles y bibliotecaria. Durante 35 años, desde 1977 hasta su muerte, grabó cientos de miles de horas de los canales de noticias FOX, MSNBC, CNN, C-SPAN, CNBC y otros, utilizando hasta 8 vídeos domésticos repartidos por su casa. Casada y con hijos, planificaba las salidas de casa de forma que las cintas (de seis horas) no se terminasen antes de que regresasen. Su marido le ayudaba a cambiar las cintas, y cuando ya era demasiado mayor, contrató a un ayudante para esta tarea. En total acumuló más de 40.000 cintas VHS y Betamax. Al fallecer, su hijo donó la colección a Internet Archive siendo necesarios cuatro camiones para el traslado. La digitalización del material están en curso y tomará varios años.<ref>[https://en.wikipedia.org/wiki/Marion_Stokes Marion Stokes] en Wikipedia</ref><ref>[https://archive.org/details/marionstokes Marion Stokes Collection] en Internet Archive</ref> Al parecer hay un documental sobre su historia ''The Marion Stokes Project''.<ref>[https://www.tfiny.org/films/detail/the_marion_stokes_project The Marion Stokes Project]</ref>
+
+* '''Vivian Maier''' (1926-2009), una trabajadora de servicio doméstico que en sus ratos libres se dedicaba a la fotografía callejera. Llegó a acumular más de 150.000 fotografías.<ref>[https://en.wikipedia.org/wiki/Vivian_Maier Vivian Maier] en Wikipedia</ref>
+
 == En el cine ==
 
 El documental alemán ''[https://www.youtube.com/watch?v=jzQyHLd8jYo La oscura era digital: ¡Socorro, estamos desapareciendo!]'' (''Hilfe, wir verschwinden – Das Digitale Desaster'') dirigido por Jörg Daniel Hissen y Peter Moers trata acerca de este tema. En él sale entrevistado Stewart Brand de la Long Now Foundation.
 
-== Bibliografía ==
+== Referencias ==
+
+{{reflist}}
+{{reflist-end}}
 
 == Enlaces externos ==
 
