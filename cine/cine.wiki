@@ -140,6 +140,8 @@ Para estar al tanto de las nuevas películas que salen cada año, es útil repas
 
 * '''Festival Internacional del Nuevo Cine Latinoamericano de La Habana''': dedicado a dar a conocer a cineastas latinoamericanos, comenzó su andadura en 1979 de la mano del Instituto Cubano del Arte e Industria Cinematográficos. Se celebra todos los años en La Habana, Cuba, y se otorgan unos 40 premios en diversas categorías.<ref>[https://en.wikipedia.org/wiki/Havana_Film_Festival Havana Film Festival]</ref><ref>[http://www.ecured.cu/index.php/Festival_Internacional_del_Nuevo_Cine_Latinoamericano Festival Internacional del Nuevo Cine Latinoamericano]</ref>
 
+* '''Festival Internacional de Cine Pobre de Gibara''': festival del cine independiente y de bajos recursos que tiene lugar bianualmente en la ciudad cubana de Gibara.<ref>[https://www.youtube.com/watch?v=-JTkY3Z0Zjc Lester Hamlet, director del Festival Internacional de Cine Pobre de Gibara (Cuba)]</ref>
+
 <!--
 Repasar festivales de cine
 
@@ -150,15 +152,11 @@ http://www.ecured.cu/index.php/Festival_Internacional_de_Cine_Pobre
 
 == Manifiestos y movimientos cinematográficos ==
 
-<ul>
-    <!--Cine de la Unidad Popular http://www.rebeldemule.org/foro/monograf/tema2842.html -->
-    
-    <!--Manifiesto de Almería-->
-    
-    <li>'''Neorrealismo italiano:''' movimiento surgido en Italia tras la Segunda Guerra Mundial en el que se presentan principalmente historias de la clase trabajadora, empleando para ello en su mayoría actores no profesionales. Su nombre fue acuñado por Umberto Barbaro y la primera película de este tipo se considera ''Roma, ciudad abierta'' (1945) de Roberto Rossellini. Otros cineastas de esta corriente incluyen a Luchino Visconti con ''La tierra tiembla'' (1947) y Vittorio De Sica con ''Ladrón de bicicletas'' (1948).<ref>[https://es.wikipedia.org/wiki/Neorrealismo_italiano Neorrealismo italiano]</ref>
-    <!--  Federico Fellini, Roberto Rossellini, Pier Paolo Pasolini, Vittorio de Sica, Michelangelo Antonioni y Lucino Visconti  -->
-    
-</ul>
+<!--Cine de la Unidad Popular http://www.rebeldemule.org/foro/monograf/tema2842.html -->
+<!--Manifiesto de Almería-->
+* '''Manifiesto del cine pobre''': cine pobre no quiere decir cine carente de ideas o de calidad artística, sino que se refiere a un cine de restringida economía que se ejecuta tanto en los países de menos desarrollo o periféricos, así como también en el seno de las sociedades rectoras a nivel económico-cultural, ya sea dentro de programas de producción oficiales, ya sea a través del cine independiente o alternativo. Manifiesto escrito por Humberto Solás.<ref>[http://ficgibara.com/manifiesto-del-cine-pobre/ Manifiesto del cine pobre]</ref>
+
+* '''Neorrealismo italiano:''' movimiento surgido en Italia tras la Segunda Guerra Mundial en el que se presentan principalmente historias de la clase trabajadora, empleando para ello en su mayoría actores no profesionales. Su nombre fue acuñado por Umberto Barbaro y la primera película de este tipo se considera ''Roma, ciudad abierta'' (1945) de Roberto Rossellini. Otros cineastas de esta corriente incluyen a Luchino Visconti con ''La tierra tiembla'' (1947) y Vittorio De Sica con ''Ladrón de bicicletas'' (1948).<ref>[https://es.wikipedia.org/wiki/Neorrealismo_italiano Neorrealismo italiano]</ref><!--  Federico Fellini, Roberto Rossellini, Pier Paolo Pasolini, Vittorio de Sica, Michelangelo Antonioni y Lucino Visconti  -->
 
 <!--
 <h2>Orígenes</h2>
