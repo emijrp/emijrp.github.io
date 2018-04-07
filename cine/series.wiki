@@ -502,7 +502,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>52</td>
         <td sorttable_customkey="Los Fruitis (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film166793.html">Los Fruitis</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Toni+Babia+(Creator)">Toni Babia</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Antoni+D´Ocón+(Creator)">Antoni D´Ocón</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Toni+Babia+(Creator)">Toni Babia</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Antoni+D'Ocón+(Creator)">Antoni D'Ocón</a></td>
         <td>1991</td>
         <td>España</td>
         <td>7</td>

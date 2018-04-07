@@ -90,6 +90,10 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 
 {{recuadro|1='''Lenguajes de interrogación de bases de datos'''. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.}}
 
+=== SQL ===
+
+=== ORACLE ===
+
 == Tema 5: Diseño y programación orientada a objetos ==
 
 {{recuadro|1='''Diseño y programación orientada a objetos'''. Elementos y componentes software: objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML).}}
@@ -98,6 +102,14 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 
 {{recuadro|1='''Arquitectura Java EE y plataforma .NET''': componentes, persistencia y seguridad. Características, elementos y funciones en entornos Java, C, C++ y .Net.}}
 
+=== Java ===
+
+=== C ===
+
+=== C++ ===
+
+=== .NET ===
+
 == Tema 7: Arquitectura de sistemas cliente/servidor ==
 
 {{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
@@ -105,6 +117,105 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 == Tema 8: Aplicaciones web ==
 
 {{recuadro|1='''Aplicaciones web'''. Desarrollo web front-end y en servidor. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.}}
+
+=== HTML ===
+
+Un documento HTML se compone generalmente de un DOCTYPE, un elemento HTML raíz, un HEAD y un BODY. El DOCTYPE indica de qué tipo de documento se trata (versión del HTML, idioma, codificación, etc). El elemento HTML indica el comienzo del documento en sí. El HEAD permite indicar metadatos adicionales (autor, fecha, descripción, palabras clave. Y el BODY incluye todo el texto, imágenes, etc, de la página web.
+
+En general las etiquetas se abren y cierran, aunque hay algunas como IMG que no.
+
+Las etiquetas más frecuentes y su situación dentro del documento son las siguientes:
+
+* '''HEAD'''
+
+** '''BASE''': indica una URL de base para todos los HREF relativos. Solo se permite un BASE por documento.
+
+** '''LINK''': enlaza a otros documentos, como a hojas de estilo CSS.
+*** link rel="stylesheet" type="text/css" href="url" title="descripcion del estilo"
+
+** '''META''': permite indicar metadatos como autor, fecha, descripción, palabras clave. También codificación.
+*** meta charset="utf-8"
+*** meta name="description" content="Una web sobre informatica"
+
+** '''OBJECT''': para incluir objetos, aunque es raramente usado en el HEAD.
+
+** '''SCRIPT''': para incrustar código (por ejemplo Javascript) o para enlazar a ficheros externos mediante el atributo SRC.
+*** script src="enlace/a/fichero.js"
+
+** '''STYLE''': indica los estilos del documento.
+*** style type="text/css"
+
+** '''TITLE''': define el título del documento.
+
+*'''BODY'''
+
+** '''P''': párrafos.
+** '''H1/H6''': distintos niveles de cabecera.
+** '''OL''': lista ordenada.
+** '''UL''': lista sin ordenar.
+** '''LI''': un elemento de una lista OL o UL.
+** '''ASIDE''': contenido separado del contenido principal, por ejemplo barras laterales o anuncios.
+** '''BLOCKQUOTE''': citas que pueden incluir párrafos. La cita sencilla es con Q.
+** '''DIV''': un bloque bien definido que puede tener su propio estilo u otras propiedades.
+** '''FIGURE''': agrupa imágenes y pies de foto.
+** '''FIGCAPTION''': para pies de foto, siempre se usa dentro de FIGURE.
+** '''FOOTER''': para incluir el autor o copyright.
+** '''HR''': línea horizontal.
+** '''NOSCRIPT''':
+** '''PRE''': texto con preformateado.
+** '''SCRIPT''': para incrustar código script en el documento.
+
+** '''A''': para enlaces, ya sea dentro de propio sitio web o hacia otros sitios web. El atributo HREF indica la dirección de destino.
+** '''B''': negritas. También STRONG.
+** '''I''': cursivas. También EM para enfasis.
+** '''S''': tachado. También STRIKE o DEL.
+** '''U''': subrayado.
+** '''TT''': monoespaciado.
+** '''SMALL''': texto pequeño.
+** '''BIG''': texto grande.
+** '''SUB''': subíndice.
+** '''SUP''': superíndice.
+** '''FONT''': indica el tipo de fuente, color y tamaño. Mejor indicarlo con CSS.
+** '''BR''': salto de línea.
+** '''MARK''': sombreado amarillo para resaltar.
+
+** '''APPLET''': para embeber un applet de Java. Se prefiere OBJECT.
+** '''AUDIO''': añade un audio con reproductor.
+** '''EMBED''': inserta un objeto no estándar.
+** '''IMG''': para imágenes, se indica la dirección con el atributo SRC.
+** '''OBJECT''': incluye un objeto indicando el tipo con TYPE. Para contenido Flash, applets Java, etc.
+** '''SOURCE''': para introducir un audio o vídeo. También con VIDEO.
+
+** '''FORM''': crea un formulario que hará lo estipulado en el atributo ACTION.
+** '''BUTTON''': un botón genérico.
+
+** '''INPUT''': elemento de entrada de datos que tiene muchos tipos.
+*** '''CHECKBOX''': opción que se puede marcar o desmarcar.
+*** '''RADIO''': muestra varios opciones y solo se puede escoger una.
+*** '''BUTTON''': similar al botón genérico.
+*** '''SUBMIT''': un botón para enviar el formulario.
+*** '''IMAGE''': un botón con imagen.
+*** '''RESET''': un botón para resetear el formulario a sus valores por defecto.
+*** '''TEXT''': campo de texto de una línea. Con SIZE se indica el ancho visual del campo y con MAX-LENGTH el máximo de caracteres que se pueden escribir.
+*** '''SEARCH''': similar a TEXT pero para búsquedas.
+*** '''PASSWORD''': similar a TEXT pero oculta lo tecleado.
+*** '''FILE''': para subir ficheros al servidor.
+*** '''TEL''': para números de teléfono.
+*** '''EMAIL''': para direcciones de email.
+*** '''URL''': como TEXT pero para direcciones web.
+*** '''DATE''': para escoger fecha.
+*** '''TIME''': para escoger hora.
+*** '''NUMBER''': como TEXT pero para números.
+*** '''RANGE''': para escoger un número con una barra desplazable.
+*** '''Color''': para escoger color.
+*** '''HIDDEN''': no es visible en la página al ser renderizada pero sirve para almacenar datos que deban ser enviados junto al formulario.
+
+** '''PROGRESS''': barra de progreso.
+** '''TEXTAREA''': entrada de texto de múltiples líneas, indicandose el número de líneas con ROWS.
+
+=== Javascript ===
+
+=== PHP ===
 
 == Tema 9: Accesibilidad y usabilidad  ==
 
