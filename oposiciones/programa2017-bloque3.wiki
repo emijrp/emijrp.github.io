@@ -90,7 +90,42 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 
 {{recuadro|1='''Lenguajes de interrogación de bases de datos'''. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.}}
 
-=== SQL ===
+=== ANSI SQL ===
+
+'''SQL''' (Structured Query Language o Lenguaje de Consulta Estructurada) es un lenguaje estandarizado con el que acceder a un sistema de gestión de bases de datos relaciones y realizar operaciones.
+
+SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''manipulación''' de datos y un lenguaje de '''control''' de datos.
+
+* '''Lenguaje de definición de datos (DDL)''': son las órdenes que permiten crear, modificar y eliminar las tablas, vistas, procedimientos, triggers y hasta las propias bases de datos.
+** '''CREATE''': permite crear bases de datos, tablas, vistas y procedimientos. Ejemplo: CREATE TABLE 'CLIENTES';
+** '''ALTER''': permite modificar una tabla, quitando o agregando campos, cambio de tipos, índices, triggers. Ejemplo: ALTER TABLE 'CLIENTES' ADD EDAD INT UNSIGNED;
+** '''DROP''': permite eliminar un objeto. Ejemplo: DROP TABLE 'CLIENTES';
+** '''TRUNCATE''': vacía todo el contenido de una tabla. Ejemplo: TRUNCATE TABLE 'ALUMNOS';
+
+* '''Lenguaje de manipulación de datos (DML)''': son las órdenes que permite consulta y modificar los datos de la base de datos.
+** '''SELECT''': permite consultar los datos, y junto con otras cláusulas filtrar estos resultados, ordenarlos, etc.
+*** '''ALL/DISTINCT''': selección todos los valores o solo los distintos.
+*** '''FROM''': determina la tabla a explorar. Pueden ser varias usando JOIN (requiere entonces usar WHERE).
+*** '''WHERE''': indica las condiciones que deben cumplirse para que los datos sean devueltos. Pueden ser varias condiciones, combinadas con AND y OR.
+*** '''GROUP BY''': indica el campo sobre el que se agruparán los datos.
+*** '''HAVING''': condición que se aplicará a los datos devueltos, requiere GROUP BY.
+*** '''ORDER BY''': ordena los resultados usando las columnas indicadas. El orden puede ser ASC o DESC. El predeterminado es ASC.
+
+*** Ejemplo para recuperar todos los clientes de Madrid: SELECT nombre, dni, lugar FROM clientes WHERE lugar='Madrid' ORDER BY nombre;
+
+** '''INSERT''': inserta un registro o varios en una tabla. El número de columnas y de valores indicados debe ser igual. Si una columna no se indica le será asignado el valor por defecto. Ejemplo: INSERT INTO 'cliente' ('nombre', 'dni', 'lugar') VALUES ('Pepe', '12345678A', 'Segovia');
+
+*** Si se indican todos los valores no haría falta poner los nombres de las columnas. Para el ejemplo anterior suponiendo que la tabla solo tenga esos tres campos, sería: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia');
+
+*** Para insertar varios registros a la vez en la misma consulta INSERT, sería separándolos con comas: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia'), ('Maria', '87654321Z', 'Barcelona');
+
+** '''UPDATE''': permite modificar los valores de una tabla. Ejemplo para modificar el lugar de Pepe: UPDATE clientes SET lugar='Madrid' WHERE nombre='Pepe';
+
+** '''DELETE''': elimina un registro o varios. No confundir con DROP que elimina la tabla entera. Ejemplo: DELETE FROM clientes WHERE dni='12345678A';
+
+* '''Lenguaje de control de datos (DCL)''': permite controlar el acceso a los datos.
+** '''GRANT''': concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).
+** '''REVOKE''': elimina permisos concedidos con GRANT.
 
 === ORACLE ===
 

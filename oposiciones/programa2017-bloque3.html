@@ -35,7 +35,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#Estructuras">Estructuras</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="#Lenguajes">Lenguajes</a><br/>
 &nbsp;4. <a href="#Tema 4: Lenguajes de interrogación de bases de datos">Tema 4: Lenguajes de interrogación de bases de datos</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#SQL">SQL</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#ANSI SQL">ANSI SQL</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.2 <a href="#ORACLE">ORACLE</a><br/>
 &nbsp;5. <a href="#Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</a><br/>
 &nbsp;6. <a href="#Tema 6: Arquitectura Java EE y plataforma .NET">Tema 6: Arquitectura Java EE y plataforma .NET</a><br/>
@@ -106,7 +106,13 @@
 </div>
 
 
-<h3 id="SQL">SQL</h3>
+<h3 id="ANSI SQL">ANSI SQL</h3>
+
+<p><b>SQL</b> (Structured Query Language o Lenguaje de Consulta Estructurada) es un lenguaje estandarizado con el que acceder a un sistema de gestión de bases de datos relaciones y realizar operaciones.</p>
+
+<p>SQL consiste en un lenguaje de <b>definición</b> de datos, un lenguaje de <b>manipulación</b> de datos y un lenguaje de <b>control</b> de datos.</p>
+
+<ul><li><b>Lenguaje de definición de datos (DDL)</b>: son las órdenes que permiten crear, modificar y eliminar las tablas, vistas, procedimientos, triggers y hasta las propias bases de datos.</li><ul><li><b>CREATE</b>: permite crear bases de datos, tablas, vistas y procedimientos. Ejemplo: CREATE TABLE 'CLIENTES';</li><li><b>ALTER</b>: permite modificar una tabla, quitando o agregando campos, cambio de tipos, índices, triggers. Ejemplo: ALTER TABLE 'CLIENTES' ADD EDAD INT UNSIGNED;</li><li><b>DROP</b>: permite eliminar un objeto. Ejemplo: DROP TABLE 'CLIENTES';</li><li><b>TRUNCATE</b>: vacía todo el contenido de una tabla. Ejemplo: TRUNCATE TABLE 'ALUMNOS';</li></ul><li><b>Lenguaje de manipulación de datos (DML)</b>: son las órdenes que permite consulta y modificar los datos de la base de datos.</li><ul><li><b>SELECT</b>: permite consultar los datos, y junto con otras cláusulas filtrar estos resultados, ordenarlos, etc.</li><ul><li><b>ALL/DISTINCT</b>: selección todos los valores o solo los distintos.</li><li><b>FROM</b>: determina la tabla a explorar. Pueden ser varias usando JOIN (requiere entonces usar WHERE).</li><li><b>WHERE</b>: indica las condiciones que deben cumplirse para que los datos sean devueltos. Pueden ser varias condiciones, combinadas con AND y OR.</li><li><b>GROUP BY</b>: indica el campo sobre el que se agruparán los datos.</li><li><b>HAVING</b>: condición que se aplicará a los datos devueltos, requiere GROUP BY.</li><li><b>ORDER BY</b>: ordena los resultados usando las columnas indicadas. El orden puede ser ASC o DESC. El predeterminado es ASC.</li><li>Ejemplo para recuperar todos los clientes de Madrid: SELECT nombre, dni, lugar FROM clientes WHERE lugar='Madrid' ORDER BY nombre;</li></ul><li><b>INSERT</b>: inserta un registro o varios en una tabla. El número de columnas y de valores indicados debe ser igual. Si una columna no se indica le será asignado el valor por defecto. Ejemplo: INSERT INTO 'cliente' ('nombre', 'dni', 'lugar') VALUES ('Pepe', '12345678A', 'Segovia');</li><ul><li>Si se indican todos los valores no haría falta poner los nombres de las columnas. Para el ejemplo anterior suponiendo que la tabla solo tenga esos tres campos, sería: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia');</li><li>Para insertar varios registros a la vez en la misma consulta INSERT, sería separándolos con comas: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia'), ('Maria', '87654321Z', 'Barcelona');</li></ul><li><b>UPDATE</b>: permite modificar los valores de una tabla. Ejemplo para modificar el lugar de Pepe: UPDATE clientes SET lugar='Madrid' WHERE nombre='Pepe';</li><li><b>DELETE</b>: elimina un registro o varios. No confundir con DROP que elimina la tabla entera. Ejemplo: DELETE FROM clientes WHERE dni='12345678A';</li></ul><li><b>Lenguaje de control de datos (DCL)</b>: permite controlar el acceso a los datos.</li><ul><li><b>GRANT</b>: concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).</li><li><b>REVOKE</b>: elimina permisos concedidos con GRANT.</li></ul></ul>
 
 <h3 id="ORACLE">ORACLE</h3>
 
@@ -196,7 +202,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-04 12:06:07 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-09 12:17:15 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
