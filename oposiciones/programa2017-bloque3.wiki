@@ -262,9 +262,32 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 
 === Control de versiones ===
 
-* Git
-* Mercurial
-* Subversion
+El '''control de versiones''' es el seguimiento de las modificaciones realizadas en un software. Se puede hacer de forma manual pero lo apropiado es usar alguna herramienta específica, llamada '''sistema de control de versiones''' que facilita la gestión de los cambios.
+
+Los sistemas de control de versiones pueden ser:
+* '''Distribuidos''': cada usuario tiene una copia del repositorio y suele existir uno donde se sincronizan los cambios entre usuarios. Ejemplo: Mercurial y Git.
+* '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar centrar. Ejemplo: CVS y Subversion.
+
+Algunas de estas herramientas son:
+
+* '''Bazaar''': creado en 2007, patrocinado por Canonical.
+* '''BitKeeper''': creado en 2000, tiene licencia Apache. Es de arquitectura distribuida.
+* '''CSV''': es acrónimo de Concurrent Versioning System. Creado en 1986 y soportado hasta 2008. Licencia GPL. Es de arquitectura centralizada.
+* '''Git''': creado en 2005 por Linus Torvalds, con licencia GPL. Es de arquitectura distribuida. Se utiliza para el núcleo Linux.
+* '''Mercurial''': creado en 2005 con licencia GPL. Es de arquitectura distribuida.
+* '''Subversion''': o SVN, creado en 2000 y tiene licencia Apache. Es de arquitectura centralizada.
+
+Existe forjas que ofrecen alojamiento de proyectos para distintos sistemas de control de versiones. Para Git existe GitHub, GitLab (anteriormente Gitorious) y GNU Savannah. Para Subversion estaba Google Code.
+
+Algunos conceptos frecuentes:
+
+* '''Repositorio''': lugar donde se guarda el histórico con todos los cambios y que permite regresar a cualquier punto anterior.
+* '''Revisión''': estado concreto del repositorio en un momento dado. Cada revisión se puede identificar con un número (es el caso de Subversion) o con un código o digest (Git usa SHA1).
+* '''Rama''': o branch, supone hacer una copia del código lo que permite avanzar el desarrollo de dos formas distintas. Si más adelante se considera que los cambios de una rama son útiles, se pueden fusionar (merge) con la rama principal.
+* '''Commit''': el acto de incorporar al repositorio código desarrollado en local, para que forme parte del histórico.
+* '''Conflicto''': se produce cuando dos usuarios distintos modifican la misma zona del código, lo que impide que el sistema de control de versiones pueda fusionar ambos cambios de manera autónoma.
+* '''Diff''': diferencia entre dos versiones distintas de un mismo fichero.
+* '''Merge''': fusión de los cambios en un mismo fichero. Si el merge no es posible y da conflicto, el usuario deberá resolverlo manualmente.
 
 == Referencias ==
 {{reflist}}
