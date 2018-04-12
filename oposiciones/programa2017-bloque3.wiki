@@ -127,7 +127,10 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 ** '''GRANT''': concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).
 ** '''REVOKE''': elimina permisos concedidos con GRANT.
 
-=== ORACLE ===
+=== Procedimientos almacenados ===
+
+=== Eventos y disparadores ===
+
 
 == Tema 5: Diseño y programación orientada a objetos ==
 
@@ -260,6 +263,23 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 
 {{recuadro|1='''Herramientas CASE''': características. Repositorios: estructura y actualización. Generación de código y documentación. Programas para control de versiones. Plataformas de desarrollo colaborativo de software.}}
 
+Las '''herramientas CASE''' son aplicaciones que ayudan en las distintas fases del desarrollo de software (o ciclo de vida), reduciendo costes, errores, etc.
+
+* Mejora la productividad y aumenta la calidad del software
+* Reduce el tiempo y coste de desarrollo y mantenimiento
+* Mejora la planificación de un proyecto
+* Aumenta la biblioteca de conocimiento informático de una empresa ayudando a la búsqueda de soluciones para los requisitos
+* Automatiza el desarrollo del software, la documentación, la generación de código, las pruebas de errores y la gestión del proyecto
+* Ayuda a la reutilización del software, portabilidad y estandarización de la documentación
+* Gestión global en todas las fases de desarrollo de software con una misma herramienta
+* Facilita el uso de metodologías de la ingeniería del software
+
+Las herramientas CASE se pueden clasificar según las fases en las que se apliquen:
+
+* '''Upper CASE (U-CASE)''': para las fases de planificación, análisis de requisitos y estrategia del desarrollo. Uso de diagramas UML.
+* '''Middle CASE (M-CASE)''': para las fases de análisis y diseño.
+* '''Lower CASE (L-CASE)''': ayudan a generar código de forma semiautomática, detección de errores, depuración y pruebas. También generan documentación automáticamente.
+
 === Control de versiones ===
 
 El '''control de versiones''' es el seguimiento de las modificaciones realizadas en un software. Se puede hacer de forma manual pero lo apropiado es usar alguna herramienta específica, llamada '''sistema de control de versiones''' que facilita la gestión de los cambios.
@@ -273,11 +293,10 @@ Algunas de estas herramientas son:
 * '''Bazaar''': creado en 2007, patrocinado por Canonical.
 * '''BitKeeper''': creado en 2000, tiene licencia Apache. Es de arquitectura distribuida.
 * '''CSV''': es acrónimo de Concurrent Versioning System. Creado en 1986 y soportado hasta 2008. Licencia GPL. Es de arquitectura centralizada.
+* '''Darcs''': creado en 2003 por David Roundy, software libre (GPL).
 * '''Git''': creado en 2005 por Linus Torvalds, con licencia GPL. Es de arquitectura distribuida. Se utiliza para el núcleo Linux.
 * '''Mercurial''': creado en 2005 con licencia GPL. Es de arquitectura distribuida.
 * '''Subversion''': o SVN, creado en 2000 y tiene licencia Apache. Es de arquitectura centralizada.
-
-Existe forjas que ofrecen alojamiento de proyectos para distintos sistemas de control de versiones. Para Git existe GitHub, GitLab (anteriormente Gitorious) y GNU Savannah. Para Subversion estaba Google Code.
 
 Algunos conceptos frecuentes:
 
@@ -288,6 +307,12 @@ Algunos conceptos frecuentes:
 * '''Conflicto''': se produce cuando dos usuarios distintos modifican la misma zona del código, lo que impide que el sistema de control de versiones pueda fusionar ambos cambios de manera autónoma.
 * '''Diff''': diferencia entre dos versiones distintas de un mismo fichero.
 * '''Merge''': fusión de los cambios en un mismo fichero. Si el merge no es posible y da conflicto, el usuario deberá resolverlo manualmente.
+
+=== Plataformas de desarrollo colaborativo de software ===
+
+Existe forjas que ofrecen alojamiento de proyectos para distintos sistemas de control de versiones. Para Git existe GitHub, GitLab (anteriormente Gitorious) y GNU Savannah. Para Subversion estaba Google Code.
+
+Entre las herramientas de seguimiento de errores (bug tracking) destacan Bugzilla (creada por Mozilla y de código abierto), Trac (libre) y JIRA (propietaria).
 
 == Referencias ==
 {{reflist}}
