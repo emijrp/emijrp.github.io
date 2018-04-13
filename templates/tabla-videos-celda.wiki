@@ -1,2 +1,2 @@
-<td valign="top">[[File:{{{imagen}}}|{{{tamaño}}}|center|link={{{enlace}}}|{{{título}}}]]<br/>[{{{enlace}}} {{{título}}}]</td>
+<td valign="middle" width="{{{width}}}">[[File:{{{imagen}}}|{{{tamaño}}}|center|link={{{enlace}}}|{{{título}}}]]<br/>[{{{enlace}}} {{{título}}}]</td>
 

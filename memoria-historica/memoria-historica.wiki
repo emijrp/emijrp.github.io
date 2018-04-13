@@ -1,6 +1,6 @@
 {{header|1=Memoria Histórica}}
-
-Sección dedicada a la '''Memoria Histórica''', a todas aquellas personas que lucharon contra el fascismo, por la república, por la democracia, en definitiva por un mundo mejor. Para que su rostro y su nombre no se borren de la historia.
+[[File:bandera-segunda-republica.png|thumb|right|300px|Bandera de la Segunda República.]]
+Sección dedicada a la '''Memoria Histórica''', al recuerdo de todas aquellas personas que lucharon contra el fascismo, para defender la república y la democracia, en definitiva por un mundo mejor. Para que su rostro y su nombre no se borren de la Historia.
 
 == Documentales ==
 
@@ -8,16 +8,24 @@ Esta es una recopilación de los '''documentales de memoria histórica''' que he
 
 <center>
 <table width=99% style="text-align: center;">
+
 <tr>
-{{tabla-videos-celda|imagen=memoria-de-las-cenizas.jpg|tamaño=350px|título=Memoria de las cenizas|enlace=https://youtu.be/ej2D-A4NQ0g}}
-{{tabla-videos-celda|imagen=vida-luis-vega.jpg|tamaño=350px|título=Vida de Luis Vega. Memoria de Paterna|enlace=https://youtu.be/uDsINGdOAqs}}
-{{tabla-videos-celda|imagen=guillena-1937.jpg|tamaño=350px|título=Guillena 1937|enlace=https://youtu.be/gUxoDokgxtw}}
+{{tabla-videos-celda|width=33%|imagen=memoria-de-las-cenizas.jpg|tamaño=350px|título=Memoria de las cenizas|enlace=https://youtu.be/ej2D-A4NQ0g}}
+{{tabla-videos-celda|width=33%|imagen=vida-luis-vega.jpg|tamaño=350px|título=Vida de Luis Vega. Memoria de Paterna|enlace=https://youtu.be/uDsINGdOAqs}}
+{{tabla-videos-celda|width=33%|imagen=guillena-1937.jpg|tamaño=350px|título=Guillena 1937|enlace=https://youtu.be/gUxoDokgxtw}}
 </tr>
+
+<tr>
+{{tabla-videos-celda|width=33%|imagen=aragoneses-en-el-infierno.jpg|tamaño=350px|título=Aragoneses en el infierno de los campos de concentración|enlace=https://youtu.be/U6aUn8I9giM}}
+{{tabla-videos-celda|width=33%|imagen=cicatrices-de-piedra.jpg|tamaño=350px|título=Cicatrices de piedra. La Guerra Civil en Aragón|enlace=https://youtu.be/qLPhw5qvZHM}}
+{{tabla-videos-celda|width=33%|imagen=el-ultimo-fusilado-del-franquismo.jpg|tamaño=350px|título=El último fusilado del franquismo|enlace=https://youtu.be/IRsimQ_vYUc}}
+</tr>
+
 <!--
 <tr>
-{{tabla-videos-celda|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
-{{tabla-videos-celda|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
-{{tabla-videos-celda|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
 </tr>
 -->
 </table>
@@ -270,7 +278,8 @@ Más información:
 Se trata de un turismo enfocado a lugares, monumentos, calles y otros puntos de interés que tengan que ver con la memoria histórica, el socialismo/comunismo y el movimiento obrero. La información disponible es escasa y muy dispersa.
 
 == Víctimas del franquismo ==
-{{ap|1=../cine/documentales#Memoria Histórica|2=Documentales#Memoria Histórica}}
+
+[[File:mapa-de-fosas.jpg|thumb|right|300px|link=http://mapadefosas.mjusticia.es/exovi_externo/CargarMapaFosas.htm|Mapa de fosas comunes en España.]]
 
 * [[File:fusilados-cementerio-este-iu-2007.pdf|Personas fusiladas por el franquismo en el Cementerio del Este de Madrid]]
 
