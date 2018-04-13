@@ -36,7 +36,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="#Lenguajes">Lenguajes</a><br/>
 &nbsp;4. <a href="#Tema 4: Lenguajes de interrogación de bases de datos">Tema 4: Lenguajes de interrogación de bases de datos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#ANSI SQL">ANSI SQL</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;4.2 <a href="#ORACLE">ORACLE</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.2 <a href="#Procedimientos almacenados">Procedimientos almacenados</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.3 <a href="#Eventos y disparadores">Eventos y disparadores</a><br/>
 &nbsp;5. <a href="#Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</a><br/>
 &nbsp;6. <a href="#Tema 6: Arquitectura Java EE y plataforma .NET">Tema 6: Arquitectura Java EE y plataforma .NET</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;6.1 <a href="#Java">Java</a><br/>
@@ -63,6 +64,12 @@
 <p><b>Modelo conceptual de datos</b>. Entidades, atributos y relaciones. Reglas de modelización. Diagramas de flujo de datos. Reglas de construcción. Descomposición en niveles. Flujogramas.</p>
 </div>
 
+
+<p>El <b>modelo entidad-relación</b> ideado por Peter Chen en 1976 es el más frecuente para el diseño conceptual de bases de datos.</p>
+
+<p>Los elementos básicos de un diagrama entidad-relación son las entidades, las relaciones y los atributos. Las entidades cuentan con atributos y ellas se relacionan entre sí.</p>
+
+<ul><li><b>Entidad</b>: representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.</li><li><b>Atributos</b>: son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos identificativos son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.</li><li><b>Relación</b>: describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos entidades, se llama binaria. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. Las cardinalidades pueden ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.</li></ul>
 
 <h2 id="Tema 2: Diseño de bases de datos">Tema 2: Diseño de bases de datos</h2>
 
@@ -115,7 +122,10 @@
 
 <ul><li><b>Lenguaje de definición de datos (DDL)</b>: son las órdenes que permiten crear, modificar y eliminar las tablas, vistas, procedimientos, triggers y hasta las propias bases de datos.</li><ul><li><b>CREATE</b>: permite crear bases de datos, tablas, vistas y procedimientos. Ejemplo: CREATE TABLE 'CLIENTES';</li><li><b>ALTER</b>: permite modificar una tabla, quitando o agregando campos, cambio de tipos, índices, triggers. Ejemplo: ALTER TABLE 'CLIENTES' ADD EDAD INT UNSIGNED;</li><li><b>DROP</b>: permite eliminar un objeto. Ejemplo: DROP TABLE 'CLIENTES';</li><li><b>TRUNCATE</b>: vacía todo el contenido de una tabla. Ejemplo: TRUNCATE TABLE 'ALUMNOS';</li></ul><li><b>Lenguaje de manipulación de datos (DML)</b>: son las órdenes que permite consulta y modificar los datos de la base de datos.</li><ul><li><b>SELECT</b>: permite consultar los datos, y junto con otras cláusulas filtrar estos resultados, ordenarlos, etc.</li><ul><li><b>ALL/DISTINCT</b>: selección todos los valores o solo los distintos.</li><li><b>FROM</b>: determina la tabla a explorar. Pueden ser varias usando JOIN (requiere entonces usar WHERE).</li><li><b>WHERE</b>: indica las condiciones que deben cumplirse para que los datos sean devueltos. Pueden ser varias condiciones, combinadas con AND y OR.</li><li><b>GROUP BY</b>: indica el campo sobre el que se agruparán los datos.</li><li><b>HAVING</b>: condición que se aplicará a los datos devueltos, requiere GROUP BY.</li><li><b>ORDER BY</b>: ordena los resultados usando las columnas indicadas. El orden puede ser ASC o DESC. El predeterminado es ASC.</li><li>Ejemplo para recuperar todos los clientes de Madrid: SELECT nombre, dni, lugar FROM clientes WHERE lugar='Madrid' ORDER BY nombre;</li></ul><li><b>INSERT</b>: inserta un registro o varios en una tabla. El número de columnas y de valores indicados debe ser igual. Si una columna no se indica le será asignado el valor por defecto. Ejemplo: INSERT INTO 'cliente' ('nombre', 'dni', 'lugar') VALUES ('Pepe', '12345678A', 'Segovia');</li><ul><li>Si se indican todos los valores no haría falta poner los nombres de las columnas. Para el ejemplo anterior suponiendo que la tabla solo tenga esos tres campos, sería: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia');</li><li>Para insertar varios registros a la vez en la misma consulta INSERT, sería separándolos con comas: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia'), ('Maria', '87654321Z', 'Barcelona');</li></ul><li><b>UPDATE</b>: permite modificar los valores de una tabla. Ejemplo para modificar el lugar de Pepe: UPDATE clientes SET lugar='Madrid' WHERE nombre='Pepe';</li><li><b>DELETE</b>: elimina un registro o varios. No confundir con DROP que elimina la tabla entera. Ejemplo: DELETE FROM clientes WHERE dni='12345678A';</li></ul><li><b>Lenguaje de control de datos (DCL)</b>: permite controlar el acceso a los datos.</li><ul><li><b>GRANT</b>: concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).</li><li><b>REVOKE</b>: elimina permisos concedidos con GRANT.</li></ul></ul>
 
-<h3 id="ORACLE">ORACLE</h3>
+<h3 id="Procedimientos almacenados">Procedimientos almacenados</h3>
+
+<h3 id="Eventos y disparadores">Eventos y disparadores</h3>
+
 
 <h2 id="Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</h2>
 
@@ -228,7 +238,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-12 08:42:46 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-13 14:10:36 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

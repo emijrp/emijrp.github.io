@@ -4,6 +4,16 @@
 
 {{recuadro|1='''Modelo conceptual de datos'''. Entidades, atributos y relaciones. Reglas de modelización. Diagramas de flujo de datos. Reglas de construcción. Descomposición en niveles. Flujogramas.}}
 
+El '''modelo entidad-relación''' ideado por Peter Chen en 1976 es el más frecuente para el diseño conceptual de bases de datos.
+
+Los elementos básicos de un diagrama entidad-relación son las entidades, las relaciones y los atributos. Las entidades cuentan con atributos y ellas se relacionan entre sí.
+
+* '''Entidad''': representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.
+
+* '''Atributos''': son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos identificativos son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.
+
+* '''Relación''': describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos entidades, se llama binaria. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. Las cardinalidades pueden ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.
+
 == Tema 2: Diseño de bases de datos ==
 
 {{recuadro|1='''Diseño de bases de datos'''. Diseño lógico y físico. El modelo lógico relacional. Normalización.}}
