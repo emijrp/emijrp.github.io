@@ -139,12 +139,31 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 
 === Procedimientos almacenados ===
 
+Los '''procedimientos almacenados''' son programas guardados dentro de la base de datos y que son accesibles para las aplicaciones que la consultan. Su utilidad puede ser para validar datos, controlar el acceso, etc. La ventaja es que se ejecutan en el motor de la base de datos y solo devuelven los resultados solicitados, siendo más rápido todo el proceso.
+
 === Eventos y disparadores ===
 
+Los '''eventos o disparadores''' (triggers) son objetos que se ejecutan cuando se realiza una operación de '''INSERT, DELETE o UPDATE''' sobre una tabla de una base de datos. Esto mejoran el mantenimiento de la base de datos ya que no requiere de intervención humana, reduciendo los errores.
+
+Los triggers se componen de:
+* '''Llamada de activación''': la sentencia que activa el trigger.
+* '''Restricción''': la condición que ha de cumplirse para que se ejecute el código asociado al trigger.
+* '''Acción a ejecutar''': el código en sí que se ejecuta al cumplirse la restricción o condición.
 
 == Tema 5: Diseño y programación orientada a objetos ==
 
 {{recuadro|1='''Diseño y programación orientada a objetos'''. Elementos y componentes software: objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML).}}
+
+La '''programación orientada a objetos''' es...
+
+* '''Clase''': 
+* '''Objeto''': 
+* '''Herencia''': 
+* '''Sobrecarga''': 
+
+Ventajas e inconvenientes
+
+UML
 
 == Tema 6: Arquitectura Java EE y plataforma .NET ==
 
