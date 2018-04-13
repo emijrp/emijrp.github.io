@@ -2,6 +2,27 @@
 
 Sección dedicada a la '''Memoria Histórica''', a todas aquellas personas que lucharon contra el fascismo, por la república, por la democracia, en definitiva por un mundo mejor. Para que su rostro y su nombre no se borren de la historia.
 
+== Documentales ==
+
+Esta es una recopilación de los '''documentales de memoria histórica''' que he ido encontrando. Gran parte de ellos han sido subidos a Internet por sus propios directores o productoras. Es el caso de Intermedia Producciones con ''Memoria de las cenizas'' o ''Guillena 1937'' y del Servicio de Vídeo de la Diputación de Cádiz con ''Vida de Luis Vega. Memoria de Paterna'' entre otros.
+
+<center>
+<table width=99% style="text-align: center;">
+<tr>
+{{tabla-videos-celda|imagen=memoria-de-las-cenizas.jpg|tamaño=350px|título=Memoria de las cenizas|enlace=https://youtu.be/ej2D-A4NQ0g}}
+{{tabla-videos-celda|imagen=vida-luis-vega.jpg|tamaño=350px|título=Vida de Luis Vega. Memoria de Paterna|enlace=https://youtu.be/uDsINGdOAqs}}
+{{tabla-videos-celda|imagen=guillena-1937.jpg|tamaño=350px|título=Guillena 1937|enlace=https://youtu.be/gUxoDokgxtw}}
+</tr>
+<!--
+<tr>
+{{tabla-videos-celda|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+</tr>
+-->
+</table>
+</center>
+
 == 46º Regimiento "Taman" ==
 
 [[File:brujas-noche-pelicula.jpg|200px|right|Fotograma de la película Las brujas de la noche en el cielo (1981)]]

@@ -1,0 +1,2 @@
+<td valign="top">[[File:{{{imagen}}}|{{{tamaño}}}|center|link={{{enlace}}}|{{{título}}}]]<br/>[{{{enlace}}} {{{título}}}]</td>
+
