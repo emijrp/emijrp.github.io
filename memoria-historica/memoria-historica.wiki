@@ -4,7 +4,7 @@ Sección dedicada a la '''Memoria Histórica''', al recuerdo de todas aquellas p
 
 == Documentales ==
 
-Esta es una recopilación de los '''documentales de memoria histórica''' que he ido encontrando. Gran parte de ellos han sido subidos a Internet por sus propios directores o productoras. Es el caso de Intermedia Producciones con ''[https://www.youtube.com/watch?v=ej2D-A4NQ0g Memoria de las cenizas]'' o ''[https://www.youtube.com/watch?v=gUxoDokgxtw Guillena 1937]'', de Sintregua Producciones con ''[https://www.youtube.com/watch?v=U6aUn8I9giM Aragoneses en el infierno]'' y ''[https://www.youtube.com/watch?v=qLPhw5qvZHM Cicatrices de piedra]'' y también del Servicio de Vídeo de la Diputación de Cádiz con ''[https://www.youtube.com/watch?v=7PBGG5ZGdoQ Murieron cantando]'' y ''[https://www.youtube.com/watch?v=uDsINGdOAqs Vida de Luis Vega. Memoria de Paterna]'' entre otros.
+Esta es una recopilación de los '''documentales de memoria histórica''' que he ido encontrando. Gran parte de ellos han sido subidos a Internet por sus propios directores o productoras. Es el caso de [https://www.youtube.com/channel/UCNhhniYA44lxrGcFl3sx6sQ Intermedia Producciones] con ''[https://www.youtube.com/watch?v=CIECDYKv9Iw Presos del silencio]'' (2004), ''[https://www.youtube.com/watch?v=qmeUudS1ixE La Partida]'' (2007), ''[https://www.youtube.com/watch?v=ZDLTLZd1Wbc La madre sola]'' (2010), ''[https://www.youtube.com/watch?v=ej2D-A4NQ0g Memoria de las cenizas]'' (2012) y ''[https://www.youtube.com/watch?v=gUxoDokgxtw Guillena 1937]'' (2013); de [https://www.youtube.com/channel/UCd2LlOu-Npq-Srkf1bFB_rw Sintregua Producciones] con ''[https://www.youtube.com/watch?v=qLPhw5qvZHM Cicatrices de piedra]'' (2006) y ''[https://www.youtube.com/watch?v=U6aUn8I9giM Aragoneses en el infierno]'' (2010); y también del Servicio de Vídeo de la Diputación de Cádiz con ''[https://www.youtube.com/watch?v=uDsINGdOAqs Vida de Luis Vega. Memoria de Paterna]'' (2017) y ''[https://www.youtube.com/watch?v=7PBGG5ZGdoQ Murieron cantando]'' (2018) entre otros.
 
 <center>
 <table width=99% style="text-align: center;">
@@ -19,6 +19,12 @@ Esta es una recopilación de los '''documentales de memoria histórica''' que he
 {{tabla-videos-celda|width=33%|imagen=aragoneses-en-el-infierno.jpg|tamaño=350px|título=Aragoneses en el infierno de los campos de concentración|enlace=https://youtu.be/U6aUn8I9giM}}
 {{tabla-videos-celda|width=33%|imagen=cicatrices-de-piedra.jpg|tamaño=350px|título=Cicatrices de piedra. La Guerra Civil en Aragón|enlace=https://youtu.be/qLPhw5qvZHM}}
 {{tabla-videos-celda|width=33%|imagen=el-ultimo-fusilado-del-franquismo.jpg|tamaño=350px|título=El último fusilado del franquismo|enlace=https://youtu.be/IRsimQ_vYUc}}
+</tr>
+
+<tr>
+{{tabla-videos-celda|width=33%|imagen=presos-del-silencio.jpg|tamaño=350px|título=Presos del silencio|enlace=https://youtu.be/CIECDYKv9Iw}}
+{{tabla-videos-celda|width=33%|imagen=la-partida.jpg|tamaño=350px|título=La Partida|enlace=https://youtu.be/qmeUudS1ixE}}
+{{tabla-videos-celda|width=33%|imagen=la-madre-sola.jpg|tamaño=350px|título=La madre sola|enlace=https://www.youtube.com/watch?v=ZDLTLZd1Wbc}}
 </tr>
 
 <!--
