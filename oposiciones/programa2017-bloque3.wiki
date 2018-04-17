@@ -282,7 +282,29 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 
 === Javascript ===
 
+'''JavaScript''' es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+
+* Definición de variables: var x; var y = 2; var z = "Hola";
+* Impresión de errores: console.log("Error x");
+* Función: function f(p) { p = p + 1; return p }
+* Función anónima o lambda: function() { return ++p; }
+* Bucle for: for (i=0;i<10;i++) { console.log(i); }
+* Bucle while: while (i<10) { console.log(i); i++; }
+* Bucle do-while: do { i+=1; console.log(i); } while (i<10);
+* Switch: switch (x) { case "Hola": console.log("Hola..."); break; case "Adios": console.log("Adios..."); break; default: console.log("Nada"); }
+* If-else: if (x == 1) { console.log("Uno"); } { else if (x == 2) { console.log("Dos"); } else { console.log("Otro"); }
+* document.getElementById
+* document.getElementsByName
+* document.getElementsByClassname
+* document.getElementsByTagname
+
 === PHP ===
+
+'''PHP''' es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico. El código es interpretado por un servidor web con un módulo de procesador de PHP que genera el HTML resultante.
+
+* ?php echo "Hola"; ?>
+* if ($a > $b) { echo "A es mayor"; } else { echo "B es mayor"; }
+* for ($i = 1; $i <= 10; $i++) { echo $i; }
 
 == Tema 9: Accesibilidad y usabilidad  ==
 
