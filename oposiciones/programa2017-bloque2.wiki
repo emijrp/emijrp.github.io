@@ -137,19 +137,19 @@ Tipos de '''interfaces''':
 
 Tipos de '''RAID''':
 
-* '''RAID 0''': Los datos se distribuyen entre dos o más discos, sin información de paridad, redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.
+* '''RAID 0''': Los datos se distribuyen entre dos o más discos, '''sin información de paridad''', redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.
 
-* '''RAID 1''': Consiste en la copia exacta (mirror) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.
+* '''RAID 1''': Consiste en la '''copia exacta''' (mirror) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.
 
-* '''RAID 2''': Reparte los datos a nivel de bits en vez de bloques. No tiene redundacia pero sí "paridad" con Hamming code. Se utiliza muy poco.
+* '''RAID 2''': Reparte los datos a '''nivel de bits''' en vez de bloques. No tiene redundacia pero sí "paridad" con Hamming code. Se utiliza muy poco.
 
-* '''RAID 3''': Reparte los datos a nivel de bytes, con un disco con información de paridad. Se utiliza muy poco.
+* '''RAID 3''': Reparte los datos a '''nivel de bytes''', con un disco con información de paridad. Se utiliza muy poco.
 
-* '''RAID 4''': Reparte los datos a nivel de bloque, con un disco dedicado a paridad. El rendimiento de lectura es alto, pero la escritura es baja al ir toda la información de paridad en el mismo disco.
+* '''RAID 4''': Reparte los datos a '''nivel de bloque''', con un disco dedicado a paridad. El rendimiento de lectura es alto, pero la escritura es baja al ir toda la información de paridad en el mismo disco.
 
-* '''RAID 5''': Datos repartidos a nivel de bloque, con paridad distribuida entre varios discos. Si falla un disco, la información puede reconstruirse con la paridad. Requiere al menos tres discos.
+* '''RAID 5''': Datos repartidos a nivel de bloque, con '''paridad distribuida entre varios discos'''. Si falla un disco, la información puede reconstruirse con la paridad. Requiere al menos tres discos.
 
-* '''RAID 6''': Como el RAID 5 pero con dos bloques de paridad en distintos discos.
+* '''RAID 6''': Como el RAID 5 pero con '''dos bloques de paridad''' en distintos discos.
 
 <table class="wikitable" style="text-align: center;">
 <tr><th>Nivel</th><th>Discos (mínimo)</th><th>Eficiencia espacio</th><th>Tolerancia a fallos</th></tr>
