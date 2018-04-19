@@ -28,6 +28,9 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 ** [https://www.youtube.com/watch?v=IjmjDJklJ24 La Corona] (22 minutos)
 * Funciones constitucionales del Rey (Artículo 62 de la Constitución)
 
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 1'''. 1) España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político. 2) La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado. 3) La forma política del Estado español es la Monarquía parlamentaria.
+
 {{clear}}
 
 == Tema 2 ==
@@ -43,6 +46,15 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 * El Tribunal Constitucional. Composición y atribuciones (Título IX de la Constitución)
 * [https://www.boe.es/buscar/doc.php?id=BOE-A-1981-10325 Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo] (5 páginas)
 
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 54'''. Una ley orgánica regulará la institución del '''Defensor del Pueblo''', como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título [Título I], a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 153'''.
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 159'''. El '''Tribunal Constitucional''' se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.
+
 {{clear}}
 
 == Tema 3 ==
@@ -51,6 +63,23 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 * El Gobierno (Título IV de la Constitución)
 * Relaciones entre el Gobierno y las Cortes Generales (Título V de la Constitución)
+
+=== Estado de alarma, excepción y sitio ===
+
+{{cayo-en-convocatoria|1=2016}}
+'''Artículo 116'''.
+
+* 1. Una ley orgánica regulará los estados de alarma, de excepción y de sitio, y las competencias y limitaciones correspondientes.
+
+* 2. El '''estado de alarma''' será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros por un plazo máximo de quince días, dando cuenta al Congreso de los Diputados, reunido inmediatamente al efecto y sin cuya autorización no podrá ser prorrogado dicho plazo. El decreto determinará el ámbito territorial a que se extienden los efectos de la declaración.
+
+* 3. El '''estado de excepción''' será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados. La autorización y proclamación del estado de excepción deberá determinar expresamente los efectos del mismo, el ámbito territorial a que se extiende y su duración, que no podrá exceder de treinta días, prorrogables por otro plazo igual, con los mismos requisitos.
+
+* 4. El '''estado de sitio''' será declarado por la mayoría absoluta del Congreso de los Diputados, a propuesta exclusiva del Gobierno. El Congreso determinará su ámbito territorial, duración y condiciones.
+
+* 5. No podrá procederse a la disolución del Congreso mientras estén declarados algunos de los estados comprendidos en el presente artículo, quedando automáticamente convocadas las Cámaras si no estuvieren en período de sesiones. Su funcionamiento, así como el de los demás poderes constitucionales del Estado, no podrán interrumpirse durante la vigencia de estos estados. Disuelto el Congreso o expirado su mandato, si se produjere alguna de las situaciones que dan lugar a cualquiera de dichos estados, las competencias del Congreso serán asumidas por su Diputación Permanente.
+
+* 6. La declaración de los estados de alarma, de excepción y de sitio no modificarán el principio de responsabilidad del Gobierno y de sus agentes reconocidos en la Constitución y en las leyes.
 
 {{clear}}
 
@@ -61,7 +90,12 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 * El '''Gobierno Abierto'''
 * Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas
 * [https://boe.es/buscar/doc.php?id=BOE-A-2013-12887 Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno] (31 páginas)
+
+{{cayo-en-convocatoria|1=2016}}
 * El Consejo de Transparencia y Buen Gobierno: funciones (Título III de la Ley de transparencia)
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 36'''. Comisión de Transparencia y Buen Gobierno. 1) La Comisión de Transparencia y Buen Gobierno ejercerá todas las competencias que le asigna esta Ley, así como aquellas que les sean atribuidas en su normativa de desarrollo. 2) Dicha Comisión estará compuesta por: a) El Presidente b) Un Diputado c) Un Senador d) Un representante del Tribunal de Cuentas e) Un representante del Defensor del Pueblo f) Un representante de la Agencia Española de Protección de Datos g) Un representante de la Secretaría de Estado de Administraciones Públicas h) Un representante de la Autoridad Independiente de Responsabilidad Fiscal
 
 == Tema 5 ==
 
@@ -69,11 +103,19 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 # La '''Administración pública''': principios constitucionales informadores. La Administración General del Estado: organización y personal a su servicio. El texto refundido del Estatuto Básico del Empleo Público y demás normativa vigente.<ref>[https://www.boe.es/boe/dias/2007/04/13/pdfs/A16270-16299.pdf Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público]</ref> Las Comunidades Autónomas y la Administración local: regulación constitucional.
 
+=== Las CCAA en la Constitución ===
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 147'''.
+
 == Tema 6 ==
 
 {{recuadro|1='''Tema 6.''' }}
 
 # Las fuentes del derecho administrativo. La jerarquía de las fuentes. La ley. Las disposiciones del Ejecutivo con fuerza de ley: decreto-ley y decreto legislativo. El reglamento: concepto, clases y límites. Otras fuentes del derecho administrativo.
+
+{{cayo-en-convocatoria|1=2016}}
+* La constitución es la norma suprema.
 
 == Tema 7 ==
 
@@ -81,11 +123,25 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 # Políticas de '''igualdad''' de género. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115 Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres] (39 páginas)</ref> Políticas contra la violencia de género. La Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760 Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género] (59 páginas)</ref> Discapacidad y dependencia.<ref>[https://boe.es/diario_boe/txt.php?id=BOE-A-2013-12632 Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social] (39 páginas)</ref>
 
+{{cayo-en-convocatoria|1=2016}}
+* Sociedad de la Información e igualdad
+
+{{cayo-en-convocatoria|1=2016}}
+* La composición de la Comisión contra la Violencia de Género del Consejo Interterritorial del Sistema Nacional de Salud estará compuesta por representantes de todas las Comunidades Autónomas con competencia en la materia.
+
 == Tema 8 ==
 
 {{recuadro|1='''Tema 8.''' }}
 
 # La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
+
+{{cayo-en-convocatoria|1=2016}}
+* Validez del DNI. Dos años, cuando el solicitante no haya cumplido los cinco años de edad. Cinco años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta en el momento de la expedición o renovación. Diez años, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta.
+
+* Los certificados del DNI electrónico tienen validez de hasta 5 años.
 
 == Tema 9 ==
 
@@ -99,9 +155,15 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 # '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2009-18358 Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos] (33 páginas)</ref> La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.<ref>[https://www.boe.es/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica]</ref> Normas técnicas de Interoperabilidad.<ref>[http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13501 Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares] (11 páginas)</ref>
 
+{{cayo-en-convocatoria|1=2016}}
+'''Artículo 4'''. Principios básicos del Esquema Nacional de Seguridad. El objeto último de la seguridad de la información es asegurar que una organización administrativa podrá cumplir sus objetivos utilizando sistemas de información. En las decisiones en materia de seguridad deberán tenerse en cuenta los siguientes principios básicos: a) Seguridad integral. b) Gestión de riesgos. c) Prevención, reacción y recuperación. d) Líneas de defensa. e) Reevaluación periódica. f) Función diferenciada.
+
 == Tema 11 ==
 
 {{recuadro|1='''Tema 11.''' Instrumentos para el acceso electrónico a las Administraciones públicas: '''sedes electrónicas''', canales y puntos de acceso, identificación y autenticación. Infraestructuras y servicios comunes.}}
+
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público]
+* [http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE]
 
 == Referencias ==
 {{reflist}}
