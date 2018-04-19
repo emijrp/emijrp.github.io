@@ -190,14 +190,16 @@ Los '''escáneres''' pueden ser:
 
 * '''Lista''': secuencia de elementos que siguen un orden.
 
+[[File:arbol.png|thumb|right|200px|Árbol binario.]]
 * '''Árbol''': estructura jerárquica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
 ** '''Nodo externo''': Cuando un nodo no apunta a ningún hijo.
 ** '''Nivel''': Se comienza en el nivel 0 (nodo raiz).
 ** '''Altura''': Número de niveles + 1. Un árbol con nivel 0, 1 y 2, tiene altura 3.
-** '''Recorrido en profundidad''': ???
-*** Recorrido en '''preorden''': ???
-*** Recorrido en '''postorden''': ???
-*** Recorrido en '''inorden''': ???
+** '''Recorrido en profundidad'''
+*** Recorrido en '''preorden''': raíz, izquierda, derecha. Ejemplo: F B A D C E G I H
+*** Recorrido en '''inorden''': izquierda, raíz, derecha. Ejemplo: A B C D E F G H I
+*** Recorrido en '''postorden''': izquierda, derecha, raíz. Ejemplo: A C E D B H I G F
+** '''Recorrido en anchura''': se van recorriendo todos los niveles y hasta que no se han recorrido los nodos de cada nivel no se sigue bajando. Ejemplo: F B G A D I C E H
 
 * '''Grafo''': conjunto de nodos conectados, puede haber grafos dirigidos (vértices con orientación) y grafos no dirigidos (vértices sin orientación).
 
