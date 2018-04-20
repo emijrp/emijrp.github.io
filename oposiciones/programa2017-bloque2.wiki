@@ -249,6 +249,7 @@ Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los dis
 
 * '''ISO 9660''': es un sistema de archivos para medios ópticos (CD, DVD).
 
+{{cayo-en-convocatoria|1=2016}}
 Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).
 
 === Algoritmos ===
@@ -566,7 +567,5 @@ En esta categoría encontramos: BaseX, eXist, MarkLogic Server, MonetDB/XQuery, 
 == Referencias ==
 {{reflist}}
 {{reflist-end}}
-
-== Enlaces externos ==
 
 {{footer}}

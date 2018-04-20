@@ -17,7 +17,7 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 '''Estructura formal:''' Preámbulo, título preliminar, 10 títulos, 4 disposiciones adicionales, 9 disposiciones transitorias, 1 disposición derogatoria, 1 disposición final. Tiene 169 artículos.
 
-{{youtube|id=bDf3rkh7kqU|align=right}}
+<!--{{youtube|id=bDf3rkh7kqU|align=right}}-->
 
 * [https://www.boe.es/legislacion/documentos/ConstitucionCASTELLANO.pdf Constitución Española de 1978] (51 páginas)
 ** [https://www.youtube.com/watch?v=ZjKTjk0DurY Fechas importantes] (6 minutos)
@@ -37,7 +37,7 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 {{recuadro|1='''Tema 2.''' Las '''Cortes Generales'''. Atribuciones del Congreso de los Diputados y del Senado. El Tribunal Constitucional. Composición y atribuciones. El Defensor del Pueblo.}}
 
-{{youtube|id=8MMCWgR4RFs|align=right}}
+<!--{{youtube|id=8MMCWgR4RFs|align=right}}-->
 
 * Las Cortes Generales (Título III de la Constitución)
 ** [https://www.youtube.com/watch?v=8MMCWgR4RFs Las Cámaras] (35 minutos)
@@ -165,10 +165,15 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 * [https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público]
 * [http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE]
 
+{{cayo-en-convocatoria|1=2016}}
+El '''Punto de Acceso General''' (PAG) es [https://sede.administracion.gob.es https://sede.administracion.gob.es].
+
+== Fuentes ==
+
+* Para confeccionar estos apuntes se han utilizado en ocasiones artículos de [https://www.wikipedia.org Wikipedia].
+
 == Referencias ==
 {{reflist}}
 {{reflist-end}}
-
-== Enlaces externos ==
 
 {{footer}}

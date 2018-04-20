@@ -30,6 +30,9 @@
 <tr><td>
 &nbsp;1. <a href="#Tema 1: Modelo conceptual de datos">Tema 1: Modelo conceptual de datos</a><br/>
 &nbsp;2. <a href="#Tema 2: Diseño de bases de datos">Tema 2: Diseño de bases de datos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="#Diseño lógico y físico">Diseño lógico y físico</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="#Normalización">Normalización</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 <a href="#12 reglas de Codd">12 reglas de Codd</a><br/>
 &nbsp;3. <a href="#Tema 3: Lenguajes de programación">Tema 3: Lenguajes de programación</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Paradigmas">Paradigmas</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#Estructuras">Estructuras</a><br/>
@@ -53,8 +56,8 @@
 &nbsp;10. <a href="#Tema 10: Herramientas CASE">Tema 10: Herramientas CASE</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;10.1 <a href="#Control de versiones">Control de versiones</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;10.2 <a href="#Plataformas de desarrollo colaborativo de software">Plataformas de desarrollo colaborativo de software</a><br/>
-&nbsp;11. <a href="#Referencias">Referencias</a><br/>
-&nbsp;12. <a href="#Enlaces externos">Enlaces externos</a><br/>
+&nbsp;11. <a href="#Fuentes">Fuentes</a><br/>
+&nbsp;12. <a href="#Referencias">Referencias</a><br/>
 </td></tr>
 </table>
 
@@ -69,7 +72,7 @@
 
 <p>Los elementos básicos de un diagrama entidad-relación son las entidades, las relaciones y los atributos. Las entidades cuentan con atributos y ellas se relacionan entre sí.</p>
 
-<ul><li><b>Entidad</b>: representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.</li><li><b>Atributos</b>: son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos identificativos son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.</li><li><b>Relación</b>: describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos entidades, se llama binaria. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. Las cardinalidades pueden ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.</li></ul>
+<ul><li><b>Entidad</b>: representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.</li><li><b>Atributos</b>: son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el <b>dominio</b> (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos <b>identificativos</b> son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.</li><li><b>Relación</b>: describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de <b>grado</b> dos. El número de instancias de cada entidad que intervienen en la relación es la <b>cardinalidad</b>. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.</li></ul>
 
 <h2 id="Tema 2: Diseño de bases de datos">Tema 2: Diseño de bases de datos</h2>
 
@@ -77,6 +80,20 @@
 <p><b>Diseño de bases de datos</b>. Diseño lógico y físico. El modelo lógico relacional. Normalización.</p>
 </div>
 
+
+<h3 id="Diseño lógico y físico">Diseño lógico y físico</h3>
+
+<h3 id="Normalización">Normalización</h3>
+
+<h3 id="12 reglas de Codd">12 reglas de Codd</h3>
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016</b></p>
+</div>
+
+
+<p>En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el modelo relacional de bases de datos.</p>
+
+<ul><li><b>Regla 0</b>: un sistema relacional debe gestionar sus bases de datos mediante capacidades relacionales.</li><li><b>Regla 1</b>: toda la información se representa unidireccionalmente, con valores en columnas dentro de filas de tablas.</li><li><b>Regla 2</b>: todos los datos se deben poder acceder sin ambiguëdad. Acceso garantizado.</li><li><b>Regla 3</b>: debe permitir la existencia de valores nulos.</li><li><b>Regla 4</b>: ofrecer acceso a la estructura de la base de datos.</li><li><b>Regla 5</b>: el sistema debe soportar un lenguaje relacional con sintaxis lineal, interactivo y que soporte definicón de datos.</li><li><b>Regla 6</b>: todas las vistas teóricamente actualizables deben poderse actualizar.</li><li><b>Regla 7</b>: alto nivel de inserción, actualizació y borrado. Operaciones sobre múltiples filas.</li><li><b>Regla 8</b>: independencia física de los datos.</li><li><b>Regla 9</b>: independencia lógica de los datos.</li><li><b>Regla 10</b>: independencia de la integridad.</li><li><b>Regla 11</b>: independencia de la distribución.</li><li><b>Regla 12</b>: regla del orden, no se debe poder trabajar a bajo nivel sin que haya seguridad relacional e integridad.</li></ul>
 
 <h2 id="Tema 3: Lenguajes de programación">Tema 3: Lenguajes de programación</h2>
 
@@ -246,6 +263,10 @@
 
 <p>Entre las herramientas de seguimiento de errores (bug tracking) destacan Bugzilla (creada por Mozilla y de código abierto), Trac (libre) y JIRA (propietaria).</p>
 
+<h2 id="Fuentes">Fuentes</h2>
+
+<ul><li>Para confeccionar estos apuntes se han utilizado en ocasiones artículos de <a href="https://www.wikipedia.org">Wikipedia</a>.</li></ul>
+
 <h2 id="Referencias">Referencias</h2>
 <div style="font-size: 90%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em;">
 
@@ -257,14 +278,12 @@
 </div>
 
 
-<h2 id="Enlaces externos">Enlaces externos</h2>
-
 <div class="footer">
 <hr/>
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-17 18:36:41 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-20 17:51:21 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

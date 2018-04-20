@@ -10,13 +10,36 @@ Los elementos básicos de un diagrama entidad-relación son las entidades, las r
 
 * '''Entidad''': representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.
 
-* '''Atributos''': son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos identificativos son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.
+* '''Atributos''': son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el '''dominio''' (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos '''identificativos''' son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.
 
-* '''Relación''': describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos entidades, se llama binaria. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. Las cardinalidades pueden ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.
+* '''Relación''': describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de '''grado''' dos. El número de instancias de cada entidad que intervienen en la relación es la '''cardinalidad'''. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.
 
 == Tema 2: Diseño de bases de datos ==
 
 {{recuadro|1='''Diseño de bases de datos'''. Diseño lógico y físico. El modelo lógico relacional. Normalización.}}
+
+=== Diseño lógico y físico ===
+
+=== Normalización ===
+
+=== 12 reglas de Codd ===
+{{cayo-en-convocatoria|1=2016}}
+
+En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el modelo relacional de bases de datos.
+
+* '''Regla 0''': un sistema relacional debe gestionar sus bases de datos mediante capacidades relacionales.
+* '''Regla 1''': toda la información se representa unidireccionalmente, con valores en columnas dentro de filas de tablas.
+* '''Regla 2''': todos los datos se deben poder acceder sin ambiguëdad. Acceso garantizado.
+* '''Regla 3''': debe permitir la existencia de valores nulos.
+* '''Regla 4''': ofrecer acceso a la estructura de la base de datos.
+* '''Regla 5''': el sistema debe soportar un lenguaje relacional con sintaxis lineal, interactivo y que soporte definicón de datos.
+* '''Regla 6''': todas las vistas teóricamente actualizables deben poderse actualizar.
+* '''Regla 7''': alto nivel de inserción, actualizació y borrado. Operaciones sobre múltiples filas.
+* '''Regla 8''': independencia física de los datos.
+* '''Regla 9''': independencia lógica de los datos.
+* '''Regla 10''': independencia de la integridad.
+* '''Regla 11''': independencia de la distribución.
+* '''Regla 12''': regla del orden, no se debe poder trabajar a bajo nivel sin que haya seguridad relacional e integridad.
 
 == Tema 3: Lenguajes de programación ==
 
@@ -378,10 +401,12 @@ Existe forjas que ofrecen alojamiento de proyectos para distintos sistemas de co
 
 Entre las herramientas de seguimiento de errores (bug tracking) destacan Bugzilla (creada por Mozilla y de código abierto), Trac (libre) y JIRA (propietaria).
 
+== Fuentes ==
+
+* Para confeccionar estos apuntes se han utilizado en ocasiones artículos de [https://www.wikipedia.org Wikipedia].
+
 == Referencias ==
 {{reflist}}
 {{reflist-end}}
-
-== Enlaces externos ==
 
 {{footer}}

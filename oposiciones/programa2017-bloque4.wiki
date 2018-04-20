@@ -57,11 +57,12 @@ Puertos de red.<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numb
 * 443: HTTP Secure (HTTPS)
 * 993: IMAP over SSL
 
+== Fuentes ==
+
+* Para confeccionar estos apuntes se han utilizado en ocasiones artículos de [https://www.wikipedia.org Wikipedia].
 
 == Referencias ==
 {{reflist}}
 {{reflist-end}}
-
-== Enlaces externos ==
 
 {{footer}}
