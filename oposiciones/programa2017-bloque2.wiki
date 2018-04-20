@@ -5,13 +5,14 @@
 {{recuadro|1='''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.}}
 
 === Sistemas numéricos ===
+{{cayo-en-convocatoria|1=2016}}
 
 * '''Binario''': base 2, solamente se utilizan el 0 y el 1.
 * '''Octal''': base 8, se utilizan del 0 al 7.
 * '''Decimal''': base 10, se utlizan del 0 al 9.
 * '''Hexadecimal''': base 16, se utilizan del 0 al 9 y de la A a la F.
 
-Para convertir un número en decimal a binario, se divide el número entre 2 sucesivamente. Los restos colocados a la inversa componen el número en binario.
+Para convertir un número '''decimal a binario''', se divide el número entre 2 sucesivamente. Los restos colocados a la inversa componen el número en binario.
 
 * 8 / 2 = 4. Resto 0.
 * 4 / 2 = 2. Resto 0.
@@ -19,20 +20,26 @@ Para convertir un número en decimal a binario, se divide el número entre 2 suc
 * 1 / 2 = 0. Resto 1.
 * 8 en decimal es 1000 en binario.
 
-Para convertir de decimal a octal se utiliza el mismo método.
+Para convertir un número '''decimal a octal''' se utiliza el mismo método.
 
 * 34 / 8 = 4. Resto 2.
 * 4 / 8 = 0. Resto 4.
 * 34 en decimal es 42 en octal.
 
+Para convertir un número '''decimal a hexadecimal'''...
 
-¿Cómo convertir al contrario?
+Para convertir un número '''binario a decimal'''...
+
+Para convertir un número '''octal a decimal'''...
+
+Para convertir un número '''hexadecimal a decimal'''...
 
 === Arquitecturas de ordenador ===
 
 Según la '''estructura''':
 
-* '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (con registros del procesador) y una unidad de control (con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanimos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus.
+{{cayo-en-convocatoria|1=2016}}
+* '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (con registros del procesador) y una unidad de control (con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanismos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus. La unidad de control indica qué operación ejecutar en cada momento.
 
 * '''Arquitectura Harvard''': cuentan con conjunto de direcciones y buses separados para instrucciones y datos.
 
@@ -46,11 +53,19 @@ Según el conjunto de '''instrucciones''':
 
 * '''Arquitectura SISC''': un subtipo de RISC, orientada al procesamiento en paralelo. Utiliza la tecnología VLSI. Es acrónimo de Simple Instruction Set Computing.
 
+{{cayo-en-convocatoria|1=2016}}
+Según el número de '''núcleos''':
+
+* Un núcleo: 
+
+* Varios núcleos: 
+
 === Componentes internos ===
 
 Los '''componentes internos''' básicos de un ordenador son:
 
 * '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.
+** '''Discos SSD''': SSD es el acrónimo de Solid State Drive, disco de estado sólido. Son discos más rápidos que los discos mecánicos clásicos y su coste es superior.
 
 * '''Memoria RAM''': 
 
@@ -62,15 +77,19 @@ Los '''componentes internos''' básicos de un ordenador son:
 
 * '''Tarjeta de sonido''': 
 
-Las '''memorias no volátiles''' no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquettes, discos duros, ROM (read-only memory) y sus variantes, NVRAM (non-volatile RAM), etc.
+{{cayo-en-convocatoria|1=2016}}
+Las '''memorias no volátiles''' no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquetes, discos duros, ROM (read-only memory) y sus variantes (ROM-CMOS), NVRAM (non-volatile RAM), etc.
 
-Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM) y DRAM (dynamic RAM).
+Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM), DRAM (dynamic RAM), RDRAM (Rambus DRAM), SDRAM, todas las DDR. Las estáticas no requieren refresco para mantener los datos en memoria mientras que las dinámicas sí.
 
 == Tema 2: Periféricos ==
 
 {{recuadro|1='''Periféricos''': conectividad y administración. Elementos de impresión. Elementos de almacenamiento. Elementos de visualización y digitalización.}}
 
 Los '''puertos''' son interfaces entre un ordenador y otros ordenadores o periféricos.
+
+{{cayo-en-convocatoria|1=2016}}
+Un '''periférico''' es un dispositivo que se conecta a un ordenador a través de un puerto y que realiza alguna tarea. A grandes rasgos, puede haber '''periféricos de entrada''' (teclado, ratón, micrófono, escáner, lector de huellas) y '''periféricos de salida''' (pantalla, altavoz, impresora).
 
 Tipos de '''USB''':
 
@@ -104,9 +123,9 @@ Tipos de '''teclado''':
 === Elementos de impresión ===
 
 Las '''impresoras''' pueden ser:
-
-* '''De impacto''': matriciales (o de agujas), de margarita, de bola, de línea. Limitadas a texto o gráficos muy básicos. Monocromáticas.
-* '''Sin impacto''': térmicas, de inyección o chorro de tinta, láser.
+{{cayo-en-convocatoria|1=2016}}
+* '''De impacto''': matriciales (o de agujas), de margarita, de bola, de línea. Limitadas a texto o gráficos muy básicos. Monocromáticas. Se golpea el papel y el impacto transfiere la tinta.
+* '''Sin impacto''': térmicas (agujas calientes recorren papel termosensible: cajeros), de inyección o chorro de tinta (proyección de gotas de tinta), sublimación de tinta (se usa calor para transferir la tinta), láser.
 
 Según el '''método de impresión''':
 
@@ -130,11 +149,13 @@ Tipos de '''interfaces''':
 
 * '''Parallel ATA''' (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive electronics (IDE). Su extensión ATAPI permite lectoras de CD.
 
+{{cayo-en-convocatoria|1=2016}}
 * '''Serial ATA''' (SATA): Reemplaza a PATA. Sirve para discos duros, lectoras de CD y discos de estado sólido SSD.
 * '''SATA 1.0''': 1.5 Gbit/s (150 MB/s) SATA-150.
 * '''SATA 2.0''': 3 Gbit/s (300 MB/s) SATA-300.
 * '''SATA 3.0''': 6 Gbit/s (600 MB/s) SATA-600.
 
+{{cayo-en-convocatoria|1=2016}}
 Tipos de '''RAID''':
 
 * '''RAID 0''': Los datos se distribuyen entre dos o más discos, '''sin información de paridad''', redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.
@@ -190,11 +211,12 @@ Los '''escáneres''' pueden ser:
 
 * '''Lista''': secuencia de elementos que siguen un orden.
 
-[[File:arbol.png|thumb|right|200px|Árbol binario.]]
-* '''Árbol''': estructura jerárquica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
+{{cayo-en-convocatoria|1=2016}}
+* '''Árbol''': estructura jerárquica y dinámica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Los árboles se pueden recorrer en profundidad y en anchura (amplitud). Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
 ** '''Nodo externo''': Cuando un nodo no apunta a ningún hijo.
 ** '''Nivel''': Se comienza en el nivel 0 (nodo raiz).
 ** '''Altura''': Número de niveles + 1. Un árbol con nivel 0, 1 y 2, tiene altura 3.
+[[File:arbol.png|thumb|right|200px|Árbol binario.]]
 ** '''Recorrido en profundidad'''
 *** Recorrido en '''preorden''': raíz, izquierda, derecha. Ejemplo: F B A D C E G I H
 *** Recorrido en '''inorden''': izquierda, raíz, derecha. Ejemplo: A B C D E F G H I
@@ -202,6 +224,8 @@ Los '''escáneres''' pueden ser:
 ** '''Recorrido en anchura''': se van recorriendo todos los niveles y hasta que no se han recorrido los nodos de cada nivel no se sigue bajando. Ejemplo: F B G A D I C E H
 
 * '''Grafo''': conjunto de nodos conectados, puede haber grafos dirigidos (vértices con orientación) y grafos no dirigidos (vértices sin orientación).
+
+* '''Tablas de dispersión''': relaciona unas claves con sus valores. La búsqueda es muy rápida, recuperando los valores indicando su clave. También se conocen como matriz asociativa o tabla hash.
 
 === Sistemas de ficheros ===
 
@@ -230,6 +254,12 @@ Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (T
 === Algoritmos ===
 
 Un '''algoritmo''' es un conjunto de instrucciones bien definidas, ordenadas y finitas, que permiten realizar una tarea mediante la ejecución de dichos pasos. A partir de un estado inicial y con unos datos de entrada, siguiendo las instrucciones, se llega al estado final obteniendo el resultado.
+
+{{cayo-en-convocatoria|1=2016}}
+La '''complejidad de un algoritmo''' determina su dificultad y la cantidad de recursos necesarios para su ejecución. La complejidad de los algoritmos se puede medir para su peor, promedio y mejor caso.
+* '''Peor caso''': los datos de inicio hacen que el algoritmo ejecute el caso más complicado.
+* '''Caso promedio''': los datos de inicio no presentan ningún caso especial, es el ejemplo medio.
+* '''Mejor caso''': los datos de inicio suponen el caso más sencillo de resolver.
 
 Algoritmos de '''ordenación''':
 
@@ -349,6 +379,7 @@ Un '''sistema operativo''' es el software principal que gestiona los recursos ha
 
 === GNU/Linux ===
 
+{{cayo-en-convocatoria|1=2016}}
 Una '''distribución Linux''' (distro) es un conjunto de paquetes de software, el núcleo GNU/Linux y también generalmente un sistema de ventanas, proporcionando un sistema operativo completo orientado ya sea a uso doméstico, empresarial o de servidores. A continuación un listado de distros y sus variantes.
 
 * '''Debian''': una de las primeras distribuciones no comerciales. Mantenida por voluntarios con un gran compromiso con la filosofía del software libre.
@@ -383,7 +414,7 @@ Una '''distribución Linux''' (distro) es un conjunto de paquetes de software, e
 
 * '''Slackware''': creada en 1993, es una de las distros más antiguas, con el compromiso de ser fácilmente modificable por los usuarios.
 
-También existe un grupo de distribuciones ligeras (lightweight) cuyo objetivo es ocupar poco espacio y recursos para poder ser utilizadas en ordenadores con prestaciones reducidas:
+También existe un grupo de '''distribuciones ligeras''' (lightweight) cuyo objetivo es ocupar poco espacio y recursos para poder ser utilizadas en ordenadores con prestaciones reducidas:
 
 {{div col 3}}
 * Damn Small Linux
@@ -400,17 +431,58 @@ También existe un grupo de distribuciones ligeras (lightweight) cuyo objetivo e
 
 Un '''sistema de ventanas''' proporciona la interfaz gráfica de usuario a un sistema operativo, implementando las ventanas, iconos, menúes, etc. El más común en sistemas Linux es '''X Window System'''. En Windows se llama '''Desktop Window Manager'''.
 
-Opciones de programas comunes:
+{{cayo-en-convocatoria|1=2016}}
+Opciones de '''programas comunes''':
 
-* '''vi''': w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
+* '''vi(m)''': x (borrar carácter), dd (borrar línea), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
 
 * '''emacs''': C-x C-s (guardar)
 
 * '''nano''': ^O (guardar), ^W (buscar), ^X (salir)
 
-Comandos básicos:
+Otros editores de texto son, por consola (Pico), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
 
-* '''chmod''': cambiar permisos. Ejecución (x) = 1, Escritura (w) = 2, Lectura (r) = 4, Todo = 7, Ninguno = 0. chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file
+{{cayo-en-convocatoria|1=2016}}
+Uso de '''comandos básicos''':
+
+* '''chmod''': cambiar permisos sobre ficheros o directorios. Lectura (r) = 4, Escritura (w) = 2, Ejecución (x) = 1, Todo = 7, Ninguno = 0. El orden es usuarios (u), grupo (g) y otros (o). chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file
+* '''ln''': 
+* '''rm''': -r
+
+Resumen de '''comandos''' y su función:
+
+{{div-col-2}}
+* '''cat''': muestra contenido de fichero
+* '''cd''': cambia de directorio
+* '''chgrp''': cambia grupo de fichero o directorio
+* '''chmod''': cambia permisos de fichero o directorio
+* '''chown''': cambia propietario de fichero o directorio
+* '''cp''': copia ficheros o directorios
+* '''cut''': corta texto
+* '''date''': muestra la fecha y hora
+* '''df''': muestra espacio libre en disco
+* '''diff''': diferencia entre dos ficheros
+* '''du''': muestra espacio ocupado por el directorio indicado
+* '''fg''': trae a primer plano trabajos ocultados a segundo plano anteriormente con Ctrl+Z
+* '''grep''': ejecuta expresiones regulares sobre texto o ficheros
+* '''head''': muestra el inicio de un fichero. Opuesto a tail.
+* '''ln''': crea un enlace a un fichero
+* '''man''': muestra ayuda de comandos
+* '''md5sum''': calcula hash md5 de fichero
+* '''mkdir''': crea un directorio. Opuesto a rmdir
+* '''mv''': renombrar o mover ficheros y directorios
+* '''pwd''': muestra directorio activo
+* '''rev''': invierte una cadena
+* '''rm''': borra fichero
+* '''rmdir''': borra directorio vacío. Opuesto a mkdir
+* '''sort''': ordena una lista
+* '''tail''': muestra el final de un fichero. Opuesto a head
+* '''time''': calcula el tiempo de ejecución de un comando
+* '''touch''': crea un fichero o modifica su fecha si ya existe
+* '''uniq''': elimina duplicados de una lista
+* '''wc''': cuenta caracteres y líneas de un fichero
+* '''who''': muestra quien está logueado en el sistema
+{{div-col-end}}
 
 * [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
 * [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
