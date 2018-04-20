@@ -377,6 +377,27 @@ Un '''sistema operativo''' es el software principal que gestiona los recursos ha
 
 === Android ===
 
+'''Versiones''' de Android:
+
+{{div-col-2}}
+* Apple Pie
+* Banana Bread
+* Cupcake
+* Donut
+* Eclair
+* Froyo
+* Gingerbread
+* Honeycomb (tablets)
+* Ice Cream Sandwich
+* Jelly Bean
+* KitKat
+* Lollipop
+* Marshmallow
+* Nougat
+* Oreo
+* Android P 
+{{div-col-end}}
+
 === GNU/Linux ===
 
 {{cayo-en-convocatoria|1=2016}}
@@ -466,18 +487,23 @@ Resumen de '''comandos''' y su función:
 * '''fg''': trae a primer plano trabajos ocultados a segundo plano anteriormente con Ctrl+Z
 * '''grep''': ejecuta expresiones regulares sobre texto o ficheros
 * '''head''': muestra el inicio de un fichero. Opuesto a tail.
+* '''htop''': muestra procesos (más visual)
 * '''ln''': crea un enlace a un fichero
 * '''man''': muestra ayuda de comandos
 * '''md5sum''': calcula hash md5 de fichero
 * '''mkdir''': crea un directorio. Opuesto a rmdir
 * '''mv''': renombrar o mover ficheros y directorios
 * '''pwd''': muestra directorio activo
+* '''ps''': muestra procesos
+* '''pstree''': muestra árbol de procesos
 * '''rev''': invierte una cadena
 * '''rm''': borra fichero
 * '''rmdir''': borra directorio vacío. Opuesto a mkdir
 * '''sort''': ordena una lista
+* '''shutdown''': apaga el sistema
 * '''tail''': muestra el final de un fichero. Opuesto a head
 * '''time''': calcula el tiempo de ejecución de un comando
+* '''top''': muestra procesos
 * '''touch''': crea un fichero o modifica su fecha si ya existe
 * '''uniq''': elimina duplicados de una lista
 * '''wc''': cuenta caracteres y líneas de un fichero
