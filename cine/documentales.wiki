@@ -4068,13 +4068,11 @@ Esta tabla es una copia de los documentales que he puntuado en [http://www.filma
 
 <!--
 
-https://www.youtube.com/watch?v=BCHD6WYWe6Y
-
-https://www.youtube.com/watch?v=pOs4bBXi7QQ&feature=youtu.be
+https://www.youtube.com/watch?v=pOs4bBXi7QQ
 
 https://www.youtube.com/watch?v=64bHImg-DKQ
 
-https://www.youtube.com/watch?v=-L5Xlgc8S2Q&feature=youtu.be
+https://www.youtube.com/watch?v=-L5Xlgc8S2Q
 
 https://www.youtube.com/watch?v=We6yMX4lrmA
 
@@ -4082,9 +4080,9 @@ https://www.youtube.com/watch?v=eMpbMO9jTVg
 
 https://www.youtube.com/watch?v=BLoIwfSV0PY
 
-https://www.youtube.com/watch?v=yvB0_o_ZffM&feature=youtu.be
+https://www.youtube.com/watch?v=yvB0_o_ZffM
 
-https://www.youtube.com/watch?v=4QyeSXiz82Q&feature=youtu.be
+https://www.youtube.com/watch?v=4QyeSXiz82Q
 
 https://www.youtube.com/watch?v=-xkTS0YbAgM
 
@@ -4097,6 +4095,14 @@ https://en.wikipedia.org/wiki/1971_%282014_film%29
 http://www.lamarea.com/2013/10/14/los-documentales-prohibidos-de-la-transicion/
 http://www.lamarea.com/2013/10/20/los-documentales-prohibidos-de-la-transicion-y-ii/
 
+https://www.racocatala.cat/noticia/469/filmoteca-exhibira-documentals-incautats-franco
+
+http://www.acuartaparede.com/cine-militante-espanol/?lang=es
+
+https://www.youtube.com/user/BIDANITV
+
+https://fr.wikipedia.org/wiki/Jean-Dominique_Gautier
+Las Brigadas en Madrigueras y la imagen como lenguaje visual" dirigido por María José Cuesta y producido por Pedro Carrión
 -->
 
 {{footer}}
