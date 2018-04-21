@@ -1,4 +1,7 @@
 {{header|1=Bloque IV. Sistemas y comunicaciones}}
+{{oposiciones}}
+
+El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''10 temas'''.
 
 == Tema 1: Administración de sistemas operativos ==
 
@@ -65,4 +68,5 @@ Puertos de red.<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numb
 {{reflist}}
 {{reflist-end}}
 
+{{oposiciones}}
 {{footer}}

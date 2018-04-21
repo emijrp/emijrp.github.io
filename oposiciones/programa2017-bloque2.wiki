@@ -1,4 +1,7 @@
 {{header|1=Bloque II. Tecnología básica}}
+{{oposiciones}}
+
+El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''5 temas'''.
 
 == Tema 1: Informática básica ==
 
@@ -568,4 +571,5 @@ En esta categoría encontramos: BaseX, eXist, MarkLogic Server, MonetDB/XQuery, 
 {{reflist}}
 {{reflist-end}}
 
+{{oposiciones}}
 {{footer}}

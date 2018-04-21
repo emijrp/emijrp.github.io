@@ -1,4 +1,7 @@
 {{header|1=Bloque III. Desarrollo de sistemas}}
+{{oposiciones}}
+
+El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''10 temas'''.
 
 == Tema 1: Modelo conceptual de datos ==
 
@@ -409,4 +412,5 @@ Entre las herramientas de seguimiento de errores (bug tracking) destacan Bugzill
 {{reflist}}
 {{reflist-end}}
 
+{{oposiciones}}
 {{footer}}
