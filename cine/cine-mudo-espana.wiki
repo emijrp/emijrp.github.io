@@ -1,5 +1,5 @@
 {{header|1=Cine mudo en España}}
-{{vt|1=cine|2=Cine}}
+{{cine}}
 
 Cuando las duraciones son de unos segundos, he puesto "1 minuto" a modo genérico para permitir que la tabla sea ordenable fácilmente.
 
@@ -55,4 +55,5 @@ Mas adelante sacar una captura para cada clip usando el og:image del html de you
 
 * Bello Cuevas, José Antonio. ''Cine mudo español 1896-1920. Ficción, documental y reportaje''.
 
+{{cine}}
 {{footer}}

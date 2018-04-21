@@ -1,5 +1,5 @@
 {{header|1=Filmotecas}}
-{{vt|1=cine|2=Cine}}
+{{cine}}
 
 * La '''Filmoteca Española''' es el archivo que custodia el patrimonio fílmico español. Tiene como misión recuperar, investigar y conservar el patrimonio cinematográfico y promover su conocimiento. Es una Subdirección General del Instituto de la Cinematografía y de las Artes Audiovisuales y desde 1956 pertenece a la Federación Internacional de Archivos Fílmicos. [http://www.mecd.gob.es/cultura-mecd/areas-cultura/cine/mc/fe/portada.html Web oficial].
 
@@ -18,4 +18,5 @@
 {{reflist}}
 {{reflist-end}}
 
+{{cine}}
 {{footer}}

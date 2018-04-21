@@ -1,5 +1,5 @@
 {{header|1=Cine}}
-&nbsp;&nbsp;&nbsp;''Véase también: [[cine-mudo-espana|Cine mudo en España]], [[filmotecas|Filmotecas]], [[estadisticas-cine|Estadísticas de cine]], [[documentales|Documentales]] y [[series|Series]]''
+{{cine}}
 [[File:potemkin.jpg|300px|right|Escena de las escaleras de El acorazado Potemkin, película del director soviético Sergei Eisenstein.]]
 El '''cine''' es una de las artes más difundidas e influyentes que existen y eso que surgió hace poco más de un siglo.
 
@@ -573,7 +573,7 @@ Películas sobre guerrilleros/as y revolucionario/as.
 == Obras no incluidas en FilmAffinity ==
 
 * [https://www.youtube.com/watch?v=9F1vme_mTS4 Imprisoned (Archive)] (Frida Robles, México, 2015)
-* [Jarama] (Albert Pla, España, 2018)
+* [https://www.youtube.com/watch?v=hxFZMONGgnk Jarama] (Albert Pla, España, 2018)
 * [https://www.youtube.com/watch?v=kDZCXamntnE Mi película favorita de Nollywood] (Alexéi Shabárov, Rusia, 2015)
 * [http://www.cinechile.cl/pelicula-759 Pintando con el pueblo] (Leonardo Céspedes, Chile, 1971)
 * [https://www.youtube.com/watch?v=We6yMX4lrmA Rosas y Fusiles, mujeres de las FARC-EP] (Vilma Kahlo, Cuba, 2013)
@@ -795,4 +795,5 @@ Listas en IMDB
 
 -->
 
+{{cine}}
 {{footer}}

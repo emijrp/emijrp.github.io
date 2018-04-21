@@ -1,5 +1,5 @@
 {{header|1=Documentales}}
-{{vt2|1=cine|2=Cine|3=series|4=Series}}
+{{cine}}
 
 Una colección de '''documentales''' interesantes sobre política, historia, sociedad, etc.
 
@@ -4103,6 +4103,12 @@ https://www.youtube.com/user/BIDANITV
 
 https://fr.wikipedia.org/wiki/Jean-Dominique_Gautier
 Las Brigadas en Madrigueras y la imagen como lenguaje visual" dirigido por María José Cuesta y producido por Pedro Carrión
+
+https://archive.org/details/youtube-NdZxI3nFVJs
+https://www.imdb.com/title/tt4185186/?ref_=nv_sr_1
+
+
 -->
 
+{{cine}}
 {{footer}}

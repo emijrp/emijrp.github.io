@@ -1,5 +1,5 @@
 {{headerflot|1=Estadísticas de cine}}
-{{vt|1=cine|2=Cine}}
+{{cine}}
 
 Estas son algunas '''estadísticas y gráficas ''' de las películas vistas y mis puntuaciones. A <!-- fecha -->abril de 2018<!-- /fecha --> he visto unas <!-- total pelis -->636<!-- /total pelis --> películas y <!-- total cortos -->721<!-- /total cortos --> cortometrajes de <!-- total paises -->81<!-- /total paises --> países y <!-- total directores -->840<!-- /total directores --> directores diferentes.
 
@@ -16345,4 +16345,5 @@ Esta tabla es una copia de las películas que he puntuado en [http://www.filmaff
 </table>
 <!-- /tabla temas -->
 
+{{cine}}
 {{footer}}
