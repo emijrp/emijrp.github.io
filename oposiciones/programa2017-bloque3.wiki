@@ -7,6 +7,9 @@ El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a T
 
 {{recuadro|1='''Modelo conceptual de datos'''. Entidades, atributos y relaciones. Reglas de modelización. Diagramas de flujo de datos. Reglas de construcción. Descomposición en niveles. Flujogramas.}}
 
+=== Modelo conceptual de datos ===
+[[File:diagrama-er.png|thumb|right|300px|Diagrama ER.]]
+
 El '''modelo entidad-relación''' ideado por Peter Chen en 1976 es el más frecuente para el diseño conceptual de bases de datos.
 
 Los elementos básicos de un diagrama entidad-relación son las entidades, las relaciones y los atributos. Las entidades cuentan con atributos y ellas se relacionan entre sí.
@@ -17,13 +20,48 @@ Los elementos básicos de un diagrama entidad-relación son las entidades, las r
 
 * '''Relación''': describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de '''grado''' dos. El número de instancias de cada entidad que intervienen en la relación es la '''cardinalidad'''. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.
 
+** '''Dependencia por existencia''': los ejemplares de entidades débiles no pueden existir sin el ejemplar de entidad fuerte.
+
+** '''Dependencia por identificación''': los ejemplares de entidades débiles se identifican con atributos propios y el identificador de la entidad de la que dependen. Toda dependencia por identificación es una dependencia por existencia.
+
+=== Diagramas de flujo de datos ===
+[[File:dfd.png|thumb|right|200px|Componentes de los DFD.]]
+Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del flujo de datos y los cambios que sufre en un sistema de información, desde que entra al sistema hasta que sale. Existen distintos niveles de abstracción y detalle.
+
+'''Componentes''' de los DFD:
+
+* '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo unas entradas y unas salidas.
+
+* '''Almacenes''': información almacenada en un punto del sistema en algún momento.
+
+* '''Agentes externos''': las entidades que interactúan con el sistema.
+
+* '''Flujo de datos''': camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.
+
+Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de consulta), Proceso -> Almacén (flujo de actualización), Proceso <-> Almacén (flujo de diálogo).
+
+Los '''niveles de un DFD''' son:
+{{cayo-en-convocatoria|1=2016}}
+* '''Nivel 0''': Diagrama de '''contexto'''. Solo incluye un proceso que engloba al sistema completo. Se indican los flujos de datos entre el sistema y los agentes externos. No se indican otros procesos ni almacenes. Es el nivel más abstracto.
+
+* '''Nivel 1''': Diagrama de '''nivel superior'''. Se indican todos los procesos que describen al proceso principal. Aquí los procesos no suelen relacionarse entre ellos, sino entre almacenamientos y agentes externos.
+
+* '''Nivel 2''': Diagrama de '''detalle o expansión'''. Se admiten relaciones entre procesos. El detalle es mayor.
+
 == Tema 2: Diseño de bases de datos ==
 
 {{recuadro|1='''Diseño de bases de datos'''. Diseño lógico y físico. El modelo lógico relacional. Normalización.}}
 
+{{cayo-en-convocatoria|1=2016}}
+* '''Regla de integridad de entidad''': los atributos de la clave primaria no pueden ser nulos.
+* '''Regla de integridad referencial''': los atributos de las claves foráneas deben existir en la clave primaria o ser nulos.
+* '''Regla de integridad de dominio''': los valores no nulos de un atributo deben pertenecer al dominio del atributo.
+
 === Diseño lógico y físico ===
 
 === Normalización ===
+
+Si una base de datos no está normalizada se pueden producir inconsistencias en los datos además de redundancias.
 
 === 12 reglas de Codd ===
 {{cayo-en-convocatoria|1=2016}}
@@ -81,6 +119,7 @@ Un '''procedimiento''' es una subrutina dentro de un programa que resuelve una t
 
 Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Algunos no son estrictamente lenguajes de programación (como HTML, CSS, XML) pero se incluyen por ser de interés:
 
+* '''Ada 95''': lenguaje orientado a objetos y fuertemente tipado.
 * '''ALGOL''': familia de lenguajes imperativos cuya primera versión ALGOL 58 apareció en 1958. Fue el que más influyó a lenguajes posteriores en cuanto a sintaxis de entre sus contemporáneos de alto nivel (FORTRAN, Lisp y COBOL).
 * '''AWK''': lenguaje para procesado de texto y extracción de datos. Creado en Bell Labs en los años 70.
 * '''Batch''': un script batch es un fichero en texto plano que incluye comandos para ser ejecutados por el intérprete de comandos. Su extensión suele ser .bat, .cmd o .btm.
@@ -116,7 +155,9 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 * '''Ruby''': lenguaje orientado a objetos, de propósito general, multiparadigma. Creado por Yukihiro Matsumoto en 1995.
 * '''Scala''': lenguaje de propósito general, funcional, diseñado para corregir algunas críticas de Java. Creado en 2004 por Martin Odersky.
 * '''Smalltalk''': lenguaje orientado a objetos, creado en parte con fines educativos por programadores de Xrox PARC en los años 70.
+* '''Simula''': lenguaje orientado a objetos creado en 1962. El primero en incluir el concepto de clase.
 * '''SVG''': Scalable Vector Graphics es un formato gráfico basado en XML con soporte para animación.
+* '''Vala''': lenguaje multiparadigma, orientado a objetos. Creado en 2006.
 * '''Visual Basic''': lenguaje dirigido por eventos, publicado en 1991 por Microsoft. Derivado de BASIC, permite crear aplicaciones con interfaz gráfica rápidamente.
 * '''Visual Basic .NET''': lenguaje orientado a objetos, multiparadigma, lanzado en 2002 por Microsoft. Sucesor de Visual Basic.
 * '''XML''': Extensible Markup Language, lenguaje de marcado para definir reglas para codificar documentos en un formato que sea entendible por humanos y máquinas.
@@ -125,6 +166,17 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 == Tema 4: Lenguajes de interrogación de bases de datos ==
 
 {{recuadro|1='''Lenguajes de interrogación de bases de datos'''. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.}}
+
+{{cayo-en-convocatoria|1=2016}}
+Las '''transacciones''' de un sistema de gestión de bases de datos deben cumplir la regla '''ACID''':
+
+* '''Atomicidad''': cuando una operación se compone de varios pasos, se ejecutarán todos o ninguno.
+
+* '''Consistencia''': solo se empieza aquello que se va a acabar.
+
+* '''Aislamiento''' (Isolation): una operación no afecta a otras.
+
+* '''Durabilidad''': una vez realizada la operación, no será deshecha ni ante un error del sistema.
 
 === ANSI SQL ===
 
@@ -145,7 +197,7 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 *** '''WHERE''': indica las condiciones que deben cumplirse para que los datos sean devueltos. Pueden ser varias condiciones, combinadas con AND y OR.
 *** '''GROUP BY''': indica el campo sobre el que se agruparán los datos.
 *** '''HAVING''': condición que se aplicará a los datos devueltos, requiere GROUP BY.
-*** '''ORDER BY''': ordena los resultados usando las columnas indicadas. El orden puede ser ASC o DESC. El predeterminado es ASC.
+*** '''ORDER BY''': ordena los resultados usando las columnas indicadas. El orden puede ser ASC o DESC. El predeterminado es ASC. Si hay varios atributos en el ORDER BY, cada uno puede llevar su ASC o DESC.
 
 *** Ejemplo para recuperar todos los clientes de Madrid: SELECT nombre, dni, lugar FROM clientes WHERE lugar='Madrid' ORDER BY nombre;
 
@@ -162,6 +214,12 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 * '''Lenguaje de control de datos (DCL)''': permite controlar el acceso a los datos.
 ** '''GRANT''': concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).
 ** '''REVOKE''': elimina permisos concedidos con GRANT.
+
+Cláusula '''JOIN''':
+
+* '''LEFT JOIN''': 
+* '''RIGHT JOIN''':
+* '''FULL JOIN''': 
 
 === Procedimientos almacenados ===
 
@@ -327,6 +385,8 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 === PHP ===
 
 '''PHP''' es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico. El código es interpretado por un servidor web con un módulo de procesador de PHP que genera el HTML resultante.
+
+Todas las variables van precedidas del carácter $. Los nombres de variables son sensibles a mínusculas y mayúsculas. Solo pueden empezar con una letra o guión bajo. No es necesario indicar el tipo al crear la variable.
 
 * ?php echo "Hola"; ?>
 * if ($a > $b) { echo "A es mayor"; } else { echo "B es mayor"; }
