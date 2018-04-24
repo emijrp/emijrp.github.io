@@ -56,6 +56,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;4.2 <a href="#Procedimientos almacenados">Procedimientos almacenados</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.3 <a href="#Eventos y disparadores">Eventos y disparadores</a><br/>
 &nbsp;5. <a href="#Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5.1 <a href="#UML">UML</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5.2 <a href="#Patrones de diseño">Patrones de diseño</a><br/>
 &nbsp;6. <a href="#Tema 6: Arquitectura Java EE y plataforma .NET">Tema 6: Arquitectura Java EE y plataforma .NET</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;6.1 <a href="#Java">Java</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;6.2 <a href="#C">C</a><br/>
@@ -211,13 +213,38 @@
 </div>
 
 
-<p>La <b>programación orientada a objetos</b> es...</p>
+<p>La <b>programación orientada a objetos</b> es un paradigma de la programación basado en el concepto de objetos, que pueden contener datos en forma de atributos, y código en forma de métodos.</p>
 
-<ul><li><b>Clase</b>: </li><li><b>Objeto</b>: </li><li><b>Herencia</b>: </li><li><b>Sobrecarga</b>: </li></ul>
+<p>Una característica de los objetos es que los métodos pueden acceder a sus datos y modificarlos (this/self). En el software orientado a objetos, los objetos interactúan entre ellos.</p>
+
+<p>Los lenguajes orientados a objetos más populares están basados en clases, siendo los objetos instancias de estas clases. Lenguajes orientados a objetos son Java, C++, C#, Python, PHP, Ruby, Perl, Object Pascal, Objective-C, Dart, Swift, Scala, Common Lips y Smalltalk.</p>
+
+<p>Algunos conceptos fundamentales de la POO:</p>
+
+<ul><li><b>Clase</b>: es la definición y abstracción de las características comunes de un conjunto de objetos.</li><li><b>Objeto</b>: instancia de una clase, se corresponde con un objeto del mundo real habitualmente. Contiene atributos y métodos.</li><li><b>Atributo</b>: propiedad o dato asociado a un objeto.</li><li><b>Método</b>: procedimiento asociado a un objeto.</li></ul>
+
+<p><b>Características</b> de la POO:</p>
+
+<ul><li><b>Abstracción</b>: </li><li><b>Herencia</b>: </li><li><b>Sobrecarga</b>: </li><li><b>Polimorfismo</b>:</li><li><b>Encapsulamiento</b>: </li><li><b>Acoplamiento</b>: </li><li><b>Recolección de basura</b>: </li></ul>
 
 <p>Ventajas e inconvenientes</p>
 
-<p>UML</p>
+<h3 id="UML">UML</h3>
+
+<p>El <b>Lenguaje Unificado de Modelado</b> (UML) es un lenguaje de propósito general en el campo de la ingeniería del software, para proveer de un modo estándar de visualizar el diseño de sistemas. Fue creado en los años 1990.</p>
+
+<ul><li><b>Diagramas</b>:</li><ul><li><b>Estructurales</b>: muestran la estructura estática de los objetos del sistema.</li><ul><li><b>De clases</b>: es el más usado, fundamental para cualquier solución orientada a objetos. Contiene las clases, atributos y operaciones y relaciones entre clases.</li><li><b>De componentes</b>: muestran la relación estructural entre componentes de un sistema. Los componentes se comunican a través de interfaces, y estos se enlazan mediante conectores.</li><li><b>De despliegue</b>: muestra el hardware del sistema y el software de ese hardware.</li><li><b>De objetos</b>: similares a los diagramas de clases. Indican las relaciones entre objetos.</li><li><b>De paquetes</b>: indican las dependencias entre paquetes de un sistema.</li><li><b>De perfiles</b>: </li><li><b>Estructura compuesta</b>: muestran la estructura interna de una clase.</li></ul><li><b>Comportamiento</b>: muestran el comportamiento dinámico de los objetos del sistema.</li><ul><li><b>De actividades</b>: muestran los flujos de trabajo.</li><li><b>De casos de uso</b>: ofrecen una visión general de los actores del sistema, sus funciones y como interactúan.</li><li><b>De máquinas de estados</b>: </li></ul><li><b>Interacción</b>:</li><ul><li><b>Global de interacciones</b>: </li><li><b>De comunicación</b>: </li><li><b>De secuencia</b>: muestran las interacciones entre objetos y el orden en que se producen.</li><li><b>De tiempos</b>: muestran el comportamiento de los objetos en un tiempo dado.</li></ul></ul><li>Mecanismos de <b>extensibilidad</b>:</li><ul><li><b>Estereotipo</b>: extiende el vocabulario UML.</li><li><b>Restricciones</b>: extiende la semántica.</li><li><b>Valores etiquetados</b>: extiende las propiedades de un estereotipo permitiendo añadir más información.</li></ul></ul>
+
+<h3 id="Patrones de diseño">Patrones de diseño</h3>
+
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016</b></p>
+</div>
+
+
+<p>Los <b>patrones de diseño</b> son técnicas para resolver problemas típicos durante el desarrollo de software.</p>
+
+<ul><li><b>Creacionales</b>: solucionan problemas de creación de instancias.</li><ul><li><b>Builder</b>: abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto.</li></ul><li><b>Estructurales</b>: solucionan problemas de composición (agregación) de clases y objetos:</li><ul><li><b>Adaptador</b>: transforma una interfaz en otra, de tal modo que una clase que no pueda utilizar la primera haga uso de ella a través de la segunda.</li><li><b>Bridge</b>: separa una abstracción de su implementación para que ambas puedan ser modificadas por separado sin alterar la otra.</li><li><b>Composite</b>: construye objetos complejos a partir de otros más simples, a través de la composición recursiva y a una estructura en forma de árbol.</li><li><b>Fachada</b>: reduce la complejidad con la división en subsistemas, minimizando las comunicaciones y dependencias entre ellos.</li><li><b>Proxy</b>: patrón estructural que proporciona un intermediario de un objeto para controlar su acceso.</li></ul><li><b>Comportamiento</b>: ofrecen soluciones respecto a la interacción y responsabilidades entre clases y objetos, así como los algoritmos que encapsulan.</li><ul><li><b>Command</b>: permite solicitar una operación a un objeto sin conocer el contenido de la operación ni el receptor de la misma.</li><li><b>Intérprete</b>: dado un lenguaje, define una gramática para dicho lenguaje, así como las herramientas necesarias para interpretarlo.</li><li><b>Iterator</b>: permite realizar recorridos sobre objetos compuestos independientemente de la implementación de estos.</li><li><b>Memento</b>: permite volver a estados anteriores del sistema.</li></ul></ul>
 
 <h2 id="Tema 6: Arquitectura Java EE y plataforma .NET">Tema 6: Arquitectura Java EE y plataforma .NET</h2>
 
@@ -349,7 +376,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-23 20:03:20 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-24 20:58:28 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

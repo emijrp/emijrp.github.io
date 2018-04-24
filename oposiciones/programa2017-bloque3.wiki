@@ -238,16 +238,93 @@ Los triggers se componen de:
 
 {{recuadro|1='''Diseño y programación orientada a objetos'''. Elementos y componentes software: objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML).}}
 
-La '''programación orientada a objetos''' es...
+La '''programación orientada a objetos''' es un paradigma de la programación basado en el concepto de objetos, que pueden contener datos en forma de atributos, y código en forma de métodos.
 
-* '''Clase''': 
-* '''Objeto''': 
+Una característica de los objetos es que los métodos pueden acceder a sus datos y modificarlos (this/self). En el software orientado a objetos, los objetos interactúan entre ellos.
+
+Los lenguajes orientados a objetos más populares están basados en clases, siendo los objetos instancias de estas clases. Lenguajes orientados a objetos son Java, C++, C#, Python, PHP, Ruby, Perl, Object Pascal, Objective-C, Dart, Swift, Scala, Common Lips y Smalltalk.
+
+Algunos conceptos fundamentales de la POO:
+
+* '''Clase''': es la definición y abstracción de las características comunes de un conjunto de objetos.
+* '''Objeto''': instancia de una clase, se corresponde con un objeto del mundo real habitualmente. Contiene atributos y métodos.
+* '''Atributo''': propiedad o dato asociado a un objeto.
+* '''Método''': procedimiento asociado a un objeto.
+
+'''Características''' de la POO:
+
+* '''Abstracción''': 
 * '''Herencia''': 
 * '''Sobrecarga''': 
+* '''Polimorfismo''':
+* '''Encapsulamiento''': 
+* '''Acoplamiento''': 
+* '''Recolección de basura''': 
 
 Ventajas e inconvenientes
 
-UML
+=== UML ===
+
+El '''Lenguaje Unificado de Modelado''' (UML) es un lenguaje de propósito general en el campo de la ingeniería del software, para proveer de un modo estándar de visualizar el diseño de sistemas. Fue creado en los años 1990.
+
+* '''Diagramas''':
+
+** '''Estructurales''': muestran la estructura estática de los objetos del sistema.
+*** '''De clases''': es el más usado, fundamental para cualquier solución orientada a objetos. Contiene las clases, atributos y operaciones y relaciones entre clases.
+*** '''De componentes''': muestran la relación estructural entre componentes de un sistema. Los componentes se comunican a través de interfaces, y estos se enlazan mediante conectores.
+*** '''De despliegue''': muestra el hardware del sistema y el software de ese hardware.
+*** '''De objetos''': similares a los diagramas de clases. Indican las relaciones entre objetos.
+*** '''De paquetes''': indican las dependencias entre paquetes de un sistema.
+*** '''De perfiles''': 
+*** '''Estructura compuesta''': muestran la estructura interna de una clase.
+
+** '''Comportamiento''': muestran el comportamiento dinámico de los objetos del sistema.
+*** '''De actividades''': muestran los flujos de trabajo.
+*** '''De casos de uso''': ofrecen una visión general de los actores del sistema, sus funciones y como interactúan.
+*** '''De máquinas de estados''': 
+
+** '''Interacción''':
+*** '''Global de interacciones''': 
+*** '''De comunicación''': 
+*** '''De secuencia''': muestran las interacciones entre objetos y el orden en que se producen.
+*** '''De tiempos''': muestran el comportamiento de los objetos en un tiempo dado.
+
+* Mecanismos de '''extensibilidad''':
+** '''Estereotipo''': extiende el vocabulario UML.
+** '''Restricciones''': extiende la semántica.
+** '''Valores etiquetados''': extiende las propiedades de un estereotipo permitiendo añadir más información.
+
+=== Patrones de diseño ===
+
+{{cayo-en-convocatoria|1=2016}}
+
+Los '''patrones de diseño''' son técnicas para resolver problemas típicos durante el desarrollo de software.
+
+* '''Creacionales''': solucionan problemas de creación de instancias.
+
+** '''Builder''': abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto.
+
+* '''Estructurales''': solucionan problemas de composición (agregación) de clases y objetos:
+
+** '''Adaptador''': transforma una interfaz en otra, de tal modo que una clase que no pueda utilizar la primera haga uso de ella a través de la segunda.
+
+** '''Bridge''': separa una abstracción de su implementación para que ambas puedan ser modificadas por separado sin alterar la otra.
+
+** '''Composite''': construye objetos complejos a partir de otros más simples, a través de la composición recursiva y a una estructura en forma de árbol.
+
+** '''Fachada''': reduce la complejidad con la división en subsistemas, minimizando las comunicaciones y dependencias entre ellos.
+
+** '''Proxy''': patrón estructural que proporciona un intermediario de un objeto para controlar su acceso.
+
+* '''Comportamiento''': ofrecen soluciones respecto a la interacción y responsabilidades entre clases y objetos, así como los algoritmos que encapsulan.
+
+** '''Command''': permite solicitar una operación a un objeto sin conocer el contenido de la operación ni el receptor de la misma.
+
+** '''Intérprete''': dado un lenguaje, define una gramática para dicho lenguaje, así como las herramientas necesarias para interpretarlo.
+
+** '''Iterator''': permite realizar recorridos sobre objetos compuestos independientemente de la implementación de estos.
+
+** '''Memento''': permite volver a estados anteriores del sistema.
 
 == Tema 6: Arquitectura Java EE y plataforma .NET ==
 
