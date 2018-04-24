@@ -37,6 +37,15 @@ Esta es una recopilación de los '''documentales de memoria histórica''' que he
 </table>
 </center>
 
+== Historiadores e investigadores ==
+
+Estos son algunos historiadores e investigadores acerca de la memoria histórica, en su mayor parte centrados en la provincia de Cádiz:
+
+* Manuel Almisas Albéndiz
+* Alicia Domínguez Pérez
+* José Luis Guitérrez Molina
+* Santiago Moreno Tello
+
 == 46º Regimiento "Taman" ==
 
 [[File:brujas-noche-pelicula.jpg|200px|right|Fotograma de la película Las brujas de la noche en el cielo (1981)]]
@@ -310,4 +319,5 @@ Los nombres de las 13 mujeres (más una):
 
 [https://secure.findagrave.com/cgi-bin/fg.cgi?page=vcsr&GSvcid=627741 Cementerio virtual] en Find A Grave.
 
+{{memoria historica}}
 {{footer}}

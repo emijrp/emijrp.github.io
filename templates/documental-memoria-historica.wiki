@@ -1,0 +1,12 @@
+<table class="wikitable">
+<tr><th colspan=2>{{{titulo}}}</th></tr>
+<tr><td>'''Dirección''': {{{direccion}}}{{o}} '''Año''': {{{año}}}{{o}} '''Duración''': {{{duracion}}}</td>
+<td rowspan=2 width=300px>
+[[File:{{{imagen}}}|center|300px|link={{{enlace}}}|{{{titulo}}}]]
+</td></tr>
+<tr><td>'''Sinopsis''':
+
+{{{sinopsis}}}
+
+[{{{enlace}}} Ver online: {{{titulo}}}]</td></tr>
+</table>
