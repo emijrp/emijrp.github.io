@@ -1,4 +1,5 @@
 {{header|1=Oposiciones}}
+{{oposiciones}}
 
 Las '''oposiciones''' en las que estoy interesado por ahora son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado].
 
@@ -66,4 +67,5 @@ dependencia, violencia de genero, defensor del pueblo, ens (esquema nacional de 
 
 * [https://ips.redsara.es/IPSC/action/secure/buscarConvocatorias.do Inscripción de Pruebas Selectivas]
 
+{{oposiciones}}
 {{footer}}

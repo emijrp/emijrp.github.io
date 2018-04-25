@@ -59,9 +59,9 @@ Según el conjunto de '''instrucciones''':
 {{cayo-en-convocatoria|1=2016}}
 Según el número de '''núcleos''':
 
-* Un núcleo: 
+* '''Un núcleo''': el microprocesador cuenta con una única unidad de procesamiento.
 
-* Varios núcleos: 
+* '''Varios núcleos''': cuenta con varias unidades de procesamiento que leen y ejecutan instrucciones a la vez, aumentando la velocidad de aquellos programas que estén adaptados al procesamiento en paralelo.
 
 === Componentes internos ===
 
@@ -70,15 +70,19 @@ Los '''componentes internos''' básicos de un ordenador son:
 * '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.
 ** '''Discos SSD''': SSD es el acrónimo de Solid State Drive, disco de estado sólido. Son discos más rápidos que los discos mecánicos clásicos y su coste es superior.
 
-* '''Memoria RAM''': 
+* '''Memoria RAM''': memoria en la que se cargan las instrucciones y datos en ejecución. Es de mayor velocidad que los discos duros aunque su capacidad es mucho menor. La RAM es de menor velocidad que los registros del procesador y que las caché por niveles. Cuando el ordenador arranca realiza un breve test sobre la RAM, aunque existen tests avanzados y exhaustivos como MemTest86+ para encontrar fallos de hardware. Tipos: SDR SDRAM, RDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, DDR4 SDRAM.
 
-* '''Microprocesador''': 
+* '''Microprocesador''': es el circuito integrado que ejecuta los programas, a través de sus instrucciones en bajo nivel, realizando operaciones aritméticas y lógicas sobre los datos. Puede estar compuesto de uno o varios núcleos. Se conecta a la placa base a través de un zócalo y sobre él se coloca un disipador de calor, pasta térmica y ventilador.
 
-* '''Placa base''': 
+* '''Placa base''': es el circuito en el que se conectan los demás componentes del ordenador en los respectivos bancos o zócalos. Suelen tener múltiples ranuras para tarjetas PCI, memoria RAM, CPU, discos y lectoras SATA/IDE. Externamente también dispone de múltiples puertos (serie, paralelo, PS/2, USB, RJ-45, VGA, jacks). Cuenta con una memoria CMOS para la fecha, hora y configuración básica, además de la BIOS.
 
-* '''Tarjeta gráfica''': 
+* '''Tarjeta de expansión''': tarjeta que realiza una tarea específica y que se conecta en una ranura determinada, generalmente a ranuras PCI (Peripheral Component Interconnect). Antiguamente eran ranuras ISA. También hay ranuras más veloces como la PCI-Express. Una placa base que tenga integrada una gráfica, puede perfectamente aceptar una tarjeta gráfica que mejore las capacidades integradas de la placa.
 
-* '''Tarjeta de sonido''': 
+** '''Tarjeta gráfica''': tarjeta de expansión enfocada a procesar los datos referentes a operaciones gráficas, principalmente aquellos destinados a ser visualizados en el monitor. La unidad de procesamiento gráfico se conoce como GPU. Funcionalidades extra de estas tarjetas son la captura de vídeo, sintonización de televisión, etc. Algunas tarjetas soportan más de un monitor a través de varios puertos.
+
+** '''Tarjeta de sonido''': dispone de puertos de entrada y salida para audio, generalmente jacks para altavoces/auriculares, micrófono y otros.
+
+** '''Tarjeta de red''': permite contectar el ordenador a una red Ethernet (lo más habitual) para compartir recursos o acceder a Internet. Algunas tarjetas de red admite WIFI.
 
 {{cayo-en-convocatoria|1=2016}}
 Las '''memorias no volátiles''' no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquetes, discos duros, ROM (read-only memory) y sus variantes (ROM-CMOS), NVRAM (non-volatile RAM), etc.
@@ -278,53 +282,53 @@ Algoritmos de '''ordenación''':
 Extensiones más frecuentes:
 
 {{div col 3}}
-* '''AVI'''
-* '''BAT'''
-* '''BIN'''
-* '''BMP'''
-* '''CAB'''
-* '''CHM'''
-* '''DAT'''
-* '''DLL'''
-* '''DOC'''
-* '''DOCX'''
-* '''EPS'''
-* '''EXE'''
-* '''FLV'''
-* '''GIF'''
-* '''GZ/GZIP'''
-* '''HTM/HTML'''
-* '''ISO'''
-* '''JAR'''
-* '''JPG/JPEG'''
-* '''LNK'''
-* '''LOG'''
-* '''M4A'''
-* '''MP3'''
-* '''MPG/MPEG'''
-* '''MSI'''
-* '''PDF'''
-* '''PNG'''
-* '''PPS/PPT'''
-* '''PUB'''
-* '''RAR'''
-* '''RM'''
-* '''RMVB'''
+* '''AVI''': Audio Video Interleave
+* '''BAT''': DOS Batch, fichero por lotes de DOS
+* '''BIN''': fichero binario
+* '''BMP''': BitMaP, imagen sin comprimir
+* '''CAB''': Windows Cabinet, archivador comprimido
+* '''CHM''': Compiled HTML Help File
+* '''DAT''': fichero de datos (binarios o no)
+* '''DLL''': Dynamic Link Library
+* '''DOC''': Microsoft Word Document
+* '''DOCX''': Microsoft Word Open XML Document
+* '''EPS''': Encapsulated PostScript File
+* '''EXE''': ejecutable
+* '''FLV''': vídeo compatible flash
+* '''GIF''': Graphical Interchange Format
+* '''GZ/GZIP''': GNU Zipped File
+* '''HTM/HTML''': Hypertext Markup Language File
+* '''ISO''': imagen de disco en ISO-9660
+* '''JAR''': archivo JAVA para Java Runtime Environment
+* '''JPG/JPEG''': imagen en formato Joint Photographic Experts Group
+* '''LNK''': acceso directo
+* '''LOG''': registros de log
+* '''M4A''': audio MPEG-4
+* '''MP3''': audio MP3
+* '''MPG/MPEG''': video en formato Moving Picture Experts Group
+* '''MSI''': Windows Installer Package
+* '''PDF''': Portable Document Format
+* '''PNG''': Portable Network Graphic
+* '''PPS/PPT''': PowerPoint Slide Show
+* '''PUB''': Publisher Document
+* '''RAR''': WinRAR Compressed Archive
+* '''RM''': RealMedia File
+* '''RMVB''': RealMedia Variable Bit Rate File
 * '''RTF''': Rich Text Format
-* '''SQL'''
-* '''SWF'''
-* '''TGZ'''
-* '''TIF''':
-* '''TORRENT'''
-* '''TTF'''
-* '''TXT'''
-* '''VOB'''
-* '''WAV'''
-* '''WMA'''
-* '''WMV'''
-* '''XLS'''
-* '''XLSX'''
-* '''ZIP'''
+* '''SQL''': Structured Query Language Data File
+* '''SWF''': Shockwave Flash Movie
+* '''TGZ''': Gzipped Tar File
+* '''TIF''': Tagged Image File
+* '''TORRENT''': BitTorrent File
+* '''TTF''': TrueType Font
+* '''TXT''': texto plano
+* '''VOB''': DVD Video Object File
+* '''WAV''': Wave Audio File
+* '''WMA''': Windows Media Audio File
+* '''WMV''': Windows Media Video File
+* '''XLS''': hoja de cálculo Excel
+* '''XLSX''': Microsoft Excel Open XML Spreadsheet
+* '''ZIP''': fichero comprimido
 
 {{div col end}}
 
@@ -359,7 +363,7 @@ Extensiones más frecuentes:
 * '''SH''': Script de Shell
 * '''SQL''': Structured Query Language
 * '''TAR''': Archivo empaquetado
-* '''TGZ''': 
+* '''TGZ''': Gzipped Tar File
 {{div col end}}
 
 ==== Otras ====
