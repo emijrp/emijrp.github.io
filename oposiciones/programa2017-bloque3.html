@@ -219,15 +219,18 @@
 
 <p>Los lenguajes orientados a objetos más populares están basados en clases, siendo los objetos instancias de estas clases. Lenguajes orientados a objetos son Java, C++, C#, Python, PHP, Ruby, Perl, Object Pascal, Objective-C, Dart, Swift, Scala, Common Lips y Smalltalk.</p>
 
-<p>Algunos conceptos fundamentales de la POO:</p>
+<p>Algunos <b>conceptos fundamentales</b> de la POO:</p>
 
 <ul><li><b>Clase</b>: es la definición y abstracción de las características comunes de un conjunto de objetos.</li><li><b>Objeto</b>: instancia de una clase, se corresponde con un objeto del mundo real habitualmente. Contiene atributos y métodos.</li><li><b>Atributo</b>: propiedad o dato asociado a un objeto.</li><li><b>Método</b>: procedimiento asociado a un objeto.</li></ul>
 
 <p><b>Características</b> de la POO:</p>
 
-<ul><li><b>Abstracción</b>: </li><li><b>Herencia</b>: </li><li><b>Sobrecarga</b>: </li><li><b>Polimorfismo</b>:</li><li><b>Encapsulamiento</b>: </li><li><b>Acoplamiento</b>: </li><li><b>Recolección de basura</b>: </li></ul>
+<ul><li><b>Abstracción</b>: expresa las características básicas de un objeto, lo que le diferencia de otros, permitiendo crear una clase con esas características compartidas.</li><li><b>Herencia</b>: permite crear clases reutilizando otras preexistentes. La subclase obtiene el comportamiento (métodos) y atributos de la superclase. La superclase es más general y la subclase más específica. Por ejemplo una clase perro puede heredar de una superclase mamífero.</li><ul><li><b>Herencia simple</b>: una subclase hereda de una única superclase.</li><li><b>Herencia múltiple</b>: una subclase hereda de varias superclases. Java admite herencia simple y polimorfismo, no admite herencia múltiple para evitar ambigüedades. C++ sí soporta herencia múltiple, igualmente que Python, Eiffel y Perl.</li></ul><li><b>Sobrecarga</b>: permite nombrar con el mismo identificador a más de una variable o método que realizan operaciones distintas. Por ejemplo una función podría llamarse igual, pero en un caso aceptar distintos parámetros y en otro caso no requerir ninguno.</li><li><b>Polimorfismo</b>: permite enviar mensajes sintacticamente iguales a objetos de clases distintas y ser comprendidos por estos.</li><li><b>Encapsulamiento</b>: oculta el estado interno de un objeto, de modo que sus atributos solo pueden accederse (leerse o modificarse) a través de los métodos proporcionados por la clase.</li><li><b>Acoplamiento</b>: es la interdependencia entre clases. Una clase hija depende y accede a las características de la clase padre, pero no al contrario.</li><li><b>Recolección de basura</b>: consiste en la liberación automática de zonas de memoria que contienen objetos que ya no se usan.</li></ul>
 
-<p>Ventajas e inconvenientes</p>
+<p><b>Ventajas e inconvenientes</b> de la POO:</p>
+<ul><li></li></ul>
+
+
 
 <h3 id="UML">UML</h3>
 
@@ -255,11 +258,70 @@
 
 <h3 id="Java">Java</h3>
 
+<p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+
+<p><b>Palabras reservadas</b> en JAVA:</p>
+<div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
+
+<ul><li>true, false, null</li><li>abstract</li><li>assert</li><li>boolean</li><li>break</li><li>byte</li><li>case</li><li>catch</li><li>char</li><li>class</li><li>const (sin uso)</li><li>continue</li><li>default</li><li>do</li><li>double</li><li>else</li><li>enum</li><li>extends</li><li>final</li><li>finally</li><li>float</li><li>for</li><li>goto (sin uso)</li><li>if</li><li>implements</li><li>import</li><li>instanceof</li><li>int</li><li>interface</li><li>long</li><li>native</li><li>new</li><li>package</li><li>private</li><li>protected</li><li>public</li><li>return</li><li>short</li><li>static</li><li>strictfp</li><li>super</li><li>switch</li><li>synchronized</li><li>this</li><li>throw</li><li>throws</li><li>transient</li><li>try</li><li>void</li><li>volatile</li><li>while</li></ul>
+</div>
+
+
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016</b></p>
+</div>
+
+<p>Las <b>API Java</b> son interfaces de programación de aplicaciones, proporcionan clases útiles para el desarrollo de programas. Pueden ser oficiales (paquetes java.*) o no.</p>
+
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>AWT</b>: Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC).</li><li><b>JavaFX</b>: para la creación de aplicaciones web con capacidades de aplicaciones de escritorio.</li><li><b>JAX-RPC</b>: servicios web preservando descripción WSDL. Renombrado a JAX-WS.</li><li><b>JAX-RS</b>: creación de servicios web REST.</li><li><b>JAX-WS</b>: creación de servicios web en XML.</li><li><b>Swing</b>: biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc.</li><li><b>SWT</b>: biblioteca gráfica creada por Eclipse.</li></ul>
+</div>
+
+
 <h3 id="C">C</h3>
+
+<p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+
+<p><b>Palabras reservadas</b> en C:</p>
+<div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
+
+<ul><li>auto</li><li>break</li><li>case</li><li>char</li><li>const</li><li>continue</li><li>default</li><li>do</li><li>double</li><li>else</li><li>enum</li><li>extern</li><li>float</li><li>for</li><li>goto</li><li>if</li><li>int</li><li>long</li><li>register</li><li>return</li><li>short</li><li>signed</li><li>sizeof</li><li>static</li><li>struct</li><li>switch</li><li>typedef</li><li>union</li><li>unsigned</li><li>void</li><li>volatile</li><li>while</li></ul>
+</div>
+
+
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016</b></p>
+</div>
+
+<p><b>Secuencias de escape</b> en C:</p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>\a</b>: sonido alerta beep</li><li><b>\b</b>: backspace, retroceso</li><li><b>\f</b>: salto de página</li><li><b>\n</b>: salto de línea</li><li><b>\r</b>: retorno de carro</li><li><b>\t</b>: tabulador horizontal</li><li><b>\v</b>: tabulador vertical</li><li><b>\\</b>: barra invertida</li><li><b>\</b>': comilla simple</li><li><b>\"</b>: comilla doble</li><li><b>\?</b>: interrogación</li></ul>
+</div>
+
 
 <h3 id="C++">C++</h3>
 
+<p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+
+<p><b>Palabras reservadas</b> en C++:</p>
+<div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
+
+<ul><li>asm</li><li>auto</li><li>bool</li><li>break</li><li>case</li><li>catch</li><li>char</li><li>class</li><li>const</li><li>const_cast</li><li>continue</li><li>default</li><li>delete</li><li>do</li><li>double</li><li>dynamic_cast</li><li>else</li><li>enum</li><li>explicit</li><li>extern</li><li>false</li><li>float</li><li>for</li><li>friend</li><li>goto</li><li>if</li><li>inline</li><li>int</li><li>long</li><li>mutable</li><li>namespace</li><li>new</li><li>operator</li><li>private</li><li>protected</li><li>public</li><li>register</li><li>reinterpret_cast</li><li>return</li><li>short</li><li>signed</li><li>sizeof</li><li>static</li><li>static_cast</li><li>struct</li><li>switch</li><li>template</li><li>this</li><li>throw</li><li>true</li><li>try</li><li>typedef</li><li>typeid</li><li>typename</li><li>union</li><li>unsigned</li><li>using</li><li>virtual</li><li>void</li><li>volatile</li><li>while</li></ul>
+</div>
+
+
 <h3 id=".NET">.NET</h3>
+
+<p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+
+<p><b>Palabras reservadas</b> en .NET:</p>
+<div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
+
+
+</div>
+
 
 <h2 id="Tema 7: Arquitectura de sistemas cliente/servidor">Tema 7: Arquitectura de sistemas cliente/servidor</h2>
 
@@ -376,7 +438,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-24 20:58:28 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-26 16:20:29 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

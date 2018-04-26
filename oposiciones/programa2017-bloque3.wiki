@@ -244,7 +244,7 @@ Una característica de los objetos es que los métodos pueden acceder a sus dato
 
 Los lenguajes orientados a objetos más populares están basados en clases, siendo los objetos instancias de estas clases. Lenguajes orientados a objetos son Java, C++, C#, Python, PHP, Ruby, Perl, Object Pascal, Objective-C, Dart, Swift, Scala, Common Lips y Smalltalk.
 
-Algunos conceptos fundamentales de la POO:
+Algunos '''conceptos fundamentales''' de la POO:
 
 * '''Clase''': es la definición y abstracción de las características comunes de un conjunto de objetos.
 * '''Objeto''': instancia de una clase, se corresponde con un objeto del mundo real habitualmente. Contiene atributos y métodos.
@@ -253,15 +253,26 @@ Algunos conceptos fundamentales de la POO:
 
 '''Características''' de la POO:
 
-* '''Abstracción''': 
-* '''Herencia''': 
-* '''Sobrecarga''': 
-* '''Polimorfismo''':
-* '''Encapsulamiento''': 
-* '''Acoplamiento''': 
-* '''Recolección de basura''': 
+* '''Abstracción''': expresa las características básicas de un objeto, lo que le diferencia de otros, permitiendo crear una clase con esas características compartidas.
 
-Ventajas e inconvenientes
+* '''Herencia''': permite crear clases reutilizando otras preexistentes. La subclase obtiene el comportamiento (métodos) y atributos de la superclase. La superclase es más general y la subclase más específica. Por ejemplo una clase perro puede heredar de una superclase mamífero.
+** '''Herencia simple''': una subclase hereda de una única superclase.
+** '''Herencia múltiple''': una subclase hereda de varias superclases. Java admite herencia simple y polimorfismo, no admite herencia múltiple para evitar ambigüedades. C++ sí soporta herencia múltiple, igualmente que Python, Eiffel y Perl.
+
+* '''Sobrecarga''': permite nombrar con el mismo identificador a más de una variable o método que realizan operaciones distintas. Por ejemplo una función podría llamarse igual, pero en un caso aceptar distintos parámetros y en otro caso no requerir ninguno.
+
+* '''Polimorfismo''': permite enviar mensajes sintacticamente iguales a objetos de clases distintas y ser comprendidos por estos.
+
+* '''Encapsulamiento''': oculta el estado interno de un objeto, de modo que sus atributos solo pueden accederse (leerse o modificarse) a través de los métodos proporcionados por la clase.
+
+* '''Acoplamiento''': es la interdependencia entre clases. Una clase hija depende y accede a las características de la clase padre, pero no al contrario.
+
+* '''Recolección de basura''': consiste en la liberación automática de zonas de memoria que contienen objetos que ya no se usan.
+
+'''Ventajas e inconvenientes''' de la POO:
+* 
+
+
 
 === UML ===
 
@@ -332,11 +343,209 @@ Los '''patrones de diseño''' son técnicas para resolver problemas típicos dur
 
 === Java ===
 
+Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+'''Palabras reservadas''' en JAVA:
+{{div col 4}}
+* true, false, null
+* abstract
+* assert
+* boolean
+* break
+* byte
+* case
+* catch
+* char
+* class
+* const (sin uso)
+* continue
+* default
+* do
+* double
+* else
+* enum
+* extends
+* final
+* finally
+* float
+* for
+* goto (sin uso)
+* if
+* implements
+* import
+* instanceof
+* int
+* interface
+* long
+* native
+* new
+* package
+* private
+* protected
+* public
+* return
+* short
+* static
+* strictfp
+* super
+* switch
+* synchronized
+* this
+* throw
+* throws
+* transient
+* try
+* void
+* volatile
+* while
+{{div col end}}
+
+{{cayo-en-convocatoria|1=2016}}
+Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan clases útiles para el desarrollo de programas. Pueden ser oficiales (paquetes java.*) o no.
+
+{{div col 2}}
+* '''AWT''': Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC).
+* '''JavaFX''': para la creación de aplicaciones web con capacidades de aplicaciones de escritorio.
+* '''JAX-RPC''': servicios web preservando descripción WSDL. Renombrado a JAX-WS.
+* '''JAX-RS''': creación de servicios web REST.
+* '''JAX-WS''': creación de servicios web en XML.
+* '''Swing''': biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc.
+* '''SWT''': biblioteca gráfica creada por Eclipse.
+{{div col end}}
+
 === C ===
+
+Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+'''Palabras reservadas''' en C:
+{{div col 4}}
+* auto
+* break
+* case
+* char
+* const
+* continue
+* default
+* do
+* double
+* else
+* enum
+* extern
+* float
+* for
+* goto
+* if
+* int
+* long
+* register
+* return
+* short
+* signed
+* sizeof
+* static
+* struct
+* switch
+* typedef
+* union
+* unsigned
+* void
+* volatile
+* while
+{{div col end}}
+
+{{cayo-en-convocatoria|1=2016}}
+'''Secuencias de escape''' en C:
+{{div col 2}}
+* '''\a''': sonido alerta beep
+* '''\b''': backspace, retroceso
+* '''\f''': salto de página
+* '''\n''': salto de línea
+* '''\r''': retorno de carro
+* '''\t''': tabulador horizontal
+* '''\v''': tabulador vertical
+* '''\\''': barra invertida
+* '''\'''': comilla simple
+* '''\"''': comilla doble
+* '''\?''': interrogación
+{{div col end}}
 
 === C++ ===
 
+Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+'''Palabras reservadas''' en C++:
+{{div col 4}}
+* asm
+* auto
+* bool
+* break
+* case
+* catch
+* char
+* class
+* const
+* const_cast
+* continue
+* default
+* delete
+* do
+* double
+* dynamic_cast
+* else
+* enum
+* explicit
+* extern
+* false
+* float
+* for
+* friend
+* goto
+* if
+* inline
+* int
+* long
+* mutable
+* namespace
+* new
+* operator
+* private
+* protected
+* public
+* register
+* reinterpret_cast
+* return
+* short
+* signed
+* sizeof
+* static
+* static_cast
+* struct
+* switch
+* template
+* this
+* throw
+* true
+* try
+* typedef
+* typeid
+* typename
+* union
+* unsigned
+* using
+* virtual
+* void
+* volatile
+* while
+{{div col end}}
+
 === .NET ===
+
+Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+'''Palabras reservadas''' en .NET:
+{{div col 4}}
+
+{{div col end}}
 
 == Tema 7: Arquitectura de sistemas cliente/servidor ==
 
