@@ -1,6 +1,7 @@
 {{header|1=Cine en Wikidata}}
+{{cine}}
 
-Listado de películas y documentales en Wikidata y otras bases de datos.
+Listado de películas y documentales en Wikidata y otras bases de datos. Me sirve para ir completando fichas que faltan en según que sitios.
 
 <!-- matrixids --><table class="wikitable sortable" style="text-align: center;">
 <tr>
@@ -32,4 +33,5 @@ Listado de películas y documentales en Wikidata y otras bases de datos.
 <tr><td>20</td><td><i>[https://www.wikidata.org/wiki/Q51993345 Un libro es un arma]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
 </table><!-- /matrixids -->
 
+{{cine}}
 {{footer}}

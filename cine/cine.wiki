@@ -572,6 +572,7 @@ Películas sobre guerrilleros/as y revolucionario/as.
 
 == Obras no incluidas en FilmAffinity ==
 
+* [https://vimeo.com/33129689 Escucha Chile] (Luciano Cesar, Chile, 2003)
 * [https://www.youtube.com/watch?v=9F1vme_mTS4 Imprisoned (Archive)] (Frida Robles, México, 2015)
 * [https://www.youtube.com/watch?v=hxFZMONGgnk Jarama] (Albert Pla, España, 2018)
 * [https://www.youtube.com/watch?v=kDZCXamntnE Mi película favorita de Nollywood] (Alexéi Shabárov, Rusia, 2015)
@@ -608,6 +609,7 @@ En esta '''bibliografía''' incluyo referencias a documentación en diversos for
 * Rocha, Glauber. ''[http://fido.palermo.edu/servicios_dyc/blog/images/trabajos/6924_22215.pdf La estética del hambre]''.
 * Serrano, Daniel L. ''[http://www.fraternidaduniversal.blogspot.com.es/2014/02/armand-guerra-renaciendo-de-la-metralla.html Armand Guerra, renaciendo de la metralla]'', 2014.
 * Serrano, Daniel L. ''[http://eltornillodeklaus.com/2014/03/12/el-cine-espanol-que-se-quiso-que-olvidaramos-parte-1/ El cine español que se quiso que olvidáramos]'' ([http://wayback.archive.org/web/20140320161309/http://eltornillodeklaus.com/2014/03/20/el-cine-espanol-que-se-quiso-que-olvidaramos-parte-2/ Parte II]), 2014.
+* VVAA. ''[http://cinelatinoamericano.org/biblioteca/descriptor.aspx?codigo=2264&tit=HOJAS%20DE%20CINE Hojas de cine: testimonios y documentos del Nuevo Cine Latinoamericano]''.
 
 <!--
 
@@ -645,6 +647,7 @@ http://www.cubacine.cult.cu/sitios/contracorriente/index.html
 
 * [http://www.abandomoviez.net Abandonmoviez]
 * [http://cinechile.cl/documentales.php Cine Chile, enciclopedia del Cine Chileno]
+* [https://web.archive.org/web/20180425141242/http://www.laguerraenla.freeservers.com/Materiales/cine/filmografia.htm Cine Político en América Latina]
 * [http://www.cinetecavirtual.cl CinetecaVirtual Chilena]
 * [https://es-la.facebook.com/CineSocialPoliticoYRevolucionarioParaCompartir Cine social, politico y revolucionario para compartir]
 * [http://www.uhu.es/cine.educacion/cineyeducacion/cinerevolucionario.htm El cine político y revolucionario]

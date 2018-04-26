@@ -1,6 +1,7 @@
 {{header|1=Cine por ver}}
+{{cine}}
 
-Películas para ver.
+Obras cinematográficas anteriores a 1905 que me quedan por ver, según FilmAffinity (en IMDb hay más).
 
 <!-- porver --><table class="wikitable sortable" style="text-align: center;">
 <tr>
@@ -186,5 +187,5 @@ Películas para ver.
 <tr><td>172</td><td><i>[https://www.filmaffinity.com/es/film578715.html Buffalo Bill (C)]</i></td><td>William K.L. Dickson</td><td>1894</td><td>Estados Unidos</td><td>1 minutos</td><td>No</td></tr>
 </table><!-- /porver -->
 
-
+{{cine}}
 {{footer}}
