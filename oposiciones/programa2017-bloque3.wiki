@@ -409,6 +409,7 @@ Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan
 * '''JAX-RPC''': servicios web preservando descripción WSDL. Renombrado a JAX-WS.
 * '''JAX-RS''': creación de servicios web REST.
 * '''JAX-WS''': creación de servicios web en XML.
+* '''JUnit''': test unitarios.
 * '''Swing''': biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc.
 * '''SWT''': biblioteca gráfica creada por Eclipse.
 {{div col end}}
@@ -550,6 +551,10 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 == Tema 7: Arquitectura de sistemas cliente/servidor ==
 
 {{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
+
+En la '''arquitectura cliente-servidor''' las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
+
+En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos.
 
 == Tema 8: Aplicaciones web ==
 
