@@ -1,0 +1,35 @@
+{{header|1=Cine en Wikidata}}
+
+Listado de películas y documentales en Wikidata y otras bases de datos.
+
+<!-- matrixids --><table class="wikitable sortable" style="text-align: center;">
+<tr>
+    <th class="sorttable_numeric">#</th>
+    <th class="sorttable_alpha">Título</th>
+    <th class="sorttable_numeric">FilmAffinity</th>
+    <th class="sorttable_numeric">IMDb</th>
+    <th class="sorttable_numeric">TMDb</th>
+</tr>
+<tr><td>1</td><td><i>[https://www.wikidata.org/wiki/Q51992539 Can Serra, la objeción de conciencia en  España]</i></td><td>[https://www.filmaffinity.com/es/film217438.html 217438]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>2</td><td><i>[https://www.wikidata.org/wiki/Q50493795 Dios, el Universo y todo lo demás]</i></td><td>[https://www.filmaffinity.com/es/film507309.html 507309]</td><td>[https://www.imdb.com/title/tt1020960/ tt1020960]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>3</td><td><i>[https://www.wikidata.org/wiki/Q51930819 El Penal: rostro y alma del mito]</i></td><td>[https://www.filmaffinity.com/es/film685041.html 685041]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/518188 518188]</td></tr>
+<tr><td>4</td><td><i>[https://www.wikidata.org/wiki/Q52161571 El Salvador: el pueblo vencerá]</i></td><td>[https://www.filmaffinity.com/es/film395789.html 395789]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>5</td><td><i>[https://www.wikidata.org/wiki/Q38941363 El caso Rocío]</i></td><td>[https://www.filmaffinity.com/es/film632040.html 632040]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>6</td><td><i>[https://www.wikidata.org/wiki/Q52161590 Elecciones en El Salvador]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>7</td><td><i>[https://www.wikidata.org/wiki/Q51991777 Entre la esperanza y el fraude]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>8</td><td><i>[https://www.wikidata.org/wiki/Q52162238 Fidel en cada esquina]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>9</td><td><i>[https://www.wikidata.org/wiki/Q50755536 Frankenstein 04155]</i></td><td>[https://www.filmaffinity.com/es/film887688.html 887688]</td><td>[https://www.imdb.com/title/tt6448024/ tt6448024]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>10</td><td><i>[https://www.wikidata.org/wiki/Q52161585 La participación de la Iglesia]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>11</td><td><i>[https://www.wikidata.org/wiki/Q19685580 Lasa y Zabala]</i></td><td>[https://www.filmaffinity.com/es/film215267.html 215267]</td><td>[https://www.imdb.com/title/tt3417470/ tt3417470]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>12</td><td><i>[https://www.wikidata.org/wiki/Q33701838 Los libros y la noche]</i></td><td>[https://www.filmaffinity.com/es/film716309.html 716309]</td><td>[https://www.imdb.com/title/tt0225208/ tt0225208]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>13</td><td><i>[https://www.wikidata.org/wiki/Q52161593 Nos apoya un continente]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>14</td><td><i>[https://www.wikidata.org/wiki/Q23830010 Título desconocido]</i></td><td>[https://www.filmaffinity.com/es/film621061.html 621061]</td><td>[https://www.imdb.com/title/tt3095968/ tt3095968]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>15</td><td><i>[https://www.wikidata.org/wiki/Q50941120 Título desconocido]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/tt2861842/ tt2861842]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>16</td><td><i>[https://www.wikidata.org/wiki/Q51093241 Título desconocido]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>17</td><td><i>[https://www.wikidata.org/wiki/Q51093588 Título desconocido]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/tt5205714/ tt5205714]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>18</td><td><i>[https://www.wikidata.org/wiki/Q51121324 Título desconocido]</i></td><td>[https://www.filmaffinity.com/es/film263364.html 263364]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>19</td><td><i>[https://www.wikidata.org/wiki/Q51122007 Título desconocido]</i></td><td>[https://www.filmaffinity.com/es/film649479.html 649479]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+<tr><td>20</td><td><i>[https://www.wikidata.org/wiki/Q51993345 Un libro es un arma]</i></td><td>[https://www.filmaffinity.com/es/film-.html -]</td><td>[https://www.imdb.com/title/-/ -]</td><td>[https://www.themoviedb.org/movie/- -]</td></tr>
+</table><!-- /matrixids -->
+
+{{footer}}
