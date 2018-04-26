@@ -14,10 +14,13 @@ Archivos de programas, charlas, conferencias:
 
 == Podcasts ==
 
-
-Algunos programas de '''radio y podcasts''':
-
 * '''[http://manzanamecanica.org/podcast Cultura Libre]''': podcast de tecnología, software libre, propiedad intelectual, etc.
 * '''[http://longnow.org/seminars/podcast/ Long now]''': podcast sobre pensamiento a largo plazo de la [http://longnow.org/ Long Now Foundation].
+
+== Radio ==
+
+* Escucha Chile
+* La Pirenaica
+* Radio Venceremos
 
 {{footer}}
