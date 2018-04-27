@@ -78,6 +78,7 @@ def main():
         }
         print(items[q]['q'], items[q]['label-es'], items[q]['fa'])
         time.sleep(0.1)
+        #break
     
     table = u'<table class="wikitable sortable" style="text-align: center;">\n'
     table += u"""<tr>
@@ -86,12 +87,15 @@ def main():
     <th class="sorttable_numeric">FilmAffinity</th>
     <th class="sorttable_numeric">IMDb</th>
     <th class="sorttable_numeric">TMDb</th>
+    <th class="sorttable_alpha">Buscadores</th>
 </tr>\n"""
     c = 1
     items_list = [[item['label-es'], item] for q, item in items.items()]
     items_list.sort()
     for title, item in items_list:
-        row = u"<tr><td>%s</td><td><i>[https://www.wikidata.org/wiki/%s %s]</i></td><td>[https://www.filmaffinity.com/es/film%s.html %s]</td><td>[https://www.imdb.com/title/%s/ %s]</td><td>[https://www.themoviedb.org/movie/%s %s]</td></tr>\n" % (c, item['q'], item['label-es'], item['fa'], item['fa'], item['imdb'], item['imdb'], item['tmdb'], item['tmdb'])
+        title_ = re.sub(' ', '+', title.lower())
+        title_ = '%%22%s%%22' % (title_)
+        row = u"<tr><td>%s</td><td><i>[https://www.wikidata.org/wiki/%s %s]</i></td><td>[https://www.filmaffinity.com/es/film%s.html %s]</td><td>[https://www.imdb.com/title/%s/ %s]</td><td>[https://www.themoviedb.org/movie/%s %s]</td><td>[https://duckduckgo.com/?q=%s D]{{o}} [https://www.google.es/search?q=%s G]{{o}} [https://www.youtube.com/results?search_query=%s Y]</td></tr>\n" % (c, item['q'], item['label-es'], item['fa'], item['fa'], item['imdb'], item['imdb'], item['tmdb'], item['tmdb'], title_, title_, title_)
         table += row
         c += 1
     table += u'</table>'
