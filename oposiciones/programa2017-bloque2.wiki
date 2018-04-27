@@ -15,27 +15,52 @@ El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2
 * '''Decimal''': base 10, se utlizan del 0 al 9.
 * '''Hexadecimal''': base 16, se utilizan del 0 al 9 y de la A a la F.
 
+==== Conversión de decimal a otros sistemas ====
+
 Para convertir un número '''decimal a binario''', se divide el número entre 2 sucesivamente. Los restos colocados a la inversa componen el número en binario.
 
 * 8 / 2 = 4. Resto 0.
 * 4 / 2 = 2. Resto 0.
 * 2 / 2 = 1. Resto 0.
 * 1 / 2 = 0. Resto 1.
-* 8 en decimal es 1000 en binario.
+* '''8 en decimal es 1000 en binario'''.
 
 Para convertir un número '''decimal a octal''' se utiliza el mismo método.
 
 * 34 / 8 = 4. Resto 2.
 * 4 / 8 = 0. Resto 4.
-* 34 en decimal es 42 en octal.
+* '''34 en decimal es 42 en octal'''.
 
-Para convertir un número '''decimal a hexadecimal'''...
+Para convertir un número '''decimal a hexadecimal''', primero convertimos de decimal a binario y luego de binario a hexadecimal.
 
-Para convertir un número '''binario a decimal'''...
+* 183 / 2 = 91. Resto 1.
+* 91 / 2 = 45. Resto 1.
+* 45 / 2 = 22. Resto 1.
+* 22 / 2 = 11. Resto 0.
+* 11 / 2 = 5. Resto 1.
+* 5 / 2 = 2. Resto 1.
+* 2 / 2 = 1. Resto 0.
+* 1 / 2 = 0. Resto 1.
 
-Para convertir un número '''octal a decimal'''...
+Ahora pasaríamos 10110111 a hexadecimal agrupando de cuatro en cuatro dígitos desde la derecha. 1011 = 11 = B, 0111 = 7. De modo que '''183 en decimal es B7 en hexadecimal'''.
 
-Para convertir un número '''hexadecimal a decimal'''...
+En hexadecimal se usan las siguientes letras: A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.
+
+==== Conversión de otros sistemas a decimal ====
+
+Para convertir un número '''binario a decimal''', cada digito binario es multiplicado por la base 2 elevada a la posición que ocupa el digito contando desde la derecha empezando por 0.
+
+* 101 = 1*2^2 + 0*2^1 + 1*2^0 = 4 + 0 + 1 = 5
+* 11011 = 1*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 16 + 8 + 0 + 2 + 1 = 27
+
+Para convertir un número '''octal a decimal''', se utiliza el mismo método que para binario a decimal, pero con base 8.
+
+* 356 = 3*8^2 + 5*8^1 + 6*8^0 = 192 + 40 + 6 = 238
+
+Para convertir un número '''hexadecimal a decimal''', igualmente pero con base 16.
+
+* A0D = A*16^2 + 0*16^1 + D*16^0 = A*256 + 0*16 + D*1 = 10*256 + 0 + 13*1 = 2560 + 13 = 2573
+* 7B2 = 7*16^2 + B*16^1 + 2*16^0 = 7*256 + B*16 + 2*1 = 7*256 + 11*16 + 2*1 = 1792 + 176 + 2 = 1970
 
 === Arquitecturas de ordenador ===
 

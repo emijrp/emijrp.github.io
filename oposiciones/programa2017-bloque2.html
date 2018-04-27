@@ -42,6 +42,8 @@
 <tr><td>
 &nbsp;1. <a href="#Tema 1: Informática básica">Tema 1: Informática básica</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="#Sistemas numéricos">Sistemas numéricos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 <a href="#Conversión de decimal a otros sistemas">Conversión de decimal a otros sistemas</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 <a href="#Conversión de otros sistemas a decimal">Conversión de otros sistemas a decimal</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="#Arquitecturas de ordenador">Arquitecturas de ordenador</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="#Componentes internos">Componentes internos</a><br/>
 &nbsp;2. <a href="#Tema 2: Periféricos">Tema 2: Periféricos</a><br/>
@@ -85,21 +87,37 @@
 
 <ul><li><b>Binario</b>: base 2, solamente se utilizan el 0 y el 1.</li><li><b>Octal</b>: base 8, se utilizan del 0 al 7.</li><li><b>Decimal</b>: base 10, se utlizan del 0 al 9.</li><li><b>Hexadecimal</b>: base 16, se utilizan del 0 al 9 y de la A a la F.</li></ul>
 
+<h4 id="Conversión de decimal a otros sistemas">Conversión de decimal a otros sistemas</h4>
+
 <p>Para convertir un número <b>decimal a binario</b>, se divide el número entre 2 sucesivamente. Los restos colocados a la inversa componen el número en binario.</p>
 
-<ul><li>8 / 2 = 4. Resto 0.</li><li>4 / 2 = 2. Resto 0.</li><li>2 / 2 = 1. Resto 0.</li><li>1 / 2 = 0. Resto 1.</li><li>8 en decimal es 1000 en binario.</li></ul>
+<ul><li>8 / 2 = 4. Resto 0.</li><li>4 / 2 = 2. Resto 0.</li><li>2 / 2 = 1. Resto 0.</li><li>1 / 2 = 0. Resto 1.</li><li><b>8 en decimal es 1000 en binario</b>.</li></ul>
 
 <p>Para convertir un número <b>decimal a octal</b> se utiliza el mismo método.</p>
 
-<ul><li>34 / 8 = 4. Resto 2.</li><li>4 / 8 = 0. Resto 4.</li><li>34 en decimal es 42 en octal.</li></ul>
+<ul><li>34 / 8 = 4. Resto 2.</li><li>4 / 8 = 0. Resto 4.</li><li><b>34 en decimal es 42 en octal</b>.</li></ul>
 
-<p>Para convertir un número <b>decimal a hexadecimal</b>...</p>
+<p>Para convertir un número <b>decimal a hexadecimal</b>, primero convertimos de decimal a binario y luego de binario a hexadecimal.</p>
 
-<p>Para convertir un número <b>binario a decimal</b>...</p>
+<ul><li>183 / 2 = 91. Resto 1.</li><li>91 / 2 = 45. Resto 1.</li><li>45 / 2 = 22. Resto 1.</li><li>22 / 2 = 11. Resto 0.</li><li>11 / 2 = 5. Resto 1.</li><li>5 / 2 = 2. Resto 1.</li><li>2 / 2 = 1. Resto 0.</li><li>1 / 2 = 0. Resto 1.</li></ul>
 
-<p>Para convertir un número <b>octal a decimal</b>...</p>
+<p>Ahora pasaríamos 10110111 a hexadecimal agrupando de cuatro en cuatro dígitos desde la derecha. 1011 = 11 = B, 0111 = 7. De modo que <b>183 en decimal es B7 en hexadecimal</b>.</p>
 
-<p>Para convertir un número <b>hexadecimal a decimal</b>...</p>
+<p>En hexadecimal se usan las siguientes letras: A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.</p>
+
+<h4 id="Conversión de otros sistemas a decimal">Conversión de otros sistemas a decimal</h4>
+
+<p>Para convertir un número <b>binario a decimal</b>, cada digito binario es multiplicado por la base 2 elevada a la posición que ocupa el digito contando desde la derecha empezando por 0.</p>
+
+<ul><li>101 = 1*2^2 + 0*2^1 + 1*2^0 = 4 + 0 + 1 = 5</li><li>11011 = 1*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 16 + 8 + 0 + 2 + 1 = 27</li></ul>
+
+<p>Para convertir un número <b>octal a decimal</b>, se utiliza el mismo método que para binario a decimal, pero con base 8.</p>
+
+<ul><li>356 = 3*8^2 + 5*8^1 + 6*8^0 = 192 + 40 + 6 = 238</li></ul>
+
+<p>Para convertir un número <b>hexadecimal a decimal</b>, igualmente pero con base 16.</p>
+
+<ul><li>A0D = A*16^2 + 0*16^1 + D*16^0 = A*256 + 0*16 + D*1 = 10*256 + 0 + 13*1 = 2560 + 13 = 2573</li><li>7B2 = 7*16^2 + B*16^1 + 2*16^0 = 7*256 + B*16 + 2*1 = 7*256 + 11*16 + 2*1 = 1792 + 176 + 2 = 1970</li></ul>
 
 <h3 id="Arquitecturas de ordenador">Arquitecturas de ordenador</h3>
 
@@ -452,7 +470,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-25 18:30:34 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-27 21:44:15 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
