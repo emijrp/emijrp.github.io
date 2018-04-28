@@ -64,10 +64,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;6.3 <a href="#C++">C++</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;6.4 <a href="#.NET">.NET</a><br/>
 &nbsp;7. <a href="#Tema 7: Arquitectura de sistemas cliente/servidor">Tema 7: Arquitectura de sistemas cliente/servidor</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7.1 <a href="#Cliente/servidor">Cliente/servidor</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7.2 <a href="#Servicios web">Servicios web</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.2.1 <a href="#Orientada a servicios">Orientada a servicios</a><br/>
 &nbsp;8. <a href="#Tema 8: Aplicaciones web">Tema 8: Aplicaciones web</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;8.1 <a href="#HTML">HTML</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8.1 <a href="#HTML, XHTML y XML">HTML, XHTML y XML</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.1.1 <a href="#HTML">HTML</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.1.2 <a href="#XHTML">XHTML</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.1.3 <a href="#XML">XML</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;8.2 <a href="#Javascript">Javascript</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;8.3 <a href="#PHP">PHP</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8.4 <a href="#Sintaxis de comentarios, etc">Sintaxis de comentarios, etc</a><br/>
 &nbsp;9. <a href="#Tema 9: Accesibilidad y usabilidad">Tema 9: Accesibilidad y usabilidad</a><br/>
 &nbsp;10. <a href="#Tema 10: Herramientas CASE">Tema 10: Herramientas CASE</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;10.1 <a href="#Control de versiones">Control de versiones</a><br/>
@@ -330,9 +337,38 @@
 </div>
 
 
+<h3 id="Cliente/servidor">Cliente/servidor</h3>
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016</b></p>
+</div>
+
 <p>En la <b>arquitectura cliente-servidor</b> las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.</p>
 
 <p>En la <b>arquitectura multicapa</b> hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos.</p>
+
+<h3 id="Servicios web">Servicios web</h3>
+
+<p>Un <b>servicio web</b> es una tecnología que utiliza protocolos y estándares para intercambiar datos entre aplicaciones. Varios aplicaciones software en distintos lenguajes ejecutadas en cualquier plataforma, pueden usar los servicios web para intercambiar datos en una red. Esta interoperabilidad es posible con los estándares abiertos.</p>
+
+<p><b>Estándares</b> utilizados:</p>
+<ul><li><b>Web Services Protocol Stack</b> (WSPS): conjunto de servicios y protocolos de estos servicios.</li><li><b>Extensive Markup Language</b> (XML=: formato para los datos que se intercambian.</li><li><b>Simple Object Access Protocol</b> (SOAP): protocolo para los intercambios.</li><li><b>XML Remote Procedure Call</b> (XML-RPC): protocolo para los intercambios.</li><li><b>Web Services Description Language</b> (WSDL): lenguaje de la interfaz pública de los servicios web.</li><li><b>Universal Description, Discovery and Integration</b> (UDDI): protocolo para publicar información sobre servicios web (si están disponibles, etc).</li><li><b>Web Service Security</b> (WS-Security): protocolo de seguridad, garantiza la autenticación de actores y la confidencialidad de los mensajes enviados.</li><li><b>Representational State Transfer</b> (REST): permite realizar operaciones utilizando el protocolo HTTP y sus métodos GET, POT, PUT, DELETE, etc.</li></ul>
+
+<p><b>Frameworks</b> para servicios web:</p>
+<div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
+
+<ul><li>Apache Axis</li><li>Apache CXF</li><li>CodeIgniter</li><li>gSOAP</li><li>GlassFish</li><li>.NET Framework</li><li>Web Services Interoperability Technology</li><li>Web Services Invocation Framework</li><li>WSO2 WSF/PHP</li><li>XFire</li><li>XML Interface for Network Services</li><li>Zend Framework</li></ul>
+</div>
+
+
+<h4 id="Orientada a servicios">Orientada a servicios</h4>
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016</b></p>
+</div>
+
+
+<p>La <b>arquitectura orientada a servicios</b> (SOA) es un diseño de software en el que los servicios son proporcionados a otros componentes a través de un protocolo de comunicaciones sobre una red. Se trata de servicios independientes que pueden accederse remótamente y ser actualizados independientemente.</p>
+
+<ul><li><b>Servicio</b>: función que acepta una llamada y devuelve una respuesta mediante una interfa bien definida.</li><li><b>Orquestación</b>: coordinación de los servicios y proveer la lógica para procesar datos.</li><li><b>Sin estado</b>: un servicio no depende de la condición de otros servicios. Los servicios son orquestados en secuencias que realizan la lógica del negocio.</li><li><b>Proveedor</b>: la función que ofrece el servicio en respuesta a una petición de un consumidor.</li><li><b>Consumidor</b>: la función que consume la respuesta del proveedor.</li></ul>
 
 <h2 id="Tema 8: Aplicaciones web">Tema 8: Aplicaciones web</h2>
 
@@ -341,7 +377,9 @@
 </div>
 
 
-<h3 id="HTML">HTML</h3>
+<h3 id="HTML, XHTML y XML">HTML, XHTML y XML</h3>
+
+<h4 id="HTML">HTML</h4>
 
 <p>Un documento HTML se compone generalmente de un DOCTYPE, un elemento HTML raíz, un HEAD y un BODY. El DOCTYPE indica de qué tipo de documento se trata (versión del HTML, idioma, codificación, etc). El elemento HTML indica el comienzo del documento en sí. El HEAD permite indicar metadatos adicionales (autor, fecha, descripción, palabras clave. Y el BODY incluye todo el texto, imágenes, etc, de la página web.</p>
 
@@ -350,6 +388,18 @@
 <p>Las etiquetas más frecuentes y su situación dentro del documento son las siguientes:</p>
 
 <ul><li><b>HEAD</b></li><ul><li><b>BASE</b>: indica una URL de base para todos los HREF relativos. Solo se permite un BASE por documento.</li><li><b>LINK</b>: enlaza a otros documentos, como a hojas de estilo CSS.</li><ul><li>link rel="stylesheet" type="text/css" href="url" title="descripcion del estilo"</li></ul><li><b>META</b>: permite indicar metadatos como autor, fecha, descripción, palabras clave. También codificación.</li><ul><li>meta charset="utf-8"</li><li>meta name="description" content="Una web sobre informatica"</li></ul><li><b>OBJECT</b>: para incluir objetos, aunque es raramente usado en el HEAD.</li><li><b>SCRIPT</b>: para incrustar código (por ejemplo Javascript) o para enlazar a ficheros externos mediante el atributo SRC.</li><ul><li>script src="enlace/a/fichero.js"</li></ul><li><b>STYLE</b>: indica los estilos del documento.</li><ul><li>style type="text/css"</li></ul><li><b>TITLE</b>: define el título del documento.</li></ul><li><b>BODY</b></li><ul><li><b>P</b>: párrafos.</li><li><b>H1/H6</b>: distintos niveles de cabecera.</li><li><b>OL</b>: lista ordenada.</li><li><b>UL</b>: lista sin ordenar.</li><li><b>LI</b>: un elemento de una lista OL o UL.</li><li><b>ASIDE</b>: contenido separado del contenido principal, por ejemplo barras laterales o anuncios.</li><li><b>BLOCKQUOTE</b>: citas que pueden incluir párrafos. La cita sencilla es con Q.</li><li><b>DIV</b>: un bloque bien definido que puede tener su propio estilo u otras propiedades.</li><li><b>FIGURE</b>: agrupa imágenes y pies de foto.</li><li><b>FIGCAPTION</b>: para pies de foto, siempre se usa dentro de FIGURE.</li><li><b>FOOTER</b>: para incluir el autor o copyright.</li><li><b>HR</b>: línea horizontal.</li><li><b>NOSCRIPT</b>:</li><li><b>PRE</b>: texto con preformateado.</li><li><b>SCRIPT</b>: para incrustar código script en el documento.</li><li><b>A</b>: para enlaces, ya sea dentro de propio sitio web o hacia otros sitios web. El atributo HREF indica la dirección de destino.</li><li><b>B</b>: negritas. También STRONG.</li><li><b>I</b>: cursivas. También EM para enfasis.</li><li><b>S</b>: tachado. También STRIKE o DEL.</li><li><b>U</b>: subrayado.</li><li><b>TT</b>: monoespaciado.</li><li><b>SMALL</b>: texto pequeño.</li><li><b>BIG</b>: texto grande.</li><li><b>SUB</b>: subíndice.</li><li><b>SUP</b>: superíndice.</li><li><b>FONT</b>: indica el tipo de fuente, color y tamaño. Mejor indicarlo con CSS.</li><li><b>BR</b>: salto de línea.</li><li><b>MARK</b>: sombreado amarillo para resaltar.</li><li><b>APPLET</b>: para embeber un applet de Java. Se prefiere OBJECT.</li><li><b>AUDIO</b>: añade un audio con reproductor.</li><li><b>EMBED</b>: inserta un objeto no estándar.</li><li><b>IMG</b>: para imágenes, se indica la dirección con el atributo SRC.</li><li><b>OBJECT</b>: incluye un objeto indicando el tipo con TYPE. Para contenido Flash, applets Java, etc.</li><li><b>SOURCE</b>: para introducir un audio o vídeo. También con VIDEO.</li><li><b>FORM</b>: crea un formulario que hará lo estipulado en el atributo ACTION.</li><li><b>BUTTON</b>: un botón genérico.</li><li><b>INPUT</b>: elemento de entrada de datos que tiene muchos tipos.</li><ul><li><b>CHECKBOX</b>: opción que se puede marcar o desmarcar.</li><li><b>RADIO</b>: muestra varios opciones y solo se puede escoger una.</li><li><b>BUTTON</b>: similar al botón genérico.</li><li><b>SUBMIT</b>: un botón para enviar el formulario.</li><li><b>IMAGE</b>: un botón con imagen.</li><li><b>RESET</b>: un botón para resetear el formulario a sus valores por defecto.</li><li><b>TEXT</b>: campo de texto de una línea. Con SIZE se indica el ancho visual del campo y con MAX-LENGTH el máximo de caracteres que se pueden escribir.</li><li><b>SEARCH</b>: similar a TEXT pero para búsquedas.</li><li><b>PASSWORD</b>: similar a TEXT pero oculta lo tecleado.</li><li><b>FILE</b>: para subir ficheros al servidor.</li><li><b>TEL</b>: para números de teléfono.</li><li><b>EMAIL</b>: para direcciones de email.</li><li><b>URL</b>: como TEXT pero para direcciones web.</li><li><b>DATE</b>: para escoger fecha.</li><li><b>TIME</b>: para escoger hora.</li><li><b>NUMBER</b>: como TEXT pero para números.</li><li><b>RANGE</b>: para escoger un número con una barra desplazable.</li><li><b>Color</b>: para escoger color.</li><li><b>HIDDEN</b>: no es visible en la página al ser renderizada pero sirve para almacenar datos que deban ser enviados junto al formulario.</li></ul><li><b>PROGRESS</b>: barra de progreso.</li><li><b>TEXTAREA</b>: entrada de texto de múltiples líneas, indicandose el número de líneas con ROWS.</li></ul></ul>
+
+<h4 id="XHTML">XHTML</h4>
+
+<p>Las <b>diferencias entre HTML y XHTML</b> son las siguientes:</p>
+
+<ul><li><b>Estructura</b> del documento</li><ul><li>El <b>XHTML DOCTYPE</b> es obligatorio</li><li>El <b>atributo xmlns</b>es obligatorio</li><li>Las etiquetas html, head, title y body son obligatorias</li></ul><li><b>Elementos</b> XHTML</li><ul><li>Los elementos deben estar <b>anidados correctamente</b></li><li>Los elementos deben <b>cerrarse siempre</b></li><li>Los elementos deben estar en <b>minúsculas</b></li><li>Solo se admite <b>un elemento raiz</b></li></ul><li><b>Atributos</b> XHTML</li><ul><li>Los nombres de los atributos deben ir <b>en minúscula</b></li><li>Los valores de los atributos deben ir <b>entre comillas</b></li><li>No se permite la abreviación de atributos</li></ul></ul>
+
+<h4 id="XML">XML</h4>
+
+<p>Algunas normas para XML:</p>
+
+<ul><li>El prólogo es opcional pero debe ir en la primera línea del documento</li><li>Solo se admite un elemento raiz</li><li>Es sensible a mayúsculas y minúsculas</li><li>Todos los elementos deben tener cierre</li><li>Los elementos deben estar anidados correctamente</li><li>Todos los valores de atributos deben ir entre comillas</li><li>El DOCTYPE no tiene etiqueta de cierre (ni barra)</li></ul>
 
 <h3 id="Javascript">Javascript</h3>
 
@@ -365,6 +415,12 @@
 
 <ul><li>?php echo "Hola"; ?></li><li>if ($a > $b) { echo "A es mayor"; } else { echo "B es mayor"; }</li><li>for ($i = 1; $i <= 10; $i++) { echo $i; }</li></ul>
 
+<h3 id="Sintaxis de comentarios, etc">Sintaxis de comentarios, etc</h3>
+
+<p>Sintaxis para <b>comentarios</b>:</p>
+
+<ul><li><b>Ada, Eiffel, Occam, ANSI SQL</b>: -- comentario</li><li><b>C, C++, C#, Java, JavaScript</b>: //comentario /* comentario */</li><li><b>HTML</b>: < !-- --></li><li><b>JSP</b>: <%-- --%></li><li><b>Pascal</b>: (* comentario *)</li><li><b>Perl, Ruby</b>: #comentario</li><li><b>PHP</b>: #comentario //comentario /* comentario */</li><li><b>Python</b>: # comentario """ comentario """</li><li><b>Smalltalk</b>: "comentario"</li><li><b>Visual Basic</b>: 'comentario REM comentario</li></ul>
+
 <h2 id="Tema 9: Accesibilidad y usabilidad">Tema 9: Accesibilidad y usabilidad</h2>
 
 <div style="border: 2px solid lightgrey;background-color: lightblue;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;">
@@ -372,9 +428,15 @@
 </div>
 
 
-<p>Algunas definiciones:</p>
+<p>Algunas <b>definiciones</b>:</p>
 
 <ul><li><b>Accesibilidad</b>: determina si todos los usuarios pueden utilizar una aplicación o web en igualdad de condiciones. Hay que tener en cuenta las distintas discapacidades que pueden presentar los usuarios (vista, auditivas, motrices). Por ello, algunas pautas que mejoran la accesibilidad son:</li><ul><li>Proporcionar un texto alterntivo a las imágenes y enlaces, lo cual facilita a los usuarios invidentes el uso de lectores de pantalla.</li><li>Vídeos con subtítulos, permiten que los sordos puedan consumir esos contenidos.</li><li>Tamaño de texto grande o modificable, facilita su lectura.</li><li>Elementos de interacción como botones o campos que sean claros y bien definidos, impide confusión cuando el usuario no cuenta con precisión de movimientos.</li><li>No limitar la interacción a un dispositivo (ratón o teclado), permite que el usuario defina su dispositivo.</li></ul><li><b>Diseño universal</b>: es aquel diseño que permite su uso al mayor número de personas posible, incuyendo por supuesto aquellas con discapacidades.</li><li><b>Usabilidad</b>: es el estudio del diseño de las aplicaciones y webs para mejorar la interacción de los usuarios, haciéndola más fácil, cómoda e intuitiva.</li></ul>
+
+<p><b>Software</b> para discapacitados:</p>
+<ul><li><b>Dasher</b>: permite escribir a personas con dificultada para usar un teclado.</li><li><b>Gnopernicus</b>: lector de pantalla para Linux, software libre.</li><li><b>JAWS</b>: lector de pantalla para Windows, software privativo.</li><li><b>NVDA</b>: lector de pantalla para Windows, software libre.</li><li><b>Orca</b>: lector de pantalla para Linux, software libre.</li><li><b>Vinux</b>: distribución basada en Ubuntu, diseñada para discapacitados visuales.</li></ul>
+
+<p>WCAG:</p>
+<ul><li></li></ul>
 
 <h2 id="Tema 10: Herramientas CASE">Tema 10: Herramientas CASE</h2>
 
@@ -442,7 +504,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-26 16:34:07 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-28 17:01:50 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

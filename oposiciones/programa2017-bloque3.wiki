@@ -552,15 +552,60 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 
 {{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
 
+=== Cliente/servidor ===
+{{cayo-en-convocatoria|1=2016}}
 En la '''arquitectura cliente-servidor''' las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
 
 En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos.
+
+=== Servicios web ===
+
+Un '''servicio web''' es una tecnología que utiliza protocolos y estándares para intercambiar datos entre aplicaciones. Varios aplicaciones software en distintos lenguajes ejecutadas en cualquier plataforma, pueden usar los servicios web para intercambiar datos en una red. Esta interoperabilidad es posible con los estándares abiertos.
+
+'''Estándares''' utilizados:
+* '''Web Services Protocol Stack''' (WSPS): conjunto de servicios y protocolos de estos servicios.
+* '''Extensive Markup Language''' (XML=: formato para los datos que se intercambian.
+* '''Simple Object Access Protocol''' (SOAP): protocolo para los intercambios.
+* '''XML Remote Procedure Call''' (XML-RPC): protocolo para los intercambios.
+* '''Web Services Description Language''' (WSDL): lenguaje de la interfaz pública de los servicios web.
+* '''Universal Description, Discovery and Integration''' (UDDI): protocolo para publicar información sobre servicios web (si están disponibles, etc).
+* '''Web Service Security''' (WS-Security): protocolo de seguridad, garantiza la autenticación de actores y la confidencialidad de los mensajes enviados.
+* '''Representational State Transfer''' (REST): permite realizar operaciones utilizando el protocolo HTTP y sus métodos GET, POT, PUT, DELETE, etc.
+
+'''Frameworks''' para servicios web:
+{{div col 4}}
+* Apache Axis
+* Apache CXF
+* CodeIgniter
+* gSOAP
+* GlassFish
+* .NET Framework
+* Web Services Interoperability Technology
+* Web Services Invocation Framework
+* WSO2 WSF/PHP
+* XFire
+* XML Interface for Network Services
+* Zend Framework
+{{div col end}}
+
+==== Orientada a servicios ====
+{{cayo-en-convocatoria|1=2016}}
+
+La '''arquitectura orientada a servicios''' (SOA) es un diseño de software en el que los servicios son proporcionados a otros componentes a través de un protocolo de comunicaciones sobre una red. Se trata de servicios independientes que pueden accederse remótamente y ser actualizados independientemente.
+
+* '''Servicio''': función que acepta una llamada y devuelve una respuesta mediante una interfa bien definida.
+* '''Orquestación''': coordinación de los servicios y proveer la lógica para procesar datos.
+* '''Sin estado''': un servicio no depende de la condición de otros servicios. Los servicios son orquestados en secuencias que realizan la lógica del negocio.
+* '''Proveedor''': la función que ofrece el servicio en respuesta a una petición de un consumidor.
+* '''Consumidor''': la función que consume la respuesta del proveedor.
 
 == Tema 8: Aplicaciones web ==
 
 {{recuadro|1='''Aplicaciones web'''. Desarrollo web front-end y en servidor. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.}}
 
-=== HTML ===
+=== HTML, XHTML y XML ===
+
+==== HTML ====
 
 Un documento HTML se compone generalmente de un DOCTYPE, un elemento HTML raíz, un HEAD y un BODY. El DOCTYPE indica de qué tipo de documento se trata (versión del HTML, idioma, codificación, etc). El elemento HTML indica el comienzo del documento en sí. El HEAD permite indicar metadatos adicionales (autor, fecha, descripción, palabras clave. Y el BODY incluye todo el texto, imágenes, etc, de la página web.
 
@@ -655,6 +700,38 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 ** '''PROGRESS''': barra de progreso.
 ** '''TEXTAREA''': entrada de texto de múltiples líneas, indicandose el número de líneas con ROWS.
 
+==== XHTML ====
+
+Las '''diferencias entre HTML y XHTML''' son las siguientes:
+
+* '''Estructura''' del documento
+** El '''XHTML DOCTYPE''' es obligatorio
+** El '''atributo xmlns'''es obligatorio
+** Las etiquetas html, head, title y body son obligatorias
+
+* '''Elementos''' XHTML
+** Los elementos deben estar '''anidados correctamente'''
+** Los elementos deben '''cerrarse siempre'''
+** Los elementos deben estar en '''minúsculas'''
+** Solo se admite '''un elemento raiz'''
+
+* '''Atributos''' XHTML
+** Los nombres de los atributos deben ir '''en minúscula'''
+** Los valores de los atributos deben ir '''entre comillas'''
+** No se permite la abreviación de atributos
+
+==== XML ====
+
+Algunas normas para XML:
+
+* El prólogo es opcional pero debe ir en la primera línea del documento
+* Solo se admite un elemento raiz
+* Es sensible a mayúsculas y minúsculas
+* Todos los elementos deben tener cierre
+* Los elementos deben estar anidados correctamente
+* Todos los valores de atributos deben ir entre comillas
+* El DOCTYPE no tiene etiqueta de cierre (ni barra)
+
 === Javascript ===
 
 '''JavaScript''' es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
@@ -683,11 +760,26 @@ Todas las variables van precedidas del carácter $. Los nombres de variables son
 * if ($a > $b) { echo "A es mayor"; } else { echo "B es mayor"; }
 * for ($i = 1; $i <= 10; $i++) { echo $i; }
 
+=== Sintaxis de comentarios, etc ===
+
+Sintaxis para '''comentarios''':
+
+* '''Ada, Eiffel, Occam, ANSI SQL''': -- comentario
+* '''C, C++, C#, Java, JavaScript''': //comentario /* comentario */
+* '''HTML''': < !-- -->
+* '''JSP''': <%-- --%>
+* '''Pascal''': (* comentario *)
+* '''Perl, Ruby''': #comentario
+* '''PHP''': #comentario //comentario /* comentario */
+* '''Python''': # comentario """ comentario """
+* '''Smalltalk''': "comentario"
+* '''Visual Basic''': 'comentario REM comentario
+
 == Tema 9: Accesibilidad y usabilidad  ==
 
 {{recuadro|1='''Accesibilidad, diseño universal y usabilidad'''. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final.}}
 
-Algunas definiciones:
+Algunas '''definiciones''':
 
 * '''Accesibilidad''': determina si todos los usuarios pueden utilizar una aplicación o web en igualdad de condiciones. Hay que tener en cuenta las distintas discapacidades que pueden presentar los usuarios (vista, auditivas, motrices). Por ello, algunas pautas que mejoran la accesibilidad son:
 ** Proporcionar un texto alterntivo a las imágenes y enlaces, lo cual facilita a los usuarios invidentes el uso de lectores de pantalla.
@@ -699,6 +791,17 @@ Algunas definiciones:
 * '''Diseño universal''': es aquel diseño que permite su uso al mayor número de personas posible, incuyendo por supuesto aquellas con discapacidades.
 
 * '''Usabilidad''': es el estudio del diseño de las aplicaciones y webs para mejorar la interacción de los usuarios, haciéndola más fácil, cómoda e intuitiva.
+
+'''Software''' para discapacitados:
+* '''Dasher''': permite escribir a personas con dificultada para usar un teclado.
+* '''Gnopernicus''': lector de pantalla para Linux, software libre.
+* '''JAWS''': lector de pantalla para Windows, software privativo.
+* '''NVDA''': lector de pantalla para Windows, software libre.
+* '''Orca''': lector de pantalla para Linux, software libre.
+* '''Vinux''': distribución basada en Ubuntu, diseñada para discapacitados visuales.
+
+WCAG:
+* 
 
 == Tema 10: Herramientas CASE ==
 
