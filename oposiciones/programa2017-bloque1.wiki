@@ -7,7 +7,7 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 
 {{recuadro|1='''Tema 1.''' La '''Constitución Española de 1978'''. Derechos y deberes fundamentales. Su garantía y suspensión. La Jefatura del Estado. La Corona. Funciones constitucionales del Rey.}}
 
-'''Fechas importantes:'''
+=== Fechas destacadas ===
 
 * 31 de octubre de 1978 (aprobación por las Cortes Generales: Congreso y Senado)
 * 6 de diciembre de 1978 (ratificada mediante referendum por el pueblo español)
@@ -16,7 +16,80 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 * 27 de agosto de 1992 (reforma del artículo 13.2: derecho de sufragio pasivo a los extranjeros)
 * 27 de septiembre de 2011 (reforma del artículo 135: estabilidad presupuestaria)
 
-'''Estructura formal:''' Preámbulo, título preliminar, 10 títulos, 4 disposiciones adicionales, 9 disposiciones transitorias, 1 disposición derogatoria, 1 disposición final. Tiene 169 artículos.
+=== Estructura ===
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+Las '''estructura formal''' de la Constitución es la siguiente.
+
+* Preámbulo
+* Título preliminar
+* 10 títulos
+* 4 disposiciones adicionales
+* 9 disposiciones transitorias
+* 1 disposición derogatoria
+* 1 disposición final
+
+La Constitución cuenta con '''169 artículos'''.
+
+En cuanto a artículos la composición es la siguiente.
+
+* Preámbulo no tiene artículos
+* '''Título preliminar''' tiene '''9 artículos''' (del 1 al 9 inclusive)
+* '''Título I''' tiene 46 artículos (del 10 al 55 inclusive)
+* '''Título II''' tiene 10 artículos (del 56 al 65 inclusive)
+* '''Título III''' tiene 31 artículos (del 66 al 96 inclusive)
+* '''Título IV''' tiene 11 artículos (del 97 al 107 inclusive)
+* '''Título V''' tiene 9 artículos (del 108 al 116 inclusive)
+* '''Título VI''' tiene 11 artículos (del 117 al 127 inclusive)
+* '''Título VII''' tiene 9 artículos (del 128 al 136 inclusive)
+* '''Título VIII''' tiene 22 artículos (del 137 al 158 inclusive)
+* '''Título IX''' tiene 7 artículos (del 159 al 165 inclusive)
+* '''Título X''' tiene 4 artículos (del 166 al 169 inclusive)
+
+El '''preámbulo''' no es de aplicación directa por ser '''ambiguo'''.
+</td>
+<td valign="top">
+Los '''títulos''' se dividen de la siguiente forma.
+
+* '''Título I'''. De los derechos y deberes fundamentales
+** Capítulo I. De los españoles y los extranjeros
+** Capítulo II. Derechos y libertades
+*** Sección I. De los derechos fundamentales y de las libertades públicas
+*** Sección II. De los derechos y deberes de los ciudadanos
+** Capítulo III. De los principios rectores de la política social y económica
+** Capítulo IV. De las garantías de las libertades y derechos fundamentales
+** Capítulo V. De la suspensión de los derechos y libertades
+
+* '''Título II'''. De la Corona
+
+* '''Título III'''. De las Cortes Generales
+** Capítulo I. De las Cámaras
+** Capítulo II. De la elaboración de las leyes
+** Capítulo III. De los Tratados Internacionales
+
+* '''Título IV'''. Del Gobierno y de la Administración
+
+* '''Título V'''. De las Relaciones entre el Gobierno y las Cortes Generales
+
+* '''Título VI'''. Del Poder Judicial
+
+* '''Título VII'''. Economía y Hacienda
+
+* '''Título VIII'''. De la Organización Territorial del Estado
+** Capítulo I. Principios generales
+** Capítulo II. De la Administración Local
+** Capítulo III. De las Comunidades Autónomas
+
+* '''Título IX'''. Del Tribunal Constitucional
+
+* '''Título X'''. De la Reforma Constitucional
+
+Los Títulos I, III y VIII se dividen en capítulos. El Título I además se divide en secciones.
+</td>
+</tr>
+</table>
 
 <!--{{youtube|id=bDf3rkh7kqU|align=right}}-->
 
@@ -29,8 +102,12 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 ** [https://www.youtube.com/watch?v=IjmjDJklJ24 La Corona] (22 minutos)
 * Funciones constitucionales del Rey (Artículo 62 de la Constitución)
 
+=== Artículos destacados ===
+
 {{cayo-en-convocatoria|1=2016}}
 * '''Artículo 1'''. 1) España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político. 2) La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado. 3) La forma política del Estado español es la Monarquía parlamentaria.
+
+* sucesión y regencia
 
 {{clear}}
 
