@@ -251,7 +251,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 == Tema 5 ==
 
-{{recuadro|1='''Tema 5.''' }}
+{{recuadro|1='''Tema 5.''' La '''Administración pública''': principios constitucionales informadores. La Administración General del Estado: organización y personal a su servicio. El texto refundido del Estatuto Básico del Empleo Público y demás normativa vigente. Las Comunidades Autónomas y la Administración local: regulación constitucional.}}
 
 # La '''Administración pública''': principios constitucionales informadores. La Administración General del Estado: organización y personal a su servicio. El texto refundido del Estatuto Básico del Empleo Público y demás normativa vigente.<ref>[https://www.boe.es/boe/dias/2007/04/13/pdfs/A16270-16299.pdf Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público]</ref> Las Comunidades Autónomas y la Administración local: regulación constitucional.
 
@@ -262,18 +262,36 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 == Tema 6 ==
 
-{{recuadro|1='''Tema 6.''' }}
+{{recuadro|1='''Tema 6.''' Las fuentes del derecho administrativo. La jerarquía de las fuentes. La ley. Las disposiciones del Ejecutivo con fuerza de ley: decreto-ley y decreto legislativo. El reglamento: concepto, clases y límites. Otras fuentes del derecho administrativo.}}
 
-# Las fuentes del derecho administrativo. La jerarquía de las fuentes. La ley. Las disposiciones del Ejecutivo con fuerza de ley: decreto-ley y decreto legislativo. El reglamento: concepto, clases y límites. Otras fuentes del derecho administrativo.
-
+=== Leyes ===
 {{cayo-en-convocatoria|1=2016}}
-* La constitución es la norma suprema.
 
-* Diferencia entre ley de bases, orgánica, etc
+La '''Constitución''' es la '''norma suprema'''.
+
+Un '''Real Decreto-ley''' es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), sin contar con la autorización previa del poder legislativo (Congreso). El decreto-ley puede ser dictado por razones de urgencia (aunque esto lo decide el mismo Gobierno), requiriendo de la convalidación por parte del poder legislativo con posterioridad (en el plazo de 30 días). Los decreto-ley no pueden afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades de los ciudadanos, al régimen de las Comunidades Autónomas, ni al Derecho Electoral general.
+
+Un '''Real Decreto legislativo''' o '''decreto con fuerza de ley''' (DFL) es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), por delegación expresa por el poder legislativo (Congreso, mediante ley ordinaria).
+
+Una '''ley de bases''' es aquella que emanada de las Cortes Generales delega en el Gobierno la potestad legislativa para formar un texto articulado. La delegación está definida para una materia en concreto y por un tiempo determinado. No obstante no podrá regular sobre materias reservadas a las leyes orgánicas.
+
+Una '''ley orgánica''' requiere de la mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto. Son leyes orgánicas las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución.
+
+Una '''ley ordinaria''' es aquella que no requiere trámites especiales para ser aprobada y trata sobre materias no reservadas a las leyes orgánicas. Requieren mayoría simple del Congreso.
+
+Un '''reglamento''' ...
+
+=== Mayorías ===
+
+* La '''mayoría absoluta''' es aquella en la que hay la mitad + 1 de votos favorables del total de escaños del Congreso, es decir, 175 + 1 = 176. No es necesario quorum mínimo.
+
+* La '''mayoría simple''' es aquella en la que hay más votos a favor que en contra. Requiere quorum mínimo (la mitad? 175?).
+
+* La '''mayoría cualificada''' es aquella que tiene 2/3, 3/5, etc, de votos favorables. No requiere quorum mínimo.
 
 == Tema 7 ==
 
-{{recuadro|1='''Tema 7.''' }}
+{{recuadro|1='''Tema 7.''' Políticas de '''igualdad''' de género. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Políticas contra la violencia de género. La Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género. Discapacidad y dependencia.}}
 
 # Políticas de '''igualdad''' de género. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115 Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres] (39 páginas)</ref> Políticas contra la violencia de género. La Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760 Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género] (59 páginas)</ref> Discapacidad y dependencia.<ref>[https://boe.es/diario_boe/txt.php?id=BOE-A-2013-12632 Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social] (39 páginas)</ref>
 
@@ -285,7 +303,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 == Tema 8 ==
 
-{{recuadro|1='''Tema 8.''' }}
+{{recuadro|1='''Tema 8.''' La sociedad de la información. Identidad y firma electrónica: régimen jurídico. El DNI electrónico.}}
 
 # La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
 
@@ -299,13 +317,13 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 == Tema 9 ==
 
-{{recuadro|1='''Tema 9.''' }}
+{{recuadro|1='''Tema 9.''' La '''protección de datos''' personales. Régimen jurídico. El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.}}
 
 # La '''protección de datos''' personales. Régimen jurídico.<ref>[https://www.boe.es/buscar/doc.php?id=BOE-A-1999-23750 Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal] (12 páginas)</ref><ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2008-979 Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal] (53 páginas)</ref> El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos.<ref>[https://www.boe.es/diario_boe/txt.php?id=DOUE-L-2016-80807 Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)] (88 páginas)</ref> Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.
 
 == Tema 10 ==
 
-{{recuadro|1='''Tema 10.''' }}
+{{recuadro|1='''Tema 10.''' '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo. La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.}}
 
 # '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2009-18358 Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos] (33 páginas)</ref> La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.<ref>[https://www.boe.es/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica]</ref> Normas técnicas de Interoperabilidad.<ref>[http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13501 Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares] (11 páginas)</ref>
 
