@@ -104,8 +104,82 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 === Artículos destacados ===
 
+==== Título preliminar ====
+
 {{cayo-en-convocatoria|1=2016}}
-* '''Artículo 1'''. 1) España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político. 2) La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado. 3) La forma política del Estado español es la Monarquía parlamentaria.
+* '''Artículo 1'''.
+# España se constituye en un '''Estado social y democrático de Derecho''', que propugna como valores superiores de su ordenamiento jurídico la '''libertad, la justicia, la igualdad y el pluralismo político'''.
+# La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.
+# La forma política del Estado español es la Monarquía parlamentaria.
+
+* '''Artículo 2'''. La Constitución se fundamenta en la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y '''reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones''' que la integran y la solidaridad entre todas ellas.
+
+* '''Artículo 3'''.
+# El castellano es la lengua española oficial del Estado. Todos los españoles tienen el '''deber de conocerla y el derecho a usarla'''.
+# Las '''demás lenguas''' españolas serán también '''oficiales''' en las respectivas Comunidades Autónomas de acuerdo con sus Estatutos.
+# La riqueza de las distintas '''modalidades lingüísticas''' de España es un patrimonio cultural que '''será objeto de especial respeto y protección'''.
+
+* '''Artículo 4'''.
+# La bandera de España está formada por tres franjas horizontales, roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas.
+# Los Estatutos podrán reconocer banderas y enseñas propias de las Comunidades Autónomas. Estas se utilizarán '''junto a la bandera de España en sus edificios públicos y en sus actos oficiales'''.
+
+* '''Artículo 5'''. La capital del Estado es la villa de Madrid.
+
+* '''Artículo 6'''. Los '''partidos políticos expresan el pluralismo político''', concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política. Su creación y el '''ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley'''. Su estructura interna y '''funcionamiento deberán ser democráticos'''.
+
+* '''Artículo 7'''. Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios. Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley. Su estructura interna y funcionamiento deberán ser democráticos.
+
+* '''Artículo 8'''.
+# Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.
+# Una ley orgánica regulará las bases de la organización militar conforme a los principios de la presente Constitución.
+
+* '''Artículo 9'''.
+# Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico.
+# Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas; remover los obstáculos que impidan o dificulten su plenitud y facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social.
+# La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad de los poderes públicos.
+
+==== Título I. De los derechos y deberes fundamentales ====
+
+* '''Artículo 10'''.
+* 3. El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España.
+
+* '''Artículo 14'''. Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.
+
+* '''Artículo 15'''. Todos tienen derecho a la vida y a la integridad física y moral, sin que, en ningún caso, puedan ser sometidos a tortura ni a penas o tratos inhumanos o degradantes. Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.
+
+* '''Artículo 16'''.
+# '''Se garantiza la libertad ideológica, religiosa y de culto''' de los individuos y las comunidades sin más limitación, en sus manifestaciones, que la necesaria para el mantenimiento del orden público protegido por la ley.
+# '''Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias'''.
+# '''Ninguna confesión tendrá carácter estatal'''. Los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad española y mantendrán las consiguientes relaciones de cooperación con la Iglesia Católica y las demás confesiones.
+
+* '''Artículo 17'''.
+* 2. La '''detención preventiva''' no podrá durar más del tiempo estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos, y, en todo caso, en el '''plazo máximo de setenta y dos horas''', el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.
+* 3. Toda persona detenida debe ser informada de forma inmediata, y de modo que le sea comprensible, de sus derechos y de las razones de su detención, '''no pudiendo ser obligada a declarar'''. Se garantiza la asistencia de abogado al detenido en las diligencias policiales y judiciales, en los términos que la ley establezca.
+
+* '''Artículo 18'''.
+* 3. Se '''garantiza el secreto de las comunicaciones''' y, en especial, de las postales, telegráficas y telefónicas, '''salvo resolución judicial'''.
+* 4. La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.
+
+* '''Artículo 20'''.
+# Se reconocen y protegen los derechos: a) A expresar y '''difundir libremente los pensamientos''', ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.
+# El ejercicio de estos derechos no puede restringirse mediante ningún tipo de censura previa.
+
+* '''Artículo 21'''. 1. Se reconoce el '''derecho de reunión pacífica y sin armas'''. El ejercicio de este derecho no necesitará de autorización previa.
+
+* '''Artículo 27'''. 1. Todos tienen el '''derecho a la educación'''. Se reconoce la libertad de enseñanza.
+
+* '''Artículo 28'''.
+# Todos tienen '''derecho a sindicarse''' libremente.
+# Se reconoce el '''derecho a la huelga''' de los trabajadores para la defensa de sus intereses.
+
+* '''Artículo 35'''. 1. Todos los españoles tienen el '''deber de trabajar y el derecho al trabajo'''.
+
+* '''Artículo 47'''. Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 54'''. Una ley orgánica regulará la institución del '''Defensor del Pueblo''', como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título [Título I], a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
+
+==== Título II. De la corona ====
 
 * sucesión y regencia
 
@@ -194,6 +268,8 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 {{cayo-en-convocatoria|1=2016}}
 * La constitución es la norma suprema.
+
+* Diferencia entre ley de bases, orgánica, etc
 
 == Tema 7 ==
 
