@@ -779,7 +779,7 @@ Sintaxis para '''comentarios''':
 
 {{recuadro|1='''Accesibilidad, diseño universal y usabilidad'''. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final.}}
 
-Algunas '''definiciones''':
+=== Definiciones ===
 
 * '''Accesibilidad''': determina si todos los usuarios pueden utilizar una aplicación o web en igualdad de condiciones. Hay que tener en cuenta las distintas discapacidades que pueden presentar los usuarios (vista, auditivas, motrices). Por ello, algunas pautas que mejoran la accesibilidad son:
 ** Proporcionar un texto alterntivo a las imágenes y enlaces, lo cual facilita a los usuarios invidentes el uso de lectores de pantalla.
@@ -792,6 +792,8 @@ Algunas '''definiciones''':
 
 * '''Usabilidad''': es el estudio del diseño de las aplicaciones y webs para mejorar la interacción de los usuarios, haciéndola más fácil, cómoda e intuitiva.
 
+=== Software ===
+
 '''Software''' para discapacitados:
 * '''Dasher''': permite escribir a personas con dificultada para usar un teclado.
 * '''Gnopernicus''': lector de pantalla para Linux, software libre.
@@ -800,8 +802,33 @@ Algunas '''definiciones''':
 * '''Orca''': lector de pantalla para Linux, software libre.
 * '''Vinux''': distribución basada en Ubuntu, diseñada para discapacitados visuales.
 
-WCAG:
-* 
+=== WCAG ===
+
+'''WCAG''' significa Web Content Accesibility Guidelines.
+
+Pautas WCAG 2.0:<ref>[http://www.sidar.org/traducciones/wcag20/es/#contents Pautas WCAG 2.0]</ref>
+
+* '''Perceptible'''
+** Proporcionar '''alternativas textuales para todo contenido no textual''' de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.
+** Medios tempodependientes: proporcionar alternativas para los medios tempodependientes.
+** Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más simple) sin perder información o estructura.
+** Facilitar a los usuarios ver y oír el contenido, incluyendo la '''separación entre el primer plano y el fondo'''.
+
+* '''Operable'''
+** Proporcionar acceso a toda la funcionalidad mediante el '''teclado'''.
+** Proporcionar a los usuarios el '''tiempo suficiente''' para leer y usar el contenido.
+** No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.
+** Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.
+
+* '''Comprensible'''
+** Hacer que los contenidos textuales resulten '''legibles y comprensibles'''.
+** Hacer que las páginas web aparezcan y operen de manera '''predecible'''.
+** Ayudar a los usuarios a evitar y '''corregir los errores'''.
+
+* '''Robusto'''
+** Maximizar la '''compatibilidad''' con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.
+
+Los '''niveles de conformidad''' son A, AA y AAA.
 
 == Tema 10: Herramientas CASE ==
 
