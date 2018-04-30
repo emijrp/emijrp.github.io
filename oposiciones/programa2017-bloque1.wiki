@@ -181,7 +181,31 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 ==== Título II. De la corona ====
 
-* sucesión y regencia
+* '''Artículo 56'''.
+* 1. El '''Rey es el Jefe del Estado''', símbolo de su unidad y permanencia, '''arbitra y modera el funcionamiento regular de las instituciones''', asume la más alta representación del Estado español en las relaciones internacionales, especialmente con las naciones de su comunidad histórica, y ejerce las funciones que le atribuyen expresamente la Constitución y las leyes.
+* 3. La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estará siempre refrendados en la forma establecida en el artículo 64, careciendo de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65, 2.
+
+* '''Artículo 57'''.
+* 1. [...] La sucesión en el trono seguirá el orden regular de primogenitura y representación, siendo preferida siempre la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.
+* 4. Aquellas personas que teniendo derecho a la sucesión en el trono contrajeren matrimonio contra la expresa prohibición del Rey y de las Cortes Generales, quedarán excluidas en la sucesión a la Corona por sí y sus descendientes.
+
+* '''Artículo 59'''.
+* 3. Si no hubiere ninguna persona a quien corresponda la Regencia, ésta será nombrada por las Cortes Generales, y se compondrá de una, tres o cinco personas.
+* 5. La Regencia se ejercerá por mandato constitucional y siempre en nombre del Rey.
+
+* '''Artículo 61'''.
+* 1. El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.
+
+* '''Artículo 62'''. Corresponde al Rey:
+* a) Sancionar y promulgar las leyes.
+* b) Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.
+* c) Convocar a referéndum en los casos previstos en la Constitución.
+* d) Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.
+* h) El mando supremo de las Fuerzas Armadas.
+
+* '''Artículo 64'''.
+# Los actos del Rey serán refrendados por el Presidente del Gobierno, y en su caso, por los Ministros competentes. La propuesta y el nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99, serán refrendados por el Presidente del Congreso.
+# De los actos del Rey serán responsables las personas que los refrenden.
 
 {{clear}}
 
@@ -198,14 +222,50 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 * El Tribunal Constitucional. Composición y atribuciones (Título IX de la Constitución)
 * [https://www.boe.es/buscar/doc.php?id=BOE-A-1981-10325 Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo] (5 páginas)
 
+=== Artículos destacados ===
+
+==== Título III. De las Cortes Generales ====
+
+* '''Artículo 66'''.
+# Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado.
+# Las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos, controlan la acción del Gobierno y tienen las demás competencias que les atribuya la Constitución.
+# Las Cortes Generales son inviolables.
+
+* '''Artículo 67'''.
+* 1. Nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.
+
+* '''Artículo 68'''.
+* 1. El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto, en los términos que establezca la ley.
+* 2. La circunscripción electoral es la provincia. [...]
+* 4. El Congreso es elegido por cuatro años. [...]
+
+* '''Artículo 69'''.
+* 1. El Senado es la Cámara de representación territorial.
+* 2. En cada provincia se elegirán cuatro Senadores [...]
+* 6. El Senado es elegido por cuatro años. [...]
+
+* Del '''Artículo 81 al 92''' (Capítulo Segundo: De la elaboración de las leyes) resumido en el Tema 6.
+
+==== Título IX. Del Tribunal Constitucional ====
+
 {{cayo-en-convocatoria|1=2016}}
+* '''Artículo 159'''.
+* 1. El '''Tribunal Constitucional''' se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.
+* 2. Los miembros del Tribunal Constitucional deberán ser nombrados entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y abogados, todos ellos juristas de reconocida competencia con '''más de quince años de ejercicio profesional'''.
+* 3. Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.
+
+* '''Artículo 160'''. El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.
+
+* '''Artículo 162'''. Están legitimados:
+* a) Para interponer el '''recurso de inconstitucionalidad''', el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejectivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.
+* b) Para interponer el '''recurso de amparo''', toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.
+
+
+=== Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo ===
+
+{{cayo-en-convocatoria|1=2016}}
+Según el Título I. De los derechos y deberes fundamentales de la Constitución:
 * '''Artículo 54'''. Una ley orgánica regulará la institución del '''Defensor del Pueblo''', como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título [Título I], a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
-
-{{cayo-en-convocatoria|1=2016}}
-* '''Artículo 153'''.
-
-{{cayo-en-convocatoria|1=2016}}
-* '''Artículo 159'''. El '''Tribunal Constitucional''' se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.
 
 {{clear}}
 
@@ -255,10 +315,16 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 # La '''Administración pública''': principios constitucionales informadores. La Administración General del Estado: organización y personal a su servicio. El texto refundido del Estatuto Básico del Empleo Público y demás normativa vigente.<ref>[https://www.boe.es/boe/dias/2007/04/13/pdfs/A16270-16299.pdf Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público]</ref> Las Comunidades Autónomas y la Administración local: regulación constitucional.
 
-=== Las CCAA en la Constitución ===
+==== Título VIII. De la Organización Territorial del Estado ====
 
 {{cayo-en-convocatoria|1=2016}}
 * '''Artículo 147'''.
+
+
+{{cayo-en-convocatoria|1=2016}}
+* '''Artículo 153'''.
+
+
 
 == Tema 6 ==
 
@@ -273,11 +339,13 @@ Un '''Real Decreto-ley''' es una norma jurídica con rango de ley, emanada del p
 
 Un '''Real Decreto legislativo''' o '''decreto con fuerza de ley''' (DFL) es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), por delegación expresa por el poder legislativo (Congreso, mediante ley ordinaria).
 
-Una '''ley de bases''' es aquella que emanada de las Cortes Generales delega en el Gobierno la potestad legislativa para formar un texto articulado. La delegación está definida para una materia en concreto y por un tiempo determinado. No obstante no podrá regular sobre materias reservadas a las leyes orgánicas.
+Una '''ley de bases''' es aquella que emanada de las Cortes Generales delega en el Gobierno la potestad legislativa para formar un texto articulado. La delegación está definida para una materia en concreto y por un tiempo determinado. No podrá regular sobre materias reservadas a las leyes orgánicas. No puede autorizar la modificación de la propia ley de bases. No puede dictar normas con carácter retroactivo.
 
 Una '''ley orgánica''' requiere de la mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto. Son leyes orgánicas las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución.
 
 Una '''ley ordinaria''' es aquella que no requiere trámites especiales para ser aprobada y trata sobre materias no reservadas a las leyes orgánicas. Requieren mayoría simple del Congreso.
+
+'''Artículo 91'''. El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales, y las promulgará y ordenará su inmediata publicación.
 
 Un '''reglamento''' ...
 
@@ -285,7 +353,7 @@ Un '''reglamento''' ...
 
 * La '''mayoría absoluta''' es aquella en la que hay la mitad + 1 de votos favorables del total de escaños del Congreso, es decir, 175 + 1 = 176. No es necesario quorum mínimo.
 
-* La '''mayoría simple''' es aquella en la que hay más votos a favor que en contra. Requiere quorum mínimo (la mitad? 175?).
+* La '''mayoría simple''' es aquella en la que hay más votos a favor que en contra (no cuentan las abstenciones). Requiere quorum mínimo (la mitad? 175?).
 
 * La '''mayoría cualificada''' es aquella que tiene 2/3, 3/5, etc, de votos favorables. No requiere quorum mínimo.
 
@@ -311,9 +379,13 @@ Un '''reglamento''' ...
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
 {{cayo-en-convocatoria|1=2016}}
-* Validez del DNI. Dos años, cuando el solicitante no haya cumplido los cinco años de edad. Cinco años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta en el momento de la expedición o renovación. Diez años, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta.
+La '''validez del DNI''' es la siguiente:
+* Dos años, cuando el solicitante no haya cumplido los cinco años de edad.
+* Cinco años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta.
+* Diez años, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta.
+* Validez permanente desde los setenta años.
 
-* Los certificados del DNI electrónico tienen validez de hasta 5 años.
+Los certificados del DNI electrónico tienen validez de hasta 5 años.
 
 == Tema 9 ==
 
