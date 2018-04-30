@@ -448,7 +448,30 @@
 
 <ul><li><b>Perceptible</b></li><ul><li>Proporcionar <b>alternativas textuales para todo contenido no textual</b> de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.</li><li>Medios tempodependientes: proporcionar alternativas para los medios tempodependientes.</li><li>Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más simple) sin perder información o estructura.</li><li>Facilitar a los usuarios ver y oír el contenido, incluyendo la <b>separación entre el primer plano y el fondo</b>.</li></ul><li><b>Operable</b></li><ul><li>Proporcionar acceso a toda la funcionalidad mediante el <b>teclado</b>.</li><li>Proporcionar a los usuarios el <b>tiempo suficiente</b> para leer y usar el contenido.</li><li>No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.</li><li>Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.</li></ul><li><b>Comprensible</b></li><ul><li>Hacer que los contenidos textuales resulten <b>legibles y comprensibles</b>.</li><li>Hacer que las páginas web aparezcan y operen de manera <b>predecible</b>.</li><li>Ayudar a los usuarios a evitar y <b>corregir los errores</b>.</li></ul><li><b>Robusto</b></li><ul><li>Maximizar la <b>compatibilidad</b> con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.</li></ul></ul>
 
-<p>Los <b>niveles de conformidad</b> son A, AA y AAA.</p>
+<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
+
+<p>Para el <b>nivel A</b> son <b>25 criterios</b>:</p>
+
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
+
+<ul><li>Contenido no textual</li><li>Sólo audio y sólo vídeo (grabado)</li><li>Subtítulos (grabados)</li><li>Audiodescripción o medio alternativo (grabado)</li><li>Información y relaciones</li><li>Secuencia significativa</li><li>Características sensoriales</li><li>Uso del color</li><li>Control del audio</li><li>Teclado</li><li>Sin trampas para el foco del teclado</li><li>Tiempo ajustable</li><li>Poner en pausa, detener, ocultar</li><li>Umbral de tres destellos o menos</li><li>Evitar bloques</li><li>Titulado de páginas</li><li>Orden del foco</li><li>Propósito de los enlaces (en contexto)</li><li>Idioma de la página</li><li>Al recibir el foco</li><li>Al recibir entradas</li><li>Identificación de errores</li><li>Etiquetas o instrucciones</li><li>Procesamiento</li><li>Nombre, función, valor</li></ul>
+</div>
+
+
+<p>Para el <b>nivel AA</b> son <b>13 criterios</b>:</p>
+
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
+
+<ul><li>Subtítulos (en directo)</li><li>Audiodescripción (grabado)</li><li>Contraste (mínimo)</li><li>Cambio de tamaño del texto</li><li>Imágenes de texto</li><li>Múltiples vías</li><li>Encabezados y etiquetas</li><li>Foco visible</li><li>Idioma de las partes</li><li>Navegación coherente</li><li>Identificación coherente</li><li>Sugerencias ante errores</li><li>Prevención de errores (legales, financieros, datos)</li></ul>
+</div>
+
+
+<p>Para el <b>nivel AAA</b> son <b>23 criterios</b>:</p>
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
+
+<ul><li>Lengua de señas (grabado)</li><li>Audiodescripción ampliada (grabada)</li><li>Medio alternativo (grabado)</li><li>Sólo audio (en directo)</li><li>Contraste (mejorado)</li><li>Sonido de fondo bajo o ausente</li><li>Presentación visual</li><li>Imágenes de texto (sin excepciones)</li><li>Teclado (sin excepciones)</li><li>Sin tiempo</li><li>Interrupciones</li><li>Re-autentificación</li><li>Tres destellos</li><li>Ubicación</li><li>Propósitos de los enlaces (sólo enlaces)</li><li>Encabezados de sección</li><li>Palabras inusuales</li><li>Abreviaturas</li><li>Nivel de lectura</li><li>Pronunciación</li><li>Cambios a petición</li><li>Ayuda</li><li>Prevención de errores (todos)</li></ul>
+</div>
+
 
 <h2 id="Tema 10: Herramientas CASE">Tema 10: Herramientas CASE</h2>
 
@@ -480,6 +503,9 @@
 
 <ul><li><b>Repositorio</b>: lugar donde se guarda el histórico con todos los cambios y que permite regresar a cualquier punto anterior.</li><li><b>Revisión</b>: estado concreto del repositorio en un momento dado. Cada revisión se puede identificar con un número (es el caso de Subversion) o con un código o digest (Git usa SHA1).</li><li><b>Rama</b>: o branch, supone hacer una copia del código lo que permite avanzar el desarrollo de dos formas distintas. Si más adelante se considera que los cambios de una rama son útiles, se pueden fusionar (merge) con la rama principal.</li><li><b>Commit</b>: el acto de incorporar al repositorio código desarrollado en local, para que forme parte del histórico.</li><li><b>Conflicto</b>: se produce cuando dos usuarios distintos modifican la misma zona del código, lo que impide que el sistema de control de versiones pueda fusionar ambos cambios de manera autónoma.</li><li><b>Diff</b>: diferencia entre dos versiones distintas de un mismo fichero.</li><li><b>Merge</b>: fusión de los cambios en un mismo fichero. Si el merge no es posible y da conflicto, el usuario deberá resolverlo manualmente.</li></ul>
 
+<p><b>Comandos básicos</b> de <b>Git</b>:</p>
+<ul><li><b>git init</b>: inicializa un repositorio vacío</li><li><b>git clone</b>: clona un repositorio</li><li><b>git pull</b>: actualiza el repositorio local</li><li><b>git add fichero</b>: añade el fichero al control de versiones, o si ya lo está sus cambios</li><li><b>git commit -m "mensaje"</b>: hace un commit de los cambios añadidos al repositorio local</li><li><b>git push</b>: envía los cambios al repositorio remoto</li><li><b>git branch</b>: muestra las ramas</li><li><b>git branch rama</b>: crea una rama</li><li><b>git checkout rama</b>: cambia a dicha rama</li><li><b>git merge rama</b>: fusiona los cambios de la rama donde nos encontramos con la rama indicada</li><li><b>git diff</b>: muestra los cambios entre el repositorio local y los cambios realizados desde el último commit</li><li><b>git log</b>: muestra el log de cambios</li><li><b>git mv fichero fichero2</b>: renombra un fichero a fichero2</li><li><b>git rm fichero</b>: elimina un fichero del repositorio</li><li><b>git status</b>: muestra el estado del repositorio (cambios, ficheros nuevos, ficheros sin seguimiento, etc)</li></ul>
+
 <h3 id="Plataformas de desarrollo colaborativo de software">Plataformas de desarrollo colaborativo de software</h3>
 
 <p>Existe forjas que ofrecen alojamiento de proyectos para distintos sistemas de control de versiones. Para Git existe GitHub, GitLab (anteriormente Gitorious) y GNU Savannah. Para Subversion estaba Google Code.</p>
@@ -497,6 +523,7 @@
 <!--references-->
 
 <li id="ref1"><a href="#refback1">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
+<li id="ref2"><a href="#refback2">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -517,7 +544,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-29 09:16:33 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-30 18:15:49 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

@@ -828,7 +828,82 @@ Pautas WCAG 2.0:<ref>[http://www.sidar.org/traducciones/wcag20/es/#contents Paut
 * '''Robusto'''
 ** Maximizar la '''compatibilidad''' con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.
 
-Los '''niveles de conformidad''' son A, AA y AAA.
+Los '''niveles o criterios de conformidad''' son A, AA y AAA.<ref>[http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0 Criterios de conformidad de WCAG 2.0]</ref>
+
+Para el '''nivel A''' son '''25 criterios''':
+
+{{div col 3}}
+* Contenido no textual
+* Sólo audio y sólo vídeo (grabado)
+* Subtítulos (grabados)
+* Audiodescripción o medio alternativo (grabado)
+* Información y relaciones
+* Secuencia significativa
+* Características sensoriales
+* Uso del color
+* Control del audio
+* Teclado
+* Sin trampas para el foco del teclado
+* Tiempo ajustable
+* Poner en pausa, detener, ocultar
+* Umbral de tres destellos o menos
+* Evitar bloques
+* Titulado de páginas
+* Orden del foco
+* Propósito de los enlaces (en contexto)
+* Idioma de la página
+* Al recibir el foco
+* Al recibir entradas
+* Identificación de errores
+* Etiquetas o instrucciones
+* Procesamiento
+* Nombre, función, valor
+{{div col end}}
+
+Para el '''nivel AA''' son '''13 criterios''':
+
+{{div col 3}}
+* Subtítulos (en directo)
+* Audiodescripción (grabado)
+* Contraste (mínimo)
+* Cambio de tamaño del texto
+* Imágenes de texto
+* Múltiples vías
+* Encabezados y etiquetas
+* Foco visible
+* Idioma de las partes
+* Navegación coherente
+* Identificación coherente
+* Sugerencias ante errores
+* Prevención de errores (legales, financieros, datos)
+{{div col end}}
+
+Para el '''nivel AAA''' son '''23 criterios''':
+{{div col 3}}
+* Lengua de señas (grabado)
+* Audiodescripción ampliada (grabada)
+* Medio alternativo (grabado)
+* Sólo audio (en directo)
+* Contraste (mejorado)
+* Sonido de fondo bajo o ausente
+* Presentación visual
+* Imágenes de texto (sin excepciones)
+* Teclado (sin excepciones)
+* Sin tiempo
+* Interrupciones
+* Re-autentificación
+* Tres destellos
+* Ubicación
+* Propósitos de los enlaces (sólo enlaces)
+* Encabezados de sección
+* Palabras inusuales
+* Abreviaturas
+* Nivel de lectura
+* Pronunciación
+* Cambios a petición
+* Ayuda
+* Prevención de errores (todos)
+{{div col end}}
 
 == Tema 10: Herramientas CASE ==
 
@@ -857,7 +932,7 @@ El '''control de versiones''' es el seguimiento de las modificaciones realizadas
 
 Los sistemas de control de versiones pueden ser:
 * '''Distribuidos''': cada usuario tiene una copia del repositorio y suele existir uno donde se sincronizan los cambios entre usuarios. Ejemplo: Mercurial y Git.
-* '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar centrar. Ejemplo: CVS y Subversion.
+* '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar central. Ejemplo: CVS y Subversion.
 
 Algunas de estas herramientas son:
 
@@ -878,6 +953,23 @@ Algunos conceptos frecuentes:
 * '''Conflicto''': se produce cuando dos usuarios distintos modifican la misma zona del código, lo que impide que el sistema de control de versiones pueda fusionar ambos cambios de manera autónoma.
 * '''Diff''': diferencia entre dos versiones distintas de un mismo fichero.
 * '''Merge''': fusión de los cambios en un mismo fichero. Si el merge no es posible y da conflicto, el usuario deberá resolverlo manualmente.
+
+'''Comandos básicos''' de '''Git''':
+* '''git init''': inicializa un repositorio vacío
+* '''git clone''': clona un repositorio
+* '''git pull''': actualiza el repositorio local
+* '''git add fichero''': añade el fichero al control de versiones, o si ya lo está sus cambios
+* '''git commit -m "mensaje"''': hace un commit de los cambios añadidos al repositorio local
+* '''git push''': envía los cambios al repositorio remoto
+* '''git branch''': muestra las ramas
+* '''git branch rama''': crea una rama
+* '''git checkout rama''': cambia a dicha rama
+* '''git merge rama''': fusiona los cambios de la rama donde nos encontramos con la rama indicada
+* '''git diff''': muestra los cambios entre el repositorio local y los cambios realizados desde el último commit
+* '''git log''': muestra el log de cambios
+* '''git mv fichero fichero2''': renombra un fichero a fichero2
+* '''git rm fichero''': elimina un fichero del repositorio
+* '''git status''': muestra el estado del repositorio (cambios, ficheros nuevos, ficheros sin seguimiento, etc)
 
 === Plataformas de desarrollo colaborativo de software ===
 
