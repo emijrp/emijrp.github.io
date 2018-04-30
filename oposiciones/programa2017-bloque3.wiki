@@ -41,7 +41,7 @@ Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del fl
 Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de consulta), Proceso -> Almacén (flujo de actualización), Proceso <-> Almacén (flujo de diálogo).
 
 Los '''niveles de un DFD''' son:
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Nivel 0''': Diagrama de '''contexto'''. Solo incluye un proceso que engloba al sistema completo. Se indican los flujos de datos entre el sistema y los agentes externos. No se indican otros procesos ni almacenes. Es el nivel más abstracto.
 
 * '''Nivel 1''': Diagrama de '''nivel superior'''. Se indican todos los procesos que describen al proceso principal. Aquí los procesos no suelen relacionarse entre ellos, sino entre almacenamientos y agentes externos.
@@ -52,7 +52,7 @@ Los '''niveles de un DFD''' son:
 
 {{recuadro|1='''Diseño de bases de datos'''. Diseño lógico y físico. El modelo lógico relacional. Normalización.}}
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Regla de integridad de entidad''': los atributos de la clave primaria no pueden ser nulos.
 * '''Regla de integridad referencial''': los atributos de las claves foráneas deben existir en la clave primaria o ser nulos.
 * '''Regla de integridad de dominio''': los valores no nulos de un atributo deben pertenecer al dominio del atributo.
@@ -64,7 +64,7 @@ Los '''niveles de un DFD''' son:
 Si una base de datos no está normalizada se pueden producir inconsistencias en los datos además de redundancias.
 
 === 12 reglas de Codd ===
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 
 En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el modelo relacional de bases de datos.
 
@@ -167,7 +167,7 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 
 {{recuadro|1='''Lenguajes de interrogación de bases de datos'''. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.}}
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Las '''transacciones''' de un sistema de gestión de bases de datos deben cumplir la regla '''ACID''':
 
 * '''Atomicidad''': cuando una operación se compone de varios pasos, se ejecutarán todos o ninguno.
@@ -309,7 +309,7 @@ El '''Lenguaje Unificado de Modelado''' (UML) es un lenguaje de propósito gener
 
 === Patrones de diseño ===
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 
 Los '''patrones de diseño''' son técnicas para resolver problemas típicos durante el desarrollo de software.
 
@@ -402,7 +402,7 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 * while
 {{div col end}}
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan clases útiles para el desarrollo de programas. Pueden ser oficiales (paquetes java.*) o no.
 
 {{div col 2}}
@@ -456,7 +456,7 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 * while
 {{div col end}}
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Secuencias de escape''' en C:
 {{div col 2}}
 * '''\a''': sonido alerta beep
@@ -555,7 +555,7 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 {{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
 
 === Cliente/servidor ===
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 En la '''arquitectura cliente-servidor''' las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
 
 En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos.
@@ -591,7 +591,7 @@ Un '''servicio web''' es una tecnología que utiliza protocolos y estándares pa
 {{div col end}}
 
 ==== Orientada a servicios ====
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 
 La '''arquitectura orientada a servicios''' (SOA) es un diseño de software en el que los servicios son proporcionados a otros componentes a través de un protocolo de comunicaciones sobre una red. Se trata de servicios independientes que pueden accederse remótamente y ser actualizados independientemente.
 

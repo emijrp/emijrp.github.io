@@ -106,7 +106,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 ==== Título preliminar ====
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 1'''.
 # España se constituye en un '''Estado social y democrático de Derecho''', que propugna como valores superiores de su ordenamiento jurídico la '''libertad, la justicia, la igualdad y el pluralismo político'''.
 # La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.
@@ -176,7 +176,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 * '''Artículo 47'''. Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 54'''. Una ley orgánica regulará la institución del '''Defensor del Pueblo''', como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título [Título I], a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
 
 ==== Título II. De la corona ====
@@ -248,7 +248,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 ==== Título IX. Del Tribunal Constitucional ====
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 159'''.
 * 1. El '''Tribunal Constitucional''' se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.
 * 2. Los miembros del Tribunal Constitucional deberán ser nombrados entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y abogados, todos ellos juristas de reconocida competencia con '''más de quince años de ejercicio profesional'''.
@@ -263,7 +263,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 === Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo ===
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Según el Título I. De los derechos y deberes fundamentales de la Constitución:
 * '''Artículo 54'''. Una ley orgánica regulará la institución del '''Defensor del Pueblo''', como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título [Título I], a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
 
@@ -278,7 +278,7 @@ Según el Título I. De los derechos y deberes fundamentales de la Constitución
 
 === Estado de alarma, excepción y sitio ===
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Artículo 116'''.
 
 * 1. Una ley orgánica regulará los estados de alarma, de excepción y de sitio, y las competencias y limitaciones correspondientes.
@@ -303,10 +303,10 @@ Según el Título I. De los derechos y deberes fundamentales de la Constitución
 * Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas
 * [https://boe.es/buscar/doc.php?id=BOE-A-2013-12887 Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno] (31 páginas)
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * El Consejo de Transparencia y Buen Gobierno: funciones (Título III de la Ley de transparencia)
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 36'''. Comisión de Transparencia y Buen Gobierno. 1) La Comisión de Transparencia y Buen Gobierno ejercerá todas las competencias que le asigna esta Ley, así como aquellas que les sean atribuidas en su normativa de desarrollo. 2) Dicha Comisión estará compuesta por: a) El Presidente b) Un Diputado c) Un Senador d) Un representante del Tribunal de Cuentas e) Un representante del Defensor del Pueblo f) Un representante de la Agencia Española de Protección de Datos g) Un representante de la Secretaría de Estado de Administraciones Públicas h) Un representante de la Autoridad Independiente de Responsabilidad Fiscal
 
 == Tema 5 ==
@@ -317,11 +317,11 @@ Según el Título I. De los derechos y deberes fundamentales de la Constitución
 
 ==== Título VIII. De la Organización Territorial del Estado ====
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 147'''.
 
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 153'''.
 
 
@@ -331,7 +331,7 @@ Según el Título I. De los derechos y deberes fundamentales de la Constitución
 {{recuadro|1='''Tema 6.''' Las fuentes del derecho administrativo. La jerarquía de las fuentes. La ley. Las disposiciones del Ejecutivo con fuerza de ley: decreto-ley y decreto legislativo. El reglamento: concepto, clases y límites. Otras fuentes del derecho administrativo.}}
 
 === Leyes ===
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 
 La '''Constitución''' es la '''norma suprema'''.
 
@@ -363,10 +363,10 @@ Un '''reglamento''' ...
 
 # Políticas de '''igualdad''' de género. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115 Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres] (39 páginas)</ref> Políticas contra la violencia de género. La Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760 Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género] (59 páginas)</ref> Discapacidad y dependencia.<ref>[https://boe.es/diario_boe/txt.php?id=BOE-A-2013-12632 Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social] (39 páginas)</ref>
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * Sociedad de la Información e igualdad
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * La composición de la Comisión contra la Violencia de Género del Consejo Interterritorial del Sistema Nacional de Salud estará compuesta por representantes de todas las Comunidades Autónomas con competencia en la materia.
 
 == Tema 8 ==
@@ -375,10 +375,10 @@ Un '''reglamento''' ...
 
 # La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 La '''validez del DNI''' es la siguiente:
 * Dos años, cuando el solicitante no haya cumplido los cinco años de edad.
 * Cinco años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta.
@@ -399,8 +399,30 @@ Los certificados del DNI electrónico tienen validez de hasta 5 años.
 
 # '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2009-18358 Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos] (33 páginas)</ref> La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.<ref>[https://www.boe.es/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica]</ref> Normas técnicas de Interoperabilidad.<ref>[http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13501 Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares] (11 páginas)</ref>
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Artículo 4'''. Principios básicos del Esquema Nacional de Seguridad. El objeto último de la seguridad de la información es asegurar que una organización administrativa podrá cumplir sus objetivos utilizando sistemas de información. En las decisiones en materia de seguridad deberán tenerse en cuenta los siguientes principios básicos: a) Seguridad integral. b) Gestión de riesgos. c) Prevención, reacción y recuperación. d) Líneas de defensa. e) Reevaluación periódica. f) Función diferenciada.
+
+'''Glosario''' del '''Esquema Nacional de Seguridad''':
+
+* '''CCN''': Centro Criptológico Nacional
+* '''CERT''': Computer Emergency Reaction Team
+* '''INTECO''': Instituto Nacional de Tecnologías de la Comunicación
+* '''STIC''': Seguridad de las Tecnologías de Información y Comunicaciones
+
+* '''Auditoria de la seguridad''': revisión y examen independientes de los registros y actividades del sistema para verificar la idoneidad de los controles del sistema, asegurar que se cumplen la política de seguridad y los procedimientos operativos establecidos, detectar las infracciones de seguridad y recomendar modificaciones apropiadas de los controles, de la política y de los procedimientos.
+* '''Autenticidad''': propiedad o característica consistente en que una entidad es quien dice ser o bien que garantiza la fuente de la que proceden los datos.
+* '''Confidencialidad''': propiedad o característica consistente en que la información ni se pone a disposición, ni se revela a individuos, entidades o procesos no autorizados.
+* '''Disponibilidad''': propiedad o característica de los activos consistente en que las entidades o procesos autorizados tienen acceso a los mismos cuando lo requieren.
+* '''Firma electrónica''': conjunto de datos en forma electrónica, consignados junto a otros o asociados con ellos, que pueden ser utilizados como medio de identificación del firmante.
+* '''Incidente de seguridad''': suceso inesperado o no deseado con consecuencias en detrimento de la seguridad del sistema de información.
+* '''Integridad''': propiedad o característica consistente en que el activo de información no ha sido alterado de manera no autorizada.
+* '''Medidas de seguridad''': conjunto de disposiciones encaminadas a protegerse de los riesgos posibles sobre el sistema de información, con el fin de asegurar sus objetivos de seguridad. Puede tratarse de medidas de prevención, de disuasión, de protección, de detección y reacción, o de recuperación.
+* '''Política de firma electrónica''': conjunto de normas de seguridad, de organización, técnicas y legales para determinar cómo se generan, verifican y gestionan firmas electrónicas, incluyendo las características exigibles a los certificados de firma.
+* '''Política de seguridad''': conjunto de directrices plasmadas en documento escrito, que rigen la forma en que una organización gestiona y protege la información y los servicios que considera críticos.
+* '''Riesgo''': estimación del grado de exposición a que una amenaza se materialice sobre uno o más activos causando daños o perjuicios a la organización.
+* '''Sistema de información''': conjunto organizado de recursos para que la información se pueda recoger, almacenar, procesar o tratar, mantener, usar, compartir, distribuir, poner a disposición, presentar o transmitir.
+* '''Trazabilidad''': propiedad o característica consistente en que las actuaciones de una entidad pueden ser imputadas exclusivamente a dicha entidad.
+* '''Vulnerabilidad''': una debilidad que puede ser aprovechada por una amenaza.
 
 == Tema 11 ==
 
@@ -409,7 +431,7 @@ Los certificados del DNI electrónico tienen validez de hasta 5 años.
 * [https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público]
 * [http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE]
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 El '''Punto de Acceso General''' (PAG) es [https://sede.administracion.gob.es https://sede.administracion.gob.es].
 
 == Fuentes ==

@@ -8,7 +8,7 @@ El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2
 {{recuadro|1='''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.}}
 
 === Sistemas numéricos ===
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 
 * '''Binario''': base 2, solamente se utilizan el 0 y el 1.
 * '''Octal''': base 8, se utilizan del 0 al 7.
@@ -66,7 +66,7 @@ Para convertir un número '''hexadecimal a decimal''', igualmente pero con base 
 
 Según la '''estructura''':
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (con registros del procesador) y una unidad de control (con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanismos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus. La unidad de control indica qué operación ejecutar en cada momento.
 
 * '''Arquitectura Harvard''': cuentan con conjunto de direcciones y buses separados para instrucciones y datos.
@@ -81,7 +81,7 @@ Según el conjunto de '''instrucciones''':
 
 * '''Arquitectura SISC''': un subtipo de RISC, orientada al procesamiento en paralelo. Utiliza la tecnología VLSI. Es acrónimo de Simple Instruction Set Computing.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Según el número de '''núcleos''':
 
 * '''Un núcleo''': el microprocesador cuenta con una única unidad de procesamiento.
@@ -109,7 +109,7 @@ Los '''componentes internos''' básicos de un ordenador son:
 
 ** '''Tarjeta de red''': permite contectar el ordenador a una red Ethernet (lo más habitual) para compartir recursos o acceder a Internet. Algunas tarjetas de red admite WIFI.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Las '''memorias no volátiles''' no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquetes, discos duros, ROM (read-only memory) y sus variantes (ROM-CMOS), NVRAM (non-volatile RAM), etc.
 
 Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM), DRAM (dynamic RAM), RDRAM (Rambus DRAM), SDRAM, todas las DDR. Las estáticas no requieren refresco para mantener los datos en memoria mientras que las dinámicas sí.
@@ -120,7 +120,7 @@ Las '''memorias volátiles''' pierden la información al interrumpirse la corrie
 
 Los '''puertos''' son interfaces entre un ordenador y otros ordenadores o periféricos.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Un '''periférico''' es un dispositivo que se conecta a un ordenador a través de un puerto y que realiza alguna tarea. A grandes rasgos, puede haber '''periféricos de entrada''' (teclado, ratón, micrófono, escáner, lector de huellas) y '''periféricos de salida''' (pantalla, altavoz, impresora).
 
 Tipos de '''USB''':
@@ -155,7 +155,7 @@ Tipos de '''teclado''':
 === Elementos de impresión ===
 
 Las '''impresoras''' pueden ser:
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''De impacto''': matriciales (o de agujas), de margarita, de bola, de línea. Limitadas a texto o gráficos muy básicos. Monocromáticas. Se golpea el papel y el impacto transfiere la tinta.
 * '''Sin impacto''': térmicas (agujas calientes recorren papel termosensible: cajeros), de inyección o chorro de tinta (proyección de gotas de tinta), sublimación de tinta (se usa calor para transferir la tinta), láser.
 
@@ -181,13 +181,13 @@ Tipos de '''interfaces''':
 
 * '''Parallel ATA''' (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive electronics (IDE). Su extensión ATAPI permite lectoras de CD.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Serial ATA''' (SATA): Reemplaza a PATA. Sirve para discos duros, lectoras de CD y discos de estado sólido SSD.
 * '''SATA 1.0''': 1.5 Gbit/s (150 MB/s) SATA-150.
 * '''SATA 2.0''': 3 Gbit/s (300 MB/s) SATA-300.
 * '''SATA 3.0''': 6 Gbit/s (600 MB/s) SATA-600.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Tipos de '''RAID''':
 
 * '''RAID 0''': Los datos se distribuyen entre dos o más discos, '''sin información de paridad''', redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.
@@ -243,7 +243,7 @@ Los '''escáneres''' pueden ser:
 
 * '''Lista''': secuencia de elementos que siguen un orden.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Árbol''': estructura jerárquica y dinámica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Los árboles se pueden recorrer en profundidad y en anchura (amplitud). Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
 ** '''Nodo externo''': Cuando un nodo no apunta a ningún hijo.
 ** '''Nivel''': Se comienza en el nivel 0 (nodo raiz).
@@ -281,14 +281,14 @@ Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los dis
 
 * '''ISO 9660''': es un sistema de archivos para medios ópticos (CD, DVD).
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).
 
 === Algoritmos ===
 
 Un '''algoritmo''' es un conjunto de instrucciones bien definidas, ordenadas y finitas, que permiten realizar una tarea mediante la ejecución de dichos pasos. A partir de un estado inicial y con unos datos de entrada, siguiendo las instrucciones, se llega al estado final obteniendo el resultado.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 La '''complejidad de un algoritmo''' determina su dificultad y la cantidad de recursos necesarios para su ejecución. La complejidad de los algoritmos se puede medir para su peor, promedio y mejor caso.
 * '''Peor caso''': los datos de inicio hacen que el algoritmo ejecute el caso más complicado.
 * '''Caso promedio''': los datos de inicio no presentan ningún caso especial, es el ejemplo medio.
@@ -433,7 +433,7 @@ Un '''sistema operativo''' es el software principal que gestiona los recursos ha
 
 === GNU/Linux ===
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Una '''distribución Linux''' (distro) es un conjunto de paquetes de software, el núcleo GNU/Linux y también generalmente un sistema de ventanas, proporcionando un sistema operativo completo orientado ya sea a uso doméstico, empresarial o de servidores. A continuación un listado de distros y sus variantes.
 
 * '''Debian''': una de las primeras distribuciones no comerciales. Mantenida por voluntarios con un gran compromiso con la filosofía del software libre.
@@ -485,7 +485,7 @@ También existe un grupo de '''distribuciones ligeras''' (lightweight) cuyo obje
 
 Un '''sistema de ventanas''' proporciona la interfaz gráfica de usuario a un sistema operativo, implementando las ventanas, iconos, menúes, etc. El más común en sistemas Linux es '''X Window System'''. En Windows se llama '''Desktop Window Manager'''.
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Opciones de '''programas comunes''':
 
 * '''vi(m)''': x (borrar carácter), dd (borrar línea), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
@@ -496,7 +496,7 @@ Opciones de '''programas comunes''':
 
 Otros editores de texto son, por consola (Pico), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
 
-{{cayo-en-convocatoria|1=2016}}
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Uso de '''comandos básicos''':
 
 * '''chmod''': cambiar permisos sobre ficheros o directorios. Lectura (r) = 4, Escritura (w) = 2, Ejecución (x) = 1, Todo = 7, Ninguno = 0. El orden es usuarios (u), grupo (g) y otros (o). chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file

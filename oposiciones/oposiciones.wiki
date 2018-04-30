@@ -12,7 +12,11 @@ Cosas a hacer:
 
 == Programa ==
 
-El '''programa de 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2017-ingreso-libre TAI 2017 Ingreso Libre]</ref>
+=== Convocatoria 2017 ===
+
+==== Ingreso Libre ====
+
+El '''programa TAI 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2017-ingreso-libre TAI 2017 Ingreso Libre]</ref>
 
 * [[programa2017-bloque1|Bloque I. Organización del Estado y Administración electrónica]] (11 temas)
 * [[programa2017-bloque2|Bloque II. Tecnología básica]] (5 temas)
@@ -21,7 +25,9 @@ El '''programa de 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.i
 
 == Exámenes ==
 
-=== 2016 (Libre) ===
+=== Convocatoria 2016 ===
+
+==== Ingreso Libre ====
 
 * '''Bloque 1:''' Constitución (8), Transparencia (2), Estatuto Empleo Público (1), Igualdad (1), Violencia de Género (1), Firma electrónica (3), Comercio electrónico (1), Sedes electrónicas (1), Esquema Nacional de Seguridad (1)
 
@@ -31,7 +37,13 @@ El '''programa de 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.i
 
 * '''Bloque 4:''' 
 
-=== 2015 (Libre) ===
+==== Promoción Interna ====
+
+Por ver.
+
+=== Convocatoria 2015 ===
+
+==== Ingreso Libre ====
 
 * '''Bloque 1:''' Constitución (6), Decreto-ley (1), Igualdad (1), Discapacidad (1), Firma electrónica (2), Comercio electrónico (1), Protección de datos (3), Sedes electrónicas (1), Interoperabilidad (1), Otras (3)
 
@@ -41,7 +53,17 @@ El '''programa de 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.i
 
 * '''Bloque 4:''' 
 
-=== 2014 (Promoción interna) ===
+==== Promoción Interna ====
+
+Por ver.
+
+=== Convocatoria 2014 ===
+
+==== Ingreso Libre ====
+
+No hubo.
+
+==== Promoción Interna ====
 
 * '''Bloque 1:''' Comercio electrónico (1), DNI electrónico (4), Protección de datos (3), Esquema Nacional de Seguridad (1), Interoperabilidad (1), Sedes electrónicas (1)
 
@@ -50,6 +72,14 @@ El '''programa de 2017''' se divide en '''cuatro bloques'''.<ref>[https://sede.i
 * '''Bloque 3:''' 
 
 * '''Bloque 4:''' 
+
+=== Convocatoria 2010 ===
+
+==== Ingreso Libre ====
+
+No hubo.
+
+==== Promoción Interna ====
 
 <!--
 
