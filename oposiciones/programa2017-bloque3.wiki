@@ -221,6 +221,8 @@ Cláusula '''JOIN''':
 * '''RIGHT JOIN''':
 * '''FULL JOIN''': 
 
+Para búsquedas aproximadas con '''LIKE''' se puede usar el comodín '''%''', por ejemplo '%drid' serviría para encontrar 'Madrid'.
+
 === Procedimientos almacenados ===
 
 Los '''procedimientos almacenados''' son programas guardados dentro de la base de datos y que son accesibles para las aplicaciones que la consultan. Su utilidad puede ser para validar datos, controlar el acceso, etc. La ventaja es que se ejecutan en el motor de la base de datos y solo devuelven los resultados solicitados, siendo más rápido todo el proceso.
@@ -564,7 +566,7 @@ Un '''servicio web''' es una tecnología que utiliza protocolos y estándares pa
 
 '''Estándares''' utilizados:
 * '''Web Services Protocol Stack''' (WSPS): conjunto de servicios y protocolos de estos servicios.
-* '''Extensive Markup Language''' (XML=: formato para los datos que se intercambian.
+* '''Extensive Markup Language''' (XML): formato para los datos que se intercambian.
 * '''Simple Object Access Protocol''' (SOAP): protocolo para los intercambios.
 * '''XML Remote Procedure Call''' (XML-RPC): protocolo para los intercambios.
 * '''Web Services Description Language''' (WSDL): lenguaje de la interfaz pública de los servicios web.

@@ -7,37 +7,57 @@ El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a
 
 {{recuadro|1='''Administración del Sistema operativo''' y software de base. Funciones y responsabilidades. Actualización, mantenimiento y reparación del sistema operativo.}}
 
+En este tema también se repetiría la parte de comandos del '''Bloque II, Tema 4: Sistemas operativos'''.
+
+
+
 == Tema 2: Administración de bases de datos ==
 
 {{recuadro|1='''Administración de bases de datos'''. Funciones y responsabilidades. Administración de servidores de correo electrónico. Protocolos de correo electrónico.}}
+
+
 
 == Tema 3: Administración de redes ==
 
 {{recuadro|1='''Administración de redes''' de área local. Gestión de usuarios. Gestión de dispositivos. Monitorización y control de tráfico.}}
 
+
+
 == Tema 4: Seguridad ==
 
 {{recuadro|1=Conceptos de '''seguridad de los sistemas''' de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
+
+
 
 == Tema 5: Comunicaciones ==
 
 {{recuadro|1='''Comunicaciones'''. Medios de transmisión. Modos de comunicación. Equipos terminales y equipos de interconexión y conmutación.}}
 
+
+
 == Tema 6: Redes ==
 
 {{recuadro|1='''Redes''' de comunicaciones. Redes de conmutación y redes de difusión. Comunicaciones móviles e inalámbricas.}}
+
+
 
 == Tema 7: Modelo TCP/IP ==
 
 {{recuadro|1=El '''modelo TCP/IP''' y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Protocolos TCP/IP.}}
 
+
+
 == Tema 8: Internet ==
 
 {{recuadro|1=Internet: arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS y SSL/TLS.}}
 
+
+
 == Tema 9: Seguridad y protección ==
 
 {{recuadro|1='''Seguridad y protección''' en redes de comunicaciones. Seguridad perimetral. Acceso remoto seguro a redes. Redes privadas virtuales (VPN). Seguridad en el puesto del usuario.}}
+
+
 
 == Tema 10: Redes locales ==
 
