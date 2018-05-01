@@ -18,6 +18,7 @@ En este tema son útiles los '''apuntes de otros bloques''':
 * Synaptic , apt-get ,e tc?
 * Recuperación de errores, backup
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
 Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados apt-get (utiliza dpkg), YUM (utiliza RPM), y las interfaces gráficas como Synaptic, Apper, GNOME Software, Octopi.
 
 Un '''control de versiones''' es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.
@@ -37,19 +38,74 @@ Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicaci
 
 {{recuadro|1='''Administración de bases de datos'''. Funciones y responsabilidades. Administración de servidores de correo electrónico. Protocolos de correo electrónico.}}
 
+=== Correo electrónico ===
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+* '''IMAP''': protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.
+
+* '''POP3''': protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas.
+
+* '''SMTP''': protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.
+
+=== Microsoft Exchange ===
+
+Exchange ActiveSync
+
+=== Spam ===
+
+El '''Sender Policy Framework''' (SPF) es una protección contra la falsificación de direcciones y el spam en el envío de correo electrónico. Identifica a través de DNS a los servidores de correo SMTP autorizados para el envío de mensajes.
 
 
 == Tema 3: Administración de redes ==
 
 {{recuadro|1='''Administración de redes''' de área local. Gestión de usuarios. Gestión de dispositivos. Monitorización y control de tráfico.}}
 
+=== Administración de redes ===
 
+* '''ifconfig''': permite establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down) y habilitarlo (ifconfig wlan0/eth0 up).
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+* '''ipconfig''': internet protocol configuration, aplicación para Windows que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+* '''nslookup''': name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.
+
+* '''whois''': identifica un dominio.
+
+=== Monitorización de redes ===
+
+* '''Nagios''': monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.
+
+* '''netsniff-ng''': analizador de redes y sniffer, solo disponible para GNU/Linux.
+
+* '''ngrep''': network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.
+
+* '''nmap''': escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.
+
+* '''Snort''': sistema de detección de intrusiones.
+
+* '''Suricata''': sistema de detección de intrusiones.
+
+* '''tcpdump''': analizador de paquetes por línea de comandos.
+
+* '''traceroute''': herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+* '''Wireshark''': es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcddump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.
 
 == Tema 4: Seguridad ==
 
 {{recuadro|1=Conceptos de '''seguridad de los sistemas''' de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
 
 
+=== Cifrado ===
+
+* AES
+* DSA
+* ECIES
+* IDEA
+* RSA
+* TDEA
 
 == Tema 5: Comunicaciones ==
 
@@ -67,6 +123,7 @@ Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicaci
 
 {{recuadro|1=El '''modelo TCP/IP''' y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Protocolos TCP/IP.}}
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Puertos TCP y UDP''' utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.
 
 {{div col 2}}
