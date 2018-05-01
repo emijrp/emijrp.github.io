@@ -7,9 +7,31 @@ El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a
 
 {{recuadro|1='''Administración del Sistema operativo''' y software de base. Funciones y responsabilidades. Actualización, mantenimiento y reparación del sistema operativo.}}
 
-En este tema también se repetiría la parte de comandos del '''Bloque II, Tema 4: Sistemas operativos'''.
+En este tema son útiles los '''apuntes de otros bloques''':
+
+* '''Bloque II, Tema 4: Sistemas operativos'''.
+* La parte de '''control de versiones''' del '''Bloque III, Tema 10: Herramientas CASE'''.
+
+=== Actualización, mantenimiento y reparación ===
+
+* Herramientas testeo, optimización
+* Synaptic , apt-get ,e tc?
+* Recuperación de errores, backup
+
+Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados apt-get (utiliza dpkg), YUM (utiliza RPM), y las interfaces gráficas como Synaptic, Apper, GNOME Software, Octopi.
+
+Un '''control de versiones''' es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.
+
+Un '''Sistema de Control de Versiones''' (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial.
+
+La '''Gestión de Configuración de Software''' (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto software. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac.
+* También se les conoce como CMS, Configuration Management System.
+
+Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.
 
 
+
+{{clear}}
 
 == Tema 2: Administración de bases de datos ==
 
@@ -45,7 +67,37 @@ En este tema también se repetiría la parte de comandos del '''Bloque II, Tema 
 
 {{recuadro|1=El '''modelo TCP/IP''' y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Protocolos TCP/IP.}}
 
+'''Puertos TCP y UDP''' utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.
 
+{{div col 2}}
+* '''0''': Reservado
+* '''7''': Echo Protocol
+* '''21''': File Transfer Protocol (FTP)
+* '''22''': Secure Shell (SSH), scp, sftp
+* '''23''': Telnet remote login service
+* '''25''': Simple Mail Transfer Protocol (SMTP)
+* '''37''': Time Protocol
+* '''43''': WHOIS Protocol
+* '''53''': Domain Name System (DNS) service
+* '''69''': Trivial File Transfer Protocol (TFTP)
+* '''70''': Gopher Protocol
+* '''79''': Finger Protocol
+* '''80''': Hypertext Transfer Protocol (HTTP)
+* '''88''': Kerberos Authentication System
+* '''109''': Post Office Protocol (POP2)
+* '''110''': Post Office Protocol (POP3)
+* '''115''': Simple File Transfer Protocol
+* '''119''': Network News Transfer Protocol (NNTP)
+* '''123''': Network Time Protocol (NTP)
+* '''137''': NetBIOS Name Service
+* '''143''': Internet Message Access Protocol (IMAP)
+* '''161''': Simple Network Management Protocol (SNMP)
+* '''194''': Internet Relay Chat (IRC)
+* '''209''': Quick Mail Transfer Protocol (QMTP)
+* '''443''': HTTP Secure (HTTPS)
+* '''993''': IMAP over SSL
+* '''1080''': SOCKS proxy
+{{div col end}}
 
 == Tema 8: Internet ==
 
@@ -63,22 +115,7 @@ En este tema también se repetiría la parte de comandos del '''Bloque II, Tema 
 
 {{recuadro|1='''Redes locales'''. Tipología. Técnicas de transmisión. Métodos de acceso. Dispositivos de interconexión.}}
 
-Puertos de red.<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref>
 
-* 21: File Transfer Protocol (FTP)
-* 22: Secure Shell (SSH)
-* 23: Telnet remote login service
-* 25: Simple Mail Transfer Protocol (SMTP)
-* 53: Domain Name System (DNS) service
-* 80: Hypertext Transfer Protocol (HTTP) used in the World Wide Web
-* 110: Post Office Protocol (POP3)
-* 119: Network News Transfer Protocol (NNTP)
-* 123: Network Time Protocol (NTP)
-* 143: Internet Message Access Protocol (IMAP)
-* 161: Simple Network Management Protocol (SNMP)
-* 194: Internet Relay Chat (IRC)
-* 443: HTTP Secure (HTTPS)
-* 993: IMAP over SSL
 
 == Fuentes ==
 

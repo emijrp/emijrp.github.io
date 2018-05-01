@@ -41,6 +41,7 @@
 <tr><th>Tabla de contenidos</th></tr>
 <tr><td>
 &nbsp;1. <a href="#Tema 1: Administración de sistemas operativos">Tema 1: Administración de sistemas operativos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="#Actualización, mantenimiento y reparación">Actualización, mantenimiento y reparación</a><br/>
 &nbsp;2. <a href="#Tema 2: Administración de bases de datos">Tema 2: Administración de bases de datos</a><br/>
 &nbsp;3. <a href="#Tema 3: Administración de redes">Tema 3: Administración de redes</a><br/>
 &nbsp;4. <a href="#Tema 4: Seguridad">Tema 4: Seguridad</a><br/>
@@ -62,8 +63,28 @@
 </div>
 
 
-<p>En este tema también se repetiría la parte de comandos del <b>Bloque II, Tema 4: Sistemas operativos</b>.</p>
+<p>En este tema son útiles los <b>apuntes de otros bloques</b>:</p>
 
+<ul><li><b>Bloque II, Tema 4: Sistemas operativos</b>.</li><li>La parte de <b>control de versiones</b> del <b>Bloque III, Tema 10: Herramientas CASE</b>.</li></ul>
+
+<h3 id="Actualización, mantenimiento y reparación">Actualización, mantenimiento y reparación</h3>
+
+<ul><li>Herramientas testeo, optimización</li><li>Synaptic , apt-get ,e tc?</li><li>Recuperación de errores, backup</li></ul>
+
+<p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados apt-get (utiliza dpkg), YUM (utiliza RPM), y las interfaces gráficas como Synaptic, Apper, GNOME Software, Octopi.</p>
+
+<p>Un <b>control de versiones</b> es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.</p>
+
+<p>Un <b>Sistema de Control de Versiones</b> (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial.</p>
+
+<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto software. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac.</p>
+<ul><li>También se les conoce como CMS, Configuration Management System.</li></ul>
+
+<p>Un <b>Sistema de Seguimiento de Errores</b> (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.</p>
+
+
+
+<br clear="all" />
 
 
 <h2 id="Tema 2: Administración de bases de datos">Tema 2: Administración de bases de datos</h2>
@@ -118,6 +139,12 @@
 </div>
 
 
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback1" href="#ref1">1</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>0</b>: Reservado</li><li><b>7</b>: Echo Protocol</li><li><b>21</b>: File Transfer Protocol (FTP)</li><li><b>22</b>: Secure Shell (SSH), scp, sftp</li><li><b>23</b>: Telnet remote login service</li><li><b>25</b>: Simple Mail Transfer Protocol (SMTP)</li><li><b>37</b>: Time Protocol</li><li><b>43</b>: WHOIS Protocol</li><li><b>53</b>: Domain Name System (DNS) service</li><li><b>69</b>: Trivial File Transfer Protocol (TFTP)</li><li><b>70</b>: Gopher Protocol</li><li><b>79</b>: Finger Protocol</li><li><b>80</b>: Hypertext Transfer Protocol (HTTP)</li><li><b>88</b>: Kerberos Authentication System</li><li><b>109</b>: Post Office Protocol (POP2)</li><li><b>110</b>: Post Office Protocol (POP3)</li><li><b>115</b>: Simple File Transfer Protocol</li><li><b>119</b>: Network News Transfer Protocol (NNTP)</li><li><b>123</b>: Network Time Protocol (NTP)</li><li><b>137</b>: NetBIOS Name Service</li><li><b>143</b>: Internet Message Access Protocol (IMAP)</li><li><b>161</b>: Simple Network Management Protocol (SNMP)</li><li><b>194</b>: Internet Relay Chat (IRC)</li><li><b>209</b>: Quick Mail Transfer Protocol (QMTP)</li><li><b>443</b>: HTTP Secure (HTTPS)</li><li><b>993</b>: IMAP over SSL</li><li><b>1080</b>: SOCKS proxy</li></ul>
+</div>
 
 
 <h2 id="Tema 8: Internet">Tema 8: Internet</h2>
@@ -145,9 +172,7 @@
 </div>
 
 
-<p>Puertos de red.<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
 
-<ul><li>21: File Transfer Protocol (FTP)</li><li>22: Secure Shell (SSH)</li><li>23: Telnet remote login service</li><li>25: Simple Mail Transfer Protocol (SMTP)</li><li>53: Domain Name System (DNS) service</li><li>80: Hypertext Transfer Protocol (HTTP) used in the World Wide Web</li><li>110: Post Office Protocol (POP3)</li><li>119: Network News Transfer Protocol (NNTP)</li><li>123: Network Time Protocol (NTP)</li><li>143: Internet Message Access Protocol (IMAP)</li><li>161: Simple Network Management Protocol (SNMP)</li><li>194: Internet Relay Chat (IRC)</li><li>443: HTTP Secure (HTTPS)</li><li>993: IMAP over SSL</li></ul>
 
 <h2 id="Fuentes">Fuentes</h2>
 
@@ -180,7 +205,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-04-30 18:36:24 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-01 11:52:45 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

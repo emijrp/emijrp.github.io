@@ -734,6 +734,12 @@ Algunas normas para XML:
 * Todos los valores de atributos deben ir entre comillas
 * El DOCTYPE no tiene etiqueta de cierre (ni barra)
 
+=== CSS ===
+
+'''CSS''' es un lenguaje de hojas de estilo para describir cómo se presenta un documento escrito en un lenguaje de marcado.
+
+Un preprocesador CSS es un programa que genera código CSS a partir de una sintaxis distinta más potente. Los preprocesadores CSS más conocidos son '''SASS, LESS, Stylus y PostCSS'''.
+
 === Javascript ===
 
 '''JavaScript''' es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
@@ -936,7 +942,7 @@ Los sistemas de control de versiones pueden ser:
 * '''Distribuidos''': cada usuario tiene una copia del repositorio y suele existir uno donde se sincronizan los cambios entre usuarios. Ejemplo: Mercurial y Git.
 * '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar central. Ejemplo: CVS y Subversion.
 
-Algunas de estas herramientas son:
+Algunas de estas '''herramientas''' son:
 
 * '''Bazaar''': creado en 2007, patrocinado por Canonical.
 * '''BitKeeper''': creado en 2000, tiene licencia Apache. Es de arquitectura distribuida.
@@ -946,7 +952,7 @@ Algunas de estas herramientas son:
 * '''Mercurial''': creado en 2005 con licencia GPL. Es de arquitectura distribuida.
 * '''Subversion''': o SVN, creado en 2000 y tiene licencia Apache. Es de arquitectura centralizada.
 
-Algunos conceptos frecuentes:
+Algunos '''conceptos''' frecuentes:
 
 * '''Repositorio''': lugar donde se guarda el histórico con todos los cambios y que permite regresar a cualquier punto anterior.
 * '''Revisión''': estado concreto del repositorio en un momento dado. Cada revisión se puede identificar con un número (es el caso de Subversion) o con un código o digest (Git usa SHA1).

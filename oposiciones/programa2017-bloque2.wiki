@@ -488,7 +488,7 @@ Un '''sistema de ventanas''' proporciona la interfaz gráfica de usuario a un si
 {{cayo-en-convocatoria|1=2016 (IL)}}
 Opciones de '''programas comunes''':
 
-* '''vi(m)''': x (borrar carácter), dd (borrar línea), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
+* '''vi(m)''': x (borrar carácter), dd (borrar línea), u (deshace la última acción), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
 
 * '''emacs''': C-x C-s (guardar)
 
@@ -506,12 +506,21 @@ Uso de '''comandos básicos''':
 Resumen de '''comandos''' y su función:
 
 {{div-col-2}}
+* '''apt-get''': control de paquetes
+* '''apt-cache''': búsqueda de paquetes
+* '''awk''': procesamiento de texto
+* '''bash''': intérprete de comandos
+* '''bzip2''': compresor de ficheros
+* '''bunzip2''': descompresor de ficheros
+* '''cal''': muestra un calendario
+* '''calendar''': muestra efemérides
 * '''cat''': muestra contenido de fichero
 * '''cd''': cambia de directorio
 * '''chgrp''': cambia grupo de fichero o directorio
 * '''chmod''': cambia permisos de fichero o directorio
 * '''chown''': cambia propietario de fichero o directorio
 * '''cp''': copia ficheros o directorios
+* '''crontab''': tablas de tareas de cron
 * '''cut''': corta texto
 * '''date''': muestra la fecha y hora
 * '''df''': muestra espacio libre en disco
@@ -522,9 +531,16 @@ Resumen de '''comandos''' y su función:
 * '''head''': muestra el inicio de un fichero. Opuesto a tail.
 * '''htop''': muestra procesos (más visual)
 * '''ln''': crea un enlace a un fichero
+* '''ls''': muestra el contenido del directorio
+* '''lscpu''': muestra información sobre la CPU
+* '''lsmod''': muestra los módulos del kernel
+* '''lspci''': muestra los dispositivos PCI
+* '''lsusb''': muestra los dispositivos USB
 * '''man''': muestra ayuda de comandos
 * '''md5sum''': calcula hash md5 de fichero
 * '''mkdir''': crea un directorio. Opuesto a rmdir
+* '''modprobe''': añade o elimina módulos del kernel
+* '''mount''': monta un sistema de ficheros
 * '''mv''': renombrar o mover ficheros y directorios
 * '''pwd''': muestra directorio activo
 * '''ps''': muestra procesos
@@ -538,10 +554,13 @@ Resumen de '''comandos''' y su función:
 * '''time''': calcula el tiempo de ejecución de un comando
 * '''top''': muestra procesos
 * '''touch''': crea un fichero o modifica su fecha si ya existe
+* '''umount''': desmonta un sistema de ficheros
 * '''uniq''': elimina duplicados de una lista
 * '''wc''': cuenta caracteres y líneas de un fichero
 * '''who''': muestra quien está logueado en el sistema
 {{div-col-end}}
+
+El comando '''compgen -c''' muestra un listado con todos los comandos (y sus alias) disponibles en el sistema.
 
 * [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
 * [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
