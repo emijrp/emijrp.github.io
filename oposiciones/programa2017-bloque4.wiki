@@ -97,24 +97,30 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 {{recuadro|1=Conceptos de '''seguridad de los sistemas''' de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Conceptos''' relacionados con la '''seguridad''':
 
-* Antivirus
-* Botnet
-* Exploit
-* Keylogger
-* Firewall
+* '''Antivirus''': aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.
+* '''Botnet''': red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.
+* '''Bug''': error en un programa o sistema que provoca un funcionamiento imprevisto.
+* '''Exploit''': software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.
+* '''Keylogger''': software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.
+* '''Firewall''': software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.
+* '''Gusano''': software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.
+* '''Honeypot''': sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.
 * '''Pharming''': ciberataque que redirige un sitio web a otro falso.
 * '''Phishing''': intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.
-* Puerta trasera
-* Ransomware
+* '''Puerta trasera''': característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc.
+* '''Ransomware''': software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.
+* '''Rootkit''': software que permite el acceso privilegiado a un ordenador y que permanece oculto.
 * '''Spoofing''': envío de correos electrónicos con remitente falso.
-* Troyano
-* Virus
-* Vulnerabilidad
+* '''Spyware''': software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.
+* '''Troyano''': programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.
+* '''Virus''': software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.
+* '''Vulnerabilidad''': debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.
 
+Conceptos relativos a personas:
 
-Relativos a personas:
 * '''Cracker''': persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.
 * '''Hacker''': persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.
 * '''Lamer''': persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.
@@ -152,6 +158,7 @@ El '''cifrado por bloques''' opera por grupos de bits de longitud fija llamados 
 
 El '''cifrado por flujo''' opera sobre símbolos individuales.
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Algoritmos''' de '''clave simétrica''':
 
 * '''AES''': acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.
@@ -179,6 +186,7 @@ Para que un grupo de personas pueda comunicarse entre sí, es necesario conocer 
 
 Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de '''firma electrónica'''.
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
 '''Algoritmos''' de '''clave asimétrica''':
 
 * '''DSA''': acrónimo de Digital Signature Algorithm. No sirve para cifrar, solo para firmar.
@@ -200,11 +208,43 @@ La '''criptografía híbrida''' utiliza tanto cifrafo simétrico como asimétric
 
 {{recuadro|1='''Redes''' de comunicaciones. Redes de conmutación y redes de difusión. Comunicaciones móviles e inalámbricas.}}
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
+La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser monomodo (un solo haz, larga distancia) y multimodo (varios haces, poca distancia).
 
 
 == Tema 7: Modelo TCP/IP ==
 
 {{recuadro|1=El '''modelo TCP/IP''' y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Protocolos TCP/IP.}}
+
+=== Modelo OSI ===
+
+El '''Modelo OSI''' o modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo de referencia para protocolos de la red de arquitectura en capas. Fue creado en 1980 por ISO.
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+Las '''capas del Modelo OSI''' son '''siete''':
+
+* '''Nivel de Aplicación''': servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Protocolos de esta capa: HTTP, FTP, SMTP, Telnet.
+* '''Nivel de Presentación''': representación de los datos. Unidad de datos: Datos.
+* '''Nivel de Sesión''': comunicación entre dispositivos de la red. Unidad de datos: Datos.
+* '''Nivel de Transporte''': conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Segmentos.
+* '''Nivel de Red''': determinación de ruta y direccionamiento lógico (IP). Unidad de datos: Paquetes.
+* '''Nivel de Enlace de Datos''': direccionamiento físico (MAC y LLC). Unidad de datos: Tramas.
+* '''Nivel Físico''': señal y transmisión binaria. Unidad de datos: Bits.
+
+Regla nemotécnica, '''FERTSPA''' (first spa).
+
+=== Modelo TCP/IP ===
+
+Las '''capas del Modelo TCP/IP''' son '''cuatro''':
+
+* '''Capa 1''' o capa de '''acceso al medio''': asimilable a la capa 1 (física) y capa 2 (enlace de datos) del Modelo OSI.
+* '''Capa 2''' o capa de '''internet''': asimilable a la capa 3 (red).
+* '''Capa 3''' o capa de '''transporte''': asimilable a la capa 4 (transporte).
+* '''Capa 4''' o capa de '''aplicación''': asimilable a las capas 5 (sesión), 6 (presentación) y 7 (aplicación).
+
+El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una implementación'''.
+
+=== Puertos ===
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 '''Puertos TCP y UDP''' utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.
