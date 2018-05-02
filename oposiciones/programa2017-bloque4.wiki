@@ -97,15 +97,98 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 {{recuadro|1=Conceptos de '''seguridad de los sistemas''' de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
 
+'''Conceptos''' relacionados con la '''seguridad''':
 
-=== Cifrado ===
+* Antivirus
+* Botnet
+* Exploit
+* Keylogger
+* Firewall
+* '''Pharming''': ciberataque que redirige un sitio web a otro falso.
+* '''Phishing''': intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.
+* Puerta trasera
+* Ransomware
+* '''Spoofing''': envío de correos electrónicos con remitente falso.
+* Troyano
+* Virus
+* Vulnerabilidad
 
-* AES
-* DSA
-* ECIES
-* IDEA
-* RSA
-* TDEA
+
+Relativos a personas:
+* '''Cracker''': persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.
+* '''Hacker''': persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.
+* '''Lamer''': persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.
+* '''Luser''': similar a lamer, un usuario que es molesto.
+* '''Noob''': un novato o recién llegado a una comunidad u oficio.
+* '''Phreaker''': persona que experimenta con sistemas de telefonía.
+* '''Script kiddie''': es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.
+
+=== Criptología ===
+
+La '''criptología''' es el estudio de la escritura secreta, aquellos mensajes que tras ser procesados, se dificulta su lectura.
+
+* La '''criptografía''' es la técnica de cifrar un mensaje haciéndolo ininteligible a todos aquellos receptores no autorizados a leerlo. La criptografía puede ser de clave simétrica o asimétrica.
+
+* El '''criptoanálisis''' es el estudio de mensajes cifrados para intentar descifar su contenido sin tener autorización.
+
+* La '''esteganografía''' oculta mensajes dentro de otros contenidos (imágenes, vídeo...), de forma que pasen desapercibidos.
+
+* El '''estegoanálisis''' consiste en detectar mensajes ocultos con esteganografía.
+
+Las técnicas de criptografía y esteganografía se pueden combinar, aumentando la efectividad.
+
+Entre el '''software criptográfico''' destaca:
+
+* '''PGP''': acrónimo de Pretty Good Privacy, creado por Phil Zimmermann, funciona con criptografía asimétrica.
+* '''TrueCrypt''': permite cifrar con AES, Serpent y Twofish. Es multiplataforma. Fue continuado como VeraCrypt.
+
+==== Criptografía simétrica ====
+
+La '''criptografía simétrica''' o de '''clave secreta''' es aquella en la que se usa la misma clave para cifrar que para descifrar. Tanto el emisor como el receptor de los mensajes deben ponerse de acuerdo con la clave a utilizar y compartirla.
+
+La criptografía simétrica es impracticable para grandes grupos de personas, ya que son necesarias n(n-1)/2 claves, para que todas las parejas de usuarios puedan comunicarse entre sí.
+
+El '''cifrado por bloques''' opera por grupos de bits de longitud fija llamados bloques, en vez de símbolos individuales.
+
+El '''cifrado por flujo''' opera sobre símbolos individuales.
+
+'''Algoritmos''' de '''clave simétrica''':
+
+* '''AES''': acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.
+* '''Blowfish''': publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.
+* '''DES''': acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.
+** '''3DES''': hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.
+* '''IDEA''': acrónimo de International Data Encryption Algorithm. Tamaño de clave de 128 bits, tamaño de bloque de 64 bits.
+
+Otros algoritmos de clave simétrica son Serpent, Twofish.
+
+'''Unidades''' de '''cifrado por bloques''':
+
+* '''RC5''': admite tamaño de bloques de 32, 64 y 128 bits, tamaño de clave de 0 a 2040 bits, y número de vueltas de 0 a 255.
+* '''RC6''': el tamaño de bloque es de 128 bits, y acepta claves de 128, 192 y 256 bits.
+
+==== Criptografía asimétrica ====
+
+La '''criptografía asimétrica''' (o sistema de clave pública) utiliza dos claves para el envío de mensajes y pertenecen a la misma persona. Una es la '''clave pública''' y otra es la '''clave privada'''.
+
+Cuando un usuario quiere enviar un mensaje, utiliza la clave pública del destinatario para cifrar el mensaje. Al hacérselo llegar al destinatario, éste utilizara su clave privada para descifrarlo.
+
+Nadie a parte de su propietario debe conocer la clave privada.
+
+Para que un grupo de personas pueda comunicarse entre sí, es necesario conocer n-1 claves públicas (una por cada destinatario), además de la clave privada propia.
+
+Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de '''firma electrónica'''.
+
+'''Algoritmos''' de '''clave asimétrica''':
+
+* '''DSA''': acrónimo de Digital Signature Algorithm. No sirve para cifrar, solo para firmar.
+* '''RSA''': acrónimo de Rivest, Shamir, Adleman, sus creadores. Se basa en el problema de la factorización de números enteros. El tamaño de clave suele ser de 1024 a 4096 bits.
+
+==== Otros tipos de criptografía ====
+
+La '''criptografía de curva elíptica''' es una variante de la criptografía asimétrica basada en las matemáticas de las curvas elípticas.
+
+La '''criptografía híbrida''' utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.
 
 == Tema 5: Comunicaciones ==
 

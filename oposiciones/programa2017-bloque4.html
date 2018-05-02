@@ -50,7 +50,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Administración de redes">Administración de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#Monitorización de redes">Monitorización de redes</a><br/>
 &nbsp;4. <a href="#Tema 4: Seguridad">Tema 4: Seguridad</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#Cifrado">Cifrado</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#Criptología">Criptología</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 <a href="#Criptografía simétrica">Criptografía simétrica</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 <a href="#Criptografía asimétrica">Criptografía asimétrica</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 <a href="#Otros tipos de criptografía">Otros tipos de criptografía</a><br/>
 &nbsp;5. <a href="#Tema 5: Comunicaciones">Tema 5: Comunicaciones</a><br/>
 &nbsp;6. <a href="#Tema 6: Redes">Tema 6: Redes</a><br/>
 &nbsp;7. <a href="#Tema 7: Modelo TCP/IP">Tema 7: Modelo TCP/IP</a><br/>
@@ -161,10 +164,67 @@
 </div>
 
 
+<p><b>Conceptos</b> relacionados con la <b>seguridad</b>:</p>
 
-<h3 id="Cifrado">Cifrado</h3>
+<ul><li>Antivirus</li><li>Botnet</li><li>Exploit</li><li>Keylogger</li><li>Firewall</li><li><b>Pharming</b>: ciberataque que redirige un sitio web a otro falso.</li><li><b>Phishing</b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li>Puerta trasera</li><li>Ransomware</li><li><b>Spoofing</b>: envío de correos electrónicos con remitente falso.</li><li>Troyano</li><li>Virus</li><li>Vulnerabilidad</li></ul>
 
-<ul><li>AES</li><li>DSA</li><li>ECIES</li><li>IDEA</li><li>RSA</li><li>TDEA</li></ul>
+
+<p>Relativos a personas:</p>
+<ul><li><b>Cracker</b>: persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.</li><li><b>Hacker</b>: persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.</li><li><b>Lamer</b>: persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.</li><li><b>Luser</b>: similar a lamer, un usuario que es molesto.</li><li><b>Noob</b>: un novato o recién llegado a una comunidad u oficio.</li><li><b>Phreaker</b>: persona que experimenta con sistemas de telefonía.</li><li><b>Script kiddie</b>: es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.</li></ul>
+
+<h3 id="Criptología">Criptología</h3>
+
+<p>La <b>criptología</b> es el estudio de la escritura secreta, aquellos mensajes que tras ser procesados, se dificulta su lectura.</p>
+
+<ul><li>La <b>criptografía</b> es la técnica de cifrar un mensaje haciéndolo ininteligible a todos aquellos receptores no autorizados a leerlo. La criptografía puede ser de clave simétrica o asimétrica.</li><li>El <b>criptoanálisis</b> es el estudio de mensajes cifrados para intentar descifar su contenido sin tener autorización.</li><li>La <b>esteganografía</b> oculta mensajes dentro de otros contenidos (imágenes, vídeo...), de forma que pasen desapercibidos.</li><li>El <b>estegoanálisis</b> consiste en detectar mensajes ocultos con esteganografía.</li></ul>
+
+<p>Las técnicas de criptografía y esteganografía se pueden combinar, aumentando la efectividad.</p>
+
+<p>Entre el <b>software criptográfico</b> destaca:</p>
+
+<ul><li><b>PGP</b>: acrónimo de Pretty Good Privacy, creado por Phil Zimmermann, funciona con criptografía asimétrica.</li><li><b>TrueCrypt</b>: permite cifrar con AES, Serpent y Twofish. Es multiplataforma. Fue continuado como VeraCrypt.</li></ul>
+
+<h4 id="Criptografía simétrica">Criptografía simétrica</h4>
+
+<p>La <b>criptografía simétrica</b> o de <b>clave secreta</b> es aquella en la que se usa la misma clave para cifrar que para descifrar. Tanto el emisor como el receptor de los mensajes deben ponerse de acuerdo con la clave a utilizar y compartirla.</p>
+
+<p>La criptografía simétrica es impracticable para grandes grupos de personas, ya que son necesarias n(n-1)/2 claves, para que todas las parejas de usuarios puedan comunicarse entre sí.</p>
+
+<p>El <b>cifrado por bloques</b> opera por grupos de bits de longitud fija llamados bloques, en vez de símbolos individuales.</p>
+
+<p>El <b>cifrado por flujo</b> opera sobre símbolos individuales.</p>
+
+<p><b>Algoritmos</b> de <b>clave simétrica</b>:</p>
+
+<ul><li><b>AES</b>: acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.</li><li><b>Blowfish</b>: publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.</li><li><b>DES</b>: acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.</li><ul><li><b>3DES</b>: hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.</li></ul><li><b>IDEA</b>: acrónimo de International Data Encryption Algorithm. Tamaño de clave de 128 bits, tamaño de bloque de 64 bits.</li></ul>
+
+<p>Otros algoritmos de clave simétrica son Serpent, Twofish.</p>
+
+<p><b>Unidades</b> de <b>cifrado por bloques</b>:</p>
+
+<ul><li><b>RC5</b>: admite tamaño de bloques de 32, 64 y 128 bits, tamaño de clave de 0 a 2040 bits, y número de vueltas de 0 a 255.</li><li><b>RC6</b>: el tamaño de bloque es de 128 bits, y acepta claves de 128, 192 y 256 bits.</li></ul>
+
+<h4 id="Criptografía asimétrica">Criptografía asimétrica</h4>
+
+<p>La <b>criptografía asimétrica</b> (o sistema de clave pública) utiliza dos claves para el envío de mensajes y pertenecen a la misma persona. Una es la <b>clave pública</b> y otra es la <b>clave privada</b>.</p>
+
+<p>Cuando un usuario quiere enviar un mensaje, utiliza la clave pública del destinatario para cifrar el mensaje. Al hacérselo llegar al destinatario, éste utilizara su clave privada para descifrarlo.</p>
+
+<p>Nadie a parte de su propietario debe conocer la clave privada.</p>
+
+<p>Para que un grupo de personas pueda comunicarse entre sí, es necesario conocer n-1 claves públicas (una por cada destinatario), además de la clave privada propia.</p>
+
+<p>Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de <b>firma electrónica</b>.</p>
+
+<p><b>Algoritmos</b> de <b>clave asimétrica</b>:</p>
+
+<ul><li><b>DSA</b>: acrónimo de Digital Signature Algorithm. No sirve para cifrar, solo para firmar.</li><li><b>RSA</b>: acrónimo de Rivest, Shamir, Adleman, sus creadores. Se basa en el problema de la factorización de números enteros. El tamaño de clave suele ser de 1024 a 4096 bits.</li></ul>
+
+<h4 id="Otros tipos de criptografía">Otros tipos de criptografía</h4>
+
+<p>La <b>criptografía de curva elíptica</b> es una variante de la criptografía asimétrica basada en las matemáticas de las curvas elípticas.</p>
+
+<p>La <b>criptografía híbrida</b> utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.</p>
 
 <h2 id="Tema 5: Comunicaciones">Tema 5: Comunicaciones</h2>
 
@@ -261,7 +321,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-01 15:54:03 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-02 14:32:41 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
