@@ -152,7 +152,7 @@
 
 <h3 id="Monitorización de redes">Monitorización de redes</h3>
 
-<ul><li><b>Nagios</b>: monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.</li><li><b>netsniff-ng</b>: analizador de redes y sniffer, solo disponible para GNU/Linux.</li><li><b>ngrep</b>: network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.</li><li><b>nmap</b>: escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.</li><li><b>Snort</b>: sistema de detección de intrusiones.</li><li><b>Suricata</b>: sistema de detección de intrusiones.</li><li><b>tcpdump</b>: analizador de paquetes por línea de comandos.</li><li><b>traceroute</b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li></ul>
+<ul><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>Nagios</b>: monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.</li><li><b>netsniff-ng</b>: analizador de redes y sniffer, solo disponible para GNU/Linux.</li><li><b>ngrep</b>: network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.</li><li><b>nmap</b>: escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.</li><li><b>Snort</b>: sistema de detección de intrusiones.</li><li><b>Suricata</b>: sistema de detección de intrusiones.</li><li><b>tcpdump</b>: analizador de paquetes por línea de comandos.</li><li><b>traceroute</b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li></ul>
 
 <div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
@@ -248,7 +248,15 @@
 </div>
 
 
+<p>En toda <b>comunicación</b> se requiere de un emisor, un mensaje, un medio y un receptor.</p>
 
+<p>La comunicación se lleva a cabo con una capa física y una capa lógica. La <b>capa física</b> son los dispositivos y equipos como las tarjetas de red, cables, switchs, routers, etc. La <i>capa lógica<b> es el software, los protocolos de red, etc.</p>
+
+<p>Dispositivos de la capa física:</p>
+
+<ul><li></b>Tarjeta de red<b>: </li><li></b>Conmutador o switch<b>: opera en la capa de enlace de datos, interconectando dos o más hosts, pasando los datos usando la dirección MAC de destino de las tramas.</li><li></b>Enrutador o router<b>: opera a nivel de la capa de red, encaminando paquetes de una red a otra (conecta subredes).</li><li></b>Puente o bridge<b>: opera en la capa de enlace de datos, solo reenvía las tramas pertenecientes a cada segmento de la red. Suelen tener menos bocas que un conmutador o switch.</li><li></b>Hub<b>: repite todas las tramas, aumentando las colisiones y reduciendo el rendimiento de la red.</li><li></b>Puente y enrutador o brouter<b>: sirve como puente y como router.</li><li></b>Punto de acceso inalámbrico o WAP<b>: interconecta dispositivos de red inalámbricos (tarjetas de red, dispositivos móviles). Normalmente también tienen entradas cableadas.</li></ul>
+
+<p>Control de acceso al medio</p>
 
 <h2 id="Tema 6: Redes">Tema 6: Redes</h2>
 
@@ -257,12 +265,56 @@
 </div>
 
 
+<p>Una </b>red de difusión<b> (broadcast) es aquella en la que cualquier ordenador puede transmitir directamente a cualquier otro sin precisar ningún dispositivo de encaminamiento dado que comparte la misma subred, dirección de puerta de enlace y están de la misma red de área local (LAN) o VLAN. Todos los ordenadores conectados al mismo switch son miembros del mismo dominio de difusión (broadcast domain). Los routers separan distintos dominios de difusión.</p>
+
+<p>En una </b>red conmutada<b> la comunicación se establece de extremo a extremo a través de un conjunto de nodos.</p>
+
+<p></b>Clasificación<b> de redes:</p>
+
+<ul><li></b>Red de área personal<b> (Personal Area Network, PAN): red para conectar dispositivos cercanos al ordenador.</li><li></b>Red inalámbrica de área personal<b> (Wireless Personal Area Network, WPAN): redes que conectan teléfonos, PDA, impresoras, etc, cercanos, normalmente a través de Bluetooth.</li><li></b>Red de área local<b> (Local Area Network, LAN): red pequeña dentro de una misma casa o edificio. También puede ser inalámbrica, WLAN.</li><li></b>Red de área de campus<b> (Campos Area Network, CAN): red de alta velocidad dentro de una universidad, hospital, etc.</li><li></b>Red de área metropolitana<b> (Metropolitan Area Network, MAN): red que da cobertura a un área geográfica que cubra varios edificios, por ejemplo con fibra óptica.</li><li></b>Red de área amplia<b> (Wide Area Network, WAN): red que cubre áreas extensas, incluso con satélites, cables transoceánicos, etc.</li><li></b>Red de área de almacenamiento<b> (Storage Area Network, SAN): red que conecta servidores, conjuntos de discos, etc, cuyos datos pasan separados de las redes de usuarios.</li><li></b>Red de área local virtual<b> (Virtual LAN, VLAN): conjunto de ordenadores y recursos (impresoras, etc) que se comunican como si estuvieran en una división lógica de red. Es una forma de estructurar una red por software, dividiendo un conmutador en varios virtuales.</li></ul>
+
+<p></b>Tipos<b> de cableado:</p>
+
+<ul><li></b>Cable par trenzado<b>: tipo de cable con dos conductores elétricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.</li><li></b>Cable coaxial<b>: transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.</li></ul>
 <div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
 </div>
 
-<p>La <b>fibra óptica</b> es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser monomodo (un solo haz, larga distancia) y multimodo (varios haces, poca distancia).</p>
+<ul><li>La </b>fibra óptica</i>' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser monomodo (un solo haz, larga distancia) y multimodo (varios haces, poca distancia).</li></ul>
 
+<p><i>Topologías<b> de red:</p>
+
+<ul><li></b>Anillo<b>: cada estación se conecta con la siguiente y la última con la primera, cerrando el anillo.</li><li></b>Bus<b>: cuenta con un único canal de comunicaciones al que se conectan todos los dispositivos.</li><li></b>Estrella<b>: las estaciones se conectan a un punto central.</li><li></b>Malla<b>: cadanodo se conecta con todos los demás.</li><li></b>Árbol<b>: nodos conectados en forma de árbol, similar a la de estrella pero sin nodo central.</li><li></b>Híbrida o mixta<b>: una combinación de las demás, circular de estrella, bus de estrella, etc.</li></ul>
+
+<p>Según la </b>direccionalidad de los datos<b>:</p>
+
+<ul><li></b>Simplex<b>: unidireccional, un terminal envía y otro recibe.</li><li></b>Half-duplex<b>: semidúplex, envío bidireccional pero no simultáneamente.</li><li></b>Full-duplex<b>: dúplex, envío bidireccional y simultáneao.</li></ul>
+
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
+</div>
+
+<p>Control de acceso al medio:</p>
+<ul><li>Token bus</li><li>Token ring</li><li>Paso de testigo</li><li>ALOHA</li><li>CSMA</li><li></li></ul>
+
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
+</div>
+
+<p></b>Estándares IEEE 802<b>:</p>
+
+<ul><li></b>IEEE 802.1<b>:</li><ul><li></b>IEEE 802.1Q<b>: VLANs</li></ul><li></b>IEEE 802.3<b>: Ethernet</li><li></b>IEEE 802.11<b>: Wireless LAN (WLAN)</li><ul><li></b>IEEE 802.11b<b>: Hasta 11 Mbit/s</li><li></b>IEEE 802.11g<b>: Hasta 54 Mbit/s. 2.4 Ghz.</li><li></b>IEEE 802.11n<b>: De 54 a 6000 Mbit/s</li><li></b>IEEE 802.11ac<b>: Hasta 433 Mbit/s, canales más anchos</li><li></b>IEEE 802.11ad<b>: Hasta 7 Gbit/s</li><li></b>IEEE 802.11ah<b>: WiFi HaLow</li></ul><li></b>IEEE 802.15<b>: Wireless PAN (WPAN)</li><ul><li></b>IEEE 802.15.1<b>: Bluetooth</li></ul><li></b>IEEE 802.16<b>: WiMAX</li></ul>
+
+<div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
+</div>
+
+<p>La </b>máscara de red<b> es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.</p>
+
+<p>En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts posibles en toda subred es N-2.</p>
+
+<p>Ejemplos de máscaras de red:</p>
+<ul><li>11111111.11111111.11111111.11111111 = 255.255.255.255 = 0 hosts</li><li></b>Clase C<b>: 11111111.11111111.11111111.00000000 = 255.255.255.0 = 2^8 - 2 = 254 hosts</li><li></b>Clase B<b>: 11111111.11111111.00000000.00000000 = 255.255.0.0 = 2^16 - 2 = 65534 hosts</li><li></b>Clase A<b>: 11111111.00000000.00000000.00000000 = 255.0.0.0 = 2^24 - 2 = 16777214 hosts</li></ul>
 
 <h2 id="Tema 7: Modelo TCP/IP">Tema 7: Modelo TCP/IP</h2>
 
@@ -273,25 +325,25 @@
 
 <h3 id="Modelo OSI">Modelo OSI</h3>
 
-<p>El <b>Modelo OSI</b> o modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo de referencia para protocolos de la red de arquitectura en capas. Fue creado en 1980 por ISO.</p>
+<p>El </b>Modelo OSI<b> o modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo de referencia para protocolos de la red de arquitectura en capas. Fue creado en 1980 por ISO.</p>
 
 <div style="float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
 </div>
 
-<p>Las <b>capas del Modelo OSI</b> son <b>siete</b>:</p>
+<p>Las </b>capas del Modelo OSI<b> son </b>siete<b>:</p>
 
-<ul><li><b>Nivel de Aplicación</b>: servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Protocolos de esta capa: HTTP, FTP, SMTP, Telnet.</li><li><b>Nivel de Presentación</b>: representación de los datos. Unidad de datos: Datos.</li><li><b>Nivel de Sesión</b>: comunicación entre dispositivos de la red. Unidad de datos: Datos.</li><li><b>Nivel de Transporte</b>: conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Segmentos.</li><li><b>Nivel de Red</b>: determinación de ruta y direccionamiento lógico (IP). Unidad de datos: Paquetes.</li><li><b>Nivel de Enlace de Datos</b>: direccionamiento físico (MAC y LLC). Unidad de datos: Tramas.</li><li><b>Nivel Físico</b>: señal y transmisión binaria. Unidad de datos: Bits.</li></ul>
+<ul><li></b>Nivel de Aplicación<b>: servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Protocolos de esta capa: HTTP, FTP, SMTP, Telnet.</li><li></b>Nivel de Presentación<b>: representación de los datos. Unidad de datos: Datos.</li><li></b>Nivel de Sesión<b>: comunicación entre dispositivos de la red. Unidad de datos: Datos.</li><li></b>Nivel de Transporte<b>: conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Segmentos.</li><li></b>Nivel de Red<b>: determinación de ruta y direccionamiento lógico (IP). Unidad de datos: Paquetes.</li><li></b>Nivel de Enlace de Datos<b>: direccionamiento físico (MAC y LLC). Unidad de datos: Tramas.</li><li></b>Nivel Físico<b>: señal y transmisión binaria. Unidad de datos: Bits.</li></ul>
 
-<p>Regla nemotécnica, <b>FERTSPA</b> (first spa).</p>
+<p>Regla nemotécnica, </b>FERTSPA<b> (first spa).</p>
 
 <h3 id="Modelo TCP/IP">Modelo TCP/IP</h3>
 
-<p>Las <b>capas del Modelo TCP/IP</b> son <b>cuatro</b>:</p>
+<p>Las </b>capas del Modelo TCP/IP<b> son </b>cuatro<b>:</p>
 
-<ul><li><b>Capa 1</b> o capa de <b>acceso al medio</b>: asimilable a la capa 1 (física) y capa 2 (enlace de datos) del Modelo OSI.</li><li><b>Capa 2</b> o capa de <b>internet</b>: asimilable a la capa 3 (red).</li><li><b>Capa 3</b> o capa de <b>transporte</b>: asimilable a la capa 4 (transporte).</li><li><b>Capa 4</b> o capa de <b>aplicación</b>: asimilable a las capas 5 (sesión), 6 (presentación) y 7 (aplicación).</li></ul>
+<ul><li></b>Capa 1<b> o capa de </b>acceso al medio<b>: asimilable a la capa 1 (física) y capa 2 (enlace de datos) del Modelo OSI.</li><li></b>Capa 2<b> o capa de </b>internet<b>: asimilable a la capa 3 (red).</li><li></b>Capa 3<b> o capa de </b>transporte<b>: asimilable a la capa 4 (transporte).</li><li></b>Capa 4<b> o capa de </b>aplicación<b>: asimilable a las capas 5 (sesión), 6 (presentación) y 7 (aplicación).</li></ul>
 
-<p>El <b>Modelo OSI es teórico</b>, mientras que el <b>Modelo TCP/IP es una implementación</b>.</p>
+<p>El </b>Modelo OSI es teórico<b>, mientras que el </b>Modelo TCP/IP es una implementación<b>.</p>
 
 <h3 id="Puertos">Puertos</h3>
 
@@ -299,11 +351,11 @@
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)</b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback1" href="#ref1">1</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p></b>Puertos TCP y UDP<b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback1" href="#ref1">1</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>0</b>: Reservado</li><li><b>7</b>: Echo Protocol</li><li><b>21</b>: File Transfer Protocol (FTP)</li><li><b>22</b>: Secure Shell (SSH), scp, sftp</li><li><b>23</b>: Telnet remote login service</li><li><b>25</b>: Simple Mail Transfer Protocol (SMTP)</li><li><b>37</b>: Time Protocol</li><li><b>43</b>: WHOIS Protocol</li><li><b>53</b>: Domain Name System (DNS) service</li><li><b>69</b>: Trivial File Transfer Protocol (TFTP)</li><li><b>70</b>: Gopher Protocol</li><li><b>79</b>: Finger Protocol</li><li><b>80</b>: Hypertext Transfer Protocol (HTTP)</li><li><b>88</b>: Kerberos Authentication System</li><li><b>109</b>: Post Office Protocol (POP2)</li><li><b>110</b>: Post Office Protocol (POP3)</li><li><b>115</b>: Simple File Transfer Protocol</li><li><b>119</b>: Network News Transfer Protocol (NNTP)</li><li><b>123</b>: Network Time Protocol (NTP)</li><li><b>137</b>: NetBIOS Name Service</li><li><b>143</b>: Internet Message Access Protocol (IMAP)</li><li><b>161</b>: Simple Network Management Protocol (SNMP)</li><li><b>194</b>: Internet Relay Chat (IRC)</li><li><b>209</b>: Quick Mail Transfer Protocol (QMTP)</li><li><b>443</b>: HTTP Secure (HTTPS)</li><li><b>993</b>: IMAP over SSL</li><li><b>1080</b>: SOCKS proxy</li></ul>
+<ul><li></b>0<b>: Reservado</li><li></b>7<b>: Echo Protocol</li><li></b>21<b>: File Transfer Protocol (FTP)</li><li></b>22<b>: Secure Shell (SSH), scp, sftp</li><li></b>23<b>: Telnet remote login service</li><li></b>25<b>: Simple Mail Transfer Protocol (SMTP)</li><li></b>37<b>: Time Protocol</li><li></b>43<b>: WHOIS Protocol</li><li></b>53<b>: Domain Name System (DNS) service</li><li></b>69<b>: Trivial File Transfer Protocol (TFTP)</li><li></b>70<b>: Gopher Protocol</li><li></b>79<b>: Finger Protocol</li><li></b>80<b>: Hypertext Transfer Protocol (HTTP)</li><li></b>88<b>: Kerberos Authentication System</li><li></b>109<b>: Post Office Protocol (POP2)</li><li></b>110<b>: Post Office Protocol (POP3)</li><li></b>115<b>: Simple File Transfer Protocol</li><li></b>119<b>: Network News Transfer Protocol (NNTP)</li><li></b>123<b>: Network Time Protocol (NTP)</li><li></b>137<b>: NetBIOS Name Service</li><li></b>143<b>: Internet Message Access Protocol (IMAP)</li><li></b>161<b>: Simple Network Management Protocol (SNMP)</li><li></b>194<b>: Internet Relay Chat (IRC)</li><li></b>209<b>: Quick Mail Transfer Protocol (QMTP)</li><li></b>443<b>: HTTP Secure (HTTPS)</li><li></b>993<b>: IMAP over SSL</li><li></b>1080<b>: SOCKS proxy</li></ul>
 </div>
 
 
@@ -314,7 +366,19 @@
 </div>
 
 
+<p>Ipv4 ipv6 (pregunta b4.32 y 37, 39)</p>
 
+<p></b>Códigos de estado HTTP<b>:</p>
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
+
+<ul><li>1xx: Informal</li><li>2xx: Exitoso</li><li>3xx: Redirección</li><li>4xx: Error de cliente</li><li>5xx: Error de servidor</li><li>100: Continue</li><li>200: OK</li><li>202: Accepted</li><li>206: Partial Content</li><li>207: Multi-status</li><li>301: Moved Permanently</li><li>302: Found</li><li>303: See other</li><li>400: Bad request</li><li>401: Unauthorized</li><li>402: Payment required</li><li>403: Forbidden</li><li>404: Not found</li><li>406: Not Acceptable</li><li>408: Request Timeout</li><li>500: Internal Server Error</li><li>501: Not Implemented</li><li>502: Bad Gateway</li><li>503: Service Unavailable</li><li>504: Gateway Timeout</li></ul>
+</div>
+
+
+<p>Un </b>servidor proxy<b> es un servidor que actua de intermediario entre las peticiones de un cliente y los servidores destinatarios.</p>
+
+<p>Tipos de </b>proxy<b>:</p>
+<ul><li></b>Proxy abierto<b>: son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.</li><li></b>Proxy transparente</i>': no requiere configuración por parte del cliente.</li></ul>
 
 <h2 id="Tema 9: Seguridad y protección">Tema 9: Seguridad y protección</h2>
 
@@ -365,7 +429,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-02 19:03:09 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-03 15:34:06 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

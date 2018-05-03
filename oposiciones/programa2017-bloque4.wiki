@@ -74,6 +74,8 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 === Monitorización de redes ===
 
+* '''IBM AppScan''': test de seguridad y monitorización de IBM.
+
 * '''Nagios''': monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.
 
 * '''netsniff-ng''': analizador de redes y sniffer, solo disponible para GNU/Linux.
@@ -202,15 +204,100 @@ La '''criptografía híbrida''' utiliza tanto cifrafo simétrico como asimétric
 
 {{recuadro|1='''Comunicaciones'''. Medios de transmisión. Modos de comunicación. Equipos terminales y equipos de interconexión y conmutación.}}
 
+En toda '''comunicación''' se requiere de un emisor, un mensaje, un medio y un receptor.
 
+La comunicación se lleva a cabo con una capa física y una capa lógica. La '''capa física''' son los dispositivos y equipos como las tarjetas de red, cables, switchs, routers, etc. La ''capa lógica''' es el software, los protocolos de red, etc.
+
+Dispositivos de la capa física:
+
+* '''Tarjeta de red''': 
+* '''Conmutador o switch''': opera en la capa de enlace de datos, interconectando dos o más hosts, pasando los datos usando la dirección MAC de destino de las tramas.
+* '''Enrutador o router''': opera a nivel de la capa de red, encaminando paquetes de una red a otra (conecta subredes).
+* '''Puente o bridge''': opera en la capa de enlace de datos, solo reenvía las tramas pertenecientes a cada segmento de la red. Suelen tener menos bocas que un conmutador o switch.
+* '''Hub''': repite todas las tramas, aumentando las colisiones y reduciendo el rendimiento de la red.
+* '''Puente y enrutador o brouter''': sirve como puente y como router.
+* '''Punto de acceso inalámbrico o WAP''': interconecta dispositivos de red inalámbricos (tarjetas de red, dispositivos móviles). Normalmente también tienen entradas cableadas.
+
+Control de acceso al medio
 
 == Tema 6: Redes ==
 
 {{recuadro|1='''Redes''' de comunicaciones. Redes de conmutación y redes de difusión. Comunicaciones móviles e inalámbricas.}}
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
-La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser monomodo (un solo haz, larga distancia) y multimodo (varios haces, poca distancia).
+Una '''red de difusión''' (broadcast) es aquella en la que cualquier ordenador puede transmitir directamente a cualquier otro sin precisar ningún dispositivo de encaminamiento dado que comparte la misma subred, dirección de puerta de enlace y están de la misma red de área local (LAN) o VLAN. Todos los ordenadores conectados al mismo switch son miembros del mismo dominio de difusión (broadcast domain). Los routers separan distintos dominios de difusión.
 
+En una '''red conmutada''' la comunicación se establece de extremo a extremo a través de un conjunto de nodos.
+
+'''Clasificación''' de redes:
+
+* '''Red de área personal''' (Personal Area Network, PAN): red para conectar dispositivos cercanos al ordenador.
+* '''Red inalámbrica de área personal''' (Wireless Personal Area Network, WPAN): redes que conectan teléfonos, PDA, impresoras, etc, cercanos, normalmente a través de Bluetooth.
+* '''Red de área local''' (Local Area Network, LAN): red pequeña dentro de una misma casa o edificio. También puede ser inalámbrica, WLAN.
+* '''Red de área de campus''' (Campos Area Network, CAN): red de alta velocidad dentro de una universidad, hospital, etc.
+* '''Red de área metropolitana''' (Metropolitan Area Network, MAN): red que da cobertura a un área geográfica que cubra varios edificios, por ejemplo con fibra óptica.
+* '''Red de área amplia''' (Wide Area Network, WAN): red que cubre áreas extensas, incluso con satélites, cables transoceánicos, etc.
+* '''Red de área de almacenamiento''' (Storage Area Network, SAN): red que conecta servidores, conjuntos de discos, etc, cuyos datos pasan separados de las redes de usuarios.
+* '''Red de área local virtual''' (Virtual LAN, VLAN): conjunto de ordenadores y recursos (impresoras, etc) que se comunican como si estuvieran en una división lógica de red. Es una forma de estructurar una red por software, dividiendo un conmutador en varios virtuales.
+
+'''Tipos''' de cableado:
+
+* '''Cable par trenzado''': tipo de cable con dos conductores elétricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.
+
+* '''Cable coaxial''': transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.
+{{cayo-en-convocatoria|1=2016 (IL)}}
+* La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser monomodo (un solo haz, larga distancia) y multimodo (varios haces, poca distancia).
+
+''Topologías''' de red:
+
+* '''Anillo''': cada estación se conecta con la siguiente y la última con la primera, cerrando el anillo.
+* '''Bus''': cuenta con un único canal de comunicaciones al que se conectan todos los dispositivos.
+* '''Estrella''': las estaciones se conectan a un punto central.
+* '''Malla''': cadanodo se conecta con todos los demás.
+* '''Árbol''': nodos conectados en forma de árbol, similar a la de estrella pero sin nodo central.
+* '''Híbrida o mixta''': una combinación de las demás, circular de estrella, bus de estrella, etc.
+
+Según la '''direccionalidad de los datos''':
+
+* '''Simplex''': unidireccional, un terminal envía y otro recibe.
+* '''Half-duplex''': semidúplex, envío bidireccional pero no simultáneamente.
+* '''Full-duplex''': dúplex, envío bidireccional y simultáneao.
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+Control de acceso al medio:
+* Token bus
+* Token ring
+* Paso de testigo
+* ALOHA
+* CSMA
+* 
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+'''Estándares IEEE 802''':
+
+* '''IEEE 802.1''':
+** '''IEEE 802.1Q''': VLANs
+* '''IEEE 802.3''': Ethernet
+* '''IEEE 802.11''': Wireless LAN (WLAN)
+** '''IEEE 802.11b''': Hasta 11 Mbit/s
+** '''IEEE 802.11g''': Hasta 54 Mbit/s. 2.4 Ghz.
+** '''IEEE 802.11n''': De 54 a 6000 Mbit/s
+** '''IEEE 802.11ac''': Hasta 433 Mbit/s, canales más anchos
+** '''IEEE 802.11ad''': Hasta 7 Gbit/s
+** '''IEEE 802.11ah''': WiFi HaLow
+* '''IEEE 802.15''': Wireless PAN (WPAN)
+** '''IEEE 802.15.1''': Bluetooth
+* '''IEEE 802.16''': WiMAX
+
+{{cayo-en-convocatoria|1=2016 (IL)}}
+La '''máscara de red''' es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.
+
+En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts posibles en toda subred es N-2.
+
+Ejemplos de máscaras de red:
+* 11111111.11111111.11111111.11111111 = 255.255.255.255 = 0 hosts
+* '''Clase C''': 11111111.11111111.11111111.00000000 = 255.255.255.0 = 2^8 - 2 = 254 hosts
+* '''Clase B''': 11111111.11111111.00000000.00000000 = 255.255.0.0 = 2^16 - 2 = 65534 hosts
+* '''Clase A''': 11111111.00000000.00000000.00000000 = 255.0.0.0 = 2^24 - 2 = 16777214 hosts
 
 == Tema 7: Modelo TCP/IP ==
 
@@ -283,7 +370,42 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 
 {{recuadro|1=Internet: arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS y SSL/TLS.}}
 
+Ipv4 ipv6 (pregunta b4.32 y 37, 39)
 
+'''Códigos de estado HTTP''':
+{{div col 3}}
+* 1xx: Informal
+* 2xx: Exitoso
+* 3xx: Redirección
+* 4xx: Error de cliente
+* 5xx: Error de servidor
+* 100: Continue
+* 200: OK
+* 202: Accepted
+* 206: Partial Content
+* 207: Multi-status
+* 301: Moved Permanently
+* 302: Found
+* 303: See other
+* 400: Bad request
+* 401: Unauthorized
+* 402: Payment required
+* 403: Forbidden
+* 404: Not found
+* 406: Not Acceptable
+* 408: Request Timeout
+* 500: Internal Server Error
+* 501: Not Implemented
+* 502: Bad Gateway
+* 503: Service Unavailable
+* 504: Gateway Timeout
+{{div col end}}
+
+Un '''servidor proxy''' es un servidor que actua de intermediario entre las peticiones de un cliente y los servidores destinatarios.
+
+Tipos de '''proxy''':
+* '''Proxy abierto''': son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.
+* '''Proxy transparente''': no requiere configuración por parte del cliente.
 
 == Tema 9: Seguridad y protección ==
 
