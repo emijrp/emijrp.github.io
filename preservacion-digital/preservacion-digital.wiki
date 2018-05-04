@@ -1,6 +1,6 @@
 {{header|1=Preservación digital}}
 
-{{youtube|id=jzQyHLd8jYo|align=right}}
+{{youtube|id=jzQyHLd8jYo|align=right}}<!-- La oscura era digital -->
 
 La '''información''' siempre está en peligro de desaparecer y la información digital todavía más.
 
@@ -12,7 +12,7 @@ Y todo esto sin contar que hoy día subimos mucho contenido a Internet a servici
 
 == ¿Qué hacer? ==
 
-{{youtube|id=AYbtSpB8pPE|align=right}}
+{{youtube|id=BBrBOMTzWDo|align=right}}<!-- El fin de la memoria -->
 
 Lo primordial es preservar los datos que para uno son muy importantes, es decir, aquellos que has generado tú. Puede tratarse de documentos escritos, fotografías de tus cámaras, vídeos de las vacaciones, etc. No existe nada 100% seguro, pero una manera de mejorar la preservación de tus datos es tener una copia de seguridad. En mi caso, disponer de un disco duro externo (que están bien de precio, unos 60 euros el de 1TB) me permite tener una copia de mis archivos fundamentales. También se pueden usar CDs o DVDs para hacer una recopilación de las fotografías y vídeos más importantes o mejores (ya que estos soportes se han quedado un poco pequeños con el avance de la resolución de las cámaras fotográficas).
 
@@ -38,7 +38,7 @@ Breves reseñas biográficas de personas que dedicaron parte de su vida a la pre
 {{clear}}
 
 [[File:henry-spencer.jpg|thumb|right|200px|Henry Spencer]]
-* '''Henry Spencer''' (1955), programador canadiense que conservó 2 millones de mensajes de USENET.
+* '''Henry Spencer''' (1955), programador de software libre y escritor canadiense. Entre 1981 y 1991, mientras trabajaba en el Departamento de Zoología de la Universidad de Toronto, conservó más 2 millones de mensajes de USENET en cintas magnéticas. Esta enorme colección en 141 cintas, fue incorporada a los archivos de Google en 2001, aumentando la cobertura del histórico de USENET en más de una década hacia atrás en el tiempo.<ref>[https://en.wikipedia.org/wiki/Henry_Spencer Henry Spencer] en Wikipedia</ref> La conversión de cinta a disco fue realizada por David Wiseman y otros, encontrándose disponible para descargar en Internet Archive.<ref>[https://archive.org/details/utzoo-wiseman-usenet-archive Usenet Archive of UTZOO Tapes] en Internet Archive</ref>
 
 {{clear}}
 
