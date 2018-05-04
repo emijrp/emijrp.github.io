@@ -98,10 +98,20 @@ Según el número de '''núcleos''':
 * '''Varios núcleos''': cuenta con varias unidades de procesamiento que leen y ejecutan instrucciones a la vez, aumentando la velocidad de aquellos programas que estén adaptados al procesamiento en paralelo.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
-Algoritmos de planificación:
+Los '''algoritmos de planificación''' son aquellos que gestionan qué procesos se ejecutarán en el procesador en cada momento y en qué orden, evitando que un proceso monopolice el uso del procesador.
 
-* Round Robin:
-* Selfish Round Robin:
+Los tres estados posibles de un proceso son: listo, bloqueado y en ejecución.
+
+'''Algoritmos''' de '''planificación''':
+
+* '''FIFO o FCFS''': First In, First Out o First Come, First Served. Es el más sencillo, simplemente se encolan los procesos por orden de llegada y el primero en llegar es ejecutado. Cuando éste termina, se procede con el siguiente de la cola.
+
+* '''Round Robin''': utiliza time-slices o quatums, que son intervalos de tiempo asignados a cada proceso. Si un proceso agota su tiempo, se ejecuta el siguiente, y el proceso queda a la espera en cola para usar su próximo quantum.
+** '''Selfish Round Robin''': utiliza dos colas, una para procesos nuevos y otra para procesos antiguos. Da prioridad a los antiguos sobre los nuevos.
+
+* '''SJF''': Shortest Job First, el proceso más corto es el que se ejecuta primero. Tiene el problema que los procesos largos pueden quedarse indefinidamente en cola si siguen llegando procesos cortos.
+
+* '''SRTF''': Short Remaining Time First, el proceso que le quede menos tiempo por ejecutar, entrará al procesador. Es decir, si mientras se ejecuta un proceso, otro proceso que se quedó a medias (bloqueado) ya está listo para continuar, le quitará el sitio al proceso actual.
 
 === Componentes internos ===
 
@@ -306,6 +316,8 @@ Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los dis
 
 * '''ISO 9660''': es un sistema de archivos para medios ópticos (CD, DVD).
 
+Los '''inode''' son estructuras de datos de sistemas tipo UNIX que describen objetos del sistema de ficheros, como ficheros o directorios. Almacenan atributos y las localizaciones de los bloques donde están los datos del objeto. Los atributos y metadatos suelen ser el nombre, la última modificación, el propietario, los permisos de uso y tamaño.
+
 === Algoritmos ===
 
 Un '''algoritmo''' es un conjunto de instrucciones bien definidas, ordenadas y finitas, que permiten realizar una tarea mediante la ejecución de dichos pasos. A partir de un estado inicial y con unos datos de entrada, siguiendo las instrucciones, se llega al estado final obteniendo el resultado.
@@ -319,15 +331,18 @@ La '''complejidad de un algoritmo''' determina su dificultad y la cantidad de re
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Algoritmos de '''ordenación''':
 
-* '''Burbuja / Bubblesort''': consiste en revisar cada elemento con el siguiente, intercambiándolos si es necesario. ¿N-1 pasadas?
+* '''Burbuja / Bubblesort''': consiste en revisar cada elemento con el siguiente, intercambiándolos si es necesario. También se conoce como el método del intercambio directo. ¿N-1 pasadas?
 
-* '''Heapsort''': 
+* '''Montículo / Heapsort''': 
+
+* '''Inserción''': se escoge el primer elemento de la lista, que es un conjunto ordenado ya que está compuesto por un solo elemento. Entonces se analiza el siguiente, colocándolo en orden dentro de la lista de los que ya están ordenados.
 
 * '''Radix sort''': 
 
-* '''Rápido / Quicksort''': 
+* '''Rápido / Quicksort''': se escoge un elemento de la lista, llamado pivote. Todos los elementos menores se colocan a su izquierda, los mayores a su derecha. Después se procede con cada sublista, en las que se repite el proceso escogiendo un pivote en cada una.
 
 * '''Stupid sort''': 
+
 
 === Formatos de ficheros ===
 
@@ -441,9 +456,12 @@ Un '''sistema operativo''' es el software principal que gestiona los recursos ha
 * '''Micronúcleo''': el software mínimo que provee de mecanismos necesarios para implementar un sistema operativo. Incluye control de memoria, hilos y comunicación entre procesos a '''bajo nivel'''.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
-Gestores de arranque:
-* '''LILO''': 
-* '''GRUB''': 
+Un '''gestor de arranque''' es un programa que permite escoger entre varios sistemas operativos o definir opciones de arranque.
+
+* '''LILO''': LInux LOader, muy usado hasta hace unos años en sistemas Linux.
+* '''GRUB''': permite escoger entre varios sistemas y núcleos de Linux. Ha reemplazado a LILO, y GRUB 2 a su vez a GRUB 1 (Legacy).
+
+La '''paginación de memoria''' divide a los programas y la memoria disponible en páginas del mismo tamaño. De esa forma cada programa ocupa N páginas de memoria, desperdiciando solamente el resto de la última página (fragmentación interna). No provoca fragmentación externa.
 
 === Android ===
 
@@ -531,7 +549,7 @@ Opciones de '''programas comunes''':
 
 * '''nano''': ^O (guardar), ^W (buscar), ^X (salir)
 
-Otros editores de texto son, por consola (Pico), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
+Otros editores de texto son, por consola (Pico, Joe), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 Uso de '''comandos básicos''':
@@ -638,15 +656,17 @@ Un ODBMS extiende los lenguajes con datos persistentes de forma transparente, co
 
 Las bases de datos orientadas a objetos se diseñan para trabajar bien en conjunción con lenguajes de programación orientados a objetos como Java, C#, Visual Basic.NET y C++. Los ODBMS usan exactamente el mismo modelo que estos lenguajes de programación.
 
+Destacan Zope.
+
 === NoSQL ===
 
 Los '''sistemas NoSQL''' no emplean el lenguaje SQL como lenguaje principal de consultas.
 
-Entre las aplicaciones más populares encontramos MongoDB, MemcacheDB, Redis, CouchDB, Hazelcast, Apache Cassandra y HBase, todas ellas de código abierto.
+Entre los sistemas NoSQL más populares encontramos MongoDB, MemcacheDB, Redis, CouchDB, Hazelcast, Apache Cassandra y HBase, todas ellas de código abierto.
 
 Las '''Bases de Datos XML''' forman un subconjunto de las Bases de Datos NoSQL. Todas ellas usan el formato de almacenamiento XML, que está abierto, legible por humanos y máquinas y ampliamente usado para interoperabilidad.
 
-En esta categoría encontramos: BaseX, eXist, MarkLogic Server, MonetDB/XQuery, Sedna.
+En esta categoría tenemos BaseX, eXist, MarkLogic Server, MonetDB/XQuery, Sedna.
 
 == Fuentes ==
 

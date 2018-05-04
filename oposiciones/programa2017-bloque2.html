@@ -159,9 +159,13 @@
 <p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
 </div>
 
-<p>Algoritmos de planificación:</p>
+<p>Los <b>algoritmos de planificación</b> son aquellos que gestionan qué procesos se ejecutarán en el procesador en cada momento y en qué orden, evitando que un proceso monopolice el uso del procesador.</p>
 
-<ul><li>Round Robin:</li><li>Selfish Round Robin:</li></ul>
+<p>Los tres estados posibles de un proceso son: listo, bloqueado y en ejecución.</p>
+
+<p><b>Algoritmos</b> de <b>planificación</b>:</p>
+
+<ul><li><b>FIFO o FCFS</b>: First In, First Out o First Come, First Served. Es el más sencillo, simplemente se encolan los procesos por orden de llegada y el primero en llegar es ejecutado. Cuando éste termina, se procede con el siguiente de la cola.</li><li><b>Round Robin</b>: utiliza time-slices o quatums, que son intervalos de tiempo asignados a cada proceso. Si un proceso agota su tiempo, se ejecuta el siguiente, y el proceso queda a la espera en cola para usar su próximo quantum.</li><ul><li><b>Selfish Round Robin</b>: utiliza dos colas, una para procesos nuevos y otra para procesos antiguos. Da prioridad a los antiguos sobre los nuevos.</li></ul><li><b>SJF</b>: Shortest Job First, el proceso más corto es el que se ejecuta primero. Tiene el problema que los procesos largos pueden quedarse indefinidamente en cola si siguen llegando procesos cortos.</li><li><b>SRTF</b>: Short Remaining Time First, el proceso que le quede menos tiempo por ejecutar, entrará al procesador. Es decir, si mientras se ejecuta un proceso, otro proceso que se quedó a medias (bloqueado) ya está listo para continuar, le quitará el sitio al proceso actual.</li></ul>
 
 <h3 id="Componentes internos">Componentes internos</h3>
 
@@ -323,6 +327,8 @@
 
 <ul><li><b>FAT</b>: diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).</li><li><b>NTFS</b>: diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.</li><li><b>EXT</b>: sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología <i>journaling</i> que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.</li><li><b>JFS</b>: creado en 1991 por IBM, cuenta con journaling.</li><li><b>XFS</b>: creado en 1993 por Silicon Graphics, cuenta con journaling.</li><li><b>ZFS</b>: creado en 1995 por Oracle.</li><li><b>ReiserFS</b>: creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.</li><li><b>HFS Plus</b>: desarrollado por Apple.</li><li><b>ISO 9660</b>: es un sistema de archivos para medios ópticos (CD, DVD).</li></ul>
 
+<p>Los <b>inode</b> son estructuras de datos de sistemas tipo UNIX que describen objetos del sistema de ficheros, como ficheros o directorios. Almacenan atributos y las localizaciones de los bloques donde están los datos del objeto. Los atributos y metadatos suelen ser el nombre, la última modificación, el propietario, los permisos de uso y tamaño.</p>
+
 <h3 id="Algoritmos">Algoritmos</h3>
 
 <p>Un <b>algoritmo</b> es un conjunto de instrucciones bien definidas, ordenadas y finitas, que permiten realizar una tarea mediante la ejecución de dichos pasos. A partir de un estado inicial y con unos datos de entrada, siguiendo las instrucciones, se llega al estado final obteniendo el resultado.</p>
@@ -340,7 +346,8 @@
 
 <p>Algoritmos de <b>ordenación</b>:</p>
 
-<ul><li><b>Burbuja / Bubblesort</b>: consiste en revisar cada elemento con el siguiente, intercambiándolos si es necesario. ¿N-1 pasadas?</li><li><b>Heapsort</b>: </li><li><b>Radix sort</b>: </li><li><b>Rápido / Quicksort</b>: </li><li><b>Stupid sort</b>: </li></ul>
+<ul><li><b>Burbuja / Bubblesort</b>: consiste en revisar cada elemento con el siguiente, intercambiándolos si es necesario. También se conoce como el método del intercambio directo. ¿N-1 pasadas?</li><li><b>Montículo / Heapsort</b>: </li><li><b>Inserción</b>: se escoge el primer elemento de la lista, que es un conjunto ordenado ya que está compuesto por un solo elemento. Entonces se analiza el siguiente, colocándolo en orden dentro de la lista de los que ya están ordenados.</li><li><b>Radix sort</b>: </li><li><b>Rápido / Quicksort</b>: se escoge un elemento de la lista, llamado pivote. Todos los elementos menores se colocan a su izquierda, los mayores a su derecha. Después se procede con cada sublista, en las que se repite el proceso escogiendo un pivote en cada una.</li><li><b>Stupid sort</b>: </li></ul>
+
 
 <h3 id="Formatos de ficheros">Formatos de ficheros</h3>
 
@@ -392,8 +399,11 @@
 <p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
 </div>
 
-<p>Gestores de arranque:</p>
-<ul><li><b>LILO</b>: </li><li><b>GRUB</b>: </li></ul>
+<p>Un <b>gestor de arranque</b> es un programa que permite escoger entre varios sistemas operativos o definir opciones de arranque.</p>
+
+<ul><li><b>LILO</b>: LInux LOader, muy usado hasta hace unos años en sistemas Linux.</li><li><b>GRUB</b>: permite escoger entre varios sistemas y núcleos de Linux. Ha reemplazado a LILO, y GRUB 2 a su vez a GRUB 1 (Legacy).</li></ul>
+
+<p>La <b>paginación de memoria</b> divide a los programas y la memoria disponible en páginas del mismo tamaño. De esa forma cada programa ocupa N páginas de memoria, desperdiciando solamente el resto de la última página (fragmentación interna). No provoca fragmentación externa.</p>
 
 <h3 id="Android">Android</h3>
 
@@ -433,7 +443,7 @@
 
 <ul><li><b>vi(m)</b>: x (borrar carácter), dd (borrar línea), u (deshace la última acción), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)</li><li><b>emacs</b>: C-x C-s (guardar)</li><li><b>nano</b>: ^O (guardar), ^W (buscar), ^X (salir)</li></ul>
 
-<p>Otros editores de texto son, por consola (Pico), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).</p>
+<p>Otros editores de texto son, por consola (Pico, Joe), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)  </b></p>
@@ -490,15 +500,17 @@
 
 <p>Las bases de datos orientadas a objetos se diseñan para trabajar bien en conjunción con lenguajes de programación orientados a objetos como Java, C#, Visual Basic.NET y C++. Los ODBMS usan exactamente el mismo modelo que estos lenguajes de programación.</p>
 
+<p>Destacan Zope.</p>
+
 <h3 id="NoSQL">NoSQL</h3>
 
 <p>Los <b>sistemas NoSQL</b> no emplean el lenguaje SQL como lenguaje principal de consultas.</p>
 
-<p>Entre las aplicaciones más populares encontramos MongoDB, MemcacheDB, Redis, CouchDB, Hazelcast, Apache Cassandra y HBase, todas ellas de código abierto.</p>
+<p>Entre los sistemas NoSQL más populares encontramos MongoDB, MemcacheDB, Redis, CouchDB, Hazelcast, Apache Cassandra y HBase, todas ellas de código abierto.</p>
 
 <p>Las <b>Bases de Datos XML</b> forman un subconjunto de las Bases de Datos NoSQL. Todas ellas usan el formato de almacenamiento XML, que está abierto, legible por humanos y máquinas y ampliamente usado para interoperabilidad.</p>
 
-<p>En esta categoría encontramos: BaseX, eXist, MarkLogic Server, MonetDB/XQuery, Sedna.</p>
+<p>En esta categoría tenemos BaseX, eXist, MarkLogic Server, MonetDB/XQuery, Sedna.</p>
 
 <h2 id="Fuentes">Fuentes</h2>
 
@@ -530,7 +542,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-04 12:59:16 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-04 17:35:38 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
