@@ -7,6 +7,15 @@ El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2
 
 {{recuadro|1='''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.}}
 
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+Un '''bit''' es la unidad básica de información que se utiliza en informática. Puede tener dos valores (dos estados), representados como 0 y 1.
+
+Un '''byte son 8 bits''', llamado también octeto. Un '''nibble son 4 bits''', un cuarteto y tiene utiliza en el sistema hexadecimal (0 a F, 16 valores, 2^4).
+
+Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).
+
+Cuando la '''B''' es mayúscula se refiere a Byte (octeto, 8 bits), cuando la '''b''' es minúscula se refiere a bit. De modo que 8 Gbit/s son 1 GB/s.
+
 === Sistemas numéricos ===
 {{cayo-en-convocatoria|1=2016 (IL)}}
 
@@ -66,8 +75,8 @@ Para convertir un número '''hexadecimal a decimal''', igualmente pero con base 
 
 Según la '''estructura''':
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
-* '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (con registros del procesador) y una unidad de control (con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanismos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus. La unidad de control indica qué operación ejecutar en cada momento.
+{{cayo-en-convocatoria|1=2016 (IL)|1=2015 (IL)}}
+* '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (ALU, con registros del procesador, acepta operandos) y una unidad de control (UC, con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanismos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus. La unidad de control indica qué operación ejecutar en cada momento.
 
 * '''Arquitectura Harvard''': cuentan con conjunto de direcciones y buses separados para instrucciones y datos.
 
@@ -88,10 +97,17 @@ Según el número de '''núcleos''':
 
 * '''Varios núcleos''': cuenta con varias unidades de procesamiento que leen y ejecutan instrucciones a la vez, aumentando la velocidad de aquellos programas que estén adaptados al procesamiento en paralelo.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Algoritmos de planificación:
+
+* Round Robin:
+* Selfish Round Robin:
+
 === Componentes internos ===
 
 Los '''componentes internos''' básicos de un ordenador son:
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 * '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.
 ** '''Discos SSD''': SSD es el acrónimo de Solid State Drive, disco de estado sólido. Son discos más rápidos que los discos mecánicos clásicos y su coste es superior.
 
@@ -123,6 +139,7 @@ Los '''puertos''' son interfaces entre un ordenador y otros ordenadores o perif�
 {{cayo-en-convocatoria|1=2016 (IL)}}
 Un '''periférico''' es un dispositivo que se conecta a un ordenador a través de un puerto y que realiza alguna tarea. A grandes rasgos, puede haber '''periféricos de entrada''' (teclado, ratón, micrófono, escáner, lector de huellas) y '''periféricos de salida''' (pantalla, altavoz, impresora).
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Tipos de '''USB''':
 
 * '''USB 1.0''': Desde 1.5 Mbit/s hasta 12 Mbit/s.
@@ -132,6 +149,7 @@ Tipos de '''USB''':
 
 El conector plano USB es el estándar A. El estándar B es el cuadrado. Ambos tienen 4 pines (voltaje, data-, data+ y tierra).
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Otros puertos:
 
 * '''eSATA''': External SATA.
@@ -143,7 +161,9 @@ Otros puertos:
 * '''PS/2''': conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).
 * '''Puerto paralelo''': envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.
 * '''Puerto serie''': permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.
+* '''Thunderbolt''': creado por Intel y Appel. Thunderbolt 1 hasta 10 Gbit/s, Thunderbolt 2 hasta 20 Gbits/s, Thunderbolt 3 hasta 40 Gbit/s.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Tipos de '''teclado''':
 
 * '''QWERTY''': Es la distribución de teclado más común.
@@ -187,12 +207,12 @@ Tipos de '''interfaces''':
 * '''SATA 2.0''': 3 Gbit/s (300 MB/s) SATA-300.
 * '''SATA 3.0''': 6 Gbit/s (600 MB/s) SATA-600.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 Tipos de '''RAID''':
 
 * '''RAID 0''': Los datos se distribuyen entre dos o más discos, '''sin información de paridad''', redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.
 
-* '''RAID 1''': Consiste en la '''copia exacta''' (mirror) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.
+* '''RAID 1''': Consiste en la '''copia exacta''' (mirror, espejo) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.
 
 * '''RAID 2''': Reparte los datos a '''nivel de bits''' en vez de bloques. No tiene redundacia pero sí "paridad" con Hamming code. Se utiliza muy poco.
 
@@ -225,10 +245,11 @@ Tipos de '''RAID''':
 
 === Elementos de digitalización ===
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Los '''escáneres''' pueden ser:
 
 * '''De mano''': se mueven a mano sobre el sujeto a escanear. Hay dos tipos: de documentos y 3D.
-* '''De tambor''': 
+* '''De tambor''': son grandes, con alta calidad de digitalización (hasta 4000 ppp) y profesionales.
 * '''De cama plana''': los más comunes.
 
 == Tema 3: Tipos abstractos y Estructuras de datos ==
@@ -243,8 +264,8 @@ Los '''escáneres''' pueden ser:
 
 * '''Lista''': secuencia de elementos que siguen un orden.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
-* '''Árbol''': estructura jerárquica y dinámica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Los árboles se pueden recorrer en profundidad y en anchura (amplitud). Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+* '''Árbol''': estructura jerárquica y dinámica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Los árboles se pueden recorrer en profundidad y en anchura (amplitud). El '''grado''' de un árbol es el máximo grado (número de hijos) de los nodos del árbol. Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
 ** '''Nodo externo''': Cuando un nodo no apunta a ningún hijo.
 ** '''Nivel''': Se comienza en el nivel 0 (nodo raiz).
 ** '''Altura''': Número de niveles + 1. Un árbol con nivel 0, 1 y 2, tiene altura 3.
@@ -257,9 +278,13 @@ Los '''escáneres''' pueden ser:
 
 * '''Grafo''': conjunto de nodos conectados, puede haber grafos dirigidos (vértices con orientación) y grafos no dirigidos (vértices sin orientación).
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
+* '''Diccionario''': colección de pares clave-valor, las claves solo pueden aparecer una vez.
+
 * '''Tablas de dispersión''': relaciona unas claves con sus valores. La búsqueda es muy rápida, recuperando los valores indicando su clave. También se conocen como matriz asociativa o tabla hash.
 
 === Sistemas de ficheros ===
+{{cayo-en-convocatoria|1=2015 (IL)}}
 
 Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.
 
@@ -281,9 +306,6 @@ Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los dis
 
 * '''ISO 9660''': es un sistema de archivos para medios ópticos (CD, DVD).
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
-Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).
-
 === Algoritmos ===
 
 Un '''algoritmo''' es un conjunto de instrucciones bien definidas, ordenadas y finitas, que permiten realizar una tarea mediante la ejecución de dichos pasos. A partir de un estado inicial y con unos datos de entrada, siguiendo las instrucciones, se llega al estado final obteniendo el resultado.
@@ -294,13 +316,22 @@ La '''complejidad de un algoritmo''' determina su dificultad y la cantidad de re
 * '''Caso promedio''': los datos de inicio no presentan ningún caso especial, es el ejemplo medio.
 * '''Mejor caso''': los datos de inicio suponen el caso más sencillo de resolver.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Algoritmos de '''ordenación''':
 
 * '''Burbuja / Bubblesort''': consiste en revisar cada elemento con el siguiente, intercambiándolos si es necesario. ¿N-1 pasadas?
 
-* '''Rápido / Quicksort''':  
+* '''Heapsort''': 
+
+* '''Radix sort''': 
+
+* '''Rápido / Quicksort''': 
+
+* '''Stupid sort''': 
 
 === Formatos de ficheros ===
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
 
 ==== Windows ====
 
@@ -333,6 +364,7 @@ Extensiones más frecuentes:
 * '''MPG/MPEG''': video en formato Moving Picture Experts Group
 * '''MSI''': Windows Installer Package
 * '''PDF''': Portable Document Format
+* '''PFX''': Claves de certificados
 * '''PNG''': Portable Network Graphic
 * '''PPS/PPT''': PowerPoint Slide Show
 * '''PUB''': Publisher Document
@@ -353,10 +385,9 @@ Extensiones más frecuentes:
 * '''WMV''': Windows Media Video File
 * '''XLS''': hoja de cálculo Excel
 * '''XLSX''': Microsoft Excel Open XML Spreadsheet
+* '''XML''': eXtensible Markup Language
 * '''ZIP''': fichero comprimido
-
 {{div col end}}
-
 
 ==== Linux ====
 
@@ -367,6 +398,7 @@ Extensiones más frecuentes:
 * '''BZ2''': Compresión con BZIP2
 * '''C''': Código en C
 * '''CPP''': Código en C++
+* '''CSV''': Comma Separated Values
 * '''DEB''': Paquetes Debian
 * '''DIFF''': Diferencia entre 2 ficheros
 * '''ELF''': Binario
@@ -407,6 +439,11 @@ Un '''sistema operativo''' es el software principal que gestiona los recursos ha
 * '''Núcleo monolítico''': arquitectura de sistema operativo donde éste trabaja en espacio del núcleo, estando él solo en modo supervisor. Provee una interfaz de '''alto nivel''' para el hardware. Ejemplos: Unix, Linux, DOS, Windows 9x, FreeDOS.
 
 * '''Micronúcleo''': el software mínimo que provee de mecanismos necesarios para implementar un sistema operativo. Incluye control de memoria, hilos y comunicación entre procesos a '''bajo nivel'''.
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Gestores de arranque:
+* '''LILO''': 
+* '''GRUB''': 
 
 === Android ===
 
