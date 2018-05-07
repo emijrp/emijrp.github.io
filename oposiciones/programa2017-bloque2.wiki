@@ -656,13 +656,19 @@ Un ODBMS extiende los lenguajes con datos persistentes de forma transparente, co
 
 Las bases de datos orientadas a objetos se diseñan para trabajar bien en conjunción con lenguajes de programación orientados a objetos como Java, C#, Visual Basic.NET y C++. Los ODBMS usan exactamente el mismo modelo que estos lenguajes de programación.
 
-Destacan Zope.
+Destacan ConceptBase, Db4o, GemStone, ObjectDatabase, ObjectStore, OpenLink Virtuoso, Perst, Zope.
 
 === NoSQL ===
 
 Los '''sistemas NoSQL''' no emplean el lenguaje SQL como lenguaje principal de consultas.
 
-Entre los sistemas NoSQL más populares encontramos MongoDB, MemcacheDB, Redis, CouchDB, Hazelcast, Apache Cassandra y HBase, todas ellas de código abierto.
+Entre los sistemas NoSQL más populares encontramos según el modelo de datos:
+
+* '''Columna''': Accumulo, Apache Cassandra, Druid, HBase, Vertica
+* '''Documento''': Apache CouchDB, ArangoDV, BaseX, Clusterpoint, CouchBase, Cosmos DB, IBM Domino, MarkLogic, MongoDB, OrientDB, Qizx, RethinkDB
+* '''Key-value''': Aerospike, Apache Ignite, ArangoDB, CouchBase, Dynamo, c-treeACE, FoundationDB, HazelCast, InfinityDB, MemcacheDB, MUMPS, Oracle NoSQL Database, OrientDB, Redis, Riak, Berkeley DB, dbm, ZooKeeper
+* '''Grafo''': AllegroGraph, ArangoDB, InfiniteGraph, Apache Giraph, MarkLogic, Neo4J, OrientDB, Virtuoso
+* '''Multimodelo''': Apache Ignite, ArangoDB, CouchBase, FoundationDB, InfinityDB, MarkLogic, OrientDB, Cosmos DB
 
 Las '''Bases de Datos XML''' forman un subconjunto de las Bases de Datos NoSQL. Todas ellas usan el formato de almacenamiento XML, que está abierto, legible por humanos y máquinas y ampliamente usado para interoperabilidad.
 

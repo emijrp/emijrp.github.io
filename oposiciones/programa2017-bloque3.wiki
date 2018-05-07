@@ -282,6 +282,7 @@ Algunos '''conceptos fundamentales''' de la POO:
 * '''Atributo''': propiedad o dato asociado a un objeto.
 * '''Método''': procedimiento asociado a un objeto.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 '''Características''' de la POO:
 
 * '''Abstracción''': expresa las características básicas de un objeto, lo que le diferencia de otros, permitiendo crear una clase con esas características compartidas.
@@ -338,7 +339,7 @@ El '''Lenguaje Unificado de Modelado''' (UML) es un lenguaje de propósito gener
 
 === Patrones de diseño ===
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 
 Los '''patrones de diseño''' son técnicas para resolver problemas típicos durante el desarrollo de software.
 
@@ -349,6 +350,8 @@ Los '''patrones de diseño''' son técnicas para resolver problemas típicos dur
 ** '''Object Pool''': se obtienen objetos nuevos clonando otros.
 
 ** '''Singleton''': se restringe a uno el número de objetos que se pueden crear de una clase.
+
+** '''Modelo vista controlador (MVC)''': separa los datos, la lógica de negocio y su representación. El modelo es la representación de la información, el controlador responde a los eventos y la vista muestra un formato adecuado para interactuar.
 
 * '''Estructurales''': solucionan problemas de composición (agregación) de clases y objetos:
 
@@ -505,6 +508,41 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 * '''\?''': interrogación
 {{div col end}}
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
+'''Biblioteca estándar''' de C:
+{{div col 2}}
+* '''assert.h''': detección de errores lógicos al debuguear
+* '''complex.h''': operaciones con números complejos
+* '''ctype.h''': clasificación de caracteres
+* '''errno.h''': códigos de error
+* '''fenv.h''': entorno de coma flotante
+* '''float.h''': macros de coma flotante
+* '''inttypes.h''': enteros de ancho exacto
+* '''iso646.h''': conjunto de caracteres iso 646
+* '''limits.h''': macros de números enteros
+* '''locale.h''': localización (idioma)
+* '''math.h''': funciones matemáticas
+* '''setjmp.h''':
+* '''signal.h''': funciones para señales
+* '''stdalign.h''': 
+* '''stdatomic.h''': 
+* '''stdbool.h''': define el tipo booleano
+* '''stddef.h''': tipos y macros útiles
+* '''stdint.h''': enteros de ancho exacto
+* '''stdio.h''': funciones de entrada y salida
+* '''stdlib.h''': conversiones numéricas, números pseudo-aleatorios, reserva de memoria, procesos
+* '''stdnoreturn.h''': 
+* '''string.h''': operaciones con cadenas
+* '''tgmath.h''': funciones matemáticas
+* '''threads.h''': manejo de hilos
+* '''time.h''': funciones de fecha y hora
+* '''uchar.h''': unicode
+* '''wchar.h''': cadenas de ancho largo
+* '''wctype.h''': conversión de cadenas
+{{div col end}}
+
+La biblioteca no estándar '''conio.h''' es para operaciones de entrada y salida.
+
 === C++ ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
@@ -588,10 +626,10 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 {{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
 
 === Cliente/servidor ===
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 En la '''arquitectura cliente-servidor''' las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
 
-En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos.
+En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos. Se conoce como '''arquitectura en tres capas''', siendo más escalable y modificable.
 
 === Servicios web ===
 
@@ -686,8 +724,8 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 ** '''NOSCRIPT''':
 ** '''PRE''': texto con preformateado.
 ** '''SCRIPT''': para incrustar código script en el documento.
-
-** '''A''': para enlaces, ya sea dentro de propio sitio web o hacia otros sitios web. El atributo HREF indica la dirección de destino.
+{{cayo-en-convocatoria|1=2015 (IL)}}
+** '''A''': para enlaces, ya sea dentro de propio sitio web o hacia otros sitios web. El atributo HREF indica la dirección de destino. El atributo TARGET permite abrir el enlace en varios sitios (_blank = nueva ventana/pestaña, _self = mismo frame (defecto), _parent = frame padre, _top = body, framename = frame indicado).
 ** '''B''': negritas. También STRONG.
 ** '''I''': cursivas. También EM para enfasis.
 ** '''S''': tachado. También STRIKE o DEL.
@@ -946,6 +984,10 @@ Para el '''nivel AAA''' son '''23 criterios''':
 * Prevención de errores (todos)
 {{div col end}}
 
+=== Software ===
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Entre las herramientas para comprobar la accesibilidad están Achecker, SortSite y Wave.
+
 == Tema 10: Herramientas CASE ==
 
 {{recuadro|1='''Herramientas CASE''': características. Repositorios: estructura y actualización. Generación de código y documentación. Programas para control de versiones. Plataformas de desarrollo colaborativo de software.}}
@@ -975,6 +1017,7 @@ Los sistemas de control de versiones pueden ser:
 * '''Distribuidos''': cada usuario tiene una copia del repositorio y suele existir uno donde se sincronizan los cambios entre usuarios. Ejemplo: Mercurial y Git.
 * '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar central. Ejemplo: CVS y Subversion.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Algunas de estas '''herramientas''' son:
 
 * '''Bazaar''': creado en 2007, patrocinado por Canonical.
@@ -984,6 +1027,7 @@ Algunas de estas '''herramientas''' son:
 * '''Git''': creado en 2005 por Linus Torvalds, con licencia GPL. Es de arquitectura distribuida. Se utiliza para el núcleo Linux.
 * '''Mercurial''': creado en 2005 con licencia GPL. Es de arquitectura distribuida.
 * '''Subversion''': o SVN, creado en 2000 y tiene licencia Apache. Es de arquitectura centralizada.
+* '''Visual SourceSafe''': de Microsoft.
 
 Algunos '''conceptos''' frecuentes:
 
