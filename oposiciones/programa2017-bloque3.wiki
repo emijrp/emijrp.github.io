@@ -18,6 +18,7 @@ Los elementos básicos de un diagrama entidad-relación son las entidades, las r
 
 * '''Atributos''': son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el '''dominio''' (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos '''identificativos''' son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 * '''Relación''': describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de '''grado''' dos. El número de instancias de cada entidad que intervienen en la relación es la '''cardinalidad'''. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.
 
 ** '''Dependencia por existencia''': los ejemplares de entidades débiles no pueden existir sin el ejemplar de entidad fuerte.
@@ -28,9 +29,10 @@ Los elementos básicos de un diagrama entidad-relación son las entidades, las r
 [[File:dfd.png|thumb|right|200px|Componentes de los DFD.]]
 Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del flujo de datos y los cambios que sufre en un sistema de información, desde que entra al sistema hasta que sale. Existen distintos niveles de abstracción y detalle.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 '''Componentes''' de los DFD:
 
-* '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo unas entradas y unas salidas.
+* '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).
 
 * '''Almacenes''': información almacenada en un punto del sistema en algún momento.
 
@@ -38,7 +40,7 @@ Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del fl
 
 * '''Flujo de datos''': camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.
 
-Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de consulta), Proceso -> Almacén (flujo de actualización), Proceso <-> Almacén (flujo de diálogo).
+Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de '''consulta'''), Proceso -> Almacén (flujo de '''actualización'''), Proceso <-> Almacén (flujo de '''diálogo''').
 
 Los '''niveles de un DFD''' son:
 {{cayo-en-convocatoria|1=2016 (IL)}}
@@ -64,7 +66,7 @@ Los '''niveles de un DFD''' son:
 Si una base de datos no está normalizada se pueden producir inconsistencias en los datos además de redundancias.
 
 === 12 reglas de Codd ===
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 
 En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el modelo relacional de bases de datos.
 
@@ -167,21 +169,46 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 
 {{recuadro|1='''Lenguajes de interrogación de bases de datos'''. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores.}}
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 Las '''transacciones''' de un sistema de gestión de bases de datos deben cumplir la regla '''ACID''':
 
 * '''Atomicidad''': cuando una operación se compone de varios pasos, se ejecutarán todos o ninguno.
 
 * '''Consistencia''': solo se empieza aquello que se va a acabar.
 
-* '''Aislamiento''' (Isolation): una operación no afecta a otras.
+* '''Aislamiento''' ('''I'''solation): una operación no afecta a otras.
 
 * '''Durabilidad''': una vez realizada la operación, no será deshecha ni ante un error del sistema.
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Los '''niveles de abstracción''' de base de datos son:
+
+* '''Nivel interno''': describe el modelo físico de como se almacena la base de datos en ficheros, su estructura y como se accede a ellos.
+
+* '''Nivel conceptural''': describe las entidades, relaciones y operaciones de usuarios.
+
+* '''Nivel externo''': describe las vistas de usuario, lo que unos usuarios ven y otros no.
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+En el '''álgebra relacional''' las operaciones son:
+* '''Básicas o fundamentales''':
+** '''Selección''': selecciona un subconjunto de tuplas de una relación que cumplan la condición.
+** '''Proyección''': extrae columnas (atributos) de una relación, un subconjunto vertical de la relación.
+** '''Producto cartesiano''': 
+** '''Unión''': las tuplas que están en ambas relaciones.
+** '''Diferencia''': las tuplas que están en una relación pero no en la otra.
+
+* '''No básicas o derivadas''': 
+** '''Intersección''': 
+** '''Unión natural''': 
+** '''División o cociente''': 
+** '''Agrupación''': 
 
 === ANSI SQL ===
 
 '''SQL''' (Structured Query Language o Lenguaje de Consulta Estructurada) es un lenguaje estandarizado con el que acceder a un sistema de gestión de bases de datos relaciones y realizar operaciones.
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
 SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''manipulación''' de datos y un lenguaje de '''control''' de datos.
 
 * '''Lenguaje de definición de datos (DDL)''': son las órdenes que permiten crear, modificar y eliminar las tablas, vistas, procedimientos, triggers y hasta las propias bases de datos.
@@ -215,11 +242,13 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 ** '''GRANT''': concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).
 ** '''REVOKE''': elimina permisos concedidos con GRANT.
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
 Cláusula '''JOIN''':
 
 * '''LEFT JOIN''': 
 * '''RIGHT JOIN''':
 * '''FULL JOIN''': 
+* '''CROSS''':
 
 Para búsquedas aproximadas con '''LIKE''' se puede usar el comodín '''%''', por ejemplo '%drid' serviría para encontrar 'Madrid'.
 
@@ -316,6 +345,10 @@ Los '''patrones de diseño''' son técnicas para resolver problemas típicos dur
 * '''Creacionales''': solucionan problemas de creación de instancias.
 
 ** '''Builder''': abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto.
+
+** '''Object Pool''': se obtienen objetos nuevos clonando otros.
+
+** '''Singleton''': se restringe a uno el número de objetos que se pueden crear de una clase.
 
 * '''Estructurales''': solucionan problemas de composición (agregación) de clases y objetos:
 

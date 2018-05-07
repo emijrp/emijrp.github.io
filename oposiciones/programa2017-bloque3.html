@@ -102,17 +102,27 @@
 
 <p>Los elementos básicos de un diagrama entidad-relación son las entidades, las relaciones y los atributos. Las entidades cuentan con atributos y ellas se relacionan entre sí.</p>
 
-<ul><li><b>Entidad</b>: representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.</li><li><b>Atributos</b>: son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el <b>dominio</b> (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos <b>identificativos</b> son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.</li><li><b>Relación</b>: describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de <b>grado</b> dos. El número de instancias de cada entidad que intervienen en la relación es la <b>cardinalidad</b>. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.</li><ul><li><b>Dependencia por existencia</b>: los ejemplares de entidades débiles no pueden existir sin el ejemplar de entidad fuerte.</li><li><b>Dependencia por identificación</b>: los ejemplares de entidades débiles se identifican con atributos propios y el identificador de la entidad de la que dependen. Toda dependencia por identificación es una dependencia por existencia.</li></ul></ul>
+<ul><li><b>Entidad</b>: representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.</li><li><b>Atributos</b>: son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el <b>dominio</b> (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos <b>identificativos</b> son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
+</div>
+
+<ul><li><b>Relación</b>: describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de <b>grado</b> dos. El número de instancias de cada entidad que intervienen en la relación es la <b>cardinalidad</b>. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.</li><ul><li><b>Dependencia por existencia</b>: los ejemplares de entidades débiles no pueden existir sin el ejemplar de entidad fuerte.</li><li><b>Dependencia por identificación</b>: los ejemplares de entidades débiles se identifican con atributos propios y el identificador de la entidad de la que dependen. Toda dependencia por identificación es una dependencia por existencia.</li></ul></ul>
 
 <h3 id="Diagramas de flujo de datos">Diagramas de flujo de datos</h3>
 <div width="200px" style="float: right;padding: 3px;"><table width="200px" style="float: right;border: 1px solid lightgrey;padding: 0px;"><tr><td><a href="../images/dfd.png"><img src="../images/thumbs/200px-dfd.png" width="200px" align="right" alt="Componentes de los DFD." title="Componentes de los DFD." /></a></td></tr><tr><td style="font-size: 90%;">Componentes de los DFD.</td></tr></table></div>
 <p>Un <b>Diagrama de Flujo de Datos</b> (DFD) es una representación gráfica del flujo de datos y los cambios que sufre en un sistema de información, desde que entra al sistema hasta que sale. Existen distintos niveles de abstracción y detalle.</p>
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
+</div>
+
 <p><b>Componentes</b> de los DFD:</p>
 
-<ul><li><b>Procesos</b>: son las funciones que realizan operaciones sobre los datos, teniendo unas entradas y unas salidas.</li><li><b>Almacenes</b>: información almacenada en un punto del sistema en algún momento.</li><li><b>Agentes externos</b>: las entidades que interactúan con el sistema.</li><li><b>Flujo de datos</b>: camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.</li></ul>
+<ul><li><b>Procesos</b>: son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).</li><li><b>Almacenes</b>: información almacenada en un punto del sistema en algún momento.</li><li><b>Agentes externos</b>: las entidades que interactúan con el sistema.</li><li><b>Flujo de datos</b>: camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.</li></ul>
 
-<p>Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de consulta), Proceso -> Almacén (flujo de actualización), Proceso <-> Almacén (flujo de diálogo).</p>
+<p>Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de <b>consulta</b>), Proceso -> Almacén (flujo de <b>actualización</b>), Proceso <-> Almacén (flujo de <b>diálogo</b>).</p>
 
 <p>Los <b>niveles de un DFD</b> son:</p>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
@@ -142,7 +152,7 @@
 
 <h3 id="12 reglas de Codd">12 reglas de Codd</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)  </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL) </b></p>
 </div>
 
 
@@ -187,24 +197,47 @@
 
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)  </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL) </b></p>
 </div>
 
 <p>Las <b>transacciones</b> de un sistema de gestión de bases de datos deben cumplir la regla <b>ACID</b>:</p>
 
-<ul><li><b>Atomicidad</b>: cuando una operación se compone de varios pasos, se ejecutarán todos o ninguno.</li><li><b>Consistencia</b>: solo se empieza aquello que se va a acabar.</li><li><b>Aislamiento</b> (Isolation): una operación no afecta a otras.</li><li><b>Durabilidad</b>: una vez realizada la operación, no será deshecha ni ante un error del sistema.</li></ul>
+<ul><li><b>Atomicidad</b>: cuando una operación se compone de varios pasos, se ejecutarán todos o ninguno.</li><li><b>Consistencia</b>: solo se empieza aquello que se va a acabar.</li><li><b>Aislamiento</b> (<b>I</b>solation): una operación no afecta a otras.</li><li><b>Durabilidad</b>: una vez realizada la operación, no será deshecha ni ante un error del sistema.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
+</div>
+
+<p>Los <b>niveles de abstracción</b> de base de datos son:</p>
+
+<ul><li><b>Nivel interno</b>: describe el modelo físico de como se almacena la base de datos en ficheros, su estructura y como se accede a ellos.</li><li><b>Nivel conceptural</b>: describe las entidades, relaciones y operaciones de usuarios.</li><li><b>Nivel externo</b>: describe las vistas de usuario, lo que unos usuarios ven y otros no.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
+</div>
+
+<p>En el <b>álgebra relacional</b> las operaciones son:</p>
+<ul><li><b>Básicas o fundamentales</b>:</li><ul><li><b>Selección</b>: selecciona un subconjunto de tuplas de una relación que cumplan la condición.</li><li><b>Proyección</b>: extrae columnas (atributos) de una relación, un subconjunto vertical de la relación.</li><li><b>Producto cartesiano</b>: </li><li><b>Unión</b>: las tuplas que están en ambas relaciones.</li><li><b>Diferencia</b>: las tuplas que están en una relación pero no en la otra.</li></ul><li><b>No básicas o derivadas</b>: </li><ul><li><b>Intersección</b>: </li><li><b>Unión natural</b>: </li><li><b>División o cociente</b>: </li><li><b>Agrupación</b>: </li></ul></ul>
 
 <h3 id="ANSI SQL">ANSI SQL</h3>
 
 <p><b>SQL</b> (Structured Query Language o Lenguaje de Consulta Estructurada) es un lenguaje estandarizado con el que acceder a un sistema de gestión de bases de datos relaciones y realizar operaciones.</p>
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (IL)  </b></p>
+</div>
+
 <p>SQL consiste en un lenguaje de <b>definición</b> de datos, un lenguaje de <b>manipulación</b> de datos y un lenguaje de <b>control</b> de datos.</p>
 
 <ul><li><b>Lenguaje de definición de datos (DDL)</b>: son las órdenes que permiten crear, modificar y eliminar las tablas, vistas, procedimientos, triggers y hasta las propias bases de datos.</li><ul><li><b>CREATE</b>: permite crear bases de datos, tablas, vistas y procedimientos. Ejemplo: CREATE TABLE 'CLIENTES';</li><li><b>ALTER</b>: permite modificar una tabla, quitando o agregando campos, cambio de tipos, índices, triggers. Ejemplo: ALTER TABLE 'CLIENTES' ADD EDAD INT UNSIGNED;</li><li><b>DROP</b>: permite eliminar un objeto. Ejemplo: DROP TABLE 'CLIENTES';</li><li><b>TRUNCATE</b>: vacía todo el contenido de una tabla. Ejemplo: TRUNCATE TABLE 'ALUMNOS';</li></ul><li><b>Lenguaje de manipulación de datos (DML)</b>: son las órdenes que permite consulta y modificar los datos de la base de datos.</li><ul><li><b>SELECT</b>: permite consultar los datos, y junto con otras cláusulas filtrar estos resultados, ordenarlos, etc.</li><ul><li><b>ALL/DISTINCT</b>: selección todos los valores o solo los distintos.</li><li><b>FROM</b>: determina la tabla a explorar. Pueden ser varias usando JOIN (requiere entonces usar WHERE).</li><li><b>WHERE</b>: indica las condiciones que deben cumplirse para que los datos sean devueltos. Pueden ser varias condiciones, combinadas con AND y OR.</li><li><b>GROUP BY</b>: indica el campo sobre el que se agruparán los datos.</li><li><b>HAVING</b>: condición que se aplicará a los datos devueltos, requiere GROUP BY.</li><li><b>ORDER BY</b>: ordena los resultados usando las columnas indicadas. El orden puede ser ASC o DESC. El predeterminado es ASC. Si hay varios atributos en el ORDER BY, cada uno puede llevar su ASC o DESC.</li><li>Ejemplo para recuperar todos los clientes de Madrid: SELECT nombre, dni, lugar FROM clientes WHERE lugar='Madrid' ORDER BY nombre;</li></ul><li><b>INSERT</b>: inserta un registro o varios en una tabla. El número de columnas y de valores indicados debe ser igual. Si una columna no se indica le será asignado el valor por defecto. Ejemplo: INSERT INTO 'cliente' ('nombre', 'dni', 'lugar') VALUES ('Pepe', '12345678A', 'Segovia');</li><ul><li>Si se indican todos los valores no haría falta poner los nombres de las columnas. Para el ejemplo anterior suponiendo que la tabla solo tenga esos tres campos, sería: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia');</li><li>Para insertar varios registros a la vez en la misma consulta INSERT, sería separándolos con comas: INSERT INTO 'cliente' VALUES ('Pepe', '12345678A', 'Segovia'), ('Maria', '87654321Z', 'Barcelona');</li></ul><li><b>UPDATE</b>: permite modificar los valores de una tabla. Ejemplo para modificar el lugar de Pepe: UPDATE clientes SET lugar='Madrid' WHERE nombre='Pepe';</li><li><b>DELETE</b>: elimina un registro o varios. No confundir con DROP que elimina la tabla entera. Ejemplo: DELETE FROM clientes WHERE dni='12345678A';</li></ul><li><b>Lenguaje de control de datos (DCL)</b>: permite controlar el acceso a los datos.</li><ul><li><b>GRANT</b>: concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).</li><li><b>REVOKE</b>: elimina permisos concedidos con GRANT.</li></ul></ul>
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (IL)  </b></p>
+</div>
+
 <p>Cláusula <b>JOIN</b>:</p>
 
-<ul><li><b>LEFT JOIN</b>: </li><li><b>RIGHT JOIN</b>:</li><li><b>FULL JOIN</b>: </li></ul>
+<ul><li><b>LEFT JOIN</b>: </li><li><b>RIGHT JOIN</b>:</li><li><b>FULL JOIN</b>: </li><li><b>CROSS</b>:</li></ul>
 
 <p>Para búsquedas aproximadas con <b>LIKE</b> se puede usar el comodín <b>%</b>, por ejemplo '%drid' serviría para encontrar 'Madrid'.</p>
 
@@ -260,7 +293,7 @@
 
 <p>Los <b>patrones de diseño</b> son técnicas para resolver problemas típicos durante el desarrollo de software.</p>
 
-<ul><li><b>Creacionales</b>: solucionan problemas de creación de instancias.</li><ul><li><b>Builder</b>: abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto.</li></ul><li><b>Estructurales</b>: solucionan problemas de composición (agregación) de clases y objetos:</li><ul><li><b>Adaptador</b>: transforma una interfaz en otra, de tal modo que una clase que no pueda utilizar la primera haga uso de ella a través de la segunda.</li><li><b>Bridge</b>: separa una abstracción de su implementación para que ambas puedan ser modificadas por separado sin alterar la otra.</li><li><b>Composite</b>: construye objetos complejos a partir de otros más simples, a través de la composición recursiva y a una estructura en forma de árbol.</li><li><b>Fachada</b>: reduce la complejidad con la división en subsistemas, minimizando las comunicaciones y dependencias entre ellos.</li><li><b>Proxy</b>: patrón estructural que proporciona un intermediario de un objeto para controlar su acceso.</li></ul><li><b>Comportamiento</b>: ofrecen soluciones respecto a la interacción y responsabilidades entre clases y objetos, así como los algoritmos que encapsulan.</li><ul><li><b>Command</b>: permite solicitar una operación a un objeto sin conocer el contenido de la operación ni el receptor de la misma.</li><li><b>Intérprete</b>: dado un lenguaje, define una gramática para dicho lenguaje, así como las herramientas necesarias para interpretarlo.</li><li><b>Iterator</b>: permite realizar recorridos sobre objetos compuestos independientemente de la implementación de estos.</li><li><b>Memento</b>: permite volver a estados anteriores del sistema.</li></ul></ul>
+<ul><li><b>Creacionales</b>: solucionan problemas de creación de instancias.</li><ul><li><b>Builder</b>: abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto.</li><li><b>Object Pool</b>: se obtienen objetos nuevos clonando otros.</li><li><b>Singleton</b>: se restringe a uno el número de objetos que se pueden crear de una clase.</li></ul><li><b>Estructurales</b>: solucionan problemas de composición (agregación) de clases y objetos:</li><ul><li><b>Adaptador</b>: transforma una interfaz en otra, de tal modo que una clase que no pueda utilizar la primera haga uso de ella a través de la segunda.</li><li><b>Bridge</b>: separa una abstracción de su implementación para que ambas puedan ser modificadas por separado sin alterar la otra.</li><li><b>Composite</b>: construye objetos complejos a partir de otros más simples, a través de la composición recursiva y a una estructura en forma de árbol.</li><li><b>Fachada</b>: reduce la complejidad con la división en subsistemas, minimizando las comunicaciones y dependencias entre ellos.</li><li><b>Proxy</b>: patrón estructural que proporciona un intermediario de un objeto para controlar su acceso.</li></ul><li><b>Comportamiento</b>: ofrecen soluciones respecto a la interacción y responsabilidades entre clases y objetos, así como los algoritmos que encapsulan.</li><ul><li><b>Command</b>: permite solicitar una operación a un objeto sin conocer el contenido de la operación ni el receptor de la misma.</li><li><b>Intérprete</b>: dado un lenguaje, define una gramática para dicho lenguaje, así como las herramientas necesarias para interpretarlo.</li><li><b>Iterator</b>: permite realizar recorridos sobre objetos compuestos independientemente de la implementación de estos.</li><li><b>Memento</b>: permite volver a estados anteriores del sistema.</li></ul></ul>
 
 <h2 id="Tema 6: Arquitectura Java EE y plataforma .NET">Tema 6: Arquitectura Java EE y plataforma .NET</h2>
 
@@ -553,7 +586,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-01 10:28:16 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-07 11:15:01 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
