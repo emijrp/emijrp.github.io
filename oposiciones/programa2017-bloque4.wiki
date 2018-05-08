@@ -17,6 +17,12 @@ En este tema son útiles los '''apuntes de otros bloques''':
 * Herramientas testeo, optimización
 * Synaptic , apt-get ,e tc?
 * Recuperación de errores, backup
+* SNMP
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+'''Windows PowerShell''' es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama '''cmdlet'''.
+
+entre las tareas básicas que permite está el encendido y apagado de servicios, modificación de registros del sistema, monitorización.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados apt-get (utiliza dpkg), YUM (utiliza RPM), y las interfaces gráficas como Synaptic, Apper, GNOME Software, Octopi.
@@ -30,7 +36,15 @@ La '''Gestión de Configuración de Software''' (SCM, Software Configuration Man
 
 Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.
 
+=== Niveles TIA 942 ===
 
+{{cayo-en-convocatoria|1=2015 (IL)}}
+El '''estándar TIA 942''' del Uptime Institute establece 4 categorías para los datacenters, centros de datos o CPD.<ref>[http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/ Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942]</ref>
+
+* '''TIER 1''': centro de datos básico sin redundancias en suministro eléctrico o climatización.
+* '''TIER 2''': centro de datos redundante en cuanto a climatización y suministro eléctrico.
+* '''TIER 3''': centro de datos concurrentemente mantenible, redundancia en todos los equipamientos básicos, doble fuente en servidores, sin paradas por mantenimiento básico.
+* '''TIER 4''': centro de datos tolerante a fallos, la más exigente.
 
 {{clear}}
 
@@ -40,14 +54,18 @@ Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicaci
 
 === Correo electrónico ===
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 * '''IMAP''': protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.
 
 * '''POP3''': protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas.
+** '''Comandos POP3''': USER, PASS, STAT, RETR, DELE, LIST, NOOP, TOP, UIDL, QUIT.
 
 * '''SMTP''': protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.
+** '''Comandos SMTP''': HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.
 
 === Microsoft Exchange ===
+
+Database Availability Group
 
 Exchange ActiveSync
 
@@ -62,10 +80,10 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 === Administración de redes ===
 
-* '''ifconfig''': permite establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down) y habilitarlo (ifconfig wlan0/eth0 up).
+* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down) y habilitarlo (ifconfig wlan0/eth0 up).
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
-* '''ipconfig''': internet protocol configuration, aplicación para Windows que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+* '''ipconfig''': internet protocol configuration, aplicación para '''Windows''' que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * '''nslookup''': name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.
@@ -200,13 +218,18 @@ La '''criptografía de curva elíptica''' es una variante de la criptografía as
 
 La '''criptografía híbrida''' utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.
 
+==== Funciones hash ====
+
+* '''MD5''': produce un hash de 128 bits (16 bytes), 32 caracteres hexadecimales.
+* '''SHA-1''': produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.
+
 == Tema 5: Comunicaciones ==
 
 {{recuadro|1='''Comunicaciones'''. Medios de transmisión. Modos de comunicación. Equipos terminales y equipos de interconexión y conmutación.}}
 
 En toda '''comunicación''' se requiere de un emisor, un mensaje, un medio y un receptor.
 
-La comunicación se lleva a cabo con una capa física y una capa lógica. La '''capa física''' son los dispositivos y equipos como las tarjetas de red, cables, switchs, routers, etc. La ''capa lógica''' es el software, los protocolos de red, etc.
+La comunicación se lleva a cabo con una capa física y una capa lógica. La '''capa física''' son los dispositivos y equipos como las tarjetas de red, cables, switchs, routers, etc. La '''capa lógica''' es el software, los protocolos de red, etc.
 
 Dispositivos de la capa física:
 
@@ -219,6 +242,19 @@ Dispositivos de la capa física:
 * '''Punto de acceso inalámbrico o WAP''': interconecta dispositivos de red inalámbricos (tarjetas de red, dispositivos móviles). Normalmente también tienen entradas cableadas.
 
 Control de acceso al medio
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Cableado estructurado de par trenzado:
+* '''Categoría 1''': para telefonía, no adecuado para datos. Tasa: 512 Kbit/s.
+* '''Categoría 2'''': hasta 4Mbit/s.
+* '''Categoría 3'''': redes 10BaseT, hasta 10 Mbit/s.
+* '''Categoría 4'''': redes token ring, hasta 16 Mbit/s.
+* '''Categoría 5'''': hasta 100 Mbit/s.
+* '''Categoría 6'''': hasta 1 Gbit/s. 250 Mhz.
+* '''Categoría 6A'''': hasta 10 Gbit/s. 500 Mhz.
+* '''Categoría 7'''':  hasta 10 Gbit/s, 600 Mhz.
+* '''Categoría 7A'''':  hasta 10 Gbit/s, 1000 Mhz.
+* '''Categoría 8'''':  hasta 40 Gbit/s, 2000 Mhz.
 
 == Tema 6: Redes ==
 
@@ -271,7 +307,7 @@ Control de acceso al medio:
 * CSMA
 * 
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 '''Estándares IEEE 802''':
 
 * '''IEEE 802.1''':
@@ -280,7 +316,7 @@ Control de acceso al medio:
 * '''IEEE 802.11''': Wireless LAN (WLAN)
 ** '''IEEE 802.11b''': Hasta 11 Mbit/s
 ** '''IEEE 802.11g''': Hasta 54 Mbit/s. 2.4 Ghz.
-** '''IEEE 802.11n''': De 54 a 6000 Mbit/s
+** '''IEEE 802.11n''': De 54 a 600 Mbit/s
 ** '''IEEE 802.11ac''': Hasta 433 Mbit/s, canales más anchos
 ** '''IEEE 802.11ad''': Hasta 7 Gbit/s
 ** '''IEEE 802.11ah''': WiFi HaLow
@@ -288,10 +324,10 @@ Control de acceso al medio:
 ** '''IEEE 802.15.1''': Bluetooth
 * '''IEEE 802.16''': WiMAX
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 La '''máscara de red''' es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.
 
-En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts posibles en toda subred es N-2.
+En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts disponibles en toda subred es N-2.
 
 Ejemplos de máscaras de red:
 * 11111111.11111111.11111111.11111111 = 255.255.255.255 = 0 hosts
@@ -371,6 +407,8 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 {{recuadro|1=Internet: arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS y SSL/TLS.}}
 
 Ipv4 ipv6 (pregunta b4.32 y 37, 39)
+{{cayo-en-convocatoria|1=2015 (IL)}}
+IPv4 tiene ips de 32 bits y IPv6 de 128 bits.
 
 '''Códigos de estado HTTP''':
 {{div col 3}}
@@ -406,6 +444,25 @@ Un '''servidor proxy''' es un servidor que actua de intermediario entre las peti
 Tipos de '''proxy''':
 * '''Proxy abierto''': son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.
 * '''Proxy transparente''': no requiere configuración por parte del cliente.
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Tipos de '''registros DNS''':
+* '''A''': servidores a ipv4
+* '''AAAA''': direcciones ipv6 a host
+* '''CNAME''': canonical name (múltiples servicios en la misma ip: ftp.dominio.com, www.dominio.com)
+* '''MX''': correo electrónico
+* '''NS''': servidor de nombres
+* '''PTR''': registro inverso, ips a dominio
+* '''SOA''': DNS primario
+* '''ANY''': toda la información que exista
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Registro Regional de Internet:
+* '''ARIN''': Estados Unidos y Canadá
+* '''RIPE NCC''':  Europa, Oriente Medio y Asia Central
+* '''APNIC''': Asia y Pacífico
+* '''LACNIC''': Latinoamérica y Caribe
+* '''AfriNIC''': África
 
 == Tema 9: Seguridad y protección ==
 

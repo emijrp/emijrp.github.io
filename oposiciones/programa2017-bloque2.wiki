@@ -584,7 +584,7 @@ Resumen de '''comandos''' y su función:
 * '''fg''': trae a primer plano trabajos ocultados a segundo plano anteriormente con Ctrl+Z
 * '''grep''': ejecuta expresiones regulares sobre texto o ficheros
 * '''head''': muestra el inicio de un fichero. Opuesto a tail.
-* '''htop''': muestra procesos (más visual)
+* '''htop''': muestra procesos (más visual que top)
 * '''ln''': crea un enlace a un fichero
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
@@ -607,7 +607,7 @@ Resumen de '''comandos''' y su función:
 * '''shutdown''': apaga el sistema
 * '''tail''': muestra el final de un fichero. Opuesto a head
 * '''time''': calcula el tiempo de ejecución de un comando
-* '''top''': muestra procesos
+* '''top''': muestra procesos (htop es más visual)
 * '''touch''': crea un fichero o modifica su fecha si ya existe
 * '''umount''': desmonta un sistema de ficheros
 * '''uniq''': elimina duplicados de una lista
