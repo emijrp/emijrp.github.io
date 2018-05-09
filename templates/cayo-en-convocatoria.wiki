@@ -1,3 +1,3 @@
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-Pregunta relacionada en convocatoria '''{{{1}}} {{{2|}}} {{{3|}}}'''
+Pregunta relacionada en convocatoria '''{{{1}}} {{{2|}}} {{{3|}}} {{{4|}}}'''
 </div>

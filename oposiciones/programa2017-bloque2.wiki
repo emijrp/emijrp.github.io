@@ -7,7 +7,7 @@ El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2
 
 {{recuadro|1='''Informática básica'''. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. '''Arquitectura de ordenadores'''. Componentes internos de los equipos microinformáticos.}}
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 Un '''bit''' es la unidad básica de información que se utiliza en informática. Puede tener dos valores (dos estados), representados como 0 y 1.
 
 Un '''byte son 8 bits''', llamado también octeto. Un '''nibble son 4 bits''', un cuarteto y tiene utiliza en el sistema hexadecimal (0 a F, 16 valores, 2^4).
@@ -75,7 +75,7 @@ Para convertir un número '''hexadecimal a decimal''', igualmente pero con base 
 
 Según la '''estructura''':
 
-{{cayo-en-convocatoria|1=2016 (IL)|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 * '''Arquitectura von Neumann''': consta de una unidad central de proceso (CPU), compuesta de una Unidad Aritmético Lógica (ALU, con registros del procesador, acepta operandos) y una unidad de control (UC, con registros de instrucciones y contador de programa). Además de memoria para almacenar datos e instrucciones y mecanismos de entrada y salida. No pueden darse a la vez una búsqueda de instrucciones y una operación de datos ya que comparten el mismo bus. La unidad de control indica qué operación ejecutar en cada momento.
 
 * '''Arquitectura Harvard''': cuentan con conjunto de direcciones y buses separados para instrucciones y datos.
@@ -129,7 +129,7 @@ Los '''componentes internos''' básicos de un ordenador son:
 
 * '''Tarjeta de expansión''': tarjeta que realiza una tarea específica y que se conecta en una ranura determinada, generalmente a ranuras PCI (Peripheral Component Interconnect). Antiguamente eran ranuras ISA. También hay ranuras más veloces como la PCI-Express. Una placa base que tenga integrada una gráfica, puede perfectamente aceptar una tarjeta gráfica que mejore las capacidades integradas de la placa.
 
-** '''Tarjeta gráfica''': tarjeta de expansión enfocada a procesar los datos referentes a operaciones gráficas, principalmente aquellos destinados a ser visualizados en el monitor. La unidad de procesamiento gráfico se conoce como GPU. Funcionalidades extra de estas tarjetas son la captura de vídeo, sintonización de televisión, etc. Algunas tarjetas soportan más de un monitor a través de varios puertos.
+** '''Tarjeta gráfica''': tarjeta de expansión enfocada a procesar los datos referentes a operaciones gráficas, principalmente aquellos destinados a ser visualizados en el monitor. La unidad de procesamiento gráfico se conoce como GPU. Funcionalidades extra de estas tarjetas son la captura de vídeo, sintonización de televisión, etc. Algunas tarjetas soportan más de un monitor a través de varios puertos. Una '''tarjeta gráfica discreta''' es aquella que se inserta en la placa base, a diferencia de las que son '''integradas''' y van soldadas a la placa.
 
 ** '''Tarjeta de sonido''': dispone de puertos de entrada y salida para audio, generalmente jacks para altavoces/auriculares, micrófono y otros.
 
@@ -159,7 +159,7 @@ Tipos de '''USB''':
 
 El conector plano USB es el estándar A. El estándar B es el cuadrado. Ambos tienen 4 pines (voltaje, data-, data+ y tierra).
 
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (PI)|2=2015 (IL)}}
 Otros puertos:
 
 * '''eSATA''': External SATA.
@@ -274,7 +274,7 @@ Los '''escáneres''' pueden ser:
 
 * '''Lista''': secuencia de elementos que siguen un orden.
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 * '''Árbol''': estructura jerárquica y dinámica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Los árboles se pueden recorrer en profundidad y en anchura (amplitud). El '''grado''' de un árbol es el máximo grado (número de hijos) de los nodos del árbol. Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
 ** '''Nodo externo''': Cuando un nodo no apunta a ningún hijo.
 ** '''Nivel''': Se comienza en el nivel 0 (nodo raiz).
@@ -298,7 +298,7 @@ Los '''escáneres''' pueden ser:
 
 Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.
 
-* '''FAT''': diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives).
+* '''FAT''': diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives). También existe el '''exFAT''' para memorias flash, cuando el NTFS no es apropiado.
 
 * '''NTFS''': diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.
 
@@ -345,6 +345,16 @@ Algoritmos de '''ordenación''':
 
 
 === Formatos de ficheros ===
+
+{{cayo-en-convocatoria|1=2016 (PI)}}
+Formatos de '''imágenes''':
+* '''JPG''': compresión con pérdida aplicando la transformación discreta de coseno.
+* '''PNG''': compresión sin pérdida para bitmaps, resuelve limitaciones de GIF.
+
+Formatos de '''gráficos vectoriales''':
+* '''SVG''': gráficos vectoriales bidimensionales, estáticos o animados, en formato XML.
+* '''WMF''': Windows MetaFile, de Microsoft.
+* '''SWF''': de Macromedia Flash, animaciones vectoriales.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 
@@ -463,6 +473,9 @@ Un '''gestor de arranque''' es un programa que permite escoger entre varios sist
 
 La '''paginación de memoria''' divide a los programas y la memoria disponible en páginas del mismo tamaño. De esa forma cada programa ocupa N páginas de memoria, desperdiciando solamente el resto de la última página (fragmentación interna). No provoca fragmentación externa.
 
+{{cayo-en-convocatoria|1=2016 (PI)}}
+La '''hiperpaginación''' provoca la caida del rendimiento del sistema, ya que hay demasiados intercambios de página entre la memoria y el disco.
+
 === Android ===
 
 '''Versiones''' de Android:
@@ -551,10 +564,11 @@ Opciones de '''programas comunes''':
 
 Otros editores de texto son, por consola (Pico, Joe), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 Uso de '''comandos básicos''':
 
 * '''chmod''': cambiar permisos sobre ficheros o directorios. Lectura (r) = 4, Escritura (w) = 2, Ejecución (x) = 1, Todo = 7, Ninguno = 0. El orden es usuarios (u), grupo (g) y otros (o). chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file
+** El bit sticky permite renombrar o borrar solo al propietario o root, aunque los demás tengan permiso de escritura.
 * '''ln''': 
 * '''rm''': -r
 
@@ -585,7 +599,7 @@ Resumen de '''comandos''' y su función:
 * '''grep''': ejecuta expresiones regulares sobre texto o ficheros
 * '''head''': muestra el inicio de un fichero. Opuesto a tail.
 * '''htop''': muestra procesos (más visual que top)
-* '''ln''': crea un enlace a un fichero
+* '''ln''': crea un enlace duro a un fichero (-s enlace simbólico)
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
 * '''lsmod''': muestra los módulos del kernel
@@ -624,6 +638,15 @@ El comando '''compgen -c''' muestra un listado con todos los comandos (y sus ali
 === Microsoft Windows ===
 
 * [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
+
+'''Comandos básicos''' de Windows:
+* '''chkdsk''': comprobación de errores en el disco duro
+* '''defrg''': desfragmentador de disco
+* '''format''': formateo de disco
+* '''ipconfig''': configuración de redes
+* '''msconfig''': configuración de arranca, programas al inicio
+* '''netstat''': comprobación y analisis de redes y conexiones
+* '''systeminfo''': información del sistema
 
 == Tema 5: Bases de datos ==
 

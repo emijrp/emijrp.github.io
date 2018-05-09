@@ -303,6 +303,8 @@ Según el Título I. De los derechos y deberes fundamentales de la Constitución
 * Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas
 * [https://boe.es/buscar/doc.php?id=BOE-A-2013-12887 Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno] (31 páginas)
 
+El portal de transparencia es [http://transparencia.gob.es transparencia.gob.es].
+
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * El Consejo de Transparencia y Buen Gobierno: funciones (Título III de la Ley de transparencia)
 
@@ -375,10 +377,10 @@ Un '''reglamento''' ...
 
 # La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 La '''validez del DNI''' es la siguiente:
 * Dos años, cuando el solicitante no haya cumplido los cinco años de edad.
 * Cinco años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta.
@@ -392,6 +394,41 @@ Los certificados del DNI electrónico tienen validez de hasta 5 años.
 {{recuadro|1='''Tema 9.''' La '''protección de datos''' personales. Régimen jurídico. El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.}}
 
 # La '''protección de datos''' personales. Régimen jurídico.<ref>[https://www.boe.es/buscar/doc.php?id=BOE-A-1999-23750 Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal] (12 páginas)</ref><ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2008-979 Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal] (53 páginas)</ref> El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos.<ref>[https://www.boe.es/diario_boe/txt.php?id=DOUE-L-2016-80807 Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)] (88 páginas)</ref> Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.
+
+=== Agencia de Protección de Datos ===
+
+{{cayo-en-convocatoria|1=2016 (PI)}}
+La '''Agencia de Protección de Datos''' es un ente de derecho público, con personalidad jurídica propia y plena capacidad pública y privada, que actúa con plena independencia de las Administraciones públicas en el ejercicio de sus funciones.
+
+El Director de la Agencia de Protección de Datos dirige la Agencia y ostenta su representación. Será nombrado, de entre quienes componen el Consejo Consultivo, mediante Real Decreto, por un '''período de cuatro años'''.
+ 
+[https://www.agpd.es/portalwebAGPD/canalresponsable/inscripcion_ficheros/preguntas_frecuentes/glosario/index-ides-idphp.php Glosario de términos (AGPD)]:
+{{div col 2}}
+* Dato de carácter personal
+* Persona identificable
+* Tratamiento de datos
+* Fichero
+* Responsable del fichero o del tratamiento
+* Encargado del tratamiento
+* Afectado o interesado
+* Tercero
+* Consentimiento del interesado
+* Cancelación
+* Cesión o comunicación de datos
+{{div col end}}
+
+Algunas '''funciones''' de la Agencia de Protección de Datos:
+* Velar por el cumplimiento de la legislación sobre protección de datos y controlar su aplicación, en especial en lo relativo a los derechos de información, acceso, rectificación, oposición y cancelación de datos.
+* Atender las peticiones y reclamaciones formuladas por las personas afectadas.
+* Ejercer la potestad sancionadora en los términos previstos por el Título VII de la ley.
+* Redactar una memoria anual y remitirla al Ministerio de Justicia.
+
+'''Sanciones''' de la Agencia de Protección de Datos:
+* Los responsables de los ficheros y los encargados de los tratamientos estarán sujetos al régimen sancionador
+* Las infracciones se calificarán como leves, graves o muy graves
+* Las infracciones '''leves''' serán sancionadas con multa de '''900 a 40.000 euros'''.
+* Las infracciones '''graves''' serán sancionadas con multa de '''40.001 a 300.000 euros'''.
+* Las infracciones '''muy graves''' serán sancionadas con multa de '''300.001 a 600.000 euros'''.
 
 == Tema 10 ==
 
@@ -433,6 +470,9 @@ Los certificados del DNI electrónico tienen validez de hasta 5 años.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 El '''Punto de Acceso General''' (PAG) es [https://sede.administracion.gob.es https://sede.administracion.gob.es].
+
+{{cayo-en-convocatoria|1=2016 (PI)}}
+La finalidad de '''SICRES 3.0''' es normalizar el intercambio de asientos y documentos electrónicos entre oficinas de registro presenciales o electrónicos.
 
 == Fuentes ==
 
