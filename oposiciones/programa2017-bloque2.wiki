@@ -17,11 +17,11 @@ Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (T
 Cuando la '''B''' es mayúscula se refiere a Byte (octeto, 8 bits), cuando la '''b''' es minúscula se refiere a bit. De modo que 8 Gbit/s son 1 GB/s.
 
 === Sistemas numéricos ===
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 
 * '''Binario''': base 2, solamente se utilizan el 0 y el 1.
 * '''Octal''': base 8, se utilizan del 0 al 7.
-* '''Decimal''': base 10, se utlizan del 0 al 9.
+* '''Decimal''': base 10, se utilizan del 0 al 9.
 * '''Hexadecimal''': base 16, se utilizan del 0 al 9 y de la A a la F.
 
 ==== Conversión de decimal a otros sistemas ====

@@ -12,12 +12,18 @@ En este tema son útiles los '''apuntes de otros bloques''':
 * '''Bloque II, Tema 4: Sistemas operativos'''.
 * La parte de '''control de versiones''' del '''Bloque III, Tema 10: Herramientas CASE'''.
 
+{{cayo-en-convocatoria|1=2016 (PI)}}
+Un '''administrador de sistemas''' es aquella persona que configura, mantiene, documenta y monitoriza un sistema informático. Debe garantizar que el sistema permanezca en funcionamiento el mayor tiempo posible, el rendimiento sea apropiado y sea seguro.
+
+Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación y desinstalación de software, actualizaciones, copias de seguridad, etc.
+
 === Actualización, mantenimiento y reparación ===
 
 * Herramientas testeo, optimización
 * Synaptic , apt-get ,e tc?
 * Recuperación de errores, backup
 * SNMP
+* Puppet: herramienta de administración de configuración 
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 '''Windows PowerShell''' es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama '''cmdlet'''.
@@ -70,7 +76,7 @@ Database Availability Group
 Exchange ActiveSync
 
 === Spam ===
-
+{{cayo-en-convocatoria|1=2016 (IP)}}
 El '''Sender Policy Framework''' (SPF) es una protección contra la falsificación de direcciones y el spam en el envío de correo electrónico. Identifica a través de DNS a los servidores de correo SMTP autorizados para el envío de mensajes.
 
 
@@ -117,7 +123,7 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 {{recuadro|1=Conceptos de '''seguridad de los sistemas''' de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 '''Conceptos''' relacionados con la '''seguridad''':
 
 * '''Antivirus''': aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.
@@ -128,6 +134,8 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 * '''Firewall''': software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.
 * '''Gusano''': software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.
 * '''Honeypot''': sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.
+* '''IP Splicing-Hijacking''': el atacante intercepta una sesión ya establecida.
+* '''Man in the middle''': el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.
 * '''Pharming''': ciberataque que redirige un sitio web a otro falso.
 * '''Phishing''': intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.
 * '''Puerta trasera''': característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc.
@@ -262,7 +270,10 @@ Cableado estructurado de par trenzado:
 
 Una '''red de difusión''' (broadcast) es aquella en la que cualquier ordenador puede transmitir directamente a cualquier otro sin precisar ningún dispositivo de encaminamiento dado que comparte la misma subred, dirección de puerta de enlace y están de la misma red de área local (LAN) o VLAN. Todos los ordenadores conectados al mismo switch son miembros del mismo dominio de difusión (broadcast domain). Los routers separan distintos dominios de difusión.
 
+{{cayo-en-convocatoria|1=2016 (PI)}}
 En una '''red conmutada''' la comunicación se establece de extremo a extremo a través de un conjunto de nodos.
+* '''Conmutación de circuitos''': tiene tres fases, establecimiento del circuito, transferencia de datos y desconexión. El establecimiento de llamada es obligatorio. Los paquetes llegan en orden.
+* '''Conmutación de paquetes''': No hay establecimiento de llamada. Los paquetes no tienen porque llegar en orden.
 
 '''Clasificación''' de redes:
 
@@ -281,7 +292,7 @@ En una '''red conmutada''' la comunicación se establece de extremo a extremo a 
 
 * '''Cable coaxial''': transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.
 {{cayo-en-convocatoria|1=2016 (IL)}}
-* La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser monomodo (un solo haz, larga distancia) y multimodo (varios haces, poca distancia).
+* La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser '''monomodo''' (un solo haz, larga distancia) y '''multimodo''' (varios haces, poca distancia). Conectores ST y SC. Técnicas de transmisión CWDM y DWDM.
 
 ''Topologías''' de red:
 
@@ -307,7 +318,7 @@ Control de acceso al medio:
 * CSMA
 * 
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 '''Estándares IEEE 802''':
 
 * '''IEEE 802.1''':
@@ -320,11 +331,13 @@ Control de acceso al medio:
 ** '''IEEE 802.11ac''': Hasta 433 Mbit/s, canales más anchos
 ** '''IEEE 802.11ad''': Hasta 7 Gbit/s
 ** '''IEEE 802.11ah''': WiFi HaLow
+** '''IEEE 802.11p''': Wireless Access in Vehicular Environments (WAVE)
 * '''IEEE 802.15''': Wireless PAN (WPAN)
 ** '''IEEE 802.15.1''': Bluetooth
+** '''IEEE 802.15.7''': Visible Light Communication (VLC)
 * '''IEEE 802.16''': WiMAX
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 La '''máscara de red''' es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.
 
 En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts disponibles en toda subred es N-2.
@@ -334,6 +347,10 @@ Ejemplos de máscaras de red:
 * '''Clase C''': 11111111.11111111.11111111.00000000 = 255.255.255.0 = 2^8 - 2 = 254 hosts
 * '''Clase B''': 11111111.11111111.00000000.00000000 = 255.255.0.0 = 2^16 - 2 = 65534 hosts
 * '''Clase A''': 11111111.00000000.00000000.00000000 = 255.0.0.0 = 2^24 - 2 = 16777214 hosts
+
+Para saber la dirección de red de una IP y una máscara de red dadas:
+* Pasar la máscara a binario para saber cuántos 1 hay a la izquierda. El resto de la derecha son hosts.
+* Pasar la IP a binario, para saber los dígitos que corresponden a la máscara. Poniendo los dígitos de host a cero, sale la IP de la red.
 
 == Tema 7: Modelo TCP/IP ==
 
@@ -407,8 +424,18 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 {{recuadro|1=Internet: arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS y SSL/TLS.}}
 
 Ipv4 ipv6 (pregunta b4.32 y 37, 39)
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (PI)|2=2015 (IL)}}
 IPv4 tiene ips de 32 bits y IPv6 de 128 bits.
+
+* '''::/128''': ausencia de dirección
+* '''::1/128''': loopback
+* '''::1.2.3.4/96''': ipv4 compatible
+* '''::ffff:0:0/96''': ipv4 mapeada
+* '''fe80::/10''': prefijo enlace local
+* '''fec0::''': prefijo emplazamiento local
+* '''fc00::/7''': prefijo de dirección local única
+* '''ff00::/8''': prefijo de multicast
+
 
 '''Códigos de estado HTTP''':
 {{div col 3}}
@@ -463,6 +490,9 @@ Registro Regional de Internet:
 * '''APNIC''': Asia y Pacífico
 * '''LACNIC''': Latinoamérica y Caribe
 * '''AfriNIC''': África
+
+{{cayo-en-convocatoria|1=2016 (PI)}}
+El servidor de hora española es hora.roa.es.
 
 == Tema 9: Seguridad y protección ==
 

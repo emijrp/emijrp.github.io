@@ -127,7 +127,7 @@
 
 <p>Los <b>niveles de un DFD</b> son:</p>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI)  </b></p>
 </div>
 
 <ul><li><b>Nivel 0</b>: Diagrama de <b>contexto</b>. Solo incluye un proceso que engloba al sistema completo. Se indican los flujos de datos entre el sistema y los agentes externos. No se indican otros procesos ni almacenes. Es el nivel más abstracto.</li><li><b>Nivel 1</b>: Diagrama de <b>nivel superior</b>. Se indican todos los procesos que describen al proceso principal. Aquí los procesos no suelen relacionarse entre ellos, sino entre almacenamientos y agentes externos.</li><li><b>Nivel 2</b>: Diagrama de <b>detalle o expansión</b>. Se admiten relaciones entre procesos. El detalle es mayor.</li></ul>
@@ -140,7 +140,7 @@
 
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI)  </b></p>
 </div>
 
 <ul><li><b>Regla de integridad de entidad</b>: los atributos de la clave primaria no pueden ser nulos.</li><li><b>Regla de integridad referencial</b>: los atributos de las claves foráneas deben existir en la clave primaria o ser nulos.</li><li><b>Regla de integridad de dominio</b>: los valores no nulos de un atributo deben pertenecer al dominio del atributo.</li></ul>
@@ -148,12 +148,26 @@
 <h3 id="Diseño lógico y físico">Diseño lógico y físico</h3>
 
 <h3 id="Normalización">Normalización</h3>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+</div>
 
-<p>Si una base de datos no está normalizada se pueden producir inconsistencias en los datos además de redundancias.</p>
+<p>Si una base de datos no está normalizada se pueden producir inconsistencias en los datos además de redundancias. Se eliminan dependencias, proporciona una estructura más regular a las tablas.</p>
+
+<p><b>Primera Forma Normal</b> (1FN):</p>
+<ul><li>Todos los atributos son atómicos (indivisibles)</li><li>La tabla tiene una clave primaria única</li><li>La clave primaria no contiene atributos nulos</li></ul>
+
+<p><b>Segunda Forma Normal</b> (2FN):</p>
+<ul><li>La tabla está en 1FN</li><li>Ningún atributo no principal es funcionalmente dependiente de una clave candidata</li></ul>
+
+<p><b>Tercera Forma Normal</b> (3FN):</p>
+<ul><li>La tabla está en 2FN</li><li>Ningún atributo no principal depende transitivamente de una clave primaria</li></ul>
+
+<p>Existe niveles superiores a la 3FN: BCNF, 4NF, 5NF.</p>
 
 <h3 id="12 reglas de Codd">12 reglas de Codd</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL)  </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI) 2015 (IL) </b></p>
 </div>
 
 
@@ -169,6 +183,10 @@
 
 
 <h3 id="Paradigmas">Paradigmas</h3>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+</div>
 
 <p>Los <b>paradigmas de programación</b> son formas de clasificar los lenguajes de programación en base a las características de su estructura, control de flujo y elementos. Un mismo lenguaje puede pertenecer a varios paradigmas.</p>
 
@@ -188,7 +206,7 @@
 
 <p>Algunos <b>lenguajes de programación</b> y una breve reseña sobre ellos. Algunos no son estrictamente lenguajes de programación (como HTML, CSS, XML) pero se incluyen por ser de interés:</p>
 
-<ul><li><b>Ada 95</b>: lenguaje orientado a objetos y fuertemente tipado.</li><li><b>ALGOL</b>: familia de lenguajes imperativos cuya primera versión ALGOL 58 apareció en 1958. Fue el que más influyó a lenguajes posteriores en cuanto a sintaxis de entre sus contemporáneos de alto nivel (FORTRAN, Lisp y COBOL).</li><li><b>AWK</b>: lenguaje para procesado de texto y extracción de datos. Creado en Bell Labs en los años 70.</li><li><b>Batch</b>: un script batch es un fichero en texto plano que incluye comandos para ser ejecutados por el intérprete de comandos. Su extensión suele ser .bat, .cmd o .btm.</li><li><b>Bash</b>: escrito por Brian Fox para el Proyecto GNU. Primera versión en 1989.</li><li><b>BASIC</b>: familia de lenguajes de alto nivel y de propósito general con la finalidad de ser fáciles de usar. Primera versión en 1964.</li><li><b>C</b>: lenguaje imperativo de propósito general, estructurado y con capacidad de recursión, de tipado estático. Desarrollado por Dennis Ritchie en los Laboratorios Bell entre 1969 y 1972. Proviene del lenguaje B.</li><li><b>C++</b>: imperativo, orientado a objetos, de propósito general. Creado por Bjarne Stroustrup en 1985.</li><li><b>C#</b>: lenguaje multiparadigma, desarrollado por Microsoft en 2000.</li><li><b>COBOL</b>: lenguaje imperativo y procedural. Enfocado a finanzas y negocios. Creado en 1959.</li><li><b>CSS</b>: lenguaje de hojas de estilo para describir cómo se presenta un documento escrito en un lenguaje de marcado. Aunque en su mayoría se utiliza para el diseño de páginas web HTML/XHTML, también sirve para documentos XML, SVG y XUL.</li><li><b>Eiffel</b>: lenguaje orientado a objetos, diseñado por Bertrand Meyer, publicado en 1986. Conceptos introducidos por Eiffel fueron incorporados más tarde a Java y C#.</li><li><b>Erlang</b>: lenguaje de propósito general concurrente y funcional, con recolector de basura. Diseñado en 1986 por Ericsson, liberado en 1998.</li><li><b>Ensamblador</b>: lenguaje de bajo nivel, imperativo, no estructurado. Específico de cada arquitectura de computador. El código ensamblador se convierte en ejecutable con un programa llamado a su vez ensamblador. </li><li><b>FORTRAN</b>: lenguaje de propósito general, imperativo, enfocado a computación numérica y científica. Desarrollado originalmente por IBM en los años 50. Significa Formula Translation.</li><li><b>Go</b>: lenguaje imperativo, concurrente, compilado, creado por Google en 2009.</li><li><b>Haskell</b>: lenguaje de propósito general, funcional, con tipado fuerte.</li><li><b>HTML</b>: lenguaje de marcado para crear páginas web y aplicaciones web. Junto con CSS y Javascript suponen los tres lenguajes básicos de la World Wide Web. Los navegadores web reciben los documentos HTML desde un servidor web o almacenados localmente y los renderizan. El HTML permite embeber programas escritos en Javascript o a través de applets.</li><li><b>Java</b>: lenguaje de propósito general, concurrente, orientado a objetos, diseñado para ser compilado una sola vez (bytecode) y ejecutado en cualquier plataforma que soporte la máquina Java. Empleado mayoritariamente para aplicaciones cliente-servidor. Creado por James Gosling en 1995 en Sun Microsystems (luego adquirida por Oracle). Sintaxis derivada de C y C++.</li><li><b>JavaScript</b>: lenguaje de alto nivel, interpretado, multiparadigma, de tipado débil. Se utiliza para hacer dinámicas las páginas web, aunque ahora también se utiliza para aplicaciones de escritorio, en software PDF, procesadores de texto, etc.</li><li><b>KML</b>: Keyhole Markup Language, notación XML para expresar información geográfica para ser visualizada en mapas y 3D en navegadores.</li><li><b>LaTeX</b>: lenguaje de marcado para la redacción de documentos. Creado en 1985 por Leslie Lamport. Permite definir la estructura del documento, el estilo del texto, añadir citas y referencias, etc.</li><li><b>Lisp</b>: lenguaje funcional, procedural, creado en 1958. Es el segundo lenguaje de alto nivel más antiguo, por detrás de FORTRAN. Existen varios dialectos, entre ellos Common Lisp y Scheme. Utilizado en inteligencia artificial.</li><li><b>Lua</b>: imperativo, estructurado y bastante ligero que fue diseñado como un lenguaje interpretado con una semántica extendible.</li><li><b>make</b>: lenguaje para compilar y enlazar código fuente, generando código objeto.</li><li><b>Modula</b>: descendiente de Pascal, creado por el autor de éste. Soporta módulos.</li><li><b>Occam</b>: lenguaje concurrente, imperativo.</li><li><b>Pascal</b>: lenguaje imperativo y procedural, diseñado por Niklaus Wirth y publicado en 1970. Creado para fomentar buenas prácticas de programación mediante el uso de programación estructurada y estructuras de datos. Existe el Object Pascal orientado a objetos.</li><li><b>Perl</b>: lenguaje de alto nivel, propósito general, interpretado.</li><li><b>PHP</b>: lenguaje del lado del servidor para desarrollo web y propósito general. Creado por Rasmus Lerdof en 1994. Puede embeberse dentro del HTML.</li><li><b>Prolog</b>: lenguaje lógico de propósito general, enfocado a la inteligencia artificial y lingüística computacional. Creado en los años 70 por Alain Colmerauer.</li><li><b>Python</b>: lenguaje interpretado, multiparadigma, de alto nivel y propósito general. Creado por Guido van Rossum en 1990. Con tipos dinámicos y control de memoria automático.</li><li><b>R</b>: lenguaje para estadística y gráficas. Creado en 1993.</li><li><b>Ruby</b>: lenguaje orientado a objetos, de propósito general, multiparadigma. Creado por Yukihiro Matsumoto en 1995.</li><li><b>Scala</b>: lenguaje de propósito general, funcional, diseñado para corregir algunas críticas de Java. Creado en 2004 por Martin Odersky.</li><li><b>Smalltalk</b>: lenguaje orientado a objetos, creado en parte con fines educativos por programadores de Xrox PARC en los años 70.</li><li><b>Simula</b>: lenguaje orientado a objetos creado en 1962. El primero en incluir el concepto de clase.</li><li><b>SVG</b>: Scalable Vector Graphics es un formato gráfico basado en XML con soporte para animación.</li><li><b>Vala</b>: lenguaje multiparadigma, orientado a objetos. Creado en 2006.</li><li><b>Visual Basic</b>: lenguaje dirigido por eventos, publicado en 1991 por Microsoft. Derivado de BASIC, permite crear aplicaciones con interfaz gráfica rápidamente.</li><li><b>Visual Basic .NET</b>: lenguaje orientado a objetos, multiparadigma, lanzado en 2002 por Microsoft. Sucesor de Visual Basic.</li><li><b>XML</b>: Extensible Markup Language, lenguaje de marcado para definir reglas para codificar documentos en un formato que sea entendible por humanos y máquinas.</li><li><b>XUL</b>: XML User Interface Language es un lenguage de marcas para interfaces de usuario desarrollado por Mozilla. Permite crear interfaces gráficas de usuario de forma similar a una página web.</li></ul>
+<ul><li><b>Ada 95</b>: lenguaje orientado a objetos y fuertemente tipado.</li><li><b>ALGOL</b>: familia de lenguajes imperativos cuya primera versión ALGOL 58 apareció en 1958. Fue el que más influyó a lenguajes posteriores en cuanto a sintaxis de entre sus contemporáneos de alto nivel (FORTRAN, Lisp y COBOL).</li><li><b>AWK</b>: lenguaje para procesado de texto y extracción de datos. Creado en Bell Labs en los años 70.</li><li><b>Batch</b>: un script batch es un fichero en texto plano que incluye comandos para ser ejecutados por el intérprete de comandos. Su extensión suele ser .bat, .cmd o .btm.</li><li><b>Bash</b>: escrito por Brian Fox para el Proyecto GNU. Primera versión en 1989.</li><li><b>BASIC</b>: familia de lenguajes de alto nivel y de propósito general con la finalidad de ser fáciles de usar. Primera versión en 1964.</li><li><b>C</b>: lenguaje imperativo de propósito general, estructurado y con capacidad de recursión, de tipado estático. Desarrollado por Dennis Ritchie en los Laboratorios Bell entre 1969 y 1972. Proviene del lenguaje B.</li><li><b>C++</b>: imperativo, orientado a objetos, de propósito general. Creado por Bjarne Stroustrup en 1985.</li><li><b>C#</b>: lenguaje multiparadigma, desarrollado por Microsoft en 2000.</li><li><b>COBOL</b>: lenguaje imperativo y procedural. Enfocado a finanzas y negocios. Creado en 1959.</li><li><b>CSS</b>: lenguaje de hojas de estilo para describir cómo se presenta un documento escrito en un lenguaje de marcado. Aunque en su mayoría se utiliza para el diseño de páginas web HTML/XHTML, también sirve para documentos XML, SVG y XUL.</li><li><b>Eiffel</b>: lenguaje orientado a objetos, diseñado por Bertrand Meyer, publicado en 1986. Conceptos introducidos por Eiffel fueron incorporados más tarde a Java y C#.</li><li><b>Erlang</b>: lenguaje de propósito general concurrente y funcional, con recolector de basura. Diseñado en 1986 por Ericsson, liberado en 1998.</li><li><b>Ensamblador</b>: lenguaje de bajo nivel, imperativo, no estructurado. Específico de cada arquitectura de computador. El código ensamblador se convierte en ejecutable con un programa llamado a su vez ensamblador. </li><li><b>FORTRAN</b>: lenguaje de propósito general, imperativo, enfocado a computación numérica y científica. Desarrollado originalmente por IBM en los años 50. Significa Formula Translation.</li><li><b>Go</b>: lenguaje imperativo, concurrente, compilado, creado por Google en 2009.</li><li><b>Haskell</b>: lenguaje de propósito general, funcional, con tipado fuerte.</li><li><b>HTML</b>: lenguaje de marcado para crear páginas web y aplicaciones web. Junto con CSS y Javascript suponen los tres lenguajes básicos de la World Wide Web. Los navegadores web reciben los documentos HTML desde un servidor web o almacenados localmente y los renderizan. El HTML permite embeber programas escritos en Javascript o a través de applets.</li><li><b>Java</b>: lenguaje de propósito general, concurrente, orientado a objetos, diseñado para ser compilado una sola vez (bytecode) y ejecutado en cualquier plataforma que soporte la máquina Java. Empleado mayoritariamente para aplicaciones cliente-servidor. Creado por James Gosling en 1995 en Sun Microsystems (luego adquirida por Oracle). Sintaxis derivada de C y C++.</li><li><b>JavaScript</b>: lenguaje de alto nivel, interpretado, multiparadigma, de tipado débil. Se utiliza para hacer dinámicas las páginas web, aunque ahora también se utiliza para aplicaciones de escritorio, en software PDF, procesadores de texto, etc.</li><li><b>KML</b>: Keyhole Markup Language, notación XML para expresar información geográfica para ser visualizada en mapas y 3D en navegadores. Comprimido es KMZ.</li><li><b>LaTeX</b>: lenguaje de marcado para la redacción de documentos. Creado en 1985 por Leslie Lamport. Permite definir la estructura del documento, el estilo del texto, añadir citas y referencias, etc.</li><li><b>Lisp</b>: lenguaje funcional, procedural, creado en 1958. Es el segundo lenguaje de alto nivel más antiguo, por detrás de FORTRAN. Existen varios dialectos, entre ellos Common Lisp y Scheme. Utilizado en inteligencia artificial.</li><li><b>Lua</b>: imperativo, estructurado y bastante ligero que fue diseñado como un lenguaje interpretado con una semántica extendible.</li><li><b>make</b>: lenguaje para compilar y enlazar código fuente, generando código objeto.</li><li><b>Modula</b>: descendiente de Pascal, creado por el autor de éste. Soporta módulos.</li><li><b>Occam</b>: lenguaje concurrente, imperativo.</li><li><b>Pascal</b>: lenguaje imperativo y procedural, diseñado por Niklaus Wirth y publicado en 1970. Creado para fomentar buenas prácticas de programación mediante el uso de programación estructurada y estructuras de datos. Existe el Object Pascal orientado a objetos.</li><li><b>Perl</b>: lenguaje de alto nivel, propósito general, interpretado.</li><li><b>PHP</b>: lenguaje del lado del servidor para desarrollo web y propósito general. Creado por Rasmus Lerdof en 1994. Puede embeberse dentro del HTML.</li><li><b>Prolog</b>: lenguaje lógico de propósito general, enfocado a la inteligencia artificial y lingüística computacional. Creado en los años 70 por Alain Colmerauer.</li><li><b>Python</b>: lenguaje interpretado, multiparadigma, de alto nivel y propósito general. Creado por Guido van Rossum en 1990. Con tipos dinámicos y control de memoria automático.</li><li><b>R</b>: lenguaje para estadística y gráficas. Creado en 1993.</li><li><b>Ruby</b>: lenguaje orientado a objetos, de propósito general, multiparadigma. Creado por Yukihiro Matsumoto en 1995.</li><li><b>Scala</b>: lenguaje de propósito general, funcional, diseñado para corregir algunas críticas de Java. Creado en 2004 por Martin Odersky.</li><li><b>Smalltalk</b>: lenguaje orientado a objetos, creado en parte con fines educativos por programadores de Xrox PARC en los años 70.</li><li><b>Simula</b>: lenguaje orientado a objetos creado en 1962. El primero en incluir el concepto de clase.</li><li><b>SVG</b>: Scalable Vector Graphics es un formato gráfico basado en XML con soporte para animación.</li><li><b>Vala</b>: lenguaje multiparadigma, orientado a objetos. Creado en 2006.</li><li><b>Visual Basic</b>: lenguaje dirigido por eventos, publicado en 1991 por Microsoft. Derivado de BASIC, permite crear aplicaciones con interfaz gráfica rápidamente.</li><li><b>Visual Basic .NET</b>: lenguaje orientado a objetos, multiparadigma, lanzado en 2002 por Microsoft. Sucesor de Visual Basic.</li><li><b>XML</b>: Extensible Markup Language, lenguaje de marcado para definir reglas para codificar documentos en un formato que sea entendible por humanos y máquinas.</li><li><b>XUL</b>: XML User Interface Language es un lenguage de marcas para interfaces de usuario desarrollado por Mozilla. Permite crear interfaces gráficas de usuario de forma similar a una página web.</li></ul>
 
 <h2 id="Tema 4: Lenguajes de interrogación de bases de datos">Tema 4: Lenguajes de interrogación de bases de datos</h2>
 
@@ -225,7 +243,7 @@
 <p><b>SQL</b> (Structured Query Language o Lenguaje de Consulta Estructurada) es un lenguaje estandarizado con el que acceder a un sistema de gestión de bases de datos relaciones y realizar operaciones.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI)  </b></p>
 </div>
 
 <p>SQL consiste en un lenguaje de <b>definición</b> de datos, un lenguaje de <b>manipulación</b> de datos y un lenguaje de <b>control</b> de datos.</p>
@@ -264,7 +282,11 @@
 
 <p>Una característica de los objetos es que los métodos pueden acceder a sus datos y modificarlos (this/self). En el software orientado a objetos, los objetos interactúan entre ellos.</p>
 
-<p>Los lenguajes orientados a objetos más populares están basados en clases, siendo los objetos instancias de estas clases. Lenguajes orientados a objetos son Java, C++, C#, Python, PHP, Ruby, Perl, Object Pascal, Objective-C, Dart, Swift, Scala, Common Lips y Smalltalk.</p>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+</div>
+
+<p>Los <b>lenguajes orientados a objetos</b> más populares están basados en clases, siendo los objetos instancias de estas clases. Lenguajes orientados a objetos son Java, C++, C#, Python, PHP, Ruby, Perl, Object Pascal, Objective-C, Ada 95, Eiffel, Dart, Swift, Scala, Common Lisp, Vala, Visual Basic 6.0, y Smalltalk.</p>
 
 <p>Algunos <b>conceptos fundamentales</b> de la POO:</p>
 
@@ -281,13 +303,15 @@
 <p><b>Ventajas e inconvenientes</b> de la POO:</p>
 <ul><li></li></ul>
 
-
-
 <h3 id="UML">UML</h3>
 
 <p>El <b>Lenguaje Unificado de Modelado</b> (UML) es un lenguaje de propósito general en el campo de la ingeniería del software, para proveer de un modo estándar de visualizar el diseño de sistemas. Fue creado en los años 1990.</p>
 
-<ul><li><b>Diagramas</b>:</li><ul><li><b>Estructurales</b>: muestran la estructura estática de los objetos del sistema.</li><ul><li><b>De clases</b>: es el más usado, fundamental para cualquier solución orientada a objetos. Contiene las clases, atributos y operaciones y relaciones entre clases.</li><li><b>De componentes</b>: muestran la relación estructural entre componentes de un sistema. Los componentes se comunican a través de interfaces, y estos se enlazan mediante conectores.</li><li><b>De despliegue</b>: muestra el hardware del sistema y el software de ese hardware.</li><li><b>De objetos</b>: similares a los diagramas de clases. Indican las relaciones entre objetos.</li><li><b>De paquetes</b>: indican las dependencias entre paquetes de un sistema.</li><li><b>De perfiles</b>: </li><li><b>Estructura compuesta</b>: muestran la estructura interna de una clase.</li></ul><li><b>Comportamiento</b>: muestran el comportamiento dinámico de los objetos del sistema.</li><ul><li><b>De actividades</b>: muestran los flujos de trabajo.</li><li><b>De casos de uso</b>: ofrecen una visión general de los actores del sistema, sus funciones y como interactúan.</li><li><b>De máquinas de estados</b>: </li></ul><li><b>Interacción</b>:</li><ul><li><b>Global de interacciones</b>: </li><li><b>De comunicación</b>: </li><li><b>De secuencia</b>: muestran las interacciones entre objetos y el orden en que se producen.</li><li><b>De tiempos</b>: muestran el comportamiento de los objetos en un tiempo dado.</li></ul></ul><li>Mecanismos de <b>extensibilidad</b>:</li><ul><li><b>Estereotipo</b>: extiende el vocabulario UML.</li><li><b>Restricciones</b>: extiende la semántica.</li><li><b>Valores etiquetados</b>: extiende las propiedades de un estereotipo permitiendo añadir más información.</li></ul></ul>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+</div>
+
+<ul><li><b>Diagramas</b>:</li><ul><li><b>Estructurales</b>: muestran la estructura estática de los objetos del sistema.</li><ul><li><b>De clases</b>: es el más usado, fundamental para cualquier solución orientada a objetos. Contiene las clases, atributos y operaciones y relaciones entre clases.</li><li><b>De componentes</b>: muestran la relación estructural entre componentes de un sistema. Los componentes se comunican a través de interfaces, y estos se enlazan mediante conectores.</li><li><b>De despliegue</b>: muestra el hardware del sistema y el software de ese hardware.</li><li><b>De objetos</b>: similares a los diagramas de clases. Indican las relaciones entre objetos.</li><li><b>De paquetes</b>: indican las dependencias entre paquetes de un sistema.</li><li><b>De perfiles</b>: </li><li><b>Estructura compuesta</b>: muestran la estructura interna de una clase.</li></ul><li><b>Comportamiento</b>: muestran el comportamiento dinámico de los objetos del sistema.</li><ul><li><b>De actividades</b>: muestran los flujos de trabajo.</li><li><b>De casos de uso</b>: ofrecen una visión general de los actores del sistema, sus funciones y como interactúan. No deben ser ni muy genéricos ni muy específicos.</li><li><b>De máquinas de estados</b>: </li></ul><li><b>Interacción</b>:</li><ul><li><b>Global de interacciones</b>: </li><li><b>De comunicación</b>: </li><li><b>De secuencia</b>: muestran las interacciones entre objetos y el orden en que se producen.</li><li><b>De tiempos</b>: muestran el comportamiento de los objetos en un tiempo dado.</li></ul></ul><li>Mecanismos de <b>extensibilidad</b>:</li><ul><li><b>Estereotipo</b>: extiende el vocabulario UML.</li><li><b>Restricciones</b>: extiende la semántica.</li><li><b>Valores etiquetados</b>: extiende las propiedades de un estereotipo permitiendo añadir más información.</li></ul></ul>
 
 <h3 id="Patrones de diseño">Patrones de diseño</h3>
 
@@ -417,6 +441,12 @@
 </div>
 
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+</div>
+
+<p><b>SOAP</b> es un protocolo que define cómo se deben comunicar dos objetos de diferentes procesos empleando XML. Fue desarrollado por Microsoft e IBM. Todo mensaje SOAP tiene esta estructura: envelope (obligatorio), header, body (obligatorio) y fault. El envelope envuelve el conjunto y es el raíz.</p>
+
 <h4 id="Orientada a servicios">Orientada a servicios</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
@@ -543,7 +573,7 @@
 <p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
 </div>
 
-<p>Entre las herramientas para comprobar la accesibilidad están Achecker, SortSite y Wave.</p>
+<p>Entre el <b>Software</b> para comprobar la accesibilidad están Achecker, Examinator, SortSite y Wave.</p>
 
 <h2 id="Tema 10: Herramientas CASE">Tema 10: Herramientas CASE</h2>
 
@@ -620,7 +650,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-07 17:16:38 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-10 16:22:15 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
