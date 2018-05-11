@@ -377,6 +377,12 @@ Un '''reglamento''' ...
 
 # La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
+Un dispositivo de creación de firma es seguro si:
+* Los datos para la generación de firma pueden producirse solo una vez y no pueden deducirse de los de verificación de firma o de la misma firma
+* Los datos de creación de firma pueden ser protegidos contra su utilización por terceros
+* El dispositivo no altera los datos o el documento a firmar, ni impide que sea mostrado al firmante antes de firmar
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
@@ -423,12 +429,31 @@ Algunas '''funciones''' de la Agencia de Protección de Datos:
 * Ejercer la potestad sancionadora en los términos previstos por el Título VII de la ley.
 * Redactar una memoria anual y remitirla al Ministerio de Justicia.
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
+'''Calidad de los datos''':
+* Los datos de carácter personal deberán ser tratados de forma leal y lícita. Se prohíbe la recogida de datos por medios fraudulentos, desleales o ilícitos.
+* Los datos de carácter personal sólo podrán ser recogidos para el cumplimiento de finalidades determinadas, explícitas y legítimas del responsable del tratamiento.
+* Los datos de carácter personal objeto de tratamiento no podrán usarse para finalidades incompatibles con aquellas para las que los datos hubieran sido recogidos.
+* Sólo podrán ser objeto de tratamiento los datos que sean adecuados, pertinentes y no excesivos en relación con las finalidades determinadas, explícitas y legítimas para las que se hayan obtenido.
+* Los datos de carácter personal serán exactos y puestos al día de forma que respondan con veracidad a la situación actual del afectado. Si los datos fueran recogidos directamente del afectado, se considerarán exactos los facilitados por éste.
+* Los datos de carácter personal serán cancelados cuando hayan dejado de ser necesarios o pertinentes para la finalidad para la cual hubieran sido recabados o registrados.
+* Los datos de carácter personal serán tratados de forma que permitan el ejercicio del derecho de acceso, en tanto no proceda su cancelación.
+
 '''Sanciones''' de la Agencia de Protección de Datos:
 * Los responsables de los ficheros y los encargados de los tratamientos estarán sujetos al régimen sancionador
 * Las infracciones se calificarán como leves, graves o muy graves
 * Las infracciones '''leves''' serán sancionadas con multa de '''900 a 40.000 euros'''.
 * Las infracciones '''graves''' serán sancionadas con multa de '''40.001 a 300.000 euros'''.
 * Las infracciones '''muy graves''' serán sancionadas con multa de '''300.001 a 600.000 euros'''.
+
+{{cayo-en-convocatoria|1=2015 (PI)}}
+'''Fuentes accesibles''' al público:
+* El censo promocional
+* Las guías de servicios de comunicaciones electrónicas
+* Las listas de personas pertenecientes a grupos de profesionales si contienen solo el nombre, título, profesión, actividad, grado académico, dirección profesional
+* Los diarios y boletines oficiales
+* Los medios de comunicación social
+* Aquellas cuya consulta pueda ser realizadas por cualquiera, no impedida por ninguna norma, y que en su caso solo requiera el abono de una contraprestación
 
 == Tema 10 ==
 

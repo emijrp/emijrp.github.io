@@ -117,7 +117,7 @@ Los tres estados posibles de un proceso son: listo, bloqueado y en ejecución.
 
 Los '''componentes internos''' básicos de un ordenador son:
 
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 * '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.
 ** '''Discos SSD''': SSD es el acrónimo de Solid State Drive, disco de estado sólido. Son discos más rápidos que los discos mecánicos clásicos y su coste es superior.
 
@@ -135,10 +135,13 @@ Los '''componentes internos''' básicos de un ordenador son:
 
 ** '''Tarjeta de red''': permite contectar el ordenador a una red Ethernet (lo más habitual) para compartir recursos o acceder a Internet. Algunas tarjetas de red admite WIFI.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (PI)}}
 Las '''memorias no volátiles''' no necesitan energía para mantener la información almacenada. Ejemplos: CD/DVD, cintas magnéticas, disquetes, discos duros, ROM (read-only memory) y sus variantes (ROM-CMOS), NVRAM (non-volatile RAM), etc.
 
 Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM), DRAM (dynamic RAM), RDRAM (Rambus DRAM), SDRAM, todas las DDR. Las estáticas no requieren refresco para mantener los datos en memoria mientras que las dinámicas sí.
+
+{{cayo-en-convocatoria|1=2015 (PI)}}
+La capacidad de una memoria de X palabras y cada palabra con un ancho de Y bits o bytes, se calcula multiplicando ambas cifras.
 
 == Tema 2: Periféricos ==
 
@@ -253,14 +256,20 @@ Tipos de '''RAID''':
 * Píxel
 * Resolución de pantalla
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
+
+La diferencia entre 1080p y 1080i a X Hz es que el p refresca la imagen completa en cada frame, y el i solo las líneas pares durante X/2 frames y las impares en los otros X/2 frames.
+
 === Elementos de digitalización ===
 
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 Los '''escáneres''' pueden ser:
 
 * '''De mano''': se mueven a mano sobre el sujeto a escanear. Hay dos tipos: de documentos y 3D.
 * '''De tambor''': son grandes, con alta calidad de digitalización (hasta 4000 ppp) y profesionales.
 * '''De cama plana''': los más comunes.
+
+Entre los estándares de digitalización están el Image and Scanner Interface Specification (ISIS), TWAIN y Windows Image Acquisition (WIA).
 
 == Tema 3: Tipos abstractos y Estructuras de datos ==
 
@@ -274,7 +283,7 @@ Los '''escáneres''' pueden ser:
 
 * '''Lista''': secuencia de elementos que siguen un orden.
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)|4=2015 (PI)}}
 * '''Árbol''': estructura jerárquica y dinámica con un nodo raíz y subárboles que cuelgan de dicho nodo principal u otros inferiores. Los árboles se pueden recorrer en profundidad y en anchura (amplitud). El '''grado''' de un árbol es el máximo grado (número de hijos) de los nodos del árbol. Un '''árbol binario''' es aquel cuyos nodos pueden tener un máximo de dos hijos.
 ** '''Nodo externo''': Cuando un nodo no apunta a ningún hijo.
 ** '''Nivel''': Se comienza en el nivel 0 (nodo raiz).
@@ -502,7 +511,7 @@ La '''hiperpaginación''' provoca la caida del rendimiento del sistema, ya que h
 === GNU/Linux ===
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-Una '''distribución Linux''' (distro) es un conjunto de paquetes de software, el núcleo GNU/Linux y también generalmente un sistema de ventanas, proporcionando un sistema operativo completo orientado ya sea a uso doméstico, empresarial o de servidores. A continuación un listado de distros y sus variantes.
+Una '''distribución Linux''' (distro) es un conjunto de paquetes de software, el núcleo GNU/Linux y también generalmente un sistema de ventanas, proporcionando un sistema operativo completo orientado ya sea a uso doméstico, empresarial o de servidores. A continuación un listado de distros y sus variantes.<ref>[https://en.wikipedia.org/wiki/Linux_distribution#Examples Distribuciones de Linux]</ref>
 
 * '''Debian''': una de las primeras distribuciones no comerciales. Mantenida por voluntarios con un gran compromiso con la filosofía del software libre.
 ** '''Knoppix''': primera distribución '''Live CD''', funcionando completamente desde medios extraíbles (CD, USB) sin necesidad de instalación en el disco duro.
@@ -572,7 +581,7 @@ Uso de '''comandos básicos''':
 * '''ln''': 
 * '''rm''': -r
 
-Resumen de '''comandos''' y su función:
+Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref>
 
 {{div-col-2}}
 * '''apt-get''': control de paquetes
@@ -631,9 +640,29 @@ Resumen de '''comandos''' y su función:
 
 El comando '''compgen -c''' muestra un listado con todos los comandos (y sus alias) disponibles en el sistema.
 
-* [https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux] 
-* [https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]
-* [https://en.wikipedia.org/wiki/Linux_distribution#Examples Distribuciones de Linux]
+'''Directorios comunes''':<ref>[https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]</ref>
+{{div col 2}}
+* '''/''': el raíz, el nivel más alto de la jerarquía
+* '''/bin''': aplicaciones binarias importantes
+* '''/boot''': configuración de arranque
+* '''/dev''': dispositivos (devices)
+* '''/etc''': configuración, scripts de arranque
+* '''/home''': directorios de usuarios
+* '''/initrd''': procesos de arranque
+* '''/lib''': librerías
+* '''/lost+found''': sistema lost+found
+* '''/media''': particiones montadas automáticamente
+* '''/mnt''': sistemas de archivos montados a mano
+* '''/opt''': lugar donde instalar aplicaciones opcionales de terceros
+* '''/proc''': estado del sistema y proceso (generado automáticamente)
+* '''/root''': directorio del superusuario
+* '''/sbin''': binarios importantes del sistema
+* '''/srv''': archivos para otros sistemas
+* '''/sys''': archivos del sistema
+* '''/tmp''': archivos temporales
+* '''/usr''': aplicaciones a las que pueden acceder la mayoría de usuarios
+* '''/var''': archivos variables (registros, bbdd...)
+{{div col end}}
 
 === Microsoft Windows ===
 
