@@ -294,7 +294,7 @@ En una '''red conmutada''' la comunicación se establece de extremo a extremo a 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser '''monomodo''' (un solo haz, larga distancia) y '''multimodo''' (varios haces, poca distancia). Conectores ST y SC. Técnicas de transmisión CWDM y DWDM.
 
-''Topologías''' de red:
+'''Topologías''' de red:
 
 * '''Anillo''': cada estación se conecta con la siguiente y la última con la primera, cerrando el anillo.
 * '''Bus''': cuenta con un único canal de comunicaciones al que se conectan todos los dispositivos.

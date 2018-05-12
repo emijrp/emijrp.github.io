@@ -10,13 +10,14 @@ El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a T
 === Modelo conceptual de datos ===
 [[File:diagrama-er.png|thumb|right|300px|Diagrama ER.]]
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
 El '''modelo entidad-relación''' ideado por Peter Chen en 1976 es el más frecuente para el diseño conceptual de bases de datos.
 
 Los elementos básicos de un diagrama entidad-relación son las entidades, las relaciones y los atributos. Las entidades cuentan con atributos y ellas se relacionan entre sí.
 
 * '''Entidad''': representan objetos del mundo real independientes entre sí. Cuentan con atributos (propiedades). Se representan con rectángulos con el nombre de la entidad dentro. Ejemplos: una persona, una ciudad, un coche.
 
-* '''Atributos''': son las propiedades o particularidades de una entidad. Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el '''dominio''' (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos '''identificativos''' son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.
+* '''Atributos''': son las propiedades o particularidades de una entidad (o relación). Se representan con círculos con el nombre del atributo dentro. Los valores posibles vienen determinados por el '''dominio''' (caracteres, números, etc). Ejemplos: Una persona puede tener de atributos su nombre, fecha de nacimiento, DNI, etc. Los atributos '''identificativos''' son aquellos que diferencian claramente a un objeto de otro, por ejemplo para personas se suele usar el DNI.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 * '''Relación''': describe la dependencia entre entidades y cómo se asocian entre ellas. Se representan con rombos con el nombre de la relación dentro. Si la relación es entre dos tipos de entidades, se llama binaria o de '''grado''' dos. El número de instancias de cada entidad que intervienen en la relación es la '''cardinalidad'''. Ejemplo: una entidad persona se relaciona con una entidad ciudad a través de la relación Persona - "nacido en N:1" - Ciudad. Como una persona solo puede nacer en 1 ciudad, la relación es N:1, ya que en una ciudad pueden nacer N personas. La cardinalidad puede ser 1:1 (uno a uno), 1:N (uno a varios), N:1 (varios a uno), N:M (varios varios). Las relaciones también pueden tener atributos como las entidades, un caso frecuente son aquellas relaciones con fecha u hora.
@@ -29,7 +30,7 @@ Los elementos básicos de un diagrama entidad-relación son las entidades, las r
 [[File:dfd.png|thumb|right|200px|Componentes de los DFD.]]
 Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del flujo de datos y los cambios que sufre en un sistema de información, desde que entra al sistema hasta que sale. Existen distintos niveles de abstracción y detalle.
 
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 '''Componentes''' de los DFD:
 
 * '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).
@@ -174,11 +175,12 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 * '''Scala''': lenguaje de propósito general, funcional, diseñado para corregir algunas críticas de Java. Creado en 2004 por Martin Odersky.
 * '''Smalltalk''': lenguaje orientado a objetos, creado en parte con fines educativos por programadores de Xrox PARC en los años 70.
 * '''Simula''': lenguaje orientado a objetos creado en 1962. El primero en incluir el concepto de clase.
+* '''SQL''': lenguaje específico del dominio que permite hacer operaciones en sistemas de gestión de bases de datos relacionales. Declarativo.
 * '''SVG''': Scalable Vector Graphics es un formato gráfico basado en XML con soporte para animación.
 * '''Vala''': lenguaje multiparadigma, orientado a objetos. Creado en 2006.
 * '''Visual Basic''': lenguaje dirigido por eventos, publicado en 1991 por Microsoft. Derivado de BASIC, permite crear aplicaciones con interfaz gráfica rápidamente.
 * '''Visual Basic .NET''': lenguaje orientado a objetos, multiparadigma, lanzado en 2002 por Microsoft. Sucesor de Visual Basic.
-* '''XML''': Extensible Markup Language, lenguaje de marcado para definir reglas para codificar documentos en un formato que sea entendible por humanos y máquinas.
+* '''XML''': Extensible Markup Language, lenguaje de marcado para definir reglas para codificar documentos en un formato que sea entendible por humanos y máquinas. Para hojas de estilo existe XLST.
 * '''XUL''': XML User Interface Language es un lenguage de marcas para interfaces de usuario desarrollado por Mozilla. Permite crear interfaces gráficas de usuario de forma similar a una página web.
 
 == Tema 4: Lenguajes de interrogación de bases de datos ==
@@ -205,7 +207,7 @@ Los '''niveles de abstracción''' de base de datos son:
 
 * '''Nivel externo''': describe las vistas de usuario, lo que unos usuarios ven y otros no.
 
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 En el '''álgebra relacional''' las operaciones son:
 * '''Básicas o fundamentales''':
 ** '''Selección''': selecciona un subconjunto de tuplas de una relación que cumplan la condición.
@@ -267,6 +269,9 @@ Cláusula '''JOIN''':
 * '''CROSS''':
 
 Para búsquedas aproximadas con '''LIKE''' se puede usar el comodín '''%''', por ejemplo '%drid' serviría para encontrar 'Madrid'.
+
+{{cayo-en-convocatoria|1=2015 (PI)}}
+La operación '''ROLLBACK''' devuelve la base de datos a un estado anterior.
 
 === Procedimientos almacenados ===
 
@@ -399,6 +404,10 @@ Los '''patrones de diseño''' son técnicas para resolver problemas típicos dur
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
 
+En Java hay que declarar las variables antes de usarlas.
+* '''Pueden''': contener cualquier caracter Unicode
+* '''No pueden''': comenzar por número, contener operadores, ser palabra reservada o booleano.
+
 '''Palabras reservadas''' en JAVA:
 {{div col 4}}
 * true, false, null
@@ -471,6 +480,10 @@ Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan
 === C ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+En C hay que declarar las variables antes de usarlas.
+* '''Pueden''': contener letras o números, empezar por _
+* '''No pueden''': comenzar por número, contener letras distintas a A-Z, ser palabra reservada o booleano.
 
 '''Palabras reservadas''' en C:
 {{div col 4}}
@@ -559,6 +572,9 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 
 La biblioteca no estándar '''conio.h''' es para operaciones de entrada y salida.
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
+Las bibliotecas se importan con la directiva '''#include <biblioteca.h>''' si se quiere que busque en todos los directorios especificados en la llamada al compilador, o con '''#include "biblioteca.h"''' si se quiere que de prioridad al directorio donde está el código.
+
 === C++ ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
@@ -628,11 +644,42 @@ Intro, breve historia, caracteristicas del lencuaje, hello world, variables, ope
 * while
 {{div col end}}
 
-=== .NET ===
+'''Biblioteca estándar''' de C++:
+{{div col 2}}
+* '''array'''
+* '''bitset'''
+* '''deque''': cola doblemente enlazada
+* '''list''': lista doblemente enlazada
+* '''map'''
+* '''queue''': colas
+* '''set''': conjuntos
+* '''stack''': pilas
+* '''vector''': vectores
+
+* '''fstream''': ficheros
+* '''iostream''': e/s básica
+
+* '''algorithm''': algoritmos frecuentes
+* '''complex''': números complejos
+* '''exception''': excepciones
+* '''iterator''': iteradores
+* '''memory''': control de memoria
+* '''numeric''': procesamiento numérico
+* '''stdexcept''': excepciones
+* '''string''': cadenas de caracteres
+{{div col end}}
+
+A diferencia de C, en C++ la directiva #include no lleva el .h en el nombre de la biblioteca, pero sigue conservándose el formato de comillas y < >.
+
+Para incluir una biblioteca estándar de C en C++, se añade una 'c' delante al nombre y se elimina el .h. Así la biblioteca assert.h se convierte en cassert, stdio.h en cstdio, etc.
+
+=== C# ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
 
-'''Palabras reservadas''' en .NET:
+Las variables pueden empezar por _ y contener caracteres Unicode.
+
+'''Palabras reservadas''' en C#:
 {{div col 4}}
 
 {{div col end}}
@@ -661,6 +708,7 @@ Un '''servicio web''' es una tecnología que utiliza protocolos y estándares pa
 * '''Web Service Security''' (WS-Security): protocolo de seguridad, garantiza la autenticación de actores y la confidencialidad de los mensajes enviados.
 * '''Representational State Transfer''' (REST): permite realizar operaciones utilizando el protocolo HTTP y sus métodos GET, POT, PUT, DELETE, etc.
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
 '''Frameworks''' para servicios web:
 {{div col 4}}
 * Apache Axis
@@ -694,6 +742,9 @@ La '''arquitectura orientada a servicios''' (SOA) es un diseño de software en e
 == Tema 8: Aplicaciones web ==
 
 {{recuadro|1='''Aplicaciones web'''. Desarrollo web front-end y en servidor. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.}}
+
+{{cayo-en-convocatoria|1=2015 (PI)}}
+Las '''API REST''' cuentan con las operaciones básicas GET, POST, PUT, DELETE.
 
 === HTML, XHTML y XML ===
 
@@ -1004,8 +1055,10 @@ Para el '''nivel AAA''' son '''23 criterios''':
 {{div col end}}
 
 === Software ===
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 Entre el '''Software''' para comprobar la accesibilidad están Achecker, Examinator, SortSite y Wave.
+
+ARIA es una especificación que indica cómo hacer accesibles aplicaciones web enriquecidas.
 
 == Tema 10: Herramientas CASE ==
 
