@@ -1,7 +1,9 @@
 {{header|1=Cine por ver}}
 {{cine}}
 
-Obras cinematográficas anteriores a 1905 que me quedan por ver, según FilmAffinity (en IMDb hay más).
+== Orígenes del cine ==
+
+Obras cinematográficas '''anteriores a 1905''' que me quedan por ver, según FilmAffinity (en IMDb hay más).
 
 <!-- porver --><table class="wikitable sortable" style="text-align: center;">
 <tr>
@@ -186,6 +188,13 @@ Obras cinematográficas anteriores a 1905 que me quedan por ver, según FilmAffi
 <tr><td>171</td><td><i>[https://www.filmaffinity.com/es/film520064.html Sheik Hadji Tahar (C)]</i></td><td>William K.L. Dickson</td><td>1894</td><td>Estados Unidos</td><td>1 minutos</td><td>No</td></tr>
 <tr><td>172</td><td><i>[https://www.filmaffinity.com/es/film578715.html Buffalo Bill (C)]</i></td><td>William K.L. Dickson</td><td>1894</td><td>Estados Unidos</td><td>1 minutos</td><td>No</td></tr>
 </table><!-- /porver -->
+
+== Otras ==
+
+Otras que tengo en la lista de obras que me gustaría ver.
+
+(Script que saque las obras con vídeos disponibles)
+
 
 {{cine}}
 {{footer}}
