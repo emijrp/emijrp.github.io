@@ -266,12 +266,12 @@
 <ul><li><b>Serial ATA</b> (SATA): Reemplaza a PATA. Sirve para discos duros, lectoras de CD y discos de estado sólido SSD.</li><li><b>SATA 1.0</b>: 1.5 Gbit/s (150 MB/s) SATA-150.</li><li><b>SATA 2.0</b>: 3 Gbit/s (300 MB/s) SATA-300.</li><li><b>SATA 3.0</b>: 6 Gbit/s (600 MB/s) SATA-600.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL)  </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL) 2015 (PI) </b></p>
 </div>
 
 <p>Tipos de <b>RAID</b>:</p>
 
-<ul><li><b>RAID 0</b>: Los datos se distribuyen entre dos o más discos, <b>sin información de paridad</b>, redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.</li><li><b>RAID 1</b>: Consiste en la <b>copia exacta</b> (mirror, espejo) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.</li><li><b>RAID 2</b>: Reparte los datos a <b>nivel de bits</b> en vez de bloques. No tiene redundacia pero sí "paridad" con Hamming code. Se utiliza muy poco.</li><li><b>RAID 3</b>: Reparte los datos a <b>nivel de bytes</b>, con un disco con información de paridad. Se utiliza muy poco.</li><li><b>RAID 4</b>: Reparte los datos a <b>nivel de bloque</b>, con un disco dedicado a paridad. El rendimiento de lectura es alto, pero la escritura es baja al ir toda la información de paridad en el mismo disco.</li><li><b>RAID 5</b>: Datos repartidos a nivel de bloque, con <b>paridad distribuida entre varios discos</b>. Si falla un disco, la información puede reconstruirse con la paridad. Requiere al menos tres discos.</li><li><b>RAID 6</b>: Como el RAID 5 pero con <b>dos bloques de paridad</b> en distintos discos.</li></ul>
+<ul><li><b>RAID 0</b>: Los datos se distribuyen entre dos o más discos, <b>sin información de paridad</b>, redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos. Requiere que todos los discos tengan la misma capacidad o se desperdiciará espacio de los discos más grandes. Por ejemplo, un disco de 15 GB y uno de 50 GB puestos en RAID 0, los dos actuarán como si tuvieran 15 GB, sumando un total de 30 GB.</li><li><b>RAID 1</b>: Consiste en la <b>copia exacta</b> (mirror, espejo) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.</li><li><b>RAID 2</b>: Reparte los datos a <b>nivel de bits</b> en vez de bloques. No tiene redundacia pero sí "paridad" con Hamming code. Se utiliza muy poco.</li><li><b>RAID 3</b>: Reparte los datos a <b>nivel de bytes</b>, con un disco con información de paridad. Se utiliza muy poco.</li><li><b>RAID 4</b>: Reparte los datos a <b>nivel de bloque</b>, con un disco dedicado a paridad. El rendimiento de lectura es alto, pero la escritura es baja al ir toda la información de paridad en el mismo disco.</li><li><b>RAID 5</b>: Datos repartidos a nivel de bloque, con <b>paridad distribuida entre varios discos</b>. Si falla un disco, la información puede reconstruirse con la paridad. Requiere al menos tres discos.</li><li><b>RAID 6</b>: Como el RAID 5 pero con <b>dos bloques de paridad</b> en distintos discos.</li></ul>
 
 <table class="wikitable" style="text-align: center;">
 <tr><th>Nivel</th><th>Discos (mínimo)</th><th>Eficiencia espacio</th><th>Tolerancia a fallos</th></tr>
@@ -494,12 +494,18 @@
 
 <p>El comando <b>compgen -c</b> muestra un listado con todos los comandos (y sus alias) disponibles en el sistema.</p>
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (PI)   </b></p>
+</div>
+
 <p><b>Directorios comunes</b>:<sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
 <ul><li><b>/</b>: el raíz, el nivel más alto de la jerarquía</li><li><b>/bin</b>: aplicaciones binarias importantes</li><li><b>/boot</b>: configuración de arranque</li><li><b>/dev</b>: dispositivos (devices)</li><li><b>/etc</b>: configuración, scripts de arranque</li><li><b>/home</b>: directorios de usuarios</li><li><b>/initrd</b>: procesos de arranque</li><li><b>/lib</b>: librerías</li><li><b>/lost+found</b>: sistema lost+found</li><li><b>/media</b>: particiones montadas automáticamente</li><li><b>/mnt</b>: sistemas de archivos montados a mano</li><li><b>/opt</b>: lugar donde instalar aplicaciones opcionales de terceros</li><li><b>/proc</b>: estado del sistema y proceso (generado automáticamente)</li><li><b>/root</b>: directorio del superusuario</li><li><b>/sbin</b>: binarios importantes del sistema</li><li><b>/srv</b>: archivos para otros sistemas</li><li><b>/sys</b>: archivos del sistema</li><li><b>/tmp</b>: archivos temporales</li><li><b>/usr</b>: aplicaciones a las que pueden acceder la mayoría de usuarios</li><li><b>/var</b>: archivos variables (registros, bbdd...)</li></ul>
 </div>
 
+
+<p>En <b>/etc/shadow</b> se almacenan las contraseñas cifradas de los usuarios.</p>
 
 <h3 id="Microsoft Windows">Microsoft Windows</h3>
 
@@ -586,7 +592,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-11 18:34:59 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-13 16:15:15 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

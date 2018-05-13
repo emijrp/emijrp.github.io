@@ -220,10 +220,10 @@ Tipos de '''interfaces''':
 * '''SATA 2.0''': 3 Gbit/s (300 MB/s) SATA-300.
 * '''SATA 3.0''': 6 Gbit/s (600 MB/s) SATA-600.
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)|3=2015 (PI)}}
 Tipos de '''RAID''':
 
-* '''RAID 0''': Los datos se distribuyen entre dos o más discos, '''sin información de paridad''', redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos.
+* '''RAID 0''': Los datos se distribuyen entre dos o más discos, '''sin información de paridad''', redundancia o tolerancia a fallos. El fallo de uno de los discos provoca la pérdida de todos los datos. La utilidad del RAID 0 es que aumenta el rendimiento (velocidad de lectura y escritura) y puede crear un volúmen lógico mayor al combinar varios discos. Requiere que todos los discos tengan la misma capacidad o se desperdiciará espacio de los discos más grandes. Por ejemplo, un disco de 15 GB y uno de 50 GB puestos en RAID 0, los dos actuarán como si tuvieran 15 GB, sumando un total de 30 GB.
 
 * '''RAID 1''': Consiste en la '''copia exacta''' (mirror, espejo) de los datos en dos o más discos (normalmente dos). La velocidad de lectura puede ser mejor ya que los datos están en varios discos, pero la de escritura es igual a la de un solo disco porque se escribe todo en todos los discos.
 
@@ -640,6 +640,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 
 El comando '''compgen -c''' muestra un listado con todos los comandos (y sus alias) disponibles en el sistema.
 
+{{cayo-en-convocatoria|1=2015 (PI)}}
 '''Directorios comunes''':<ref>[https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]</ref>
 {{div col 2}}
 * '''/''': el raíz, el nivel más alto de la jerarquía
@@ -663,6 +664,8 @@ El comando '''compgen -c''' muestra un listado con todos los comandos (y sus ali
 * '''/usr''': aplicaciones a las que pueden acceder la mayoría de usuarios
 * '''/var''': archivos variables (registros, bbdd...)
 {{div col end}}
+
+En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 
 === Microsoft Windows ===
 
