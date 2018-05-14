@@ -118,7 +118,7 @@ Los tres estados posibles de un proceso son: listo, bloqueado y en ejecución.
 Los '''componentes internos''' básicos de un ordenador son:
 
 {{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
-* '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA.
+* '''Disco duro''': dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética. Se compone de uno o más platos que giran en un mismo eje, y sobre éstos se sitúa un cabezal para lectura-escritura que no toca la superficie. Se trata de memoria no volátil, al contrario que la memoria RAM. La interfaz puede ser IDE (ATA/PATA), SCSI o más recientemente SATA. Una '''pista''' es cada círculo concéntrico del disco, un '''sector''' es una porción de cada pista. Un conjunto de sectores es un '''clúster'''. El tiempo medio de acceso es lo que tarda la aguja en situarse en la pista y sector deseado, siendo la suma del tiempo medio de búsqueda (situarse en pista), tiempo de lectura/escritura y la latencia media (situarse en sector).
 ** '''Discos SSD''': SSD es el acrónimo de Solid State Drive, disco de estado sólido. Son discos más rápidos que los discos mecánicos clásicos y su coste es superior.
 
 * '''Memoria RAM''': memoria en la que se cargan las instrucciones y datos en ejecución. Es de mayor velocidad que los discos duros aunque su capacidad es mucho menor. La RAM es de menor velocidad que los registros del procesador y que las caché por niveles. Cuando el ordenador arranca realiza un breve test sobre la RAM, aunque existen tests avanzados y exhaustivos como MemTest86+ para encontrar fallos de hardware. Tipos: SDR SDRAM, RDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, DDR4 SDRAM.
@@ -487,6 +487,7 @@ La '''hiperpaginación''' provoca la caida del rendimiento del sistema, ya que h
 
 === Android ===
 
+{{cayo-en-convocatoria|1=2014 (PI)}}
 '''Versiones''' de Android:
 
 {{div-col-2}}
@@ -669,6 +670,16 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 
 === Microsoft Windows ===
 
+{{cayo-en-convocatoria|1=2014 (PI)}}
+'''Claves del registro''':
+* HKEY_LOCAL_MACHINE
+* HKEY_CURRENT_CONFIG
+* HKEY_CLASSES_ROOT
+* HKEY_CURRENT_USER
+* HKEY_USERS
+* HKEY_PERFORMANCE_DATA
+* HKEY_DYN_DATA
+
 * [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
 
 '''Comandos básicos''' de Windows:
@@ -678,6 +689,7 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 * '''ipconfig''': configuración de redes
 * '''msconfig''': configuración de arranca, programas al inicio
 * '''netstat''': comprobación y analisis de redes y conexiones
+* '''net use''': asigna letra de unidad a carpetas compartidas 
 * '''systeminfo''': información del sistema
 
 == Tema 5: Bases de datos ==

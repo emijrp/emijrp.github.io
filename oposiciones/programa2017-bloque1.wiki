@@ -377,6 +377,15 @@ Un '''reglamento''' ...
 
 # La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
 
+=== Comercio electrónico ===
+
+{{cayo-en-convocatoria|1=2014 (PI)}}
+* '''Artículo 39'''. Sanciones. a) Por la comisión de infracciones muy graves, multa de 150.001 hasta 600.000 euros. b) Por la comisión de infracciones graves, multa de 30.001 hasta 150.000 euros. c) Por la comisión de infracciones leves, multa de hasta 30.000 euros.
+
+* '''Artículo 45'''. Prescripción. Las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves a los seis meses; las sanciones impuestas por faltas muy graves prescribirán a los tres años, las impuestas por faltas graves a los dos años y las impuestas por faltas leves al año.
+
+=== Firma electrónica ===
+
 {{cayo-en-convocatoria|1=2015 (PI)}}
 Un dispositivo de creación de firma es seguro si:
 * Los datos para la generación de firma pueden producirse solo una vez y no pueden deducirse de los de verificación de firma o de la misma firma
@@ -386,6 +395,8 @@ Un dispositivo de creación de firma es seguro si:
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
+=== DNI electrónico ===
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 La '''validez del DNI''' es la siguiente:
 * Dos años, cuando el solicitante no haya cumplido los cinco años de edad.
@@ -394,6 +405,16 @@ La '''validez del DNI''' es la siguiente:
 * Validez permanente desde los setenta años.
 
 Los certificados del DNI electrónico tienen validez de hasta 5 años.
+
+{{cayo-en-convocatoria|1=2014 (PI)}}
+Datos criptográficos:
+* Clave RSA pública de autenticación (Digital Signature)
+* Clave RSA pública de no repudio (Content Commitment)
+* Clave RSA privada de autenticación (Digital Signature)
+* Clave RSA privada de firma (Content Commitment)
+* Clave pública de root CA para certificados card-verificables
+* Claves Diffie-Hellman
+* Patrón dactilar
 
 == Tema 9 ==
 
@@ -438,6 +459,11 @@ Algunas '''funciones''' de la Agencia de Protección de Datos:
 * Los datos de carácter personal serán exactos y puestos al día de forma que respondan con veracidad a la situación actual del afectado. Si los datos fueran recogidos directamente del afectado, se considerarán exactos los facilitados por éste.
 * Los datos de carácter personal serán cancelados cuando hayan dejado de ser necesarios o pertinentes para la finalidad para la cual hubieran sido recabados o registrados.
 * Los datos de carácter personal serán tratados de forma que permitan el ejercicio del derecho de acceso, en tanto no proceda su cancelación.
+
+{{cayo-en-convocatoria|1=2014 (PI)}}
+Los derechos de '''acceso, rectificación, cancelación y oposición''' son personalísimos y serán ejercidos por el afectado, o en ciertos casos por su representante legal (acreditado) o representante voluntario (expresamente designado).
+
+Se trata de derechos independientes, ninguno es requisito previo para ejercer el otro. Deberá ofrecerse al interesado un medio '''sencillo y gratuito''' para ejercerlos.
 
 '''Sanciones''' de la Agencia de Protección de Datos:
 * Los responsables de los ficheros y los encargados de los tratamientos estarán sujetos al régimen sancionador
