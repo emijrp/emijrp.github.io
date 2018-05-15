@@ -85,7 +85,7 @@
 
 <p>Un <b>bit</b> es la unidad básica de información que se utiliza en informática. Puede tener dos valores (dos estados), representados como 0 y 1.</p>
 
-<p>Un <b>byte son 8 bits</b>, llamado también octeto. Un <b>nibble son 4 bits</b>, un cuarteto y tiene utiliza en el sistema hexadecimal (0 a F, 16 valores, 2^4).</p>
+<p>Un <b>byte son 8 bits</b>, llamado también octeto. Un <b>nibble son 4 bits</b>, un cuarteto, y se utiliza en el sistema hexadecimal (0 a F, 16 valores, 2^4).</p>
 
 <p>Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).</p>
 
@@ -257,7 +257,7 @@
 
 <p>Tipos de <b>interfaces</b>:</p>
 
-<ul><li><b>Parallel ATA</b> (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive electronics (IDE). Su extensión ATAPI permite lectoras de CD.</li></ul>
+<ul><li><b>Parallel ATA</b> (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive Electronics (IDE). Su extensión ATAPI permite lectoras de CD.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
@@ -340,7 +340,7 @@
 
 <p>Los <b>sistemas de ficheros</b> controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.</p>
 
-<ul><li><b>FAT</b>: diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives). También existe el <b>exFAT</b> para memorias flash, cuando el NTFS no es apropiado.</li><li><b>NTFS</b>: diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.</li><li><b>EXT</b>: sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología <i>journaling</i> que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.</li><li><b>JFS</b>: creado en 1991 por IBM, cuenta con journaling.</li><li><b>XFS</b>: creado en 1993 por Silicon Graphics, cuenta con journaling.</li><li><b>ZFS</b>: creado en 1995 por Oracle.</li><li><b>ReiserFS</b>: creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.</li><li><b>HFS Plus</b>: desarrollado por Apple.</li><li><b>ISO 9660</b>: es un sistema de archivos para medios ópticos (CD, DVD).</li></ul>
+<ul><li><b>FAT</b>: diseñado en 1977, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives). También existe el <b>exFAT</b> para memorias flash, cuando el NTFS no es apropiado.</li><li><b>NTFS</b>: diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.</li><li><b>EXT</b>: sistema de ficheros para el núcleo Linux. Sus variantes son EXT, EXT2, EXT3 y EXT4. A partir de EXT3 se incluye la tecnología <i>journaling</i> que reduce la posibilidad de corrupción de datos por apagado abrupto del sistema.</li><li><b>JFS</b>: creado en 1991 por IBM, cuenta con journaling.</li><li><b>XFS</b>: creado en 1993 por Silicon Graphics, cuenta con journaling.</li><li><b>ZFS</b>: creado en 1995 por Oracle.</li><li><b>ReiserFS</b>: creado en 1991 por Namesys. Su sucesor es Reiser4. Tiene journaling.</li><li><b>HFS Plus</b>: desarrollado por Apple.</li><li><b>ISO 9660</b>: es un sistema de archivos para medios ópticos (CD, DVD).</li></ul>
 
 <p>Los <b>inode</b> son estructuras de datos de sistemas tipo UNIX que describen objetos del sistema de ficheros, como ficheros o directorios. Almacenan atributos y las localizaciones de los bloques donde están los datos del objeto. Los atributos y metadatos suelen ser el nombre, la última modificación, el propietario, los permisos de uso y tamaño.</p>
 
@@ -486,7 +486,7 @@
 
 <p>Uso de <b>comandos básicos</b>:</p>
 
-<ul><li><b>chmod</b>: cambiar permisos sobre ficheros o directorios. Lectura (r) = 4, Escritura (w) = 2, Ejecución (x) = 1, Todo = 7, Ninguno = 0. El orden es usuarios (u), grupo (g) y otros (o). chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file</li><ul><li>El bit sticky permite renombrar o borrar solo al propietario o root, aunque los demás tengan permiso de escritura.</li></ul><li><b>ln</b>: </li><li><b>rm</b>: -r</li></ul>
+<ul><li><b>chmod</b>: cambiar permisos sobre ficheros o directorios. Lectura (r) = 4, Escritura (w) = 2, Ejecución (x) = 1, Todo = 7, Ninguno = 0. El orden es usuarios (u), grupo (g) y otros (o). chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file</li><ul><li>El bit sticky permite renombrar o borrar solo al propietario o root, aunque los demás tengan permiso de escritura.</li></ul><li><b>ln</b>: crea enlaces duros (-s simbólicos)</li><li><b>rm</b>: borrado de ficheros o directorios (rmdir). Recursivo (-r)</li></ul>
 
 <p>Resumen de <b>comandos</b> y su función:<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
 
@@ -521,7 +521,7 @@
 <ul><li>HKEY_LOCAL_MACHINE</li><li>HKEY_CURRENT_CONFIG</li><li>HKEY_CLASSES_ROOT</li><li>HKEY_CURRENT_USER</li><li>HKEY_USERS</li><li>HKEY_PERFORMANCE_DATA</li><li>HKEY_DYN_DATA</li><li><a href="https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family">Familia Windows</a></li></ul>
 
 <p><b>Comandos básicos</b> de Windows:</p>
-<ul><li><b>chkdsk</b>: comprobación de errores en el disco duro</li><li><b>defrg</b>: desfragmentador de disco</li><li><b>format</b>: formateo de disco</li><li><b>ipconfig</b>: configuración de redes</li><li><b>msconfig</b>: configuración de arranca, programas al inicio</li><li><b>netstat</b>: comprobación y analisis de redes y conexiones</li><li><b>net use</b>: asigna letra de unidad a carpetas compartidas </li><li><b>systeminfo</b>: información del sistema</li></ul>
+<ul><li><b>chkdsk</b>: comprobación de errores en el disco duro</li><li><b>defrg</b>: desfragmentador de disco</li><li><b>format</b>: formateo de disco</li><li><b>ipconfig</b>: configuración de redes</li><li><b>msconfig</b>: configuración de arranque, programas al inicio</li><li><b>netstat</b>: comprobación y analisis de redes y conexiones</li><li><b>net use</b>: asigna letra de unidad a carpetas compartidas </li><li><b>systeminfo</b>: información del sistema</li></ul>
 
 <h2 id="Tema 5: Bases de datos">Tema 5: Bases de datos</h2>
 
@@ -601,7 +601,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-15 09:27:44 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-15 14:38:14 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

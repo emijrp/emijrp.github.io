@@ -10,7 +10,7 @@ El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 Un '''bit''' es la unidad básica de información que se utiliza en informática. Puede tener dos valores (dos estados), representados como 0 y 1.
 
-Un '''byte son 8 bits''', llamado también octeto. Un '''nibble son 4 bits''', un cuarteto y tiene utiliza en el sistema hexadecimal (0 a F, 16 valores, 2^4).
+Un '''byte son 8 bits''', llamado también octeto. Un '''nibble son 4 bits''', un cuarteto, y se utiliza en el sistema hexadecimal (0 a F, 16 valores, 2^4).
 
 Bit (b) < Byte (B) < Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB) < Petabyte (PB) < Exabyte (EB) < Zettabyte (ZB) < Yottabyte (YB).
 
@@ -212,7 +212,7 @@ Las conexiones más frecuentes son con puerto paralelo o USB. Las impresoras en 
 
 Tipos de '''interfaces''':
 
-* '''Parallel ATA''' (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive electronics (IDE). Su extensión ATAPI permite lectoras de CD.
+* '''Parallel ATA''' (PATA): Diseñado por Western Digital en 1986, como interfaz para conectar discos duros, llamado al principio Intergrated Drive Electronics (IDE). Su extensión ATAPI permite lectoras de CD.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Serial ATA''' (SATA): Reemplaza a PATA. Sirve para discos duros, lectoras de CD y discos de estado sólido SSD.
@@ -308,7 +308,7 @@ Entre los estándares de digitalización están el Image and Scanner Interface S
 
 Los '''sistemas de ficheros''' controlan cómo se almacenan los datos en los distintos medios y cómo se recuperan. Normalmente los sistemas operativos cuentan con soporte para varios sistemas de ficheros.
 
-* '''FAT''': diseñado en 1997, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives). También existe el '''exFAT''' para memorias flash, cuando el NTFS no es apropiado.
+* '''FAT''': diseñado en 1977, existen tres variantes, FAT12, FAT16 y FAT32. Es acrónimo de File Allocation Table (Tabla de Asignación de Archivos). Se utilizó en DOS, Windows 9x, disquettes y actualmente en memorias flash (incluido pendrives). También existe el '''exFAT''' para memorias flash, cuando el NTFS no es apropiado.
 
 * '''NTFS''': diseñado en 1993 por Microsoft. Es acrónimo de New Technology File System. Se utiliza en Windows NT, XP, Vista, Windows 7-8-10.
 
@@ -580,8 +580,8 @@ Uso de '''comandos básicos''':
 
 * '''chmod''': cambiar permisos sobre ficheros o directorios. Lectura (r) = 4, Escritura (w) = 2, Ejecución (x) = 1, Todo = 7, Ninguno = 0. El orden es usuarios (u), grupo (g) y otros (o). chmod 777 file = chmod u+rwx,g+rwx,o+rwx file = chmod a+rwx file
 ** El bit sticky permite renombrar o borrar solo al propietario o root, aunque los demás tengan permiso de escritura.
-* '''ln''': 
-* '''rm''': -r
+* '''ln''': crea enlaces duros (-s simbólicos)
+* '''rm''': borrado de ficheros o directorios (rmdir). Recursivo (-r)
 
 Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref>
 
@@ -688,7 +688,7 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 * '''defrg''': desfragmentador de disco
 * '''format''': formateo de disco
 * '''ipconfig''': configuración de redes
-* '''msconfig''': configuración de arranca, programas al inicio
+* '''msconfig''': configuración de arranque, programas al inicio
 * '''netstat''': comprobación y analisis de redes y conexiones
 * '''net use''': asigna letra de unidad a carpetas compartidas 
 * '''systeminfo''': información del sistema
