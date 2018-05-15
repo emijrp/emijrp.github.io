@@ -181,7 +181,7 @@ Entre el '''software criptográfico''' destaca:
 
 La '''criptografía simétrica''' o de '''clave secreta''' es aquella en la que se usa la misma clave para cifrar que para descifrar. Tanto el emisor como el receptor de los mensajes deben ponerse de acuerdo con la clave a utilizar y compartirla.
 
-La criptografía simétrica es impracticable para grandes grupos de personas, ya que son necesarias n(n-1)/2 claves, para que todas las parejas de usuarios puedan comunicarse entre sí.
+La criptografía simétrica es impracticable para grandes grupos de personas, ya que son necesarias (n*(n-1))/2 claves, para que todas las parejas de usuarios puedan comunicarse entre sí.
 
 El '''cifrado por bloques''' opera por grupos de bits de longitud fija llamados bloques, en vez de símbolos individuales.
 
@@ -318,13 +318,12 @@ Según la '''direccionalidad de los datos''':
 * '''Full-duplex''': dúplex, envío bidireccional y simultáneao.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-Control de acceso al medio:
-* Token bus
-* Token ring
-* Paso de testigo
-* ALOHA
-* CSMA
-* 
+'''Control de acceso''' al medio:
+* '''Paso de testigo''': un testigo (token) va pasando de estación en estación. Solo la estación que tiene el token puede transmitir.
+** '''Token bus''': para redes de topología bus.
+** '''Token ring''': similar a token bus pero para topologías en anillo.
+* '''CSMA/CD''': se escucha al medio, y si está libre, se transmite. Si se produce una colisión (varias estaciones emiten en el mismo instante), se esperan tiempos aleatorios antes de retransmitir. Acrónimo de Carrier Sense Multiple Access with Collision Detection.
+* '''ALOHA''': 
 
 El protocolo '''NFC''' funciona en distancias muy cortas (cercanas a 4 cm) y no necesita emparejamiento.
 
@@ -335,13 +334,15 @@ El protocolo '''NFC''' funciona en distancias muy cortas (cercanas a 4 cm) y no 
 ** '''IEEE 802.1Q''': VLANs
 * '''IEEE 802.3''': Ethernet
 ** '''IEEE 802.3ae''': 10 Gbit Ethernet
+* '''IEEE 802.4''': Token bus
+* '''IEEE 802.5''': Token ring
 * '''IEEE 802.11''': Wireless LAN (WLAN)
-** '''IEEE 802.11b''': Hasta 11 Mbit/s
+** '''IEEE 802.11b''': Hasta 11 Mbit/s. 2.4 Ghz.
 ** '''IEEE 802.11g''': Hasta 54 Mbit/s. 2.4 Ghz.
-** '''IEEE 802.11n''': De 54 a 600 Mbit/s
-** '''IEEE 802.11ac''': Hasta 433 Mbit/s, canales más anchos
-** '''IEEE 802.11ad''': Hasta 7 Gbit/s
-** '''IEEE 802.11ah''': WiFi HaLow
+** '''IEEE 802.11n''': Hasta 600 Mbit/s. 2.4/5 Ghz.
+** '''IEEE 802.11ac''': Hasta 433 Mbit/s, canales más anchos. 5 Ghz.
+** '''IEEE 802.11ad''': Hasta 7 Gbit/s. 60 Ghz.
+** '''IEEE 802.11ah''': WiFi HaLow. 0.9 Ghz.
 ** '''IEEE 802.11p''': Wireless Access in Vehicular Environments (WAVE)
 * '''IEEE 802.15''': Wireless PAN (WPAN)
 ** '''IEEE 802.15.1''': Bluetooth
