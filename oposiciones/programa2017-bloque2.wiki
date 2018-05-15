@@ -267,7 +267,8 @@ Los '''escáneres''' pueden ser:
 
 * '''De mano''': se mueven a mano sobre el sujeto a escanear. Hay dos tipos: de documentos y 3D.
 * '''De tambor''': son grandes, con alta calidad de digitalización (hasta 4000 ppp) y profesionales.
-* '''De cama plana''': los más comunes.
+* '''De cama plana''': los más comunes, se sitúa el documento en plano sobre el cristal.
+* '''Cenital''': se toma la fotografía desde arriba, sirve para libros y documentos antiguos que se puedan dañar con facilidad.
 
 Entre los estándares de digitalización están el Image and Scanner Interface Specification (ISIS), TWAIN y Windows Image Acquisition (WIA).
 
