@@ -37,7 +37,7 @@ Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del fl
 
 * '''Almacenes''': información almacenada en un punto del sistema en algún momento.
 
-* '''Agentes externos''': las entidades que interactúan con el sistema.
+* '''Agentes externos''': las entidades que interactúan con el sistema. Las relaciones entre agentes externos no se representan en el DFD.
 
 * '''Flujo de datos''': camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.
 
@@ -63,7 +63,7 @@ Los '''niveles de un DFD''' son:
 === Diseño lógico y físico ===
 
 === Normalización ===
-{{cayo-en-convocatoria|1=2016 (PI)}}
+{{cayo-en-convocatoria|1=2016 (PI)|2=2014 (PI)}}
 Si una base de datos no está normalizada se pueden producir inconsistencias en los datos además de redundancias. Se eliminan dependencias, proporciona una estructura más regular a las tablas.
 
 '''Primera Forma Normal''' (1FN):
@@ -93,7 +93,7 @@ En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el
 * '''Regla 4''': ofrecer acceso a la estructura de la base de datos.
 * '''Regla 5''': el sistema debe soportar un lenguaje relacional con sintaxis lineal, interactivo y que soporte definicón de datos.
 * '''Regla 6''': todas las vistas teóricamente actualizables deben poderse actualizar.
-* '''Regla 7''': alto nivel de inserción, actualizació y borrado. Operaciones sobre múltiples filas.
+* '''Regla 7''': alto nivel de inserción, actualización y borrado. Operaciones sobre múltiples filas.
 * '''Regla 8''': independencia física de los datos.
 * '''Regla 9''': independencia lógica de los datos.
 * '''Regla 10''': independencia de la integridad.
@@ -173,7 +173,7 @@ Algunos '''lenguajes de programación''' y una breve reseña sobre ellos. Alguno
 * '''R''': lenguaje para estadística y gráficas. Creado en 1993.
 * '''Ruby''': lenguaje orientado a objetos, de propósito general, multiparadigma. Creado por Yukihiro Matsumoto en 1995.
 * '''Scala''': lenguaje de propósito general, funcional, diseñado para corregir algunas críticas de Java. Creado en 2004 por Martin Odersky.
-* '''Smalltalk''': lenguaje orientado a objetos, creado en parte con fines educativos por programadores de Xrox PARC en los años 70.
+* '''Smalltalk''': lenguaje orientado a objetos puro, creado en parte con fines educativos por programadores de Xrox PARC en los años 70.
 * '''Simula''': lenguaje orientado a objetos creado en 1962. El primero en incluir el concepto de clase.
 * '''SQL''': lenguaje específico del dominio que permite hacer operaciones en sistemas de gestión de bases de datos relacionales. Declarativo.
 * '''SVG''': Scalable Vector Graphics es un formato gráfico basado en XML con soporte para animación.
@@ -207,7 +207,7 @@ Los '''niveles de abstracción''' de base de datos son:
 
 * '''Nivel externo''': describe las vistas de usuario, lo que unos usuarios ven y otros no.
 
-{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)|3=2014 (PI)}}
 En el '''álgebra relacional''' las operaciones son:
 * '''Básicas o fundamentales''':
 ** '''Selección''': selecciona un subconjunto de tuplas de una relación que cumplan la condición.
@@ -304,7 +304,7 @@ Algunos '''conceptos fundamentales''' de la POO:
 * '''Atributo''': propiedad o dato asociado a un objeto.
 * '''Método''': procedimiento asociado a un objeto.
 
-{{cayo-en-convocatoria|1=2015 (IL)}}
+{{cayo-en-convocatoria|1=2015 (IL)|2=2014 (PI)}}
 '''Características''' de la POO:
 
 * '''Abstracción''': expresa las características básicas de un objeto, lo que le diferencia de otros, permitiendo crear una clase con esas características compartidas.
@@ -469,6 +469,7 @@ Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan
 {{div col 2}}
 * '''AWT''': Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC).
 * '''JavaFX''': para la creación de aplicaciones web con capacidades de aplicaciones de escritorio.
+* '''JAXP''': procesa documentos XML a través de SAX, DOM y XSLT.
 * '''JAX-RPC''': servicios web preservando descripción WSDL. Renombrado a JAX-WS.
 * '''JAX-RS''': creación de servicios web REST.
 * '''JAX-WS''': creación de servicios web en XML.
@@ -689,10 +690,14 @@ Las variables pueden empezar por _ y contener caracteres Unicode.
 {{recuadro|1='''Arquitectura de sistemas cliente/servidor''' y multicapas: componentes y operación. Arquitecturas de servicios web y protocolos asociados.}}
 
 === Cliente/servidor ===
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)|3=2014 (PI)}}
 En la '''arquitectura cliente-servidor''' las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
 
 En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores de aplicación y servidores de base de datos. Se conoce como '''arquitectura en tres capas''', siendo más escalable y modificable.
+
+El '''middleware''' permite la interoperabilidad entre aplicaciones distribuidas.
+
+El '''thin client''' se encarga de la presentación mientras el servidor hace todo lo demás.
 
 === Servicios web ===
 
@@ -779,6 +784,7 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 
 *'''BODY'''
 
+** '''ABBR''': abreviaturas, ACRONYM está obsoleto.
 ** '''P''': párrafos.
 ** '''H1/H6''': distintos niveles de cabecera.
 ** '''OL''': lista ordenada.
@@ -812,7 +818,7 @@ Las etiquetas más frecuentes y su situación dentro del documento son las sigui
 ** '''APPLET''': para embeber un applet de Java. Se prefiere OBJECT.
 ** '''AUDIO''': añade un audio con reproductor.
 ** '''EMBED''': inserta un objeto no estándar.
-** '''IMG''': para imágenes, se indica la dirección con el atributo SRC.
+** '''IMG''': para imágenes, se indica la dirección con el atributo SRC. Con el atributo USEMAP permite mapas de imagen.
 ** '''OBJECT''': incluye un objeto indicando el tipo con TYPE. Para contenido Flash, applets Java, etc.
 ** '''SOURCE''': para introducir un audio o vídeo. También con VIDEO.
 
@@ -941,6 +947,10 @@ Sintaxis para '''comentarios''':
 
 * '''Usabilidad''': es el estudio del diseño de las aplicaciones y webs para mejorar la interacción de los usuarios, haciéndola más fácil, cómoda e intuitiva.
 
+=== Herramientas ===
+{{cayo-en-convocatoria|1=2014 (PI)}}
+* '''Licornio''': casco con un utensilio alargado para presionar teclas, para personas con discapacidad motriz.
+
 === Software ===
 
 '''Software''' para discapacitados:
@@ -952,7 +962,7 @@ Sintaxis para '''comentarios''':
 * '''Vinux''': distribución basada en Ubuntu, diseñada para discapacitados visuales.
 
 === WCAG ===
-
+{{cayo-en-convocatoria|1=2014 (PI)}}
 '''WCAG''' significa Web Content Accesibility Guidelines.
 
 Pautas WCAG 2.0:<ref>[http://www.sidar.org/traducciones/wcag20/es/#contents Pautas WCAG 2.0]</ref>
