@@ -567,7 +567,7 @@ Un '''sistema de ventanas''' proporciona la interfaz gráfica de usuario a un si
 {{cayo-en-convocatoria|1=2016 (IL)}}
 Opciones de '''programas comunes''':
 
-* '''vi(m)''': x (borrar carácter), dd (borrar línea), u (deshace la última acción), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar)
+* '''vi(m)''': x (borrar carácter), dd (borrar línea), u (deshace la última acción), w (guardar), wq (guardar y salir), q/quit (salir), q! (forzar salir sin guardar), ESC ZZ (guardar y salir)
 
 * '''emacs''': C-x C-s (guardar)
 
@@ -606,10 +606,15 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''df''': muestra espacio libre en disco
 * '''diff''': diferencia entre dos ficheros
 * '''du''': muestra espacio ocupado por el directorio indicado
+* '''echo''': muestra texto por pantalla
+* '''file''': determina el formato del fichero
+* '''find''': busca ficheros o directorios
 * '''fg''': trae a primer plano trabajos ocultados a segundo plano anteriormente con Ctrl+Z
 * '''grep''': ejecuta expresiones regulares sobre texto o ficheros
 * '''head''': muestra el inicio de un fichero. Opuesto a tail.
 * '''htop''': muestra procesos (más visual que top)
+* '''iostat''': monitorización de CPU y disco duro
+* '''kill''': mata procesos
 * '''ln''': crea un enlace duro a un fichero (-s enlace simbólico)
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
@@ -622,15 +627,23 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''modprobe''': añade o elimina módulos del kernel
 * '''mount''': monta un sistema de ficheros
 * '''mv''': renombrar o mover ficheros y directorios
+* '''netstat''': muestra conexiones activas
+* '''nice''': establece una prioridad al proceso (-20 a 19)
 * '''pwd''': muestra directorio activo
 * '''ps''': muestra procesos
 * '''pstree''': muestra árbol de procesos
+* '''renice''': cambia la prioridad de un proceso
 * '''rev''': invierte una cadena
 * '''rm''': borra fichero
 * '''rmdir''': borra directorio vacío. Opuesto a mkdir
+* '''sed''': reemplaza cadenas de texto
+* '''sh''': ejecuta con la shell un fichero
+* '''sleep''': duerme X segundos
 * '''sort''': ordena una lista
+* '''split''': separa ficheros en otros más pequeños
 * '''shutdown''': apaga el sistema
 * '''tail''': muestra el final de un fichero. Opuesto a head
+* '''tar''': crea paquete de ficheros
 * '''time''': calcula el tiempo de ejecución de un comando
 * '''top''': muestra procesos (htop es más visual)
 * '''touch''': crea un fichero o modifica su fecha si ya existe

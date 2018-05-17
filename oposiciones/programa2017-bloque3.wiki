@@ -198,6 +198,12 @@ Las '''transacciones''' de un sistema de gestión de bases de datos deben cumpli
 
 * '''Durabilidad''': una vez realizada la operación, no será deshecha ni ante un error del sistema.
 
+{{cayo-en-convocatoria|1=2014 (PI)}}
+Efectos no deseados:
+* '''Lectura fantasma''': cuando en una transacción se leen filas que no existían cuando se comenzó la transacción.
+* '''Lectura no repetible''': cuando en una misma transacción se lee dos veces la misma fila y tiene valores distintos.
+* '''Lectura sucia''': cuando una operación de lectura lee una fila que va a ser modificada por otra operación en curso.
+
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Los '''niveles de abstracción''' de base de datos son:
 
@@ -236,7 +242,7 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 ** '''TRUNCATE''': vacía todo el contenido de una tabla. Ejemplo: TRUNCATE TABLE 'ALUMNOS';
 
 * '''Lenguaje de manipulación de datos (DML)''': son las órdenes que permite consulta y modificar los datos de la base de datos.
-** '''SELECT''': permite consultar los datos, y junto con otras cláusulas filtrar estos resultados, ordenarlos, etc.
+** '''SELECT''': permite consultar los datos, y junto con otras cláusulas filtrar estos resultados, ordenarlos, etc. (A veces se considera DQL, Data Query Language)
 *** '''ALL/DISTINCT''': selección todos los valores o solo los distintos.
 *** '''FROM''': determina la tabla a explorar. Pueden ser varias usando JOIN (requiere entonces usar WHERE).
 *** '''WHERE''': indica las condiciones que deben cumplirse para que los datos sean devueltos. Pueden ser varias condiciones, combinadas con AND y OR.
@@ -272,6 +278,8 @@ Para búsquedas aproximadas con '''LIKE''' se puede usar el comodín '''%''', po
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
 La operación '''ROLLBACK''' devuelve la base de datos a un estado anterior.
+
+Explain Plan desglosa las operaciones SELECT, INSERT, UPDATE, DELETE.
 
 === Procedimientos almacenados ===
 
