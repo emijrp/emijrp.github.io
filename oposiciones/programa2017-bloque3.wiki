@@ -893,7 +893,7 @@ Namespaces, clases y métodos frecuentes:
 
 {{div col end}}
 
-Para '''conversiones entre tipos''', son frecuentes .ToString() para convertir números en cadenas, o al contrario Int32.Parse("55").
+Para '''conversiones entre tipos''', son frecuentes .ToString() para convertir números en cadenas, o al contrario Int32.Parse("55"). Para convertir cadenas en fechas, se usa '''DateTime.Parse()''' y '''DateTime.ParseExact()'''.
 
 {{cayo-en-convocatoria|1=2016-SE (PI)}}
 Orden de secuencia de eventos para páginas ASP.NET: PreInit, Init, InitComplete, PreLoad, Load, LoadComplete, PreRender, PreRenderComplete, SaveStateComplete, Render, Unload.<ref>[http://www.cryer.co.uk/brian/csharp/ms_dotnet_order_of_page_events.htm Understanding the order of Page events]</ref>
