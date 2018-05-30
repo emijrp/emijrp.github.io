@@ -351,6 +351,12 @@
 </div>
 
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+</div>
+
+<p>La diferencia entre un <b>struct</b> y una <b>class</b> es que los miembros de las estructuras son públicos por defecto, mientras que los de las clases son privados. Cuando un struct se pasa como argumento, en realidad se está pasando una copia del struct, y si es modificada dentro de la función, no afectará a los valores del struct original. Mientras que los objetos (class) se pasan por referencia, por lo que cualquier cambio se verá reflejado en el objeto original.</p>
+
 <h3 id="Java">Java</h3>
 
 <p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
@@ -445,16 +451,113 @@
 
 <h3 id="C#">C#</h3>
 
-<p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+<p><b>C#</b> (C Sharp) es un lenguaje de programación multiparadigma con tipado fuerte. Desarrollado por Microsoft para la plataforma .NET y posteriormente aprobado como estándar por ECMA e ISO. C# es de propósito general y orientado a objetos.</p>
+
+<p>El <b>proyecto Mono</b> proporciona un compilador open-source para C#. Existe un entorno de desarrollo integrado (IDE) llamado MonoDevelop.<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+<p>Un <b>Hola mundo</b> en C#:</p>
+
+<pre>
+using System;
+
+namespace HolaMundo {
+    class MainClass {
+        public static void Main(string[] args) {
+            Console.WriteLine("Hola mundo");
+        }
+    }
+}
+</pre>
+
+<p>Los <b>atributos</b> de las clases pueden ser:<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
+<ul><li><b>public</b>: accesible desde otras clases, no recomendado</li><li><b>private</b>: accesible solo desde su clase, por defecto</li><li><b>protected</b>: accesible desde su clase o derivadas</li><li><b>internal</b>: acceso limitado al ensamblado</li></ul>
+
+</td>
+<td valign="top">
+
+<p>Las <b>variables</b> se declaran e inicializan de la siguiente forma:</p>
+
+<pre>
+bool booleano = true;
+int entero = 5; // tambien long
+float flotante = 5.7; // tambien double
+string cadena = "Hola"; // tambien char
+int[] enteros = {1, 2, 3, 4}; // vector de enteros
+List< string > lista = new List< string >(); // clase lista
+</pre>
 
 <p>Las variables pueden empezar por _ y contener caracteres Unicode.</p>
+
+<p>Las <b>estructuras de control</b> son:</p>
+
+<pre>
+if (condicion) { ...; } else { ...; }
+
+variable = (condicion) ? ... : ...;
+
+switch (condicion) { case 1: ...; break; 
+case 2: ...; break; default: ...; break; }
+
+</pre>
+
+<p>Las <b>excepciones</b> se controlan así:</p>
+
+<pre>
+try {
+    int a = 1;
+    int b = 0;
+    int n = a / b;
+} catch (DivideByZeroException e) {
+    Console.WriteLine("No se puede dividir por cero");
+}
+</pre>
+
+</td>
+</tr>
+</table>
 
 <p><b>Palabras reservadas</b> en C#:</p>
 <div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
 
+<ul><li>abstract</li><li>as</li><li>base</li><li>bool</li><li>break</li><li>byte</li><li>case</li><li>catch</li><li>char</li><li>checked</li><li>class</li><li>const</li><li>continue</li><li>decimal</li><li>default</li><li>delegate</li><li>do</li><li>double</li><li>else</li><li>enum</li><li>event</li><li>explicit</li><li>extern</li><li>false</li><li>finally</li><li>fixed</li><li>float</li><li>for</li><li>foreach</li><li>goto</li><li>if</li><li>implicit</li><li>in</li><li>int</li><li>interface</li><li>internal</li><li>is</li><li>lock</li><li>long</li><li>namespace</li><li>new</li><li>null</li><li>object</li><li>operator</li><li>out</li><li>override</li><li>params</li><li>private</li><li>protected</li><li>public</li><li>readonly</li><li>ref</li><li>return</li><li>sbyte</li><li>sealed</li><li>short</li><li>sizeof</li><li>stackalloc</li><li>static</li><li>string</li><li>struct</li><li>switch</li><li>this</li><li>throw</li><li>true</li><li>try</li><li>typeof</li><li>uint</li><li>ulong</li><li>unchecked</li><li>unsafe</li><li>ushort</li><li>using</li><li>using static</li><li>virtual</li><li>void</li><li>volatile</li><li>while</li></ul>
+</div>
+
+
+<br clear="all" />
+
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+</div>
+
+<p>Para hacer uso de espacios de nombres (namespaces) se utiliza la directiva <b>using</b>. Una muy frecuente es <b>using System</b> con funciones básicas del sistema. Dentro de los namespaces están las clases, por ejemplo la clase <b>Console</b> está dentro del namespace <b>System</b>. La llamada <b>System.Console.WriteLine()</b> imprimirá texto por consola.</p>
+
+<br clear="all" />
+
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+</div>
+
+<p>Namespaces, clases y métodos frecuentes:</p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>String</b>: String cadena;</li><ul><li><b>Length</b>: longitud de la cadena. Ej: cadena.Length;</li><li><b>Split()</b>: separa una cadena. Ej: cadena.Split(',');</li><li><b>Substring()</b>: extrae subcadena. Ej: cadena.Substring(0, 3);</li><li><b>ToLower()</b>: minimiza cadena. Ej: cadena.ToLower();</li><li><b>ToUpper()</b>: maximiza cadena. Ej: cadena.ToUpper();</li></ul><li><b>System.Collections.Generic</b>:<sup>[<a id="refback3" href="#ref3">3</a>]</sup></li><ul><li><b>BitArray</b>: array de booleanos</li><li><b>Comparer</b>: compara dos objetos</li><li><b>DictionaryBase</b>: pares clave-valor</li><li><b>Hashtable</b>: pares clave-valor con clave hasheada</li><li><b>List</b>: el tamaño aumenta dinámicamente. Ej: lista.Add("hola"); lista.Count; lista.Remove("hola");</li><li><b>Queue</b>: colas. Ej: cola.Enqueue("hola"); cola.Peek(); cola.Dequeue();</li><li><b>SortedList</b>: lista de pares clave-valor ordenada por clave y accesible por clave e índice</li><li><b>Stack</b>: pilas. Ej: pila.Push(); pila.Peek(); pila.Pop();</li><li><b>StructuralComparison</b>: comparación estructural de dos colecciones de objetos</li></ul><li><b>System.Console</b></li><ul><li><b>Read()</b>: lee el siguiente carácter de la entrada estándar.</li><li><b>ReadLine()</b>: lee la siguiente línea de la entrada estándar. Ej: cadena = Console.ReadLine();</li><li><b>WriteLine()</b>: escribe una línea en la salida estándar. Ej: Console.WriteLine("Hola {0}!", cadena);</li></ul><li><b>System.Web.UI.HtmlControls</b><sup>[<a id="refback4" href="#ref4">4</a>]</sup></li><ul><li><b>HtmlAnchor</b>: proporciona acceso al elemento HTML A</li><li><b>HtmlButton</b>:</li><li><b>HtmlForm</b>:</li><li><b>HtmlHead</b>:</li><li><b>HtmlInputButton</b>: </li><li><b>HtmlInputCheckBox</b>:</li><li><b>HtmlInputHidden</b>:</li><li><b>HtmlInputPassword</b>: </li><li><b>HtmlInputRadioButton</b>: </li><li><b>HtmlInputSubmit</b>: </li><li><b>HtmlMeta</b>: </li><li><b>HtmlTable</b>: </li><li><b>HtmlTableCell</b>: acceso a los elementos TD y TH</li><li><b>HtmlTableRow</b>: acceso al elemento TR</li><li><b>HtmlTitle</b>: acceso al elemento TITLE</li></ul></ul>
 
 </div>
 
+
+<p>Para <b>conversiones entre tipos</b>, son frecuentes .ToString() para convertir números en cadenas, o al contrario Int32.Parse("55").</p>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+</div>
+
+<p>Orden de secuencia de eventos para páginas ASP.NET: PreInit, Init, InitComplete, PreLoad, Load, LoadComplete, PreRender, PreRenderComplete, SaveStateComplete, Render, Unload.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></p>
 
 <h2 id="Tema 7: Arquitectura de sistemas cliente/servidor">Tema 7: Arquitectura de sistemas cliente/servidor</h2>
 
@@ -608,11 +711,11 @@
 
 <p><b>WCAG</b> significa Web Content Accesibility Guidelines.</p>
 
-<p>Pautas WCAG 2.0:<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
+<p>Pautas WCAG 2.0:<sup>[<a id="refback6" href="#ref6">6</a>]</sup></p>
 
 <ul><li><b>Perceptible</b></li><ul><li>Proporcionar <b>alternativas textuales para todo contenido no textual</b> de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.</li><li>Medios tempodependientes: proporcionar alternativas para los medios tempodependientes.</li><li>Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más simple) sin perder información o estructura.</li><li>Facilitar a los usuarios ver y oír el contenido, incluyendo la <b>separación entre el primer plano y el fondo</b>.</li></ul><li><b>Operable</b></li><ul><li>Proporcionar acceso a toda la funcionalidad mediante el <b>teclado</b>.</li><li>Proporcionar a los usuarios el <b>tiempo suficiente</b> para leer y usar el contenido.</li><li>No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.</li><li>Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.</li></ul><li><b>Comprensible</b></li><ul><li>Hacer que los contenidos textuales resulten <b>legibles y comprensibles</b>.</li><li>Hacer que las páginas web aparezcan y operen de manera <b>predecible</b>.</li><li>Ayudar a los usuarios a evitar y <b>corregir los errores</b>.</li></ul><li><b>Robusto</b></li><ul><li>Maximizar la <b>compatibilidad</b> con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.</li></ul></ul>
 
-<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
+<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback7" href="#ref7">7</a>]</sup></p>
 
 <p>Para el <b>nivel A</b> son <b>25 criterios</b>:</p>
 
@@ -699,8 +802,13 @@
 <ol>
 <!--references-->
 
-<li id="ref1"><a href="#refback1">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
-<li id="ref2"><a href="#refback2">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
+<li id="ref1"><a href="#refback1">↑</a> <a href="http://www.linuxhispano.net/cursos/curso-c-con-mono/">Curso C# con Mono</a></li>
+<li id="ref2"><a href="#refback2">↑</a> <a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/accessibility-levels">Niveles de accesibilidad</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.2">System.Collections.Generic Namespace</a></li>
+<li id="ref4"><a href="#refback4">↑</a> <a href="https://msdn.microsoft.com/es-es/library/system.web.ui.htmlcontrols(v=vs.110).aspx">Espacio de nombres System.Web.UI.HtmlControls</a></li>
+<li id="ref5"><a href="#refback5">↑</a> <a href="http://www.cryer.co.uk/brian/csharp/ms_dotnet_order_of_page_events.htm">Understanding the order of Page events</a></li>
+<li id="ref6"><a href="#refback6">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
+<li id="ref7"><a href="#refback7">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -721,7 +829,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-17 10:39:15 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-30 12:46:16 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

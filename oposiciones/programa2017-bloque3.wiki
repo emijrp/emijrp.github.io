@@ -408,6 +408,9 @@ Los '''patrones de diseño''' son técnicas para resolver problemas típicos dur
 
 {{recuadro|1='''Arquitectura Java EE y plataforma .NET''': componentes, persistencia y seguridad. Características, elementos y funciones en entornos Java, C, C++ y .Net.}}
 
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+La diferencia entre un '''struct''' y una '''class''' es que los miembros de las estructuras son públicos por defecto, mientras que los de las clases son privados. Cuando un struct se pasa como argumento, en realidad se está pasando una copia del struct, y si es modificada dentro de la función, no afectará a los valores del struct original. Mientras que los objetos (class) se pasan por referencia, por lo que cualquier cambio se verá reflejado en el objeto original.
+
 === Java ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
@@ -684,14 +687,216 @@ Para incluir una biblioteca estándar de C en C++, se añade una 'c' delante al 
 
 === C# ===
 
-Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+'''C#''' (C Sharp) es un lenguaje de programación multiparadigma con tipado fuerte. Desarrollado por Microsoft para la plataforma .NET y posteriormente aprobado como estándar por ECMA e ISO. C# es de propósito general y orientado a objetos.
+
+El '''proyecto Mono''' proporciona un compilador open-source para C#. Existe un entorno de desarrollo integrado (IDE) llamado MonoDevelop.<ref>[http://www.linuxhispano.net/cursos/curso-c-con-mono/ Curso C# con Mono]</ref>
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+Un '''Hola mundo''' en C#:
+
+<pre>
+using System;
+
+namespace HolaMundo {
+    class MainClass {
+        public static void Main(string[] args) {
+            Console.WriteLine("Hola mundo");
+        }
+    }
+}
+</pre>
+
+Los '''atributos''' de las clases pueden ser:<ref>[https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/accessibility-levels Niveles de accesibilidad]</ref>
+* '''public''': accesible desde otras clases, no recomendado
+* '''private''': accesible solo desde su clase, por defecto
+* '''protected''': accesible desde su clase o derivadas
+* '''internal''': acceso limitado al ensamblado
+
+</td>
+<td valign="top">
+
+Las '''variables''' se declaran e inicializan de la siguiente forma:
+
+<pre>
+bool booleano = true;
+int entero = 5; // tambien long
+float flotante = 5.7; // tambien double
+string cadena = "Hola"; // tambien char
+int[] enteros = {1, 2, 3, 4}; // vector de enteros
+List< string > lista = new List< string >(); // clase lista
+</pre>
 
 Las variables pueden empezar por _ y contener caracteres Unicode.
 
+Las '''estructuras de control''' son:
+
+<pre>
+if (condicion) { ...; } else { ...; }
+
+variable = (condicion) ? ... : ...;
+
+switch (condicion) { case 1: ...; break; 
+case 2: ...; break; default: ...; break; }
+
+</pre>
+
+Las '''excepciones''' se controlan así:
+
+<pre>
+try {
+    int a = 1;
+    int b = 0;
+    int n = a / b;
+} catch (DivideByZeroException e) {
+    Console.WriteLine("No se puede dividir por cero");
+}
+</pre>
+
+</td>
+</tr>
+</table>
+
 '''Palabras reservadas''' en C#:
 {{div col 4}}
+* abstract
+* as
+* base
+* bool
+* break
+* byte
+* case
+* catch
+* char
+* checked
+* class
+* const
+* continue
+* decimal
+* default
+* delegate
+* do
+* double
+* else
+* enum
+* event
+* explicit
+* extern
+* false
+* finally
+* fixed
+* float
+* for
+* foreach
+* goto
+* if
+* implicit
+* in
+* int
+* interface
+* internal
+* is
+* lock
+* long
+* namespace
+* new
+* null
+* object
+* operator
+* out
+* override
+* params
+* private
+* protected
+* public
+* readonly
+* ref
+* return
+* sbyte
+* sealed
+* short
+* sizeof
+* stackalloc
+* static
+* string
+* struct
+* switch
+* this
+* throw
+* true
+* try
+* typeof
+* uint
+* ulong
+* unchecked
+* unsafe
+* ushort
+* using
+* using static
+* virtual
+* void
+* volatile
+* while
+{{div col end}}
+
+{{clear}}
+
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+Para hacer uso de espacios de nombres (namespaces) se utiliza la directiva '''using'''. Una muy frecuente es '''using System''' con funciones básicas del sistema. Dentro de los namespaces están las clases, por ejemplo la clase '''Console''' está dentro del namespace '''System'''. La llamada '''System.Console.WriteLine()''' imprimirá texto por consola.
+
+{{clear}}
+
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+Namespaces, clases y métodos frecuentes:
+{{div col 2}}
+* '''String''': String cadena;
+** '''Length''': longitud de la cadena. Ej: cadena.Length;
+** '''Split()''': separa una cadena. Ej: cadena.Split(',');
+** '''Substring()''': extrae subcadena. Ej: cadena.Substring(0, 3);
+** '''ToLower()''': minimiza cadena. Ej: cadena.ToLower();
+** '''ToUpper()''': maximiza cadena. Ej: cadena.ToUpper();
+
+* '''System.Collections.Generic''':<ref>[https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.2 System.Collections.Generic Namespace]</ref>
+** '''BitArray''': array de booleanos
+** '''Comparer''': compara dos objetos
+** '''DictionaryBase''': pares clave-valor
+** '''Hashtable''': pares clave-valor con clave hasheada
+** '''List''': el tamaño aumenta dinámicamente. Ej: lista.Add("hola"); lista.Count; lista.Remove("hola");
+** '''Queue''': colas. Ej: cola.Enqueue("hola"); cola.Peek(); cola.Dequeue();
+** '''SortedList''': lista de pares clave-valor ordenada por clave y accesible por clave e índice
+** '''Stack''': pilas. Ej: pila.Push(); pila.Peek(); pila.Pop();
+** '''StructuralComparison''': comparación estructural de dos colecciones de objetos
+
+* '''System.Console'''
+** '''Read()''': lee el siguiente carácter de la entrada estándar.
+** '''ReadLine()''': lee la siguiente línea de la entrada estándar. Ej: cadena = Console.ReadLine();
+** '''WriteLine()''': escribe una línea en la salida estándar. Ej: Console.WriteLine("Hola {0}!", cadena);
+
+* '''System.Web.UI.HtmlControls'''<ref>[https://msdn.microsoft.com/es-es/library/system.web.ui.htmlcontrols(v=vs.110).aspx Espacio de nombres System.Web.UI.HtmlControls]</ref>
+** '''HtmlAnchor''': proporciona acceso al elemento HTML A
+** '''HtmlButton''':
+** '''HtmlForm''':
+** '''HtmlHead''':
+** '''HtmlInputButton''': 
+** '''HtmlInputCheckBox''':
+** '''HtmlInputHidden''':
+** '''HtmlInputPassword''': 
+** '''HtmlInputRadioButton''': 
+** '''HtmlInputSubmit''': 
+** '''HtmlMeta''': 
+** '''HtmlTable''': 
+** '''HtmlTableCell''': acceso a los elementos TD y TH
+** '''HtmlTableRow''': acceso al elemento TR
+** '''HtmlTitle''': acceso al elemento TITLE
 
 {{div col end}}
+
+Para '''conversiones entre tipos''', son frecuentes .ToString() para convertir números en cadenas, o al contrario Int32.Parse("55").
+
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+Orden de secuencia de eventos para páginas ASP.NET: PreInit, Init, InitComplete, PreLoad, Load, LoadComplete, PreRender, PreRenderComplete, SaveStateComplete, Render, Unload.<ref>[http://www.cryer.co.uk/brian/csharp/ms_dotnet_order_of_page_events.htm Understanding the order of Page events]</ref>
 
 == Tema 7: Arquitectura de sistemas cliente/servidor ==
 
