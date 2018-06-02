@@ -294,6 +294,66 @@ Los triggers se componen de:
 * '''Restricción''': la condición que ha de cumplirse para que se ejecute el código asociado al trigger.
 * '''Acción a ejecutar''': el código en sí que se ejecuta al cumplirse la restricción o condición.
 
+=== MySQL ===
+
+'''Operaciones''' con '''cadenas''':<ref>[https://dev.mysql.com/doc/refman/8.0/en/string-functions.html MySQL: String Functions]</ref>
+{{div col 2}}
+* '''CONCAT()''': concatena varias cadenas. Ej: CONCAT('H', 'ol', 'a!');
+* '''LEFT()''': devuelve los N caracteres más a la izquierda. Ej: LEFT('12345', 3);
+* '''LENGTH()''': longitud de la cadena. Ej: LENGTH('Una cadena');
+* '''LIKE''': compara con patrón. Ej: LIKE 'Maria%';
+* '''LOWER()''': minimiza una cadena. También LCASE(). Ej: LOWER('HOLA');
+* '''LPAD()''': rellena hasta N caracteres por la izquierda. Ej: LPAD('Ana', 10, ' ');
+* '''LTRIM()''': elimina espacios al comienzo. Ej: LTRIM('   Ana');
+* '''REPLACE()''': reemplaza subcadenas. Ej: REPLACE('Arg!', 'r', 'rrr');
+* '''RIGHT()''': devuelve los N caracteres más a la derecha. Ej: RIGHT('XYZ', 2);
+* '''RPAD()''': rellena hasta N caracteres por la derecha. Ej: RPAD('Ana', 10, ' ');
+* '''RTRIM()''': elimina espacios al final. Ej: RTRIM('Ana   ');
+* '''SUBSTRING()''': extrae subcadena. También SUBSTR(). Ej: SUBSTRING('Nombre', 3, 2);
+* '''UPPER()''': maximiza una cadena. También UCASE(). Ej: UPPER('adios');
+{{div col end}}
+
+Las cadenas empiezan en la posición 1.
+
+'''Operaciones''' con '''fechas''':<ref>[https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html Date and Time Functions]</ref>
+{{div col 2}}
+* '''CURRENT_DATE()''': devuelve la fecha actual (YYYY-MM-DD). También CURDATE();
+* '''CURRENT_TIME()''': devuelve la hora actual (HH:MM:SS). También CURTIME();
+* '''DATE_ADD()''': sumar intervalo a una fecha. Ej: DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+* '''DATE_SUB()''': resta intervalo a una fecha. Ej: DATE_SUB(CURDATE(), INTERVAL 1 YEAR);
+* '''DATE_FORMAT()''': imprime fecha en formato indicado. Ej: DATE_FORMAT(CURDATE(), "%Y-%m-%d %H:%i:%S");
+* '''HOUR()''': extrae la hora de una fecha (0..23). Ej: HOUR(NOW());
+* '''MINUTE()''': extrae los minutos de una fecha (0..59). Ej: MINUTE(NOW());
+* '''MONTH()''': extrae el mes de una fecha. Ej: MONTH(CURDATE());
+* '''NOW()''': devuelve la fecha y hora actual (YYYY-MM-DD HH:MM:SS).
+* '''SECOND()''': extrae los segundos de una fecha (0..59). Ej: SECOND(NOW());
+* '''TO_DAYS()''': convierte una fecha en días desde el año 0. Ej: TO_DAYS(CURDATE());
+* '''TO_SECONDS()''': convierte una fecha en segundos desde el año 0. Ej: TO_SECONDS(CURDATE());
+* '''WEEKDAY()''': devuelve el día de la semana (0..6, 0 = Monday). Ej: WEEKDAY(CURDATE());
+* '''WEEKOFYEAR()''': devuelve la semana del año (1..53). Ej: WEEKOFYEAR(CURDATE());
+* '''YEAR()''': extrae el año de una fecha. Ej: YEAR(CURDATE());
+{{div col end}}
+
+'''Formatos''' de '''fechas''':
+{{div col 3}}
+* '''%b''': nombre del mes abreviado (Jan..Dec)
+* '''%c''': número del mes (0..12)
+* '''%D''': día del mes con sufijo (1st..3rd..)
+* '''%d''': día del mes (00..31)
+* '''%e''': día del mes (0..31)
+* '''%H''': hora (00..23)
+* '''%h''': hora (01..12)
+* '''%i''': minutos (00..59)
+* '''%M''': nombre del mes completo (January..December)
+* '''%m''': mes (01..12)
+* '''%S''': segundos (00..59)
+* '''%T''': hora (hh:mm:ss)
+* '''%Y''': año (YYYY)
+* '''%y''': año (YY)
+{{div col end}}
+
+=== PostgreSQL ===
+
 == Tema 5: Diseño y programación orientada a objetos ==
 
 {{recuadro|1='''Diseño y programación orientada a objetos'''. Elementos y componentes software: objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML).}}

@@ -55,6 +55,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#ANSI SQL">ANSI SQL</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.2 <a href="#Procedimientos almacenados">Procedimientos almacenados</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.3 <a href="#Eventos y disparadores">Eventos y disparadores</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.4 <a href="#MySQL">MySQL</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.5 <a href="#PostgreSQL">PostgreSQL</a><br/>
 &nbsp;5. <a href="#Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;5.1 <a href="#UML">UML</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;5.2 <a href="#Patrones de diseño">Patrones de diseño</a><br/>
@@ -291,6 +293,33 @@
 <p>Los triggers se componen de:</p>
 <ul><li><b>Llamada de activación</b>: la sentencia que activa el trigger.</li><li><b>Restricción</b>: la condición que ha de cumplirse para que se ejecute el código asociado al trigger.</li><li><b>Acción a ejecutar</b>: el código en sí que se ejecuta al cumplirse la restricción o condición.</li></ul>
 
+<h3 id="MySQL">MySQL</h3>
+
+<p><b>Operaciones</b> con <b>cadenas</b>:<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>CONCAT()</b>: concatena varias cadenas. Ej: CONCAT('H', 'ol', 'a!');</li><li><b>LEFT()</b>: devuelve los N caracteres más a la izquierda. Ej: LEFT('12345', 3);</li><li><b>LENGTH()</b>: longitud de la cadena. Ej: LENGTH('Una cadena');</li><li><b>LIKE</b>: compara con patrón. Ej: LIKE 'Maria%';</li><li><b>LOWER()</b>: minimiza una cadena. También LCASE(). Ej: LOWER('HOLA');</li><li><b>LPAD()</b>: rellena hasta N caracteres por la izquierda. Ej: LPAD('Ana', 10, ' ');</li><li><b>LTRIM()</b>: elimina espacios al comienzo. Ej: LTRIM('   Ana');</li><li><b>REPLACE()</b>: reemplaza subcadenas. Ej: REPLACE('Arg!', 'r', 'rrr');</li><li><b>RIGHT()</b>: devuelve los N caracteres más a la derecha. Ej: RIGHT('XYZ', 2);</li><li><b>RPAD()</b>: rellena hasta N caracteres por la derecha. Ej: RPAD('Ana', 10, ' ');</li><li><b>RTRIM()</b>: elimina espacios al final. Ej: RTRIM('Ana   ');</li><li><b>SUBSTRING()</b>: extrae subcadena. También SUBSTR(). Ej: SUBSTRING('Nombre', 3, 2);</li><li><b>UPPER()</b>: maximiza una cadena. También UCASE(). Ej: UPPER('adios');</li></ul>
+</div>
+
+
+<p>Las cadenas empiezan en la posición 1.</p>
+
+<p><b>Operaciones</b> con <b>fechas</b>:<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>CURRENT_DATE()</b>: devuelve la fecha actual (YYYY-MM-DD). También CURDATE();</li><li><b>CURRENT_TIME()</b>: devuelve la hora actual (HH:MM:SS). También CURTIME();</li><li><b>DATE_ADD()</b>: sumar intervalo a una fecha. Ej: DATE_ADD(CURDATE(), INTERVAL 1 DAY);</li><li><b>DATE_SUB()</b>: resta intervalo a una fecha. Ej: DATE_SUB(CURDATE(), INTERVAL 1 YEAR);</li><li><b>DATE_FORMAT()</b>: imprime fecha en formato indicado. Ej: DATE_FORMAT(CURDATE(), "%Y-%m-%d %H:%i:%S");</li><li><b>HOUR()</b>: extrae la hora de una fecha (0..23). Ej: HOUR(NOW());</li><li><b>MINUTE()</b>: extrae los minutos de una fecha (0..59). Ej: MINUTE(NOW());</li><li><b>MONTH()</b>: extrae el mes de una fecha. Ej: MONTH(CURDATE());</li><li><b>NOW()</b>: devuelve la fecha y hora actual (YYYY-MM-DD HH:MM:SS).</li><li><b>SECOND()</b>: extrae los segundos de una fecha (0..59). Ej: SECOND(NOW());</li><li><b>TO_DAYS()</b>: convierte una fecha en días desde el año 0. Ej: TO_DAYS(CURDATE());</li><li><b>TO_SECONDS()</b>: convierte una fecha en segundos desde el año 0. Ej: TO_SECONDS(CURDATE());</li><li><b>WEEKDAY()</b>: devuelve el día de la semana (0..6, 0 = Monday). Ej: WEEKDAY(CURDATE());</li><li><b>WEEKOFYEAR()</b>: devuelve la semana del año (1..53). Ej: WEEKOFYEAR(CURDATE());</li><li><b>YEAR()</b>: extrae el año de una fecha. Ej: YEAR(CURDATE());</li></ul>
+</div>
+
+
+<p><b>Formatos</b> de <b>fechas</b>:</p>
+<div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
+
+<ul><li><b>%b</b>: nombre del mes abreviado (Jan..Dec)</li><li><b>%c</b>: número del mes (0..12)</li><li><b>%D</b>: día del mes con sufijo (1st..3rd..)</li><li><b>%d</b>: día del mes (00..31)</li><li><b>%e</b>: día del mes (0..31)</li><li><b>%H</b>: hora (00..23)</li><li><b>%h</b>: hora (01..12)</li><li><b>%i</b>: minutos (00..59)</li><li><b>%M</b>: nombre del mes completo (January..December)</li><li><b>%m</b>: mes (01..12)</li><li><b>%S</b>: segundos (00..59)</li><li><b>%T</b>: hora (hh:mm:ss)</li><li><b>%Y</b>: año (YYYY)</li><li><b>%y</b>: año (YY)</li></ul>
+</div>
+
+
+<h3 id="PostgreSQL">PostgreSQL</h3>
+
 <h2 id="Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</h2>
 
 <div style="border: 2px solid lightgrey;background-color: lightblue;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;">
@@ -453,7 +482,7 @@
 
 <p><b>C#</b> (C Sharp) es un lenguaje de programación multiparadigma con tipado fuerte. Desarrollado por Microsoft para la plataforma .NET y posteriormente aprobado como estándar por ECMA e ISO. C# es de propósito general y orientado a objetos.</p>
 
-<p>El <b>proyecto Mono</b> proporciona un compilador open-source para C#. Existe un entorno de desarrollo integrado (IDE) llamado MonoDevelop.<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
+<p>El <b>proyecto Mono</b> proporciona un compilador open-source para C#. Existe un entorno de desarrollo integrado (IDE) llamado MonoDevelop.<sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
 
 <table class="wikitable" width="99%">
 <tr>
@@ -473,7 +502,7 @@ namespace HolaMundo {
 }
 </pre>
 
-<p>Los <b>atributos</b> de las clases pueden ser:<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
+<p>Los <b>atributos</b> de las clases pueden ser:<sup>[<a id="refback4" href="#ref4">4</a>]</sup></p>
 <ul><li><b>public</b>: accesible desde otras clases, no recomendado</li><li><b>private</b>: accesible solo desde su clase, por defecto</li><li><b>protected</b>: accesible desde su clase o derivadas</li><li><b>internal</b>: acceso limitado al ensamblado</li></ul>
 
 </td>
@@ -546,7 +575,7 @@ try {
 <p>Namespaces, clases y métodos frecuentes:</p>
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>String</b>: String cadena;</li><ul><li><b>Length</b>: longitud de la cadena. Ej: cadena.Length;</li><li><b>Split()</b>: separa una cadena. Ej: cadena.Split(',');</li><li><b>Substring()</b>: extrae subcadena. Ej: cadena.Substring(0, 3);</li><li><b>ToLower()</b>: minimiza cadena. Ej: cadena.ToLower();</li><li><b>ToUpper()</b>: maximiza cadena. Ej: cadena.ToUpper();</li></ul><li><b>System.Collections.Generic</b>:<sup>[<a id="refback3" href="#ref3">3</a>]</sup></li><ul><li><b>BitArray</b>: array de booleanos</li><li><b>Comparer</b>: compara dos objetos</li><li><b>DictionaryBase</b>: pares clave-valor</li><li><b>Hashtable</b>: pares clave-valor con clave hasheada</li><li><b>List</b>: el tamaño aumenta dinámicamente. Ej: lista.Add("hola"); lista.Count; lista.Remove("hola");</li><li><b>Queue</b>: colas. Ej: cola.Enqueue("hola"); cola.Peek(); cola.Dequeue();</li><li><b>SortedList</b>: lista de pares clave-valor ordenada por clave y accesible por clave e índice</li><li><b>Stack</b>: pilas. Ej: pila.Push(); pila.Peek(); pila.Pop();</li><li><b>StructuralComparison</b>: comparación estructural de dos colecciones de objetos</li></ul><li><b>System.Console</b></li><ul><li><b>Read()</b>: lee el siguiente carácter de la entrada estándar.</li><li><b>ReadLine()</b>: lee la siguiente línea de la entrada estándar. Ej: cadena = Console.ReadLine();</li><li><b>WriteLine()</b>: escribe una línea en la salida estándar. Ej: Console.WriteLine("Hola {0}!", cadena);</li></ul><li><b>System.Web.UI.HtmlControls</b><sup>[<a id="refback4" href="#ref4">4</a>]</sup></li><ul><li><b>HtmlAnchor</b>: proporciona acceso al elemento HTML A</li><li><b>HtmlButton</b>:</li><li><b>HtmlForm</b>:</li><li><b>HtmlHead</b>:</li><li><b>HtmlInputButton</b>: </li><li><b>HtmlInputCheckBox</b>:</li><li><b>HtmlInputHidden</b>:</li><li><b>HtmlInputPassword</b>: </li><li><b>HtmlInputRadioButton</b>: </li><li><b>HtmlInputSubmit</b>: </li><li><b>HtmlMeta</b>: </li><li><b>HtmlTable</b>: </li><li><b>HtmlTableCell</b>: acceso a los elementos TD y TH</li><li><b>HtmlTableRow</b>: acceso al elemento TR</li><li><b>HtmlTitle</b>: acceso al elemento TITLE</li></ul></ul>
+<ul><li><b>String</b>: String cadena;</li><ul><li><b>Length</b>: longitud de la cadena. Ej: cadena.Length;</li><li><b>Split()</b>: separa una cadena. Ej: cadena.Split(',');</li><li><b>Substring()</b>: extrae subcadena. Ej: cadena.Substring(0, 3);</li><li><b>ToLower()</b>: minimiza cadena. Ej: cadena.ToLower();</li><li><b>ToUpper()</b>: maximiza cadena. Ej: cadena.ToUpper();</li></ul><li><b>System.Collections.Generic</b>:<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>BitArray</b>: array de booleanos</li><li><b>Comparer</b>: compara dos objetos</li><li><b>DictionaryBase</b>: pares clave-valor</li><li><b>Hashtable</b>: pares clave-valor con clave hasheada</li><li><b>List</b>: el tamaño aumenta dinámicamente. Ej: lista.Add("hola"); lista.Count; lista.Remove("hola");</li><li><b>Queue</b>: colas. Ej: cola.Enqueue("hola"); cola.Peek(); cola.Dequeue();</li><li><b>SortedList</b>: lista de pares clave-valor ordenada por clave y accesible por clave e índice</li><li><b>Stack</b>: pilas. Ej: pila.Push(); pila.Peek(); pila.Pop();</li><li><b>StructuralComparison</b>: comparación estructural de dos colecciones de objetos</li></ul><li><b>System.Console</b></li><ul><li><b>Read()</b>: lee el siguiente carácter de la entrada estándar.</li><li><b>ReadLine()</b>: lee la siguiente línea de la entrada estándar. Ej: cadena = Console.ReadLine();</li><li><b>WriteLine()</b>: escribe una línea en la salida estándar. Ej: Console.WriteLine("Hola {0}!", cadena);</li></ul><li><b>System.Web.UI.HtmlControls</b><sup>[<a id="refback6" href="#ref6">6</a>]</sup></li><ul><li><b>HtmlAnchor</b>: proporciona acceso al elemento HTML A</li><li><b>HtmlButton</b>:</li><li><b>HtmlForm</b>:</li><li><b>HtmlHead</b>:</li><li><b>HtmlInputButton</b>: </li><li><b>HtmlInputCheckBox</b>:</li><li><b>HtmlInputHidden</b>:</li><li><b>HtmlInputPassword</b>: </li><li><b>HtmlInputRadioButton</b>: </li><li><b>HtmlInputSubmit</b>: </li><li><b>HtmlMeta</b>: </li><li><b>HtmlTable</b>: </li><li><b>HtmlTableCell</b>: acceso a los elementos TD y TH</li><li><b>HtmlTableRow</b>: acceso al elemento TR</li><li><b>HtmlTitle</b>: acceso al elemento TITLE</li></ul></ul>
 
 </div>
 
@@ -557,7 +586,7 @@ try {
 <p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
 </div>
 
-<p>Orden de secuencia de eventos para páginas ASP.NET: PreInit, Init, InitComplete, PreLoad, Load, LoadComplete, PreRender, PreRenderComplete, SaveStateComplete, Render, Unload.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></p>
+<p>Orden de secuencia de eventos para páginas ASP.NET: PreInit, Init, InitComplete, PreLoad, Load, LoadComplete, PreRender, PreRenderComplete, SaveStateComplete, Render, Unload.<sup>[<a id="refback7" href="#ref7">7</a>]</sup></p>
 
 <h2 id="Tema 7: Arquitectura de sistemas cliente/servidor">Tema 7: Arquitectura de sistemas cliente/servidor</h2>
 
@@ -711,11 +740,11 @@ try {
 
 <p><b>WCAG</b> significa Web Content Accesibility Guidelines.</p>
 
-<p>Pautas WCAG 2.0:<sup>[<a id="refback6" href="#ref6">6</a>]</sup></p>
+<p>Pautas WCAG 2.0:<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
 
 <ul><li><b>Perceptible</b></li><ul><li>Proporcionar <b>alternativas textuales para todo contenido no textual</b> de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.</li><li>Medios tempodependientes: proporcionar alternativas para los medios tempodependientes.</li><li>Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más simple) sin perder información o estructura.</li><li>Facilitar a los usuarios ver y oír el contenido, incluyendo la <b>separación entre el primer plano y el fondo</b>.</li></ul><li><b>Operable</b></li><ul><li>Proporcionar acceso a toda la funcionalidad mediante el <b>teclado</b>.</li><li>Proporcionar a los usuarios el <b>tiempo suficiente</b> para leer y usar el contenido.</li><li>No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.</li><li>Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.</li></ul><li><b>Comprensible</b></li><ul><li>Hacer que los contenidos textuales resulten <b>legibles y comprensibles</b>.</li><li>Hacer que las páginas web aparezcan y operen de manera <b>predecible</b>.</li><li>Ayudar a los usuarios a evitar y <b>corregir los errores</b>.</li></ul><li><b>Robusto</b></li><ul><li>Maximizar la <b>compatibilidad</b> con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.</li></ul></ul>
 
-<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback7" href="#ref7">7</a>]</sup></p>
+<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
 
 <p>Para el <b>nivel A</b> son <b>25 criterios</b>:</p>
 
@@ -802,13 +831,15 @@ try {
 <ol>
 <!--references-->
 
-<li id="ref1"><a href="#refback1">↑</a> <a href="http://www.linuxhispano.net/cursos/curso-c-con-mono/">Curso C# con Mono</a></li>
-<li id="ref2"><a href="#refback2">↑</a> <a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/accessibility-levels">Niveles de accesibilidad</a></li>
-<li id="ref3"><a href="#refback3">↑</a> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.2">System.Collections.Generic Namespace</a></li>
-<li id="ref4"><a href="#refback4">↑</a> <a href="https://msdn.microsoft.com/es-es/library/system.web.ui.htmlcontrols(v=vs.110).aspx">Espacio de nombres System.Web.UI.HtmlControls</a></li>
-<li id="ref5"><a href="#refback5">↑</a> <a href="http://www.cryer.co.uk/brian/csharp/ms_dotnet_order_of_page_events.htm">Understanding the order of Page events</a></li>
-<li id="ref6"><a href="#refback6">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
-<li id="ref7"><a href="#refback7">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
+<li id="ref1"><a href="#refback1">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/string-functions.html">MySQL: String Functions</a></li>
+<li id="ref2"><a href="#refback2">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html">Date and Time Functions</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="http://www.linuxhispano.net/cursos/curso-c-con-mono/">Curso C# con Mono</a></li>
+<li id="ref4"><a href="#refback4">↑</a> <a href="https://docs.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/accessibility-levels">Niveles de accesibilidad</a></li>
+<li id="ref5"><a href="#refback5">↑</a> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.2">System.Collections.Generic Namespace</a></li>
+<li id="ref6"><a href="#refback6">↑</a> <a href="https://msdn.microsoft.com/es-es/library/system.web.ui.htmlcontrols(v=vs.110).aspx">Espacio de nombres System.Web.UI.HtmlControls</a></li>
+<li id="ref7"><a href="#refback7">↑</a> <a href="http://www.cryer.co.uk/brian/csharp/ms_dotnet_order_of_page_events.htm">Understanding the order of Page events</a></li>
+<li id="ref8"><a href="#refback8">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -829,7 +860,7 @@ try {
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-05-30 12:55:11 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-02 20:12:51 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
