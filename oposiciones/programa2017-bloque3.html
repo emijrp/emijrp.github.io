@@ -57,6 +57,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;4.3 <a href="#Eventos y disparadores">Eventos y disparadores</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.4 <a href="#MySQL">MySQL</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.5 <a href="#PostgreSQL">PostgreSQL</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.6 <a href="#ORACLE">ORACLE</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4.7 <a href="#NoSQL">NoSQL</a><br/>
 &nbsp;5. <a href="#Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;5.1 <a href="#UML">UML</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;5.2 <a href="#Patrones de diseño">Patrones de diseño</a><br/>
@@ -295,10 +297,13 @@
 
 <h3 id="MySQL">MySQL</h3>
 
+<p>ALL, ANY, LIKE, UNION, IN, tipos de datos</p>
+
+
 <p><b>Operaciones</b> con <b>cadenas</b>:<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>CONCAT()</b>: concatena varias cadenas. Ej: CONCAT('H', 'ol', 'a!');</li><li><b>LEFT()</b>: devuelve los N caracteres más a la izquierda. Ej: LEFT('12345', 3);</li><li><b>LENGTH()</b>: longitud de la cadena. Ej: LENGTH('Una cadena');</li><li><b>LIKE</b>: compara con patrón. Ej: LIKE 'Maria%';</li><li><b>LOWER()</b>: minimiza una cadena. También LCASE(). Ej: LOWER('HOLA');</li><li><b>LPAD()</b>: rellena hasta N caracteres por la izquierda. Ej: LPAD('Ana', 10, ' ');</li><li><b>LTRIM()</b>: elimina espacios al comienzo. Ej: LTRIM('   Ana');</li><li><b>REPLACE()</b>: reemplaza subcadenas. Ej: REPLACE('Arg!', 'r', 'rrr');</li><li><b>RIGHT()</b>: devuelve los N caracteres más a la derecha. Ej: RIGHT('XYZ', 2);</li><li><b>RPAD()</b>: rellena hasta N caracteres por la derecha. Ej: RPAD('Ana', 10, ' ');</li><li><b>RTRIM()</b>: elimina espacios al final. Ej: RTRIM('Ana   ');</li><li><b>SUBSTRING()</b>: extrae subcadena. También SUBSTR(). Ej: SUBSTRING('Nombre', 3, 2);</li><li><b>UPPER()</b>: maximiza una cadena. También UCASE(). Ej: UPPER('adios');</li></ul>
+<ul><li><b>CONCAT()</b>: concatena varias cadenas. Ej: CONCAT('H', 'ol', 'a!');</li><li><b>LEFT()</b>: devuelve los N caracteres más a la izquierda. Ej: LEFT('12345', 3);</li><li><b>LENGTH()</b>: longitud de la cadena. Ej: LENGTH('Una cadena');</li><li><b>LIKE</b>: compara con patrón. Ej: LIKE 'Maria%';</li><li><b>LOWER()</b>: minimiza una cadena. También LCASE(). Ej: LOWER('HOLA');</li><li><b>LPAD()</b>: rellena hasta N caracteres por la izquierda. Ej: LPAD('Ana', 10, ' ');</li><li><b>LTRIM()</b>: elimina espacios al comienzo. Ej: LTRIM('   Ana');</li><li><b>REPLACE()</b>: reemplaza subcadenas. Ej: REPLACE('Arg!', 'r', 'rrr');</li><li><b>RIGHT()</b>: devuelve los N caracteres más a la derecha. Ej: RIGHT('XYZ', 2);</li><li><b>RPAD()</b>: rellena hasta N caracteres por la derecha. Ej: RPAD('Ana', 10, ' ');</li><li><b>RTRIM()</b>: elimina espacios al final. Ej: RTRIM('Ana   ');</li><li><b>STR_TO_DATE()</b>: convierte cadena en fecha. Ej: STR_TO_DATE('2010-01-01', '%Y-%m-%d');</li><li><b>SUBSTRING()</b>: extrae subcadena. También SUBSTR(). Ej: SUBSTRING('Nombre', 3, 2);</li><li><b>UPPER()</b>: maximiza una cadena. También UCASE(). Ej: UPPER('adios');</li></ul>
 </div>
 
 
@@ -314,11 +319,18 @@
 <p><b>Formatos</b> de <b>fechas</b>:</p>
 <div style="font-size: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
 
-<ul><li><b>%b</b>: nombre del mes abreviado (Jan..Dec)</li><li><b>%c</b>: número del mes (0..12)</li><li><b>%D</b>: día del mes con sufijo (1st..3rd..)</li><li><b>%d</b>: día del mes (00..31)</li><li><b>%e</b>: día del mes (0..31)</li><li><b>%H</b>: hora (00..23)</li><li><b>%h</b>: hora (01..12)</li><li><b>%i</b>: minutos (00..59)</li><li><b>%M</b>: nombre del mes completo (January..December)</li><li><b>%m</b>: mes (01..12)</li><li><b>%S</b>: segundos (00..59)</li><li><b>%T</b>: hora (hh:mm:ss)</li><li><b>%Y</b>: año (YYYY)</li><li><b>%y</b>: año (YY)</li></ul>
+<ul><li><b>%b</b>: nombre del mes abreviado (Jan..Dec)</li><li><b>%c</b>: mes (0..12)</li><li><b>%D</b>: día del mes con sufijo (1st..3rd..)</li><li><b>%d</b>: día del mes (00..31)</li><li><b>%e</b>: día del mes (0..31)</li><li><b>%H</b>: hora (00..23)</li><li><b>%h</b>: hora (01..12)</li><li><b>%i</b>: minutos (00..59)</li><li><b>%M</b>: nombre del mes completo (January..December)</li><li><b>%m</b>: mes (01..12)</li><li><b>%S</b>: segundos (00..59)</li><li><b>%T</b>: hora (hh:mm:ss)</li><li><b>%Y</b>: año (YYYY)</li><li><b>%y</b>: año (YY)</li></ul>
 </div>
 
 
 <h3 id="PostgreSQL">PostgreSQL</h3>
+
+
+<h3 id="ORACLE">ORACLE</h3>
+
+
+<h3 id="NoSQL">NoSQL</h3>
+
 
 <h2 id="Tema 5: Diseño y programación orientada a objetos">Tema 5: Diseño y programación orientada a objetos</h2>
 
@@ -388,10 +400,77 @@
 
 <h3 id="Java">Java</h3>
 
-<p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+<p><b>Java</b> es un lenguaje de programación de propósito general, concurrente, de tipado fuerte y orientado a objetos. Creado en 1996 por Sun Microsystems. El codigo Java programado es compilado, generando un bytecode, que se ejecuta sobre la máquina virtual Java (JVM). En teoría, el código puede ejecutarse en cualquier dispositivo o plataforma para la que exista una máquina virtual Java, con ningún cambio o mínimos cambios en el código, lo que se conoce como independiente de la plataforma.</p>
 
-<p>En Java hay que declarar las variables antes de usarlas.</p>
-<ul><li><b>Pueden</b>: contener cualquier caracter Unicode</li><li><b>No pueden</b>: comenzar por número, contener operadores, ser palabra reservada o booleano.</li></ul>
+<p>Java cuenta con recolector de basura. Los ficheros java suelen tener la extensión .java, generándose un .class al compilar.</p>
+
+<p>Un IDE popular es Eclipse con gran cantidad de plugins.</p>
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+<p>Un <b>Hola mundo</b> en <b>Java</b>:</p>
+
+<pre>
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola mundo");
+    }
+}
+</pre>
+
+<p>Los <b>atributos, métodos y clases</b> pueden ser:</p>
+<ul><li><b>abstract</b>: no se crea directamente, sino que se usa en subclases</li><li><b>final</b>: no modificable, valor constante</li><li><b>public</b>: accesible desde otras clases</li><li><b>private</b>: accesible solo desde su clase</li><li><b>protected</b>: accesible desde su clase o derivadas</li><li><b>static</b>: el método o variable está asociado a la clase, en vez de a cada instancia, por lo que solo existe una copia del mismo</li></ul>
+
+<p>Las <b>variables</b> se declaran e inicializan de la siguiente forma:</p>
+
+<pre>
+boolean booleano = true;
+int entero = 5; // tambien long
+float flotante = 5.7; // tambien double
+String cadena = "Hola"; // tambien char
+Integer[] enteros = {1, 2, 3} // vector de enteros
+Vector<Integer> enteros = new Vector(); // clase vector
+</pre>
+
+<p>Las variables pueden empezar por _ y contener caracteres Unicode.</p>
+
+</td>
+<td valign="top">
+
+<p>Las <b>estructuras de control</b> son:</p>
+
+<pre>
+if (condicion) { ...; } else { ...; }
+
+variable = (condicion) ? ... : ...;
+
+switch (condicion) { case 1: ...; break; 
+case 2: ...; break; default: ...; break; }
+
+for (inicio; condicion; incremento) { ...; }
+
+while (condicion) { ...; }
+
+do { ...; } while (condicion);
+</pre>
+
+<p>Las <b>excepciones</b> se controlan así:</p>
+
+<pre>
+try {
+    int a = 1;
+    int b = 0;
+    int n = a / b;
+} catch (ArithmeticException e) {
+    System.out.println("No se puede dividir por cero");
+}
+</pre>
+
+</td>
+</tr>
+</table>
 
 <p><b>Palabras reservadas</b> en JAVA:</p>
 <div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
@@ -408,13 +487,46 @@
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>AWT</b>: Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC).</li><li><b>JavaFX</b>: para la creación de aplicaciones web con capacidades de aplicaciones de escritorio.</li><li><b>JAXP</b>: procesa documentos XML a través de SAX, DOM y XSLT.</li><li><b>JAX-RPC</b>: servicios web preservando descripción WSDL. Renombrado a JAX-WS.</li><li><b>JAX-RS</b>: creación de servicios web REST.</li><li><b>JAX-WS</b>: creación de servicios web en XML.</li><li><b>JUnit</b>: test unitarios.</li><li><b>Swing</b>: biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc.</li><li><b>SWT</b>: biblioteca gráfica creada por Eclipse.</li></ul>
+<ul><li><b>AWT</b>: Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC). Ej: import java.awt.*</li><li><b>JavaFX</b>: para la creación de aplicaciones web con capacidades de aplicaciones de escritorio.</li><li><b>JAXP</b>: procesa documentos XML a través de SAX, DOM y XSLT.</li><li><b>JAX-RPC</b>: servicios web preservando descripción WSDL. Renombrado a JAX-WS.</li><li><b>JAX-RS</b>: creación de servicios web REST.</li><li><b>JAX-WS</b>: creación de servicios web en XML.</li><li><b>JUnit</b>: test unitarios.</li><li><b>Swing</b>: biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc. Ej: import javax.swing.*</li><li><b>SWT</b>: biblioteca gráfica creada por Eclipse.</li></ul>
 </div>
 
+
+<p>javax.servlet, java.io, java.util, java.net, java.io</p>
+
+<p>En HTML5 ya no existe la etiqueta APPLET.</p>
 
 <h3 id="C">C</h3>
 
 <p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+<p>Un <b>Hola mundo</b> en <b>C</b>:</p>
+
+<pre>
+
+</pre>
+
+<p>Las <b>variables</b> se declaran e inicializan de la siguiente forma:</p>
+
+<pre>
+
+</pre>
+
+</td>
+<td valign="top">
+
+<p>Las <b>excepciones</b> se controlan así:</p>
+
+<pre>
+
+</pre>
+
+</td>
+</tr>
+</table>
 
 <p>En C hay que declarar las variables antes de usarlas.</p>
 <ul><li><b>Pueden</b>: contener letras o números, empezar por _</li><li><b>No pueden</b>: comenzar por número, contener letras distintas a A-Z, ser palabra reservada o booleano.</li></ul>
@@ -460,6 +572,35 @@
 
 <p>Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica</p>
 
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+<p>Un <b>Hola mundo</b> en <b>C++</b>:</p>
+
+<pre>
+
+</pre>
+
+<p>Las <b>variables</b> se declaran e inicializan de la siguiente forma:</p>
+
+<pre>
+
+</pre>
+
+</td>
+<td valign="top">
+
+<p>Las <b>excepciones</b> se controlan así:</p>
+
+<pre>
+
+</pre>
+
+</td>
+</tr>
+</table>
+
 <p><b>Palabras reservadas</b> en C++:</p>
 <div style="font-size: 100%; -moz-column-count: 4; -webkit-column-count: 4; column-count: 4;-moz-column-width: 10em; -webkit-column-width: 10em; column-width: 10em;">
 
@@ -488,7 +629,7 @@
 <tr>
 <td valign="top" width="50%">
 
-<p>Un <b>Hola mundo</b> en C#:</p>
+<p>Un <b>Hola mundo</b> en <b>C#</b>:</p>
 
 <pre>
 using System;
@@ -505,9 +646,6 @@ namespace HolaMundo {
 <p>Los <b>atributos</b> de las clases pueden ser:<sup>[<a id="refback4" href="#ref4">4</a>]</sup></p>
 <ul><li><b>public</b>: accesible desde otras clases, no recomendado</li><li><b>private</b>: accesible solo desde su clase, por defecto</li><li><b>protected</b>: accesible desde su clase o derivadas</li><li><b>internal</b>: acceso limitado al ensamblado</li></ul>
 
-</td>
-<td valign="top">
-
 <p>Las <b>variables</b> se declaran e inicializan de la siguiente forma:</p>
 
 <pre>
@@ -520,6 +658,9 @@ List< string > lista = new List< string >(); // clase lista
 </pre>
 
 <p>Las variables pueden empezar por _ y contener caracteres Unicode.</p>
+
+</td>
+<td valign="top">
 
 <p>Las <b>estructuras de control</b> son:</p>
 
@@ -860,7 +1001,7 @@ try {
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-02 20:12:51 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-03 18:59:55 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

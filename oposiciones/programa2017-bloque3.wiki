@@ -296,6 +296,9 @@ Los triggers se componen de:
 
 === MySQL ===
 
+ALL, ANY, LIKE, UNION, IN, tipos de datos
+
+
 '''Operaciones''' con '''cadenas''':<ref>[https://dev.mysql.com/doc/refman/8.0/en/string-functions.html MySQL: String Functions]</ref>
 {{div col 2}}
 * '''CONCAT()''': concatena varias cadenas. Ej: CONCAT('H', 'ol', 'a!');
@@ -309,6 +312,7 @@ Los triggers se componen de:
 * '''RIGHT()''': devuelve los N caracteres más a la derecha. Ej: RIGHT('XYZ', 2);
 * '''RPAD()''': rellena hasta N caracteres por la derecha. Ej: RPAD('Ana', 10, ' ');
 * '''RTRIM()''': elimina espacios al final. Ej: RTRIM('Ana   ');
+* '''STR_TO_DATE()''': convierte cadena en fecha. Ej: STR_TO_DATE('2010-01-01', '%Y-%m-%d');
 * '''SUBSTRING()''': extrae subcadena. También SUBSTR(). Ej: SUBSTRING('Nombre', 3, 2);
 * '''UPPER()''': maximiza una cadena. También UCASE(). Ej: UPPER('adios');
 {{div col end}}
@@ -337,7 +341,7 @@ Las cadenas empiezan en la posición 1.
 '''Formatos''' de '''fechas''':
 {{div col 3}}
 * '''%b''': nombre del mes abreviado (Jan..Dec)
-* '''%c''': número del mes (0..12)
+* '''%c''': mes (0..12)
 * '''%D''': día del mes con sufijo (1st..3rd..)
 * '''%d''': día del mes (00..31)
 * '''%e''': día del mes (0..31)
@@ -353,6 +357,13 @@ Las cadenas empiezan en la posición 1.
 {{div col end}}
 
 === PostgreSQL ===
+
+
+=== ORACLE ===
+
+
+=== NoSQL ===
+
 
 == Tema 5: Diseño y programación orientada a objetos ==
 
@@ -473,11 +484,82 @@ La diferencia entre un '''struct''' y una '''class''' es que los miembros de las
 
 === Java ===
 
-Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+'''Java''' es un lenguaje de programación de propósito general, concurrente, de tipado fuerte y orientado a objetos. Creado en 1996 por Sun Microsystems. El codigo Java programado es compilado, generando un bytecode, que se ejecuta sobre la máquina virtual Java (JVM). En teoría, el código puede ejecutarse en cualquier dispositivo o plataforma para la que exista una máquina virtual Java, con ningún cambio o mínimos cambios en el código, lo que se conoce como independiente de la plataforma.
 
-En Java hay que declarar las variables antes de usarlas.
-* '''Pueden''': contener cualquier caracter Unicode
-* '''No pueden''': comenzar por número, contener operadores, ser palabra reservada o booleano.
+Java cuenta con recolector de basura. Los ficheros java suelen tener la extensión .java, generándose un .class al compilar.
+
+Un IDE popular es Eclipse con gran cantidad de plugins.
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+Un '''Hola mundo''' en '''Java''':
+
+<pre>
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola mundo");
+    }
+}
+</pre>
+
+Los '''atributos, métodos y clases''' pueden ser:
+* '''abstract''': no se crea directamente, sino que se usa en subclases
+* '''final''': no modificable, valor constante
+* '''public''': accesible desde otras clases
+* '''private''': accesible solo desde su clase
+* '''protected''': accesible desde su clase o derivadas
+* '''static''': el método o variable está asociado a la clase, en vez de a cada instancia, por lo que solo existe una copia del mismo
+
+Las '''variables''' se declaran e inicializan de la siguiente forma:
+
+<pre>
+boolean booleano = true;
+int entero = 5; // tambien long
+float flotante = 5.7; // tambien double
+String cadena = "Hola"; // tambien char
+Integer[] enteros = {1, 2, 3} // vector de enteros
+Vector<Integer> enteros = new Vector(); // clase vector
+</pre>
+
+Las variables pueden empezar por _ y contener caracteres Unicode.
+
+</td>
+<td valign="top">
+
+Las '''estructuras de control''' son:
+
+<pre>
+if (condicion) { ...; } else { ...; }
+
+variable = (condicion) ? ... : ...;
+
+switch (condicion) { case 1: ...; break; 
+case 2: ...; break; default: ...; break; }
+
+for (inicio; condicion; incremento) { ...; }
+
+while (condicion) { ...; }
+
+do { ...; } while (condicion);
+</pre>
+
+Las '''excepciones''' se controlan así:
+
+<pre>
+try {
+    int a = 1;
+    int b = 0;
+    int n = a / b;
+} catch (ArithmeticException e) {
+    System.out.println("No se puede dividir por cero");
+}
+</pre>
+
+</td>
+</tr>
+</table>
 
 '''Palabras reservadas''' en JAVA:
 {{div col 4}}
@@ -538,20 +620,53 @@ En Java hay que declarar las variables antes de usarlas.
 Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan clases útiles para el desarrollo de programas. Pueden ser oficiales (paquetes java.*) o no.
 
 {{div col 2}}
-* '''AWT''': Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC).
+* '''AWT''': Abstract Window Toolkit, kit de herramientas para interfaces gráficas. Ahora forma parte de Java Foundation Classes (JFC). Ej: import java.awt.*
 * '''JavaFX''': para la creación de aplicaciones web con capacidades de aplicaciones de escritorio.
 * '''JAXP''': procesa documentos XML a través de SAX, DOM y XSLT.
 * '''JAX-RPC''': servicios web preservando descripción WSDL. Renombrado a JAX-WS.
 * '''JAX-RS''': creación de servicios web REST.
 * '''JAX-WS''': creación de servicios web en XML.
 * '''JUnit''': test unitarios.
-* '''Swing''': biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc.
+* '''Swing''': biblioteca gráfica con widgets como cajas de texto, botones, listas, tablas, etc. Ej: import javax.swing.*
 * '''SWT''': biblioteca gráfica creada por Eclipse.
 {{div col end}}
+
+javax.servlet, java.io, java.util, java.net, java.io
+
+En HTML5 ya no existe la etiqueta APPLET.
 
 === C ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+Un '''Hola mundo''' en '''C''':
+
+<pre>
+
+</pre>
+
+Las '''variables''' se declaran e inicializan de la siguiente forma:
+
+<pre>
+
+</pre>
+
+</td>
+<td valign="top">
+
+Las '''excepciones''' se controlan así:
+
+<pre>
+
+</pre>
+
+</td>
+</tr>
+</table>
 
 En C hay que declarar las variables antes de usarlas.
 * '''Pueden''': contener letras o números, empezar por _
@@ -650,6 +765,35 @@ Las bibliotecas se importan con la directiva '''#include <biblioteca.h>''' si se
 === C++ ===
 
 Intro, breve historia, caracteristicas del lencuaje, hello world, variables, operadores, estructuras de control, funciones, excepciones, entrada y salida, interfaz gráfica
+
+<table class="wikitable" width="99%">
+<tr>
+<td valign="top" width="50%">
+
+Un '''Hola mundo''' en '''C++''':
+
+<pre>
+
+</pre>
+
+Las '''variables''' se declaran e inicializan de la siguiente forma:
+
+<pre>
+
+</pre>
+
+</td>
+<td valign="top">
+
+Las '''excepciones''' se controlan así:
+
+<pre>
+
+</pre>
+
+</td>
+</tr>
+</table>
 
 '''Palabras reservadas''' en C++:
 {{div col 4}}
@@ -755,7 +899,7 @@ El '''proyecto Mono''' proporciona un compilador open-source para C#. Existe un 
 <tr>
 <td valign="top" width="50%">
 
-Un '''Hola mundo''' en C#:
+Un '''Hola mundo''' en '''C#''':
 
 <pre>
 using System;
@@ -775,9 +919,6 @@ Los '''atributos''' de las clases pueden ser:<ref>[https://docs.microsoft.com/es
 * '''protected''': accesible desde su clase o derivadas
 * '''internal''': acceso limitado al ensamblado
 
-</td>
-<td valign="top">
-
 Las '''variables''' se declaran e inicializan de la siguiente forma:
 
 <pre>
@@ -790,6 +931,9 @@ List< string > lista = new List< string >(); // clase lista
 </pre>
 
 Las variables pueden empezar por _ y contener caracteres Unicode.
+
+</td>
+<td valign="top">
 
 Las '''estructuras de control''' son:
 
