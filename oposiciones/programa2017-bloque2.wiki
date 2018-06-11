@@ -583,38 +583,64 @@ Uso de '''comandos básicos''':
 * '''ln''': crea enlaces duros (-s simbólicos)
 * '''rm''': borrado de ficheros o directorios (rmdir). Recursivo (-r)
 
-Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref>
+Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref><ref>[https://es.wikibooks.org/wiki/Manual_de_consola_Bash_de_Linux Manual de consola Bash de Linux]</ref>
 
 {{div-col-2}}
+* '''adduser''': añade un usuario al sistema. Opuesto a deluser
+* '''alias''': crea un alias para un comando
+* '''apropos''': busca en las descripciones de los comandos
 * '''apt-get''': control de paquetes
 * '''apt-cache''': búsqueda de paquetes
 * '''awk''': procesamiento de texto
+* '''basename''': elimina la ruta del nombre de un fichero
 * '''bash''': intérprete de comandos
 * '''bzip2''': compresor de ficheros
 * '''bunzip2''': descompresor de ficheros
 * '''cal''': muestra un calendario
 * '''calendar''': muestra efemérides
-* '''cat''': muestra contenido de fichero
+* '''cat''': muestra contenido de fichero, concatena
 * '''cd''': cambia de directorio
 * '''chgrp''': cambia grupo de fichero o directorio
 * '''chmod''': cambia permisos de fichero o directorio
 * '''chown''': cambia propietario de fichero o directorio
+* '''clear''': limpia la pantalla
+* '''cmp''': compara dos ficheros byte a byte
+* '''comm''': muestra las líneas que aparecen solo en el primero fichero, en el segundo o en ambos
+* '''compress''': comprime un fichero
 * '''cp''': copia ficheros o directorios
 * '''crontab''': tablas de tareas de cron
-* '''cut''': corta texto
+* '''cut''': corta texto de las líneas de un fichero
 * '''date''': muestra la fecha y hora
+* '''dc''': calculadora
 * '''df''': muestra espacio libre en disco
 * '''diff''': diferencia entre dos ficheros
+* '''dpkg''': operaciones con paquetes
 * '''du''': muestra espacio ocupado por el directorio indicado
 * '''echo''': muestra texto por pantalla
+* '''env''': muestra las variables de entorno
 * '''file''': determina el formato del fichero
 * '''find''': busca ficheros o directorios
 * '''fg''': trae a primer plano trabajos ocultados a segundo plano anteriormente con Ctrl+Z
+* '''free''': estadísticas de uso de memoria
+* '''fuser''': muestra quien está usando un fichero
 * '''grep''': ejecuta expresiones regulares sobre texto o ficheros
-* '''head''': muestra el inicio de un fichero. Opuesto a tail.
+* '''groupadd''': crea un grupo de usuarios
+* '''groupdel''': elimina un grupo de usuarios
+* '''groupmod''': modifica un grupo de usuarios
+* '''groups''': muestra grupos del sistema
+* '''head''': muestra el inicio de un fichero. Opuesto a tail
+* '''history''': muestra los comandos ejecutados anteriormente
 * '''htop''': muestra procesos (más visual que top)
+* '''id''': muestra información del usuario actual
+* '''ifconfig''': configura o muestra interfaz de red
+* '''ifup''': habilita una interfaz de red
+* '''ifdown''': deshabilita una interfaz de red
+* '''iwconfig''': configura o muestra interfaz de red wifi
 * '''iostat''': monitorización de CPU y disco duro
+* '''jobs''': muestra procesos en segundo plano
 * '''kill''': mata procesos
+* '''last''': muestra últimos usuarios logueados en el sistema
+* '''less''': muestra fichero de texto
 * '''ln''': crea un enlace duro a un fichero (-s enlace simbólico)
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
@@ -622,38 +648,76 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''lspci''': muestra los dispositivos PCI
 * '''lsusb''': muestra los dispositivos USB
 * '''man''': muestra ayuda de comandos
-* '''md5sum''': calcula hash md5 de fichero
+* '''md5sum''': calcula hash md5 de un fichero
 * '''mkdir''': crea un directorio. Opuesto a rmdir
 * '''modprobe''': añade o elimina módulos del kernel
-* '''mount''': monta un sistema de ficheros
+* '''moduser''': modifica usuario del sistema
+* '''more''': muestra fichero de texto
+* '''mount''': monta un sistema de ficheros. Opuesto a umount
 * '''mv''': renombrar o mover ficheros y directorios
+* '''nano''': editor de textos
 * '''netstat''': muestra conexiones activas
 * '''nice''': establece una prioridad al proceso (-20 a 19)
-* '''pwd''': muestra directorio activo
+* '''nl''': numera las líneas de un fichero
+* '''nslookup''': resuelve DNS
+* '''paste''': fusiona líneas de varios ficheros
+* '''passwd''': cambia la contraseña de usuario
+* '''pico''': editor de texto
+* '''ping''': hace ping a una dirección de red
 * '''ps''': muestra procesos
 * '''pstree''': muestra árbol de procesos
+* '''pwd''': muestra directorio actual
 * '''renice''': cambia la prioridad de un proceso
 * '''rev''': invierte una cadena
 * '''rm''': borra fichero
 * '''rmdir''': borra directorio vacío. Opuesto a mkdir
+* '''rmmod''': elimina módulos del kernel
 * '''sed''': reemplaza cadenas de texto
+* '''seq''': muestra secuencia de números
+* '''set''': muestra variables de entorno del usuario
 * '''sh''': ejecuta con la shell un fichero
+* '''sha1sum''': calcula hash sha-1 de un fichero
 * '''sleep''': duerme X segundos
 * '''sort''': ordena una lista
 * '''split''': separa ficheros en otros más pequeños
 * '''shutdown''': apaga el sistema
+* '''stat''': muestra información sobre un fichero
+* '''su''': cambia de usuario (a root si no se indica nada)
+* '''sudo''': ejecuta un comando como administrador
+* '''tac''': invierte el orden de las líneas de un fichero
 * '''tail''': muestra el final de un fichero. Opuesto a head
 * '''tar''': crea paquete de ficheros
 * '''time''': calcula el tiempo de ejecución de un comando
 * '''top''': muestra procesos (htop es más visual)
 * '''touch''': crea un fichero o modifica su fecha si ya existe
-* '''umount''': desmonta un sistema de ficheros
+* '''tr''': reemplaza o elimina caracteres de un fichero
+* '''tree''': muestra árbol de directorios y ficheros
+* '''traceroute''': muestra la ruta para llegar a una dirección de red
+* '''ulimit''': muestra los límites del sistema
+* '''umount''': desmonta un sistema de ficheros. Opuesto a mount
+* '''uname''': muestra información sobre el sistema
 * '''uniq''': elimina duplicados de una lista
+* '''uptime''': muestra tiempo que lleva el sistema en funcionamiento
+* '''users''': muestra usuarios del sistema
+* '''vi''': editor de texto
 * '''wc''': cuenta caracteres y líneas de un fichero
+* '''wget''': descarga páginas web
+* '''whatis''': muestra una descripción de un comando
+* '''whereis''': muestra dónde se encuentra un comando (su binario, código y manual)
+* '''which''': muestra la ruta de un comando
+* '''w''': muestra quien está logueado en el sistema
 * '''who''': muestra quien está logueado en el sistema
+* '''xargs''': ejecuta comando pasándole una lista de argumentos
+* '''yes''': imprime una cadena indefinidamente
 {{div-col-end}}
 
 El comando '''compgen -c''' muestra un listado con todos los comandos (y sus alias) disponibles en el sistema.
+
+Las '''tuberías''' permiten conectar la salida de un comando con la entrada de otro. Por ejemplo: cat fichero1 fichero2 | sort | uniq (concatena dos ficheros, ordena sus líneas y elimina líneas duplicadas).
+
+Las '''redirecciones''' permiten volcar la salida de un comando a un fichero. Por ejemplo: ls -alh >> ls.txt (hace un ls y lo vuelca en un fichero, sin sobreescribir lo que ya haya)
+
+Se pueden crear aliases para comandos muy utilizados. Por ejemplo: alias ll=ls -alh (permite llamar a ls -alh simplemente escribiendo ll). Para ver los aliases de un usuario, se escribe alias -p.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
 '''Directorios comunes''':<ref>[https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]</ref>
@@ -665,19 +729,19 @@ El comando '''compgen -c''' muestra un listado con todos los comandos (y sus ali
 * '''/etc''': configuración, scripts de arranque
 * '''/home''': directorios de usuarios
 * '''/initrd''': procesos de arranque
-* '''/lib''': librerías
+* '''/lib''': librerías compartidas
 * '''/lost+found''': sistema lost+found
 * '''/media''': particiones montadas automáticamente
 * '''/mnt''': sistemas de archivos montados a mano
 * '''/opt''': lugar donde instalar aplicaciones opcionales de terceros
-* '''/proc''': estado del sistema y proceso (generado automáticamente)
+* '''/proc''': estado del sistema y procesos (generado automáticamente)
 * '''/root''': directorio del superusuario
 * '''/sbin''': binarios importantes del sistema
 * '''/srv''': archivos para otros sistemas
 * '''/sys''': archivos del sistema
 * '''/tmp''': archivos temporales
 * '''/usr''': aplicaciones a las que pueden acceder la mayoría de usuarios
-* '''/var''': archivos variables (registros, bbdd...)
+* '''/var''': archivos variables (logs, mail, spool, bbdd...)
 {{div col end}}
 
 En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
