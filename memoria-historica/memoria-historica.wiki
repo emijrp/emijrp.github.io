@@ -1,6 +1,6 @@
 {{header|1=Memoria Histórica}}
 [[File:bandera-segunda-republica.png|thumb|right|300px|Bandera de la Segunda República.]]
-Sección dedicada a la '''Memoria Histórica''', al recuerdo de todas aquellas personas que lucharon contra el fascismo, para defender la república y la democracia, en definitiva por un mundo mejor. Para que su rostro y su nombre no se borren de la Historia.
+Sección dedicada a la '''Memoria Histórica'''. Al recuerdo de todas aquellas personas que lucharon contra el fascismo, para defender la República y la Democracia, dándolo todo por construir un mundo mejor en definitiva. Para que su rostro y su nombre no se borren de la Historia.
 
 == Documentales ==
 
@@ -10,28 +10,28 @@ Esta es una recopilación de los '''documentales de memoria histórica''' que he
 <table width=99% style="text-align: center;">
 
 <tr>
-{{tabla-videos-celda|width=33%|imagen=memoria-de-las-cenizas.jpg|tamaño=350px|título=Memoria de las cenizas|enlace=https://youtu.be/ej2D-A4NQ0g}}
-{{tabla-videos-celda|width=33%|imagen=vida-luis-vega.jpg|tamaño=350px|título=Vida de Luis Vega. Memoria de Paterna|enlace=https://youtu.be/uDsINGdOAqs}}
-{{tabla-videos-celda|width=33%|imagen=guillena-1937.jpg|tamaño=350px|título=Guillena 1937|enlace=https://youtu.be/gUxoDokgxtw}}
+{{tabla-videos-celda|width=33%|imagen=memoria-de-las-cenizas.jpg|tamaño=300px|título=Memoria de las cenizas|enlace=https://youtu.be/ej2D-A4NQ0g}}
+{{tabla-videos-celda|width=33%|imagen=vida-luis-vega.jpg|tamaño=300px|título=Vida de Luis Vega. Memoria de Paterna|enlace=https://youtu.be/uDsINGdOAqs}}
+{{tabla-videos-celda|width=33%|imagen=guillena-1937.jpg|tamaño=300px|título=Guillena 1937|enlace=https://youtu.be/gUxoDokgxtw}}
 </tr>
 
 <tr>
-{{tabla-videos-celda|width=33%|imagen=aragoneses-en-el-infierno.jpg|tamaño=350px|título=Aragoneses en el infierno de los campos de concentración|enlace=https://youtu.be/U6aUn8I9giM}}
-{{tabla-videos-celda|width=33%|imagen=cicatrices-de-piedra.jpg|tamaño=350px|título=Cicatrices de piedra. La Guerra Civil en Aragón|enlace=https://youtu.be/qLPhw5qvZHM}}
-{{tabla-videos-celda|width=33%|imagen=el-ultimo-fusilado-del-franquismo.jpg|tamaño=350px|título=El último fusilado del franquismo|enlace=https://youtu.be/IRsimQ_vYUc}}
+{{tabla-videos-celda|width=33%|imagen=aragoneses-en-el-infierno.jpg|tamaño=300px|título=Aragoneses en el infierno de los campos de concentración|enlace=https://youtu.be/U6aUn8I9giM}}
+{{tabla-videos-celda|width=33%|imagen=cicatrices-de-piedra.jpg|tamaño=300px|título=Cicatrices de piedra. La Guerra Civil en Aragón|enlace=https://youtu.be/qLPhw5qvZHM}}
+{{tabla-videos-celda|width=33%|imagen=el-ultimo-fusilado-del-franquismo.jpg|tamaño=300px|título=El último fusilado del franquismo|enlace=https://youtu.be/IRsimQ_vYUc}}
 </tr>
 
 <tr>
-{{tabla-videos-celda|width=33%|imagen=presos-del-silencio.jpg|tamaño=350px|título=Presos del silencio|enlace=https://youtu.be/CIECDYKv9Iw}}
-{{tabla-videos-celda|width=33%|imagen=la-partida.jpg|tamaño=350px|título=La Partida|enlace=https://youtu.be/qmeUudS1ixE}}
-{{tabla-videos-celda|width=33%|imagen=la-madre-sola.jpg|tamaño=350px|título=La madre sola|enlace=https://www.youtube.com/watch?v=ZDLTLZd1Wbc}}
+{{tabla-videos-celda|width=33%|imagen=presos-del-silencio.jpg|tamaño=300px|título=Presos del silencio|enlace=https://youtu.be/CIECDYKv9Iw}}
+{{tabla-videos-celda|width=33%|imagen=la-partida.jpg|tamaño=300px|título=La Partida|enlace=https://youtu.be/qmeUudS1ixE}}
+{{tabla-videos-celda|width=33%|imagen=la-madre-sola.jpg|tamaño=300px|título=La madre sola|enlace=https://www.youtube.com/watch?v=ZDLTLZd1Wbc}}
 </tr>
 
 <!--
 <tr>
-{{tabla-videos-celda|width=33%|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
-{{tabla-videos-celda|width=33%|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
-{{tabla-videos-celda|width=33%|imagen=|tamaño=350px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=300px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=300px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=300px|título=|enlace=https://youtu.be/}}
 </tr>
 -->
 </table>
@@ -318,6 +318,57 @@ Los nombres de las 13 mujeres (más una):
 # [https://15mpedia.org/wiki/Antonia_Torre_Yela Antonia Torre Yela]
 
 [https://secure.findagrave.com/cgi-bin/fg.cgi?page=vcsr&GSvcid=627741 Cementerio virtual] en Find A Grave.
+
+== Enlaces externos ==
+
+{{div col 2}}
+
+* [http://www.foroporlamemoria.info Federación Estatal de Foros por la Memoria]*
+* [http://www.memoriaylibertad.org Memoria y Libertad]*
+* [http://evi.linhd.uned.es/projects/hismedi/om/inicio Proyecto HISMEDI]*
+
+'''Asociaciones y colectivos'''
+
+* [http://campmauthausen.org Amicale de Mauthausen]
+* [http://mural.uv.es/anmote/ ARMH Alto Palancia]
+* [https://www.armharagon.com ARMH Aragón]*
+* [http://www.rmhburgos.org ARMH Burgos]*
+* [http://www.memoriacatalunya.org ARMH Cataluña]*
+* [http://armhex.blogspot.com ARMH Extremadura]
+* [http://www.memoriadealicante.org Comisión Cívica de Alicante para la recuperación de la memoria histórica]!
+* [http://foromemoriasegovia.blogspot.com Foro por la Memoria de Segovia]*
+* [http://www.memoriahistoricamalaga.org Foro por la Memoria Histórica de Málaga]*
+* [http://www.memoriacastello.cat Grup per la Recerca de la Memòria Històrica de Castelló]
+
+'''Brigadas Internacionales'''
+
+* [http://www.brigadasinternacionales.org Asociación de Amigos de las Brigadas Internacionales]
+* [http://www.brigadasinternacionales.uclm.es Centro de Estudios y Documentación de las Brigadas Internaciones]
+
+'''Deportados'''
+
+* [http://deportados.es Deportados.es]*
+* [http://aragonesesdeportados.org Aragoneses Deportados]
+
+'''Exilio'''
+
+* [http://descendientesexilio.com Descendientes del Exilio Español]
+
+'''Maquis'''
+
+* [http://www.lagavillaverde.org La Gavilla Verde]
+* [http://losdelasierra.info Los de la Sierra]
+* [http://paisajesdelaguerrilla.blogspot.com Paisajes de la Guerrilla]
+
+'''Otras'''
+
+* [http://www.buscameenelciclodelavida.com Búscame en el ciclo de la vida]
+* [http://memoriadebusqueda.blogspot.com Memoria de una búsqueda]
+* [http://memoriasdelaguerracivil.blogspot.com Memorias de la Guerra Civil Española]*
+
+{{div col end}}
+
+'''Nota''': Las que tienen un asterisco (*) tienen más enlaces para explorar. Las que tienen una exclamación (!) parecen caídas o desaparecidas.
 
 {{memoria historica}}
 {{footer}}
