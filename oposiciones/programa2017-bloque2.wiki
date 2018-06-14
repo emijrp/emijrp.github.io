@@ -628,6 +628,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''groupdel''': elimina un grupo de usuarios
 * '''groupmod''': modifica un grupo de usuarios
 * '''groups''': muestra grupos del sistema
+* '''halt''': detiene el sistema
 * '''head''': muestra el inicio de un fichero. Opuesto a tail
 * '''history''': muestra los comandos ejecutados anteriormente
 * '''htop''': muestra procesos (más visual que top)
@@ -635,6 +636,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''ifconfig''': configura o muestra interfaz de red
 * '''ifup''': habilita una interfaz de red
 * '''ifdown''': deshabilita una interfaz de red
+* '''init''': cambia el nivel de ejecución
 * '''iwconfig''': configura o muestra interfaz de red wifi
 * '''iostat''': monitorización de CPU y disco duro
 * '''jobs''': muestra procesos en segundo plano
@@ -642,6 +644,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''last''': muestra últimos usuarios logueados en el sistema
 * '''less''': muestra fichero de texto
 * '''ln''': crea un enlace duro a un fichero (-s enlace simbólico)
+* '''login''': inicia nueva sesión en el sistema
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
 * '''lsmod''': muestra los módulos del kernel
@@ -664,9 +667,11 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''passwd''': cambia la contraseña de usuario
 * '''pico''': editor de texto
 * '''ping''': hace ping a una dirección de red
+* '''poweroff''': apaga el sistema
 * '''ps''': muestra procesos
 * '''pstree''': muestra árbol de procesos
 * '''pwd''': muestra directorio actual
+* '''reboot''': reinicia el sistema
 * '''renice''': cambia la prioridad de un proceso
 * '''rev''': invierte una cadena
 * '''rm''': borra fichero
@@ -687,6 +692,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''tac''': invierte el orden de las líneas de un fichero
 * '''tail''': muestra el final de un fichero. Opuesto a head
 * '''tar''': crea paquete de ficheros
+* '''tcpdump''': análisis del tráfico de una red
 * '''time''': calcula el tiempo de ejecución de un comando
 * '''top''': muestra procesos (htop es más visual)
 * '''touch''': crea un fichero o modifica su fecha si ya existe

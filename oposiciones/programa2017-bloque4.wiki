@@ -31,11 +31,17 @@ Entre las tareas rutinarias que realiza está la creación de cuentas de usuario
 entre las tareas básicas que permite está el encendido y apagado de servicios, modificación de registros del sistema, monitorización.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados apt-get (utiliza dpkg), YUM (utiliza RPM), y las interfaces gráficas como Synaptic, Apper, GNOME Software, Octopi.
+Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados apt (utiliza dpkg), YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
 
-* '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete).
+* '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions).
 
-* '''dpkg''': -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete).
+* '''dpkg''': -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete).
+
+* '''rpm''': -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose).
+
+* '''yast''': -i (instala un paquete) 
+
+* '''yum''': install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones).
 
 Un '''control de versiones''' es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.
 
@@ -64,6 +70,14 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 * '''Hipervisores Tipo 1''': corren sobre el hardware directamente. Ejemplos: SIMMON, Xen, Oracle VM Server for SPARC, Hyper-V.
 
 * '''Hipervisores Tipo 2''': corren en sistemas operativos convencionales como otros programas. Ejemplos: VMWare Workstation, Virtual Box, QEMU.
+
+=== Usuarios y grupos ===
+
+* '''useradd''': añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe
+
+* '''passwd''': cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contrasseña cada n días).
+
+* '''groupadd''': creaun nuevo grupo de usuarios.
 
 == Tema 2: Administración de bases de datos ==
 
@@ -96,21 +110,16 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 {{recuadro|1='''Administración de redes''' de área local. Gestión de usuarios. Gestión de dispositivos. Monitorización y control de tráfico.}}
 
-=== Administración de redes ===
+=== Administración y monitorización de redes ===
+
+Algunos '''comandos y herramientas''' útiles:
+
+* '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
 * '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down) y habilitarlo (ifconfig wlan0/eth0 up).
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 * '''ipconfig''': internet protocol configuration, aplicación para '''Windows''' que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
-
-{{cayo-en-convocatoria|1=2016 (IL)}}
-* '''nslookup''': name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.
-
-* '''whois''': identifica un dominio.
-
-=== Monitorización de redes ===
-
-* '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
 * '''Nagios''': monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.
 
@@ -120,18 +129,34 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 * '''nmap''': escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.
 
+{{cayo-en-convocatoria|1=2016 (IL)}}
+* '''nslookup''': name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.
+
 * '''OpenView''': conjunto de herramientas de HP.
+
+* '''ping''': 
 
 * '''Snort''': sistema de detección de intrusiones.
 
 * '''Suricata''': sistema de detección de intrusiones.
 
 * '''tcpdump''': analizador de paquetes por línea de comandos.
+** '''tcpdump host 192.168.1.1''': captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.
+** '''tcpdump port 80''': captura tráfico con origen o destino el puerto 80
+
+* '''telnet''': permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.
 
 * '''traceroute''': herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.
 
+* '''whois''': identifica un dominio.
+
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Wireshark''': es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcddump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.
+
+Algunos '''ficheros''' importantes:
+
+* '''hosts''': mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.
+* '''resolv.conf''': especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.
 
 == Tema 4: Seguridad ==
 
