@@ -642,8 +642,10 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''jobs''': muestra procesos en segundo plano
 * '''kill''': mata procesos
 * '''last''': muestra últimos usuarios logueados en el sistema
+* '''lastlog''': muestra el último login de cada usuario del sistema
 * '''less''': muestra fichero de texto
 * '''ln''': crea un enlace duro a un fichero (-s enlace simbólico)
+* '''locate''': busca ficheros por nombre
 * '''login''': inicia nueva sesión en el sistema
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU

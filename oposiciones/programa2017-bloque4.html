@@ -41,10 +41,14 @@
 <tr><th>Tabla de contenidos</th></tr>
 <tr><td>
 &nbsp;1. <a href="#Tema 1: Administración de sistemas operativos">Tema 1: Administración de sistemas operativos</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="#Actualización, mantenimiento y reparación">Actualización, mantenimiento y reparación</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="#Niveles TIA 942">Niveles TIA 942</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="#Máquinas virtuales">Máquinas virtuales</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="#Usuarios y grupos">Usuarios y grupos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1.1 <a href="#Administración de sistemas Linux">Administración de sistemas Linux</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 <a href="#Instalación y desinstalación de software">Instalación y desinstalación de software</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 <a href="#Usuarios y grupos">Usuarios y grupos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.3 <a href="#Otros">Otros</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="#Administración de sistemas Windows">Administración de sistemas Windows</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="#Seguimiento">Seguimiento</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="#Niveles TIA 942">Niveles TIA 942</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="#Máquinas virtuales">Máquinas virtuales</a><br/>
 &nbsp;2. <a href="#Tema 2: Administración de bases de datos">Tema 2: Administración de bases de datos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="#Correo electrónico">Correo electrónico</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="#Microsoft Exchange">Microsoft Exchange</a><br/>
@@ -80,27 +84,23 @@
 
 <p>En este tema son útiles los <b>apuntes de otros bloques</b>:</p>
 
-<ul><li><b>Bloque II, Tema 4: Sistemas operativos</b>.</li><li>La parte de <b>control de versiones</b> del <b>Bloque III, Tema 10: Herramientas CASE</b>.</li></ul>
+<ul><li><b><a href="programa2017-bloque2.html">Bloque II</a>, Tema 4: Sistemas operativos</b>.</li><li>La parte de <b>control de versiones</b> del <b><a href="programa2017-bloque3.html">Bloque III</a>, Tema 10: Herramientas CASE</b>.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
 </div>
 
-<p>Un <b>administrador de sistemas</b> es aquella persona que configura, mantiene, documenta y monitoriza un sistema informático. Debe garantizar que el sistema permanezca en funcionamiento el mayor tiempo posible, el rendimiento sea apropiado y sea seguro.</p>
+<p>Un <b>administrador de sistemas</b> es aquella persona que configura, mantiene, documenta y monitoriza un sistema informático. Debe garantizar que el sistema permanezca en funcionamiento el mayor tiempo posible, que el rendimiento sea apropiado y que sea seguro.</p>
 
-<p>Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación y desinstalación de software, actualizaciones, copias de seguridad, etc.</p>
+<p>Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación, configuración y desinstalación de software, instalación actualizaciones, hacer copias de seguridad, etc.</p>
 
-<h3 id="Actualización, mantenimiento y reparación">Actualización, mantenimiento y reparación</h3>
+<p>Ideas Actualización, mantenimiento y reparación:</p>
 
-<ul><li>Herramientas testeo, optimización</li><li>Synaptic , apt-get ,e tc?</li><li>Recuperación de errores, backup</li><li>SNMP</li><li>Puppet: herramienta de administración de configuración </li></ul>
+<ul><li>Herramientas testeo, optimización</li><li>Recuperación de errores, backup</li><li>SNMP</li><li>Puppet: herramienta de administración de configuración </li></ul>
 
-<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (IL) 2015 (PI)  </b></p>
-</div>
+<h3 id="Administración de sistemas Linux">Administración de sistemas Linux</h3>
 
-<p><b>Windows PowerShell</b> es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama <b>cmdlets</b>.</p>
-
-<p>entre las tareas básicas que permite está el encendido y apagado de servicios, modificación de registros del sistema, monitorización.</p>
+<h4 id="Instalación y desinstalación de software">Instalación y desinstalación de software</h4>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
@@ -110,12 +110,42 @@
 
 <ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions).</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete).</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose).</li><li><b>yast</b>: -i (instala un paquete) </li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones).</li></ul>
 
+<h4 id="Usuarios y grupos">Usuarios y grupos</h4>
+
+<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contrasseña cada n días).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
+
+<h4 id="Otros">Otros</h4>
+
+<p>Para encontrar un fichero es útil el comando <b>locate</b>. Por ejemplo para buscar donde está el fichero <b>resolv.conf</b> de DNS o el log <b>access.log</b> de Apache, basta con escribir <b>locate resolv.conf</b> o <b>locate access.log</b> respectivamente.</p>
+
+<p>Algunos <b>ficheros de log</b>:</p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>/var/log/auth.log</b>: eventos de autenticación.</li><li><b>/var/log/boot.log</b>: todo lo relacionado con el inicio del sistema.</li><li><b>/var/log/cron</b>: mensajes de los trabajos de cron.</li><li><b>/var/log/daemon.log</b>: mensajes de demonios en segundo plano.</li><li><b>/var/log/dpkg.log</b>: mensajes del instalador dpkg.</li><li><b>/var/log/faillog</b>: fallos al intentar loguearse.</li><li><b>/var/log/httpd/</b>: directorio con logs de Apache (access_log, error_log, ...).</li><li><b>/var/log/kern.log</b>: mensajes del kernel.</li><li><b>/var/log/mail.log</b>: mensajes del servidor de correo.</li><li><b>/var/log/messages</b>: mensajes globales de distinto tipo.</li><li><b>/var/log/mysqld.log</b>: registros del servidor MySQL.</li><li><b>/var/log/secure</b>: registros de autenticaciones.</li><li><b>/var/log/user.log</b>: registros de usuarios.</li></ul>
+</div>
+
+
+<h3 id="Administración de sistemas Windows">Administración de sistemas Windows</h3>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2015 (IL) 2015 (PI)  </b></p>
+</div>
+
+<p><b>Windows PowerShell</b> es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama <b>cmdlets</b>.</p>
+
+<p>Entre las tareas básicas que permite está el encendido y apagado de servicios, modificación de registros del sistema y monitorización.</p>
+
+<p>Comandos de cmd.exe y UNIX que funcionan también en PowerShell: cat, cd, chdir, clear, cls, copy, del, diff, dir, echo, erase, h, history, kill, lp, ls, mount, move, popd, ps, pushd, pwd, r, ren, rm, rmdir, sleep, sort, tee, type, write. Para conocer el nombre completo en vez del alias: Get-Alias clear.</p>
+
+<p>El sistema de actualizaciones se llama <b>Windows Update</b>.</p>
+
+<h3 id="Seguimiento">Seguimiento</h3>
+
 <p>Un <b>control de versiones</b> es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.</p>
 
 <p>Un <b>Sistema de Control de Versiones</b> (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial.</p>
 
-<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto software. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac.</p>
-<ul><li>También se les conoce como CMS, Configuration Management System.</li></ul>
+<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto software. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac. También se les conoce como CMS, Configuration Management System.</p>
 
 <p>Un <b>Sistema de Seguimiento de Errores</b> (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.</p>
 
@@ -138,10 +168,6 @@
 <p>Un <b>hipervisor</b> es un software o hardware que corre máquinas virtuales. El sistema que las hospeda es el host y las máquinas virtuales son las invitadas (guest).</p>
 
 <ul><li><b>Hipervisores Tipo 1</b>: corren sobre el hardware directamente. Ejemplos: SIMMON, Xen, Oracle VM Server for SPARC, Hyper-V.</li><li><b>Hipervisores Tipo 2</b>: corren en sistemas operativos convencionales como otros programas. Ejemplos: VMWare Workstation, Virtual Box, QEMU.</li></ul>
-
-<h3 id="Usuarios y grupos">Usuarios y grupos</h3>
-
-<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contrasseña cada n días).</li><li><b>groupadd</b>: creaun nuevo grupo de usuarios.</li></ul>
 
 <h2 id="Tema 2: Administración de bases de datos">Tema 2: Administración de bases de datos</h2>
 
@@ -548,7 +574,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-14 14:26:11 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-16 09:41:13 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
