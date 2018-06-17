@@ -600,6 +600,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''calendar''': muestra efemérides
 * '''cat''': muestra contenido de fichero, concatena
 * '''cd''': cambia de directorio
+* '''chage''': caducidad de contraseñas
 * '''chgrp''': cambia grupo de fichero o directorio
 * '''chmod''': cambia permisos de fichero o directorio
 * '''chown''': cambia propietario de fichero o directorio
@@ -710,6 +711,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''vi''': editor de texto
 * '''wc''': cuenta caracteres y líneas de un fichero
 * '''wget''': descarga páginas web
+* '''watch''': ejecuta un comando periódicamente
 * '''whatis''': muestra una descripción de un comando
 * '''whereis''': muestra dónde se encuentra un comando (su binario, código y manual)
 * '''which''': muestra la ruta de un comando
@@ -728,7 +730,7 @@ Las '''redirecciones''' permiten volcar la salida de un comando a un fichero. Po
 Se pueden crear aliases para comandos muy utilizados. Por ejemplo: alias ll=ls -alh (permite llamar a ls -alh simplemente escribiendo ll). Para ver los aliases de un usuario, se escribe alias -p.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
-'''Directorios comunes''':<ref>[https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]</ref>
+'''Directorios comunes'''<ref>[https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html Directorios comunes]</ref> la mayoría pertenecientes al Filesystem Hierarchy Standard de la Linux Foundation.<ref>[https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]</ref>
 {{div col 2}}
 * '''/''': el raíz, el nivel más alto de la jerarquía
 * '''/bin''': aplicaciones binarias importantes
@@ -744,6 +746,7 @@ Se pueden crear aliases para comandos muy utilizados. Por ejemplo: alias ll=ls -
 * '''/opt''': lugar donde instalar aplicaciones opcionales de terceros
 * '''/proc''': estado del sistema y procesos (generado automáticamente)
 * '''/root''': directorio del superusuario
+* '''/run''': información sobre el sistema desde el último arranque
 * '''/sbin''': binarios importantes del sistema
 * '''/srv''': archivos para otros sistemas
 * '''/sys''': archivos del sistema

@@ -29,23 +29,27 @@ Ideas Actualización, mantenimiento y reparación:
 ==== Instalación y desinstalación de software ====
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados apt (utiliza dpkg), YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
+Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
 
-* '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions).
+* '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.
 
-* '''dpkg''': -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete).
+* '''dpkg''': -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.
 
-* '''rpm''': -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose).
+* '''rpm''': -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose). Creado por Red Hat.
 
-* '''yast''': -i (instala un paquete) 
+* '''yast''': -i (instala un paquete). Creado por SuSE.
 
-* '''yum''': install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones).
+* '''yum''': install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.
 
 ==== Usuarios y grupos ====
 
+Entre las operaciones básicas están la '''creación de usuarios y grupos''', su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.
+
 * '''useradd''': añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe
 
-* '''passwd''': cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contrasseña cada n días).
+* '''passwd''': cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).
+
+* '''chage''': caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).
 
 * '''groupadd''': crea un nuevo grupo de usuarios.
 
@@ -70,6 +74,23 @@ Algunos '''ficheros de log''':
 * '''/var/log/user.log''': registros de usuarios.
 {{div col end}}
 
+Algunos comandos que muestran información importante sobre el sistema:
+
+* '''uname''': -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)
+* '''lsb_release''': -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)
+* '''free''': memoria en uso y libre.
+
+En el directorio '''/proc''' hay numerosos ficheros con información del sistema y procesos:
+
+* '''/proc/PID''': cada proceso en ejecución tiene un directorio con su PID. Dentro existen los ficheros: cmdline, cwd, environ, exe, fd, fdinfo, maps, mem, root, status y task.
+* '''/proc/cpuinfo''': información sobre la CPU.
+* '''/proc/meminfo''': información sobre la memoria.
+* '''/proc/modules''': módulos del kernel cargados actualmente.
+* '''/proc/mounts''': información sobre dispositivos montados.
+* '''/proc/tty''': las terminales en activo.
+* '''/proc/uptime''': tiempo del sistema en funcionamiento y en procesos idle.
+* '''/proc/version''': versión del sistema, gcc, etc.
+
 === Administración de sistemas Windows ===
 
 {{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
@@ -81,13 +102,19 @@ Comandos de cmd.exe y UNIX que funcionan también en PowerShell: cat, cd, chdir,
 
 El sistema de actualizaciones se llama '''Windows Update'''.
 
+==== Otros ====
+
+Algunos comandos que muestran información importante sobre el sistema:
+
+* '''ver''': muestra el nombre y la versión del sistema
+
 === Seguimiento ===
 
 Un '''control de versiones''' es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.
 
-Un '''Sistema de Control de Versiones''' (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial.
+Un '''Sistema de Control de Versiones''' (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial, BitKeeper, CVS, Bazaar, Visual SourceSafe.
 
-La '''Gestión de Configuración de Software''' (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto software. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac. También se les conoce como CMS, Configuration Management System.
+La '''Gestión de Configuración de Software''' (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<ref>[https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html Salt in 10 minutes]</ref>, Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.
 
 Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.
 

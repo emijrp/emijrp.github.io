@@ -46,6 +46,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2 <a href="#Usuarios y grupos">Usuarios y grupos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.3 <a href="#Otros">Otros</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 <a href="#Administración de sistemas Windows">Administración de sistemas Windows</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 <a href="#Otros">Otros</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.3 <a href="#Seguimiento">Seguimiento</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="#Niveles TIA 942">Niveles TIA 942</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="#Máquinas virtuales">Máquinas virtuales</a><br/>
@@ -106,13 +107,15 @@
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
 </div>
 
-<p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados apt (utiliza dpkg), YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.</p>
+<p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.</p>
 
-<ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions).</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete).</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose).</li><li><b>yast</b>: -i (instala un paquete) </li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones).</li></ul>
+<ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose). Creado por Red Hat.</li><li><b>yast</b>: -i (instala un paquete). Creado por SuSE.</li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.</li></ul>
 
 <h4 id="Usuarios y grupos">Usuarios y grupos</h4>
 
-<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contrasseña cada n días).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
+<p>Entre las operaciones básicas están la <b>creación de usuarios y grupos</b>, su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.</p>
+
+<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
 
 <h4 id="Otros">Otros</h4>
 
@@ -124,6 +127,14 @@
 <ul><li><b>/var/log/auth.log</b>: eventos de autenticación.</li><li><b>/var/log/boot.log</b>: todo lo relacionado con el inicio del sistema.</li><li><b>/var/log/cron</b>: mensajes de los trabajos de cron.</li><li><b>/var/log/daemon.log</b>: mensajes de demonios en segundo plano.</li><li><b>/var/log/dpkg.log</b>: mensajes del instalador dpkg.</li><li><b>/var/log/faillog</b>: fallos al intentar loguearse.</li><li><b>/var/log/httpd/</b>: directorio con logs de Apache (access_log, error_log, ...).</li><li><b>/var/log/kern.log</b>: mensajes del kernel.</li><li><b>/var/log/mail.log</b>: mensajes del servidor de correo.</li><li><b>/var/log/messages</b>: mensajes globales de distinto tipo.</li><li><b>/var/log/mysqld.log</b>: registros del servidor MySQL.</li><li><b>/var/log/secure</b>: registros de autenticaciones.</li><li><b>/var/log/user.log</b>: registros de usuarios.</li></ul>
 </div>
 
+
+<p>Algunos comandos que muestran información importante sobre el sistema:</p>
+
+<ul><li><b>uname</b>: -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)</li><li><b>lsb_release</b>: -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)</li><li><b>free</b>: memoria en uso y libre.</li></ul>
+
+<p>En el directorio <b>/proc</b> hay numerosos ficheros con información del sistema y procesos:</p>
+
+<ul><li><b>/proc/PID</b>: cada proceso en ejecución tiene un directorio con su PID. Dentro existen los ficheros: cmdline, cwd, environ, exe, fd, fdinfo, maps, mem, root, status y task.</li><li><b>/proc/cpuinfo</b>: información sobre la CPU.</li><li><b>/proc/meminfo</b>: información sobre la memoria.</li><li><b>/proc/modules</b>: módulos del kernel cargados actualmente.</li><li><b>/proc/mounts</b>: información sobre dispositivos montados.</li><li><b>/proc/tty</b>: las terminales en activo.</li><li><b>/proc/uptime</b>: tiempo del sistema en funcionamiento y en procesos idle.</li><li><b>/proc/version</b>: versión del sistema, gcc, etc.</li></ul>
 
 <h3 id="Administración de sistemas Windows">Administración de sistemas Windows</h3>
 
@@ -139,13 +150,19 @@
 
 <p>El sistema de actualizaciones se llama <b>Windows Update</b>.</p>
 
+<h4 id="Otros">Otros</h4>
+
+<p>Algunos comandos que muestran información importante sobre el sistema:</p>
+
+<ul><li><b>ver</b>: muestra el nombre y la versión del sistema</li></ul>
+
 <h3 id="Seguimiento">Seguimiento</h3>
 
 <p>Un <b>control de versiones</b> es un método de trabajo en el que se mantiene un registro de los cambios realizados en documentos, código fuente, sitios web, etc.</p>
 
-<p>Un <b>Sistema de Control de Versiones</b> (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial.</p>
+<p>Un <b>Sistema de Control de Versiones</b> (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial, BitKeeper, CVS, Bazaar, Visual SourceSafe.</p>
 
-<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto software. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac. También se les conoce como CMS, Configuration Management System.</p>
+<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<sup>[<a id="refback1" href="#ref1">1</a>]</sup>, Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.</p>
 
 <p>Un <b>Sistema de Seguimiento de Errores</b> (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.</p>
 
@@ -155,7 +172,7 @@
 <p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
 </div>
 
-<p>El <b>estándar TIA 942</b> del Uptime Institute establece 4 categorías para los datacenters, centros de datos o CPD.<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
+<p>El <b>estándar TIA 942</b> del Uptime Institute establece 4 categorías para los datacenters, centros de datos o CPD.<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
 
 <ul><li><b>TIER 1</b>: centro de datos básico sin redundancias en suministro eléctrico o climatización.</li><li><b>TIER 2</b>: centro de datos redundante en cuanto a climatización y suministro eléctrico.</li><li><b>TIER 3</b>: centro de datos concurrentemente mantenible, redundancia en todos los equipamientos básicos, doble fuente en servidores, sin paradas por mantenimiento básico.</li><li><b>TIER 4</b>: centro de datos tolerante a fallos, la más exigente.</li></ul>
 
@@ -460,7 +477,7 @@
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback2" href="#ref2">2</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback3" href="#ref3">3</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -552,8 +569,9 @@
 <ol>
 <!--references-->
 
-<li id="ref1"><a href="#refback1">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
-<li id="ref2"><a href="#refback2">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref1"><a href="#refback1">↑</a> <a href="https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html">Salt in 10 minutes</a></li>
+<li id="ref2"><a href="#refback2">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -574,7 +592,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-16 09:41:13 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-17 11:26:29 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
