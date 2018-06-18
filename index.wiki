@@ -3,24 +3,11 @@
 
 '''Te doy la bienvenida a mi web personal.''' Este sitio lo uso para recopilar información, tomar notas sobre todos los temas que me interesan y difundir mis ideas y proyectos. He tenido varios sitios web a lo largo de mi vida y este es el más reciente y donde trabajo actualmente (2018).
 
-Es un trabajo en continuo desarrollo, por ello las secciones pueden estar incompletas o contener ''herrores''. Espero ir añadiendo más información poco a poco. Si encuentras algo que te resulte de interés, fantástico.
-
-<!--'''Welcome to my website!''' I use this place to compile information, take some notes about all topics of my interest and spread the word about my ideas and projects. This is a work in-progress, so sections may be incomplete or contain ''msitakes''. If you find anything of your interest, great. You can [[contacto|contact me]] if you want.-->
+La web se encuentra en continuo desarrollo, por ello las secciones pueden estar incompletas o contener ''herrores''. Espero ir añadiendo más información poco a poco. Si encuentras algo que te resulte de interés, fantástico.
 
 {{secciones}}
 
 También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]].
-
-<div style="width: 85%;border: 2px solid pink;background-color: #FAD6A5;padding: 0px 10px 10px 10px;">
-'''Anotaciones rápidas:'''
-
-* Los directores de documentales '''[https://vimeo.com/user5080139/videos/sort:date John Pilger]''' y '''Nattie Wild''' parecen muy comprometidos. Intentaré mirar su trabajo.
-* '''[http://www.librered.net LibreRed]''' desaparece en el mes de mayo de 2017 sin aviso previo. Era un excelente portal de noticias alternativas, que daba una visión diferente a la de los mass media. Aunque hacían refritos de muchos otros sitios alternativos, tras varios años funcionando tenían una excelente hemeroteca. Aparentemente se han transformado en [https://lazurda.tv LaZurda.tv], un canal de programas televisivos.
-
-<!--
-Ver más [[anotaciones]].
--->
-</div>
 
 __NOTOC__
 {{footer}}

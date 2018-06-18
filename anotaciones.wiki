@@ -1,5 +1,9 @@
 {{header|1=Anotaciones}}
 
+* Los directores de documentales '''[https://vimeo.com/user5080139/videos/sort:date John Pilger]''' y '''Nattie Wild''' parecen muy comprometidos. Intentaré mirar su trabajo.
+
+* '''[http://www.librered.net LibreRed]''' desaparece en el mes de mayo de 2017 sin aviso previo. Era un excelente portal de noticias alternativas, que daba una visión diferente a la de los mass media. Aunque hacían refritos de muchos otros sitios alternativos, tras varios años funcionando tenían una excelente hemeroteca. Aparentemente se han transformado en [https://lazurda.tv LaZurda.tv], un canal de programas televisivos.
+
 * '''29 de agosto de 2014:''' Publican una colección de [http://blog.flickr.net/en/2014/08/29/welcome-the-internet-archive-to-the-commons/ 2 millones de imágenes extraidas de libros] antiguos de Internet Archive.
     
 * '''11 de mayo de 2014:''' Empiezo a migrar mis repositorios de código desde Google Code a [https://github.com/emijrp GitHub].
