@@ -57,6 +57,12 @@ Entre las operaciones básicas están la '''creación de usuarios y grupos''', s
 
 Para encontrar un fichero es útil el comando '''locate'''. Por ejemplo para buscar donde está el fichero '''resolv.conf''' de DNS o el log '''access.log''' de Apache, basta con escribir '''locate resolv.conf''' o '''locate access.log''' respectivamente.
 
+El comando '''find''' es más potente:
+* '''find . -type f -name *txt''': busca todos los ficheros del directorio actual con extensión txt.
+* '''find / -type d -name *abc* -mtime +1''': busca todos los directorios que tienen abc en el nombre y que fueron modificados por última vez hace más de 1 día.
+* '''find / -type f -perm 0777''': busca todos los ficheros con permisos 0777.
+* '''find / -size 1GB''': busca todos los ficheros de al menos 1 GB.
+
 Algunos '''ficheros de log''':
 {{div col 2}}
 * '''/var/log/auth.log''': eventos de autenticación.
@@ -215,6 +221,37 @@ Algunos '''ficheros''' importantes:
 
 * '''hosts''': mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.
 * '''resolv.conf''': especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.
+
+=== iptables ===
+
+'''iptables''' es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<ref>[https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol) iptables (ArchWiki)]</ref>
+
+Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).
+
+* '''filter table''': todos los paquetes pasan por esta tabla de filtros. Con '''INPUT''' se controlan los paquetes destinados al sistema. Con '''OUTPUT''' los creados por el sistema. Y con '''FORWARD''' los que pasan por el sistema hacia otro destino (enrutado).
+
+* '''nat table''': reescritura de direcciones o puertos.
+
+* '''mangle table''': ajustes de opciones de paquetes como calidad de servicio.
+
+Los targets son:
+* '''ACCEPT''': el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.
+* '''DROP'''': el paquete es descartado sin más (REJECT envía un paquete de error).
+* '''QUEUE''': se encola el paquete.
+* '''RETURN''': el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.
+* '''REJECT''': se envía un paquete de error al remitente y se rechaza el paquete.
+* '''LOG''': se guarda en el log.
+
+Algunos ejemplos del comando iptables:
+
+* '''iptables -L -n -v''': muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.
+* '''iptables -A INPUT -p tcp --dport 1234 -j REJECT''': añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final '''--reject-with''' para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).
+* '''iptables -A INPUT -p udp --dport 4567 -j ACCEPT''': añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.
+* '''iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128''': añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviad al 3128.
+
+Para borrar todas las reglas se utiliza '''iptables -F''' (--flush). Para borrar todas las cadenas '''iptables -X'''.
+
+Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/start/restart''' respectivamente.
 
 == Tema 4: Seguridad ==
 

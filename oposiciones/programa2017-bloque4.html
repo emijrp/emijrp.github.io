@@ -56,6 +56,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;2.3 <a href="#Spam">Spam</a><br/>
 &nbsp;3. <a href="#Tema 3: Administración de redes">Tema 3: Administración de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Administración y monitorización de redes">Administración y monitorización de redes</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#iptables">iptables</a><br/>
 &nbsp;4. <a href="#Tema 4: Seguridad">Tema 4: Seguridad</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#Criptología">Criptología</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 <a href="#Criptografía simétrica">Criptografía simétrica</a><br/>
@@ -120,6 +121,9 @@
 <h4 id="Otros">Otros</h4>
 
 <p>Para encontrar un fichero es útil el comando <b>locate</b>. Por ejemplo para buscar donde está el fichero <b>resolv.conf</b> de DNS o el log <b>access.log</b> de Apache, basta con escribir <b>locate resolv.conf</b> o <b>locate access.log</b> respectivamente.</p>
+
+<p>El comando <b>find</b> es más potente:</p>
+<ul><li><b>find . -type f -name *txt</b>: busca todos los ficheros del directorio actual con extensión txt.</li><li><b>find / -type d -name *abc* -mtime +1</b>: busca todos los directorios que tienen abc en el nombre y que fueron modificados por última vez hace más de 1 día.</li><li><b>find / -type f -perm 0777</b>: busca todos los ficheros con permisos 0777.</li><li><b>find / -size 1GB</b>: busca todos los ficheros de al menos 1 GB.</li></ul>
 
 <p>Algunos <b>ficheros de log</b>:</p>
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
@@ -255,6 +259,25 @@
 <p>Algunos <b>ficheros</b> importantes:</p>
 
 <ul><li><b>hosts</b>: mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.</li><li><b>resolv.conf</b>: especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.</li></ul>
+
+<h3 id="iptables">iptables</h3>
+
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
+
+<p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
+
+<ul><li><b>filter table</b>: todos los paquetes pasan por esta tabla de filtros. Con <b>INPUT</b> se controlan los paquetes destinados al sistema. Con <b>OUTPUT</b> los creados por el sistema. Y con <b>FORWARD</b> los que pasan por el sistema hacia otro destino (enrutado).</li><li><b>nat table</b>: reescritura de direcciones o puertos.</li><li><b>mangle table</b>: ajustes de opciones de paquetes como calidad de servicio.</li></ul>
+
+<p>Los targets son:</p>
+<ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>': el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
+
+<p>Algunos ejemplos del comando iptables:</p>
+
+<ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviad al 3128.</li></ul>
+
+<p>Para borrar todas las reglas se utiliza <b>iptables -F</b> (--flush). Para borrar todas las cadenas <b>iptables -X</b>.</p>
+
+<p>Para parar, iniciar y reiniciar el firewall se utiliza <b>service iptables stop/start/restart</b> respectivamente.</p>
 
 <h2 id="Tema 4: Seguridad">Tema 4: Seguridad</h2>
 
@@ -477,7 +500,7 @@
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback3" href="#ref3">3</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback4" href="#ref4">4</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -571,7 +594,8 @@
 
 <li id="ref1"><a href="#refback1">↑</a> <a href="https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html">Salt in 10 minutes</a></li>
 <li id="ref2"><a href="#refback2">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
-<li id="ref3"><a href="#refback3">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
+<li id="ref4"><a href="#refback4">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -592,7 +616,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-17 11:26:29 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-18 11:51:02 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
