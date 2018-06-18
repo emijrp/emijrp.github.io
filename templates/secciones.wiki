@@ -42,6 +42,7 @@
     {{button-blue|1=viajes/viajes.html|2=Viajes}}
     {{button-blue|1=videoteca/videoteca.html|2=Videoteca}}
     {{button-blue|1=wikis/wikis.html|2=Wikis}}
+    {{button-blue|1=explorar.html|2=Explorar}}
     {{button-blue|1=sitemap.html|2=Sitemap}}
 </p>
 
