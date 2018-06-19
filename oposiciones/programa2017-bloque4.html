@@ -51,9 +51,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;1.4 <a href="#Niveles TIA 942">Niveles TIA 942</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="#Máquinas virtuales">Máquinas virtuales</a><br/>
 &nbsp;2. <a href="#Tema 2: Administración de bases de datos">Tema 2: Administración de bases de datos</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="#Correo electrónico">Correo electrónico</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="#Microsoft Exchange">Microsoft Exchange</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2.3 <a href="#Spam">Spam</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="#Administración de bases de datos">Administración de bases de datos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="#Administración de correo electrónico">Administración de correo electrónico</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="#Microsoft Exchange">Microsoft Exchange</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="#Spam">Spam</a><br/>
 &nbsp;3. <a href="#Tema 3: Administración de redes">Tema 3: Administración de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Administración y monitorización de redes">Administración y monitorización de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#iptables">iptables</a><br/>
@@ -105,7 +106,7 @@
 <h4 id="Instalación y desinstalación de software">Instalación y desinstalación de software</h4>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016-SE (IL)  </b></p>
 </div>
 
 <p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.</p>
@@ -113,17 +114,31 @@
 <ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose). Creado por Red Hat.</li><li><b>yast</b>: -i (instala un paquete). Creado por SuSE.</li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.</li></ul>
 
 <h4 id="Usuarios y grupos">Usuarios y grupos</h4>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
 
 <p>Entre las operaciones básicas están la <b>creación de usuarios y grupos</b>, su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.</p>
 
 <ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
 
+<p>El fichero <b>/etc/login.defs</b> define parámetros referentes a contraseñas, como su caducidad.</p>
+
 <h4 id="Otros">Otros</h4>
 
 <p>Para encontrar un fichero es útil el comando <b>locate</b>. Por ejemplo para buscar donde está el fichero <b>resolv.conf</b> de DNS o el log <b>access.log</b> de Apache, basta con escribir <b>locate resolv.conf</b> o <b>locate access.log</b> respectivamente.</p>
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
 <p>El comando <b>find</b> es más potente:</p>
 <ul><li><b>find . -type f -name *txt</b>: busca todos los ficheros del directorio actual con extensión txt.</li><li><b>find / -type d -name *abc* -mtime +1</b>: busca todos los directorios que tienen abc en el nombre y que fueron modificados por última vez hace más de 1 día.</li><li><b>find / -type f -perm 0777</b>: busca todos los ficheros con permisos 0777.</li><li><b>find / -size 1GB</b>: busca todos los ficheros de al menos 1 GB.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
 
 <p>Algunos <b>ficheros de log</b>:</p>
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
@@ -132,9 +147,17 @@
 </div>
 
 
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
 <p>Algunos comandos que muestran información importante sobre el sistema:</p>
 
-<ul><li><b>uname</b>: -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)</li><li><b>lsb_release</b>: -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)</li><li><b>free</b>: memoria en uso y libre.</li></ul>
+<ul><li><b>uname</b>: -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)</li><li><b>lsb_release</b>: -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)</li><li><b>vgdisplay</b>: información sobre grupos de volúmenes LVM.</li><li><b>df</b>: muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.</li><li><b>du</b>: muestra el espacio ocupado por los directorios (disk usage). También tiene -h.</li><li><b>free</b>: memoria en uso y libre. También tiene -h.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
 
 <p>En el directorio <b>/proc</b> hay numerosos ficheros con información del sistema y procesos:</p>
 
@@ -146,7 +169,7 @@
 <p>Pregunta relacionada en convocatoria <b>2015 (IL) 2015 (PI)  </b></p>
 </div>
 
-<p><b>Windows PowerShell</b> es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama <b>cmdlets</b>.</p>
+<p><b>Windows PowerShell</b> es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama <b>cmdlets</b>. Para ver ayuda sobre un cmdlet se usa Get-Help.</p>
 
 <p>Entre las tareas básicas que permite está el encendido y apagado de servicios, modificación de registros del sistema y monitorización.</p>
 
@@ -197,7 +220,23 @@
 </div>
 
 
-<h3 id="Correo electrónico">Correo electrónico</h3>
+<h3 id="Administración de bases de datos">Administración de bases de datos</h3>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
+
+<p>Algunos <b>comandos para MySQL</b>:</p>
+
+<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback3" href="#ref3">3</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback4" href="#ref4">4</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
+<p>Para <b>ORACLE</b> los comandos para exportar e importar bases de datos son expdp y impdp respectivamente.</p>
+
+<h3 id="Administración de correo electrónico">Administración de correo electrónico</h3>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL)  </b></p>
@@ -211,13 +250,13 @@
 
 <ul><li><b>SMTP</b>: protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.</li><ul><li><b>Comandos SMTP</b>: HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.</li></ul></ul>
 
-<h3 id="Microsoft Exchange">Microsoft Exchange</h3>
+<h4 id="Microsoft Exchange">Microsoft Exchange</h4>
 
 <p>Database Availability Group</p>
 
 <p>Exchange ActiveSync</p>
 
-<h3 id="Spam">Spam</h3>
+<h4 id="Spam">Spam</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IP)   </b></p>
 </div>
@@ -261,8 +300,11 @@
 <ul><li><b>hosts</b>: mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.</li><li><b>resolv.conf</b>: especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.</li></ul>
 
 <h3 id="iptables">iptables</h3>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
 
-<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<sup>[<a id="refback5" href="#ref5">5</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
@@ -297,6 +339,14 @@
 <p>Conceptos relativos a personas:</p>
 
 <ul><li><b>Cracker</b>: persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.</li><li><b>Hacker</b>: persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.</li><li><b>Lamer</b>: persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.</li><li><b>Luser</b>: similar a lamer, un usuario que es molesto.</li><li><b>Noob</b>: un novato o recién llegado a una comunidad u oficio.</li><li><b>Phreaker</b>: persona que experimenta con sistemas de telefonía.</li><li><b>Script kiddie</b>: es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
+<p><b>Herramientas</b> del <b>CCN-CERT</b>:</p>
+
+<ul><li><b>CARMEN</b>: Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.</li><li><b>CLARA</b>: Herramienta para verificar el cumplimiento del ENS.</li><li><b>INÉS</b>: Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.</li><li><b>GLORIA</b>:</li><li><b>LORETO</b>:</li><li><b>LUCÍA</b>: Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.</li><li><b>MARÍA</b>: MultiAntivirus IntegrAdo.</li><li><b>MARTA</b>: Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.</li><li><b>PILAR</b>: Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.</li><li><b>REYES</b>: REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.</li></ul>
 
 <h3 id="Criptología">Criptología</h3>
 
@@ -500,7 +550,7 @@
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback4" href="#ref4">4</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -594,8 +644,10 @@
 
 <li id="ref1"><a href="#refback1">↑</a> <a href="https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html">Salt in 10 minutes</a></li>
 <li id="ref2"><a href="#refback2">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
-<li id="ref3"><a href="#refback3">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
-<li id="ref4"><a href="#refback4">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/">mysqladmin</a></li>
+<li id="ref4"><a href="#refback4">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
+<li id="ref5"><a href="#refback5">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
+<li id="ref6"><a href="#refback6">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -616,7 +668,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-18 11:51:02 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-19 10:51:50 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

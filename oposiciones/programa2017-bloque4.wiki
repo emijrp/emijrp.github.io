@@ -28,7 +28,7 @@ Ideas Actualización, mantenimiento y reparación:
 
 ==== Instalación y desinstalación de software ====
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016-SE (IL)}}
 Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
 
 * '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.
@@ -42,6 +42,7 @@ Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software 
 * '''yum''': install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.
 
 ==== Usuarios y grupos ====
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 
 Entre las operaciones básicas están la '''creación de usuarios y grupos''', su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.
 
@@ -53,16 +54,20 @@ Entre las operaciones básicas están la '''creación de usuarios y grupos''', s
 
 * '''groupadd''': crea un nuevo grupo de usuarios.
 
+El fichero '''/etc/login.defs''' define parámetros referentes a contraseñas, como su caducidad.
+
 ==== Otros ====
 
 Para encontrar un fichero es útil el comando '''locate'''. Por ejemplo para buscar donde está el fichero '''resolv.conf''' de DNS o el log '''access.log''' de Apache, basta con escribir '''locate resolv.conf''' o '''locate access.log''' respectivamente.
 
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 El comando '''find''' es más potente:
 * '''find . -type f -name *txt''': busca todos los ficheros del directorio actual con extensión txt.
 * '''find / -type d -name *abc* -mtime +1''': busca todos los directorios que tienen abc en el nombre y que fueron modificados por última vez hace más de 1 día.
 * '''find / -type f -perm 0777''': busca todos los ficheros con permisos 0777.
 * '''find / -size 1GB''': busca todos los ficheros de al menos 1 GB.
 
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 Algunos '''ficheros de log''':
 {{div col 2}}
 * '''/var/log/auth.log''': eventos de autenticación.
@@ -80,12 +85,17 @@ Algunos '''ficheros de log''':
 * '''/var/log/user.log''': registros de usuarios.
 {{div col end}}
 
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 Algunos comandos que muestran información importante sobre el sistema:
 
 * '''uname''': -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)
 * '''lsb_release''': -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)
-* '''free''': memoria en uso y libre.
+* '''vgdisplay''': información sobre grupos de volúmenes LVM.
+* '''df''': muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.
+* '''du''': muestra el espacio ocupado por los directorios (disk usage). También tiene -h.
+* '''free''': memoria en uso y libre. También tiene -h.
 
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 En el directorio '''/proc''' hay numerosos ficheros con información del sistema y procesos:
 
 * '''/proc/PID''': cada proceso en ejecución tiene un directorio con su PID. Dentro existen los ficheros: cmdline, cwd, environ, exe, fd, fdinfo, maps, mem, root, status y task.
@@ -100,7 +110,7 @@ En el directorio '''/proc''' hay numerosos ficheros con información del sistema
 === Administración de sistemas Windows ===
 
 {{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
-'''Windows PowerShell''' es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama '''cmdlets'''.
+'''Windows PowerShell''' es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama '''cmdlets'''. Para ver ayuda sobre un cmdlet se usa Get-Help.
 
 Entre las tareas básicas que permite está el encendido y apagado de servicios, modificación de registros del sistema y monitorización.
 
@@ -147,7 +157,29 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 
 {{recuadro|1='''Administración de bases de datos'''. Funciones y responsabilidades. Administración de servidores de correo electrónico. Protocolos de correo electrónico.}}
 
-=== Correo electrónico ===
+=== Administración de bases de datos ===
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
+
+Algunos '''comandos para MySQL''':
+
+* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).
+
+* '''mysqladmin''': administración de MySQL.<ref>[https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/ mysqladmin]</ref>
+** '''mysqladmin -u user -ppassword version''': versión del servidor.
+** '''mysqladmin -u user -ppassword status''': estado del servidor, uptime, slow queries.
+** '''mysqladmin -u user -ppassword create db_name''': crea una base de datos.
+** '''mysqladmin -u user -ppassword drop db_name''': borra una base de datos.
+** '''/etc/init.d/mysqld start''': inicia el servidor.
+** '''/etc/init.d/mysqld stop''': para el servidor.
+
+* '''mysqldump''': genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<ref>[https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html mysqldump]</ref> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases > dump.sql
+
+* '''mysqlimport''': importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql
+
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
+Para '''ORACLE''' los comandos para exportar e importar bases de datos son expdp y impdp respectivamente.
+
+=== Administración de correo electrónico ===
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 * '''IMAP''': protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.
@@ -159,13 +191,13 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 * '''SMTP''': protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.
 ** '''Comandos SMTP''': HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.
 
-=== Microsoft Exchange ===
+==== Microsoft Exchange ====
 
 Database Availability Group
 
 Exchange ActiveSync
 
-=== Spam ===
+==== Spam ====
 {{cayo-en-convocatoria|1=2016 (IP)}}
 El '''Sender Policy Framework''' (SPF) es una protección contra la falsificación de direcciones y el spam en el envío de correo electrónico. Identifica a través de DNS a los servidores de correo SMTP autorizados para el envío de mensajes.
 
@@ -223,7 +255,7 @@ Algunos '''ficheros''' importantes:
 * '''resolv.conf''': especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.
 
 === iptables ===
-
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 '''iptables''' es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<ref>[https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol) iptables (ArchWiki)]</ref>
 
 Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).
@@ -290,6 +322,20 @@ Conceptos relativos a personas:
 * '''Noob''': un novato o recién llegado a una comunidad u oficio.
 * '''Phreaker''': persona que experimenta con sistemas de telefonía.
 * '''Script kiddie''': es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.
+
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
+'''Herramientas''' del '''CCN-CERT''':
+
+* '''CARMEN''': Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.
+* '''CLARA''': Herramienta para verificar el cumplimiento del ENS.
+* '''INÉS''': Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.
+* '''GLORIA''':
+* '''LORETO''':
+* '''LUCÍA''': Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.
+* '''MARÍA''': MultiAntivirus IntegrAdo.
+* '''MARTA''': Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.
+* '''PILAR''': Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.
+* '''REYES''': REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.
 
 === Criptología ===
 

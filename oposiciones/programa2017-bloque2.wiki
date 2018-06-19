@@ -613,6 +613,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''cut''': corta texto de las líneas de un fichero
 * '''date''': muestra la fecha y hora
 * '''dc''': calculadora
+* '''dd''': copia ficheros, particiones, discos
 * '''df''': muestra espacio libre en disco
 * '''diff''': diferencia entre dos ficheros
 * '''dpkg''': operaciones con paquetes
@@ -648,6 +649,9 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''ln''': crea un enlace duro a un fichero (-s enlace simbólico)
 * '''locate''': busca ficheros por nombre
 * '''login''': inicia nueva sesión en el sistema
+* '''lp''': encola trabajos para su impresión
+* '''lpq''': muestra cola de impresión
+* '''lprm''': borra trabajos pendientes en la cola de impresión
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
 * '''lsmod''': muestra los módulos del kernel
@@ -673,6 +677,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''poweroff''': apaga el sistema
 * '''ps''': muestra procesos
 * '''pstree''': muestra árbol de procesos
+* '''pv''': calcula los bytes que pasan a través de él
 * '''pwd''': muestra directorio actual
 * '''reboot''': reinicia el sistema
 * '''renice''': cambia la prioridad de un proceso
