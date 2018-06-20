@@ -116,6 +116,42 @@ Entre las tareas básicas que permite está el encendido y apagado de servicios,
 
 Comandos de cmd.exe y UNIX que funcionan también en PowerShell: cat, cd, chdir, clear, cls, copy, del, diff, dir, echo, erase, h, history, kill, lp, ls, mount, move, popd, ps, pushd, pwd, r, ren, rm, rmdir, sleep, sort, tee, type, write. Para conocer el nombre completo en vez del alias: Get-Alias clear.
 
+Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569.aspx Overview of Cmdlets Available in Windows PowerShell]</ref>
+
+{{div col 2}}
+* '''Add-Computer''': añade un ordenador a un dominio o grupo de trabajo.
+* '''Add-Content''': añade contenido a un objeto.
+* '''Checkpoint-Computer''': crea un punto de restauración.
+* '''Clear-Item''': borra contenido de un objeto.
+* '''Clear-ItemProperty''': borra el valor de una propiedad.
+* '''Clear-Variable''': borra el valor de una variable.
+* '''Compare-Object''': compara dos conjuntos de objetos.
+* '''ConvertTo-CSV''': convierte objetos a CSV.
+* '''ConvertTo-Html''': convierte objetos a HTML.
+* '''ConvertTo-XML''': convierte objetos a XML.
+* '''Copy-Item''': copia un objeto de un lugar a otro.
+* '''Copy-ItemProperty''': copia una propiedad y su valor de un lugar a otro.
+* '''Debug-Process''': depura un proceso.
+* '''Disable-ComputerRestore''': desactiva la restauración del sistema en una unidad.
+* '''Enable-ComputerRestore''': activa la restauración del sistema en una unidad.
+* '''Export-Alias''': exporta los aliases definidos.
+* '''Get-ADUser''': 
+* '''Get-Alias''': muestra los aliases disponibles.
+* '''Get-AppxPackage''':
+* '''Get-Command''': muestra información sobre cmdlets y otros comandos.
+* '''Get-ComputerRestorePoint''': muestra los puntos de restauración.
+* '''Get-Content''': muestra el contenido de un objeto.
+* '''Get-Date''': muestra la fecha y hora.
+* '''Get-Events''': muestra la cola de eventos.
+* '''Get-Help''': muestra ayuda sobre comandos.
+* '''Get-History''': muestra el histórico de comandos usados en la sesión.
+* '''Get-Item''': selecciona un objeto.
+* '''Get-ItemProperty''': selecciona la propiedad de un objeto.
+* '''Get-Process''': selecciona procesos ejecutándose en el sistema.
+* '''Get-Services''': selecciona los servicios del sistema.
+* y muchos más...
+{{div col end}}
+
 El sistema de actualizaciones se llama '''Windows Update'''.
 
 ==== Otros ====
@@ -332,7 +368,7 @@ Conceptos relativos a personas:
 * '''GLORIA''':
 * '''LORETO''':
 * '''LUCÍA''': Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.
-* '''MARÍA''': MultiAntivirus IntegrAdo.
+* '''MARÍA''': MultiAntiviRus IntegrAdo.
 * '''MARTA''': Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.
 * '''PILAR''': Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.
 * '''REYES''': REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.
@@ -407,9 +443,15 @@ La '''criptografía de curva elíptica''' es una variante de la criptografía as
 La '''criptografía híbrida''' utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.
 
 ==== Funciones hash ====
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
 
 * '''MD5''': produce un hash de 128 bits (16 bytes), 32 caracteres hexadecimales.
 * '''SHA-1''': produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.
+
+==== Gestión de contraseñas ====
+
+{{cayo-en-convocatoria|1=2016-SE (IL)}}
+Existe software para gestionar contraseñas de múltiples equipos. Es el caso de LAPS (Local Administrator Password Solution).
 
 == Tema 5: Comunicaciones ==
 
@@ -528,6 +570,13 @@ El protocolo '''NFC''' funciona en distancias muy cortas (cercanas a 4 cm) y no 
 ** '''IEEE 802.15.7''': Visible Light Communication (VLC)
 * '''IEEE 802.16''': WiMAX
 
+'''Clases de red''':
+* '''Clase A''': Bits de mayor peso (0). Rango 0-127.255.255.255
+* '''Clase B''': Bits de mayor peso (10). Rango 128-191.255.255.255
+* '''Clase C''': Bits de mayor peso (110). Rango 192-223.255.255.255
+* '''Clase D''': Bits de mayor peso (1110). Rango 224-239.255.255.255
+* '''Clase E''': Bits de mayor peso (11110). Rango 240-247.255.255.255
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
 La '''máscara de red''' es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.
 
@@ -616,6 +665,7 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 {{recuadro|1=Internet: arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS y SSL/TLS.}}
 
 Ipv4 ipv6 (pregunta b4.32 y 37, 39)
+
 {{cayo-en-convocatoria|1=2016 (PI)|2=2015 (IL)}}
 IPv4 tiene ips de 32 bits y IPv6 de 128 bits.
 
@@ -627,6 +677,8 @@ IPv4 tiene ips de 32 bits y IPv6 de 128 bits.
 * '''fec0::''': prefijo emplazamiento local
 * '''fc00::/7''': prefijo de dirección local única
 * '''ff00::/8''': prefijo de multicast
+
+DHCPv6 utiliza el puerto UDP 547.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
 '''Códigos de estado HTTP''':

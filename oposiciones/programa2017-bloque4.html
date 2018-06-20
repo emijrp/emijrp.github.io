@@ -64,6 +64,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 <a href="#Criptografía asimétrica">Criptografía asimétrica</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 <a href="#Otros tipos de criptografía">Otros tipos de criptografía</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 <a href="#Funciones hash">Funciones hash</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.5 <a href="#Gestión de contraseñas">Gestión de contraseñas</a><br/>
 &nbsp;5. <a href="#Tema 5: Comunicaciones">Tema 5: Comunicaciones</a><br/>
 &nbsp;6. <a href="#Tema 6: Redes">Tema 6: Redes</a><br/>
 &nbsp;7. <a href="#Tema 7: Modelo TCP/IP">Tema 7: Modelo TCP/IP</a><br/>
@@ -175,6 +176,14 @@
 
 <p>Comandos de cmd.exe y UNIX que funcionan también en PowerShell: cat, cd, chdir, clear, cls, copy, del, diff, dir, echo, erase, h, history, kill, lp, ls, mount, move, popd, ps, pushd, pwd, r, ren, rm, rmdir, sleep, sort, tee, type, write. Para conocer el nombre completo en vez del alias: Get-Alias clear.</p>
 
+<p>Algunos <b>cmdlets</b>:<sup>[<a id="refback1" href="#ref1">1</a>]</sup></p>
+
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>Add-Computer</b>: añade un ordenador a un dominio o grupo de trabajo.</li><li><b>Add-Content</b>: añade contenido a un objeto.</li><li><b>Checkpoint-Computer</b>: crea un punto de restauración.</li><li><b>Clear-Item</b>: borra contenido de un objeto.</li><li><b>Clear-ItemProperty</b>: borra el valor de una propiedad.</li><li><b>Clear-Variable</b>: borra el valor de una variable.</li><li><b>Compare-Object</b>: compara dos conjuntos de objetos.</li><li><b>ConvertTo-CSV</b>: convierte objetos a CSV.</li><li><b>ConvertTo-Html</b>: convierte objetos a HTML.</li><li><b>ConvertTo-XML</b>: convierte objetos a XML.</li><li><b>Copy-Item</b>: copia un objeto de un lugar a otro.</li><li><b>Copy-ItemProperty</b>: copia una propiedad y su valor de un lugar a otro.</li><li><b>Debug-Process</b>: depura un proceso.</li><li><b>Disable-ComputerRestore</b>: desactiva la restauración del sistema en una unidad.</li><li><b>Enable-ComputerRestore</b>: activa la restauración del sistema en una unidad.</li><li><b>Export-Alias</b>: exporta los aliases definidos.</li><li><b>Get-ADUser</b>: </li><li><b>Get-Alias</b>: muestra los aliases disponibles.</li><li><b>Get-AppxPackage</b>:</li><li><b>Get-Command</b>: muestra información sobre cmdlets y otros comandos.</li><li><b>Get-ComputerRestorePoint</b>: muestra los puntos de restauración.</li><li><b>Get-Content</b>: muestra el contenido de un objeto.</li><li><b>Get-Date</b>: muestra la fecha y hora.</li><li><b>Get-Events</b>: muestra la cola de eventos.</li><li><b>Get-Help</b>: muestra ayuda sobre comandos.</li><li><b>Get-History</b>: muestra el histórico de comandos usados en la sesión.</li><li><b>Get-Item</b>: selecciona un objeto.</li><li><b>Get-ItemProperty</b>: selecciona la propiedad de un objeto.</li><li><b>Get-Process</b>: selecciona procesos ejecutándose en el sistema.</li><li><b>Get-Services</b>: selecciona los servicios del sistema.</li><li>y muchos más...</li></ul>
+</div>
+
+
 <p>El sistema de actualizaciones se llama <b>Windows Update</b>.</p>
 
 <h4 id="Otros">Otros</h4>
@@ -189,7 +198,7 @@
 
 <p>Un <b>Sistema de Control de Versiones</b> (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial, BitKeeper, CVS, Bazaar, Visual SourceSafe.</p>
 
-<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<sup>[<a id="refback1" href="#ref1">1</a>]</sup>, Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.</p>
+<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<sup>[<a id="refback2" href="#ref2">2</a>]</sup>, Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.</p>
 
 <p>Un <b>Sistema de Seguimiento de Errores</b> (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.</p>
 
@@ -199,7 +208,7 @@
 <p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
 </div>
 
-<p>El <b>estándar TIA 942</b> del Uptime Institute establece 4 categorías para los datacenters, centros de datos o CPD.<sup>[<a id="refback2" href="#ref2">2</a>]</sup></p>
+<p>El <b>estándar TIA 942</b> del Uptime Institute establece 4 categorías para los datacenters, centros de datos o CPD.<sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
 
 <ul><li><b>TIER 1</b>: centro de datos básico sin redundancias en suministro eléctrico o climatización.</li><li><b>TIER 2</b>: centro de datos redundante en cuanto a climatización y suministro eléctrico.</li><li><b>TIER 3</b>: centro de datos concurrentemente mantenible, redundancia en todos los equipamientos básicos, doble fuente en servidores, sin paradas por mantenimiento básico.</li><li><b>TIER 4</b>: centro de datos tolerante a fallos, la más exigente.</li></ul>
 
@@ -228,7 +237,7 @@
 
 <p>Algunos <b>comandos para MySQL</b>:</p>
 
-<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback3" href="#ref3">3</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback4" href="#ref4">4</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
+<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback4" href="#ref4">4</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback5" href="#ref5">5</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
@@ -304,7 +313,7 @@
 <p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
 </div>
 
-<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<sup>[<a id="refback5" href="#ref5">5</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<sup>[<a id="refback6" href="#ref6">6</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
@@ -346,7 +355,7 @@
 
 <p><b>Herramientas</b> del <b>CCN-CERT</b>:</p>
 
-<ul><li><b>CARMEN</b>: Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.</li><li><b>CLARA</b>: Herramienta para verificar el cumplimiento del ENS.</li><li><b>INÉS</b>: Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.</li><li><b>GLORIA</b>:</li><li><b>LORETO</b>:</li><li><b>LUCÍA</b>: Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.</li><li><b>MARÍA</b>: MultiAntivirus IntegrAdo.</li><li><b>MARTA</b>: Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.</li><li><b>PILAR</b>: Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.</li><li><b>REYES</b>: REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.</li></ul>
+<ul><li><b>CARMEN</b>: Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.</li><li><b>CLARA</b>: Herramienta para verificar el cumplimiento del ENS.</li><li><b>INÉS</b>: Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.</li><li><b>GLORIA</b>:</li><li><b>LORETO</b>:</li><li><b>LUCÍA</b>: Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.</li><li><b>MARÍA</b>: MultiAntiviRus IntegrAdo.</li><li><b>MARTA</b>: Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.</li><li><b>PILAR</b>: Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.</li><li><b>REYES</b>: REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.</li></ul>
 
 <h3 id="Criptología">Criptología</h3>
 
@@ -411,8 +420,20 @@
 <p>La <b>criptografía híbrida</b> utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.</p>
 
 <h4 id="Funciones hash">Funciones hash</h4>
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
 
 <ul><li><b>MD5</b>: produce un hash de 128 bits (16 bytes), 32 caracteres hexadecimales.</li><li><b>SHA-1</b>: produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.</li></ul>
+
+<h4 id="Gestión de contraseñas">Gestión de contraseñas</h4>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+</div>
+
+<p>Existe software para gestionar contraseñas de múltiples equipos. Es el caso de LAPS (Local Administrator Password Solution).</p>
 
 <h2 id="Tema 5: Comunicaciones">Tema 5: Comunicaciones</h2>
 
@@ -500,6 +521,9 @@
 
 <ul><li><b>IEEE 802.1</b>:</li><ul><li><b>IEEE 802.1Q</b>: VLANs</li></ul><li><b>IEEE 802.3</b>: Ethernet</li><ul><li><b>IEEE 802.3ae</b>: 10 Gbit Ethernet</li></ul><li><b>IEEE 802.4</b>: Token bus</li><li><b>IEEE 802.5</b>: Token ring</li><li><b>IEEE 802.11</b>: Wireless LAN (WLAN)</li><ul><li><b>IEEE 802.11b</b>: Hasta 11 Mbit/s. 2.4 Ghz.</li><li><b>IEEE 802.11g</b>: Hasta 54 Mbit/s. 2.4 Ghz.</li><li><b>IEEE 802.11n</b>: Hasta 600 Mbit/s. 2.4/5 Ghz.</li><li><b>IEEE 802.11ac</b>: Hasta 433 Mbit/s, canales más anchos. 5 Ghz.</li><li><b>IEEE 802.11ad</b>: Hasta 7 Gbit/s. 60 Ghz.</li><li><b>IEEE 802.11ah</b>: WiFi HaLow. 0.9 Ghz.</li><li><b>IEEE 802.11p</b>: Wireless Access in Vehicular Environments (WAVE)</li></ul><li><b>IEEE 802.15</b>: Wireless PAN (WPAN)</li><ul><li><b>IEEE 802.15.1</b>: Bluetooth</li><li><b>IEEE 802.15.7</b>: Visible Light Communication (VLC)</li></ul><li><b>IEEE 802.16</b>: WiMAX</li></ul>
 
+<p><b>Clases de red</b>:</p>
+<ul><li><b>Clase A</b>: Bits de mayor peso (0). Rango 0-127.255.255.255</li><li><b>Clase B</b>: Bits de mayor peso (10). Rango 128-191.255.255.255</li><li><b>Clase C</b>: Bits de mayor peso (110). Rango 192-223.255.255.255</li><li><b>Clase D</b>: Bits de mayor peso (1110). Rango 224-239.255.255.255</li><li><b>Clase E</b>: Bits de mayor peso (11110). Rango 240-247.255.255.255</li></ul>
+
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI) 2015 (IL) </b></p>
 </div>
@@ -550,7 +574,7 @@
 <p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback7" href="#ref7">7</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -566,6 +590,7 @@
 
 
 <p>Ipv4 ipv6 (pregunta b4.32 y 37, 39)</p>
+
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2016 (PI) 2015 (IL)  </b></p>
 </div>
@@ -573,6 +598,8 @@
 <p>IPv4 tiene ips de 32 bits y IPv6 de 128 bits.</p>
 
 <ul><li><b>::/128</b>: ausencia de dirección</li><li><b>::1/128</b>: loopback</li><li><b>::1.2.3.4/96</b>: ipv4 compatible</li><li><b>::ffff:0:0/96</b>: ipv4 mapeada</li><li><b>fe80::/10</b>: prefijo enlace local</li><li><b>fec0::</b>: prefijo emplazamiento local</li><li><b>fc00::/7</b>: prefijo de dirección local única</li><li><b>ff00::/8</b>: prefijo de multicast</li></ul>
+
+<p>DHCPv6 utiliza el puerto UDP 547.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en convocatoria <b>2015 (PI)   </b></p>
@@ -642,12 +669,13 @@
 <ol>
 <!--references-->
 
-<li id="ref1"><a href="#refback1">↑</a> <a href="https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html">Salt in 10 minutes</a></li>
-<li id="ref2"><a href="#refback2">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
-<li id="ref3"><a href="#refback3">↑</a> <a href="https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/">mysqladmin</a></li>
-<li id="ref4"><a href="#refback4">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
-<li id="ref5"><a href="#refback5">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
-<li id="ref6"><a href="#refback6">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref1"><a href="#refback1">↑</a> <a href="https://technet.microsoft.com/en-us/library/ff714569.aspx">Overview of Cmdlets Available in Windows PowerShell</a></li>
+<li id="ref2"><a href="#refback2">↑</a> <a href="https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html">Salt in 10 minutes</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
+<li id="ref4"><a href="#refback4">↑</a> <a href="https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/">mysqladmin</a></li>
+<li id="ref5"><a href="#refback5">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
+<li id="ref6"><a href="#refback6">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
+<li id="ref7"><a href="#refback7">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -668,7 +696,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-19 10:51:50 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-20 13:30:57 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
