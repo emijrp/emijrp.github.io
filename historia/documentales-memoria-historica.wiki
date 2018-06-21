@@ -75,5 +75,5 @@ Esta es una recopilación de '''documentales de Memoria Histórica''' que he ido
 * Ojos que no ven, víctimas del fascismo desde la transición
 * El convoy de los 927
 
-{{memoria historica}}
+{{historia}}
 {{footer}}

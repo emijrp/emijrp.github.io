@@ -324,8 +324,14 @@ Los nombres de las 13 mujeres (más una):
 {{div col 2}}
 
 * [http://www.foroporlamemoria.info Federación Estatal de Foros por la Memoria]*
+* [http://memoriahistorica.cnt.es Memoria Histórica CNT]
 * [http://www.memoriaylibertad.org Memoria y Libertad]*
 * [http://evi.linhd.uned.es/projects/hismedi/om/inicio Proyecto HISMEDI]*
+
+'''Archivos'''
+
+* [http://www.fpabloiglesias.es/archivo-y-biblioteca Archivo Fundación Pablo Iglesias]
+* [http://archivohistoricopce.org Archivo Histórico PCE]
 
 '''Asociaciones y colectivos'''
 
@@ -362,7 +368,15 @@ Los nombres de las 13 mujeres (más una):
 
 '''Otras'''
 
+* [https://13rosas.wordpress.com 13 Rosas Asturias] ([https://asociaciontrecerosas.blogspot.com web anterior])
+* [https://age-derechos.blogspot.com AGE - Archivo, Guerra y Exilio]
+* [http://www.asturiasrepublicana.com Asturias Republicana]
 * [http://www.buscameenelciclodelavida.com Búscame en el ciclo de la vida]
+* [http://www.combatientes.es Combatientes]*
+* [https://documentalismomemorialistayrepublicano.wordpress.com Documentalismo Memorialista]*
+* [https://exilioenrusia.blogspot.com Estación Soviética]
+* [http://www.memoria-antifranquista.com Memòria Antifranquista]
+* [http://memoriacautiva.blogspot.com Memoria Cautiva]
 * [http://memoriadebusqueda.blogspot.com Memoria de una búsqueda]
 * [http://memoriasdelaguerracivil.blogspot.com Memorias de la Guerra Civil Española]*
 
@@ -370,5 +384,5 @@ Los nombres de las 13 mujeres (más una):
 
 '''Nota''': Las que tienen un asterisco (*) tienen más enlaces para explorar. Las que tienen una exclamación (!) parecen caídas o desaparecidas.
 
-{{memoria historica}}
+{{historia}}
 {{footer}}
