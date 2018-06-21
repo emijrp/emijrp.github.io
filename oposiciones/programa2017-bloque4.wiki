@@ -28,7 +28,7 @@ Ideas Actualización, mantenimiento y reparación:
 
 ==== Instalación y desinstalación de software ====
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2016-SE (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016-SE (IL)|3=2016-SE (PI)}}
 Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
 
 * '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.
@@ -155,10 +155,43 @@ Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569
 El sistema de actualizaciones se llama '''Windows Update'''.
 
 ==== Otros ====
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
 
-Algunos comandos que muestran información importante sobre el sistema:
+Algunos comandos que muestran información importante sobre el sistema o que permiten realizar operaciones.<ref>[https://www.symantec.com/connect/articles/list-run-commands-windows-7-and-8 List of run commands in Windows 7 and 8]</ref>
 
-* '''ver''': muestra el nombre y la versión del sistema
+{{div col 2}}
+* '''certmgr.msc''': certificados del sistema.
+* '''cmd''': línea de comandos.
+* '''control''': panel de control.
+* '''devmgmt.msc''': administrador de dispositivos.
+* '''dfrgui''': desfragmentador de disco.
+* '''diskmgmt.msc''': administrador de discos.
+* '''eventvwr.msc''': visor de eventos.
+* '''explorer''': explorador de Windows.
+* '''firewall.cpl''': firewall.
+* '''gpedit.msc''': editor de políticas de grupos locales.
+* '''isoburn''': programa para grabar CDs. También dvdmaker.
+* '''lusrmgr.msc''': usuarios y grupos locales.
+* '''msconfig''': configuración del sistema.
+* '''msinfo32''': información del sistema.
+* '''msra''': asistencia remota.
+* '''perfmon.msc''': monitor de rendimiento.
+* '''powercfg.cpl''': opciones de energía.
+* '''powershell''': consola de PowerShell.
+* '''printmanagement.msc''': control de impresoras.
+* '''recdisc''': reparación de discos.
+* '''regedit''': editor de registro.
+* '''regedt32''': editor de registro.
+* '''secpol.msc''': políticas de seguridad locales.
+* '''services.msc''': muestra todos los servicios en ejecución.
+* '''taskmgr''': administrador de tareas.
+* '''taskschd.msc''': programador de tareas.
+* '''ver''': muestra el nombre y la versión del sistema. También winver.
+* '''wscript''': Windows Script Host.
+* '''wuapp''': Windows Update.
+{{div col end}}
+
+Los comandos con extensión .msc son Microsoft Management Console y los .cpl son Windows Control Panel.
 
 === Seguimiento ===
 
@@ -248,7 +281,7 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
-* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down) y habilitarlo (ifconfig wlan0/eth0 up).
+* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 * '''ipconfig''': internet protocol configuration, aplicación para '''Windows''' que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
@@ -275,6 +308,7 @@ Algunos '''comandos y herramientas''' útiles:
 * '''tcpdump''': analizador de paquetes por línea de comandos.
 ** '''tcpdump host 192.168.1.1''': captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.
 ** '''tcpdump port 80''': captura tráfico con origen o destino el puerto 80
+** '''tcpdump -ni eth0 host 10.1.1.2 -w file.log''': captura tráfico de la interfaz eth0 e ip 10.1.1.2 y lo vuelca a un fichero de log.
 
 * '''telnet''': permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.
 
@@ -289,6 +323,19 @@ Algunos '''ficheros''' importantes:
 
 * '''hosts''': mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.
 * '''resolv.conf''': especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.
+
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+'''Protocolos''':
+* '''ARP''': protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.
+* '''RARP''': protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.
+
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+'''Firewall''' de Windows:<ref>[http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands Top 10 Windows Firewall netsh commands]</ref>
+* '''netsh advfirewall set allprofiles state on''': activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.
+* '''netsh advfirewall set allprofiles state off''': desactivar el firewall.
+* '''netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4''': bloquear el ping entrante.
+
+'''dir''' puede ser in/out. '''action''' puede ser block/allow. Los protocolos más frecuentes son tcp y udp. Para añdir reglas se usa '''add''', para borrar '''delete'''. Con '''localport''' puede filtrarse por puerto. Con el parámetro '''program''' se puede actuar sobre programas individuales.
 
 === iptables ===
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
@@ -577,7 +624,7 @@ El protocolo '''NFC''' funciona en distancias muy cortas (cercanas a 4 cm) y no 
 * '''Clase D''': Bits de mayor peso (1110). Rango 224-239.255.255.255
 * '''Clase E''': Bits de mayor peso (11110). Rango 240-247.255.255.255
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2015 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)|3=2016-SE (PI)|4=2015 (IL)}}
 La '''máscara de red''' es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.
 
 En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts disponibles en toda subred es N-2.
@@ -591,6 +638,10 @@ Ejemplos de máscaras de red:
 Para saber la dirección de red de una IP y una máscara de red dadas:
 * Pasar la máscara a binario para saber cuántos 1 hay a la izquierda. El resto de la derecha son hosts.
 * Pasar la IP a binario, para saber los dígitos que corresponden a la máscara. Poniendo los dígitos de host a cero, sale la IP de la red.
+
+Para saber la dirección de broadcast a partir de una dirección IP y una máscara de red:
+* Calcular la dirección de red según el método anterior.
+* Poner todos los 0 de la dirección a 1.?
 
 == Tema 7: Modelo TCP/IP ==
 
