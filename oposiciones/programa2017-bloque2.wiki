@@ -664,6 +664,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''moduser''': modifica usuario del sistema
 * '''more''': muestra fichero de texto
 * '''mount''': monta un sistema de ficheros. Opuesto a umount
+* '''multipath''': dispositivos multirrutas
 * '''mv''': renombrar o mover ficheros y directorios
 * '''nano''': editor de textos
 * '''netstat''': muestra conexiones activas

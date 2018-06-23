@@ -15,8 +15,9 @@ En este tema son útiles los '''apuntes de otros bloques''':
 {{cayo-en-convocatoria|1=2016 (PI)}}
 Un '''administrador de sistemas''' es aquella persona que configura, mantiene, documenta y monitoriza un sistema informático. Debe garantizar que el sistema permanezca en funcionamiento el mayor tiempo posible, que el rendimiento sea apropiado y que sea seguro.
 
-Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación, configuración y desinstalación de software, instalación actualizaciones, hacer copias de seguridad, etc.
+Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación, configuración y desinstalación de software, instalación de actualizaciones, hacer copias de seguridad, etc.
 
+<!--
 Ideas Actualización, mantenimiento y reparación:
 
 * Herramientas testeo, optimización
@@ -24,12 +25,13 @@ Ideas Actualización, mantenimiento y reparación:
 * SNMP
 * Puppet: herramienta de administración de configuración 
 
+-->
 === Administración de sistemas Linux ===
 
 ==== Instalación y desinstalación de software ====
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2016-SE (IL)|3=2016-SE (PI)}}
-Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
+{{cayo-en-convocatoria|1=2016 (IL)|2=2016-SE (IL)|3=2016-SE (PI)|4=2015-SE (IL)}}
+Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Las listas de repositorios pueden ser modificadas para incluir otros. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza rpm), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
 
 * '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.
 
@@ -48,7 +50,7 @@ Entre las operaciones básicas están la '''creación de usuarios y grupos''', s
 
 * '''useradd''': añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe
 
-* '''passwd''': cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).
+* '''passwd''': cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).
 
 * '''chage''': caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).
 
@@ -89,11 +91,25 @@ Algunos '''ficheros de log''':
 Algunos comandos que muestran información importante sobre el sistema:
 
 * '''uname''': -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)
-* '''lsb_release''': -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)
-* '''vgdisplay''': información sobre grupos de volúmenes LVM.
+* '''lsb_release''': -a (muestra todo), -v (versión), -d (descripción), -r (release), -c (codename)
 * '''df''': muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.
 * '''du''': muestra el espacio ocupado por los directorios (disk usage). También tiene -h.
 * '''free''': memoria en uso y libre. También tiene -h.
+
+{{cayo-en-convocatoria|1=2015-SE (IL)}}
+'''LVM''' es una implementación de un administrador de volúmenes lógicos para Linux. Permite redimensionado de grupos y volúmenes lógicos, instantáneas de solo lectura y RAID 0. Para otros RAID se recomienda crearlos con otras herramientas y montar encima el LVM.
+
+'''Comandos LVM''' básicos:
+* '''pvcreate''': inicializa un dispositivo lógico (phisical volume). Ejemplo: pvcreate /dev/sda
+* '''vgcreate''': crea un grupo lógico (volume group). Ejemplo: vgcreate vgname /dev/sda
+* '''lvcreate''': crea un volúmen lógico (logical volume). Ejemplo: lvcreate -L1GB -n lvname vgname
+* '''vgcfgbackup''': hace un backup de la configuración.
+* '''vgcfgrestore''': restaura configuración de descripción del grupo de volúmenes.
+* '''vgconvert''': convierte el formato de los metadatos.
+* '''vgdisplay''': información sobre grupos de volúmenes LVM.
+* '''vgextend''': añade volúmenes físicos a un grupo de volúmenes.
+
+Luego quedaría crear el sistema de ficheros. Por ejemplo: mkfs.jfs /dev/vgname/lvname /mnt/myspace
 
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
 En el directorio '''/proc''' hay numerosos ficheros con información del sistema y procesos:
@@ -170,7 +186,7 @@ Algunos comandos que muestran información importante sobre el sistema o que per
 * '''explorer''': explorador de Windows.
 * '''firewall.cpl''': firewall.
 * '''gpedit.msc''': editor de políticas de grupos locales.
-* '''isoburn''': programa para grabar CDs. También dvdmaker.
+* '''isoburn''': programa para grabar CDs. También '''dvdmaker'''.
 * '''lusrmgr.msc''': usuarios y grupos locales.
 * '''msconfig''': configuración del sistema.
 * '''msinfo32''': información del sistema.
@@ -227,7 +243,7 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 {{recuadro|1='''Administración de bases de datos'''. Funciones y responsabilidades. Administración de servidores de correo electrónico. Protocolos de correo electrónico.}}
 
 === Administración de bases de datos ===
-{{cayo-en-convocatoria|1=2016-SE (IL)}}
+{{cayo-en-convocatoria|1=2016-SE (IL)|2=2015-SE (IL)}}
 
 Algunos '''comandos para MySQL''':
 
@@ -241,7 +257,7 @@ Algunos '''comandos para MySQL''':
 ** '''/etc/init.d/mysqld start''': inicia el servidor.
 ** '''/etc/init.d/mysqld stop''': para el servidor.
 
-* '''mysqldump''': genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<ref>[https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html mysqldump]</ref> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases > dump.sql
+* '''mysqldump''': genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<ref>[https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html mysqldump]</ref> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases -u user -ppassword > dump.sql
 
 * '''mysqlimport''': importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql
 
@@ -281,10 +297,10 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
-* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).
+* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
-* '''ipconfig''': internet protocol configuration, aplicación para '''Windows''' que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
+* '''ipconfig''': internet protocol configuration, aplicación para '''Windows''' que muestra la configuración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
 
 * '''Nagios''': monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.
 
@@ -317,7 +333,7 @@ Algunos '''comandos y herramientas''' útiles:
 * '''whois''': identifica un dominio.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-* '''Wireshark''': es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcddump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.
+* '''Wireshark''': es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.
 
 Algunos '''ficheros''' importantes:
 
@@ -335,11 +351,11 @@ Algunos '''ficheros''' importantes:
 * '''netsh advfirewall set allprofiles state off''': desactivar el firewall.
 * '''netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4''': bloquear el ping entrante.
 
-'''dir''' puede ser in/out. '''action''' puede ser block/allow. Los protocolos más frecuentes son tcp y udp. Para añdir reglas se usa '''add''', para borrar '''delete'''. Con '''localport''' puede filtrarse por puerto. Con el parámetro '''program''' se puede actuar sobre programas individuales.
+'''dir''' puede ser in/out. '''action''' puede ser block/allow. Los '''protocol''' más frecuentes son tcp y udp. Para añadir reglas se usa '''add''', para borrarlas '''delete'''. Con '''localport''' puede filtrarse por puerto. Con el parámetro '''program''' se puede actuar sobre programas individuales.
 
 === iptables ===
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
-'''iptables''' es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<ref>[https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol) iptables (ArchWiki)]</ref>
+'''iptables''' es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas ('''rules''') se agrupan en cadenas ('''chains''') y estas a su vez en tablas ('''tables''').<ref>[https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol) iptables (ArchWiki)]</ref>
 
 Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).
 
@@ -349,20 +365,25 @@ Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), de
 
 * '''mangle table''': ajustes de opciones de paquetes como calidad de servicio.
 
-Los targets son:
+Los '''targets''' son:
 * '''ACCEPT''': el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.
-* '''DROP'''': el paquete es descartado sin más (REJECT envía un paquete de error).
+* '''DROP''': el paquete es descartado sin más (REJECT envía un paquete de error).
 * '''QUEUE''': se encola el paquete.
 * '''RETURN''': el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.
 * '''REJECT''': se envía un paquete de error al remitente y se rechaza el paquete.
 * '''LOG''': se guarda en el log.
 
-Algunos ejemplos del comando iptables:
+Algunos '''ejemplos''' del comando iptables:<ref>[https://fedoraproject.org/wiki/How_to_edit_iptables_rules How to edit iptables rules]</ref>
 
 * '''iptables -L -n -v''': muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.
 * '''iptables -A INPUT -p tcp --dport 1234 -j REJECT''': añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final '''--reject-with''' para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).
 * '''iptables -A INPUT -p udp --dport 4567 -j ACCEPT''': añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.
-* '''iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128''': añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviad al 3128.
+* '''iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128''': añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.
+* '''iptables -D INPUT 1''': borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.
+* '''iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT''': inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.
+* '''iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT''': reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.
+
+Para guardar todas las reglas se utiliza '''iptables-save > file'''. Para restaurar se usa '''iptables-restore < file'''.
 
 Para borrar todas las reglas se utiliza '''iptables -F''' (--flush). Para borrar todas las cadenas '''iptables -X'''.
 
@@ -390,6 +411,7 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 * '''Puerta trasera''': característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc.
 * '''Ransomware''': software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.
 * '''Rootkit''': software que permite el acceso privilegiado a un ordenador y que permanece oculto.
+* '''SGSI''': Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.
 * '''Spoofing''': envío de correos electrónicos con remitente falso.
 * '''Spyware''': software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.
 * '''Troyano''': programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.
@@ -419,6 +441,12 @@ Conceptos relativos a personas:
 * '''MARTA''': Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.
 * '''PILAR''': Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.
 * '''REYES''': REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.
+
+{{cayo-en-convocatoria|1=2016-SE (PI)}}
+'''Estándares''' de seguridad:
+
+* '''ISO/IEC 27001''': estándar de seguridad de la información desde 2004, que especifica los requisitos para un sistema de gestión de la seguridad de la información (SGSI). Se conoce como Ciclo Deming '''PDCA: Plan, Do, Check, Act'''.
+* '''ISO/IEC 27002''': estándar publicado por ISO, la versión más reciente es de 2013. En sus directrices define la seguridad de la información como: la preservación de la confidencialidad (asegurando que solo quienes estén autorizados pueden acceder a la información), integridad (asegurando que la información y sus métodos de proceso son exactos y completos) y disponibilidad (asegurando que los usuarios autorizados tienen acceso a la información y a sus activos asociados cuando lo requieran).
 
 === Criptología ===
 

@@ -91,38 +91,40 @@
 <ul><li><b><a href="programa2017-bloque2.html">Bloque II</a>, Tema 4: Sistemas operativos</b>.</li><li>La parte de <b>control de versiones</b> del <b><a href="programa2017-bloque3.html">Bloque III</a>, Tema 10: Herramientas CASE</b>.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (PI)   </b></p>
 </div>
 
 <p>Un <b>administrador de sistemas</b> es aquella persona que configura, mantiene, documenta y monitoriza un sistema informático. Debe garantizar que el sistema permanezca en funcionamiento el mayor tiempo posible, que el rendimiento sea apropiado y que sea seguro.</p>
 
-<p>Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación, configuración y desinstalación de software, instalación actualizaciones, hacer copias de seguridad, etc.</p>
+<p>Entre las tareas rutinarias que realiza está la creación de cuentas de usuario, instalación, configuración y desinstalación de software, instalación de actualizaciones, hacer copias de seguridad, etc.</p>
 
-<p>Ideas Actualización, mantenimiento y reparación:</p>
+<!--
+Ideas Actualización, mantenimiento y reparación:
 
 <ul><li>Herramientas testeo, optimización</li><li>Recuperación de errores, backup</li><li>SNMP</li><li>Puppet: herramienta de administración de configuración </li></ul>
 
+-->
 <h3 id="Administración de sistemas Linux">Administración de sistemas Linux</h3>
 
 <h4 id="Instalación y desinstalación de software">Instalación y desinstalación de software</h4>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016-SE (IL) 2016-SE (PI) </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2016-SE (IL) 2016-SE (PI) 2015-SE (IL)</b></p>
 </div>
 
-<p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Pueden ser modificados para incluir otros repositorios. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza RPM), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.</p>
+<p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Las listas de repositorios pueden ser modificadas para incluir otros. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza rpm), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.</p>
 
 <ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose). Creado por Red Hat.</li><li><b>yast</b>: -i (instala un paquete). Creado por SuSE.</li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.</li></ul>
 
 <h4 id="Usuarios y grupos">Usuarios y grupos</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 
 <p>Entre las operaciones básicas están la <b>creación de usuarios y grupos</b>, su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.</p>
 
-<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
+<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
 
 <p>El fichero <b>/etc/login.defs</b> define parámetros referentes a contraseñas, como su caducidad.</p>
 
@@ -131,14 +133,14 @@
 <p>Para encontrar un fichero es útil el comando <b>locate</b>. Por ejemplo para buscar donde está el fichero <b>resolv.conf</b> de DNS o el log <b>access.log</b> de Apache, basta con escribir <b>locate resolv.conf</b> o <b>locate access.log</b> respectivamente.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>El comando <b>find</b> es más potente:</p>
 <ul><li><b>find . -type f -name *txt</b>: busca todos los ficheros del directorio actual con extensión txt.</li><li><b>find / -type d -name *abc* -mtime +1</b>: busca todos los directorios que tienen abc en el nombre y que fueron modificados por última vez hace más de 1 día.</li><li><b>find / -type f -perm 0777</b>: busca todos los ficheros con permisos 0777.</li><li><b>find / -size 1GB</b>: busca todos los ficheros de al menos 1 GB.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>Algunos <b>ficheros de log</b>:</p>
@@ -149,15 +151,26 @@
 
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>Algunos comandos que muestran información importante sobre el sistema:</p>
 
-<ul><li><b>uname</b>: -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)</li><li><b>lsb_release</b>: -a (muestra todo)m v (versión), -d (descripción), -r (release), -c (codename)</li><li><b>vgdisplay</b>: información sobre grupos de volúmenes LVM.</li><li><b>df</b>: muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.</li><li><b>du</b>: muestra el espacio ocupado por los directorios (disk usage). También tiene -h.</li><li><b>free</b>: memoria en uso y libre. También tiene -h.</li></ul>
+<ul><li><b>uname</b>: -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)</li><li><b>lsb_release</b>: -a (muestra todo), -v (versión), -d (descripción), -r (release), -c (codename)</li><li><b>df</b>: muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.</li><li><b>du</b>: muestra el espacio ocupado por los directorios (disk usage). También tiene -h.</li><li><b>free</b>: memoria en uso y libre. También tiene -h.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
+</div>
+
+<p><b>LVM</b> es una implementación de un administrador de volúmenes lógicos para Linux. Permite redimensionado de grupos y volúmenes lógicos, instantáneas de solo lectura y RAID 0. Para otros RAID se recomienda crearlos con otras herramientas y montar encima el LVM.</p>
+
+<p><b>Comandos LVM</b> básicos:</p>
+<ul><li><b>pvcreate</b>: inicializa un dispositivo lógico (phisical volume). Ejemplo: pvcreate /dev/sda</li><li><b>vgcreate</b>: crea un grupo lógico (volume group). Ejemplo: vgcreate vgname /dev/sda</li><li><b>lvcreate</b>: crea un volúmen lógico (logical volume). Ejemplo: lvcreate -L1GB -n lvname vgname</li><li><b>vgcfgbackup</b>: hace un backup de la configuración.</li><li><b>vgcfgrestore</b>: restaura configuración de descripción del grupo de volúmenes.</li><li><b>vgconvert</b>: convierte el formato de los metadatos.</li><li><b>vgdisplay</b>: información sobre grupos de volúmenes LVM.</li><li><b>vgextend</b>: añade volúmenes físicos a un grupo de volúmenes.</li></ul>
+
+<p>Luego quedaría crear el sistema de ficheros. Por ejemplo: mkfs.jfs /dev/vgname/lvname /mnt/myspace</p>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>En el directorio <b>/proc</b> hay numerosos ficheros con información del sistema y procesos:</p>
@@ -167,7 +180,7 @@
 <h3 id="Administración de sistemas Windows">Administración de sistemas Windows</h3>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (IL) 2015 (PI)  </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (IL) 2015 (PI)  </b></p>
 </div>
 
 <p><b>Windows PowerShell</b> es una consola de comandos para sistemas Windows, más avanzada que su predecesor. Permite interactuar con el sistema y automatizar tareas. A los comandos se les llama <b>cmdlets</b>. Para ver ayuda sobre un cmdlet se usa Get-Help.</p>
@@ -188,7 +201,7 @@
 
 <h4 id="Otros">Otros</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
 
@@ -196,7 +209,7 @@
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>certmgr.msc</b>: certificados del sistema.</li><li><b>cmd</b>: línea de comandos.</li><li><b>control</b>: panel de control.</li><li><b>devmgmt.msc</b>: administrador de dispositivos.</li><li><b>dfrgui</b>: desfragmentador de disco.</li><li><b>diskmgmt.msc</b>: administrador de discos.</li><li><b>eventvwr.msc</b>: visor de eventos.</li><li><b>explorer</b>: explorador de Windows.</li><li><b>firewall.cpl</b>: firewall.</li><li><b>gpedit.msc</b>: editor de políticas de grupos locales.</li><li><b>isoburn</b>: programa para grabar CDs. También dvdmaker.</li><li><b>lusrmgr.msc</b>: usuarios y grupos locales.</li><li><b>msconfig</b>: configuración del sistema.</li><li><b>msinfo32</b>: información del sistema.</li><li><b>msra</b>: asistencia remota.</li><li><b>perfmon.msc</b>: monitor de rendimiento.</li><li><b>powercfg.cpl</b>: opciones de energía.</li><li><b>powershell</b>: consola de PowerShell.</li><li><b>printmanagement.msc</b>: control de impresoras.</li><li><b>recdisc</b>: reparación de discos.</li><li><b>regedit</b>: editor de registro.</li><li><b>regedt32</b>: editor de registro.</li><li><b>secpol.msc</b>: políticas de seguridad locales.</li><li><b>services.msc</b>: muestra todos los servicios en ejecución.</li><li><b>taskmgr</b>: administrador de tareas.</li><li><b>taskschd.msc</b>: programador de tareas.</li><li><b>ver</b>: muestra el nombre y la versión del sistema. También winver.</li><li><b>wscript</b>: Windows Script Host.</li><li><b>wuapp</b>: Windows Update.</li></ul>
+<ul><li><b>certmgr.msc</b>: certificados del sistema.</li><li><b>cmd</b>: línea de comandos.</li><li><b>control</b>: panel de control.</li><li><b>devmgmt.msc</b>: administrador de dispositivos.</li><li><b>dfrgui</b>: desfragmentador de disco.</li><li><b>diskmgmt.msc</b>: administrador de discos.</li><li><b>eventvwr.msc</b>: visor de eventos.</li><li><b>explorer</b>: explorador de Windows.</li><li><b>firewall.cpl</b>: firewall.</li><li><b>gpedit.msc</b>: editor de políticas de grupos locales.</li><li><b>isoburn</b>: programa para grabar CDs. También <b>dvdmaker</b>.</li><li><b>lusrmgr.msc</b>: usuarios y grupos locales.</li><li><b>msconfig</b>: configuración del sistema.</li><li><b>msinfo32</b>: información del sistema.</li><li><b>msra</b>: asistencia remota.</li><li><b>perfmon.msc</b>: monitor de rendimiento.</li><li><b>powercfg.cpl</b>: opciones de energía.</li><li><b>powershell</b>: consola de PowerShell.</li><li><b>printmanagement.msc</b>: control de impresoras.</li><li><b>recdisc</b>: reparación de discos.</li><li><b>regedit</b>: editor de registro.</li><li><b>regedt32</b>: editor de registro.</li><li><b>secpol.msc</b>: políticas de seguridad locales.</li><li><b>services.msc</b>: muestra todos los servicios en ejecución.</li><li><b>taskmgr</b>: administrador de tareas.</li><li><b>taskschd.msc</b>: programador de tareas.</li><li><b>ver</b>: muestra el nombre y la versión del sistema. También winver.</li><li><b>wscript</b>: Windows Script Host.</li><li><b>wuapp</b>: Windows Update.</li></ul>
 </div>
 
 
@@ -215,7 +228,7 @@
 <h3 id="Niveles TIA 942">Niveles TIA 942</h3>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
 </div>
 
 <p>El <b>estándar TIA 942</b> del Uptime Institute establece 4 categorías para los datacenters, centros de datos o CPD.<sup>[<a id="refback4" href="#ref4">4</a>]</sup></p>
@@ -225,7 +238,7 @@
 <h3 id="Máquinas virtuales">Máquinas virtuales</h3>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2014 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2014 (PI)   </b></p>
 </div>
 
 <p>Un <b>hipervisor</b> es un software o hardware que corre máquinas virtuales. El sistema que las hospeda es el host y las máquinas virtuales son las invitadas (guest).</p>
@@ -241,16 +254,16 @@
 
 <h3 id="Administración de bases de datos">Administración de bases de datos</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL) 2015-SE (IL)  </b></p>
 </div>
 
 
 <p>Algunos <b>comandos para MySQL</b>:</p>
 
-<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
+<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases -u user -ppassword > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>Para <b>ORACLE</b> los comandos para exportar e importar bases de datos son expdp y impdp respectivamente.</p>
@@ -258,13 +271,13 @@
 <h3 id="Administración de correo electrónico">Administración de correo electrónico</h3>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (IL)  </b></p>
 </div>
 
 <ul><li><b>IMAP</b>: protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.</li><li><b>POP3</b>: protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas.</li><ul><li><b>Comandos POP3</b>: USER, PASS, STAT, RETR, DELE, LIST, NOOP, TOP, UIDL, QUIT.</li></ul></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
 <ul><li><b>SMTP</b>: protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.</li><ul><li><b>Comandos SMTP</b>: HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.</li></ul></ul>
@@ -277,7 +290,7 @@
 
 <h4 id="Spam">Spam</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IP)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IP)   </b></p>
 </div>
 
 <p>El <b>Sender Policy Framework</b> (SPF) es una protección contra la falsificación de direcciones y el spam en el envío de correo electrónico. Identifica a través de DNS a los servidores de correo SMTP autorizados para el envío de mensajes.</p>
@@ -294,63 +307,65 @@
 
 <p>Algunos <b>comandos y herramientas</b> útiles:</p>
 
-<ul><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitar (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).</li></ul>
+<ul><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (IL)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (IL)  </b></p>
 </div>
 
-<ul><li><b>ipconfig</b>: internet protocol configuration, aplicación para <b>Windows</b> que muestra la congfiguración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.</li><li><b>Nagios</b>: monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.</li><li><b>netsniff-ng</b>: analizador de redes y sniffer, solo disponible para GNU/Linux.</li><li><b>ngrep</b>: network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.</li><li><b>nmap</b>: escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.</li></ul>
+<ul><li><b>ipconfig</b>: internet protocol configuration, aplicación para <b>Windows</b> que muestra la configuración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.</li><li><b>Nagios</b>: monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.</li><li><b>netsniff-ng</b>: analizador de redes y sniffer, solo disponible para GNU/Linux.</li><li><b>ngrep</b>: network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.</li><li><b>nmap</b>: escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
 <ul><li><b>nslookup</b>: name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.</li><li><b>OpenView</b>: conjunto de herramientas de HP.</li><li><b>ping</b>: </li><li><b>Snort</b>: sistema de detección de intrusiones.</li><li><b>Suricata</b>: sistema de detección de intrusiones.</li><li><b>tcpdump</b>: analizador de paquetes por línea de comandos.</li><ul><li><b>tcpdump host 192.168.1.1</b>: captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.</li><li><b>tcpdump port 80</b>: captura tráfico con origen o destino el puerto 80</li><li><b>tcpdump -ni eth0 host 10.1.1.2 -w file.log</b>: captura tráfico de la interfaz eth0 e ip 10.1.1.2 y lo vuelca a un fichero de log.</li></ul><li><b>telnet</b>: permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.</li><li><b>traceroute</b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li><li><b>whois</b>: identifica un dominio.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<ul><li><b>Wireshark</b>: es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcddump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.</li></ul>
+<ul><li><b>Wireshark</b>: es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.</li></ul>
 
 <p>Algunos <b>ficheros</b> importantes:</p>
 
 <ul><li><b>hosts</b>: mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.</li><li><b>resolv.conf</b>: especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
 <p><b>Protocolos</b>:</p>
 <ul><li><b>ARP</b>: protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.</li><li><b>RARP</b>: protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
 <p><b>Firewall</b> de Windows:<sup>[<a id="refback7" href="#ref7">7</a>]</sup></p>
 <ul><li><b>netsh advfirewall set allprofiles state on</b>: activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.</li><li><b>netsh advfirewall set allprofiles state off</b>: desactivar el firewall.</li><li><b>netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4</b>: bloquear el ping entrante.</li></ul>
 
-<p><b>dir</b> puede ser in/out. <b>action</b> puede ser block/allow. Los protocolos más frecuentes son tcp y udp. Para añdir reglas se usa <b>add</b>, para borrar <b>delete</b>. Con <b>localport</b> puede filtrarse por puerto. Con el parámetro <b>program</b> se puede actuar sobre programas individuales.</p>
+<p><b>dir</b> puede ser in/out. <b>action</b> puede ser block/allow. Los <b>protocol</b> más frecuentes son tcp y udp. Para añadir reglas se usa <b>add</b>, para borrarlas <b>delete</b>. Con <b>localport</b> puede filtrarse por puerto. Con el parámetro <b>program</b> se puede actuar sobre programas individuales.</p>
 
 <h3 id="iptables">iptables</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (rules) se agrupan en cadenas (chains) y estas a su vez en tablas (tables).<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
 <ul><li><b>filter table</b>: todos los paquetes pasan por esta tabla de filtros. Con <b>INPUT</b> se controlan los paquetes destinados al sistema. Con <b>OUTPUT</b> los creados por el sistema. Y con <b>FORWARD</b> los que pasan por el sistema hacia otro destino (enrutado).</li><li><b>nat table</b>: reescritura de direcciones o puertos.</li><li><b>mangle table</b>: ajustes de opciones de paquetes como calidad de servicio.</li></ul>
 
-<p>Los targets son:</p>
-<ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>': el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
+<p>Los <b>targets</b> son:</p>
+<ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>: el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
 
-<p>Algunos ejemplos del comando iptables:</p>
+<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
 
-<ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviad al 3128.</li></ul>
+<ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.</li><li><b>iptables -D INPUT 1</b>: borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.</li><li><b>iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT</b>: inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.</li><li><b>iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT</b>: reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.</li></ul>
+
+<p>Para guardar todas las reglas se utiliza <b>iptables-save > file</b>. Para restaurar se usa <b>iptables-restore < file</b>.</p>
 
 <p>Para borrar todas las reglas se utiliza <b>iptables -F</b> (--flush). Para borrar todas las cadenas <b>iptables -X</b>.</p>
 
@@ -364,24 +379,32 @@
 
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2016 (PI)  </b></p>
 </div>
 
 <p><b>Conceptos</b> relacionados con la <b>seguridad</b>:</p>
 
-<ul><li><b>Antivirus</b>: aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.</li><li><b>Botnet</b>: red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.</li><li><b>Bug</b>: error en un programa o sistema que provoca un funcionamiento imprevisto.</li><li><b>Exploit</b>: software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.</li><li><b>Keylogger</b>: software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.</li><li><b>Firewall</b>: software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.</li><li><b>Gusano</b>: software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.</li><li><b>Honeypot</b>: sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.</li><li><b>IP Splicing-Hijacking</b>: el atacante intercepta una sesión ya establecida.</li><li><b>Man in the middle</b>: el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.</li><li><b>Pharming</b>: ciberataque que redirige un sitio web a otro falso.</li><li><b>Phishing</b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li><b>Puerta trasera</b>: característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc.</li><li><b>Ransomware</b>: software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.</li><li><b>Rootkit</b>: software que permite el acceso privilegiado a un ordenador y que permanece oculto.</li><li><b>Spoofing</b>: envío de correos electrónicos con remitente falso.</li><li><b>Spyware</b>: software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.</li><li><b>Troyano</b>: programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.</li><li><b>Virus</b>: software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.</li><li><b>Vulnerabilidad</b>: debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.</li></ul>
+<ul><li><b>Antivirus</b>: aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.</li><li><b>Botnet</b>: red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.</li><li><b>Bug</b>: error en un programa o sistema que provoca un funcionamiento imprevisto.</li><li><b>Exploit</b>: software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.</li><li><b>Keylogger</b>: software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.</li><li><b>Firewall</b>: software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.</li><li><b>Gusano</b>: software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.</li><li><b>Honeypot</b>: sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.</li><li><b>IP Splicing-Hijacking</b>: el atacante intercepta una sesión ya establecida.</li><li><b>Man in the middle</b>: el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.</li><li><b>Pharming</b>: ciberataque que redirige un sitio web a otro falso.</li><li><b>Phishing</b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li><b>Puerta trasera</b>: característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc.</li><li><b>Ransomware</b>: software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.</li><li><b>Rootkit</b>: software que permite el acceso privilegiado a un ordenador y que permanece oculto.</li><li><b>SGSI</b>: Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.</li><li><b>Spoofing</b>: envío de correos electrónicos con remitente falso.</li><li><b>Spyware</b>: software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.</li><li><b>Troyano</b>: programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.</li><li><b>Virus</b>: software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.</li><li><b>Vulnerabilidad</b>: debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.</li></ul>
 
 <p>Conceptos relativos a personas:</p>
 
 <ul><li><b>Cracker</b>: persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.</li><li><b>Hacker</b>: persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.</li><li><b>Lamer</b>: persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.</li><li><b>Luser</b>: similar a lamer, un usuario que es molesto.</li><li><b>Noob</b>: un novato o recién llegado a una comunidad u oficio.</li><li><b>Phreaker</b>: persona que experimenta con sistemas de telefonía.</li><li><b>Script kiddie</b>: es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p><b>Herramientas</b> del <b>CCN-CERT</b>:</p>
 
 <ul><li><b>CARMEN</b>: Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.</li><li><b>CLARA</b>: Herramienta para verificar el cumplimiento del ENS.</li><li><b>INÉS</b>: Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.</li><li><b>GLORIA</b>:</li><li><b>LORETO</b>:</li><li><b>LUCÍA</b>: Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.</li><li><b>MARÍA</b>: MultiAntiviRus IntegrAdo.</li><li><b>MARTA</b>: Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.</li><li><b>PILAR</b>: Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.</li><li><b>REYES</b>: REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
+</div>
+
+<p><b>Estándares</b> de seguridad:</p>
+
+<ul><li><b>ISO/IEC 27001</b>: estándar de seguridad de la información desde 2004, que especifica los requisitos para un sistema de gestión de la seguridad de la información (SGSI). Se conoce como Ciclo Deming <b>PDCA: Plan, Do, Check, Act</b>.</li><li><b>ISO/IEC 27002</b>: estándar publicado por ISO, la versión más reciente es de 2013. En sus directrices define la seguridad de la información como: la preservación de la confidencialidad (asegurando que solo quienes estén autorizados pueden acceder a la información), integridad (asegurando que la información y sus métodos de proceso son exactos y completos) y disponibilidad (asegurando que los usuarios autorizados tienen acceso a la información y a sus activos asociados cuando lo requieran).</li></ul>
 
 <h3 id="Criptología">Criptología</h3>
 
@@ -406,7 +429,7 @@
 <p>El <b>cifrado por flujo</b> opera sobre símbolos individuales.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
 <p><b>Algoritmos</b> de <b>clave simétrica</b>:</p>
@@ -432,7 +455,7 @@
 <p>Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de <b>firma electrónica</b>.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
 <p><b>Algoritmos</b> de <b>clave asimétrica</b>:</p>
@@ -447,7 +470,7 @@
 
 <h4 id="Funciones hash">Funciones hash</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 
@@ -456,7 +479,7 @@
 <h4 id="Gestión de contraseñas">Gestión de contraseñas</h4>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016-SE (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>Existe software para gestionar contraseñas de múltiples equipos. Es el caso de LAPS (Local Administrator Password Solution).</p>
@@ -480,14 +503,14 @@
 <ul><li></li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
 </div>
 
 <p>Cableado estructurado de par trenzado:</p>
 <ul><li><b>Categoría 1</b>: para telefonía, no adecuado para datos. Tasa: 512 Kbit/s.</li><li><b>Categoría 2</b>: hasta 4Mbit/s.</li><li><b>Categoría 3</b>: redes 10BaseT, hasta 10 Mbit/s.</li><li><b>Categoría 4</b>: redes token ring, hasta 16 Mbit/s.</li><li><b>Categoría 5</b>: hasta 100 Mbit/s.</li><li><b>Categoría 6</b>: hasta 1 Gbit/s. 250 Mhz.</li><li><b>Categoría 6A</b>: hasta 10 Gbit/s. 500 Mhz.</li><li><b>Categoría 7</b>:  hasta 10 Gbit/s, 600 Mhz.</li><li><b>Categoría 7A</b>:  hasta 10 Gbit/s, 1000 Mhz.</li><li><b>Categoría 8</b>:  hasta 40 Gbit/s, 2000 Mhz.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
 <p>Generaciones de telefonía móvil:</p>
@@ -503,7 +526,7 @@
 <p>Una <b>red de difusión</b> (broadcast) es aquella en la que cualquier ordenador puede transmitir directamente a cualquier otro sin precisar ningún dispositivo de encaminamiento dado que comparte la misma subred, dirección de puerta de enlace y están de la misma red de área local (LAN) o VLAN. Todos los ordenadores conectados al mismo switch son miembros del mismo dominio de difusión (broadcast domain). Los routers separan distintos dominios de difusión.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (PI)   </b></p>
 </div>
 
 <p>En una <b>red conmutada</b> la comunicación se establece de extremo a extremo a través de un conjunto de nodos.</p>
@@ -517,7 +540,7 @@
 
 <ul><li><b>Cable par trenzado</b>: tipo de cable con dos conductores elétricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.</li><li><b>Cable coaxial</b>: transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.</li></ul>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
 <ul><li>La <b>fibra óptica</b> es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser <b>monomodo</b> (un solo haz, larga distancia) y <b>multimodo</b> (varios haces, poca distancia). Conectores ST y SC. Técnicas de transmisión CWDM y DWDM. El material interno tiene un índice de refracción superior al del material que lo rodea. Las ventanas de transmisión son de longitud de onda 820 nm, 1310 nm y 1550 nm.</li></ul>
@@ -531,7 +554,7 @@
 <ul><li><b>Simplex</b>: unidireccional, un terminal envía y otro recibe.</li><li><b>Half-duplex</b>: semidúplex, envío bidireccional pero no simultáneamente.</li><li><b>Full-duplex</b>: dúplex, envío bidireccional y simultáneao.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
 <p><b>Control de acceso</b> al medio:</p>
@@ -540,7 +563,7 @@
 <p>El protocolo <b>NFC</b> funciona en distancias muy cortas (cercanas a 4 cm) y no necesita emparejamiento.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI) 2015 (IL) 2015 (PI)</b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2016 (PI) 2015 (IL) 2015 (PI)</b></p>
 </div>
 
 <p><b>Estándares IEEE 802</b>:</p>
@@ -551,7 +574,7 @@
 <ul><li><b>Clase A</b>: Bits de mayor peso (0). Rango 0-127.255.255.255</li><li><b>Clase B</b>: Bits de mayor peso (10). Rango 128-191.255.255.255</li><li><b>Clase C</b>: Bits de mayor peso (110). Rango 192-223.255.255.255</li><li><b>Clase D</b>: Bits de mayor peso (1110). Rango 224-239.255.255.255</li><li><b>Clase E</b>: Bits de mayor peso (11110). Rango 240-247.255.255.255</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2016 (PI) 2016-SE (PI) 2015 (IL)</b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2016 (PI) 2016-SE (PI) 2015 (IL)</b></p>
 </div>
 
 <p>La <b>máscara de red</b> es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.</p>
@@ -576,7 +599,7 @@
 
 <h3 id="Modelo OSI">Modelo OSI</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL) 2015 (PI)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (PI)  </b></p>
 </div>
 
 <p>El <b>Modelo OSI</b> o modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo de referencia para protocolos de la red de arquitectura en capas. Fue creado en 1980 por ISO.</p>
@@ -600,10 +623,10 @@
 <h3 id="Puertos">Puertos</h3>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback9" href="#ref9">9</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback10" href="#ref10">10</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -621,7 +644,7 @@
 <p>Ipv4 ipv6 (pregunta b4.32 y 37, 39)</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (PI) 2015 (IL)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (PI) 2015 (IL)  </b></p>
 </div>
 
 <p>IPv4 tiene ips de 32 bits y IPv6 de 128 bits.</p>
@@ -631,7 +654,7 @@
 <p>DHCPv6 utiliza el puerto UDP 547.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
 <p><b>Códigos de estado HTTP</b>:</p>
@@ -647,21 +670,21 @@
 <ul><li><b>Proxy abierto</b>: son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.</li><li><b>Proxy transparente</b>: no requiere configuración por parte del cliente.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
 </div>
 
 <p>Tipos de <b>registros DNS</b>:</p>
 <ul><li><b>A</b>: servidores a ipv4</li><li><b>AAAA</b>: direcciones ipv6 a host</li><li><b>CNAME</b>: canonical name (múltiples servicios en la misma ip: ftp.dominio.com, www.dominio.com)</li><li><b>MX</b>: correo electrónico</li><li><b>NS</b>: servidor de nombres</li><li><b>PTR</b>: registro inverso, ips a dominio</li><li><b>SOA</b>: DNS primario</li><li><b>ANY</b>: toda la información que exista</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
 </div>
 
 <p>Registro Regional de Internet:</p>
 <ul><li><b>ARIN</b>: Estados Unidos y Canadá</li><li><b>RIPE NCC</b>:  Europa, Oriente Medio y Asia Central</li><li><b>APNIC</b>: Asia y Pacífico</li><li><b>LACNIC</b>: Latinoamérica y Caribe</li><li><b>AfriNIC</b>: África</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2016 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (PI)   </b></p>
 </div>
 
 <p>El servidor de hora española es hora.roa.es.</p>
@@ -674,7 +697,7 @@
 
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en convocatoria <b>2015 (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
 <p>Un <b>UTM</b> o <b>Gestión Unificada de Amenazas</b> es un dispositivo de red cuyas funciones incluye antivirus, firewall y detección de intrusos. Otras funcionalidades pueden ser NAT, VPN, antispam, antiphishing, antispyware, filtro de contenidos.</p>
@@ -706,7 +729,8 @@
 <li id="ref6"><a href="#refback6">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
 <li id="ref7"><a href="#refback7">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
 <li id="ref8"><a href="#refback8">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
-<li id="ref9"><a href="#refback9">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -727,7 +751,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-21 12:05:55 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-23 11:43:49 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
