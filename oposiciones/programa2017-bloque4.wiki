@@ -399,6 +399,8 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 * '''Antivirus''': aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.
 * '''Botnet''': red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.
 * '''Bug''': error en un programa o sistema que provoca un funcionamiento imprevisto.
+* '''DNS sinkholing''': falseamiento de DNS para redirigir tráfico a otras IPs.
+* '''Eavesdropping''': escucha de los paquetes enviados en una red.
 * '''Exploit''': software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.
 * '''Keylogger''': software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.
 * '''Firewall''': software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.
@@ -412,7 +414,7 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 * '''Ransomware''': software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.
 * '''Rootkit''': software que permite el acceso privilegiado a un ordenador y que permanece oculto.
 * '''SGSI''': Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.
-* '''Spoofing''': envío de correos electrónicos con remitente falso.
+* '''Spoofing''': diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).
 * '''Spyware''': software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.
 * '''Troyano''': programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.
 * '''Virus''': software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.
@@ -434,8 +436,8 @@ Conceptos relativos a personas:
 * '''CARMEN''': Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.
 * '''CLARA''': Herramienta para verificar el cumplimiento del ENS.
 * '''INÉS''': Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.
-* '''GLORIA''':
-* '''LORETO''':
+* '''GLORIA''': plataforma para la gestión de incidentes y amenazas de ciberseguridad con técnicas de correlación.
+* '''LORETO''': almacenamiento en la nube.
 * '''LUCÍA''': Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.
 * '''MARÍA''': MultiAntiviRus IntegrAdo.
 * '''MARTA''': Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.
