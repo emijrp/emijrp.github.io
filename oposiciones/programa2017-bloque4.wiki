@@ -315,7 +315,7 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''OpenView''': conjunto de herramientas de HP.
 
-* '''ping''': 
+* '''ping''': petición de ICMP echo para comprobar si un host está disponible.
 
 * '''Snort''': sistema de detección de intrusiones.
 
@@ -736,6 +736,7 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 * '''209''': Quick Mail Transfer Protocol (QMTP)
 * '''443''': HTTP Secure (HTTPS)
 * '''993''': IMAP over SSL
+* '''995''': POP3 over SSL
 * '''1080''': SOCKS proxy
 {{div col end}}
 
@@ -762,11 +763,11 @@ DHCPv6 utiliza el puerto UDP 547.
 {{cayo-en-convocatoria|1=2015 (PI)}}
 '''Códigos de estado HTTP''':
 {{div col 3}}
-* 1xx: Informal
-* 2xx: Exitoso
-* 3xx: Redirección
-* 4xx: Error de cliente
-* 5xx: Error de servidor
+* '''1xx: Informal'''
+* '''2xx: Exitoso'''
+* '''3xx: Redirección'''
+* '''4xx: Error de cliente'''
+* '''5xx: Error de servidor'''
 * 100: Continue
 * 200: OK
 * 202: Accepted
@@ -807,15 +808,18 @@ Tipos de '''registros DNS''':
 * '''ANY''': toda la información que exista
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
-Registro Regional de Internet:
-* '''ARIN''': Estados Unidos y Canadá
-* '''RIPE NCC''':  Europa, Oriente Medio y Asia Central
-* '''APNIC''': Asia y Pacífico
-* '''LACNIC''': Latinoamérica y Caribe
-* '''AfriNIC''': África
+Existen cinco '''Registros Regionales de Internet''' (RIR) a nivel mundial:
+
+* '''ARIN''': American Registry for Internet Numbers. Estados Unidos y Canadá.
+* '''RIPE NCC''': Reseaux IP Europeens Network Coordination Center. Europa, Oriente Medio y Asia Central.
+* '''APNIC''': Asia-Pacífico Network Information Center. Asia y Pacífico.
+* '''LACNIC''': Latin America and Caribbean Network Informacion Centre. Latinoamérica y Caribe.
+* '''AfriNIC''': African Network Information Centre. África.
+
+Los RIRs se encargan de asignar los bloques de IP tanto v4 como v6, mantener bases de datos de whois, etc.
 
 {{cayo-en-convocatoria|1=2016 (PI)}}
-El servidor de hora española es hora.roa.es.
+El servidor de hora española es '''hora.roa.es'''.
 
 == Tema 9: Seguridad y protección ==
 
