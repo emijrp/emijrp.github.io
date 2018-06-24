@@ -340,30 +340,46 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
 * '''Afganistán'''
 ** '''Rahimi, Atiq''': ''La piedra de la paciencia'' (2012).
 
+* '''Argentina'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-argentino-4/ Historia del cine argentino]</ref>
+
 * '''Bolivia'''
 ** '''Sanjinés, Jorge''':
+
+* '''Brasil'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-brasileno/ Historia del cine brasileño]</ref>
+
+* '''Colombia'''<ref>[pantallacaci.com/ibermedia-digital/contexto-historico/colombia-segun-el-diccionario-de-cine-iberoamericano/ Historia del cine colombiano]</ref>
+
+* '''Costa Rica'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-costarricense/ Historia del cine costarricense]</ref>
+
+* '''Cuba'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-cubano/ Historia del cine cubano]</ref>
+
+* '''Ecuador'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-ecuatoriano/ Historia del cine ecuatoriano]</ref>
 
 * '''El Salvador'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-salvadoreno/ Historia del cine salvadoreño]</ref>
 
 * '''Francia''' durante la resistencia antifascista
-** ...
+
+* '''Guatemala'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-guatemalteco/ Historia del cine guatemalteco]</ref>
 
 * '''Irán'''
 ** '''Farrokhzad, Forugh''': ''La casa es negra'' (1963).
 
 * '''Libia'''
-** ...
+
+* '''Nicaragua'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-nicaraguense/ Historia del cine nicaragüense]</ref>
 
 * '''Palestina'''
-** ...
+
+* '''Panamá'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-panameno/ Historia del cine panameño]</ref>
+
+* '''Perú'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-peruano/ Historia del cine peruano]</ref>
 
 * '''República Árabe Saharaui Democrática'''
 ** '''Miró, María''': ''Los baúles del retorno'' (1995).
 
-* '''República Bolivariana de Venezuela'''
-** ...
+* '''República Bolivariana de Venezuela'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-venezolano/ Historia del cine venezolano]</ref>
 
-* '''República de Chile'''
+* '''República de Chile'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-chileno/ Historia del cine chileno]</ref>
 ** '''Littin, Miguel''': ''Compañero Presidente'' (1971).
 
 * '''República de Cuba'''<ref>[https://en.wikipedia.org/wiki/Cinema_of_Cuba Cinema of Cuba]</ref>
@@ -375,22 +391,18 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
 ** '''Solás, Humberto''': ...
 
 * '''República Democrática Alemana'''
-** ...
-    
+
+* '''República Dominicana'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-dominicano/ Historia del cine dominicano]</ref>
+
 * '''República Española'''
-** ...
     
 * '''República Federal Socialista de Yugoslavia'''
-** ...
     
 * '''República Popular China'''
-** ...
     
 * '''República Popular de Bulgaria'''
-** ...
     
 * '''República Popular de Polonia'''
-** ...
 
 * '''República Popular Democrática de Corea (Corea del Norte)'''
 ** '''Ik Kyu, Choe''': ''La florista'' (1972).
@@ -401,10 +413,8 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
 -->
 
 * '''República Socialista de Rumanía'''
-** ...
     
 * '''Siria'''
-** ...
 
 * '''Unión Soviética'''
 ** '''Eisenstein, Sergei''': ''El acorazado Potemkin'' (1925) y ''Octubre'' (1928).
@@ -413,6 +423,8 @@ Era soviética por país del este https://en.wikipedia.org/wiki/Category:Soviet_
 ** '''Protazanov, Yakov''': ''Aelita: la reina de Marte'' (1924).
 ** '''Raizman, Yuli''': ''Berlin'' (1945).
 ** '''Romm, Mikhail''': ''El facismo ordinario'' (1965).
+
+* '''Uruguay'''<ref>[http://pantallacaci.com/ibermedia-digital/contexto-historico/historia-del-cine-uruguayo/ Historia del cine uruguayo]</ref>
 
 {{div col end}}
   
