@@ -1,0 +1,62 @@
+{{header|1=Análisis de exámenes}}
+{{oposiciones}}
+Este es un pequeño '''análisis de exámenes''' de convocatorias pasadas.
+
+== Convocatoria 2016 ==
+
+=== Ingreso Libre ===
+
+* '''Bloque 1:''' Constitución (8), Transparencia (2), Estatuto Empleo Público (1), Igualdad (1), Violencia de Género (1), Firma electrónica (3), Comercio electrónico (1), Sedes electrónicas (1), Esquema Nacional de Seguridad (1)
+
+* '''Bloque 2:''' 
+
+* '''Bloque 3:''' 
+
+* '''Bloque 4:''' 
+
+=== Promoción Interna ===
+
+Por ver.
+
+== Convocatoria 2015 ==
+
+=== Ingreso Libre ===
+
+* '''Bloque 1:''' Constitución (6), Decreto-ley (1), Igualdad (1), Discapacidad (1), Firma electrónica (2), Comercio electrónico (1), Protección de datos (3), Sedes electrónicas (1), Interoperabilidad (1), Otras (3)
+
+* '''Bloque 2:''' 
+
+* '''Bloque 3:''' 
+
+* '''Bloque 4:''' 
+
+=== Promoción Interna ===
+
+Por ver.
+
+== Convocatoria 2014 ==
+
+=== Ingreso Libre ===
+
+No hubo.
+
+=== Promoción Interna ===
+
+* '''Bloque 1:''' Comercio electrónico (1), DNI electrónico (4), Protección de datos (3), Esquema Nacional de Seguridad (1), Interoperabilidad (1), Sedes electrónicas (1)
+
+* '''Bloque 2:''' 
+
+* '''Bloque 3:''' 
+
+* '''Bloque 4:''' 
+
+== Convocatoria 2010 ==
+
+=== Ingreso Libre ===
+
+No hubo.
+
+=== Promoción Interna ===
+
+{{oposiciones}}
+{{footer}}
