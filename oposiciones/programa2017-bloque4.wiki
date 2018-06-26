@@ -58,6 +58,10 @@ Entre las operaciones básicas están la '''creación de usuarios y grupos''', s
 
 El fichero '''/etc/login.defs''' define parámetros referentes a contraseñas, como su caducidad.
 
+En '''/etc/security/limits.conf''' se puede limitar el número de ficheros abiertos, el número de sesiones abiertas, etc.
+
+Para crear una contraseña RSA se utiliza el comando openssl.
+
 ==== Otros ====
 
 Para encontrar un fichero es útil el comando '''locate'''. Por ejemplo para buscar donde está el fichero '''resolv.conf''' de DNS o el log '''access.log''' de Apache, basta con escribir '''locate resolv.conf''' o '''locate access.log''' respectivamente.
@@ -122,6 +126,26 @@ En el directorio '''/proc''' hay numerosos ficheros con información del sistema
 * '''/proc/tty''': las terminales en activo.
 * '''/proc/uptime''': tiempo del sistema en funcionamiento y en procesos idle.
 * '''/proc/version''': versión del sistema, gcc, etc.
+
+{{cayo-en-convocatoria|1=2015-SE (IL)}}
+Para apagar el sistema se utiliza el comando '''shutdown'''. Admite diversas variantes: -h (apaga, por defecto), -r (reinicia), -c (cancela una petición de apagado/reinicio). Se puede especificar una hora en la realizar la operación (en formato HH:MM) o con +N donde N sería un número de minutos. Sino se indica ningún tiempo, se asume +1 (1 minuto). Si se quiere inmediatamente, se usa '''shutdown now'''. También existe el comando '''reboot''' que reinicia (como haría shutdown -r now).
+
+{{cayo-en-convocatoria|1=2015-SE (IL)}}
+En bash, las órdenes '''true''' y '''false''' evalúan como lógica booleana, por lo que se pueden usar además de los operandos '''&&''' y (and) y '''||''' (or). Por ejemplo: true && date (ejecuta comando date).
+
+No confundir con el operando & que colocado al final de un comando, lo envía a segundo plano.
+
+{{cayo-en-convocatoria|1=2015-SE (IL)}}
+Con '''cron''' se pueden programar tareas para que se realicen periodicamente. El comando para editar el fichero de tareas es '''crontab -e''', para mostrarlo simplemente es '''crontab -l''', para borrarlo es '''crontab -r'''.
+
+Cada línea de cron tiene el siguiente formato:
+* m h    dom mon dow    command
+Donde '''m''' son los minutos (0-59), '''h''' la hora (0-23), '''dom''' es el día del mes (1-31), '''mon''' es el mes (1-12, aunque también admite jan, feb, etc) y '''dow''' es el día de la semana (0-7, donde 0 y 7 son domingo, o también sun, mon, tue, etc). El comando es lo que se ejecutará.
+
+Algunos ejemplos con cron:
+* 10,40 18,19    * * *    /usr/bin/who >> /var/log/quien.txt: guarda quien está conectado al sistema en los minutos 10 y 40 de las horas 18 y 19, todos los días (* * *).
+* 0 0    1,15 */2 *    tar -zcf /var/backups/home.tgz /home/: hace un backup del home los días 1 y 15 de los meses pares, a las 00:00.
+
 
 === Administración de sistemas Windows ===
 
@@ -247,7 +271,7 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 
 Algunos '''comandos para MySQL''':
 
-* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).
+* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es 3306.
 
 * '''mysqladmin''': administración de MySQL.<ref>[https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/ mysqladmin]</ref>
 ** '''mysqladmin -u user -ppassword version''': versión del servidor.
@@ -262,7 +286,7 @@ Algunos '''comandos para MySQL''':
 * '''mysqlimport''': importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql
 
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
-Para '''ORACLE''' los comandos para exportar e importar bases de datos son expdp y impdp respectivamente.
+Para '''ORACLE''' los comandos para exportar e importar bases de datos son expdp y impdp respectivamente. Para hacer backups se usa '''rman'''.
 
 === Administración de correo electrónico ===
 
@@ -295,12 +319,26 @@ El '''Sender Policy Framework''' (SPF) es una protección contra la falsificaci�
 
 Algunos '''comandos y herramientas''' útiles:
 
+* '''dsadd''': añade un item al directorio activo: user, group, computer.
+
+* '''dsget''': muestra un item del directorio activo: user, group, computer.
+
+* '''dsmod''': modifica un item del directorio activo: user, group, computer.
+
+* '''dsmove''': mueve un item del directorio activo.
+
+* '''dsquery''': permite hacer búsquedas en el directorio activo y filtrar por tipo de objeto: dsquery computer, group, ou, site, server, user.<ref>[https://ss64.com/nt/ Windows Commands]</ref>
+
 * '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
-* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).
+* '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza '''ifconfig eth0 promisc''' (-promisc para desactivarlo).
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 * '''ipconfig''': internet protocol configuration, aplicación para '''Windows''' que muestra la configuración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.
+
+* '''gpresult''': directivas para un sistema y usuario remoto.
+
+* '''gpupdate''': actualiza la configuración de las directivas de grupo.
 
 * '''Nagios''': monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.
 
@@ -335,15 +373,18 @@ Algunos '''comandos y herramientas''' útiles:
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Wireshark''': es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.
 
+* '''Zabbix''': monitorización de servicios de red.
+
 Algunos '''ficheros''' importantes:
 
 * '''hosts''': mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.
 * '''resolv.conf''': especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.
 
-{{cayo-en-convocatoria|1=2016-SE (PI)}}
+{{cayo-en-convocatoria|1=2016-SE (PI)|2=2015-SE (IL)}}
 '''Protocolos''':
 * '''ARP''': protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.
 * '''RARP''': protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.
+* '''VRRP''': protocolo de redundancia para routers, que permite una mayor disponibilidad en caso de error. Varios routers físicos dan soporte a través de un router virtual. En caso de que un router físico falle, salta al siguiente. Virtual Router Redundancy Protocol. Existe una solución de Cisco llamada HSRP (Hot Standby Routing Protocol) y una libre de patentes llamada CARP (Common Address Redundancy Protocol). Otra de Cisco con balanceo de carga es GLBP (Gateway Load Balancing Protocol).
 
 {{cayo-en-convocatoria|1=2016-SE (PI)}}
 '''Firewall''' de Windows:<ref>[http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands Top 10 Windows Firewall netsh commands]</ref>
@@ -352,6 +393,18 @@ Algunos '''ficheros''' importantes:
 * '''netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4''': bloquear el ping entrante.
 
 '''dir''' puede ser in/out. '''action''' puede ser block/allow. Los '''protocol''' más frecuentes son tcp y udp. Para añadir reglas se usa '''add''', para borrarlas '''delete'''. Con '''localport''' puede filtrarse por puerto. Con el parámetro '''program''' se puede actuar sobre programas individuales.
+
+=== Apache ===
+
+'''Apache''' es un servidor web software libre.
+
+Para activar módulos se utiliza el comando '''a2enmod''' (Apache2 enable module) y para desactivarlos '''a2dismod'''. Entre los módulos más conocidos están mod_ssl (seguridad con TLS), mod_rewrite (reescritura de direcciones), mod_auth_ldap (autenticación con LDAP), mod_python (páginas dinámicas en Python), mod_security (filtros a nivel de aplicación).
+
+Con los comandos '''a2enconf''' y '''a2disconf''' se puede activar y desactivar respectivamente el fichero de configuración.
+
+'''apachectl''' and '''apache2ctl''' es la interfaz de control del servidor. Con el parámetro '''start''' se inicia el servidor, con '''stop''' se para, con '''restart''' se reinicia. Otros parámetros son '''status''' (estado del servidor).
+
+'''LAMP, MAMP y WAMP''' son acrónimos de Apache, MySQL y PHP para Linux, Mac OS y Windows respectivamente.
 
 === iptables ===
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
@@ -388,6 +441,12 @@ Para guardar todas las reglas se utiliza '''iptables-save > file'''. Para restau
 Para borrar todas las reglas se utiliza '''iptables -F''' (--flush). Para borrar todas las cadenas '''iptables -X'''.
 
 Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/start/restart''' respectivamente.
+
+=== Otros ===
+
+* '''Servidores de correo''': Exim, Microsoft Exchange, POSTFIX, Sendmail (agente de transporte), qmail, Zimbra.
+
+* '''Servidores web''': Apache HTTP Server, Apache Tomcat, Cherokee, Jetty, lighttpd, nginx, Zope.
 
 == Tema 4: Seguridad ==
 
@@ -479,7 +538,7 @@ El '''cifrado por bloques''' opera por grupos de bits de longitud fija llamados 
 
 El '''cifrado por flujo''' opera sobre símbolos individuales.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015-SE (IL)}}
 '''Algoritmos''' de '''clave simétrica''':
 
 * '''AES''': acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.
@@ -507,7 +566,7 @@ Para que un grupo de personas pueda comunicarse entre sí, es necesario conocer 
 
 Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de '''firma electrónica'''.
 
-{{cayo-en-convocatoria|1=2016 (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015-SE (IL)}}
 '''Algoritmos''' de '''clave asimétrica''':
 
 * '''DSA''': acrónimo de Digital Signature Algorithm. No sirve para cifrar, solo para firmar.
@@ -671,7 +730,11 @@ Para saber la dirección de red de una IP y una máscara de red dadas:
 
 Para saber la dirección de broadcast a partir de una dirección IP y una máscara de red:
 * Calcular la dirección de red según el método anterior.
-* Poner todos los 0 de la dirección a 1.?
+* Poner todos los 0 de la dirección a 1.
+
+Para saber cuántos hosts son posibles en una red a partir de la máscara de red:
+* El número de bits indicados como /XX se ponen a 1, empezando por la izquierda.
+* El número de bits restantes por la derecha (32-XX) se pone como exponente para la potencia de 2.
 
 == Tema 7: Modelo TCP/IP ==
 
@@ -748,17 +811,21 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 
 Ipv4 ipv6 (pregunta b4.32 y 37, 39)
 
-{{cayo-en-convocatoria|1=2016 (PI)|2=2015 (IL)}}
-IPv4 tiene ips de 32 bits y IPv6 de 128 bits.
+{{cayo-en-convocatoria|1=2016 (PI)|2=2015 (IL)|3=2015-SE (IL)}}
+IPv4 tiene ips de 32 bits (4 octetos, 4 bytes), comprendidas entre 0.0.0.0 y 255.255.255.255.
 
-* '''::/128''': ausencia de dirección
-* '''::1/128''': loopback
+IPv6 tiene ips de 128 bits (8 grupos de 16 bits), comprendidas entre 0:0:0:0:0:0:0:0 y ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff. Cuando se usa '::' se quiere indicar que son todo ceros ':0000:'.
+
+* '''::/128''': ausencia de dirección, dirección indefinida. Todos sus bits a cero. Como 0.0.0.0 en IPv4.
+* '''::1/128''': loopback, dirección unicast de localhost. Como 127.0.0.1 en IPv4.
 * '''::1.2.3.4/96''': ipv4 compatible
 * '''::ffff:0:0/96''': ipv4 mapeada
 * '''fe80::/10''': prefijo enlace local
 * '''fec0::''': prefijo emplazamiento local
 * '''fc00::/7''': prefijo de dirección local única
 * '''ff00::/8''': prefijo de multicast
+
+Existen tecnologías de transición entre IPv4 y IPv6 como '''6to4''' y '''Turedo'''.
 
 DHCPv6 utiliza el puerto UDP 547.
 
@@ -797,6 +864,7 @@ Un '''servidor proxy''' es un servidor que actua de intermediario entre las peti
 Tipos de '''proxy''':
 * '''Proxy abierto''': son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.
 * '''Proxy transparente''': no requiere configuración por parte del cliente.
+* '''SQUID''': proxy y caché web.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Tipos de '''registros DNS''':

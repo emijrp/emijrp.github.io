@@ -57,7 +57,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="#Spam">Spam</a><br/>
 &nbsp;3. <a href="#Tema 3: Administración de redes">Tema 3: Administración de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Administración y monitorización de redes">Administración y monitorización de redes</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#iptables">iptables</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#Apache">Apache</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="#iptables">iptables</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="#Otros">Otros</a><br/>
 &nbsp;4. <a href="#Tema 4: Seguridad">Tema 4: Seguridad</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#Criptología">Criptología</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 <a href="#Criptografía simétrica">Criptografía simétrica</a><br/>
@@ -128,6 +130,10 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>El fichero <b>/etc/login.defs</b> define parámetros referentes a contraseñas, como su caducidad.</p>
 
+<p>En <b>/etc/security/limits.conf</b> se puede limitar el número de ficheros abiertos, el número de sesiones abiertas, etc.</p>
+
+<p>Para crear una contraseña RSA se utiliza el comando openssl.</p>
+
 <h4 id="Otros">Otros</h4>
 
 <p>Para encontrar un fichero es útil el comando <b>locate</b>. Por ejemplo para buscar donde está el fichero <b>resolv.conf</b> de DNS o el log <b>access.log</b> de Apache, basta con escribir <b>locate resolv.conf</b> o <b>locate access.log</b> respectivamente.</p>
@@ -176,6 +182,34 @@ Ideas Actualización, mantenimiento y reparación:
 <p>En el directorio <b>/proc</b> hay numerosos ficheros con información del sistema y procesos:</p>
 
 <ul><li><b>/proc/PID</b>: cada proceso en ejecución tiene un directorio con su PID. Dentro existen los ficheros: cmdline, cwd, environ, exe, fd, fdinfo, maps, mem, root, status y task.</li><li><b>/proc/cpuinfo</b>: información sobre la CPU.</li><li><b>/proc/meminfo</b>: información sobre la memoria.</li><li><b>/proc/modules</b>: módulos del kernel cargados actualmente.</li><li><b>/proc/mounts</b>: información sobre dispositivos montados.</li><li><b>/proc/tty</b>: las terminales en activo.</li><li><b>/proc/uptime</b>: tiempo del sistema en funcionamiento y en procesos idle.</li><li><b>/proc/version</b>: versión del sistema, gcc, etc.</li></ul>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
+</div>
+
+<p>Para apagar el sistema se utiliza el comando <b>shutdown</b>. Admite diversas variantes: -h (apaga, por defecto), -r (reinicia), -c (cancela una petición de apagado/reinicio). Se puede especificar una hora en la realizar la operación (en formato HH:MM) o con +N donde N sería un número de minutos. Sino se indica ningún tiempo, se asume +1 (1 minuto). Si se quiere inmediatamente, se usa <b>shutdown now</b>. También existe el comando <b>reboot</b> que reinicia (como haría shutdown -r now).</p>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
+</div>
+
+<p>En bash, las órdenes <b>true</b> y <b>false</b> evalúan como lógica booleana, por lo que se pueden usar además de los operandos <b>&&</b> y (and) y <b>||</b> (or). Por ejemplo: true && date (ejecuta comando date).</p>
+
+<p>No confundir con el operando & que colocado al final de un comando, lo envía a segundo plano.</p>
+
+<div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
+<p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
+</div>
+
+<p>Con <b>cron</b> se pueden programar tareas para que se realicen periodicamente. El comando para editar el fichero de tareas es <b>crontab -e</b>, para mostrarlo simplemente es <b>crontab -l</b>, para borrarlo es <b>crontab -r</b>.</p>
+
+<p>Cada línea de cron tiene el siguiente formato:</p>
+<ul><li>m h    dom mon dow    command</li></ul>
+<p>Donde <b>m</b> son los minutos (0-59), <b>h</b> la hora (0-23), <b>dom</b> es el día del mes (1-31), <b>mon</b> es el mes (1-12, aunque también admite jan, feb, etc) y <b>dow</b> es el día de la semana (0-7, donde 0 y 7 son domingo, o también sun, mon, tue, etc). El comando es lo que se ejecutará.</p>
+
+<p>Algunos ejemplos con cron:</p>
+<ul><li>10,40 18,19    * * *    /usr/bin/who >> /var/log/quien.txt: guarda quien está conectado al sistema en los minutos 10 y 40 de las horas 18 y 19, todos los días (* * *).</li><li>0 0    1,15 */2 *    tar -zcf /var/backups/home.tgz /home/: hace un backup del home los días 1 y 15 de los meses pares, a las 00:00.</li></ul>
+
 
 <h3 id="Administración de sistemas Windows">Administración de sistemas Windows</h3>
 
@@ -260,13 +294,13 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Algunos <b>comandos para MySQL</b>:</p>
 
-<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla).</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases -u user -ppassword > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
+<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es 3306.</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases -u user -ppassword > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p>Para <b>ORACLE</b> los comandos para exportar e importar bases de datos son expdp y impdp respectivamente.</p>
+<p>Para <b>ORACLE</b> los comandos para exportar e importar bases de datos son expdp y impdp respectivamente. Para hacer backups se usa <b>rman</b>.</p>
 
 <h3 id="Administración de correo electrónico">Administración de correo electrónico</h3>
 
@@ -307,13 +341,13 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Algunos <b>comandos y herramientas</b> útiles:</p>
 
-<ul><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0).</li></ul>
+<ul><li><b>dsadd</b>: añade un item al directorio activo: user, group, computer.</li><li><b>dsget</b>: muestra un item del directorio activo: user, group, computer.</li><li><b>dsmod</b>: modifica un item del directorio activo: user, group, computer.</li><li><b>dsmove</b>: mueve un item del directorio activo.</li><li><b>dsquery</b>: permite hacer búsquedas en el directorio activo y filtrar por tipo de objeto: dsquery computer, group, ou, site, server, user.<sup>[<a id="refback7" href="#ref7">7</a>]</sup></li><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza <b>ifconfig eth0 promisc</b> (-promisc para desactivarlo).</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (IL)  </b></p>
 </div>
 
-<ul><li><b>ipconfig</b>: internet protocol configuration, aplicación para <b>Windows</b> que muestra la configuración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.</li><li><b>Nagios</b>: monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.</li><li><b>netsniff-ng</b>: analizador de redes y sniffer, solo disponible para GNU/Linux.</li><li><b>ngrep</b>: network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.</li><li><b>nmap</b>: escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.</li></ul>
+<ul><li><b>ipconfig</b>: internet protocol configuration, aplicación para <b>Windows</b> que muestra la configuración de red y permite modificar opciones de DHCP y DNS. /release = libera la ip, /renew = solicita ip nueva, /flushdns = limpia la cache DNS.</li><li><b>gpresult</b>: directivas para un sistema y usuario remoto.</li><li><b>gpupdate</b>: actualiza la configuración de las directivas de grupo.</li><li><b>Nagios</b>: monitoriza servicios (SMTP, POP3, HTTP, NNTP, ICMP, SNMP, FTP, SSH), recursos (CPU, discos, logs), switchs, servidores de bbdd, de aplicación, etc.</li><li><b>netsniff-ng</b>: analizador de redes y sniffer, solo disponible para GNU/Linux.</li><li><b>ngrep</b>: network grep, analizador de paquetes de red, por línea de comandos. Permite buscar con expresiones regulares dentro de los paquetes.</li><li><b>nmap</b>: escáner que permite descubrir hosts y servicios en una red. Escanea puertos, detecta versiones y sistemas operativos, hardware. Encuentra vulnerabilidades.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
@@ -325,34 +359,46 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<ul><li><b>Wireshark</b>: es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.</li></ul>
+<ul><li><b>Wireshark</b>: es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.</li><li><b>Zabbix</b>: monitorización de servicios de red.</li></ul>
 
 <p>Algunos <b>ficheros</b> importantes:</p>
 
 <ul><li><b>hosts</b>: mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.</li><li><b>resolv.conf</b>: especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016-SE (PI) 2015-SE (IL)  </b></p>
 </div>
 
 <p><b>Protocolos</b>:</p>
-<ul><li><b>ARP</b>: protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.</li><li><b>RARP</b>: protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.</li></ul>
+<ul><li><b>ARP</b>: protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.</li><li><b>RARP</b>: protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.</li><li><b>VRRP</b>: protocolo de redundancia para routers, que permite una mayor disponibilidad en caso de error. Varios routers físicos dan soporte a través de un router virtual. En caso de que un router físico falle, salta al siguiente. Virtual Router Redundancy Protocol. Existe una solución de Cisco llamada HSRP (Hot Standby Routing Protocol) y una libre de patentes llamada CARP (Common Address Redundancy Protocol). Otra de Cisco con balanceo de carga es GLBP (Gateway Load Balancing Protocol).</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
-<p><b>Firewall</b> de Windows:<sup>[<a id="refback7" href="#ref7">7</a>]</sup></p>
+<p><b>Firewall</b> de Windows:<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
 <ul><li><b>netsh advfirewall set allprofiles state on</b>: activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.</li><li><b>netsh advfirewall set allprofiles state off</b>: desactivar el firewall.</li><li><b>netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4</b>: bloquear el ping entrante.</li></ul>
 
 <p><b>dir</b> puede ser in/out. <b>action</b> puede ser block/allow. Los <b>protocol</b> más frecuentes son tcp y udp. Para añadir reglas se usa <b>add</b>, para borrarlas <b>delete</b>. Con <b>localport</b> puede filtrarse por puerto. Con el parámetro <b>program</b> se puede actuar sobre programas individuales.</p>
+
+<h3 id="Apache">Apache</h3>
+
+<p><b>Apache</b> es un servidor web software libre.</p>
+
+<p>Para activar módulos se utiliza el comando <b>a2enmod</b> (Apache2 enable module) y para desactivarlos <b>a2dismod</b>. Entre los módulos más conocidos están mod_ssl (seguridad con TLS), mod_rewrite (reescritura de direcciones), mod_auth_ldap (autenticación con LDAP), mod_python (páginas dinámicas en Python), mod_security (filtros a nivel de aplicación).</p>
+
+<p>Con los comandos <b>a2enconf</b> y <b>a2disconf</b> se puede activar y desactivar respectivamente el fichero de configuración.</p>
+
+<p><b>apachectl</b> and <b>apache2ctl</b> es la interfaz de control del servidor. Con el parámetro <b>start</b> se inicia el servidor, con <b>stop</b> se para, con <b>restart</b> se reinicia. Otros parámetros son <b>status</b> (estado del servidor).</p>
+
+<p><b>LAMP, MAMP y WAMP</b> son acrónimos de Apache, MySQL y PHP para Linux, Mac OS y Windows respectivamente.</p>
 
 <h3 id="iptables">iptables</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
@@ -361,7 +407,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Los <b>targets</b> son:</p>
 <ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>: el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
 
-<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
 
 <ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.</li><li><b>iptables -D INPUT 1</b>: borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.</li><li><b>iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT</b>: inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.</li><li><b>iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT</b>: reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.</li></ul>
 
@@ -370,6 +416,10 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Para borrar todas las reglas se utiliza <b>iptables -F</b> (--flush). Para borrar todas las cadenas <b>iptables -X</b>.</p>
 
 <p>Para parar, iniciar y reiniciar el firewall se utiliza <b>service iptables stop/start/restart</b> respectivamente.</p>
+
+<h3 id="Otros">Otros</h3>
+
+<ul><li><b>Servidores de correo</b>: Exim, Microsoft Exchange, POSTFIX, Sendmail (agente de transporte), qmail, Zimbra.</li><li><b>Servidores web</b>: Apache HTTP Server, Apache Tomcat, Cherokee, Jetty, lighttpd, nginx, Zope.</li></ul>
 
 <h2 id="Tema 4: Seguridad">Tema 4: Seguridad</h2>
 
@@ -429,7 +479,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>El <b>cifrado por flujo</b> opera sobre símbolos individuales.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2015-SE (IL)  </b></p>
 </div>
 
 <p><b>Algoritmos</b> de <b>clave simétrica</b>:</p>
@@ -455,7 +505,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de <b>firma electrónica</b>.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2015-SE (IL)  </b></p>
 </div>
 
 <p><b>Algoritmos</b> de <b>clave asimétrica</b>:</p>
@@ -588,7 +638,10 @@ Ideas Actualización, mantenimiento y reparación:
 <ul><li>Pasar la máscara a binario para saber cuántos 1 hay a la izquierda. El resto de la derecha son hosts.</li><li>Pasar la IP a binario, para saber los dígitos que corresponden a la máscara. Poniendo los dígitos de host a cero, sale la IP de la red.</li></ul>
 
 <p>Para saber la dirección de broadcast a partir de una dirección IP y una máscara de red:</p>
-<ul><li>Calcular la dirección de red según el método anterior.</li><li>Poner todos los 0 de la dirección a 1.?</li></ul>
+<ul><li>Calcular la dirección de red según el método anterior.</li><li>Poner todos los 0 de la dirección a 1.</li></ul>
+
+<p>Para saber cuántos hosts son posibles en una red a partir de la máscara de red:</p>
+<ul><li>El número de bits indicados como /XX se ponen a 1, empezando por la izquierda.</li><li>El número de bits restantes por la derecha (32-XX) se pone como exponente para la potencia de 2.</li></ul>
 
 <h2 id="Tema 7: Modelo TCP/IP">Tema 7: Modelo TCP/IP</h2>
 
@@ -626,7 +679,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback10" href="#ref10">10</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<sup>[<a id="refback11" href="#ref11">11</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -644,12 +697,16 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Ipv4 ipv6 (pregunta b4.32 y 37, 39)</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en<br/><b>2016 (PI) 2015 (IL)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (PI) 2015 (IL) 2015-SE (IL) </b></p>
 </div>
 
-<p>IPv4 tiene ips de 32 bits y IPv6 de 128 bits.</p>
+<p>IPv4 tiene ips de 32 bits (4 octetos, 4 bytes), comprendidas entre 0.0.0.0 y 255.255.255.255.</p>
 
-<ul><li><b>::/128</b>: ausencia de dirección</li><li><b>::1/128</b>: loopback</li><li><b>::1.2.3.4/96</b>: ipv4 compatible</li><li><b>::ffff:0:0/96</b>: ipv4 mapeada</li><li><b>fe80::/10</b>: prefijo enlace local</li><li><b>fec0::</b>: prefijo emplazamiento local</li><li><b>fc00::/7</b>: prefijo de dirección local única</li><li><b>ff00::/8</b>: prefijo de multicast</li></ul>
+<p>IPv6 tiene ips de 128 bits (8 grupos de 16 bits), comprendidas entre 0:0:0:0:0:0:0:0 y ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff. Cuando se usa '::' se quiere indicar que son todo ceros ':0000:'.</p>
+
+<ul><li><b>::/128</b>: ausencia de dirección, dirección indefinida. Todos sus bits a cero. Como 0.0.0.0 en IPv4.</li><li><b>::1/128</b>: loopback, dirección unicast de localhost. Como 127.0.0.1 en IPv4.</li><li><b>::1.2.3.4/96</b>: ipv4 compatible</li><li><b>::ffff:0:0/96</b>: ipv4 mapeada</li><li><b>fe80::/10</b>: prefijo enlace local</li><li><b>fec0::</b>: prefijo emplazamiento local</li><li><b>fc00::/7</b>: prefijo de dirección local única</li><li><b>ff00::/8</b>: prefijo de multicast</li></ul>
+
+<p>Existen tecnologías de transición entre IPv4 y IPv6 como <b>6to4</b> y <b>Turedo</b>.</p>
 
 <p>DHCPv6 utiliza el puerto UDP 547.</p>
 
@@ -667,7 +724,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Un <b>servidor proxy</b> es un servidor que actua de intermediario entre las peticiones de un cliente y los servidores destinatarios.</p>
 
 <p>Tipos de <b>proxy</b>:</p>
-<ul><li><b>Proxy abierto</b>: son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.</li><li><b>Proxy transparente</b>: no requiere configuración por parte del cliente.</li></ul>
+<ul><li><b>Proxy abierto</b>: son accesibles por cualquier usuario. Los proxies anónimos ocultan la dirección IP del cliente.</li><li><b>Proxy transparente</b>: no requiere configuración por parte del cliente.</li><li><b>SQUID</b>: proxy y caché web.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
@@ -730,10 +787,11 @@ Ideas Actualización, mantenimiento y reparación:
 <li id="ref4"><a href="#refback4">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
 <li id="ref5"><a href="#refback5">↑</a> <a href="https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/">mysqladmin</a></li>
 <li id="ref6"><a href="#refback6">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
-<li id="ref7"><a href="#refback7">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
-<li id="ref8"><a href="#refback8">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
-<li id="ref9"><a href="#refback9">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
-<li id="ref10"><a href="#refback10">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref7"><a href="#refback7">↑</a> <a href="https://ss64.com/nt/">Windows Commands</a></li>
+<li id="ref8"><a href="#refback8">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
+<li id="ref11"><a href="#refback11">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -754,7 +812,7 @@ Ideas Actualización, mantenimiento y reparación:
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-24 17:47:36 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-26 17:46:44 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
