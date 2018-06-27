@@ -583,7 +583,7 @@ Uso de '''comandos básicos''':
 * '''ln''': crea enlaces duros (-s simbólicos)
 * '''rm''': borrado de ficheros o directorios (rmdir). Recursivo (-r)
 
-Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref><ref>[https://es.wikibooks.org/wiki/Manual_de_consola_Bash_de_Linux Manual de consola Bash de Linux]</ref>
+Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref><ref>[https://es.wikibooks.org/wiki/Manual_de_consola_Bash_de_Linux Manual de consola Bash de Linux]</ref><ref>[https://fossbytes.com/a-z-list-linux-command-line-reference/ The Ultimate A to Z List of Linux Commands]</ref><ref>[https://es.wikipedia.org/wiki/Anexo:Programas_para_Unix Anexo:Programas para Unix]</ref>
 
 {{div-col-2}}
 * '''adduser''': añade un usuario al sistema. Opuesto a deluser
@@ -591,7 +591,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''apropos''': busca en las descripciones de los comandos
 * '''apt-get''': control de paquetes
 * '''apt-cache''': búsqueda de paquetes
-* '''awk''': procesamiento de texto
+* '''awk''': búsqueda y reemplazo de cadenas
 * '''basename''': elimina la ruta del nombre de un fichero
 * '''bash''': intérprete de comandos
 * '''bzip2''': compresor de ficheros
@@ -616,6 +616,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''dd''': copia ficheros, particiones, discos
 * '''df''': muestra espacio libre en disco
 * '''diff''': diferencia entre dos ficheros
+* '''dir''': muestra el contenido del directorio
 * '''dpkg''': operaciones con paquetes
 * '''du''': muestra espacio ocupado por el directorio indicado
 * '''echo''': muestra texto por pantalla
@@ -643,6 +644,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''iostat''': monitorización de CPU y disco duro
 * '''jobs''': muestra procesos en segundo plano
 * '''kill''': mata procesos
+* '''killall''': mata procesos por nombre
 * '''last''': muestra últimos usuarios logueados en el sistema
 * '''lastlog''': muestra el último login de cada usuario del sistema
 * '''less''': muestra fichero de texto
@@ -654,7 +656,9 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''lprm''': borra trabajos pendientes en la cola de impresión
 * '''ls''': muestra el contenido del directorio
 * '''lscpu''': muestra información sobre la CPU
+* '''lshw''': muestra información sobre el hardware
 * '''lsmod''': muestra los módulos del kernel
+* '''lsof''': muestra los ficheros abiertos
 * '''lspci''': muestra los dispositivos PCI
 * '''lsusb''': muestra los dispositivos USB
 * '''man''': muestra ayuda de comandos
@@ -682,10 +686,12 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''pwd''': muestra directorio actual
 * '''reboot''': reinicia el sistema
 * '''renice''': cambia la prioridad de un proceso
+* '''reset''': reinicializa la terminal
 * '''rev''': invierte una cadena
 * '''rm''': borra fichero
 * '''rmdir''': borra directorio vacío. Opuesto a mkdir
 * '''rmmod''': elimina módulos del kernel
+* '''sdiff''': diferencia entre dos ficheros
 * '''sed''': reemplaza cadenas de texto
 * '''seq''': muestra secuencia de números
 * '''set''': muestra variables de entorno del usuario

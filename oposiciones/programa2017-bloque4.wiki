@@ -395,10 +395,10 @@ Algunos '''ficheros''' importantes:
 '''dir''' puede ser in/out. '''action''' puede ser block/allow. Los '''protocol''' más frecuentes son tcp y udp. Para añadir reglas se usa '''add''', para borrarlas '''delete'''. Con '''localport''' puede filtrarse por puerto. Con el parámetro '''program''' se puede actuar sobre programas individuales.
 
 === Apache ===
-
+{{cayo-en-convocatoria|1=2015-SE (IL)}}
 '''Apache''' es un servidor web software libre.
 
-Para activar módulos se utiliza el comando '''a2enmod''' (Apache2 enable module) y para desactivarlos '''a2dismod'''. Entre los módulos más conocidos están mod_ssl (seguridad con TLS), mod_rewrite (reescritura de direcciones), mod_auth_ldap (autenticación con LDAP), mod_python (páginas dinámicas en Python), mod_security (filtros a nivel de aplicación).
+Para activar módulos se utiliza el comando '''a2enmod''' (Apache2 enable module) y para desactivarlos '''a2dismod''' (Apache2 disable module). Entre los módulos más conocidos están mod_ssl (seguridad con TLS), mod_rewrite (reescritura de direcciones), mod_auth_ldap (autenticación con LDAP), mod_python (páginas dinámicas en Python), mod_security (filtros a nivel de aplicación). Para activar mod_rewrite sería '''a2enmod rewrite'''.
 
 Con los comandos '''a2enconf''' y '''a2disconf''' se puede activar y desactivar respectivamente el fichero de configuración.
 
@@ -724,11 +724,11 @@ Ejemplos de máscaras de red:
 * '''Clase B''': 11111111.11111111.00000000.00000000 = 255.255.0.0 = 2^16 - 2 = 65534 hosts
 * '''Clase A''': 11111111.00000000.00000000.00000000 = 255.0.0.0 = 2^24 - 2 = 16777214 hosts
 
-Para saber la dirección de red de una IP y una máscara de red dadas:
+Para averiguar la dirección IP de una red a partir de una dirección IP y una máscara de red dadas:
 * Pasar la máscara a binario para saber cuántos 1 hay a la izquierda. El resto de la derecha son hosts.
 * Pasar la IP a binario, para saber los dígitos que corresponden a la máscara. Poniendo los dígitos de host a cero, sale la IP de la red.
 
-Para saber la dirección de broadcast a partir de una dirección IP y una máscara de red:
+Para averiguar la dirección de broadcast a partir de una dirección IP y una máscara de red:
 * Calcular la dirección de red según el método anterior.
 * Poner todos los 0 de la dirección a 1.
 
@@ -772,7 +772,7 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 === Puertos ===
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-'''Puertos TCP y UDP''' utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigend Numbers Authority (IANA).<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.
+'''Puertos TCP y UDP''' utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<ref>[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers List of TCP and UDP port numbers]</ref> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.
 
 {{div col 2}}
 * '''0''': Reservado
