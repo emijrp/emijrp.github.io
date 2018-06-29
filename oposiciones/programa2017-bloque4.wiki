@@ -33,7 +33,7 @@ Ideas Actualización, mantenimiento y reparación:
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016-SE (IL)|3=2016-SE (PI)|4=2015-SE (IL)}}
 Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Las listas de repositorios pueden ser modificadas para incluir otros. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman '''sistemas de gestión de paquetes''', siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza rpm), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.
 
-* '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.
+* '''apt''': install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), list (muestra paquetes --installed, --upgradeable, --all-versions). Con '''apt-cache''' se puede usar las opciones: search (busca paquetes), show (muestra información sobre un paquete). Creado por Debian.
 
 * '''dpkg''': -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.
 
@@ -50,7 +50,7 @@ Entre las operaciones básicas están la '''creación de usuarios y grupos''', s
 
 * '''useradd''': añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe
 
-* '''passwd''': cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).
+* '''passwd''': cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días). En '''/etc/passwd''' hay información de las cuentas (pero no la contraseña), en '''/etc/shadow''' información segura y en '''/etc/pam.d/passwd''' la configuración PAM.
 
 * '''chage''': caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).
 
@@ -63,6 +63,8 @@ En '''/etc/security/limits.conf''' se puede limitar el número de ficheros abier
 Para crear una contraseña RSA se utiliza el comando openssl.
 
 ==== Otros ====
+
+Los dispositivos de almacenamiento en Linux tienen una estructura de nombres bien definida. La primera unidad de disco flexible (floppy disk) se llama '''/dev/fd0''', la segunda '''/dev/fd1''', etc. En cuanto a discos duros, el primero es '''/dev/sda''', el segundo '''/dev/sdb''', etc. Y las particiones dentro de cada disco se numeran como '''/dev/sda1''', '''/dev/sda2''', etc. Los dispositivos ópticos son '''/dev/scd0'''. En el fichero '''/etc/fstab''' se guarda información sobre discos y particiones.
 
 Para encontrar un fichero es útil el comando '''locate'''. Por ejemplo para buscar donde está el fichero '''resolv.conf''' de DNS o el log '''access.log''' de Apache, basta con escribir '''locate resolv.conf''' o '''locate access.log''' respectivamente.
 
@@ -267,11 +269,14 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 {{recuadro|1='''Administración de bases de datos'''. Funciones y responsabilidades. Administración de servidores de correo electrónico. Protocolos de correo electrónico.}}
 
 === Administración de bases de datos ===
+
+==== MySQL ====
+
 {{cayo-en-convocatoria|1=2016-SE (IL)|2=2015-SE (IL)}}
 
 Algunos '''comandos para MySQL''':
 
-* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es 3306.
+* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es '''3306'''.
 
 * '''mysqladmin''': administración de MySQL.<ref>[https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/ mysqladmin]</ref>
 ** '''mysqladmin -u user -ppassword version''': versión del servidor.
@@ -285,8 +290,20 @@ Algunos '''comandos para MySQL''':
 
 * '''mysqlimport''': importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql
 
+==== ORACLE ====
+
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
 Para '''ORACLE''' los comandos para exportar e importar bases de datos son expdp y impdp respectivamente. Para hacer backups se usa '''rman'''.
+
+El puerto por defecto de ORACLE es '''1521'''. El de ORACLE SQL *NET es el '''66'''.
+
+==== PostgreSQL ====
+
+El puerto por defecto de PostgreSQL es '''5432'''.
+
+==== SQLServer ====
+
+El puerto por defecto de SQLServer es '''1433'''.
 
 === Administración de correo electrónico ===
 

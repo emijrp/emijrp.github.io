@@ -56,6 +56,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;1.5 <a href="#Máquinas virtuales">Máquinas virtuales</a><br/>
 &nbsp;2. <a href="#Tema 2: Administración de bases de datos">Tema 2: Administración de bases de datos</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.1 <a href="#Administración de bases de datos">Administración de bases de datos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 <a href="#MySQL">MySQL</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2 <a href="#ORACLE">ORACLE</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.3 <a href="#PostgreSQL">PostgreSQL</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.4 <a href="#SQLServer">SQLServer</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="#Administración de correo electrónico">Administración de correo electrónico</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="#Microsoft Exchange">Microsoft Exchange</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="#Spam">Spam</a><br/>
@@ -120,7 +124,7 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Los <b>repositorios para GNU/Linux</b> son servidores donde se aloja el software disponible para ser descargado e instalado en el sistema local. Las listas de repositorios pueden ser modificadas para incluir otros. Hay herramientas que facilitan la búsqueda, instalación, actualización y desinstalación de software, se llaman <b>sistemas de gestión de paquetes</b>, siendo los más destacados dpkg, apt (utiliza dpkg), rpm, YUM (utiliza rpm), YaST y las interfaces gráficas como Synaptic, Apper, PackageKit, GNOME Software, Octopi.</p>
 
-<ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), search (busca paquetes), show (muestra información sobre un paquete), list (muestra paquetes --installed, --upgradeable, --all-versions). Creado por Debian.</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose). Creado por Red Hat.</li><li><b>yast</b>: -i (instala un paquete). Creado por SuSE.</li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.</li></ul>
+<ul><li><b>apt</b>: install (instala un paquete), remove (desinstala un paquete), purge (desinstala y elimina configuración), update (actualiza la información de los paquetes), upgrade (actualiza los paquetes instalados, e instala nuevos si es necesario, pero no borra ninguno), full-upgrade (actualiza y borra si es necesario), dist-upgrade (actualiza la distribución), autoremove (elimina dependencias no necesarias), list (muestra paquetes --installed, --upgradeable, --all-versions). Con <b>apt-cache</b> se puede usar las opciones: search (busca paquetes), show (muestra información sobre un paquete). Creado por Debian.</li><li><b>dpkg</b>: -i (instala un paquete), -r (desinstala un paquete), --purge (desinstala y elimina configuración), --force -r (fuerza desinstalación), --force-all -r (fuerza más), -c (muestra contenido de un paquete), -L (muestra ficheros instalados con un paquete), -S (muestra a qué paquete pertenece un fichero), --get-selections (muestra todos los paquetes instalados), --reconfigure (reconfigura un paquete). Creado por Debian.</li><li><b>rpm</b>: -i (instala un paquete), -e (desinstala un paquete), -qa (muestra todos los paquetes instalados), -qi (muestra información de un paquete instalado, -qip sino está instalado), -qf (muestra a qué paquete pertenece un fichero), -qdf (muestra documentación de un fichero), -qlp (muestra contenido de un paquete), -qRp (requisitos/dependencias de un paquete), -v (verbose). Creado por Red Hat.</li><li><b>yast</b>: -i (instala un paquete). Creado por SuSE.</li><li><b>yum</b>: install (instala un paquete), check-update (comprube asi hay actualizaciones disponibles), update (actualiza un paquete), remove (desinstala un paquete), repolist (muestra repositorios), history (historial de instalaciones/desinstalaciones). Basado en rpm.</li></ul>
 
 <h4 id="Usuarios y grupos">Usuarios y grupos</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
@@ -130,7 +134,7 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Entre las operaciones básicas están la <b>creación de usuarios y grupos</b>, su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.</p>
 
-<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días).</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
+<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días). En <b>/etc/passwd</b> hay información de las cuentas (pero no la contraseña), en <b>/etc/shadow</b> información segura y en <b>/etc/pam.d/passwd</b> la configuración PAM.</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
 
 <p>El fichero <b>/etc/login.defs</b> define parámetros referentes a contraseñas, como su caducidad.</p>
 
@@ -139,6 +143,8 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Para crear una contraseña RSA se utiliza el comando openssl.</p>
 
 <h4 id="Otros">Otros</h4>
+
+<p>Los dispositivos de almacenamiento en Linux tienen una estructura de nombres bien definida. La primera unidad de disco flexible (floppy disk) se llama <b>/dev/fd0</b>, la segunda <b>/dev/fd1</b>, etc. En cuanto a discos duros, el primero es <b>/dev/sda</b>, el segundo <b>/dev/sdb</b>, etc. Y las particiones dentro de cada disco se numeran como <b>/dev/sda1</b>, <b>/dev/sda2</b>, etc. Los dispositivos ópticos son <b>/dev/scd0</b>. En el fichero <b>/etc/fstab</b> se guarda información sobre discos y particiones.</p>
 
 <p>Para encontrar un fichero es útil el comando <b>locate</b>. Por ejemplo para buscar donde está el fichero <b>resolv.conf</b> de DNS o el log <b>access.log</b> de Apache, basta con escribir <b>locate resolv.conf</b> o <b>locate access.log</b> respectivamente.</p>
 
@@ -291,6 +297,9 @@ Ideas Actualización, mantenimiento y reparación:
 
 
 <h3 id="Administración de bases de datos">Administración de bases de datos</h3>
+
+<h4 id="MySQL">MySQL</h4>
+
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (IL) 2015-SE (IL)  </b></p>
 </div>
@@ -298,13 +307,25 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Algunos <b>comandos para MySQL</b>:</p>
 
-<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es 3306.</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases -u user -ppassword > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
+<ul><li><b>mysql</b>: cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es <b>3306</b>.</li><li><b>mysqladmin</b>: administración de MySQL.<sup>[<a id="refback5" href="#ref5">5</a>]</sup></li><ul><li><b>mysqladmin -u user -ppassword version</b>: versión del servidor.</li><li><b>mysqladmin -u user -ppassword status</b>: estado del servidor, uptime, slow queries.</li><li><b>mysqladmin -u user -ppassword create db_name</b>: crea una base de datos.</li><li><b>mysqladmin -u user -ppassword drop db_name</b>: borra una base de datos.</li><li><b>/etc/init.d/mysqld start</b>: inicia el servidor.</li><li><b>/etc/init.d/mysqld stop</b>: para el servidor.</li></ul><li><b>mysqldump</b>: genera backups (dumps) de bases de datos. Aunque generalmente se exporta con formato SQL, también permite otros formatos como CSV o XML (--xml o -X).<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Ejemplos: mysqldump db_name > dump.sql; mysqldump --databases db_name > dump.sql; mysqldump --all-databases -u user -ppassword > dump.sql</li><li><b>mysqlimport</b>: importa bases de datos desde ficheros. Ejemplo: mysqlimport -u user -ppassword --local db_name dump.sql</li></ul>
+
+<h4 id="ORACLE">ORACLE</h4>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
 <p>Para <b>ORACLE</b> los comandos para exportar e importar bases de datos son expdp y impdp respectivamente. Para hacer backups se usa <b>rman</b>.</p>
+
+<p>El puerto por defecto de ORACLE es <b>1521</b>. El de ORACLE SQL *NET es el <b>66</b>.</p>
+
+<h4 id="PostgreSQL">PostgreSQL</h4>
+
+<p>El puerto por defecto de PostgreSQL es <b>5432</b>.</p>
+
+<h4 id="SQLServer">SQLServer</h4>
+
+<p>El puerto por defecto de SQLServer es <b>1433</b>.</p>
 
 <h3 id="Administración de correo electrónico">Administración de correo electrónico</h3>
 
@@ -823,7 +844,7 @@ Ideas Actualización, mantenimiento y reparación:
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-26 21:51:26 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-28 10:26:53 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
