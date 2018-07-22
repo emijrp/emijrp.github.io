@@ -1,0 +1,95 @@
+{{header|1=Historia de las Bibliotecas}}
+
+Una breve '''historia de las bibliotecas'''.
+
+== Bibliotecas nacionales ==
+
+<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
+
+<table class="wikitable sortable" style="text-align: center;">
+
+<tr>
+    <th class="sorttable_alpha">Nombre</th>
+    <th class="sorttable_numeric">Año</th>
+    <th class="sorttable_alpha">Descripción</th>
+    <th class="sorttable_alpha">Webs</th>
+</tr>
+<tr>
+
+<!--
+{{biblioteca
+|nombre=
+|fundacion=
+|descripcion=
+|web=
+|blog=
+|youtube=
+|twitter=
+|facebook=
+|flickr=
+}}
+-->
+
+{{biblioteca
+|nombre=Biblioteca Nacional de Argentina
+|fundacion=1810
+|descripcion=
+|web=https://www.bn.gov.ar
+|blog=
+|youtube=
+|twitter=
+|facebook=
+|flickr=
+}}
+
+{{biblioteca
+|nombre=Biblioteca Nacional de Colombia
+|fundacion=1777
+|descripcion=La primera biblioteca pública fundada en América. El edificio actual fue diseñado por el arquitecto Alberto Wills Ferro en 1933 y fue declarado Monumento Nacional de Colombia mediante el decreto 287 del 24 de febrero de 1975. Se encuentra en el barrio Las Nieves de la localidad de Santa Fe en la ciudad de Bogotá.
+|web=http://bibliotecanacional.gov.co
+|blog=
+|youtube=https://www.youtube.com/user/bnacionaladmin
+|twitter=bibliotecanalco
+|facebook=https://es-la.facebook.com/BibliotecaNalCo/
+|flickr=
+}}
+
+{{biblioteca
+|nombre=Biblioteca Nacional del Ecuador
+|fundacion=1792
+|descripcion=
+|web=http://biblioteca.casadelacultura.gob.ec
+|blog=
+|youtube=
+|twitter=bnecce
+|facebook=
+|flickr=
+}}
+
+{{biblioteca
+|nombre=Biblioteca Nacional de España
+|fundacion=1711
+|descripcion=
+|web=http://www.bne.es
+|blog=http://blog.bne.es
+|youtube=https://www.youtube.com/user/bibliotecaBNE
+|twitter=BNE_biblioteca
+|facebook=https://www.facebook.com/bne
+|flickr=
+}}
+
+</table>
+
+== Bibliotecas supranacionales ==
+
+* Asociación de Estados Iberoamericanos para el Desarrollo de las Bibliotecas Nacionales de Iberoamérica
+* Europeana
+* World Digital Library
+
+== Bibliografía ==
+
+* History of Libraries of the Western World
+* https://en.wikipedia.org/wiki/List_of_libraries_in_the_ancient_world
+
+{{historia}}
+{{footer}}

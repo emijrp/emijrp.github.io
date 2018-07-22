@@ -1,0 +1,8 @@
+{{header|1=Historia de España}}
+{{historia}}
+
+* [http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html Biblioteca Digital Hispánica] - es la biblioteca digital de la Biblioteca Nacional de España. Proporciona acceso libre y gratuito a miles de documentos digitalizados, entre los que se cuentan libros impresos entre los siglos XV y XIX, manuscritos, dibujos, grabados, folletos, carteles, fotografías, mapas, atlas, partituras, prensa histórica y grabaciones sonoras.
+* [http://www.bne.es/es/Catalogos/HemerotecaDigital/ Hemeroteca Digital de la Biblioteca Nacional de España]
+
+{{historia}}
+{{footer}}

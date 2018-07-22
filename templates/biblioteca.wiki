@@ -1,0 +1,12 @@
+<tr>
+<td>'''{{{nombre}}}'''</td>
+<td>{{{fundacion}}}</td>
+<td style="text-align: left;">{{{descripcion}}}</td>
+<td>
+<a href="{{{web}}}">Web</a><br/>
+<a href="{{{blog}}}">Blog</a><br/>
+<a href="{{{youtube}}}">YouTube</a><br/>
+<a href="https://twitter.com/{{{twitter}}}">Twitter</a><br/>
+<a href="{{{facebook}}}">Facebook</a>
+</td>
+</tr>

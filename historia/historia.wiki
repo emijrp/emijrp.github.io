@@ -1,5 +1,54 @@
 {{header|1=Historia}}
+{{historia}}
 [[File:historia.jpg|thumb|right|300px|Alegoría de la Historia.]]
+
+Los acontecimientos más destacados de la '''Historia del Universo, la Tierra y la Humanidad'''.
+
+== Orígenes del Universo ==
+
+Desde la creación del Universo hasta la formación de la Tierra.
+
+* '''Hace 13.800 millones de años''': Origen del universo según la teoría del Big Bang.<ref>[https://en.wikipedia.org/wiki/Chronology_of_the_universe Chronology of the universe]</ref> Antes de este instante no aplican las leyes de la física y no existiría el espacio ni el tiempo.
+
+* '''Hace 12.000-13.000 millones de años''': Se forma la Vía Láctea, la galaxia donde se encuentra la Tierra.<ref>[https://en.wikipedia.org/wiki/Milky_Way#Formation Milky Way]</ref>
+
+* '''Hace 4.600 millones de años''': Se forma el Sistema Solar y los planetas, entre ellos la Tierra, según la hipótesis nebular.<ref>[https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System Formation and evolution of the solar System]</ref>
+
+== Historia de la Tierra ==
+
+Desde la formación de la Tierra hasta la aparición del ser humano. La Historia de la Tierra se divide en eones, que a su vez se dividen en eras, luego en períodos, épocas y edades. 
+
+* '''Hace 4.600-4.000 millones de años''': Eón geológico conocido como Hadeico, no se conocen fósiles de esta época. Este tiempo se caracteriza por la gran cantidad de impactos y la alta actividad volcánica. Cuando esta actividad fue reduciéndose y el planeta se fue enfriando, se formaron los océanos.<ref>[https://en.wikipedia.org/wiki/Hadean Hadean]</ref>
+
+* '''Hace 4.527 millones de años''': Según la hipótesis del gran impacto, un cuerpo planetario de tamaño similar a Marte chocó con Gaia (nombre para denominar la Tierra antes de este suceso). Los restos de este impacto que orbitaban la Tierra, es posible que formaran en un principio dos lunas, que terminaron fusionándose en la Luna actual.<ref>[https://en.wikipedia.org/wiki/Theia_(planet) Theia (planet)]</ref>
+
+* '''Hace 4.000-2.500 millones de años''': Eón Arcaico.
+
+* '''Hace 2.500-542 millones de años''': Eón Proterozoico.
+
+* '''Hace 542 millones de años''': Comienza el eón Fanerozoico que llega hasta nuestros días.
+
+<!--
+
+The Hadean eon represents the time before a reliable (fossil) record of life; it began with the formation of the planet and ended 4.0 billion years ago. The following Archean and Proterozoic eons produced the beginnings of life on Earth and its earliest evolution. The succeeding eon is the Phanerozoic, divided into three eras: the Palaeozoic, an era of arthropods, fishes, and the first life on land; the Mesozoic, which spanned the rise, reign, and climactic extinction of the non-avian dinosaurs; and the Cenozoic, which saw the rise of mammals. Recognizable humans emerged at most 2 million years ago, a vanishingly small period on the geological scale.
+
+The earliest undisputed evidence of life on Earth dates at least from 3.5 billion years ago,[7][8][9] during the Eoarchean Era, after a geological crust started to solidify following the earlier molten Hadean Eon. There are microbial mat fossils such as stromatolites found in 3.48 billion-year-old sandstone discovered in Western Australia.[10][11][12] Other early physical evidence of a biogenic substance is graphite in 3.7 billion-year-old metasedimentary rocks discovered in southwestern Greenland[13] as well as "remains of biotic life" found in 4.1 billion-year-old rocks in Western Australia.[14][15] According to one of the researchers, "If life arose relatively quickly on Earth … then it could be common in the universe."[14]
+
+Photosynthetic organisms appeared between 3.2 and 2.4 billion years ago and began enriching the atmosphere with oxygen. Life remained mostly small and microscopic until about 580 million years ago, when complex multicellular life arose, developed over time, and culminated in the Cambrian Explosion about 541 million years ago. This sudden diversification of life forms produced most of the major phyla known today, and divided the Proterozoic Eon from the Cambrian Period of the Paleozoic Era. It is estimated that 99 percent of all species that ever lived on Earth, over five billion,[16] have gone extinct.[17][18] Estimates on the number of Earth's current species range from 10 million to 14 million,[19] of which about 1.2 million are documented, but over 86 percent have not been described.[20] However, it was recently claimed that 1 trillion species currently live on Earth, with only one-thousandth of one percent described.[21]
+
+The Earth's crust has constantly changed since its formation, as has life has since its first appearance. Species continue to evolve, taking on new forms, splitting into daughter species, or going extinct in the face of ever-changing physical environments. The process of plate tectonics continues to shape the Earth's continents and oceans and the life they harbor. Human activity is now a dominant force affecting global change, harming the biosphere, the Earth's surface, hydrosphere, and atmosphere with the loss of wild lands, over-exploitation of the oceans, production of greenhouse gases, degradation of the ozone layer, and general degradation of soil, air, and water quality. 
+
+-->
+
+== Prehistoria ==
+
+Desde la aparición del ser humano hasta la invención de la escritura.
+
+=== Paleolítico ===
+
+=== Neolítico ===
+
+== Aparición de la escritura ==
 
 == I milenio ==
 
@@ -19,15 +68,7 @@
 
 == Siglo XXI ==
 
-
-== Historia de España ==
-
-* [http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html Biblioteca Digital Hispánica] - es la biblioteca digital de la Biblioteca Nacional de España. Proporciona acceso libre y gratuito a miles de documentos digitalizados, entre los que se cuentan libros impresos entre los siglos XV y XIX, manuscritos, dibujos, grabados, folletos, carteles, fotografías, mapas, atlas, partituras, prensa histórica y grabaciones sonoras.
-* [http://www.bne.es/es/Catalogos/HemerotecaDigital/ Hemeroteca Digital de la Biblioteca Nacional de España]
-
-== Historia local ==
-
-* [http://www.revistadehistoriade-elpuerto.org Revista de Historia de El Puerto] - publicación científica semestral editada por el Aula de Historia "Menesteo" de El Puerto de Santa María.
+== Futuro ==
 
 {{historia}}
 {{footer}}
