@@ -729,6 +729,7 @@ Páginas que a su vez recopilan enlaces a bibliotecas, catálogos, listados o li
 
 * [http://onlinebooks.library.upenn.edu/archives.html The Online Books Page]: contiene cientos de enlaces a sitios con libros en línea
 * [http://www.freeliterature.org Free Literature]: recopila un listado de más de 600 sitios web con libros
+* [https://es.wikipedia.org/wiki/Anexo:Los_100_mejores_libros_de_todos_los_tiempos,_seg%C3%BAn_el_Club_de_Libros_de_Noruega Anexo:Los 100 mejores libros de todos los tiempos, según el Club de Libros de Noruega]
 
 {{footer}}
 
