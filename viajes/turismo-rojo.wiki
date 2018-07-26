@@ -1,6 +1,6 @@
 {{headerleaflet|1=Turismo Rojo}}
 
-Estoy recopilando información acerca de lo que podría llamarse '''turismo rojo''', '''turismo memorialista''', '''turismo de izquierdas''' o '''turismo con conciencia de clase'''. Se trata de un turismo enfocado a lugares, monumentos, calles y otros puntos de interés que tengan que ver con la memoria histórica, el socialismo/comunismo y el movimiento obrero. La información disponible es escasa y muy dispersa.
+Estoy recopilando información acerca de lo que podría llamarse '''turismo rojo''', '''turismo memorialista''', '''turismo de izquierdas''' o '''turismo con conciencia de clase'''. Se trata de un turismo enfocado a lugares, monumentos, calles, museos y otros puntos de interés que tengan que ver con la memoria histórica, el socialismo/comunismo y el movimiento obrero. La información disponible es poca y muy dispersa.
 
 Por comparar, España tiene miles de iglesias, ermitas, conventos, capillas y monasterios diseminados por toda su geografía. Además, los edificios religiosos figuran en todos los folletos turísticos. Es imposible andar diez pasos sin encontrarse con alguna iglesia. Más allá de las catedrales, mi interés por este tipo de lugares es escaso y a veces es difícil encontrar otras cosas en las guías turísticas.
 
@@ -28,9 +28,8 @@ Cosas por añadir al mapa:
 * https://twitter.com/MemoriaMallorca/status/987814128218791936
 
 Otros países:
-* Tumba de Karl Marx en Londres
 * Buscar donde estan enterrados otros revolucionarios
-* Ostalgie, Berlín Este: monumento Marx&Engels, calles, museo RDA
+* Ostalgie, Berlín Este: calles, museo RDA
 * Monumentos norcoreanos en Africa
 * Tumba de Francisco Boix y otros resistentes al fascismo enterrados en Francia
 -->
@@ -47,6 +46,14 @@ Otros países:
         //**********
         //Alemania
         //**********
+        
+        ["Karl-Marx-Allee", "Calle", "Berlín", "-", "-", "Alemania", 52.517778, 13.435278, "", "Bulevar nombrado en honor a Karl Marx. Construido por la República Democrática Alemana entre 1952 y 1960 en los distritos de Friedrichshain y Mitte en Berlín. El bulevar fue llamado Stalinallee entre 1949 y 1961, y fue un estandarte del proyecto de la reconstrucción de Alemania Oriental después de la Segunda Guerra Mundial."], 
+        
+        ["Marx-Engels Forum", "Monumento", "Berlín", "-", "-", "Alemania", 52.518333, 13.404167, "", "Estatuas de Karl Marx y Friedrich Engels."], 
+        
+        ["Monumento a Karl Marx", "Monumento", "Chemnitz", "-", "-", "Alemania", 50.835833, 12.923333, "", "Busto de Karl Marx de 7 metros de alto y 40 toneladas. Es el segundo busto más grande del mundo, siendo el primero el de Lenin en Ulán-Udé, Rusia."], 
+        
+        ["Karl Marx House", "Museo", "Tréveris", "-", "-", "Alemania", 49.753889, 6.635556, "", "Casa natal de Karl Marx, convertida en museo sobre su vida y obra."], 
         
         ["Tréveris", "Ciudad", "Tréveris", "-", "-", "Alemania", 49.756667, 6.641389, "", "Lugar de nacimiento de Karl Marx el 5 de mayo de 1818. Considerada la ciudad más antigua de Alemania. Su conjunto de monumentos romanos es Patrimonio de la Humanidad."], 
         
@@ -124,6 +131,7 @@ Otros países:
         table += '\n<tr><td style="text-align: center;"><b>' + places[i][0] + '</b></td><td style="text-align: center;">' + places[i][1] + '</td><td style="text-align: center;">' + places[i][2] + '</td><td style="text-align: center;">' + places[i][3] + '</td><td style="text-align: center;">' + places[i][4] + '</td><td style="text-align: center;">' + places[i][5] + '</td><td>' + places[i][9] + '</td></tr>';
     }
     table += '\n</table>';
+    table += '\n\nHasta el momento he recopilado <b>' + places.length + ' puntos de interés</b>.';
     document.getElementById('table').innerHTML = table;
 
 </script>
