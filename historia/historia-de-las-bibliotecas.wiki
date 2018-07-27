@@ -10,9 +10,8 @@ Una breve '''historia de las bibliotecas'''.
 
 <tr>
     <th class="sorttable_alpha">Nombre</th>
-    <th class="sorttable_numeric">Año</th>
+    <th class="sorttable_numeric">Fundación</th>
     <th class="sorttable_alpha">Descripción</th>
-    <th class="sorttable_alpha">Webs</th>
 </tr>
 <tr>
 
@@ -20,6 +19,7 @@ Una breve '''historia de las bibliotecas'''.
 {{biblioteca
 |nombre=
 |fundacion=
+|pais=
 |descripcion=
 |web=
 |blog=
@@ -27,12 +27,14 @@ Una breve '''historia de las bibliotecas'''.
 |twitter=
 |facebook=
 |flickr=
+|wikidata=
 }}
 -->
 
 {{biblioteca
 |nombre=Biblioteca Nacional de Argentina
 |fundacion=1810
+|pais=Argentina
 |descripcion=
 |web=https://www.bn.gov.ar
 |blog=
@@ -40,11 +42,13 @@ Una breve '''historia de las bibliotecas'''.
 |twitter=
 |facebook=
 |flickr=
+|wikidata=Q1319177
 }}
 
 {{biblioteca
 |nombre=Biblioteca Nacional de Colombia
 |fundacion=1777
+|pais=Colombia
 |descripcion=La primera biblioteca pública fundada en América. El edificio actual fue diseñado por el arquitecto Alberto Wills Ferro en 1933 y fue declarado Monumento Nacional de Colombia mediante el decreto 287 del 24 de febrero de 1975. Se encuentra en el barrio Las Nieves de la localidad de Santa Fe en la ciudad de Bogotá.
 |web=http://bibliotecanacional.gov.co
 |blog=
@@ -52,11 +56,13 @@ Una breve '''historia de las bibliotecas'''.
 |twitter=bibliotecanalco
 |facebook=https://es-la.facebook.com/BibliotecaNalCo/
 |flickr=
+|wikidata=Q2901472
 }}
 
 {{biblioteca
 |nombre=Biblioteca Nacional del Ecuador
 |fundacion=1792
+|pais=Ecuador
 |descripcion=
 |web=http://biblioteca.casadelacultura.gob.ec
 |blog=
@@ -64,11 +70,13 @@ Una breve '''historia de las bibliotecas'''.
 |twitter=bnecce
 |facebook=
 |flickr=
+|wikidata=Q27231114
 }}
 
 {{biblioteca
 |nombre=Biblioteca Nacional de España
 |fundacion=1711
+|pais=España
 |descripcion=
 |web=http://www.bne.es
 |blog=http://blog.bne.es
@@ -76,8 +84,36 @@ Una breve '''historia de las bibliotecas'''.
 |twitter=BNE_biblioteca
 |facebook=https://www.facebook.com/bne
 |flickr=
+|wikidata=Q750403
 }}
 
+{{biblioteca
+|nombre=Biblioteca Nacional de la Dieta
+|fundacion=1948
+|pais=Japón
+|descripcion=Es la biblioteca nacional de Japón, llamada así por su función de ayudar a los miembros de la Dieta de Japón (parlamento) en su labor de administración pública.
+|web=http://ndl.go.jp
+|blog=
+|youtube=https://www.youtube.com/channel/UCHpDnv60i1LxOszXgBSE7DA
+|twitter=ndljp
+|facebook=
+|flickr=
+|wikidata=Q477675
+}}
+
+{{biblioteca
+|nombre=Biblioteca Nacional de Suecia
+|fundacion=1661
+|pais=Suecia
+|descripcion=
+|web=http://www.kb.se
+|blog=
+|youtube=https://www.youtube.com/user/KunglBiblioteket
+|twitter=kungbib
+|facebook=https://www.facebook.com/kungligabiblioteket
+|flickr=https://www.flickr.com/photos/25300312@N08/
+|wikidata=Q953058
+}}
 </table>
 
 == Bibliotecas supranacionales ==
@@ -90,6 +126,7 @@ Una breve '''historia de las bibliotecas'''.
 
 * History of Libraries of the Western World
 * https://en.wikipedia.org/wiki/List_of_libraries_in_the_ancient_world
+* https://en.wikipedia.org/wiki/List_of_largest_libraries
 
 {{historia}}
 {{footer}}
