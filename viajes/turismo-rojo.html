@@ -39,7 +39,7 @@ Para el caso del Reino Unido existe una web que recopila monumentos a las Brigad
 
 Cosas por añadir al mapa:
 
-<ul><li>Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.</li><li>Casas natales y Calles de las 13 Rosas, a luchadores antifranquistas y a intelectuales.</li><li>Lugares de la memoria en Andalucía</li><ul><li>Sincronizar con https://memoriahistorica.wikis.cc/wiki/Lugares_de_Memoria_Hist%C3%B3rica_de_Andaluc%C3%ADa</li></ul><li>Campos de concentración franquistas, cárceles.</li><li>Cementerios y lugares de fusilamientos.</li><li>Buscar algún grupo en Flickr sobre MH y sino existe crearlo.</li><li>Lugares de batallas, frentes, edificios tomados, etc.</li><li>Refugios subterráneos de Almería</li><li>Orihuela y sus murales</li><li>Monumento represaliados Paterna de Rivera</li><li>Monolito en monte de O Castro</li><li>Monumento en cementerio de Grazalema http://www.dipucadiz.es/memoria_historica/catalogo-de-lugares-y-senderos/FOSA-DE-LAS-MUJERES.-GRAZALEMA</li><li>https://twitter.com/demiguelch/status/987644401081049090</li><li>https://twitter.com/MemoriaMallorca/status/987814128218791936</li></ul>
+<ul><li>Monumentos a Antonio Machado, Rafael Alberti, Federico García Lorca, Miguel Hernández.</li><li>Casas natales y Calles de las 13 Rosas, a luchadores antifranquistas y a intelectuales.</li><li>Lugares de la memoria en Andalucía</li><ul><li>Sincronizar con https://memoriahistorica.wikis.cc/wiki/Lugares_de_Memoria_Hist%C3%B3rica_de_Andaluc%C3%ADa</li></ul><li>Campos de concentración franquistas, cárceles.</li><li>Cementerios y lugares de fusilamientos.</li><li>Buscar algún grupo en Flickr sobre MH y sino existe crearlo.</li><li>Lugares de batallas, frentes, edificios tomados, etc.</li><li>Refugios subterráneos de Almería</li><li>Orihuela y sus murales</li><li>Monumento represaliados Paterna de Rivera</li><li>Monolito en monte de O Castro</li><li>Monumento en cementerio de Grazalema http://www.dipucadiz.es/memoria_historica/catalogo-de-lugares-y-senderos/FOSA-DE-LAS-MUJERES.-GRAZALEMA</li><li>https://twitter.com/demiguelch/status/987644401081049090</li><li>https://twitter.com/MemoriaMallorca/status/987814128218791936</li><li>Cuenca minera, octubre del 34</li></ul>
 
 Otros países:
 <ul><li>Buscar donde estan enterrados otros revolucionarios</li><li>Ostalgie, Berlín Este: calles, museo RDA</li><li>Monumentos norcoreanos en Africa</li><li>Tumba de Francisco Boix y otros resistentes al fascismo enterrados en Francia</li></ul>
@@ -68,6 +68,13 @@ Otros países:
         
         ["Tréveris", "Ciudad", "Tréveris", "-", "-", "Alemania", 49.756667, 6.641389, "", "Lugar de nacimiento de Karl Marx el 5 de mayo de 1818. Considerada la ciudad más antigua de Alemania. Su conjunto de monumentos romanos es Patrimonio de la Humanidad."], 
         
+        
+        //**********
+        //Chile
+        //**********
+        
+        ["Palacio de La Moneda", "Monumento", "Santiago de Chile", "-", "-", "Chile", -33.443018, -70.65387, "", ""], 
+        ["Tumba de Salvador Allende", "Tumba", "Santiago de Chile", "-", "-", "Chile", -33.41401, -70.64426, "", "Tumba del Presidente de Chile y su esposa Hortensia."], 
         
         //**********
         //España
@@ -104,7 +111,11 @@ Otros países:
         //Provincia de Sevilla
         ["Marinaleda", "Ciudad", "Marinaleda", "Sevilla", "Andalucía", "España", 37.371111, -4.958056, "", "Municipio con larga trayectoria de luchas jornaleras. Miembro de la Red de Municipios por la Tercera República."], 
         
+        
         //Aragón
+        
+        //Provincia de Teruel
+        ["Centro Buñuel de Calanda", "Museo", "Calanda", "Teruel", "Aragón", "España", 40.939203, -0.228457, "", "Centro dedicado a la vida y obra del cineasta Luis Buñuel."], 
         
         //Provincia de Zaragoza
         ["Belchite", "Ciudad", "Belchite", "Zaragoza", "Aragón", "España", 41.306545, -0.754636, "", "Pueblo donde tuvo lugar la batalla de Belchite durante la Guerra Civil Española. Se conservan los edificios en ruinas tal y como quedaron tras la batalla."], 
@@ -151,6 +162,7 @@ Otros países:
         }).addTo(map);
     
     //places.sort();
+    countries = new Array();
     table = '<table class="wikitable sortable" style="float: center;width: 100%;font-size: 90%;">';
     table += '<tr><th>Punto de interés</th><th>Tipo</th><th>Municipio</th><th>Provincia</th><th>CCAA</th><th>País</th><th>Detalles</th></tr>';
     for (var i = 0; i < places.length; i++) {
@@ -158,9 +170,12 @@ Otros países:
             .bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][8] + '" width="0px" /><br/>' + places[i][9] + '<br/><br/><b>Municipio:</b> ' + places[i][2] + '. <b>Provincia:</b> ' + places[i][3] + '.')
             .addTo(map);
         table += '\n<tr><td style="text-align: center;"><b>' + places[i][0] + '</b></td><td style="text-align: center;">' + places[i][1] + '</td><td style="text-align: center;">' + places[i][2] + '</td><td style="text-align: center;">' + places[i][3] + '</td><td style="text-align: center;">' + places[i][4] + '</td><td style="text-align: center;">' + places[i][5] + '</td><td>' + places[i][9] + '</td></tr>';
+        if (!countries.includes(places[i][5])) {
+            countries.push(places[i][5]);
+        }
     }
     table += '\n</table>';
-    table += '\n\nHasta el momento he recopilado <b>' + places.length + ' puntos de interés</b>.';
+    table += '\n\nHasta el momento he recopilado <b>' + places.length + ' puntos de interés</b> en <b>' + countries.length + ' países</b> distintos.';
     document.getElementById('table').innerHTML = table;
 
 </script>
@@ -185,7 +200,7 @@ Otros países:
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-07-27 17:17:56 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-07-27 20:26:38 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
