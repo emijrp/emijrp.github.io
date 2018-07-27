@@ -323,4 +323,5 @@ Más adelante iré adecentando esta página, pero de momento dejo aquí una tabl
 
 </table>
 
+{{viajes}}
 {{footer}}

@@ -1,4 +1,5 @@
 {{headerleaflet|1=Vuelta a España}}
+{{viajes}}
 
 <div id="map" style="float: right; width: 450px; height: 320px;"></div>
 
@@ -106,5 +107,5 @@ Cada etapa tiene su propia sección y están ordenadas cronológicamente. Tambi�
 {{reflist-end}}
 
 {{clear}}
-
+{{viajes}}
 {{footer}}

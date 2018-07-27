@@ -20,7 +20,7 @@ Cosas por añadir al mapa:
 * Buscar algún grupo en Flickr sobre MH y sino existe crearlo.
 * Lugares de batallas, frentes, edificios tomados, etc.
 * Refugios subterráneos de Almería
-* Marinaleda y Orihuela y sus murales
+* Orihuela y sus murales
 * Monumento represaliados Paterna de Rivera
 * Monolito en monte de O Castro
 * Monumento en cementerio de Grazalema http://www.dipucadiz.es/memoria_historica/catalogo-de-lugares-y-senderos/FOSA-DE-LAS-MUJERES.-GRAZALEMA
@@ -62,8 +62,6 @@ Otros países:
         //España
         //**********
         
-        //["Madrid", 40.416957, -3.703478], 
-        
         //Andalucía
         
         //Provincia de Almería
@@ -91,6 +89,26 @@ Otros países:
         
         //Sanlúcar de Barrameda
         ["Monumento a los fusilados por el franquismo en Sanlúcar de Barrameda", "Monumento", "Sanlúcar de Barrameda", "Cádiz", "Andalucía", "España", 36.776720, -6.350988, "", "Junto al Castillo de Santiago."], 
+        
+        //Provincia de Sevilla
+        ["Marinaleda", "Ciudad", "Marinaleda", "Sevilla", "Andalucía", "España", 37.371111, -4.958056, "", "Municipio con larga trayectoria de luchas jornaleras. Miembro de la Red de Municipios por la Tercera República."], 
+        
+        //Aragón
+        
+        //Provincia de Zaragoza
+        ["Belchite", "Ciudad", "Belchite", "Zaragoza", "Aragón", "España", 41.306545, -0.754636, "", "Pueblo donde tuvo lugar la batalla de Belchite durante la Guerra Civil Española. Se conservan los edificios en ruinas tal y como quedaron tras la batalla."], 
+        
+        
+        //Comunidad de Madrid
+        
+        //["Madrid", 40.416957, -3.703478], 
+        
+        
+        //Comunidad Valenciana
+        
+        //Provincia de Alicante
+        ["Tumba de Miguel Hernández", "Tumba", "Alicante", "Alicante", "Comunidad Valenciana", "España", 38.355022, -0.530403, "", "Su esposa Josefina Manresa y su hijo Manuel Miguel también están enterrados junto a él."], 
+        ["Casa-Museo de Miguel Hernández", "Museo", "Orihuela", "Alicante", "Comunidad Valenciana", "España", 38.089172, -0.942228, "", "Casa donde vivío el poeta comunista Miguel Hernández hasta marcharse a Madrid. Se trata de una construcción típica de Orihuela, de planta única. En ella se conservan recuerdos de la familia y fotografías de Miguel y su familia."], 
         
         
         //**********
@@ -126,7 +144,7 @@ Otros países:
     table += '<tr><th>Punto de interés</th><th>Tipo</th><th>Municipio</th><th>Provincia</th><th>CCAA</th><th>País</th><th>Detalles</th></tr>';
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][6],places[i][7]])
-            .bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][8] + '" width="0px" /><br/>' + places[i][9] + '')
+            .bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][8] + '" width="0px" /><br/>' + places[i][9] + '<br/><br/><b>Municipio:</b> ' + places[i][2] + '. <b>Provincia:</b> ' + places[i][3] + '.')
             .addTo(map);
         table += '\n<tr><td style="text-align: center;"><b>' + places[i][0] + '</b></td><td style="text-align: center;">' + places[i][1] + '</td><td style="text-align: center;">' + places[i][2] + '</td><td style="text-align: center;">' + places[i][3] + '</td><td style="text-align: center;">' + places[i][4] + '</td><td style="text-align: center;">' + places[i][5] + '</td><td>' + places[i][9] + '</td></tr>';
     }
@@ -135,5 +153,7 @@ Otros países:
     document.getElementById('table').innerHTML = table;
 
 </script>
+
+{{viajes}}
 
 {{footer}}
