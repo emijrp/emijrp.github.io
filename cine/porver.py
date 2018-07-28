@@ -37,7 +37,7 @@ def main():
     #films watched
     userid = 397713
     filmswatched = []
-    for page in range(1, 100):
+    for page in range(1, 200):
         faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         print 'Retrieving', faurl
         raw = getURL(url=faurl)
@@ -48,66 +48,80 @@ def main():
             filmswatched.append(i.group('id').strip())
         time.sleep(3)
     
-    #films to check
-    filmstocheck = []
-    for page in range(1, 100):
-        faurl = 'https://www.filmaffinity.com/es/advsearch.php?page=%s&stype[]=title&toyear=1905' % (page)
-        print 'Retrieving', faurl
-        raw = getURL(url=faurl)
-        if not raw:
-            break
-        m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>', raw)
-        for i in m:
-            filmstocheck.append(i.group('id').strip())
-        time.sleep(3)
+    #films to watch
+    topics = ['origins', 'mylist', ]
+    filmstowatchfeed = {
+        'origins': ['https://www.filmaffinity.com/es/advsearch.php?page=%s&stype[]=title&toyear=1905' % (page) for page in range(1, 100)], #cada pag tiene 25 films
+        'mylist': ['https://www.filmaffinity.com/es/userlist.php?user_id=397713&list_id=201&page=%s' % (page) for page in range(1, 20)], #cada pag tiene 50 films
+    }
+    filmstowatch = {
+        'origins': [],
+        'mylist': [],
+    }
+    for topic in topics:
+        faurls = filmstowatchfeed[topic]
+        for faurl in faurls:
+            print 'Retrieving', faurl
+            raw = getURL(url=faurl)
+            if not raw:
+                break
+            m = re.finditer(ur'(?im)<div class="mc-title">\s*<a\s*href="/es/film(?P<id>\d+)\.html"[^<>]*?>', raw)
+            for i in m:
+                filmstowatch[topic].append(i.group('id').strip())
+            time.sleep(3)
     
-    rows = []
-    for filmtocheck in filmstocheck:
-        faurl = "https://www.filmaffinity.com/es/film%s.html" % (filmtocheck)
-        if filmtocheck in filmswatched:
-            print "Watched %s" % faurl
-        else:
-            print "To watch %s" % faurl
-            try:
-                raw = getURL(url=faurl)
-                title = re.findall(ur'(?im)<h1 id="main-title">\s*<span itemprop="name">([^<>]*?)</span>\s*</h1>', raw)[0]
-                duration = re.findall(ur'(?im)<dd itemprop="duration">(\d+) min\.</dd>', raw)
-                duration = duration and duration[0] or '?'
-                videos = re.search(ur'Tráilers', raw) and True or False
-                directors = re.findall(ur'(?im)title="([^<>]+?)">', raw.split('<dd class="directors">')[1].split('</dd>')[0])
-                country = re.findall(ur'<dd><span id="country-img"><img src="/imgs/countries/.+jpg" alt="[^<>]+" title="([^<>]+)"></span>[^<>]+</dd>', raw)
-                country = country and country[0] or '?'
-                year = re.findall(ur'<dd itemprop="datePublished">(\d\d\d\d)</dd>', raw)
-                year = year and year[0] or '?'
-                row = [filmtocheck, title, country, year, directors, duration, videos, faurl]
-                print row
-                rows.append(row)
-            except:
-                print 'Error'
-                pass
-            time.sleep(1.5)
+    rows = {
+        'origins': [], 
+        'mylist': [], 
+    }
+    for topic in topics:
+        for filmtowatch in filmstowatch[topic]:
+            faurl = "https://www.filmaffinity.com/es/film%s.html" % (filmtowatch)
+            if filmtowatch in filmswatched:
+                print "Watched %s" % faurl
+            else:
+                print "To watch %s" % faurl
+                try:
+                    raw = getURL(url=faurl)
+                    title = re.findall(ur'(?im)<h1 id="main-title">\s*<span itemprop="name">([^<>]*?)</span>\s*</h1>', raw)[0]
+                    duration = re.findall(ur'(?im)<dd itemprop="duration">(\d+) min\.</dd>', raw)
+                    duration = duration and duration[0] or '?'
+                    videos = re.search(ur'Tráilers', raw) and True or False
+                    directors = re.findall(ur'(?im)title="([^<>]+?)">', raw.split('<dd class="directors">')[1].split('</dd>')[0])
+                    country = re.findall(ur'<dd><span id="country-img"><img src="/imgs/countries/.+jpg" alt="[^<>]+" title="([^<>]+)"></span>[^<>]+</dd>', raw)
+                    country = country and country[0] or '?'
+                    year = re.findall(ur'<dd itemprop="datePublished">(\d\d\d\d)</dd>', raw)
+                    year = year and year[0] or '?'
+                    row = [filmtowatch, title, country, year, directors, duration, videos, faurl]
+                    print row
+                    rows[topic].append(row)
+                except:
+                    print 'Error'
+                    pass
+                time.sleep(1.5)
     
-    table = u'<table class="wikitable sortable" style="text-align: center;">\n'
-    table += u"""<tr>
-    <th class="sorttable_numeric">#</th>
-    <th class="sorttable_alpha">Título</th>
-    <th class="sorttable_alpha">Dirección</th>
-    <th class="sorttable_numeric">Año</th>
-    <th class="sorttable_alpha">País</th>
-    <th class="sorttable_numeric">Duración</th>
-    <th class="sorttable_alpha">Vídeos</th>
-</tr>\n"""
-    c = 1
-    for row in rows:
-        filmtocheck, title, country, year, directors, duration, videos, faurl = row
-        if videos:
-            rowplain = u"<tr><td>%s</td><td><i>[%s %s]</i></td><td>%s</td><td>%s</td><td>%s</td><td>%s minutos</td><td>[https://www.filmaffinity.com/es/evideos.php?movie_id=%s Sí]</td></tr>\n" % (c, faurl, title, '<br/>'.join(directors), year, country, duration, filmtocheck)
-        else:
-            rowplain = u"<tr><td>%s</td><td><i>[%s %s]</i></td><td>%s</td><td>%s</td><td>%s</td><td>%s minutos</td><td>No</td></tr>\n" % (c, faurl, title, '<br/>'.join(directors), year, country, duration)
-        table += rowplain
-        c += 1
-    table += u'</table>'
-    cine.savetable('porver.wiki', 'porver', table)
+    for topic in topics:
+        table = u'<table class="wikitable sortable" style="text-align: center;">\n'
+        table += u"""<tr>
+        <th class="sorttable_numeric">#</th>
+        <th class="sorttable_alpha">Título</th>
+        <th class="sorttable_alpha">Dirección</th>
+        <th class="sorttable_numeric">Año</th>
+        <th class="sorttable_alpha">País</th>
+        <th class="sorttable_numeric">Duración</th>
+        <th class="sorttable_alpha">Vídeos</th>
+    </tr>\n"""
+        c = 1
+        for row in rows[topic]:
+            filmtowatch, title, country, year, directors, duration, videos, faurl = row
+            if videos:
+                rowplain = u"<tr><td>%s</td><td><i>[%s %s]</i></td><td>%s</td><td>%s</td><td>%s</td><td>%s minutos</td><td>[https://www.filmaffinity.com/es/evideos.php?movie_id=%s Sí]</td></tr>\n" % (c, faurl, title, '<br/>'.join(directors), year, country, duration, filmtowatch)
+            else:
+                rowplain = u"<tr><td>%s</td><td><i>[%s %s]</i></td><td>%s</td><td>%s</td><td>%s</td><td>%s minutos</td><td>No</td></tr>\n" % (c, faurl, title, '<br/>'.join(directors), year, country, duration)
+            table += rowplain
+            c += 1
+        table += u'</table>'
+        cine.savetable('porver.wiki', 'porver-%s' % (topic), table)
 
 if __name__ == '__main__':
     main()
