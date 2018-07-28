@@ -109,7 +109,7 @@ Otros países:
         
         //Provincia de Zaragoza
         ["Belchite", "Ciudad", "Belchite", "Zaragoza", "Aragón", "España", 41.306545, -0.754636, "", "Pueblo donde tuvo lugar la batalla de Belchite durante la Guerra Civil Española. Se conservan los edificios en ruinas tal y como quedaron tras la batalla."], 
-        
+        ["Monumento a las Trece Rosas", "Monumento", "Zaragoza", "Zaragoza", "Aragón", "España", 41.633036, -0.895646, "", "Homenaje a las Trece Rosas en el Parque Grande José Antonio Labordeta."], 
         
         //Comunidad de Madrid
         
@@ -118,6 +118,7 @@ Otros países:
         ["Archivo Histórico del PCE", "Archivo", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.425568, -3.707922, "", "El archivo se encuentra en la Biblioteca Histórica Marqués de Valdecilla desde septiembre de 2006."], 
         ["Fortines de la Guerra Civil Española del Parque Oeste", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.434616, -3.729324, "", "Tres fortines construidos por el bando fascista."], 
         ["Monumento a las Brigadas Internacionales", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.443438, -3.727958, "", "Homenaje a los miles de hombres y mujeres que ayudaron a la II República a combatir al fascismo."], 
+        ["Monumento a las Trece Rosas", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.418961, -3.648889, "", "En el Cementerio del Este. Para que sus nombres no se borren de la Historia."], 
         ["Monumento a los Abogados de Atocha", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.412397, -3.699333, "", "Homenaje a los abogados laboristas asesinados en 1977 por la extrema derecha en el número 55 de la calle Atocha."], 
         ["Monumento a Miguel Hernández", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.433250, -3.725681, "", ""], 
         
