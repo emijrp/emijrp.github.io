@@ -27,6 +27,8 @@ Cosas por añadir al mapa:
 * https://twitter.com/demiguelch/status/987644401081049090
 * https://twitter.com/MemoriaMallorca/status/987814128218791936
 * Cuenca minera, octubre del 34
+* En el menu de la izquierda se enumeran varios con fotos https://lahistoriaenlamemoria.blogspot.com/2015/09/lugares-de-la-memoria-democratica_28.html
+* Campo de Concentración de Los Merinales http://www.todoslosnombres.org/content/noticias/sevilla-sabado-11-abril-ruta-cuatro-campos-concentracion-franquistas
 
 Otros países:
 * Buscar donde estan enterrados otros revolucionarios
@@ -99,7 +101,13 @@ Otros países:
         ["Monumento a los fusilados por el franquismo en Sanlúcar de Barrameda", "Monumento", "Sanlúcar de Barrameda", "Cádiz", "Andalucía", "España", 36.776720, -6.350988, "", "Junto al Castillo de Santiago."], 
         
         //Provincia de Sevilla
+        
+        //Marinaleda
         ["Marinaleda", "Ciudad", "Marinaleda", "Sevilla", "Andalucía", "España", 37.371111, -4.958056, "", "Municipio con larga trayectoria de luchas jornaleras. Miembro de la Red de Municipios por la Tercera República."], 
+        
+        //Sevilla
+        ["Antigua Cárcel de la Ranilla", "Prisión", "Sevilla", "Sevilla", "Andalucía", "España", 37.386190, -5.960548, "", "Centro de detención donde se encarceló y torturó a miles de represaliados y presos políticos durante el franquismo. Un importante número de presos fueron fusilados en las tapias del Cementerio de San Fernando. Lugar de Memoria Histórica de Andalucía."], 
+        ["Monumento a Clara Campoamor", "Monumento", "Sevilla", "Sevilla", "Andalucía", "España", 37.389880, -5.991472, "", "Escritora, política y defensora de los derechos de la mujer. Creó la Unión Republicana Femenina y fue una de las principales impulsoras del sufragio femenino en España, logrado en 1931 y ejercido por primera vez por las mujeres en las elecciones de 1933. Murió exiliada en Suiza tras la guerra civil."], 
         
         
         //Aragón
@@ -176,6 +184,12 @@ Otros países:
     document.getElementById('table').innerHTML = table;
 
 </script>
+
+== Bibliografía ==
+
+* Lugares de Memoria Histórica de Andalucía.
+
+* LÓPEZ FERNÁNDEZ, Rafael (coord). Lugares de la memoria. Golpe militar, represión y resistencia en Sevilla. Itinerarios. Aconcagua, 2014.
 
 {{viajes}}
 
