@@ -59,14 +59,12 @@ Otros países:
         //**********
         
         ["Karl-Marx-Allee", "Calle", "Berlín", "-", "-", "Alemania", 52.517778, 13.435278, "", "Bulevar nombrado en honor a Karl Marx. Construido por la República Democrática Alemana entre 1952 y 1960 en los distritos de Friedrichshain y Mitte en Berlín. El bulevar fue llamado Stalinallee entre 1949 y 1961, y fue un estandarte del proyecto de la reconstrucción de Alemania Oriental después de la Segunda Guerra Mundial."], 
-        
         ["Marx-Engels Forum", "Monumento", "Berlín", "-", "-", "Alemania", 52.518333, 13.404167, "", "Estatuas de Karl Marx y Friedrich Engels."], 
-        
         ["Monumento a Karl Marx", "Monumento", "Chemnitz", "-", "-", "Alemania", 50.835833, 12.923333, "", "Busto de Karl Marx de 7 metros de alto y 40 toneladas. Es el segundo busto más grande del mundo, siendo el primero el de Lenin en Ulán-Udé, Rusia."], 
-        
         ["Karl Marx House", "Museo", "Tréveris", "-", "-", "Alemania", 49.753889, 6.635556, "", "Casa natal de Karl Marx, convertida en museo sobre su vida y obra."], 
-        
         ["Tréveris", "Ciudad", "Tréveris", "-", "-", "Alemania", 49.756667, 6.641389, "", "Lugar de nacimiento de Karl Marx el 5 de mayo de 1818. Considerada la ciudad más antigua de Alemania. Su conjunto de monumentos romanos es Patrimonio de la Humanidad."], 
+        ["Tumba de Rosa Luxemburgo", "Tumba", "Friedrichsfelde", "-", "-", "Alemania", 52.51556, 13.51056, "", "La revolucionaria Rosa Luxemburgo está enterrada en el cementerio de Zentralfriedhof Friedrichsfelde. En este lugar también está la tumba de Karl Liebknecht."], 
+        
         
         
         //**********
@@ -163,7 +161,15 @@ Otros países:
         //Rusia
         //**********
         
+        ["Catedral de San Basilio", "Monumento", "Moscú", "-", "-", "Rusia", 55.7525, 37.623056, "", ""], 
+        ["Kremlin", "Monumento", "Moscú", "-", "-", "Rusia", 55.751667, 37.617778, "", "Conjunto de edificios religiosos y civiles. En su muralla están enterrados políticos y personalidades soviéticas: Máximo Gorki, Nadezhda Krúpskaya y Yuri Gagarin entre otros. También están las tumbas de Félix Dzerzhinski y Iósif Stalin."], 
+        ["Mausoleo de Lenin", "Tumba", "Moscú", "-", "-", "Rusia", 55.753611, 37.619722, "", ""], 
+        ["Museo Estatal de Historia de Rusia", "Museo", "Moscú", "-", "-", "Rusia", 55.755278, 37.617778, "", ""], 
+        ["Plaza Roja", "Calle", "Moscú", "-", "-", "Rusia", 55.754167, 37.62, "", "Patrimonio de la Humanidad junto con el Kremlin. En sus inmediaciones también se encuentra el Mausoleo de Lenin y la Catedral de San Basilio."], 
         ["Tumba de Sergei Eisenstein", "Tumba", "Moscú", "-", "-", "Rusia", 55.72489, 37.55408, "", "Tumba del cineasta soviético Sergei Eisenstein, director de El acorazado Potemkin, La Huelga y Octubre, entre otras. En este cementerio también está enterrado Dziga Vertov."], 
+        ["Tumba del Soldado Desconocido", "Tumba", "Moscú", "-", "-", "Rusia", 55.754722, 37.616111, "", ""], 
+        
+        
     ];
 
     var map = L.map('map').setView([47, 10], 4);
@@ -179,8 +185,13 @@ Otros países:
     table = '<table class="wikitable sortable" style="float: center;width: 100%;font-size: 90%;">';
     table += '<tr><th>Punto de interés</th><th>Tipo</th><th>Municipio</th><th>Provincia</th><th>CCAA</th><th>País</th><th>Detalles</th></tr>';
     for (var i = 0; i < places.length; i++) {
+        if (places[i][5] == "España") {
+            popuptext = '<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][8] + '" width="0px" /><br/>' + places[i][9] + '<br/><br/><b>Municipio:</b> ' + places[i][2] + '. <b>Provincia:</b> ' + places[i][3] + '.<br/><b>CCAA:</b> ' + places[i][4] + '. <b>País:</b> ' + places[i][5] + '.';
+        } else {
+            popuptext = '<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][8] + '" width="0px" /><br/>' + places[i][9] + '<br/><br/><b>Municipio:</b> ' + places[i][2] + '. <b>País:</b> ' + places[i][5] + '.';
+        }
         marker = new L.marker([places[i][6],places[i][7]])
-            .bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][8] + '" width="0px" /><br/>' + places[i][9] + '<br/><br/><b>Municipio:</b> ' + places[i][2] + '. <b>Provincia:</b> ' + places[i][3] + '.')
+            .bindPopup(popuptext)
             .addTo(map);
         table += '\n<tr><td style="text-align: center;"><b>' + places[i][0] + '</b></td><td style="text-align: center;">' + places[i][1] + '</td><td style="text-align: center;">' + places[i][2] + '</td><td style="text-align: center;">' + places[i][3] + '</td><td style="text-align: center;">' + places[i][4] + '</td><td style="text-align: center;">' + places[i][5] + '</td><td>' + places[i][9] + '</td></tr>';
         if (!countries.includes(places[i][5])) {
@@ -217,7 +228,7 @@ Otros países:
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-07-29 20:22:16 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-07-30 14:48:57 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
