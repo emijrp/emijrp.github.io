@@ -1,0 +1,25 @@
+{{header|1=Historia de las Enciclopedias}}
+
+Una breve '''Historia de las Enciclopedias'''.
+
+<!--
+
+    Biblioteca de Alejandría (Q435) (3rd century BC) in Egipto (Q79)
+    Naturalis historia (Q442) (AD 77–79) by Plinio el Viejo (Q82778)
+    Etimologías (Q665934) (7th century) by Isidoro de Sevilla (Q166876)
+    De universo (9th century) by Rabano Mauro (Q160441)
+    Speculum majus (Q1930407) (13th century) by Vincent de Beauvais (Q455162)
+    Enciclopedia Yǒnglè (Q696077) (1403–1408) by Dinastía Ming (Q9903)
+    Biblioteca universal (Q445) (1545–1549) by Conrad von Gesner (Q60116)
+    The abstracting and indexing project (17th century) by Gottfried Leibniz (Q9047)
+    L'Encyclopédie (Q447) (1751–1772) by Denis Diderot (Q448) and Jean le Rond D'Alembert (Q153232)
+    Mundaneum (Q451) (1910) by Paul Otlet (Q1868) and Henri La Fontaine (Q190894)
+    Encyclopædia Britannica (Q867541)
+    And more recently Interpedia (Q460) (1993) by Rick Gates (Q92901), Internet Archive (Q461) (1996) by Brewster Kahle (Q92945) and Wikidata (Q2013) (2012)
+
+    Aristotle (History of Animals) Theophrastus (Historia Plantarum) Aelian (De Natura Animalium) Pliny the Elder (Natural History) Dioscorides (De Materia Medica)
+-->
+
+
+{{historia}}
+{{footer}}

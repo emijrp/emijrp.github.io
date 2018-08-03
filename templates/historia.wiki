@@ -3,7 +3,7 @@
 <tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''[[{{:rootpath}}/historia/historia|Historia]]'''</th></tr>
 <tr>
 <td align=center>'''Por tema'''</td>
-<td align=center>[[{{:rootpath}}/historia/historia-del-arte|Historia del Arte]]{{o}} [[{{:rootpath}}/historia/historia-de-las-bibliotecas|Historia de las Bibliotecas]]{{o}} [[{{:rootpath}}/historia/historia-del-cine|Historia del Cine]]</td>
+<td align=center>[[{{:rootpath}}/historia/historia-del-arte|Historia del Arte]]{{o}} [[{{:rootpath}}/historia/historia-de-las-bibliotecas|Historia de las Bibliotecas]]{{o}} [[{{:rootpath}}/historia/historia-del-cine|Historia del Cine]]{{o}} [[{{:rootpath}}/historia/historia-de-las-enciclopedias|Historia de las Enciclopedias]]</td>
 </tr>
 <tr>
 <td align=center>'''Por lugar'''</td>
