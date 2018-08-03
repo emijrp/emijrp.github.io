@@ -1,13 +1,13 @@
 {{header|1=Portada}}
 [[File:levantando-la-bandera-helio-korzhev.jpg|270px|right|Levantando la bandera (Helio Korzhev, 1957-1960)]]
 
-'''Te doy la bienvenida a mi web personal.''' Este sitio lo uso para recopilar información, tomar notas sobre todos los temas que me interesan y difundir mis ideas y proyectos. He tenido varios sitios web a lo largo de mi vida y este es el más reciente y donde trabajo actualmente (2018).
+'''Te doy la bienvenida a mi web personal.''' Este sitio lo uso para recopilar información, tomar notas sobre todos los temas que me interesan y difundir mis ideas y proyectos. He tenido varios sitios web a lo largo de mi vida y este es el más actualizado (2018).
 
 La web se encuentra en continuo desarrollo, por ello las secciones pueden estar incompletas o contener ''herrores''. Espero ir añadiendo más información poco a poco. Si encuentras algo que te resulte de interés, fantástico.
 
 {{secciones}}
-
-También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]].
+{{dias}}
+También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]]. <script>document.write("<b>Día "+diffdays+".</b>");</script>
 
 __NOTOC__
 {{footer}}

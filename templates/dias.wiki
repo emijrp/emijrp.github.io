@@ -1,0 +1,6 @@
+<script type="text/javascript">
+var oneday = 24*60*60*1000;
+var birthdate = new Date(1986,8,2); //month is 0-11
+var today = new Date();
+var diffdays = Math.round(Math.abs((birthdate.getTime() - today.getTime())/(oneday)));
+</script>
