@@ -2,8 +2,6 @@
 
 Estoy recopilando información acerca de lo que podría llamarse '''turismo rojo''', '''turismo memorialista''', '''turismo de izquierdas''' o '''turismo con conciencia de clase'''. Se trata de un turismo enfocado a lugares, monumentos, calles, museos y otros puntos de interés que tengan que ver con la memoria histórica, el socialismo/comunismo y el movimiento obrero. La información disponible es poca y muy dispersa.
 
-Por comparar, España tiene miles de iglesias, ermitas, conventos, capillas y monasterios diseminados por toda su geografía. Además, los edificios religiosos figuran en todos los folletos turísticos. Es imposible andar diez pasos sin encontrarse con alguna iglesia. Más allá de las catedrales, mi interés por este tipo de lugares es escaso y a veces es difícil encontrar otras cosas en las guías turísticas.
-
 Mi intención es crear una pequeña guía de esos lugares con conciencia de clase que están por ahí escondidos y pasan desapercibidos. Si conoces alguno más, ponte en [[../contacto|contacto conmigo]].
 
 <!--
@@ -35,6 +33,7 @@ Otros países:
 * Ostalgie, Berlín Este: calles, museo RDA
 * Monumentos norcoreanos en Africa
 * Tumba de Francisco Boix y otros resistentes al fascismo enterrados en Francia
+* https://en.wikipedia.org/wiki/Museum_of_the_Revolution_(Cuba)
 -->
 
 <div id="map" style="float: center;width: 100%; height: 500px;"></div>
@@ -84,6 +83,8 @@ Otros países:
         //Cádiz
         ["Castillo de San Sebastián", "Fortificación", "Cádiz", "Cádiz", "Andalucía", "España", 36.528662, -6.316686, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
         ["Muros de Puerta Tierra", "Fortificación", "Cádiz", "Cádiz", "Andalucía", "España", 36.526296, -6.288413, "", "Lugares de Memoria Histórica de Andalucía. Lugar de fusilamientos."], 
+        ["Placa en memoria de los concejales represaliados por el franquismo en Cádiz", "Placa", "Cádiz", "Cádiz", "Andalucía", "España", 36.529525, -6.292992, "", "Situada en la primera planta del Ayuntamiento de Cádiz, junto al salón de plenos."], 
+        ["Placa en memoria del funcionariado represaliado por el franquismo en Cádiz", "Placa", "Cádiz", "Cádiz", "Andalucía", "España", 36.529582, -6.292971, "", "Situada en la entrada principal del Ayuntamiento de Cádiz."], 
         
         //El Puerto de Santa María
         ["Antiguo Penal de El Puerto", "Prisión", "El Puerto de Santa María", "Cádiz", "Andalucía", "España", 36.605517, -6.217236, "", "Lugar de Memoria Histórica de Andalucía. Hoy Monasterio de la Victoria."], 
@@ -93,6 +94,7 @@ Otros países:
         ["Monumento a los represaliados por el franquismo", "Monumento", "El Puerto de Santa María", "Cádiz", "Andalucía", "España", 36.604990, -6.226315, "", "En el primer patio del Cementerio de El Puerto de Santa María. Consta de un mural y una lápida con los nombres."], 
         ["Monumento a Rafael Alberti", "Monumento", "El Puerto de Santa María", "Cádiz", "Andalucía", "España", 36.594830, -6.227157, "", "En la Plaza del Polvorista."], 
         ["Museo-Fundación Rafael Alberti", "Museo", "El Puerto de Santa María", "Cádiz", "Andalucía", "España", 36.598185, -6.228234, "", "Exposición permanente de fotos, dibujos y escritos que ilustran la vida y obra del célebre poeta del 27."], 
+        ["Placa en recuerdo del funcionariado represaliado por el franquismo en El Puerto", "Placa", "El Puerto de Santa María", "Cádiz", "Andalucía", "España", 36.600532, -6.225423, "", "Situada en la entrada principal del Ayuntamiento de El Puerto de Santa María."], 
         ["Plaza del 14 de Abril", "Calle", "El Puerto de Santa María", "Cádiz", "Andalucía", "España", 36.590432, -6.230836, "", "En honor al día en que se proclamó la Segunda República."], 
         
         //Jerez de la Frontera
