@@ -27,13 +27,13 @@ Si nos salimos de los archivos producidos por uno mismo, en Internet también ha
 
 Breves reseñas biográficas de personas que dedicaron parte de su vida a la preservación de información o conocimientos en distintos formatos.
 
-[[File:marion-stokes.jpg|thumb|right|200px|Marion Stokes]]
-* '''Marion Stokes''' (1929-2012), productora televisiva, activista por los derechos civiles y bibliotecaria. Durante 35 años, desde 1977 hasta su muerte, grabó cientos de miles de horas de los canales de noticias FOX, MSNBC, CNN, C-SPAN, CNBC y otros, utilizando hasta 8 vídeos domésticos repartidos por su casa. Casada y con hijos, planificaba las salidas de casa de forma que las cintas (de seis horas) no se terminasen antes de que regresasen. Su marido le ayudaba a cambiar las cintas, y cuando ya era demasiado mayor, contrató a un ayudante para esta tarea. En total acumuló más de 40.000 cintas VHS y Betamax. Al fallecer, su hijo donó la colección a Internet Archive siendo necesarios cuatro camiones para el traslado. La digitalización del material están en curso y tomará varios años.<ref>[https://en.wikipedia.org/wiki/Marion_Stokes Marion Stokes] en Wikipedia</ref><ref>[https://archive.org/details/marionstokes Marion Stokes Collection] en Internet Archive</ref> Al parecer hay un documental sobre su historia ''The Marion Stokes Project''.<ref>[https://www.tfiny.org/films/detail/the_marion_stokes_project The Marion Stokes Project]</ref>
+[[File:vivian-maier.jpg|thumb|right|200px|Vivian Maier]]
+* '''Vivian Maier''' (1926-2009), una trabajadora de servicio doméstico que en sus ratos libres se dedicaba a la fotografía callejera. Llegó a acumular más de 150.000 fotografías.<ref>[https://en.wikipedia.org/wiki/Vivian_Maier Vivian Maier] en Wikipedia</ref>
 
 {{clear}}
 
-[[File:vivian-maier.jpg|thumb|right|200px|Vivian Maier]]
-* '''Vivian Maier''' (1926-2009), una trabajadora de servicio doméstico que en sus ratos libres se dedicaba a la fotografía callejera. Llegó a acumular más de 150.000 fotografías.<ref>[https://en.wikipedia.org/wiki/Vivian_Maier Vivian Maier] en Wikipedia</ref>
+[[File:marion-stokes.jpg|thumb|right|200px|Marion Stokes]]
+* '''Marion Stokes''' (1929-2012), productora televisiva, activista por los derechos civiles y bibliotecaria. Durante 35 años, desde 1977 hasta su muerte, grabó cientos de miles de horas de los canales de noticias FOX, MSNBC, CNN, C-SPAN, CNBC y otros, utilizando hasta 8 vídeos domésticos repartidos por su casa. Casada y con hijos, planificaba las salidas de casa de forma que las cintas (de seis horas) no se terminasen antes de que regresasen. Su marido le ayudaba a cambiar las cintas, y cuando ya era demasiado mayor, contrató a un ayudante para esta tarea. En total acumuló más de 70.000 cintas VHS y Betamax. Al fallecer, su hijo donó la colección a Internet Archive siendo necesarios cuatro camiones para el traslado. La digitalización del material están en curso y tomará varios años.<ref>[https://en.wikipedia.org/wiki/Marion_Stokes Marion Stokes] en Wikipedia</ref><ref>[https://archive.org/details/marionstokes Marion Stokes Collection] en Internet Archive</ref> Al parecer hay un documental sobre su historia ''The Marion Stokes Project''.<ref>[https://www.tfiny.org/films/detail/the_marion_stokes_project The Marion Stokes Project]</ref>
 
 {{clear}}
 
@@ -67,7 +67,23 @@ Paul Otlet http://archive.org/details/paulotlet/
 
 == En el cine ==
 
-El documental alemán ''[https://www.youtube.com/watch?v=jzQyHLd8jYo La oscura era digital: ¡Socorro, estamos desapareciendo!]'' (''Hilfe, wir verschwinden – Das Digitale Desaster'') dirigido por Jörg Daniel Hissen y Peter Moers trata acerca de este tema. En él sale entrevistado Stewart Brand de la Long Now Foundation.
+El documental alemán ''[https://www.youtube.com/watch?v=jzQyHLd8jYo La oscura era digital: ¡Socorro, estamos desapareciendo!]'' (''Hilfe, wir verschwinden – Das Digitale Desaster'') dirigido por Jörg Daniel Hissen y Peter Moers trata acerca de este tema. En él es entrevistado Stewart Brand de la Long Now Foundation.
+
+Otros documentales sobre proyectos de preservación digital son: 
+
+* ''[https://www.youtube.com/watch?v=ec_-fgy3EGY Archive]'' (2012)
+
+* ''[https://www.youtube.com/watch?v=NdZxI3nFVJs Digital Amnesia]'' (2014) 
+
+* ''[https://archive.org/details/GoogleAndTheWorldBrain_201611 Google and the World Brain]'' (2013) 
+
+* ''[https://www.youtube.com/watch?v=BBrBOMTzWDo ¿El fin de la memoria?]'' (2015)
+
+* ''[https://www.youtube.com/watch?v=rK4G_NmjkBQ The House of History]'' (1996)
+
+* ''[https://www.youtube.com/watch?v=L9jgnU3V944 The Man Who Wanted to Classify the World]'' (2002) 
+
+* ''[https://www.youtube.com/watch?v=i0RVSZ_yDjs Toute la mémoire du monde]'' (1956)
 
 <!--
 
@@ -82,7 +98,7 @@ https://www.filmaffinity.com/es/userlist.php?user_id=397713&list_id=1050
 
 == Enlaces externos ==
 
-* [http://archiveteam.org Archive Team]
+* [https://archiveteam.org Archive Team]
 * [http://digitize.archiveteam.org Digitize the Planet]
 * [https://archive.org Internet Archive]
 
