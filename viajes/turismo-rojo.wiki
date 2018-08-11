@@ -146,7 +146,7 @@ Otros países:
         ["Monumento a las Trece Rosas", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.418961, -3.648889, "", "En el Cementerio del Este. Para que sus nombres no se borren de la Historia."], 
         ["Monumento a los Abogados de Atocha", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.412397, -3.699333, "", "Homenaje a los abogados laboristas asesinados en 1977 por la extrema derecha en el número 55 de la calle Atocha."], 
         ["Monumento a Miguel Hernández", "Monumento", "Madrid", "Madrid", "Comunidad de Madrid", "España", 40.433250, -3.725681, "", ""], 
-        
+        ["Placa en el Museo del Prado", "Placa", "Madrid", "Madrid", "Comunidad de Madrid", "España",  40.414700, -3.692498 , "", "\"A todos los que hicieron posible la protección del Museo Nacional del Prado durante la Guerra Civil, MMIII\". Visto en el documental Las cajas españolas. En la entrada de Goya."], 
         
         //Comunidad Valenciana
         
