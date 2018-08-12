@@ -13,15 +13,17 @@ Esta es una recopilación de '''documentales de Memoria Histórica''' que he ido
 |sinopsis=
 }}
 -->
+
 {{documental memoria historica
-|titulo=Memoria de las cenizas
-|direccion=Eduardo Montero
-|año=2012
-|duracion=60 minutos
-|enlace=https://youtu.be/ej2D-A4NQ0g
-|imagen=memoria-de-las-cenizas.jpg
-|sinopsis=Más de 1.500 andaluces fueron apresados en los campos de concentración nazis durante los años de la II Guerra Mundial. Un millar dejaron sus vidas en aquellos recintos del horror, ideados para degradar la condición humana hasta las cotas más inimaginables. Los supervivientes hicieron un juramento: dedicar sus vidas a recordar y honrar la memoria de los millones de seres humanos asesinados en estos campos. (FILMAFFINITY)
+|titulo=COPEL: una historia de rebeldia y dignidad
+|direccion=Colectivo COPEL
+|año=2017
+|duracion=90 minutos
+|enlace=https://youtu.be/kGhFY6XYc14
+|imagen=
+|sinopsis=Con la muerte de Franco, el proceso de democratización del Régimen dictatorial no cayó del cielo, no fue regalado, sino que fue forzado desde abajo por una multitud de luchas sociales y movimientos reivindicativos. Sin embargo, los grandes olvidados de la Transición fueron los presos sociales, a pesar de que también se movilizaron de manera espontánea y autoorganizada reivindicando la amnistía. En el marco de esta lucha surge la Coordinadora de Presos En Lucha (COPEL), un movimiento que quería acabar con el régimen penitenciario de la dictadura.
 }}
+
 {{documental memoria historica
 |titulo=Guillena 1937
 |direccion=Mariano Agudo
@@ -32,48 +34,69 @@ Esta es una recopilación de '''documentales de Memoria Histórica''' que he ido
 |sinopsis=En septiembre de 1937, diecisiete mujeres de Guillena fueron sacadas de sus casas por orden de las autoridades sublevadas y llevadas a la celda del Ayuntamiento. Un mes más tarde, tras ser vejadas y humilladas públicamente por las calles de su pueblo, serán fusiladas e inhumadas en el cementerio de Gerena, una localidad vecina. Tendrán que pasar 75 años para que sus familiares logren comenzar la exhumación de la fosa común donde se agolpan sus restos. Este documental reflexiona sobre la utilización de la violencia sobre la mujer como arma de Guerra y la necesidad de los familiares de los desaparecidos de encontrar y dar sepultura a sus seres queridos. (FILMAFFINITY)
 }}
 
+{{documental memoria historica
+|titulo=Memoria de las cenizas
+|direccion=Eduardo Montero
+|año=2012
+|duracion=60 minutos
+|enlace=https://youtu.be/ej2D-A4NQ0g
+|imagen=memoria-de-las-cenizas.jpg
+|sinopsis=Más de 1.500 andaluces fueron apresados en los campos de concentración nazis durante los años de la II Guerra Mundial. Un millar dejaron sus vidas en aquellos recintos del horror, ideados para degradar la condición humana hasta las cotas más inimaginables. Los supervivientes hicieron un juramento: dedicar sus vidas a recordar y honrar la memoria de los millones de seres humanos asesinados en estos campos. (FILMAFFINITY)
+}}
+
+
 == Otros ==
 
-* Espías en la arena
-* Vida de Luis Vega. Memoria de Paterna
-* María. Memoria de una niña de la guerra
-* Lo posible y lo necesario
-* La desbandá
-* Las sinsombrero. Las mujeres de la Generación del 27
-* Desde el silencio, exilio republicano en el norte de África
-* Dejadme llorar
-* Herencias del 36
-* La fosa borrada del sur
+* A Guerra também foi nossa
+* A la sombra de la tapia
+* Abuelo, te voy a sacar de aquí
+* Así pasen 100 años
+* Campos sin memoria
+* Cautivos en la arena
 * Dejadme llorar. El genocidio olvidado
 * Descubriendo Gurs
-* Los yunteros de Extremadura
-* La hija del tiempo
-* Santuarios del antifranquismo
-* Campos sin memoria
-* Sucedió en Grazalema
-* El dolor que no prescribe
-* Madres invisibles
-* Las víctimas sin llanto
-* Presos de la memoria
-* A la sombra de la tapia
-* El cinturón rojo
-* Héroes invisibles. Afroamericanos en la Guerra de España
-* Melchor Rodriguez, el angel rojo
-* Las niñas que vestían de blanco
-* COPEL: una historia de rebeldia y dignidad
-* Presos del silencio
-* TRABAJADORIAK, ESCLAVOS DEL FRANQUISMO EN OARSOALDEA
-* El retratista
-* Lesa Humanitat
-* La sima del olvido
+* Desde el silencio, exilio republicano en el norte de África
 * Eduardo de Guzman: el literato anarquista
-* Los internados del miedo
-* Las presas de franco
-* Así pasen 100 años
-* A Guerra também foi nossa
-* Cautivos en la arena
-* Ojos que no ven, víctimas del fascismo desde la transición
+* El cinturón rojo
 * El convoy de los 927
+* El dolor que no prescribe
+* El retratista
+* El tren de la memoria
+* Espías en la arena
+* Herencias del 36
+* Héroes invisibles. Afroamericanos en la Guerra de España
+* La columna de los ocho mil
+* La desbandá
+* La fosa borrada del sur
+* La hija del tiempo
+* La sima del olvido
+* Las fosas del silencio
+* Las fosas del olvido 
+* Las niñas que vestían de blanco
+* Las presas de franco
+* Las sinsombrero. Las mujeres de la Generación del 27
+* Las víctimas sin llanto
+* Lesa Humanitat
+* Lo posible y lo necesario
+* Los internados del miedo
+* Los yunteros de Extremadura
+* Madres invisibles
+* María. Memoria de una niña de la guerra
+* Melchor Rodriguez, el angel rojo
+* Ojos que no ven, víctimas del fascismo desde la transición
+* Presos de la memoria
+* Presos del silencio
+* Rejas en la memoria
+* Santuarios del antifranquismo
+* Sucedió en Grazalema
+* Trabajadoriak, esclavos del franquismo en Oarsoaldea
+* Tras las rejas franquistas
+* Un vendaval de muerte y silencio
+* Vida de Luis Vega. Memoria de Paterna
+
+== Enlaces externos ==
+* [https://15mpedia.org/wiki/Lista_de_documentales_sobre_memoria_hist%C3%B3rica Lista de documentales sobre memoria histórica] en 15Mpedia
+* [https://www.youtube.com/playlist?list=PLSNLaAwR6E8yZGlfPZazdyKICA1py7onL Lista de reproducción de documentales de memoria histórica] en YouTube
 
 {{historia}}
 {{footer}}
