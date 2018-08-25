@@ -1,6 +1,6 @@
 {{header|1=Historia de las Bibliotecas}}
 
-Una breve '''historia de las bibliotecas'''.
+Una breve '''Historia de las Bibliotecas'''.
 
 == Bibliotecas nacionales ==
 
