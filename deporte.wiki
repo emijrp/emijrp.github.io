@@ -1,0 +1,21 @@
+{{header|1=Deporte}}
+
+Todo lo relacionado con el '''deporte, ejercicios y ergonomía'''.
+
+== Deporte ==
+
+* Atletismo
+* Baloncesto
+* Fútbol
+* Natación
+
+== Ejercicios ==
+
+* Estiramientos
+* Espalda
+
+== Ergonomía ==
+
+
+
+{{footer}}
