@@ -10,7 +10,7 @@
     {{button-blue|1=cine/cine.html|2=Cine}}
     {{button-blue|1=cocina/cocina.html|2=Cocina}}
     {{button-blue|1=comunismo/comunismo.html|2=Comunismo}}
-    <!--{{button-grey|1=Deporte}}-->
+    {{button-blue|1=deporte.html|2=Deporte}}
     {{button-blue|1=diccionarios/diccionarios.html|2=Diccionarios}}
     {{button-blue|1=el-puerto/el-puerto.html|2=El Puerto}}
     {{button-blue|1=favoritas.html|2=Favoritas}}
