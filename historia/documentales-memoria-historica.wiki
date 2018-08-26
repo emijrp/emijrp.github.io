@@ -20,8 +20,18 @@ Esta es una recopilación de '''documentales de Memoria Histórica''' que he ido
 |año=2017
 |duracion=90 minutos
 |enlace=https://youtu.be/kGhFY6XYc14
-|imagen=
+|imagen=copel-una-historia.jpg
 |sinopsis=Con la muerte de Franco, el proceso de democratización del Régimen dictatorial no cayó del cielo, no fue regalado, sino que fue forzado desde abajo por una multitud de luchas sociales y movimientos reivindicativos. Sin embargo, los grandes olvidados de la Transición fueron los presos sociales, a pesar de que también se movilizaron de manera espontánea y autoorganizada reivindicando la amnistía. En el marco de esta lucha surge la Coordinadora de Presos En Lucha (COPEL), un movimiento que quería acabar con el régimen penitenciario de la dictadura.
+}}
+
+{{documental memoria historica
+|titulo=...De toda la vida
+|direccion=Lisa Berger y Carol Mazer
+|año=1984
+|duracion=54 minutos
+|enlace=https://youtu.be/1-4oSVzmzW4
+|imagen=de-toda-la-vida.jpg
+|sinopsis=Documental sobre la organización Mujeres Libres que narra, a través de entrevistas, su participación en la guerra civil española y su lucha día a día como anarquistas y como mujeres, en la guerra y en la revolución. Las protagonistas hablan sobre cómo se involucraron en la guerra, sobre sus relaciones con otras organizaciones anarquistas y sobre su vida desde entonces. Décadas después, Mujeres Libres es todavía un modelo de feminismo revolucionario.
 }}
 
 {{documental memoria historica
