@@ -1,17 +1,18 @@
 {{header|1=Fotografía}}
+[[File:vaporcito.jpg|thumb|right|250px|Vaporcito de El Puerto surcando el Guadalete.]]
+'''Me encanta hacer fotos''', sobre todo de monumentos, museos, lugares de importancia histórica, calles, paisajes, eventos culturales y desde zonas elevadas.
 
-'''Me encanta hacer fotos''', sobre todo de monumentos, museos, lugares de importancia histórica, calles, paisajes, eventos culturales y desde zonas elevadas. Tras tener varias cámaras compactas, en 2012 compré mi primera reflex, una NIKON D3100. La diferencia en calidad es notable, aunque también es algo más difícil de usar. Aún estoy aprendiendo a manejar todas sus funciones, ya que a pesar de que tiene un modo automático, lo suyo es hacerlo en manual y exprimir toda su capacidad.
+Tras tener varias cámaras compactas, en 2012 compré mi primera reflex, una NIKON D3100. La diferencia en calidad es notable, aunque también es algo más difícil de usar. Aún estoy aprendiendo a manejar todas sus funciones, ya que a pesar de que tiene un modo automático, lo suyo es hacerlo en manual y exprimir toda su capacidad.
 
 == Galería ==
 
-Esta '''galería''' es una pequeña muestra de las fotografías que he tomado a lo largo de los años. Puedes ver muchas más en mi [https://www.flickr.com/photos/emijrp/ perfil de Flickr], también ordenadas por [https://www.flickr.com/photos/emijrp/collections/ colecciones] y [https://www.flickr.com/photos/emijrp/sets/ álbumes].
+Esta '''galería''' es una pequeñísima muestra de las fotografías que he tomado a lo largo de los años. Puedes ver muchas más en mi [https://www.flickr.com/photos/emijrp/ perfil de Flickr], también ordenadas por [https://www.flickr.com/photos/emijrp/collections/ colecciones] y [https://www.flickr.com/photos/emijrp/sets/ álbumes]. Y en [https://commons.wikimedia.org/wiki/Category:Files_by_User:Emijrp Wikimedia Commons].
 
 <table align="center" style="text-align: center;font-size: 90%;">
 <tr>
     <td valign="top" width="250px">[[File:torre-poniente.jpg|thumb|center|250px|Vistas desde la Torre de Poniente de la Catedral de Cádiz.]]</td>
     <td valign="top" width="250px">[[File:mani-15o.jpg|thumb|center|250px|Manifestación del 15-O en la Plaza de España en Cádiz.]]</td>
     <td valign="top" width="250px">[[File:iridium8.jpg|thumb|center|250px|Estela del satélite Iridium 8 en verano de 2013.]]</td>
-    <td valign="top" width="250px">[[File:vaporcito.jpg|thumb|center|250px|Vaporcito de El Puerto surcando el Guadalete.]]</td>
 </tr>
 </table>
 
@@ -19,7 +20,7 @@ Esta '''galería''' es una pequeña muestra de las fotografías que he tomado a 
 
 === Álbumes ===
 
-Esta tabla recoge todos [https://www.flickr.com/photos/emijrp/sets/ mis álbumes] en Flickr junto con el número de fotografías y vídeos que tiene cada uno. Está generada con <a href="fotografia.py">este script</a>.
+Esta tabla recoge todos [https://www.flickr.com/photos/emijrp/sets/ mis álbumes] en Flickr junto con el número de fotografías y vídeos que tiene cada uno. También hay una columna para el número de estas fotografías que he subido a Wikimedia Commons. Una vez que subes tus fotos Flickr es muy fácil pasarlas a Commons utilizando la herramienta [https://tools.wmflabs.org/flickr2commons/ flickr2commons]. La tabla está generada con <a href="fotografia.py">este script</a>.
 
 <!-- tabla sets -->
 <script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>
