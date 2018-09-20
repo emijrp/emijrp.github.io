@@ -4,34 +4,47 @@ Cosas que forman parte de mi pasado y que cuando las recuerdo me producen '''nos
 
 == Genio 2000 ==
 [[File:genio2000.jpg|thumb|right|200px|Genio 2000]]
-El '''Genio 2000''' era un ordenador de juguete educativo con apariencia de portátil fabricado por VTech. Contaba con multitud de programas para aprender sobre todas las áreas del conocimiento.<ref>[https://es.wikipedia.org/wiki/Genio_2000 Genio 2000] en Wikipedia</ref><ref>[http://museo8bits.com/wiki/index.php?title=Genio_2000 Genio 2000] en Museo8bits</ref>
+El '''Genio 2000''' es un ordenador de juguete educativo con apariencia de portátil fabricado por VTech. Cuenta con multitud de programas para aprender sobre todas las áreas del conocimiento.<ref>[https://es.wikipedia.org/wiki/Genio_2000 Genio 2000] en Wikipedia</ref><ref>[http://museo8bits.com/wiki/index.php?title=Genio_2000 Genio 2000] en Museo8bits</ref>
 
-La pantalla mostraba texto únicamente, hasta cuatro líneas. El Genio 2000 era ampliable con cartuchos con otras actividades o más memoria. Funcionaba con pilas o con adaptador de corriente y tenía un puerto paralelo para conectarle una impresora.
+La pantalla muestra texto únicamente, hasta cuatro líneas. El Genio 2000 es ampliable con cartuchos con otras actividades o más memoria. Funciona con pilas o con adaptador de corriente y tiene un puerto paralelo para conectarle una impresora.
 
-Estas son las actividades con las que contaba:
+Estas son las actividades de las que dispone:
 
 * '''Juegos de palabras''': Busca la letra, Recuerda la palabra, Plurales, Verbos, Revoltijo de letras, La palabra misteriosa, Derivados, Sinónimos, Antónimos, La letra loca, La nueva palabra, Trueque de letras, Alfapuzzle, Revoltijo, Acertijo gramatical.
 * '''Matemáticas''': Suma, Resta, Multiplicación, División, Fracciones/Decimales, Fracciones/Porcentajes, Ratios, Álgebra, Repaso a las matemáticas, El signo perdido.
 * '''Trivial''': Ciencias, Cine y televisión, Historia y geografía, General, ¿Qué soy?
 * '''Juegos y funciones''': El número relámpago, BASIC, Imprimir texto, Calculadora, Cartuchos adicionales.
 
-Se podían jugar en cuatro niveles de dificultad y con hasta dos jugadores.
+Se puede jugar en cuatro niveles de dificultad y con hasta dos jugadores.
 
 Este fue mi primer "ordenador". Luego vendría el Amstrad PC-1512.
+
+== Amstrad PC-1512 ==
+
+[[File:alley-cat.png|thumb|right|200px|Alley Cat es un juego para MS-DOS de los años 80, en el que eres un gato que come ratones, huye de perros, etc, lo típico que hace un gato.]]
+
+El '''Amstrad PC-1512''' es un ordenador creado en 1986 con procesador Intel 8086 de 8 MHz, 512 KB de RAM, gráficos CGA y bahías de 5 1/4 bien para alojar disqueteras tipo floppy o un disco duro. La fuente de alimentación la tiene en el monitor y se enciende por la parte de atrás. Soporta teclado y ratón. Arranca con un disquete MS-DOS 3.2 que se puede copiar al disco duro y así arrancar más rápidamente.
+
+Entre los programas que más utilice estaba el procesador de textos WordStar.
+
+Algunos de los juegos que pude disfrutar:
+
+* '''Alley Cat'''. Se puede [https://archive.org/details/msdos_Alley_Cat_1984 jugar online].
+* '''[http://www.youtube.com/watch?v=GiWHW5G6hlM Golden Axe]'''
+* '''[https://www.youtube.com/watch?v=hwouEi-BMmU Invaders]''' (se llamaba Invasors)
+
+Aquí [https://www.youtube.com/watch?v=42JFRBlUpIA un vídeo del Amstrad PC-1512].
 
 == Otros ==
 
 <table align=right>
 <tr><td>[[File:beakman.jpg|200px|El mundo de Beakman, uno de los programas más educativos que había en la televisión.]]</td></tr>
 <tr><td>[[File:polo-sur.jpg|200px|Seguidores incondicionales de Beakman en el Polo Sur.]]</td></tr>
-<!--<tr><td>[[File:alley-cat.png|200px|Alley Cat es un juego antiguo para MS-DOS de los años 80, en el que eres un gato que come ratones, huyes de perros, etc, vaya lo típico que hace un gato.]]</td></tr>-->
+<!--<tr><td></td></tr>-->
 </table>
 
-* [https://www.youtube.com/watch?v=42JFRBlUpIA Amstrad PC-1512]: mi primer ordenador de verdad
 * El chavo del 8: serie mexicana
 * El mundo de Beakman: programa educativo sobre ciencia
-* [http://www.youtube.com/watch?v=GiWHW5G6hlM Golden Axe]: juego de MS-DOS en color
-* [https://www.youtube.com/watch?v=hwouEi-BMmU Invasors/Invaders]: juego de MS-DOS de extraterrestres
 * [https://www.youtube.com/watch?v=8YCTkvYaFis La noche de los castillos] ([http://www.rtve.es/alacarta/videos/programas-y-concursos-en-el-archivo-de-rtve/noche-castillos-1995/1006530/ RTVE]): concurso de aventuras de temática medieval
 * [https://en.wikipedia.org/wiki/Leaderboard Leaderboard]: juego de golf [https://www.youtube.com/watch?v=rfNo42SomBs]
 * Nintendo (NES) fue mi primera videoconsola y los juegos SuperMarioBros, [https://www.youtube.com/watch?v=TwsVhA-Uh_g Tom y Jerry], [https://www.youtube.com/watch?v=ABXEs4JgEgQ Los Simpson], [https://www.youtube.com/watch?v=mPKoHVO5g3o World Cup], [https://www.youtube.com/watch?v=UYJCZPT68Bs Silent Service].
