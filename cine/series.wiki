@@ -258,7 +258,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
 
     <tr>
         <td>25</td>
-        <td sorttable_customkey="Dragon Ball Z (Bola de Dragón Z) (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film942334.html">Dragon Ball Z (Bola de Dragón Z)</a></i></td>
+        <td sorttable_customkey="Dragon Ball Z (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film942334.html">Dragon Ball Z</a></i></td>
         <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Akira+Toriyama+(Creator)">Akira Toriyama</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Daisuke+Nishio">Daisuke Nishio</a></td>
         <td>1989</td>
         <td>Japón</td>
@@ -682,7 +682,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>72</td>
         <td sorttable_customkey="Pokémon (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film419407.html">Pokémon</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Satoshi+Tajiri+(Creator)">Satoshi Tajiri</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kunihiko+Yuyama">Kunihiko Yuyama</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Kunihiko+Yuyama">Kunihiko Yuyama</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Masamitsu+Hidaka">Masamitsu Hidaka</a></td>
         <td>1997</td>
         <td>Japón</td>
         <td>5</td>
@@ -790,7 +790,7 @@ Esta tabla es una copia de las series de televisión que he puntuado en [http://
     <tr>
         <td>84</td>
         <td sorttable_customkey="Xena, la princesa guerrera (Serie de TV)"><i><a href="http://www.filmaffinity.com/es/film100408.html">Xena, la princesa guerrera</a></i></td>
-        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+Schulian+(Creator)">John Schulian</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Robert+G.+Tapert+(Creator)">Robert G. Tapert</a></td>
+        <td><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=John+Schulian+(Creator)">John Schulian</a><br/><a href="http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=Rob+Tapert+(Creator)">Rob Tapert</a></td>
         <td>1995</td>
         <td>Estados Unidos</td>
         <td>6</td>
