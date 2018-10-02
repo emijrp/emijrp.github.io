@@ -1,0 +1,84 @@
+{{headerheatmap|1=Actividad en software}}
+
+{{ap|1={{:rootpath}}/software|2=Software}}
+
+Mi '''actividad en [[{{:rootpath}}/software|software]]''' consiste en el desarrollo de software libre que he publicado en distintas forjas a lo largo de los años, en [https://github.com/emijrp GitHub] principalmente. El resto de código que había subido a Rediris o Google Code, lo migré en su mayoría a GitHub cuando aquellos servicios cerraron. La primera vez que subí código a la red fue el 12 de agosto de 2006.
+
+Esta gráfica ha sido generada con <a href="actividad-software.py">este script</a>.
+
+<center>
+<div class="activity" id="actividad-software-2005"></div>
+<div class="activity" id="actividad-software-2006"></div>
+<div class="activity" id="actividad-software-2007"></div>
+<div class="activity" id="actividad-software-2008"></div>
+<div class="activity" id="actividad-software-2009"></div>
+<div class="activity" id="actividad-software-2010"></div>
+<div class="activity" id="actividad-software-2011"></div>
+<div class="activity" id="actividad-software-2012"></div>
+<div class="activity" id="actividad-software-2013"></div>
+<div class="activity" id="actividad-software-2014"></div>
+<div class="activity" id="actividad-software-2015"></div>
+<div class="activity" id="actividad-software-2016"></div>
+<div class="activity" id="actividad-software-2017"></div>
+<div class="activity" id="actividad-software-2018"></div>
+</center>
+
+<script type="text/javascript">
+var highlights = new Array();
+highlights[2005] = [ ];
+highlights[2006] = [ new Date(2006, 7, 12) ];
+highlights[2007] = [ ];
+highlights[2008] = [ ];
+highlights[2009] = [ ];
+highlights[2010] = [ ];
+highlights[2011] = [ ];
+highlights[2012] = [ ];
+highlights[2013] = [ ];
+highlights[2014] = [ ];
+highlights[2015] = [ ];
+highlights[2016] = [ ];
+highlights[2017] = [ ];
+highlights[2018] = [ ];
+
+var years = new Array();
+moment.lang("es");
+for (i = 2005; i <= 2018; i++) {
+    displaylegend = i == 2018;
+    years[i] = new CalHeatMap();
+    years[i].init({
+        itemSelector: "#actividad-software-"+i, 
+        itemName: ["commit", "commits"], 
+        domain: "year", 
+        subDomain: "day", 
+        data: "actividad-software.json", 
+        start: new Date(i, 0), 
+        weekStartOnMonday: true, 
+        highlight: highlights[i], 
+        cellSize: 10, 
+        range: 1, 
+        displayLegend: displaylegend,
+        legend: [5, 10, 15, 20], 
+        legendTitleFormat: {
+            lower: "Menos de {min} {name}",
+            inner: "Entre {down} y {up} {name}",
+            upper: "Más de {max} {name}"
+        },
+        subDomainDateFormat:  function(date) {
+            return moment(date).format("LL");
+        }, 
+        subDomainTextFormat: function(date, value) {
+            if (value > 20) {
+                return ;
+            } else {
+                return value;
+            }
+        }, 
+    });
+}
+</script>
+
+{{actividad}}
+
+{{clear}}
+
+{{footer}}

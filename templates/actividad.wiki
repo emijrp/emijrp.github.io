@@ -1,0 +1,9 @@
+<center>
+<table width=100% align=center style="border: 1px solid #aaa; background-color: #f9f9f9; color: black; margin: 10px 0px 10px 0px; padding: 0.2em; font-size: 90%;">
+<tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''[[{{:rootpath}}/actividad/actividad|Actividad]]'''</th></tr>
+<tr>
+<td align=center>'''Por tema'''</td>
+<td align=center>[[{{:rootpath}}/cine/estadisticas-cine|Cine]]{{o}} [[{{:rootpath}}/actividad/actividad-foto|Fotografía]]{{o}} [[{{:rootpath}}/actividad/actividad-software|Software]]{{o}} [[{{:rootpath}}/actividad/actividad-wiki|Wikis]]{{o}} [[{{:rootpath}}/actividad/actividad|Resumen global]]</td>
+</tr>
+</table>
+</center>

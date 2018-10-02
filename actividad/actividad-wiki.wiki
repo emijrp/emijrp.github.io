@@ -1,0 +1,86 @@
+{{headerheatmap|1=Actividad en wikis}}
+
+{{ap|1={{:rootpath}}/wikis/wikis|2=Wikis}}
+
+Mi '''actividad en [[{{:rootpath}}/wikis/wikis|wikis]]''' se concentra en [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://wiki.15m.cc 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers].
+
+Solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 170.000 ediciones en 12 años (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 22 millones de ediciones.
+
+Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
+
+<center>
+<div class="activity" id="actividad-wiki-2005"></div>
+<div class="activity" id="actividad-wiki-2006"></div>
+<div class="activity" id="actividad-wiki-2007"></div>
+<div class="activity" id="actividad-wiki-2008"></div>
+<div class="activity" id="actividad-wiki-2009"></div>
+<div class="activity" id="actividad-wiki-2010"></div>
+<div class="activity" id="actividad-wiki-2011"></div>
+<div class="activity" id="actividad-wiki-2012"></div>
+<div class="activity" id="actividad-wiki-2013"></div>
+<div class="activity" id="actividad-wiki-2014"></div>
+<div class="activity" id="actividad-wiki-2015"></div>
+<div class="activity" id="actividad-wiki-2016"></div>
+<div class="activity" id="actividad-wiki-2017"></div>
+<div class="activity" id="actividad-wiki-2018"></div>
+</center>
+
+<script type="text/javascript">
+var highlights = new Array();
+highlights[2005] = [ new Date(2005, 3, 19) ];
+highlights[2006] = [ ];
+highlights[2007] = [ ];
+highlights[2008] = [ ];
+highlights[2009] = [ ];
+highlights[2010] = [ ];
+highlights[2011] = [ ];
+highlights[2012] = [ ];
+highlights[2013] = [ ];
+highlights[2014] = [ ];
+highlights[2015] = [ ];
+highlights[2016] = [ ];
+highlights[2017] = [ ];
+highlights[2018] = [ ];
+
+var years = new Array();
+moment.lang("es");
+for (i = 2005; i <= 2018; i++) {
+    displaylegend = i == 2018;
+    years[i] = new CalHeatMap();
+    years[i].init({
+        itemSelector: "#actividad-wiki-"+i, 
+        itemName: ["edición", "ediciones"], 
+        domain: "year", 
+        subDomain: "day", 
+        data: "actividad-wiki.json", 
+        start: new Date(i, 0), 
+        weekStartOnMonday: true, 
+        highlight: highlights[i], 
+        cellSize: 10, 
+        range: 1, 
+        displayLegend: displaylegend,
+        legend: [20, 40, 60, 80], 
+        legendTitleFormat: {
+            lower: "Menos de {min} {name}",
+            inner: "Entre {down} y {up} {name}",
+            upper: "Más de {max} {name}"
+        },
+        subDomainDateFormat:  function(date) {
+            return moment(date).format("LL");
+        }, 
+        subDomainTextFormat: function(date, value) {
+            if (value > 80) {
+                return ;
+            } else {
+                return value;
+            }
+        }, 
+    });
+}
+</script>
+
+{{actividad}}
+
+{{clear}}
+
+{{footer}}
