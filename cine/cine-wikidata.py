@@ -67,14 +67,17 @@ def main():
         else:
             continue
         
+        #print(q)
+        #if 'P345' in claims:
+        #    print(claims['P345'])
         items[q] = {
             'q': q, 
             'len': page['page_len'], 
             'creation': page['human_time'], 
             'label-es': 'es' in labels and labels['es']['value'] or u'Título desconocido', 
-            'fa': 'P480' in claims and claims['P480'][0]['mainsnak']['datavalue']['value'] or '-', 
-            'imdb': 'P345' in claims and claims['P345'][0]['mainsnak']['datavalue']['value'] or '-',  
-            'tmdb': 'P4947' in claims and claims['P4947'][0]['mainsnak']['datavalue']['value'] or '-', 
+            'fa': 'P480' in claims and 'datavalue' in claims['P480'][0]['mainsnak'] and claims['P480'][0]['mainsnak']['datavalue']['value'] or '-', 
+            'imdb': 'P345' in claims and 'datavalue' in claims['P345'][0]['mainsnak'] and claims['P345'][0]['mainsnak']['datavalue']['value'] or '-',  
+            'tmdb': 'P4947' in claims and 'datavalue' in claims['P4947'][0]['mainsnak'] and claims['P4947'][0]['mainsnak']['datavalue']['value'] or '-', 
         }
         print(items[q]['q'], items[q]['label-es'], items[q]['fa'])
         time.sleep(0.1)

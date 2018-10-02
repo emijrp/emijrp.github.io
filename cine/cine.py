@@ -26,7 +26,7 @@ monthnames = { 1: 'enero', 2: 'febrero', 3: 'marzo', 4: 'abril', 5: 'mayo', 6: '
 country2id = {
     u'Unión Soviética': u'ZY', 
 }
-sleep = 2
+sleep = 3
 
 def cleanFilmCountry(filmcountry):
     filmcountry = filmcountry.strip()

@@ -49,7 +49,7 @@ def main():
         time.sleep(3)
     
     #films to watch
-    topics = ['origins', 'mylist', ]
+    topics = ['origins'] #, 'mylist', ]
     filmstowatchfeed = {
         'origins': ['https://www.filmaffinity.com/es/advsearch.php?page=%s&stype[]=title&toyear=1905' % (page) for page in range(1, 100)], #cada pag tiene 25 films
         'mylist': ['https://www.filmaffinity.com/es/userlist.php?user_id=397713&list_id=201&page=%s' % (page) for page in range(1, 20)], #cada pag tiene 50 films
