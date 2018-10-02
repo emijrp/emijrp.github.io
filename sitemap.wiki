@@ -22,7 +22,7 @@
         <td>2</td>
         <td><a href="./agenda.html">./agenda.html</a></td>
         <td><a href="./agenda.wiki">./agenda.wiki</a></td>
-        <td>5266</td>
+        <td>5291</td>
     </tr>
 
     <tr>
@@ -64,7 +64,7 @@
         <td>8</td>
         <td><a href="./biblioteca.html">./biblioteca.html</a></td>
         <td><a href="./biblioteca.wiki">./biblioteca.wiki</a></td>
-        <td>47697</td>
+        <td>47700</td>
     </tr>
 
     <tr>
@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>629726</td>
+        <td>637949</td>
     </tr>
 
     <tr>
@@ -211,7 +211,7 @@
         <td>29</td>
         <td><a href="./nostalgia.html">./nostalgia.html</a></td>
         <td><a href="./nostalgia.wiki">./nostalgia.wiki</a></td>
-        <td>3663</td>
+        <td>4252</td>
     </tr>
 
     <tr>
@@ -253,7 +253,7 @@
         <td>35</td>
         <td><a href="./sitemap.html">./sitemap.html</a></td>
         <td><a href="./sitemap.wiki">./sitemap.wiki</a></td>
-        <td>52186</td>
+        <td>52246</td>
     </tr>
 
     <tr>
@@ -267,7 +267,7 @@
         <td>37</td>
         <td><a href="./software.html">./software.html</a></td>
         <td><a href="./software.wiki">./software.wiki</a></td>
-        <td>76625</td>
+        <td>78368</td>
     </tr>
 
     <tr>
@@ -358,28 +358,28 @@
         <td>50</td>
         <td><a href="cine/cine-wikidata.html">cine/cine-wikidata.html</a></td>
         <td><a href="cine/cine-wikidata.wiki">cine/cine-wikidata.wiki</a></td>
-        <td>24813</td>
+        <td>25953</td>
     </tr>
 
     <tr>
         <td>51</td>
         <td><a href="cine/cine.html">cine/cine.html</a></td>
         <td><a href="cine/cine.wiki">cine/cine.wiki</a></td>
-        <td>63265</td>
+        <td>63290</td>
     </tr>
 
     <tr>
         <td>52</td>
         <td><a href="cine/documentales.html">cine/documentales.html</a></td>
         <td><a href="cine/documentales.wiki">cine/documentales.wiki</a></td>
-        <td>214378</td>
+        <td>247051</td>
     </tr>
 
     <tr>
         <td>53</td>
         <td><a href="cine/estadisticas-cine.html">cine/estadisticas-cine.html</a></td>
         <td><a href="cine/estadisticas-cine.wiki">cine/estadisticas-cine.wiki</a></td>
-        <td>903675</td>
+        <td>925505</td>
     </tr>
 
     <tr>
@@ -414,7 +414,7 @@
         <td>58</td>
         <td><a href="cine/series.html">cine/series.html</a></td>
         <td><a href="cine/series.wiki">cine/series.wiki</a></td>
-        <td>44589</td>
+        <td>44533</td>
     </tr>
 
     <tr>
@@ -869,7 +869,7 @@
         <td>123</td>
         <td><a href="fotografia/fotografia.html">fotografia/fotografia.html</a></td>
         <td><a href="fotografia/fotografia.wiki">fotografia/fotografia.wiki</a></td>
-        <td>197132</td>
+        <td>197443</td>
     </tr>
 
     <tr>
@@ -909,58 +909,58 @@
 
     <tr>
         <td>129</td>
-        <td><a href="historia/documentales-memoria-historica.html">historia/documentales-memoria-historica.html</a></td>
-        <td><a href="historia/documentales-memoria-historica.wiki">historia/documentales-memoria-historica.wiki</a></td>
-        <td>3008</td>
+        <td><a href="historia/crimenes-del-capitalismo.html">historia/crimenes-del-capitalismo.html</a></td>
+        <td><a href="historia/crimenes-del-capitalismo.wiki">historia/crimenes-del-capitalismo.wiki</a></td>
+        <td>8945</td>
     </tr>
 
     <tr>
         <td>130</td>
+        <td><a href="historia/documentales-memoria-historica.html">historia/documentales-memoria-historica.html</a></td>
+        <td><a href="historia/documentales-memoria-historica.wiki">historia/documentales-memoria-historica.wiki</a></td>
+        <td>4973</td>
+    </tr>
+
+    <tr>
+        <td>131</td>
         <td><a href="historia/historia-de-espana.html">historia/historia-de-espana.html</a></td>
         <td><a href="historia/historia-de-espana.wiki">historia/historia-de-espana.wiki</a></td>
         <td>624</td>
     </tr>
 
     <tr>
-        <td>131</td>
+        <td>132</td>
         <td><a href="historia/historia-de-las-bibliotecas.html">historia/historia-de-las-bibliotecas.html</a></td>
         <td><a href="historia/historia-de-las-bibliotecas.wiki">historia/historia-de-las-bibliotecas.wiki</a></td>
         <td>3031</td>
     </tr>
 
     <tr>
-        <td>132</td>
+        <td>133</td>
         <td><a href="historia/historia-de-las-enciclopedias.html">historia/historia-de-las-enciclopedias.html</a></td>
         <td><a href="historia/historia-de-las-enciclopedias.wiki">historia/historia-de-las-enciclopedias.wiki</a></td>
         <td>1243</td>
     </tr>
 
     <tr>
-        <td>133</td>
+        <td>134</td>
         <td><a href="historia/historia.html">historia/historia.html</a></td>
         <td><a href="historia/historia.wiki">historia/historia.wiki</a></td>
         <td>5604</td>
     </tr>
 
     <tr>
-        <td>134</td>
+        <td>135</td>
         <td><a href="historia/index.html">historia/index.html</a></td>
         <td><a href="historia/index.wiki">historia/index.wiki</a></td>
         <td>30</td>
     </tr>
 
     <tr>
-        <td>135</td>
+        <td>136</td>
         <td><a href="historia/memoria-historica.html">historia/memoria-historica.html</a></td>
         <td><a href="historia/memoria-historica.wiki">historia/memoria-historica.wiki</a></td>
         <td>16962</td>
-    </tr>
-
-    <tr>
-        <td>136</td>
-        <td><a href="historia/represion.html">historia/represion.html</a></td>
-        <td><a href="historia/represion.wiki">historia/represion.wiki</a></td>
-        <td>1824</td>
     </tr>
 
     <tr>
@@ -1142,7 +1142,7 @@
         <td>162</td>
         <td><a href="preservacion/preservacion-digital.html">preservacion/preservacion-digital.html</a></td>
         <td><a href="preservacion/preservacion-digital.wiki">preservacion/preservacion-digital.wiki</a></td>
-        <td>7900</td>
+        <td>7993</td>
     </tr>
 
     <tr>
@@ -1205,7 +1205,7 @@
         <td>171</td>
         <td><a href="viajes/turismo-rojo.html">viajes/turismo-rojo.html</a></td>
         <td><a href="viajes/turismo-rojo.wiki">viajes/turismo-rojo.wiki</a></td>
-        <td>19365</td>
+        <td>20047</td>
     </tr>
 
     <tr>
@@ -1492,7 +1492,7 @@
         <td>212</td>
         <td><a href="wikis/locapedias.html">wikis/locapedias.html</a></td>
         <td><a href="wikis/locapedias.wiki">wikis/locapedias.wiki</a></td>
-        <td>59408</td>
+        <td>59211</td>
     </tr>
 
     <tr>
