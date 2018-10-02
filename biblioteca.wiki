@@ -205,7 +205,7 @@ Esta tabla es una copia de los libros que he puntuado en [https://www.goodreads.
     <tr>
         <td>15</td>
         <td sorttable_customkey="El Libro Verde"><i><a href="https://www.goodreads.com/book/show/20433217-el-libro-verde">El Libro Verde</a></i></td>
-        <td><a href="https://www.goodreads.com/author/show/673425.Muammar_Gaddafi">القذافي, معمر</a></td>
+        <td><a href="https://www.goodreads.com/author/show/673425.Muammar_Gaddafi">Gaddafi, Muammar</a></td>
         <td><a href="https://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn="></a></td>
         <td><a href="https://www.google.es/?gws_rd=ssl#q=El+Libro+Verde">Buscar</a></td>
         <!--<td>...</td>-->
