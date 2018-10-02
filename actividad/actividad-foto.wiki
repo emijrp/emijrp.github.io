@@ -1,5 +1,7 @@
 {{headerheatmap|1=Actividad en fotografía}}
 
+{{actividad}}
+
 {{ap|1={{:rootpath}}/fotografia/fotografia|2=Fotografía}}
 
 Mi '''actividad en [[{{:rootpath}}/fotografia/fotografia|fotografía]]''' consiste en la publicación en [https://www.flickr.com/photos/emijrp/ Flickr] y [https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1 Commons] de la mayoría de las fotografías que tomo.

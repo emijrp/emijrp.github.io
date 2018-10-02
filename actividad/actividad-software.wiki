@@ -1,5 +1,7 @@
 {{headerheatmap|1=Actividad en software}}
 
+{{actividad}}
+
 {{ap|1={{:rootpath}}/software|2=Software}}
 
 Mi '''actividad en [[{{:rootpath}}/software|software]]''' consiste en el desarrollo de software libre que he publicado en distintas forjas a lo largo de los años, en [https://github.com/emijrp GitHub] principalmente. El resto de código que había subido a Rediris o Google Code, lo migré en su mayoría a GitHub cuando aquellos servicios cerraron. La primera vez que subí código a la red fue el 12 de agosto de 2006.
