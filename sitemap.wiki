@@ -890,7 +890,7 @@
         <td>126</td>
         <td><a href="fotografia/fotografia.html">fotografia/fotografia.html</a></td>
         <td><a href="fotografia/fotografia.wiki">fotografia/fotografia.wiki</a></td>
-        <td>197443</td>
+        <td>200819</td>
     </tr>
 
     <tr>
