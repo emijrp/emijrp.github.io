@@ -166,12 +166,8 @@ Lugares especialmente destacables.
 * Alhambra (Granada)
 * [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo General de Indias] (Sevilla)
 * Casas Colgadas de Cuenca
-* [https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba]
 * [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo]
-* [https://www.flickr.com/photos/emijrp/sets/72157668802519852/ Ciudad vieja de Ávila e iglesias extramuros]
 * [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres]
-* [https://www.flickr.com/photos/emijrp/sets/72157666349527594 Ciudad vieja y acueducto de Segovia]
-* [https://www.flickr.com/photos/emijrp/sets/72157635972571646 Obras de Antonio Gaudí]
 * Palau de la Música Catalana
 * [https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Real Sitio de Aranjuez]
 
@@ -251,6 +247,134 @@ Otras experiencias a destacar, por ejemplo animales que he visto (básicamente e
 * '''Zoobotánico Jerez''': cebras, elefante, jirafas.
 
 -->
+
+=== Ciudades y sitios UNESCO ===
+
+España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO''' con 47 de estos sitios, por detrás de Italia (54) y China (53).
+
+<table class="wikitable sortable" style="text-align: center;font-size: 90%;">
+
+<tr>
+<th>Sitio UNESCO</th>
+<th>Lugar</th>
+<th>Comunidad autónoma</th>
+<th class="sorttable_alpha">Año desig.</th>
+<th>Visitado</th>
+<th>Descripción</th>
+<th>Imagen</th>
+</tr>
+
+<tr>
+<td>'''Cueva de Altamira y Arte Rupestre Paleolítico del Norte de España'''</td>
+<td>-</td>
+<td>Asturias<br/>Cantabria<br/>País Vasco</td>
+<td>1985</td>
+<td>No*</td>
+<td>* Visitada [https://www.flickr.com/photos/emijrp/sets/72157682416497083/ réplica de la Cueva de Altamira] en el Museo Arqueológico Nacional en Madrid.</td>
+<td>[[File:replica-cueva-altamira.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157666349527594 Ciudad vieja y acueducto de Segovia]'''</td>
+<td>Segovia</td>
+<td>Castilla y León</td>
+<td>1985</td>
+<td>Sí</td>
+<td>El acueducto romano fue construido en el siglo I, el alcázar medieval en el siglo XI y la catedral en el siglo XVI.</td>
+<td>[[File:segovia1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Monumentos de Oviedo y del Reino de Asturias'''</td>
+<td>Oviedo</td>
+<td>Asturias</td>
+<td>1985</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba]'''</td>
+<td>Córdoba</td>
+<td>Andalucía</td>
+<td>1984</td>
+<td>Sí</td>
+<td>Incluyendo la Mezquita de Córdoba.</td>
+<td>[[File:centro-de-cordoba.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Alhambra, Generalife y Albaicín de Granada'''</td>
+<td>Granada</td>
+<td>Andalucía</td>
+<td>1984</td>
+<td>Sí*</td>
+<td>* Visitado hace muchos años, antes de tener cámara digital. Tengo que escanear las fotos.</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157685366466365 Catedral de Burgos]'''</td>
+<td>Burgos</td>
+<td>Castilla y León</td>
+<td>1984</td>
+<td>Sí</td>
+<td>Construida entre los siglos XIII y XVI. Lugar donde está enterrado El Cíd.</td>
+<td>[[File:burgos1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Monasterio y Sitio de El Escorial'''</td>
+<td>San Lorenzo de El Escorial</td>
+<td>Comunidad de Madrid</td>
+<td>1984</td>
+<td>No</td>
+<td>Uno de los reales sitios, que fue residencia de la familia real.</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157635972571646 Obras de Antonio Gaudí]'''</td>
+<td>Barcelona</td>
+<td>Cataluña</td>
+<td>1984</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:obras-antonio-gaudi.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Ciudad vieja de Santiago de Compostela'''</td>
+<td>Santiago de Compostela</td>
+<td>Galicia</td>
+<td>1985</td>
+<td>No</td>
+<td>La Catedral de Santiago, supuesto lugar de enterramiento del apostol del mismo nombre, y final del trayecto de peregrinaje del Camino de Santiago.</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157668802519852/ Ciudad vieja de Ávila e iglesias extramuros]'''</td>
+<td>Ávila</td>
+<td>Castilla y León</td>
+<td>1985</td>
+<td>Sí</td>
+<td>Sistema defensivo construido en el siglo XI alrededor de la ciudad original. Se compone de 82 torres y 9 puertas.</td>
+<td>[[File:avila1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</table>
 
 == Lo aprendido ==
 
