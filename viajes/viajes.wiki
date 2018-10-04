@@ -260,46 +260,6 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Cueva de Altamira y arte rupestre paleolítico del Norte de España'''</td>
-<td>-</td>
-<td>Asturias<br/>Cantabria<br/>País Vasco</td>
-<td>1985</td>
-<td>No*</td>
-<td>* Visitada [https://www.flickr.com/photos/emijrp/sets/72157682416497083/ réplica de la Cueva de Altamira] en el Museo Arqueológico Nacional en Madrid.</td>
-<td>[[File:replica-cueva-altamira.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/sets/72157666349527594 Ciudad vieja y acueducto de Segovia]'''</td>
-<td>Segovia</td>
-<td>Castilla y León</td>
-<td>1985</td>
-<td>Sí</td>
-<td>El acueducto romano fue construido en el siglo I, el alcázar medieval en el siglo XI y la catedral en el siglo XVI.</td>
-<td>[[File:segovia1.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''Monumentos de Oviedo y del Reino de Asturias'''</td>
-<td>Oviedo</td>
-<td>Asturias</td>
-<td>1985</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba]'''</td>
-<td>Córdoba</td>
-<td>Andalucía</td>
-<td>1984</td>
-<td>Sí</td>
-<td>Incluyendo la Mezquita de Córdoba.</td>
-<td>[[File:centro-de-cordoba.jpg|200px]]</td>
-</tr>
-
-<tr>
 <td>'''Alhambra, Generalife y Albaicín de Granada'''</td>
 <td>Granada</td>
 <td>Andalucía</td>
@@ -307,56 +267,6 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 <td>Sí*</td>
 <td>* Visitado hace muchos años, antes de tener cámara digital. Tengo que escanear las fotos.</td>
 <td>-</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/albums/72157685366466365 Catedral de Burgos]'''</td>
-<td>Burgos</td>
-<td>Castilla y León</td>
-<td>1984</td>
-<td>Sí</td>
-<td>Construida entre los siglos XIII y XVI. Lugar donde está enterrado El Cíd.</td>
-<td>[[File:burgos1.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''Monasterio y Sitio de El Escorial'''</td>
-<td>San Lorenzo de El Escorial</td>
-<td>Comunidad de Madrid</td>
-<td>1984</td>
-<td>No</td>
-<td>Uno de los reales sitios, que fue residencia de la familia real.</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/sets/72157635972571646 Obras de Antonio Gaudí]'''</td>
-<td>Barcelona</td>
-<td>Cataluña</td>
-<td>1984</td>
-<td>Sí</td>
-<td>-</td>
-<td>[[File:obras-antonio-gaudi.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''Ciudad vieja de Santiago de Compostela'''</td>
-<td>Santiago de Compostela</td>
-<td>Galicia</td>
-<td>1985</td>
-<td>No</td>
-<td>La Catedral de Santiago, supuesto lugar de enterramiento del apostol del mismo nombre, y final del trayecto de peregrinaje del Camino de Santiago.</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/sets/72157668802519852/ Ciudad vieja de Ávila e iglesias extramuros]'''</td>
-<td>Ávila</td>
-<td>Castilla y León</td>
-<td>1985</td>
-<td>Sí</td>
-<td>Sistema defensivo construido en el siglo XI alrededor de la ciudad original. Se compone de 82 torres y 9 puertas.</td>
-<td>[[File:avila1.jpg|200px]]</td>
 </tr>
 
 <tr>
@@ -370,100 +280,10 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''[https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo]'''</td>
-<td>Toledo</td>
-<td>Castilla-La Mancha</td>
-<td>1986</td>
-<td>Sí</td>
+<td>'''Arte rupestre del arco mediterráneo de la Península Ibérica'''</td>
 <td>-</td>
-<td>[[File:toledo1.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''Parque Nacional de Garajonay'''</td>
-<td>La Gomera</td>
-<td>Islas Canarias</td>
-<td>1986</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/albums/72157677963527355 Ciudad vieja de Salamanca]'''</td>
-<td>Salamanca</td>
-<td>Castilla y León</td>
-<td>1988</td>
-<td>Sí</td>
-<td>Ciudad universitaria desde la fundación de la Universidad de Salamanca en 1218, la más antigua de España y de las más antiguas de Europa.</td>
-<td>[[File:salamanca1.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/sets/72157633953852648 Catedral], [https://www.flickr.com/photos/emijrp/albums/72157635853108736 Alcázar] y [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo de Indias] en Sevilla'''</td>
-<td>Sevilla</td>
-<td>Andalucía</td>
-<td>1987</td>
-<td>Sí</td>
-<td>-</td>
-<td>[[File:catedral-alcazar-archivo.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres]'''</td>
-<td>Cáceres</td>
-<td>Extremadura</td>
-<td>1986</td>
-<td>Sí</td>
-<td>-</td>
-<td>[[File:centro-caceres.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''Ibiza, biodiversidad y cultura'''</td>
-<td>Ibiza</td>
-<td>Islas Baleares</td>
-<td>1999</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Monasterio de Poblet'''</td>
-<td>Vimbodí</td>
-<td>Cataluña</td>
-<td>1991</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Conjuntos monumentales renacentistas de Úbeda y Baeza'''</td>
-<td>Provincia de Jaén</td>
-<td>Andalucía</td>
-<td>2003</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Conjunto arqueológico de Mérida'''</td>
-<td>Mérida</td>
-<td>Extremadura</td>
-<td>1993</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Real Monasterio de Santa María de Guadalupe'''</td>
-<td>Guadalupe</td>
-<td>Extremadura</td>
-<td>1993</td>
+<td>Andalucía<br/>Murcia<br/>Valencia</td>
+<td>1998</td>
 <td>No</td>
 <td>-</td>
 <td>-</td>
@@ -480,23 +300,53 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Parque Nacional de Doñana'''</td>
-<td>Provincia de Huelva</td>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157633953852648 Catedral], [https://www.flickr.com/photos/emijrp/albums/72157635853108736 Alcázar] y [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo de Indias] en Sevilla'''</td>
+<td>Sevilla</td>
 <td>Andalucía</td>
-<td>1994</td>
-<td>No</td>
+<td>1987</td>
+<td>Sí</td>
 <td>-</td>
-<td>-</td>
+<td>[[File:catedral-alcazar-archivo.jpg|200px]]</td>
 </tr>
 
 <tr>
-<td>'''Pirineos - Monte Perdido'''</td>
-<td>Provincia de Huesca</td>
-<td>Aragón</td>
-<td>1997</td>
-<td>No</td>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157685366466365 Catedral de Burgos]'''</td>
+<td>Burgos</td>
+<td>Castilla y León</td>
+<td>1984</td>
+<td>Sí</td>
+<td>Construida entre los siglos XIII y XVI. Lugar donde está enterrado El Cíd.</td>
+<td>[[File:burgos1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157664195542144/ Centro histórico de Córdoba]'''</td>
+<td>Córdoba</td>
+<td>Andalucía</td>
+<td>1984</td>
+<td>Sí</td>
+<td>Incluyendo la Mezquita de Córdoba.</td>
+<td>[[File:centro-de-cordoba.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157664195542164 Ciudad Califal de Medina Azahara]'''</td>
+<td>Córdoba</td>
+<td>Andalucía</td>
+<td>2018</td>
+<td>Sí</td>
 <td>-</td>
+<td>[[File:medina-azahara.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo]'''</td>
+<td>Toledo</td>
+<td>Castilla-La Mancha</td>
+<td>1986</td>
+<td>Sí</td>
 <td>-</td>
+<td>[[File:toledo1.jpg|200px]]</td>
 </tr>
 
 <tr>
@@ -507,6 +357,126 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 <td>Sí</td>
 <td>-</td>
 <td>[[File:cuenca1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157668802519852/ Ciudad vieja de Ávila e iglesias extramuros]'''</td>
+<td>Ávila</td>
+<td>Castilla y León</td>
+<td>1985</td>
+<td>Sí</td>
+<td>Sistema defensivo construido en el siglo XI alrededor de la ciudad original. Se compone de 82 torres y 9 puertas.</td>
+<td>[[File:avila1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres]'''</td>
+<td>Cáceres</td>
+<td>Extremadura</td>
+<td>1986</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:centro-caceres.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157677963527355 Ciudad vieja de Salamanca]'''</td>
+<td>Salamanca</td>
+<td>Castilla y León</td>
+<td>1988</td>
+<td>Sí</td>
+<td>Ciudad universitaria desde la fundación de la Universidad de Salamanca en 1218, la más antigua de España y de las más antiguas de Europa.</td>
+<td>[[File:salamanca1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Ciudad vieja de Santiago de Compostela'''</td>
+<td>Santiago de Compostela</td>
+<td>Galicia</td>
+<td>1985</td>
+<td>No</td>
+<td>La Catedral de Santiago, supuesto lugar de enterramiento del apostol del mismo nombre, y final del trayecto de peregrinaje del Camino de Santiago.</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157666349527594 Ciudad vieja y acueducto de Segovia]'''</td>
+<td>Segovia</td>
+<td>Castilla y León</td>
+<td>1985</td>
+<td>Sí</td>
+<td>El acueducto romano fue construido en el siglo I, el alcázar medieval en el siglo XI y la catedral en el siglo XVI.</td>
+<td>[[File:segovia1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Conjunto arqueológico de Mérida'''</td>
+<td>Mérida</td>
+<td>Extremadura</td>
+<td>1993</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Conjunto arqueológico de Tarraco'''</td>
+<td>Tarragona</td>
+<td>Cataluña</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Conjuntos monumentales renacentistas de Úbeda y Baeza'''</td>
+<td>Provincia de Jaén</td>
+<td>Andalucía</td>
+<td>2003</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Cueva de Altamira y arte rupestre paleolítico del Norte de España'''</td>
+<td>-</td>
+<td>Asturias<br/>Cantabria<br/>País Vasco</td>
+<td>1985</td>
+<td>No*</td>
+<td>* Visitada [https://www.flickr.com/photos/emijrp/sets/72157682416497083/ réplica de la Cueva de Altamira] en el Museo Arqueológico Nacional en Madrid.</td>
+<td>[[File:replica-cueva-altamira.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Hayedos primarios de los Cárpatos y otras regiones de Europa'''</td>
+<td>-</td>
+<td>Castilla y León</td>
+<td>2017</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Ibiza, biodiversidad y cultura'''</td>
+<td>Ibiza</td>
+<td>Islas Baleares</td>
+<td>1999</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Iglesias románicas catalanas de la Vall de Boí'''</td>
+<td>Vall de Boí</td>
+<td>Cataluña</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
 </tr>
 
 <tr>
@@ -530,13 +500,23 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Palau de la Música Catalana y Hospital de Sant Pau'''</td>
-<td>Barcelona</td>
+<td>'''Monasterio de Poblet'''</td>
+<td>Vimbodí</td>
 <td>Cataluña</td>
-<td>1997</td>
-<td>Sí</td>
+<td>1991</td>
+<td>No</td>
 <td>-</td>
-<td>[[File:palau-musica.jpg|200px]]</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Monasterio y Sitio de El Escorial'''</td>
+<td>San Lorenzo de El Escorial</td>
+<td>Comunidad de Madrid</td>
+<td>1984</td>
+<td>No</td>
+<td>Uno de los reales sitios, que fue residencia de la familia real.</td>
+<td>-</td>
 </tr>
 
 <tr>
@@ -550,60 +530,10 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Sitios de arte rupestre prehistórico del Valle del Côa y de Siega Verde'''</td>
-<td>-</td>
-<td>Castilla y León</td>
-<td>1998</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Arte rupestre del arco mediterráneo de la Península Ibérica'''</td>
-<td>-</td>
-<td>Andalucía<br/>Murcia<br/>Valencia</td>
-<td>1998</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Conjunto arqueológico de Tarraco'''</td>
-<td>Tarragona</td>
-<td>Cataluña</td>
-<td>2000</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''[https://www.flickr.com/photos/emijrp/albums/72157635972502646 Universidad y barrio histórico de Alcalá de Henares]'''</td>
-<td>Alcalá de Henares</td>
-<td>Comunidad de Madrid</td>
-<td>1998</td>
-<td>Sí</td>
-<td>-</td>
-<td>[[File:universidad-alcala-henares.jpg|200px]]</td>
-</tr>
-
-<tr>
-<td>'''San Cristóbal de La Laguna'''</td>
-<td>San Cristóbal de La Laguna</td>
-<td>Islas Canarias</td>
-<td>1999</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Palmeral de Elche'''</td>
-<td>Elche</td>
-<td>Comunidad Valenciana</td>
-<td>2000</td>
+<td>'''Monumentos de Oviedo y del Reino de Asturias'''</td>
+<td>Oviedo</td>
+<td>Asturias</td>
+<td>1985</td>
 <td>No</td>
 <td>-</td>
 <td>-</td>
@@ -620,23 +550,13 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Iglesias románicas catalanas de la Vall de Boí'''</td>
-<td>Vall de Boí</td>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157635972571646 Obras de Antonio Gaudí]'''</td>
+<td>Barcelona</td>
 <td>Cataluña</td>
-<td>2000</td>
-<td>No</td>
+<td>1984</td>
+<td>Sí</td>
 <td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Yacimiento arqueológico de Atapuerca'''</td>
-<td>Atapuerca</td>
-<td>Castilla y León</td>
-<td>2000</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
+<td>[[File:obras-antonio-gaudi.jpg|200px]]</td>
 </tr>
 
 <tr>
@@ -650,10 +570,50 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Puente de Vizcaya'''</td>
-<td>Portugalete</td>
-<td>País Vasco</td>
-<td>2006</td>
+<td>'''Paisaje cultural de la Serra de Tramuntana'''</td>
+<td>Mallorca</td>
+<td>Islas Baleares</td>
+<td>2011</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Palau de la Música Catalana y Hospital de Sant Pau'''</td>
+<td>Barcelona</td>
+<td>Cataluña</td>
+<td>1997</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:palau-musica.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Palmeral de Elche'''</td>
+<td>Elche</td>
+<td>Comunidad Valenciana</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Parque Nacional de Doñana'''</td>
+<td>Provincia de Huelva</td>
+<td>Andalucía</td>
+<td>1994</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Parque Nacional de Garajonay'''</td>
+<td>La Gomera</td>
+<td>Islas Canarias</td>
+<td>1986</td>
 <td>No</td>
 <td>-</td>
 <td>-</td>
@@ -670,30 +630,50 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Torre de Hércules'''</td>
-<td>A Coruña</td>
-<td>Galicia</td>
-<td>2009</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
-<td>'''Paisaje cultural de la Serra de Tramuntana'''</td>
-<td>Mallorca</td>
-<td>Islas Baleares</td>
-<td>2011</td>
-<td>No</td>
-<td>-</td>
-<td>-</td>
-</tr>
-
-<tr>
 <td>'''Patrimonio del mercurio (Almadén e Idrija)'''</td>
 <td>Almadén</td>
 <td>Castilla-La Mancha</td>
 <td>2012</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Pirineos - Monte Perdido'''</td>
+<td>Provincia de Huesca</td>
+<td>Aragón</td>
+<td>1997</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Puente de Vizcaya'''</td>
+<td>Portugalete</td>
+<td>País Vasco</td>
+<td>2006</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Real Monasterio de Santa María de Guadalupe'''</td>
+<td>Guadalupe</td>
+<td>Extremadura</td>
+<td>1993</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''San Cristóbal de La Laguna'''</td>
+<td>San Cristóbal de La Laguna</td>
+<td>Islas Canarias</td>
+<td>1999</td>
 <td>No</td>
 <td>-</td>
 <td>-</td>
@@ -710,23 +690,43 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Hayedos primarios de los Cárpatos y otras regiones de Europa'''</td>
+<td>'''Sitios de arte rupestre prehistórico del Valle del Côa y de Siega Verde'''</td>
 <td>-</td>
 <td>Castilla y León</td>
-<td>2017</td>
+<td>1998</td>
 <td>No</td>
 <td>-</td>
 <td>-</td>
 </tr>
 
 <tr>
-<td>'''[https://www.flickr.com/photos/emijrp/albums/72157664195542164 Ciudad Califal de Medina Azahara]'''</td>
-<td>Córdoba</td>
-<td>Andalucía</td>
-<td>2018</td>
+<td>'''Torre de Hércules'''</td>
+<td>A Coruña</td>
+<td>Galicia</td>
+<td>2009</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157635972502646 Universidad y barrio histórico de Alcalá de Henares]'''</td>
+<td>Alcalá de Henares</td>
+<td>Comunidad de Madrid</td>
+<td>1998</td>
 <td>Sí</td>
 <td>-</td>
-<td>[[File:medina-azahara.jpg|200px]]</td>
+<td>[[File:universidad-alcala-henares.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Yacimiento arqueológico de Atapuerca'''</td>
+<td>Atapuerca</td>
+<td>Castilla y León</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
 </tr>
 
 </table>
