@@ -163,11 +163,6 @@ Lugares especialmente destacables.
 '''Ciudades y sitios UNESCO'''
 
 * [https://www.flickr.com/photos/emijrp/collections/72157666100001405/ Alcalá de Henares]
-* Alhambra (Granada)
-* [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo General de Indias] (Sevilla)
-* Casas Colgadas de Cuenca
-* [https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo]
-* [https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres]
 * Palau de la Música Catalana
 * [https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Real Sitio de Aranjuez]
 
@@ -250,7 +245,7 @@ Otras experiencias a destacar, por ejemplo animales que he visto (básicamente e
 
 === Ciudades y sitios UNESCO ===
 
-España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO''' con 47 de estos sitios, por detrás de Italia (54) y China (53).
+España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO''' con 47 de estos sitios, por detrás de Italia (54) y China (53). En la siguiente tabla recojo alguna información básica sobre los sitios y si lo he visitado.
 
 <table class="wikitable sortable" style="text-align: center;font-size: 90%;">
 
@@ -265,7 +260,7 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td>'''Cueva de Altamira y Arte Rupestre Paleolítico del Norte de España'''</td>
+<td>'''Cueva de Altamira y arte rupestre paleolítico del Norte de España'''</td>
 <td>-</td>
 <td>Asturias<br/>Cantabria<br/>País Vasco</td>
 <td>1985</td>
@@ -365,13 +360,373 @@ España es el tercer país del mundo por número de '''Ciudades y sitios UNESCO'
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>'''Arquitectura mudejar de Aragón'''</td>
+<td>Teruel<br/>Zaragoza</td>
+<td>Aragón</td>
+<td>1986</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/collections/72157668231760012/ Ciudad histórica de Toledo]'''</td>
+<td>Toledo</td>
+<td>Castilla-La Mancha</td>
+<td>1986</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:toledo1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Parque Nacional de Garajonay'''</td>
+<td>La Gomera</td>
+<td>Islas Canarias</td>
+<td>1986</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157677963527355 Ciudad vieja de Salamanca]'''</td>
+<td>Salamanca</td>
+<td>Castilla y León</td>
+<td>1988</td>
+<td>Sí</td>
+<td>Ciudad universitaria desde la fundación de la Universidad de Salamanca en 1218, la más antigua de España y de las más antiguas de Europa.</td>
+<td>[[File:salamanca1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157633953852648 Catedral], [https://www.flickr.com/photos/emijrp/albums/72157635853108736 Alcázar] y [https://www.flickr.com/photos/emijrp/sets/72157634357633140 Archivo de Indias] en Sevilla'''</td>
+<td>Sevilla</td>
+<td>Andalucía</td>
+<td>1987</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:catedral-alcazar-archivo.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/sets/72157635695236126/ Ciudad vieja de Cáceres]'''</td>
+<td>Cáceres</td>
+<td>Extremadura</td>
+<td>1986</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:centro-caceres.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Ibiza, biodiversidad y cultura'''</td>
+<td>Ibiza</td>
+<td>Islas Baleares</td>
+<td>1999</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Monasterio de Poblet'''</td>
+<td>Vimbodí</td>
+<td>Cataluña</td>
+<td>1991</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Conjuntos monumentales renacentistas de Úbeda y Baeza'''</td>
+<td>Provincia de Jaén</td>
+<td>Andalucía</td>
+<td>2003</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Conjunto arqueológico de Mérida'''</td>
+<td>Mérida</td>
+<td>Extremadura</td>
+<td>1993</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Real Monasterio de Santa María de Guadalupe'''</td>
+<td>Guadalupe</td>
+<td>Extremadura</td>
+<td>1993</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Caminos de Santiago de Compostela: Camino francés y Caminos del Norte de España'''</td>
+<td>-</td>
+<td>-</td>
+<td>1993</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Parque Nacional de Doñana'''</td>
+<td>Provincia de Huelva</td>
+<td>Andalucía</td>
+<td>1994</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Pirineos - Monte Perdido'''</td>
+<td>Provincia de Huesca</td>
+<td>Aragón</td>
+<td>1997</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Ciudad histórica fortificada de Cuenca'''</td>
+<td>Cuenca</td>
+<td>Castilla-La Mancha</td>
+<td>1996</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:cuenca1.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''La Lonja de la Seda de Valencia'''</td>
+<td>Valencia</td>
+<td>Comunidad Valenciana</td>
+<td>1996</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Las Médulas'''</td>
+<td>Ponferrada</td>
+<td>Castilla y León</td>
+<td>1997</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Palau de la Música Catalana y Hospital de Sant Pau'''</td>
+<td>Barcelona</td>
+<td>Cataluña</td>
+<td>1997</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:palau-musica.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Monasterios de San Millán de Yuso y de Suso'''</td>
+<td>San Millán de la Cogolla</td>
+<td>La Rioja</td>
+<td>1997</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Sitios de arte rupestre prehistórico del Valle del Côa y de Siega Verde'''</td>
+<td>-</td>
+<td>Castilla y León</td>
+<td>1998</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Arte rupestre del arco mediterráneo de la Península Ibérica'''</td>
+<td>-</td>
+<td>Andalucía<br/>Murcia<br/>Valencia</td>
+<td>1998</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Conjunto arqueológico de Tarraco'''</td>
+<td>Tarragona</td>
+<td>Cataluña</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157635972502646 Universidad y barrio histórico de Alcalá de Henares]'''</td>
+<td>Alcalá de Henares</td>
+<td>Comunidad de Madrid</td>
+<td>1998</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:universidad-alcala-henares.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''San Cristóbal de La Laguna'''</td>
+<td>San Cristóbal de La Laguna</td>
+<td>Islas Canarias</td>
+<td>1999</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Palmeral de Elche'''</td>
+<td>Elche</td>
+<td>Comunidad Valenciana</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Muralla romana de Lugo'''</td>
+<td>Lugo</td>
+<td>Galicia</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Iglesias románicas catalanas de la Vall de Boí'''</td>
+<td>Vall de Boí</td>
+<td>Cataluña</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Yacimiento arqueológico de Atapuerca'''</td>
+<td>Atapuerca</td>
+<td>Castilla y León</td>
+<td>2000</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/collections/72157673145473176/ Paisaje cultural de Aranjuez]'''</td>
+<td>Aranjuez</td>
+<td>Madrid</td>
+<td>2001</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:palacio-aranjuez.jpg|200px]]</td>
+</tr>
+
+<tr>
+<td>'''Puente de Vizcaya'''</td>
+<td>Portugalete</td>
+<td>País Vasco</td>
+<td>2006</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Parque Nacional del Teide'''</td>
+<td>Tenerife</td>
+<td>Islas Canarias</td>
+<td>2007</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Torre de Hércules'''</td>
+<td>A Coruña</td>
+<td>Galicia</td>
+<td>2009</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Paisaje cultural de la Serra de Tramuntana'''</td>
+<td>Mallorca</td>
+<td>Islas Baleares</td>
+<td>2011</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Patrimonio del mercurio (Almadén e Idrija)'''</td>
+<td>Almadén</td>
+<td>Castilla-La Mancha</td>
+<td>2012</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Sitio de los Dólmenes de Antequera'''</td>
+<td>Antequera</td>
+<td>Andalucía</td>
+<td>2016</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''Hayedos primarios de los Cárpatos y otras regiones de Europa'''</td>
+<td>-</td>
+<td>Castilla y León</td>
+<td>2017</td>
+<td>No</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>'''[https://www.flickr.com/photos/emijrp/albums/72157664195542164 Ciudad Califal de Medina Azahara]'''</td>
+<td>Córdoba</td>
+<td>Andalucía</td>
+<td>2018</td>
+<td>Sí</td>
+<td>-</td>
+<td>[[File:medina-azahara.jpg|200px]]</td>
 </tr>
 
 </table>
