@@ -9,12 +9,13 @@ Control del progreso de visionado de algunas series documentales de varios episo
 
 * '''Arqueomanía''': 0 de 45. [http://www.rtve.es/alacarta/videos/arqueomania/ Ver]
 
-* '''Cartas en el tiempo''': 0 de 40. [http://www.rtve.es/alacarta/videos/cartas-en-el-tiempo/ Ver]
+* '''Cartas en el tiempo''': 1 de 40. [http://www.rtve.es/alacarta/videos/cartas-en-el-tiempo/ Ver]
+** Vistos: Voces del exilio.
 
 * '''Dictaduras latinoamericanas''': 3 de 8. [https://www.youtube.com/watch?v=ufzoqg3lIkY&list=PLZ6TIj4tHEIvUfW2n9VTAihzl49GaXZse Ver]
 
 * '''Escuela de cuadros''': 1 de 300. [https://www.youtube.com/user/escuelacuadros/featured Ver]
-** Vistos: Carta a un camarada (74)
+** Vistos: Carta a un camarada (74).
 
 * '''Imágenes prohibidas''': 2 de 14. [http://www.rtve.es/television/imagenes-prohibidas/ Ver]
 
@@ -65,21 +66,9 @@ Un listado de '''entrevistas''' o programas con este formato:
 
 == Memoria Histórica ==
 
+{{ap|1=../historia/documentales-memoria-historica|2=Documentales de Memoria Histórica}}
+
 Documentales sobre la represión durante la Guerra Civil, el franquismo, los campos de concentración, los deportados a campos nazis, etc.
-
-* [https://www.youtube.com/watch?v=9krmePXh7jE La memoria recobrada] ([https://www.youtube.com/watch?v=HHr1ePKH_w4 Ep. 2], [https://www.youtube.com/watch?v=ff-DCDIWEIE Ep. 3], [https://www.youtube.com/watch?v=-kqHp4mSYLw Ep. 4], [https://www.youtube.com/watch?v=0tigyZY_-Es Ep. 5])
-
-* [https://www.youtube.com/watch?v=MIW7kp38jVY La memoria se abre paso]
-
-* [https://www.youtube.com/watch?v=RD7tdu3x7BI La noche más larga]: Documental producido por el Foro de la Memoria del Campo de Gibraltar, dirigida por J.M. León Moriche y realizada por José Antonio Bermejo Canua. Narra cómo fueron, en cada uno de los municipios de la comarca, los primeros días del golpe militar contra la legalidad republicana. El documental aborda luego la cruenta represión desatada por las tropas franquistas, la huida de miles de personas a través de Gibraltar, el triunfo de los golpistas, la llegada a la comarca de más de 15.000 presos republicanos para construir las carreteras e instalaciones militares con las que Franco pretendía invadir Gibraltar y entrar en la Segunda Guerra Mundial, o la lucha guerrillera que tuvo lugar en las sierras del Campo de Gibraltar y Ronda hasta finales de la década de los 40.
-
-* [https://www.youtube.com/watch?v=8Dp6WnKLB6E La Sauceda, de la utopía al horror]: producido por el Foro por la Memoria del Campo de Gibraltar y la Asociación de Familiares de Represaliados por el Franquismo en La Sauceda y el Marrufo. Dirigido por Juan Miguel León Moriche y realizado por Antonio Bermejo Canua, el documental se rodó entre septiembre de 2012 y marzo de 2013. En él se cuenta la historia de un valle de la sierra que se extiende por el norte de las provincias de Cádiz y Málaga, último bastión republicano en la zona cuando las tropas franquistas ya ocupaban todas las comarcas cercanas.
-
-* Memoria de las cenizas
-
-* [https://www.youtube.com/watch?v=oLFmRdbsHzI Pantalones a la luna. La Desbandá]
-
-* [https://www.youtube.com/watch?v=CfSjmcqjoe4 Tres días de julio]
 
 == Tabla completa ==
 
