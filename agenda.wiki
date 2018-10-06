@@ -167,32 +167,45 @@ Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acont
 
 Algunos '''colectivos''' que organizan eventos periódicamente.
 
+{{div col|2}}
+
 * [http://amigosarchivojerez.com Amigos del Archivo de Jerez]
 * [http://asambleafeministapuerto.blogspot.com.es/ Asamblea Feminista Las Tres Rosas] ([https://www.facebook.com/Asamblea-Feminista-Las-Tres-Rosas-1486329731661400/ Facebook]{{o}} [https://twitter.com/asambleatres Twitter])
 * [https://ferminsalvocheaateneo.wordpress.com Ateneo Libertario Fermín Salvochea]
 * [http://www.ateneorepublicanopr.org Ateneo Republicano de Puerto Real] ([https://www.facebook.com/pg/Ateneo-Republicano-de-Puerto-Real-378609635495273/ Facebook])
 * [http://www.revistadehistoriade-elpuerto.org/menesteo/index.htm Aula de Historia Menesteo]
+* [http://bibliotecapublicapsm.blogspot.com/ Biblioteca Municipal de El Puerto]
 * [https://filomonium.wordpress.com Filomonium]
 * [https://www.facebook.com/memoriaelpuerto Foro por la Memoria de El Puerto]
 * Fundación Rafael Alberti
+* [https://www.facebook.com/Memoria-Hist%C3%B3rica-y-Democr%C3%A1tica-Diputaci%C3%B3n-de-C%C3%A1diz-907305739384106/ Memoria Histórica y Democrática] de la Diputación de Cádiz
 * [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
+
+{{div col end}}
 
 == Tabla ==
 
 <table class="wikitable sortable" style="text-align: center;font-size: 90%;">
 
 <tr>
-<th>Evento</th>
+<th width="500px">Evento</th>
 <th>Fecha</th>
 <th>Organiza</th>
 <th>Galería</th>
 </tr>
 
 <tr>
+<td>'''II Triatlón BMW Puerto Sherry'''</td>
+<td>2018-10-06</td>
+<td>Varios</td>
+<td>[https://www.flickr.com/photos/emijrp/albums/72157672029366187 Fotos]</td>
+</tr>
+
+<tr>
 <td>'''III Encuentro de Jóvenes Historiadores'''</td>
 <td>2018-10-05</td>
 <td>Filomonium</td>
-<td></td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157696262018430 Fotos]</td>
 </tr>
 
 <tr>
@@ -203,7 +216,14 @@ Algunos '''colectivos''' que organizan eventos periódicamente.
 </tr>
 
 <tr>
-<td>'''Daniel Ortega Martínez, Hijo Adoptivo de El Puerto'''</td>
+<td>'''Conferencia "La Revolución de 1868 en El Puerto" de Magdalena González'''</td>
+<td>2018-09-28</td>
+<td>Aula de Historia Menesteo</td>
+<td>[https://www.flickr.com/photos/emijrp/albums/72157687539410734 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Nombramiento de Daniel Ortega Martínez como Hijo Adoptivo de El Puerto'''</td>
 <td>2018-09-14</td>
 <td>Ayuntamiento de El Puerto</td>
 <td>[https://www.flickr.com/photos/emijrp/albums/72157701330824445 Fotos]</td>
@@ -228,6 +248,125 @@ Algunos '''colectivos''' que organizan eventos periódicamente.
 <td>2018-07-06</td>
 <td>Grupo Astronómico Portuense</td>
 <td>[https://www.flickr.com/photos/emijrp/sets/72157668874520967 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición de Meteoritos en Los Toruños'''</td>
+<td>2018-07-04</td>
+<td>Museo Canario de Meteoritos</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157698282997184 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Visita guiada al Archivo Histórico Provincial de Cádiz por el Día Internacional de los Archivos'''</td>
+<td>2018-06-08</td>
+<td>Archivo Histórico Provincial de Cádiz</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157691985364000 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición Ex Libris de Eulogio Varela'''</td>
+<td>2018-05-25</td>
+<td>Museo Municipal de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/albums/72157694613121452 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición Mayo del 68'''</td>
+<td>2018-05-25</td>
+<td>Biblioteca Municipal de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157694611955482 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición "Arcilla, agua, fuego"'''</td>
+<td>2018-05-08</td>
+<td>Museo de Cádiz</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157667866282557 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Abril Memorialista 2018 en Cádiz'''</td>
+<td>2018-04-12</td>
+<td>Diputación de Cádiz</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157693845820681 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Abril Memorialista 2018 en El Puerto'''</td>
+<td>2018-04-14</td>
+<td>Foro por la Memoria de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157665748087567 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Presentación del libro "Historia del Puerto de Santa María" de Hipólito Sancho de Sopranis'''</td>
+<td>2018-04-06</td>
+<td>Fundación Rafael Alberti</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157667541963068 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Día de la Mujer Trabajadora 2018'''</td>
+<td>2018-03-08</td>
+<td>Asamblea Feminista Las Tres Rosas</td>
+<td>[https://www.flickr.com/photos/emijrp/albums/72157664477236897 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Presentación del libro "La España de Alvah Bessie" de Randal Scamardo'''</td>
+<td>2018-02-22</td>
+<td>Fundación Rafael Alberti</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157688107163360 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición "La objeción de conciencia"'''</td>
+<td>2018-01-14</td>
+<td>-</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157691552920064 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''II Marcha contra las Violencias Machistas'''</td>
+<td>2017-11-11</td>
+<td>Colectivos Feministas Provincia de Cádiz</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157690485821586 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición "La Revolución Rusa 1917-2017"'''</td>
+<td>2017-10-25</td>
+<td>Biblioteca Municipal de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157665405564259 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''II Encuentro de Jóvenes Historiadores'''</td>
+<td>2017-10-20</td>
+<td>Filomonium</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157688130683264 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición "La Explosión de Cádiz de 1947"'''</td>
+<td>2017-09-28</td>
+<td>Ayuntamiento de Cádiz</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157686459101981 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''I Triatlón BMW Puerto Sherry'''</td>
+<td>2017-10-07</td>
+<td>Varios</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157685937885122 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Exposición "Pedro Muñoz Seca: El Humor dentro y fuera del Teatro"'''</td>
+<td>2017-09-12</td>
+<td>Ayuntamiento de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157687678241373 Fotos]</td>
 </tr>
 
 <tr>
