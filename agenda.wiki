@@ -165,6 +165,8 @@ Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acont
 
 == Colectivos ==
 
+Algunos '''colectivos''' que organizan eventos periódicamente.
+
 * [http://amigosarchivojerez.com Amigos del Archivo de Jerez]
 * [http://asambleafeministapuerto.blogspot.com.es/ Asamblea Feminista Las Tres Rosas] ([https://www.facebook.com/Asamblea-Feminista-Las-Tres-Rosas-1486329731661400/ Facebook]{{o}} [https://twitter.com/asambleatres Twitter])
 * [https://ferminsalvocheaateneo.wordpress.com Ateneo Libertario Fermín Salvochea]
@@ -174,6 +176,68 @@ Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acont
 * [https://www.facebook.com/memoriaelpuerto Foro por la Memoria de El Puerto]
 * Fundación Rafael Alberti
 * [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
+
+== Tabla ==
+
+<table class="wikitable sortable" style="text-align: center;font-size: 90%;">
+
+<tr>
+<th>Evento</th>
+<th>Fecha</th>
+<th>Organiza</th>
+<th>Galería</th>
+</tr>
+
+<tr>
+<td>'''III Encuentro de Jóvenes Historiadores'''</td>
+<td>2018-10-05</td>
+<td>Filomonium</td>
+<td></td>
+</tr>
+
+<tr>
+<td>'''XI Concurso de pintura rápida "El Puerto en la calle"'''</td>
+<td>2018-09-29</td>
+<td>Academia BB.AA. Santa Cecilia</td>
+<td>[https://www.flickr.com/photos/emijrp/albums/72157698650922742 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Daniel Ortega Martínez, Hijo Adoptivo de El Puerto'''</td>
+<td>2018-09-14</td>
+<td>Ayuntamiento de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/albums/72157701330824445 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Jornadas de Memoria Histórica de Puerto Real 2018'''</td>
+<td>2018-09-13</td>
+<td>CNT Puerto Real</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157699731862891 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''Música y poesía por la Memoria'''</td>
+<td>2018-07-18</td>
+<td>Foro por la Memoria de El Puerto</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157698773803474 Fotos]</td>
+</tr>
+
+<tr>
+<td>'''VI Jornadas Científicas'''</td>
+<td>2018-07-06</td>
+<td>Grupo Astronómico Portuense</td>
+<td>[https://www.flickr.com/photos/emijrp/sets/72157668874520967 Fotos]</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</table>
 
 == Referencias ==
 {{reflist}}
