@@ -117,7 +117,9 @@ Otros países:
         
         //Puerto Real
         ["Avda. 14 de Abril", "Calle", "Puerto Real", "Cádiz", "Andalucía", "España", 36.525493, -6.173916, "", "Toda la zona tiene calles con nombres memorialistas. A destacar la Glorieta dedicada a las Brigadas Internacionales."], 
+        ["Fosa Común del Cementerio de San Roque", "Monumento", "Puerto Real", "Cádiz", "Andalucía", "España", 36.541648, -6.198184, "", "Lugar de Memoria Histórica de Andalucía."], 
         ["Glorieta de las Brigadas Internacionales", "Calle", "Puerto Real", "Cádiz", "Andalucía", "España", 36.525746, -6.174687, "", "Estrella roja de tres puntas."], 
+        ["Monumento a las víctimas del franquismo en Puerto Real", "Monumento", "Puerto Real", "Cádiz", "Andalucía", "España", 36.540765, -6.198269, "", "Por la «recuperación de la memoria histórica y la dignidad de los fusilados en Puerto Real». Inaugurado en junio de 2005. Dentro del Cementerio de San Roque."], 
         
         //Sanlúcar de Barrameda
         ["Monumento a los fusilados por el franquismo en Sanlúcar de Barrameda", "Monumento", "Sanlúcar de Barrameda", "Cádiz", "Andalucía", "España", 36.776720, -6.350988, "", "Junto al Castillo de Santiago."], 
@@ -158,7 +160,7 @@ Otros países:
         //Provincia de Alicante
         ["Tumba de Miguel Hernández", "Tumba", "Alicante", "Alicante", "Comunidad Valenciana", "España", 38.355022, -0.530403, "", "Su esposa Josefina Manresa y su hijo Manuel Miguel también están enterrados junto a él."], 
         ["Casa-Museo de Miguel Hernández", "Museo", "Orihuela", "Alicante", "Comunidad Valenciana", "España", 38.089172, -0.942228, "", "Casa donde vivío el poeta comunista Miguel Hernández hasta marcharse a Madrid. Se trata de una construcción típica de Orihuela, de planta única. En ella se conservan recuerdos de la familia y fotografías de Miguel y su familia."], 
-        ["Murales de San Isidro", "Calles", "Orihuela", "Alicante", "Comunidad Valenciana", "España", 38.093210, -0.951847, "", "Más de 30 murales sobre Miguel Hernández y su obra."], 
+        ["Murales de San Isidro", "Calle", "Orihuela", "Alicante", "Comunidad Valenciana", "España", 38.093210, -0.951847, "", "Más de 30 murales sobre Miguel Hernández y su obra."], 
         
         
         //**********
