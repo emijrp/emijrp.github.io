@@ -44,7 +44,7 @@ Estas son algunas fotografías que he podido tomar desde mi ciudad en la provinc
 <tr>
     <td valign="top" width="250px">[[File:iridium5.jpg|thumb|center|250px|Iridium 5]]</td>
     <td valign="top" width="250px">[[File:iridium8.jpg|thumb|center|250px|Iridium 8]]</td>
-    <td valign="top" width="250px">[[File:iridium34.jpg|thumb|center|250px|Iridium 34]]</td>
+    <!-- <td valign="top" width="250px">[[File:iridium34.jpg|thumb|center|250px|Iridium 34]]</td> -->
     <td valign="top" width="250px">[[File:iridium61.jpg|thumb|center|250px|Iridium 61]]</td>
 </tr>
 </table>
