@@ -1,5 +1,18 @@
 {{header|1=Meteorología}}
 
+'''Información meteorológica''' e imágenes de satélite y radar:
 
+* [https://en.sat24.com/en SAT24]
+* [https://www.google.es/search?q=el+tiempo El tiempo] en Google
+* [https://www.eltiempo.es/ eltiempo.es]
+
+'''Webs de aficionados''', foros, etc:
+
+* [http://www.cazatormentas.com Cazatormentas] y [http://www.cazatormentas.com/foro/index.php su foro] y [https://twitter.com/ecazatormentas twitter]
+* [https://www.meteoclimatic.net Meteoclimatic], estaciones meteorológicas
+
+Otros:
+
+* [https://en.wikipedia.org/wiki/2018_Atlantic_hurricane_season 2018 Atlantic hurricane season]
 
 {{footer}}

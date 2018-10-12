@@ -7,7 +7,7 @@
 </tr>
 <tr>
 <td align=center>'''Por tema'''</td>
-<td align=center>[[{{:rootpath}}/viajes/camino-de-santiago|Camino de Santiago]]{{o}} [[{{:rootpath}}/viajes/pueblos-bonitos-espana|Los pueblos más bonitos de España]]{{o}} [[{{:rootpath}}/viajes/turismo-rojo|Turismo Rojo]]</td>
+<td align=center>[[{{:rootpath}}/viajes/camino-de-santiago|Camino de Santiago]]{{o}} [[{{:rootpath}}/viajes/pueblos-bonitos-espana|Los pueblos más bonitos de España]]{{o}} [[{{:rootpath}}/viajes/turismo-rojo|Turismo Rojo]]{{o}} [[{{:rootpath}}/viajes/bibliografia-viajes|Bibliografía]]</td>
 </tr>
 </table>
 </center>
