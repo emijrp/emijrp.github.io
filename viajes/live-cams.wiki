@@ -13,6 +13,9 @@
         // GERMANY
         ["Cuxhaven", "Cuxhaven", "Germany", 53.873326, 8.714198, "J2ggwyOl-_0"], 
         
+        // ITALY
+        ["Piazza San Francesco", "Assisi", "Italy", 43.074364, 12.606665, "Age6SBeTyPQ"], 
+        
         // JAPAN
         ["Shibuya crossing", "Shibuya", "Japan", 35.659517, 139.700425, "nKMuBisZsZI"], 
         ["Tokyo Tower", "Tokyo", "Japan", 35.658561, 139.745414, "OIfZAAm8tlA"], 
@@ -22,6 +25,9 @@
         
         // SPAIN
         ["Plaza de Sevilla", "Cádiz", "Spain", 36.530002, -6.289423, "NiduuFQL_0A"], 
+        
+        // THAILAND
+        ["Crystal Bay", "Lamai", "Thailand", 9.477437, 100.066786, "tWshcGQ8K60"], 
 
     ];
 
@@ -33,10 +39,12 @@
         attribution: '&copy; ' + mapLink + ' Contributors',
         maxZoom: 12,
         }).addTo(map);
-
+    
+    fixlink = 'Fix this link or add a new live cam <a href="https://github.com/emijrp/emijrp.github.io/edit/master/viajes/live-cams.wiki">here</a>.';
+    
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][3], places[i][4]])
-            .bindPopup('<b>' + places[i][0] + ', ' + places[i][1] + ', ' + places[i][2] + '</b><br/><iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/' + places[i][5] + '?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
+            .bindPopup('<b>' + places[i][0] + ', ' + places[i][1] + ', ' + places[i][2] + '</b><br/><br/><iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/' + places[i][5] + '?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/><br/>' + fixlink, { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
             .addTo(map);
     }
     
