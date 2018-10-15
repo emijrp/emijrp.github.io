@@ -1,0 +1,34 @@
+{{headerleaflet|1=Live cams}}
+
+<div id="map" style="position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;"></div>
+
+<script type="text/javascript">
+    // http://leafletjs.com/examples/custom-icons.html
+    
+    var places = [
+        ["Buenos Aires, Argentina", -34.603836, -58.381560, "UCTfsg3ySfE"], 
+        ["Cádiz, España", 36.530002, -6.289423, "NiduuFQL_0A"], 
+        ["Cuxhaven, Alemania", 53.873326, 8.714198, "J2ggwyOl-_0"], 
+        ["Shibuya, Japón", 35.659517, 139.700425, "nKMuBisZsZI"], 
+
+    ];
+
+    var map = L.map('map').setView([0, 0], 2);
+    mapLink = 
+        '<a href="https://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; ' + mapLink + ' Contributors',
+        maxZoom: 12,
+        }).addTo(map);
+
+    for (var i = 0; i < places.length; i++) {
+        marker = new L.marker([places[i][1],places[i][2]])
+            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
+            .bindPopup('<b>' + places[i][0] + '</b><br/><iframe width="300" height="200" src="https://www.youtube.com/embed/' + places[i][3] + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
+            .addTo(map);
+    }
+
+</script>
+
+{{footer}}
