@@ -6,10 +6,22 @@
     // http://leafletjs.com/examples/custom-icons.html
     
     var places = [
-        ["Buenos Aires, Argentina", -34.603836, -58.381560, "UCTfsg3ySfE"], 
-        ["Cádiz, España", 36.530002, -6.289423, "NiduuFQL_0A"], 
-        ["Cuxhaven, Alemania", 53.873326, 8.714198, "J2ggwyOl-_0"], 
-        ["Shibuya, Japón", 35.659517, 139.700425, "nKMuBisZsZI"], 
+        
+        // ARGENTINA
+        ["Four Seasons Hotel", "Buenos Aires", "Argentina", -34.603836, -58.381560, "UCTfsg3ySfE"], 
+        
+        // GERMANY
+        ["Cuxhaven", "Cuxhaven", "Germany", 53.873326, 8.714198, "J2ggwyOl-_0"], 
+        
+        // JAPAN
+        ["Shibuya crossing", "Shibuya", "Japan", 35.659517, 139.700425, "nKMuBisZsZI"], 
+        ["Tokyo Tower", "Tokyo", "Japan", 35.658561, 139.745414, "OIfZAAm8tlA"], 
+        
+        // NORWAY
+        ["Hotel Union", "Geiranger", "Norway", 62.096444, 7.210889, "AuLWGxwPZS4"], 
+        
+        // SPAIN
+        ["Plaza de Sevilla", "Cádiz", "Spain", 36.530002, -6.289423, "NiduuFQL_0A"], 
 
     ];
 
@@ -23,10 +35,18 @@
         }).addTo(map);
 
     for (var i = 0; i < places.length; i++) {
-        marker = new L.marker([places[i][1],places[i][2]])
-            //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
-            .bindPopup('<b>' + places[i][0] + '</b><br/><iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/' + places[i][3] + '?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
+        marker = new L.marker([places[i][3], places[i][4]])
+            .bindPopup('<b>' + places[i][0] + ', ' + places[i][1] + ', ' + places[i][2] + '</b><br/><iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/' + places[i][5] + '?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
             .addTo(map);
+    }
+    
+    var t = L.terminator();
+    t.addTo(map);
+    setInterval(function(){updateTerminator(t)}, 10000);
+    function updateTerminator(t) {
+      var t2 = L.terminator();
+      t.setLatLngs(t2.getLatLngs());
+      t.redraw();
     }
 
 </script>
