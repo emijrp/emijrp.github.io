@@ -25,7 +25,7 @@
     for (var i = 0; i < places.length; i++) {
         marker = new L.marker([places[i][1],places[i][2]])
             //.bindPopup('<b>' + places[i][0] + '</b>' + '<br/><img src="' + places[i][3] + '"/ width="200px">')
-            .bindPopup('<b>' + places[i][0] + '</b><br/><iframe width="300" height="200" src="https://www.youtube.com/embed/' + places[i][3] + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
+            .bindPopup('<b>' + places[i][0] + '</b><br/><iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/' + places[i][3] + '?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>', { autoClose:false, closeOnClick:false, closePopupOnClick: false } )
             .addTo(map);
     }
 
