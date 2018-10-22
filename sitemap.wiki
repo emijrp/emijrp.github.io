@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>654614</td>
+        <td>656463</td>
     </tr>
 
     <tr>
@@ -1170,7 +1170,7 @@
         <td>166</td>
         <td><a href="preservacion/preservacion-digital.html">preservacion/preservacion-digital.html</a></td>
         <td><a href="preservacion/preservacion-digital.wiki">preservacion/preservacion-digital.wiki</a></td>
-        <td>7993</td>
+        <td>8152</td>
     </tr>
 
     <tr>
@@ -1226,7 +1226,7 @@
         <td>174</td>
         <td><a href="viajes/live-cams.html">viajes/live-cams.html</a></td>
         <td><a href="viajes/live-cams.wiki">viajes/live-cams.wiki</a></td>
-        <td>1399</td>
+        <td>3693</td>
     </tr>
 
     <tr>
@@ -1247,7 +1247,7 @@
         <td>177</td>
         <td><a href="viajes/turismo-rojo.html">viajes/turismo-rojo.html</a></td>
         <td><a href="viajes/turismo-rojo.wiki">viajes/turismo-rojo.wiki</a></td>
-        <td>20943</td>
+        <td>21107</td>
     </tr>
 
     <tr>
