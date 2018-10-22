@@ -10,6 +10,9 @@
         // ARGENTINA
         ["Four Seasons Hotel", "Buenos Aires", "Argentina", -34.603836, -58.381560, "UCTfsg3ySfE"], 
         
+        // CZECH REPUBLIC
+        ["Lipno", "Radslav", "Czech Republic", 48.639228, 14.229318, "2CuSb-r8yHM"], 
+        
         // GERMANY
         ["Cuxhaven", "Cuxhaven", "Germany", 53.873326, 8.714198, "J2ggwyOl-_0"], 
         
@@ -20,11 +23,29 @@
         ["Shibuya crossing", "Shibuya", "Japan", 35.659517, 139.700425, "nKMuBisZsZI"], 
         ["Tokyo Tower", "Tokyo", "Japan", 35.658561, 139.745414, "OIfZAAm8tlA"], 
         
+        // MEXICO
+        ["Volcan Popocatepetl", "Puebla", "Mexico", 19.023540, -98.625968, "nM-4KS1Z35g"], 
+        
         // NORWAY
         ["Hotel Union", "Geiranger", "Norway", 62.096444, 7.210889, "AuLWGxwPZS4"], 
         
+        // PORTUGAL
+        ["Funchal Marina", "Madeira", "Portugal", 32.646237, -16.910152, "iOFJhwl68hc"], 
+        
+        // SOUTH AFRICA
+        ["Twin Towers", "Sea Point", "South Africa", -33.908146, 18.395363, "ObCoEm0o94A"], 
+        
         // SPAIN
+        ["Salinas Beach", "Asturias", "Spain", 43.576830, -5.963462, "uXdFF_4lrUI"], 
         ["Plaza de Sevilla", "Cádiz", "Spain", 36.530002, -6.289423, "NiduuFQL_0A"], 
+        ["Santa Eulalia Beach", "Ibiza", "Spain", 38.982902, 1.534100, "MVsuoxn__AY"], 
+        ["Lanzarote Airport", "Lanzarote", "Spain", 28.951728, -13.605224, "0TPFluUNlCw"], 
+        ["Picos de Europa", "León", "Spain", 43.172924, -4.869086, "5FsA0eqsDDs"], 
+        ["Riaño y Picos Yordas", "León", "Spain", 42.971671, -4.994144, "4ws54fLpmv4"], 
+        ["Parque Nacional Sierra de Guadarrama", "Madrid", "Spain", 40.846911, -3.943846, "2qAQ1DUFWhY"], 
+        ["Auditorium de Palma de Mallorca", "Palma de Mallorca", "Spain", 39.567380, 2.629216, "aizKfaqqM2U"], 
+        ["Plaça Mercadal", "Reus", "Spain", 41.154995, 1.108732, "qL3osQtMBls"], 
+        ["Playa", "Valencia", "Spain", 39.606788, -0.264587, "xZ2vjK-CiRY"], 
         
         // THAILAND
         ["Crystal Bay", "Lamai", "Thailand", 9.477437, 100.066786, "tWshcGQ8K60"], 
