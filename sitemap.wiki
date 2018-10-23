@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>656463</td>
+        <td>656818</td>
     </tr>
 
     <tr>
@@ -1226,7 +1226,7 @@
         <td>174</td>
         <td><a href="viajes/live-cams.html">viajes/live-cams.html</a></td>
         <td><a href="viajes/live-cams.wiki">viajes/live-cams.wiki</a></td>
-        <td>3693</td>
+        <td>3931</td>
     </tr>
 
     <tr>
@@ -1247,7 +1247,7 @@
         <td>177</td>
         <td><a href="viajes/turismo-rojo.html">viajes/turismo-rojo.html</a></td>
         <td><a href="viajes/turismo-rojo.wiki">viajes/turismo-rojo.wiki</a></td>
-        <td>21107</td>
+        <td>21201</td>
     </tr>
 
     <tr>
@@ -1261,7 +1261,7 @@
         <td>179</td>
         <td><a href="viajes/viajes.html">viajes/viajes.html</a></td>
         <td><a href="viajes/viajes.wiki">viajes/viajes.wiki</a></td>
-        <td>29135</td>
+        <td>29229</td>
     </tr>
 
     <tr>
@@ -1499,7 +1499,7 @@
         <td>213</td>
         <td><a href="viajes/vuelta-a-espana/vuelta-a-espana.html">viajes/vuelta-a-espana/vuelta-a-espana.html</a></td>
         <td><a href="viajes/vuelta-a-espana/vuelta-a-espana.wiki">viajes/vuelta-a-espana/vuelta-a-espana.wiki</a></td>
-        <td>5123</td>
+        <td>5217</td>
     </tr>
 
     <tr>
