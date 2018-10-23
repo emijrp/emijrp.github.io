@@ -70,7 +70,12 @@ Añadir lineas al mapa para:
         ["Villar de Domingo García", 40.238333, -2.294166], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 5);
+    var map = L.map('map', {
+        fullscreenControl: {
+            pseudoFullscreen: true, 
+        }
+    });
+    map.setView([40.416957, -3.703478], 5);
     mapLink = 
         '<a href="https://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(

@@ -16,10 +16,12 @@
 
 
     <link rel="stylesheet" href="../lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="../lib/leaflet/leaflet.fullscreen.css" />
     <link rel="stylesheet" href="../style.css" />
 
     <script src="../lib/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="../lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src="../lib/leaflet/Leaflet.fullscreen.min.js" type="text/javascript"></script>
     <script src="../lib/leaflet/L.Terminator.js" type="text/javascript"></script>
     <script src="../lib/sorttable.js" type="text/javascript"></script>
 </head>
@@ -111,7 +113,12 @@ Añadir lineas al mapa para:
         ["Villar de Domingo García", 40.238333, -2.294166], 
     ];
 
-    var map = L.map('map').setView([40.416957, -3.703478], 5);
+    var map = L.map('map', {
+        fullscreenControl: {
+            pseudoFullscreen: true, 
+        }
+    });
+    map.setView([40.416957, -3.703478], 5);
     mapLink = 
         '<a href="https://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
@@ -756,7 +763,7 @@ Fuera ya de Europa... lo iré mirando...
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-10-04 21:18:40 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-10-23 17:48:06 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
