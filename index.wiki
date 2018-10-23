@@ -7,7 +7,7 @@ La web se encuentra en continuo desarrollo, por ello las secciones pueden estar 
 
 {{secciones}}
 {{dias}}
-También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]]. <script>document.write("<b>Día "+diffdays+".</b>");</script>
+También puedes usar el [[buscador]]. Si quieres, puedes [[contacto|contactar conmigo]]. <b><script type="text/javascript">document.write("Día " + diffdays + ".");</script></b>
 
 __NOTOC__
 {{footer}}
