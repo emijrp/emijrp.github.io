@@ -15,8 +15,16 @@ Una colección de '''live cams''' (cámaras en vivo) de todo el mundo. Puedes ab
         // CZECH REPUBLIC
         ["Lipno", "Radslav", "Czech Republic", 48.639228, 14.229318, "2CuSb-r8yHM"], 
         
+        // FRANCE
+        ["Plage", "Saint-Malo", "France", 48.653941, -2.012864, "FrcXRWlLAsw"], 
+        ["Le Port", "Saint-Malo", "France", 48.648111, -2.007500, "fQ8pFCrVGzE"], 
+        ["...", "Saint-Pol de Léon", "France", 48.686100, -3.985000, "NqfvCIKCNqc"], 
+        
         // GERMANY
         ["Cuxhaven", "Cuxhaven", "Germany", 53.873326, 8.714198, "J2ggwyOl-_0"], 
+        
+        // IRELAND
+        ["Inch Beach", "Kerry", "Ireland", 52.141163, -9.982985, "F3Q1n_DpA9o"], 
         
         // ITALY
         ["Piazza San Francesco", "Assisi", "Italy", 43.074364, 12.606665, "Age6SBeTyPQ"], 
@@ -51,6 +59,11 @@ Una colección de '''live cams''' (cámaras en vivo) de todo el mundo. Puedes ab
         
         // THAILAND
         ["Crystal Bay", "Lamai", "Thailand", 9.477437, 100.066786, "tWshcGQ8K60"], 
+        
+        // UNITED KINGDOM
+        ["Oxford Martin School", "Oxford", "United Kingdom", 51.754381, -1.256651, "cDM3A7m_qXE"], 
+        ["Polzeath Beach", "Polzeath", "United Kingdom", 50.574072, -4.915656, "hTVTOcf6ecI"], 
+        ["Salty Cottage", "Teignmouth", "United Kingdom", 50.543722, -3.498431, "Yl6yhjajSjk"], 
 
     ];
 
