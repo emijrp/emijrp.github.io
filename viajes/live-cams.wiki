@@ -72,6 +72,7 @@ Una colección de '''live cams''' (cámaras en vivo) de todo el mundo. Puedes ab
             pseudoFullscreen: true, 
         }
     });
+    map.toggleFullscreen();
     map.setView([20, 0], 2);
     mapLink = 
         '<a href="https://openstreetmap.org">OpenStreetMap</a>';
