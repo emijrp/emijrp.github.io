@@ -4,8 +4,8 @@ body{
     margin: auto;
     /*max-width: 1340px;*/
     width: 1024px;
-    background: white;
-    background: white;
+    color: black;
+    background: #fcfcfc;
     line-height: 21px;
 }
 div.main{
