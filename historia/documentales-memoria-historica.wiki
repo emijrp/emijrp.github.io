@@ -2,6 +2,8 @@
 
 Esta es una recopilación de '''documentales de Memoria Histórica''' que he ido encontrando a lo largo de los años.
 
+== Documentales ==
+
 <!--
 {{documental memoria historica
 |titulo=
@@ -14,12 +16,45 @@ Esta es una recopilación de '''documentales de Memoria Histórica''' que he ido
 }}
 -->
 
-* [https://15mpedia.org/wiki/Lista_de_documentales_sobre_memoria_hist%C3%B3rica Lista de documentales sobre memoria histórica] en 15Mpedia
-* [https://www.youtube.com/playlist?list=PLSNLaAwR6E8yZGlfPZazdyKICA1py7onL Lista de reproducción de documentales de memoria histórica] en YouTube
+<center>
+<table width=99% style="text-align: center;">
+
+<tr>
+{{tabla-videos-celda|width=33%|imagen=memoria-de-las-cenizas.jpg|tamaño=300px|título=Memoria de las cenizas|enlace=https://youtu.be/ej2D-A4NQ0g}}
+{{tabla-videos-celda|width=33%|imagen=vida-luis-vega.jpg|tamaño=300px|título=Vida de Luis Vega. Memoria de Paterna|enlace=https://youtu.be/uDsINGdOAqs}}
+{{tabla-videos-celda|width=33%|imagen=guillena-1937.jpg|tamaño=300px|título=Guillena 1937|enlace=https://youtu.be/gUxoDokgxtw}}
+</tr>
+
+<tr>
+{{tabla-videos-celda|width=33%|imagen=aragoneses-en-el-infierno.jpg|tamaño=300px|título=Aragoneses en el infierno de los campos de concentración|enlace=https://youtu.be/U6aUn8I9giM}}
+{{tabla-videos-celda|width=33%|imagen=cicatrices-de-piedra.jpg|tamaño=300px|título=Cicatrices de piedra. La Guerra Civil en Aragón|enlace=https://youtu.be/qLPhw5qvZHM}}
+{{tabla-videos-celda|width=33%|imagen=el-ultimo-fusilado-del-franquismo.jpg|tamaño=300px|título=El último fusilado del franquismo|enlace=https://youtu.be/IRsimQ_vYUc}}
+</tr>
+
+<tr>
+{{tabla-videos-celda|width=33%|imagen=presos-del-silencio.jpg|tamaño=300px|título=Presos del silencio|enlace=https://youtu.be/CIECDYKv9Iw}}
+{{tabla-videos-celda|width=33%|imagen=la-partida.jpg|tamaño=300px|título=La Partida|enlace=https://youtu.be/qmeUudS1ixE}}
+{{tabla-videos-celda|width=33%|imagen=la-madre-sola.jpg|tamaño=300px|título=La madre sola|enlace=https://www.youtube.com/watch?v=ZDLTLZd1Wbc}}
+</tr>
+
+<!--
+<tr>
+{{tabla-videos-celda|width=33%|imagen=|tamaño=300px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=300px|título=|enlace=https://youtu.be/}}
+{{tabla-videos-celda|width=33%|imagen=|tamaño=300px|título=|enlace=https://youtu.be/}}
+</tr>
+-->
+</table>
+</center>
 
 == Véase también ==
 
-* [[../cine/documentales|Documentales]]
+* [[{{:rootpath}}/cine/documentales|Documentales]]
+
+== Enlaces externos ==
+
+* [https://15mpedia.org/wiki/Lista_de_documentales_sobre_memoria_hist%C3%B3rica Lista de documentales sobre memoria histórica] en 15Mpedia
+* [https://www.youtube.com/playlist?list=PLSNLaAwR6E8yZGlfPZazdyKICA1py7onL Lista de reproducción de documentales de memoria histórica] en YouTube
 
 {{historia}}
 {{footer}}

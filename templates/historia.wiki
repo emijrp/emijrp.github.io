@@ -11,7 +11,7 @@
 </tr>
 <tr>
 <td align=center>'''[[{{:rootpath}}/historia/memoria-historica|Memoria Histórica]]'''</td>
-<td align=center>[[{{:rootpath}}/historia/crimenes-del-capitalismo|Crímenes del capitalismo]]{{o}} [[{{:rootpath}}/historia/documentales-memoria-historica|Documentales]]{{o}} [[{{:rootpath}}/viajes/turismo-rojo|Turismo rojo]]{{o}} [[Víctimas del fascismo]]</td>
+<td align=center>[[{{:rootpath}}/historia/crimenes-del-capitalismo|Crímenes del capitalismo]]{{o}} [[{{:rootpath}}/historia/documentales-memoria-historica|Documentales]]{{o}} [[{{:rootpath}}/viajes/turismo-rojo|Turismo rojo]]{{o}} [[{{:rootpath}}/historia/memoria-historica#Víctimas del fascismo|Víctimas del fascismo]]</td>
 </tr>
 </table>
 </center>
