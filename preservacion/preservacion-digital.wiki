@@ -22,6 +22,16 @@ Si nos salimos de los archivos producidos por uno mismo, en Internet también ha
 * '''[http://archiveteam.org Archive Team]''': proyecto compuesto de muchos subproyectos para preservar distintos sitios web de Internet que van cerrando cada año. Los subproyectos en los que más he participado son:
 ** '''Jamendo''': web con miles de albumes musicales subidos por sus propios autores. Anunció en cierto momento que iba a cerrar, de modo que nos pusimos manos a la obra para descargar todo. Más adelante anunciaron que mantendrían el sitio en funcionamiento.
 ** '''[https://github.com/WikiTeam/wikiteam WikiTeam]''': proyecto con el que hemos descargado más de 20.000 wikis.
+<!--
+** Wikispaces: 198.000
+** Featured/Quality images Commons (/save/)
+** Flickr videos
+** Cartas de ajuste
+** Himnos
+** Cortos < 1920
+** bambuser
+** ZIM
+-->
 
 == Archivistas destacados ==
 
@@ -64,6 +74,10 @@ Breves reseñas biográficas de personas que dedicaron parte de su vida a la pre
 Paul Otlet http://archive.org/details/paulotlet/
 
 -->
+
+== Proyectos ==
+
+https://www.wired.com/story/how-to-design-beacons-for-humanitys-afterlife/
 
 == En el cine ==
 
