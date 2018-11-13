@@ -170,19 +170,32 @@ Estas son algunas '''fechas''' en las que cada año tienen lugar distintos acont
 
 Algunos '''colectivos''' que organizan eventos periódicamente.
 
+<!-- las agendas de turismo, el boletín, etc, van en enlaces externos -->
+
 {{div col|2}}
 
 * [http://amigosarchivojerez.com Amigos del Archivo de Jerez]
+* [https://www.facebook.com/ahp.cadiz Archivo Histórico Provincial de Cádiz]
 * [http://asambleafeministapuerto.blogspot.com.es/ Asamblea Feminista Las Tres Rosas] ([https://www.facebook.com/Asamblea-Feminista-Las-Tres-Rosas-1486329731661400/ Facebook]{{o}} [https://twitter.com/asambleatres Twitter])
+* [http://ateneocadiz.es/category/actividades/ Ateneo de Cádiz]
+* [https://www.ateneodejerez.es/ Ateneo de Jerez]
 * [https://ferminsalvocheaateneo.wordpress.com Ateneo Libertario Fermín Salvochea]
+* [https://www.facebook.com/groups/461667540693064/661641254029024/ Ateneo Literario de Puerto Real]
 * [http://www.ateneorepublicanopr.org Ateneo Republicano de Puerto Real] ([https://www.facebook.com/pg/Ateneo-Republicano-de-Puerto-Real-378609635495273/ Facebook])
 * [http://www.revistadehistoriade-elpuerto.org/menesteo/index.htm Aula de Historia Menesteo]
 * [http://bibliotecapublicapsm.blogspot.com/ Biblioteca Municipal de El Puerto]
-* [https://filomonium.wordpress.com Filomonium]
+* [http://www.cafeteatropaypay.com/programacion.htm Café Teatro Pay-Pay]
+* [https://divulgacioncodice.blogspot.com/ CODICE]
+* [https://www.facebook.com/Memoria-Hist%C3%B3rica-y-Democr%C3%A1tica-Diputaci%C3%B3n-de-C%C3%A1diz-907305739384106/ Diputación de Cádiz (Memoria Histórica)]
+* [https://filomonium.wixsite.com/filomonium Filomonium]
 * [https://www.facebook.com/memoriaelpuerto Foro por la Memoria de El Puerto]
 * Fundación Rafael Alberti
+* [https://es-es.facebook.com/grupoastronomicoportuense/ Grupo Astronómico Portuense]
 * [https://www.facebook.com/Memoria-Hist%C3%B3rica-y-Democr%C3%A1tica-Diputaci%C3%B3n-de-C%C3%A1diz-907305739384106/ Memoria Histórica y Democrática] de la Diputación de Cádiz
+* [https://es-es.facebook.com/museocadiz/ Museo de Cádiz]
 * [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
+* [https://es-la.facebook.com/patios.portuenses/ Patios Portuenses]
+* [https://es-es.facebook.com/puertolivetv/ Puerto Live]
 
 {{div col end}}
 
@@ -390,6 +403,7 @@ Algunos '''colectivos''' que organizan eventos periódicamente.
 * [http://www.seg-social.es/Internet_1/Masinformacion/CalendarioLaboral/index.htm Calendario Laboral]
 * [https://el-boletin.com/ El Boletín], folleto informativo para el ocio y la cultura en El Puerto y la Bahía de Cádiz
 * [http://radiopuerto.fm RadioPuerto], la radio local de El Puerto
+* [https://www.facebook.com/elpuertodesantamaria/ Ayuntamiento de El Puerto]
 * [http://www.turismoelpuerto.com/index.php?art_id=383 Turismo El Puerto]
 
 {{footer}}
