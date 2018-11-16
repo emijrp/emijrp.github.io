@@ -3,6 +3,7 @@
 <head>
     <title>Bloque IV. Sistemas y comunicaciones - La web de emijrp</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="robots" content="noindex" />
 
     <meta name="twitter:title" content="Bloque IV. Sistemas y comunicaciones - La web de emijrp"/>
     <meta name="keywords" content="web, emijrp, emilio, arte, astronomia, cine, fotografia, memoria, nostalgia, politica, software, viajes, wikis"/>
@@ -237,9 +238,13 @@ Ideas Actualización, mantenimiento y reparación:
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>Add-Computer</b>: añade un ordenador a un dominio o grupo de trabajo.</li><li><b>Add-Content</b>: añade contenido a un objeto.</li><li><b>Checkpoint-Computer</b>: crea un punto de restauración.</li><li><b>Clear-Item</b>: borra contenido de un objeto.</li><li><b>Clear-ItemProperty</b>: borra el valor de una propiedad.</li><li><b>Clear-Variable</b>: borra el valor de una variable.</li><li><b>Compare-Object</b>: compara dos conjuntos de objetos.</li><li><b>ConvertTo-CSV</b>: convierte objetos a CSV.</li><li><b>ConvertTo-Html</b>: convierte objetos a HTML.</li><li><b>ConvertTo-XML</b>: convierte objetos a XML.</li><li><b>Copy-Item</b>: copia un objeto de un lugar a otro.</li><li><b>Copy-ItemProperty</b>: copia una propiedad y su valor de un lugar a otro.</li><li><b>Debug-Process</b>: depura un proceso.</li><li><b>Disable-ComputerRestore</b>: desactiva la restauración del sistema en una unidad.</li><li><b>Enable-ComputerRestore</b>: activa la restauración del sistema en una unidad.</li><li><b>Export-Alias</b>: exporta los aliases definidos.</li><li><b>Get-ADUser</b>: </li><li><b>Get-Alias</b>: muestra los aliases disponibles.</li><li><b>Get-AppxPackage</b>:</li><li><b>Get-Command</b>: muestra información sobre cmdlets y otros comandos.</li><li><b>Get-ComputerRestorePoint</b>: muestra los puntos de restauración.</li><li><b>Get-Content</b>: muestra el contenido de un objeto.</li><li><b>Get-Date</b>: muestra la fecha y hora.</li><li><b>Get-Events</b>: muestra la cola de eventos.</li><li><b>Get-Help</b>: muestra ayuda sobre comandos.</li><li><b>Get-History</b>: muestra el histórico de comandos usados en la sesión.</li><li><b>Get-Item</b>: selecciona un objeto.</li><li><b>Get-ItemProperty</b>: selecciona la propiedad de un objeto.</li><li><b>Get-Process</b>: selecciona procesos ejecutándose en el sistema.</li><li><b>Get-Services</b>: selecciona los servicios del sistema.</li><li>y muchos más...</li></ul>
+<ul><li><b>Add-Computer</b>: añade un ordenador a un dominio o grupo de trabajo.</li><li><b>Add-Content</b>: añade contenido a un objeto.</li><li><b>Checkpoint-Computer</b>: crea un punto de restauración.</li><li><b>Clear-Item</b>: borra contenido de un objeto.</li><li><b>Clear-ItemProperty</b>: borra el valor de una propiedad.</li><li><b>Clear-Variable</b>: borra el valor de una variable.</li><li><b>Compare-Object</b>: compara dos conjuntos de objetos.</li><li><b>ConvertTo-CSV</b>: convierte objetos a CSV.</li><li><b>ConvertTo-Html</b>: convierte objetos a HTML.</li><li><b>ConvertTo-XML</b>: convierte objetos a XML.</li><li><b>Copy-Item</b>: copia un objeto de un lugar a otro.</li><li><b>Copy-ItemProperty</b>: copia una propiedad y su valor de un lugar a otro.</li><li><b>Debug-Process</b>: depura un proceso.</li><li><b>Disable-ComputerRestore</b>: desactiva la restauración del sistema en una unidad.</li><li><b>Enable-ComputerRestore</b>: activa la restauración del sistema en una unidad.</li><li><b>Export-Alias</b>: exporta los aliases definidos.</li><li><b>Get-ADUser</b>: </li><li><b>Get-Alias</b>: muestra los aliases disponibles.</li><li><b>Get-AppxPackage</b>:</li><li><b>Get-Command</b>: muestra información sobre cmdlets y otros comandos.</li><li><b>Get-ComputerRestorePoint</b>: muestra los puntos de restauración.</li><li><b>Get-Content</b>: muestra el contenido de un objeto.</li><li><b>Get-Date</b>: muestra la fecha y hora.</li><li><b>Get-Events</b>: muestra la cola de eventos.</li><li><b>Get-Help</b>: muestra ayuda sobre comandos.</li><li><b>Get-History</b>: muestra el histórico de comandos usados en la sesión.</li><li><b>Get-Item</b>: selecciona un objeto.</li><li><b>Get-ItemProperty</b>: selecciona la propiedad de un objeto.</li><li><b>Get-Process</b>: selecciona procesos ejecutándose en el sistema.</li><li><b>Get-Service</b>: selecciona los servicios del sistema.</li><li>y muchos más...</li></ul>
 </div>
 
+
+<!--
+poniendo Get- en google y otros prefijos, salen los más frecuentes
+-->
 
 <p>El sistema de actualizaciones se llama <b>Windows Update</b>.</p>
 
@@ -321,6 +326,10 @@ Ideas Actualización, mantenimiento y reparación:
 
 <h4 id="PostgreSQL">PostgreSQL</h4>
 
+<p>Algunos <b>comandos para PostgreSQL</b>:<sup>[<a id="refback7" href="#ref7">7</a>]</sup></p>
+
+<ul><li><b>psql</b>: </li><ul><li><b>psql db_name < file</b>: restura un backup hecho con pg_dump.</li><li><b>psql -f file postgres</b>: restaura un backup hecho con pg_dumpall. El parámetro "postgres" se indica si el cluster está vacío.</li></ul><li><b>pg_dump</b>: backup de una base de datos cada vez. También existe <b>pg_dumpall</b> que hace backup de todas las bases de datos del cluster y las definiciones y roles. Ejemplos: pg_dump db_name > file; pg_dumpall > file.</li><li><b>pg_restore</b>: restaura backups con formato personalizado. Ejemplo: pg_restore -d db_name file.</li></ul>
+
 <p>El puerto por defecto de PostgreSQL es <b>5432</b>.</p>
 
 <h4 id="SQLServer">SQLServer</h4>
@@ -366,7 +375,7 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Algunos <b>comandos y herramientas</b> útiles:</p>
 
-<ul><li><b>dsadd</b>: añade un item al directorio activo: user, group, computer.</li><li><b>dsget</b>: muestra un item del directorio activo: user, group, computer.</li><li><b>dsmod</b>: modifica un item del directorio activo: user, group, computer.</li><li><b>dsmove</b>: mueve un item del directorio activo.</li><li><b>dsquery</b>: permite hacer búsquedas en el directorio activo y filtrar por tipo de objeto: dsquery computer, group, ou, site, server, user.<sup>[<a id="refback7" href="#ref7">7</a>]</sup></li><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza <b>ifconfig eth0 promisc</b> (-promisc para desactivarlo).</li></ul>
+<ul><li><b>dsadd</b>: añade un item al directorio activo: user, group, computer.</li><li><b>dsget</b>: muestra un item del directorio activo: user, group, computer.</li><li><b>dsmod</b>: modifica un item del directorio activo: user, group, computer.</li><li><b>dsmove</b>: mueve un item del directorio activo.</li><li><b>dsquery</b>: permite hacer búsquedas en el directorio activo y filtrar por tipo de objeto: dsquery computer, group, ou, site, server, user.<sup>[<a id="refback8" href="#ref8">8</a>]</sup></li><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza <b>ifconfig eth0 promisc</b> (-promisc para desactivarlo).</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (IL)  </b></p>
@@ -401,7 +410,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
-<p><b>Firewall</b> de Windows:<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
+<p><b>Firewall</b> de Windows:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
 <ul><li><b>netsh advfirewall set allprofiles state on</b>: activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.</li><li><b>netsh advfirewall set allprofiles state off</b>: desactivar el firewall.</li><li><b>netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4</b>: bloquear el ping entrante.</li></ul>
 
 <p><b>dir</b> puede ser in/out. <b>action</b> puede ser block/allow. Los <b>protocol</b> más frecuentes son tcp y udp. Para añadir reglas se usa <b>add</b>, para borrarlas <b>delete</b>. Con <b>localport</b> puede filtrarse por puerto. Con el parámetro <b>program</b> se puede actuar sobre programas individuales.</p>
@@ -426,7 +435,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
@@ -435,7 +444,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Los <b>targets</b> son:</p>
 <ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>: el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
 
-<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
+<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
 
 <ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.</li><li><b>iptables -D INPUT 1</b>: borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.</li><li><b>iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT</b>: inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.</li><li><b>iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT</b>: reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.</li></ul>
 
@@ -707,7 +716,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<sup>[<a id="refback11" href="#ref11">11</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<sup>[<a id="refback12" href="#ref12">12</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -815,11 +824,12 @@ Ideas Actualización, mantenimiento y reparación:
 <li id="ref4"><a href="#refback4">↑</a> <a href="http://blog.aodbc.es/2012/07/10/clasificacion-tier-en-el-datacenter-el-estandar-ansitia-942/">Clasificación TIER en el Datacenter, el estándar ANSI/TIA-942</a></li>
 <li id="ref5"><a href="#refback5">↑</a> <a href="https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/">mysqladmin</a></li>
 <li id="ref6"><a href="#refback6">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
-<li id="ref7"><a href="#refback7">↑</a> <a href="https://ss64.com/nt/">Windows Commands</a></li>
-<li id="ref8"><a href="#refback8">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
-<li id="ref9"><a href="#refback9">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
-<li id="ref10"><a href="#refback10">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
-<li id="ref11"><a href="#refback11">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref7"><a href="#refback7">↑</a> <a href="https://www.postgresql.org/docs/9.1/static/backup-dump.html">PostgreSQL dumps</a></li>
+<li id="ref8"><a href="#refback8">↑</a> <a href="https://ss64.com/nt/">Windows Commands</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
+<li id="ref11"><a href="#refback11">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
+<li id="ref12"><a href="#refback12">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -844,7 +854,7 @@ Ideas Actualización, mantenimiento y reparación:
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-06-28 10:26:53 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2018-11-16 21:28:24 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

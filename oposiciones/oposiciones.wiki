@@ -1,4 +1,4 @@
-{{header|1=Oposiciones}}
+{{headernoindex|1=Oposiciones}}
 {{oposiciones}}
 
 Las '''oposiciones''' en las que estoy interesado por ahora son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado].

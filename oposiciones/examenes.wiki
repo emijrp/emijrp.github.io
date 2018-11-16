@@ -1,4 +1,4 @@
-{{header|1=Análisis de exámenes}}
+{{headernoindex|1=Análisis de exámenes}}
 {{oposiciones}}
 Este es un pequeño '''análisis de exámenes''' de convocatorias pasadas.
 

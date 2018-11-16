@@ -1,4 +1,4 @@
-{{header|1=Bloque IV. Sistemas y comunicaciones}}
+{{headernoindex|1=Bloque IV. Sistemas y comunicaciones}}
 {{oposiciones}}
 
 El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''10 temas'''.
@@ -190,9 +190,13 @@ Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569
 * '''Get-Item''': selecciona un objeto.
 * '''Get-ItemProperty''': selecciona la propiedad de un objeto.
 * '''Get-Process''': selecciona procesos ejecutándose en el sistema.
-* '''Get-Services''': selecciona los servicios del sistema.
+* '''Get-Service''': selecciona los servicios del sistema.
 * y muchos más...
 {{div col end}}
+
+<!--
+poniendo Get- en google y otros prefijos, salen los más frecuentes
+-->
 
 El sistema de actualizaciones se llama '''Windows Update'''.
 
@@ -298,6 +302,15 @@ Para '''ORACLE''' los comandos para exportar e importar bases de datos son expdp
 El puerto por defecto de ORACLE es '''1521'''. El de ORACLE SQL *NET es el '''66'''.
 
 ==== PostgreSQL ====
+
+Algunos '''comandos para PostgreSQL''':<ref>[https://www.postgresql.org/docs/9.1/static/backup-dump.html PostgreSQL dumps]</ref>
+
+* '''psql''': 
+** '''psql db_name < file''': restura un backup hecho con pg_dump.
+** '''psql -f file postgres''': restaura un backup hecho con pg_dumpall. El parámetro "postgres" se indica si el cluster está vacío.
+
+* '''pg_dump''': backup de una base de datos cada vez. También existe '''pg_dumpall''' que hace backup de todas las bases de datos del cluster y las definiciones y roles. Ejemplos: pg_dump db_name > file; pg_dumpall > file.
+* '''pg_restore''': restaura backups con formato personalizado. Ejemplo: pg_restore -d db_name file.
 
 El puerto por defecto de PostgreSQL es '''5432'''.
 

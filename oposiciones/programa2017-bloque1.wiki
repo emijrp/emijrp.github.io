@@ -1,4 +1,4 @@
-{{header|1=Bloque I. Organización del Estado y Administración electrónica}}
+{{headernoindex|1=Bloque I. Organización del Estado y Administración electrónica}}
 {{oposiciones}}
 
 El '''Bloque I. Organización del Estado y Administración electrónica''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''11 temas'''.
