@@ -1,0 +1,9 @@
+{{header|1=Trucos}}
+
+Anotaciones sobre como hacer algunas cosas, pequeños '''trucos''', etc.
+
+=== Cómo hacer GIFs de vídeos ===
+
+ffmpeg -i test.mp4 -vf scale=320:-1 -ss 00:32:10 -to 00:32:15 -r 10 -f image2pipe -vcodec ppm - | convert -delay 10 -loop 0 - test.gif
+
+{{footer}}
