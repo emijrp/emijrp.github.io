@@ -3,11 +3,11 @@
 <tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''[[Cine]]'''</th></tr>
 <tr>
 <td align=center>'''Obras'''</td>
-<td align=center>[[Cine]] ([[estadisticas cine|estadísticas]]){{o}} [[Documentales]] ([[documentales#Tabla completa|estadísticas]]){{o}} [[Series]] ([[series#Tabla completa|estadísticas]])
+<td align=center>[[{{:rootpath}}/cine/cine|Cine]] ([[{{:rootpath}}/cine/estadisticas cine|estadísticas]]){{o}} [[{{:rootpath}}/cine/documentales|Documentales]] ([[{{:rootpath}}/cine/documentales#Tabla completa|estadísticas]]){{o}} [[{{:rootpath}}/cine/series|Series]] ([[{{:rootpath}}/cine/series#Tabla completa|estadísticas]])
 </tr>
 <tr>
 <td align=center>'''Otros'''</td>
-<td align=center>[[Filmotecas]]{{o}} [[porver|Por ver]]{{o}} [[cine wikidata|Wikidata]]</td>
+<td align=center>[[{{:rootpath}}/cine/filmotecas|Filmotecas]]{{o}} [[{{:rootpath}}/cine/porver|Por ver]]{{o}} [[{{:rootpath}}/cine/cine wikidata|Wikidata]]{{o}} [[{{:rootpath}}/cine/bibliografia cine|Bibliografía]]</td>
 </tr>
 <!-- [[cine mudo espana]] [[cine rda]]-->
 </table>
