@@ -28,5 +28,10 @@ Algunas '''guías de viajes''' y '''comunidades de viajeros'''.
 
 * [https://www.youtube.com/channel/UCMpn1qLudF-zb4M4bqxLIbw I Love Venice], webcams en Venecia
 
+== Biografías interesantes ==
+
+* [https://en.wikipedia.org/wiki/Nellie_Bly Nellie Bly]: mujer que dio la vuelta al mundo en 72 días.
+* [https://en.wikipedia.org/wiki/Jeanne_Baret Jeanne Baret]: primera mujer en circunnavegar el globo.
+
 {{viajes}}
 {{footer}}
