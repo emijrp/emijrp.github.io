@@ -1,5 +1,19 @@
 {{header|1=Futuro}}
 
-* '''[http://www.futuretimeline.net Future Timeline]''': Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
+* [http://www.futuretimeline.net Future Timeline]: Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
+* [https://futurism.com/ Futurism.com]
+* [https://hpluspedia.org/ H+Pedia]
+
+== Biografías ==
+
+* [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web])
+
+== Organizaciones ==
+
+* [https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation Alcor Life Extension Foundation]
+
+== Vídeos ==
+
+* [https://www.youtube.com/watch?v=r9fcjUUVM00 "Para el 2045 seremos inmortales": El futuro según Ray Kurzweil]
 
 {{footer}}
