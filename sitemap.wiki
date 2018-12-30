@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>663000</td>
+        <td>663455</td>
     </tr>
 
     <tr>
@@ -106,7 +106,7 @@
         <td>14</td>
         <td><a href="./explorar.html">./explorar.html</a></td>
         <td><a href="./explorar.wiki">./explorar.wiki</a></td>
-        <td>433</td>
+        <td>486</td>
     </tr>
 
     <tr>
@@ -127,7 +127,7 @@
         <td>17</td>
         <td><a href="./futuro.html">./futuro.html</a></td>
         <td><a href="./futuro.wiki">./futuro.wiki</a></td>
-        <td>192</td>
+        <td>1072</td>
     </tr>
 
     <tr>
@@ -1226,7 +1226,7 @@
         <td>174</td>
         <td><a href="viajes/bibliografia-viajes.html">viajes/bibliografia-viajes.html</a></td>
         <td><a href="viajes/bibliografia-viajes.wiki">viajes/bibliografia-viajes.wiki</a></td>
-        <td>1692</td>
+        <td>1855</td>
     </tr>
 
     <tr>

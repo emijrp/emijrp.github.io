@@ -1,16 +1,26 @@
 {{header|1=Futuro}}
 
-* [http://www.futuretimeline.net Future Timeline]: Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
 * [https://futurism.com/ Futurism.com]
 * [https://hpluspedia.org/ H+Pedia]
 
 == Biografías ==
 
+* [https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] ([http://sb.longnow.org/ sitio web])
+* [https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey]
 * [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web])
+
+* [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
 
 == Organizaciones ==
 
 * [https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation Alcor Life Extension Foundation]
+
+== Predicciones ==
+
+* [http://www.futuretimeline.net Future Timeline]: Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
+
+* '''2029''': Según Ray Kurzweil la esperanza de vida crecerá un año por cada año que pase.
+* '''2045''': Según Ray Kurzweil la singularidad tecnológica se produce en este año.
 
 == Vídeos ==
 
