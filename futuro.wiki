@@ -1,15 +1,12 @@
 {{header|1=Futuro}}
 
 * [https://futurism.com/ Futurism.com]
-* [https://hpluspedia.org/ H+Pedia]
 
 == Biografías ==
 
 * [https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] ([http://sb.longnow.org/ sitio web])
 * [https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey]
 * [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web])
-
-* [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
 
 == Organizaciones ==
 
@@ -22,8 +19,31 @@
 * '''2029''': Según Ray Kurzweil la esperanza de vida crecerá un año por cada año que pase.
 * '''2045''': Según Ray Kurzweil la singularidad tecnológica se produce en este año.
 
-== Vídeos ==
+== Singularidad ==
 
+* [https://bloggingheads.tv/videos/2561?in=00:01 Debate: Eliezer Yudkowsky (Singularity Institute, Less Wrong) and Massimo Pigliucci (CUNY Graduate Center, Scientia Salon)]
+
+== Transhumanismo ==
+
+Existen diversas definiciones sobre qué es el '''transhumanismo'''.
+
+* Es el pensamiento acerca del futuro, basado en la premisa de que la especie humana en su forma actual no se encuentra en el estadio final de su desarrollo, sino más bien en una fase temprana de otras que vendrán. (The Transhumanist FAQ)
+
+* Conjunto de filosofías de la vida que buscan, a través de la ciencia y la tecnología, la continuación y aceleración de la evolución de la vida inteligente más allá de su forma y limitaciones humanas actuales. (Max More)
+
+* Movimiento intelectual y cultural que afirma la posibilidad y lo deseable de mejorar la condición humana con el uso de la razón, especialmente con el desarrollo y uso amplio de la tecnología para eliminar el envejecimiento y amplificar las capacidades intelectuales, físicas y psicológicas humanas. También es el estudio de las ramificaciones y peligros potenciales de las tecnologías que nos permitirán superar las limitaciones humanas, y el estudio de los asuntos éticos relacionados con el desarrollo y uso de dichas tecnologías. (Humanity+)
+
+* [https://hpluspedia.org/ H+Pedia]
+* [https://nickbostrom.com/views/transhumanist.pdf The Transhumanist FAQ]
+* [https://whatistranshumanism.org/ What is Transhumanism?] ([https://github.com/alimony/whatistranshumanism.org GitHub])
+* [https://transhumanismo.org/manifiesto-transhumanista/ Manifiesto Transhumanista]
 * [https://www.youtube.com/watch?v=r9fcjUUVM00 "Para el 2045 seremos inmortales": El futuro según Ray Kurzweil]
+* [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
+
+<!--
+
+http://dspace.ceu.es/bitstream/10637/3694/2/EPostigotranshumanismo.pdf
+
+-->
 
 {{footer}}
