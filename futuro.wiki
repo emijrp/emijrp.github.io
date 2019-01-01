@@ -1,12 +1,18 @@
 {{header|1=Futuro}}
 
-* [https://futurism.com/ Futurism.com]
+El '''futuro''' es aquello que sucederá en el tiempo posterior al presente. La '''futurología''' es la ciencia de postular posibles futuros.
+
+Es posible hacer '''predicciones''' acerca del futuro con distinto grado de exactitud en multitud de áreas del conocimiento. Por ejemplo, se puede preveer la trayectoria de un cometa en base a su posición actual, dirección y velocidad. A pesar de que los pronósticos meteorológicos tengan la reputación de que nunca aciertan, no es así, y los modelos están mejorando continuamente. Igualmente, el progreso de la tecnología permite cada vez hacer cálculos más intensivos que mejoran la simulación y la proyección hacia el futuro a partir de datos disponibles del presente y el pasado.
+
+En esta sección recopilo información muy variada acerca de cómo podría ser el futuro, de personas que piensan y trabajan en ello, de organizaciones que intentan que estemos preparados para lo que pudiera llegar, así como predicciones acerca del futuro tanto del universo como de la humanidad misma.
 
 == Biografías ==
 
-* [https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] ([http://sb.longnow.org/ sitio web])
-* [https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey]
-* [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web])
+* [https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] ([http://sb.longnow.org/ sitio web]): pensamiento a largo plazo
+* [https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey]: longevidad
+* [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web]): singularidad tecnológica, longevidad
+* María Blasco: longevidad
+* Manuel Serrano: longevidad
 
 == Organizaciones ==
 
@@ -51,6 +57,24 @@
 * '''2048''': ...
 * '''2049''': ...
 
+== Computación ==
+
+=== Inteligencia artificial ===
+
+* [https://www.youtube.com/playlist?list=PLBr5XdGTPoyQWxrckAjR4wmYAtiZ1C0AJ Ciclo de debates "La IA que viene"]
+* Redes neuronales
+* TensorFlow
+* [https://pythonprogramming.net/machine-learning-tutorial-python-introduction/ Machine Learning in Python]
+* Test de Turing. Argumento de la habitación china.
+* Antropocentrismo y ¿Qué es pensar? La humanidad sufrió un shock cuando se propuso y se descubrió que la Tierra y el hombre no eran el centro del universo y que los demás planetas y estrellas giraban entorno a él, sino que era la Tierra la que giraba entorno al Sol, pasándose de un modelo antropocéntrico a un modelo heliocéntrico. Del mismo modo, la humanidad abandonará la idea de que solo el ser humano es capaz de pensar, o dicho de otro modo, que la forma de pensar humana no es la única posible. Además, ¿por qué deberían las máquinas imitar la forma en la que piensan los humanos? ¿Acaso con la forma en la que piensan las máquinas (por ejemplo AlphaGo) no es mejor que la forma de pensar humana, puesto que ya ha ganado a los mejores jugadores de go? ¿Por qué empeñarse en que las máquinas deben pensar como los humanos para reconocer que piensan?
+
+== Longevidad ==
+
+* [https://www.youtube.com/watch?v=B5yy3Lf2684 Camino a la inmortalidad]
+* [https://www.youtube.com/watch?v=ZEgcu_D0Zwc La inmortalidad]
+* [https://www.youtube.com/watch?v=MXUnUY-0KFQ La prolongación de la vida]
+* [https://www.youtube.com/watch?v=KEMBax2Wnew Vida eterna]
+
 == Singularidad ==
 
 * [https://bloggingheads.tv/videos/2561?in=00:01 Debate: Eliezer Yudkowsky (Singularity Institute, Less Wrong) and Massimo Pigliucci (CUNY Graduate Center, Scientia Salon)]
@@ -72,9 +96,20 @@ Existen diversas definiciones sobre qué es el '''transhumanismo'''.
 * [https://www.youtube.com/watch?v=r9fcjUUVM00 "Para el 2045 seremos inmortales": El futuro según Ray Kurzweil]
 * [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
 
+== Enlaces externos ==
+
+* [https://futurism.com/ Futurism.com]
+* [https://www.youtube.com/channel/UCplSUE_p3XcNEwSUUsfJWNg/videos AlianzaFuturista]
+* [https://en.wikipedia.org/wiki/Timeline_of_senescence_research Timeline of senescence research]
+* [http://www.futuretimeline.net/forum/ Future Timeline Forum]
+
+{{futuro}}
+
 <!--
 
 http://dspace.ceu.es/bitstream/10637/3694/2/EPostigotranshumanismo.pdf
+
+https://archiveteam.org/index.php?title=ArchiveBot/Futurology
 
 -->
 
