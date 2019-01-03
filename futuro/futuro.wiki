@@ -11,8 +11,10 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 * [https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] ([http://sb.longnow.org/ sitio web]): pensamiento a largo plazo
 * [https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey]: longevidad
 * [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web]): singularidad tecnológica, longevidad
+* Marvin Minsky: inteligencia artificial
 * María Blasco: longevidad
 * Manuel Serrano: longevidad
+* Ricardo Sanz Bravo: inteligencia artificial
 
 == Organizaciones ==
 
@@ -21,6 +23,13 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 == Predicciones ==
 
 * [http://www.futuretimeline.net Future Timeline]: Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
+
+* [https://en.wikipedia.org/wiki/Future_of_Earth Future of Earth]
+* [https://en.wikipedia.org/wiki/Futures_studies Futures studies]
+* [https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events List of dates predicted for apocalyptic events]
+* [https://en.wikipedia.org/wiki/Outline_of_futures_studies Outline of futures studies]
+* [https://en.wikipedia.org/wiki/Timeline_of_the_near_future Timeline of the near future]
+* [https://en.wikipedia.org/wiki/Timeline_of_the_far_future Timeline of the far future]
 
 * '''2019''': ...
 
@@ -67,13 +76,20 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 * [https://pythonprogramming.net/machine-learning-tutorial-python-introduction/ Machine Learning in Python]
 * Test de Turing. Argumento de la habitación china.
 * Antropocentrismo y ¿Qué es pensar? La humanidad sufrió un shock cuando se propuso y se descubrió que la Tierra y el hombre no eran el centro del universo y que los demás planetas y estrellas giraban entorno a él, sino que era la Tierra la que giraba entorno al Sol, pasándose de un modelo antropocéntrico a un modelo heliocéntrico. Del mismo modo, la humanidad abandonará la idea de que solo el ser humano es capaz de pensar, o dicho de otro modo, que la forma de pensar humana no es la única posible. Además, ¿por qué deberían las máquinas imitar la forma en la que piensan los humanos? ¿Acaso con la forma en la que piensan las máquinas (por ejemplo AlphaGo) no es mejor que la forma de pensar humana, puesto que ya ha ganado a los mejores jugadores de go? ¿Por qué empeñarse en que las máquinas deben pensar como los humanos para reconocer que piensan?
+* Si la capacidad de pensar del ser humano comenzó con el uso de herramientas y se fue reforzando con ello, ¿acaso un robot de una cadena de montaje, no sería también el primer paso hacia una inteligencia artificial que iría perfeccionándose?
 
 == Longevidad ==
 
-* [https://www.youtube.com/watch?v=B5yy3Lf2684 Camino a la inmortalidad]
-* [https://www.youtube.com/watch?v=ZEgcu_D0Zwc La inmortalidad]
-* [https://www.youtube.com/watch?v=MXUnUY-0KFQ La prolongación de la vida]
-* [https://www.youtube.com/watch?v=KEMBax2Wnew Vida eterna]
+Documentales:
+
+* ''[https://www.youtube.com/watch?v=B5yy3Lf2684 Camino a la inmortalidad]''
+* ''[https://www.youtube.com/watch?v=ZEgcu_D0Zwc La inmortalidad]''
+* ''[https://www.youtube.com/watch?v=MXUnUY-0KFQ La prolongación de la vida]''
+* ''[https://www.youtube.com/watch?v=KEMBax2Wnew Vida eterna]''
+
+Sitios web:
+
+* [http://immortality-roadmap.com/ Immortality Roadmap]
 
 == Singularidad ==
 
