@@ -1,11 +1,9 @@
 <center>
 <table width=100% align=center style="border: 1px solid #aaa; background-color: #f9f9f9; color: black; margin: 10px 0px 10px 0px; padding: 0.2em; font-size: 90%;">
-<tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''[[{{:rootpath}}/futuro|Futuro]]'''</th></tr>
-<!--
+<tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''[[{{:rootpath}}/futuro/futuro|Futuro]]'''</th></tr>
 <tr>
-<td align=center>'''Por tema'''</td>
-<td align=center>[[{{:rootpath}}/aaa|aaa]]{{o}} </td>
+<!--<td align=center>'''Por tema'''</td>-->
+<td colspan=2 align=center>[[{{:rootpath}}/futuro/futuro#Biografías|Biografías]]{{o}} [[{{:rootpath}}/futuro/inteligencia artificial|Inteligencia artificial]]{{o}} [[{{:rootpath}}/futuro/futuro#Longevidad|Longevidad]]{{o}} [[{{:rootpath}}/futuro/futuro#Predicciones|Predicciones]]{{o}} [[{{:rootpath}}/futuro/futuro#Singularidad|Singularidad]]{{o}} [[{{:rootpath}}/futuro/futuro#Transhumanismo|Transhumanismo]]</td>
 </tr>
--->
 </table>
 </center>

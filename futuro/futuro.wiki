@@ -69,6 +69,7 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 == Computación ==
 
 === Inteligencia artificial ===
+{{ap|1=Inteligencia artificial|2=Inteligencia artificial}}
 
 * [https://www.youtube.com/playlist?list=PLBr5XdGTPoyQWxrckAjR4wmYAtiZ1C0AJ Ciclo de debates "La IA que viene"]
 * Redes neuronales

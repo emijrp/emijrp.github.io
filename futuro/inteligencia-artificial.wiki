@@ -1,0 +1,41 @@
+{{header|1=Inteligencia artificial}}
+
+Existen muchas definiciones de '''inteligencia artificial'''. Podría resumirse como la capacidad de una máquina de interpretar datos para tomar decisiones que maximicen la probabilidad de conseguir los objetivos esperados.
+
+Existen distintos tipos de inteligencia artificial. Si la toma de decisiones se lleva a cabo programando un conjunto de reglas previamente (similar a la estructura if-else) se denomina IA simbólica. Fue el primer tipo de inteligencia artificial, se desarrolló entre los años 50 y 80, y su máximo exponente son los sistemas expertos.
+
+Si el sistema aprende a partir de los datos por sí mismo en un proceso que suele ser retroalimentado numerosas veces hasta maximizar la perfección del sistema, estaremos ante el aprendizaje automático o machine learning.
+
+== Machine Learning ==
+
+
+
+=== Deep Learning ===
+
+* TensorFlow
+
+== Usos de la inteligencia artificial ==
+
+=== Procesamiento del Lenguaje Natural === 
+
+* NTLK
+
+=== Visión por computador ===
+
+* OpenCV
+
+== Bibliografía ==
+
+* Chollet, François (2018). ''Deep Learning with Python''.
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+== Enlaces externos ==
+
+* {{wikipedia|1=es|2=Inteligencia_artificial}}
+* {{wikipedia|1=en|2=Artificial_Intelligence}}
+
+{{futuro}}
+{{footer}}
