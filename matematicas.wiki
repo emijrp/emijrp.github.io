@@ -4,5 +4,18 @@
 * Hipótesis del contínuo de Cantor
 * Alan Turing
 
+== Bibliografía ==
 
+* Malba Tahan. ''El hombre que calculaba''.
+* Cliff Pickover. ''El libro de las matemáticas''.
+* Ian Stewart. ''Cartas a una joven matemática''.
+* Marcus Du Sautoy. ''Simetría''.
+* Marcus Du Sautoy. ''Números increíbles''.
+* Marcus Du Sautoy. ''La música de los números primos''.
+* Martín Gardner. ''Miscelánea matemática''.
+* Adrián Paenza. ''La puerta equivocada''.
+* Andrés Navas. ''Un diaje a las ideas: 33 historias matemáticas''.
+* Edward Frenkel. ''Amor y matemáticas''.
+
+{{ramas del saber}}
 {{footer}}

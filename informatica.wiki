@@ -1,31 +1,9 @@
 {{header|1=Informática}}
 
-<!--
- Procesamiento de Imágenes
-El procesamiento de imágenes (en inglés Image processing) consiste en aplicar técnicas automáticas de análisis de imagen mediante computador. Un ejemplo conocido puede ser la detección y lectura de matrículas automática de un radar de tráfico al momento de tomar la fotografía.
+== Impresoras 3D ==
 
-Bibliotecas
+* [https://www.youtube.com/watch?v=si2iUkXzykU Un estudiante de la UNDAV fabrica prótesis para perros y las dona]
+* [https://www.youtube.com/watch?v=jhNSKHLNyII Prótesis para perros en México]
 
-    OpenCV http://opencv.willowgarage.com/wiki/Welcome
-    
-    -->
-
-
-<!--
-
- Procesamiento del Lenguaje Natural https://www.youtube.com/watch?v=kKe4M4iSclc
-Se conoce como Procesamiento del Lenguaje Natural (en inglés Natural Language Processing) a un campo de la informática y la lingüística que consiste en analizar textos para extraer información y en ocasiones generar otros textos distintos. Un ejemplo muy conocido puede ser el de traducción automática de textos. Se han hecho avances en los últimos años usando sobre todo aproximaciones estadísticas, pero es un campo al que le queda todavía mucho recorrido.
-
-El vídeo es una presentación de la biblioteca NLTK para procesamiento del lenguaje natural con Python. En muy pocas líneas consigue crear un rudimentario clasificador de spam, calculando la frecuencia de aparición de palabras.
-
-Bibliotecas
-
-    Natural Language Toolkit para Python http://www.nltk.org/
-
-Cursos
-
-    Stanford https://www.coursera.org/nlp/class/index
-    
-    -->
-
+{{ramas del saber}}
 {{footer}}

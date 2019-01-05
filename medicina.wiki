@@ -1,0 +1,14 @@
+{{header|1=Medicina}}
+
+* [https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy List of countries by life expectancy]
+* [https://en.wikipedia.org/wiki/List_of_causes_of_death_by_rate List of causes of death by rate]
+
+== Bibliografía ==
+
+* Frank H. Netter. ''Atlas de anatomía humana''.
+* Keith L. Moore. ''Anatomía con orientación clínica''.
+* Finn Geneser. ''Histología''.
+* Farreras-Rozman. ''Medicina interna''.
+
+{{ramas del saber}}
+{{footer}}

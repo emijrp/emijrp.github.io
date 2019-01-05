@@ -69,6 +69,12 @@ Desde la aparición del ser humano hasta la invención de la escritura.
 == Siglo XXI ==
 
 == Futuro ==
+{{ap|1={{:rootpath}}/futuro/futuro|2=Futuro}}
+
+== Bibliografía ==
+
+
 
 {{historia}}
+{{ramas del saber}}
 {{footer}}
