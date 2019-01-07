@@ -4,6 +4,14 @@
 * Hipótesis del contínuo de Cantor
 * Alan Turing
 
+== Conferencias ==
+
+* [https://www.youtube.com/watch?v=Cbyp-MG0kdE ¿Qué es la filosofía de las matemáticas?]
+
+== Lógica ==
+
+* Diccionario de falacias
+
 == Bibliografía ==
 
 * Malba Tahan. ''El hombre que calculaba''.

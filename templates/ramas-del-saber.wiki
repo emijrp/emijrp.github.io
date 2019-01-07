@@ -3,11 +3,11 @@
 <tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''Ramas del saber'''</th></tr>
 <tr>
 <td align=center width=300px>'''Ciencias aplicadas y naturales'''</td>
-<td colspan=2 align=center>Arquitectura{{o}} [[{{:rootpath}}/astronomia/astronomia|Astronomía]]{{o}} Geología{{o}} [[{{:rootpath}}/informatica|Informática]]{{o}} [[{{:rootpath}}/matematicas|Matemáticas]]{{o}} [[{{:rootpath}}/medicina|Medicina]]</td>
+<td colspan=2 align=center>Arquitectura{{o}} [[{{:rootpath}}/astronomia/astronomia|Astronomía]]{{o}} [[{{:rootpath}}/fisica|Física]]{{o}} Geología{{o}} [[{{:rootpath}}/informatica|Informática]]{{o}} [[{{:rootpath}}/matematicas|Matemáticas]]{{o}} [[{{:rootpath}}/medicina|Medicina]]</td>
 </tr>
 <tr>
 <td align=center>'''Ciencias sociales y humanidades'''</td>
-<td colspan=2 align=center>Economía{{o}} [[{{:rootpath}}/historia/historia|Historia]]{{o}} Linguística{{o}} Sociología</td>
+<td colspan=2 align=center>Economía{{o}} Filosofía{{o}} [[{{:rootpath}}/historia/historia|Historia]]{{o}} Linguística{{o}} [[{{:rootpath}}/psicologia|Psicología]]{{o}} Sociología</td>
 </tr>
 </table>
 </center>
