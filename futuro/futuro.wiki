@@ -6,24 +6,93 @@ Es posible hacer '''predicciones''' acerca del futuro con distinto grado de exac
 
 En esta sección recopilo información muy variada acerca de cómo podría ser el futuro, de personas que piensan y trabajan en ello, de organizaciones que intentan que estemos preparados para lo que pudiera llegar, así como predicciones acerca del futuro tanto del universo como de la humanidad misma.
 
+== Transhumanismo ==
+
+Existen diversas definiciones de '''transhumanismo'''.
+
+* Es el pensamiento acerca del futuro, basado en la premisa de que la especie humana en su forma actual no se encuentra en el estadio final de su desarrollo, sino más bien en una fase temprana de otras que vendrán. (The Transhumanist FAQ)
+
+* Conjunto de filosofías de la vida que buscan, a través de la ciencia y la tecnología, la continuación y aceleración de la evolución de la vida inteligente más allá de su forma y limitaciones humanas actuales. (Max More)
+
+* Movimiento intelectual y cultural que afirma la posibilidad y lo deseable de mejorar la condición humana con el uso de la razón, especialmente con el desarrollo y uso amplio de la tecnología para eliminar el envejecimiento y amplificar las capacidades intelectuales, físicas y psicológicas humanas. También es el estudio de las ramificaciones y peligros potenciales de las tecnologías que nos permitirán superar las limitaciones humanas, y el estudio de los asuntos éticos relacionados con el desarrollo y uso de dichas tecnologías. (Humanity+)
+
+Más información:
+
+* [https://hpluspedia.org/ H+Pedia]
+* [https://nickbostrom.com/views/transhumanist.pdf The Transhumanist FAQ]
+* [https://whatistranshumanism.org/ What is Transhumanism?] ([https://github.com/alimony/whatistranshumanism.org GitHub])
+* [https://transhumanismo.org/manifiesto-transhumanista/ Manifiesto Transhumanista]
+* [https://www.youtube.com/watch?v=r9fcjUUVM00 "Para el 2045 seremos inmortales": El futuro según Ray Kurzweil]
+* [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
+
+=== Corrientes ===
+
+Principales '''corrientes transhumanistas''' y sus posturas frente al desarrollo tecnológico.<ref>[https://es.wikipedia.org/wiki/Transhumanismo#Corrientes Transhumanismo#Corrientes] en Wikipedia</ref>
+
+* '''Abolicionismo''': eliminación del sufrimiento involuntario en toda forma de vida sintiente.
+
+* '''Extropianismo''': <ref>[https://es.wikipedia.org/wiki/Extropianismo Extropianismo] en Wikipedia</ref>
+
+* '''Inmortalismo''': la prolongación de la vida y la inmortalidad serán tecnológicamente posibles y deseables.
+
+* '''Posgenerismo''': eliminación del género a través de avances tecnológicos en reproducción asistida.
+
+* '''Singularitarianismo''': la singularidad tecnológica es posible y es necesario estudiar sus efectos.
+
+Existen otras corrientes como el postpoliticismo, el tecnicismo, el tecnogaianismo, y el transhumanismo democrático, libertario y progresista.
+
+=== Longevidad ===
+
+Conferencias:
+
+* [https://www.youtube.com/channel/UCzpR3v0RLjXSrfrC-rk_1YA Algunas entrevistas a Aubrey de Grey]
+
+Documentales:
+
+* ''[https://www.youtube.com/watch?v=B5yy3Lf2684 Camino a la inmortalidad]''
+* ''[https://www.youtube.com/watch?v=ZEgcu_D0Zwc La inmortalidad]''
+* ''[https://www.youtube.com/watch?v=MXUnUY-0KFQ La prolongación de la vida]''
+* ''[https://www.youtube.com/watch?v=KEMBax2Wnew Vida eterna]''
+
+Sitios web:
+
+* [http://immortality-roadmap.com/ Immortality Roadmap]
+
+=== Singularidad ===
+
+* [https://bloggingheads.tv/videos/2561?in=00:01 Debate: Eliezer Yudkowsky (Singularity Institute, Less Wrong) and Massimo Pigliucci (CUNY Graduate Center, Scientia Salon)]
+
 == Biografías ==
 
 [[File:aubrey-de-grey.jpg|thumb|right|200px|Aubrey de Grey]]
 * '''Aubrey de Grey''' (1963). Biogerontólogo inglés. Sus investigaciones se centran en la medicina regenerativa. En su opinión, en las próximas décadas será posible no solo ampliar la esperanza de vida al nacer, sino la de las personas ya vivas, deteniendo el envejecimiento e incluso revirtiéndolo. Editor en jefe de la revista académica ''Rejuvenation Research'' y autor de varias obras sobre las causas del envejecimiento y la posibilidad de frenarlo. Ocupa diversos cargos en la SENS Research Foundation, AgeX y otras empresas.<ref>[https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey] en Wikipedia</ref>
 
-* '''Stewart Brand'''.<ref>[https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] en Wikipedia</ref> Pensamiento a largo plazo. [http://sb.longnow.org/ Sitio web].
+* '''Max More''' (1964). Filósofo inglés. Divulgador y consultor sobre el impacto de las tecnologías emergentes. Fundador del Extropy Institute. En 2011 fue nombrado presidente de Alcor, organización a la que pertenecía desde 1986.<ref>[https://en.wikipedia.org/wiki/Max_More Max More] en Wikipedia</ref> [http://maxmore.com/ Sitio web].
 
-* '''Ray Kurzweil'''.<ref>[https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] en Wikipedia</ref> Singularidad tecnológica, longevidad. [http://www.kurzweilai.net/ Sitio web].
+* '''Stewart Brand''' (1938).<ref>[https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] en Wikipedia</ref> Pensamiento a largo plazo. [http://sb.longnow.org/ Sitio web].
 
-* '''Ben Goertzel'''.<ref>[https://en.wikipedia.org/wiki/Ben_Goertzel Ben Goertzel] en Wikipedia</ref> [http://goertzel.org/ Sitio web].
+* '''Ray Kurzweil''' (1948).<ref>[https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] en Wikipedia</ref> Singularidad tecnológica, longevidad. [http://www.kurzweilai.net/ Sitio web].
 
-* '''Marvin Minsky'''. Inteligencia artificial.
+* '''Ben Goertzel''' (1966).<ref>[https://en.wikipedia.org/wiki/Ben_Goertzel Ben Goertzel] en Wikipedia</ref> [http://goertzel.org/ Sitio web].
+
+* '''Marvin Minsky''' (1927-2016). Inteligencia artificial.
 
 * '''María Blasco'''. Longevidad.
 
 * '''Manuel Serrano'''. Longevidad.
 
 * '''Ricardo Sanz Bravo'''. Inteligencia artificial.
+
+== Inteligencia artificial ==
+{{ap|1=Inteligencia artificial|2=Inteligencia artificial}}
+
+* [https://www.youtube.com/playlist?list=PLBr5XdGTPoyQWxrckAjR4wmYAtiZ1C0AJ Ciclo de debates "La IA que viene"]
+* Redes neuronales
+* TensorFlow
+* [https://pythonprogramming.net/machine-learning-tutorial-python-introduction/ Machine Learning in Python]
+* Test de Turing. Argumento de la habitación china.
+* Antropocentrismo y ¿Qué es pensar? La humanidad sufrió un shock cuando se propuso y se descubrió que la Tierra y el hombre no eran el centro del universo y que los demás planetas y estrellas giraban entorno a él, sino que era la Tierra la que giraba entorno al Sol, pasándose de un modelo antropocéntrico a un modelo heliocéntrico. Del mismo modo, la humanidad abandonará la idea de que solo el ser humano es capaz de pensar, o dicho de otro modo, que la forma de pensar humana no es la única posible. Además, ¿por qué deberían las máquinas imitar la forma en la que piensan los humanos? ¿Acaso con la forma en la que piensan las máquinas (por ejemplo AlphaGo) no es mejor que la forma de pensar humana, puesto que ya ha ganado a los mejores jugadores de go? ¿Por qué empeñarse en que las máquinas deben pensar como los humanos para reconocer que piensan?
+* Si la capacidad de pensar del ser humano comenzó con el uso de herramientas y se fue reforzando con ello, ¿acaso un robot de una cadena de montaje, no sería también el primer paso hacia una inteligencia artificial que iría perfeccionándose?
 
 == Organizaciones ==
 
@@ -39,15 +108,6 @@ En España:
 * Crionica.org
 
 == Predicciones ==
-
-* [http://www.futuretimeline.net Future Timeline]: Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
-
-* [https://en.wikipedia.org/wiki/Future_of_Earth Future of Earth]
-* [https://en.wikipedia.org/wiki/Futures_studies Futures studies]
-* [https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events List of dates predicted for apocalyptic events]
-* [https://en.wikipedia.org/wiki/Outline_of_futures_studies Outline of futures studies]
-* [https://en.wikipedia.org/wiki/Timeline_of_the_near_future Timeline of the near future]
-* [https://en.wikipedia.org/wiki/Timeline_of_the_far_future Timeline of the far future]
 
 * '''2019''': ...
 
@@ -84,56 +144,16 @@ En España:
 * '''2048''': ...
 * '''2049''': ...
 
-== Computación ==
+Más información:
 
-=== Inteligencia artificial ===
-{{ap|1=Inteligencia artificial|2=Inteligencia artificial}}
+* [http://www.futuretimeline.net Future Timeline]: Predicciones acerca del futuro del planeta y del progreso de la tecnología según los datos que tenemos
 
-* [https://www.youtube.com/playlist?list=PLBr5XdGTPoyQWxrckAjR4wmYAtiZ1C0AJ Ciclo de debates "La IA que viene"]
-* Redes neuronales
-* TensorFlow
-* [https://pythonprogramming.net/machine-learning-tutorial-python-introduction/ Machine Learning in Python]
-* Test de Turing. Argumento de la habitación china.
-* Antropocentrismo y ¿Qué es pensar? La humanidad sufrió un shock cuando se propuso y se descubrió que la Tierra y el hombre no eran el centro del universo y que los demás planetas y estrellas giraban entorno a él, sino que era la Tierra la que giraba entorno al Sol, pasándose de un modelo antropocéntrico a un modelo heliocéntrico. Del mismo modo, la humanidad abandonará la idea de que solo el ser humano es capaz de pensar, o dicho de otro modo, que la forma de pensar humana no es la única posible. Además, ¿por qué deberían las máquinas imitar la forma en la que piensan los humanos? ¿Acaso con la forma en la que piensan las máquinas (por ejemplo AlphaGo) no es mejor que la forma de pensar humana, puesto que ya ha ganado a los mejores jugadores de go? ¿Por qué empeñarse en que las máquinas deben pensar como los humanos para reconocer que piensan?
-* Si la capacidad de pensar del ser humano comenzó con el uso de herramientas y se fue reforzando con ello, ¿acaso un robot de una cadena de montaje, no sería también el primer paso hacia una inteligencia artificial que iría perfeccionándose?
-
-== Longevidad ==
-
-Conferencias:
-
-* [https://www.youtube.com/channel/UCzpR3v0RLjXSrfrC-rk_1YA Algunas entrevistas a Aubrey de Grey]
-
-Documentales:
-
-* ''[https://www.youtube.com/watch?v=B5yy3Lf2684 Camino a la inmortalidad]''
-* ''[https://www.youtube.com/watch?v=ZEgcu_D0Zwc La inmortalidad]''
-* ''[https://www.youtube.com/watch?v=MXUnUY-0KFQ La prolongación de la vida]''
-* ''[https://www.youtube.com/watch?v=KEMBax2Wnew Vida eterna]''
-
-Sitios web:
-
-* [http://immortality-roadmap.com/ Immortality Roadmap]
-
-== Singularidad ==
-
-* [https://bloggingheads.tv/videos/2561?in=00:01 Debate: Eliezer Yudkowsky (Singularity Institute, Less Wrong) and Massimo Pigliucci (CUNY Graduate Center, Scientia Salon)]
-
-== Transhumanismo ==
-
-Existen diversas definiciones de '''transhumanismo'''.
-
-* Es el pensamiento acerca del futuro, basado en la premisa de que la especie humana en su forma actual no se encuentra en el estadio final de su desarrollo, sino más bien en una fase temprana de otras que vendrán. (The Transhumanist FAQ)
-
-* Conjunto de filosofías de la vida que buscan, a través de la ciencia y la tecnología, la continuación y aceleración de la evolución de la vida inteligente más allá de su forma y limitaciones humanas actuales. (Max More)
-
-* Movimiento intelectual y cultural que afirma la posibilidad y lo deseable de mejorar la condición humana con el uso de la razón, especialmente con el desarrollo y uso amplio de la tecnología para eliminar el envejecimiento y amplificar las capacidades intelectuales, físicas y psicológicas humanas. También es el estudio de las ramificaciones y peligros potenciales de las tecnologías que nos permitirán superar las limitaciones humanas, y el estudio de los asuntos éticos relacionados con el desarrollo y uso de dichas tecnologías. (Humanity+)
-
-* [https://hpluspedia.org/ H+Pedia]
-* [https://nickbostrom.com/views/transhumanist.pdf The Transhumanist FAQ]
-* [https://whatistranshumanism.org/ What is Transhumanism?] ([https://github.com/alimony/whatistranshumanism.org GitHub])
-* [https://transhumanismo.org/manifiesto-transhumanista/ Manifiesto Transhumanista]
-* [https://www.youtube.com/watch?v=r9fcjUUVM00 "Para el 2045 seremos inmortales": El futuro según Ray Kurzweil]
-* [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
+* [https://en.wikipedia.org/wiki/Future_of_Earth Future of Earth]
+* [https://en.wikipedia.org/wiki/Futures_studies Futures studies]
+* [https://en.wikipedia.org/wiki/List_of_dates_predicted_for_apocalyptic_events List of dates predicted for apocalyptic events]
+* [https://en.wikipedia.org/wiki/Outline_of_futures_studies Outline of futures studies]
+* [https://en.wikipedia.org/wiki/Timeline_of_the_near_future Timeline of the near future]
+* [https://en.wikipedia.org/wiki/Timeline_of_the_far_future Timeline of the far future]
 
 == Bibliografía ==
 
