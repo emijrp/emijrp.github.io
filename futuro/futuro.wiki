@@ -8,17 +8,35 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 
 == Biografías ==
 
-* [https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] ([http://sb.longnow.org/ sitio web]): pensamiento a largo plazo
-* [https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey]: longevidad
-* [https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] ([http://www.kurzweilai.net/ sitio web]): singularidad tecnológica, longevidad
-* Marvin Minsky: inteligencia artificial
-* María Blasco: longevidad
-* Manuel Serrano: longevidad
-* Ricardo Sanz Bravo: inteligencia artificial
+[[File:aubrey-de-grey.jpg|thumb|right|200px|Aubrey de Grey]]
+* '''Aubrey de Grey''' (1963). Biogerontólogo inglés. Sus investigaciones se centran en la medicina regenerativa. En su opinión, en las próximas décadas será posible no solo ampliar la esperanza de vida al nacer, sino la de las personas ya vivas, deteniendo el envejecimiento e incluso revirtiéndolo. Editor en jefe de la revista académica ''Rejuvenation Research'' y autor de varias obras sobre las causas del envejecimiento y la posibilidad de frenarlo. Ocupa diversos cargos en la SENS Research Foundation, AgeX y otras empresas.<ref>[https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey] en Wikipedia</ref>
+
+* '''Stewart Brand'''.<ref>[https://en.wikipedia.org/wiki/Stewart_Brand Stewart Brand] en Wikipedia</ref> Pensamiento a largo plazo. [http://sb.longnow.org/ Sitio web].
+
+* '''Ray Kurzweil'''.<ref>[https://en.wikipedia.org/wiki/Ray_Kurzweil Ray Kurzweil] en Wikipedia</ref> Singularidad tecnológica, longevidad. [http://www.kurzweilai.net/ Sitio web].
+
+* '''Ben Goertzel'''.<ref>[https://en.wikipedia.org/wiki/Ben_Goertzel Ben Goertzel] en Wikipedia</ref> [http://goertzel.org/ Sitio web].
+
+* '''Marvin Minsky'''. Inteligencia artificial.
+
+* '''María Blasco'''. Longevidad.
+
+* '''Manuel Serrano'''. Longevidad.
+
+* '''Ricardo Sanz Bravo'''. Inteligencia artificial.
 
 == Organizaciones ==
 
 * [https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation Alcor Life Extension Foundation]
+* American Cryonics Organization
+* Cryonics Institute
+* KrioRus
+
+En España:
+
+* Sociedad Española de Criogenización
+* FASTRA
+* Crionica.org
 
 == Predicciones ==
 
@@ -81,6 +99,10 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 
 == Longevidad ==
 
+Conferencias:
+
+* [https://www.youtube.com/channel/UCzpR3v0RLjXSrfrC-rk_1YA Algunas entrevistas a Aubrey de Grey]
+
 Documentales:
 
 * ''[https://www.youtube.com/watch?v=B5yy3Lf2684 Camino a la inmortalidad]''
@@ -98,7 +120,7 @@ Sitios web:
 
 == Transhumanismo ==
 
-Existen diversas definiciones sobre qué es el '''transhumanismo'''.
+Existen diversas definiciones de '''transhumanismo'''.
 
 * Es el pensamiento acerca del futuro, basado en la premisa de que la especie humana en su forma actual no se encuentra en el estadio final de su desarrollo, sino más bien en una fase temprana de otras que vendrán. (The Transhumanist FAQ)
 
@@ -112,6 +134,14 @@ Existen diversas definiciones sobre qué es el '''transhumanismo'''.
 * [https://transhumanismo.org/manifiesto-transhumanista/ Manifiesto Transhumanista]
 * [https://www.youtube.com/watch?v=r9fcjUUVM00 "Para el 2045 seremos inmortales": El futuro según Ray Kurzweil]
 * [https://hpluspedia.org/wiki/Category:Transhumanists Category:Transhumanists]
+
+== Bibliografía ==
+
+* Raymond Kurzweil (2005). ''La Singularidad está cerca. Cuando los humanos transcendamos la biología''.
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
 
 == Enlaces externos ==
 
