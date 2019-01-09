@@ -10,4 +10,6 @@ Temas, obras, biografías por '''explorar'''.
 
 * [https://en.wikipedia.org/wiki/OpenWorm OpenWorm]
 
+* [https://en.wikipedia.org/wiki/Douglas_Hofstadter Douglas Hofstadter]
+
 {{footer}}
