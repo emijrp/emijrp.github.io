@@ -6,6 +6,10 @@ Existen distintos tipos de inteligencia artificial. Si la toma de decisiones se 
 
 Si el sistema aprende a partir de los datos por sí mismo en un proceso que suele ser retroalimentado numerosas veces hasta maximizar la perfección del sistema, estaremos ante el aprendizaje automático o machine learning.
 
+== Lo básico ==
+
+* [https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1 How to build a simple neural network in 9 lines of Python code]
+
 == Machine Learning ==
 
 

@@ -64,6 +64,8 @@ Sitios web:
 
 == Biografías ==
 
+* '''Fereidoun M. Esfandiary''' (1930-2000). También conocido como '''FM-2030'''.
+
 [[File:aubrey-de-grey.jpg|thumb|right|200px|Aubrey de Grey]]
 * '''Aubrey de Grey''' (1963). Biogerontólogo inglés. Sus investigaciones se centran en la medicina regenerativa. En su opinión, en las próximas décadas será posible no solo ampliar la esperanza de vida al nacer, sino la de las personas ya vivas, deteniendo el envejecimiento e incluso revirtiéndolo. Editor en jefe de la revista académica ''Rejuvenation Research'' y autor de varias obras sobre las causas del envejecimiento y la posibilidad de frenarlo. Ocupa diversos cargos en la SENS Research Foundation, AgeX y otras empresas.<ref>[https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey] en Wikipedia</ref>
 
@@ -157,6 +159,7 @@ Más información:
 
 == Bibliografía ==
 
+* Fereidoun M. Esfandiary (1989). ''Are You a Transhuman?: Monitoring and Stimulating Your Personal Rate of Growth in a Rapidly Changing World''.
 * Raymond Kurzweil (2005). ''La Singularidad está cerca. Cuando los humanos transcendamos la biología''.
 
 == Referencias ==
@@ -166,9 +169,16 @@ Más información:
 == Enlaces externos ==
 
 * [https://futurism.com/ Futurism.com]
-* [https://www.youtube.com/channel/UCplSUE_p3XcNEwSUUsfJWNg/videos AlianzaFuturista]
 * [https://en.wikipedia.org/wiki/Timeline_of_senescence_research Timeline of senescence research]
 * [http://www.futuretimeline.net/forum/ Future Timeline Forum]
+
+Canales de YouTube:
+
+* [https://www.youtube.com/channel/UCUh9FLcWu8k5k5W_ofWQMZA Alcor Cryonics]
+* [https://www.youtube.com/channel/UCplSUE_p3XcNEwSUUsfJWNg AlianzaFuturista]
+* [https://www.youtube.com/user/LifespanIO Life Extension Advocacy Foundation]
+* [https://www.youtube.com/user/singularityu Singularity University]
+* [https://www.youtube.com/user/TheRationalFuture The Rational Future]
 
 {{futuro}}
 
