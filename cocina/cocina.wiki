@@ -6,6 +6,9 @@ Algunas recetas y otras cosillas gastronómicas. Sección en desarrollo.
 
 * Lentejas con chorizo
 * Menudo
+* Habichuelas
+* Arroz con gambas
+* Puchero
 
 == Batidos ==
 
@@ -27,5 +30,9 @@ Coliflor cocida:
 * Machacarla
 
 -->
+
+== Enlaces externos ==
+
+* [https://nutritionfacts.org Nutrition Facts]
 
 {{footer}}
