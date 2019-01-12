@@ -10,11 +10,11 @@ En esta sección recopilo información muy variada acerca de cómo podría ser e
 
 Existen diversas definiciones de '''transhumanismo'''.
 
-* Es el pensamiento acerca del futuro, basado en la premisa de que la especie humana en su forma actual no se encuentra en el estadio final de su desarrollo, sino más bien en una fase temprana de otras que vendrán. (The Transhumanist FAQ)
+* Es el pensamiento acerca del futuro, basado en la premisa de que la especie humana en su forma actual no se encuentra en el estadio final de su desarrollo, sino más bien en una fase temprana de otras que vendrán. ('''The Transhumanist FAQ''')
 
-* Conjunto de filosofías de la vida que buscan, a través de la ciencia y la tecnología, la continuación y aceleración de la evolución de la vida inteligente más allá de su forma y limitaciones humanas actuales. (Max More)
+* Conjunto de filosofías de la vida que buscan, a través de la ciencia y la tecnología, la continuación y aceleración de la evolución de la vida inteligente más allá de su forma y limitaciones humanas actuales. ('''Max More''')
 
-* Movimiento intelectual y cultural que afirma la posibilidad y lo deseable de mejorar la condición humana con el uso de la razón, especialmente con el desarrollo y uso amplio de la tecnología para eliminar el envejecimiento y amplificar las capacidades intelectuales, físicas y psicológicas humanas. También es el estudio de las ramificaciones y peligros potenciales de las tecnologías que nos permitirán superar las limitaciones humanas, y el estudio de los asuntos éticos relacionados con el desarrollo y uso de dichas tecnologías. (Humanity+)
+* Movimiento intelectual y cultural que afirma la posibilidad y lo deseable de mejorar la condición humana con el uso de la razón, especialmente con el desarrollo y uso amplio de la tecnología para eliminar el envejecimiento y amplificar las capacidades intelectuales, físicas y psicológicas humanas. También es el estudio de las ramificaciones y peligros potenciales de las tecnologías que nos permitirán superar las limitaciones humanas, y el estudio de los asuntos éticos relacionados con el desarrollo y uso de dichas tecnologías. ('''Humanity+''')
 
 Más información:
 
@@ -67,7 +67,7 @@ Sitios web:
 * '''Fereidoun M. Esfandiary''' (1930-2000). También conocido como '''FM-2030'''.
 
 [[File:aubrey-de-grey.jpg|thumb|right|200px|Aubrey de Grey]]
-* '''Aubrey de Grey''' (1963). Biogerontólogo inglés. Sus investigaciones se centran en la medicina regenerativa. En su opinión, en las próximas décadas será posible no solo ampliar la esperanza de vida al nacer, sino la de las personas ya vivas, deteniendo el envejecimiento e incluso revirtiéndolo. Editor en jefe de la revista académica ''Rejuvenation Research'' y autor de varias obras sobre las causas del envejecimiento y la posibilidad de frenarlo. Ocupa diversos cargos en la SENS Research Foundation, AgeX y otras empresas.<ref>[https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey] en Wikipedia</ref>
+* '''Aubrey de Grey''' (1963). Biogerontólogo inglés. Sus investigaciones se centran en la medicina regenerativa. En su opinión, en las próximas décadas será posible no solo ampliar la esperanza de vida al nacer, sino la de las personas ya vivas, deteniendo el envejecimiento e incluso revirtiéndolo. Editor en jefe de la revista académica ''Rejuvenation Research''<ref>[https://www.liebertpub.com/loi/REJ Rejuvenation Research]</ref> y autor de varias obras sobre las causas del envejecimiento y la posibilidad de frenarlo. Ocupa diversos cargos en la SENS Research Foundation,<ref>[http://www.sens.org/ SENS Research Foundation]</ref> AgeX<ref>[https://www.agexinc.com/ AgeX]</ref> y otras empresas.<ref>[https://en.wikipedia.org/wiki/Aubrey_de_Grey Aubrey de Grey] en Wikipedia</ref>
 
 * '''Max More''' (1964). Filósofo inglés. Divulgador y consultor sobre el impacto de las tecnologías emergentes. Fundador del Extropy Institute. En 2011 fue nombrado presidente de Alcor, organización a la que pertenecía desde 1986.<ref>[https://en.wikipedia.org/wiki/Max_More Max More] en Wikipedia</ref> [http://maxmore.com/ Sitio web].
 
@@ -78,6 +78,8 @@ Sitios web:
 * '''Ben Goertzel''' (1966).<ref>[https://en.wikipedia.org/wiki/Ben_Goertzel Ben Goertzel] en Wikipedia</ref> [http://goertzel.org/ Sitio web].
 
 * '''Marvin Minsky''' (1927-2016). Inteligencia artificial.
+
+* '''Eric Horvitz'''. Creador del One Hundred Year Study on Artificial Intelligence (AI100).<ref>[https://ai100.stanford.edu/ One Hundred Year Study on Artificial Intelligence (AI100)]</ref><ref>[https://en.wikipedia.org/wiki/Eric_Horvitz Eric Horvitz] en Wikipedia</ref>
 
 * '''María Blasco'''. Longevidad.
 
@@ -100,6 +102,8 @@ Sitios web:
 
 * [https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation Alcor Life Extension Foundation]
 * American Cryonics Organization
+* [https://www.aaai.org/ Association for the Advancement of Artificial Intelligence]
+* Calico
 * Cryonics Institute
 * KrioRus
 
@@ -157,9 +161,20 @@ Más información:
 * [https://en.wikipedia.org/wiki/Timeline_of_the_near_future Timeline of the near future]
 * [https://en.wikipedia.org/wiki/Timeline_of_the_far_future Timeline of the far future]
 
+== Proyectos ==
+
+* AI100
+* AlphaGo
+* Sophia
+
+== Software ==
+
+* 
+
 == Bibliografía ==
 
 * Fereidoun M. Esfandiary (1989). ''Are You a Transhuman?: Monitoring and Stimulating Your Personal Rate of Growth in a Rapidly Changing World''.
+* Nick Bostrom. [https://nickbostrom.com/views/transhumanist.pdf The Transhumanist FAQ]
 * Raymond Kurzweil (2005). ''La Singularidad está cerca. Cuando los humanos transcendamos la biología''.
 
 == Referencias ==
@@ -176,6 +191,7 @@ Canales de YouTube:
 
 * [https://www.youtube.com/channel/UCUh9FLcWu8k5k5W_ofWQMZA Alcor Cryonics]
 * [https://www.youtube.com/channel/UCplSUE_p3XcNEwSUUsfJWNg AlianzaFuturista]
+* [https://www.youtube.com/user/FM2030Videos/videos FM-2030]
 * [https://www.youtube.com/user/LifespanIO Life Extension Advocacy Foundation]
 * [https://www.youtube.com/user/singularityu Singularity University]
 * [https://www.youtube.com/user/TheRationalFuture The Rational Future]
