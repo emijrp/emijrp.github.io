@@ -1,11 +1,10 @@
 {{headerleaflet|1=Live cams}}
 
-Una colección de '''live cams''' (cámaras en vivo) de todo el mundo. Puedes abrir varias a la vez y maximizar la pantalla en el icono cuadrado del mapa.
+Una colección de '''live cams''' (cámaras en vivo) de todo el mundo.
 
-
-<iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/9HwSNgcdQ7k?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/if91GyWP3zQ?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/hFXdChBSAUw?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/9HwSNgcdQ7k?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/if91GyWP3zQ?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/hFXdChBSAUw?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
