@@ -2,9 +2,9 @@
 
 Una colección de '''live cams''' (cámaras en vivo) de todo el mundo.
 
-<iframe width="33%" src="https://www.youtube-nocookie.com/embed/9HwSNgcdQ7k?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe width="33%" src="https://www.youtube-nocookie.com/embed/if91GyWP3zQ?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe width="33%" src="https://www.youtube-nocookie.com/embed/hFXdChBSAUw?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="30%" height="auto" src="https://www.youtube-nocookie.com/embed/9HwSNgcdQ7k?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="30%" height="auto" src="https://www.youtube-nocookie.com/embed/if91GyWP3zQ?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="30%" height="auto" src="https://www.youtube-nocookie.com/embed/hFXdChBSAUw?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
