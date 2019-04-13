@@ -68,6 +68,8 @@ Bibliotecas
 
 * {{wikipedia|1=es|2=Inteligencia_artificial}}
 * {{wikipedia|1=en|2=Artificial_Intelligence}}
+* {{wikipedia|1=en|2=Open-source_robotics}}
+* {{wikipedia|1=en|2=Category:Bipedal_humanoid_robots}}
 
 {{futuro}}
 {{footer}}
