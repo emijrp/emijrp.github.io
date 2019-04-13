@@ -1,1 +1,39 @@
-{{redirect|1=medios.html}}
+{{header|1=Radio}}
+
+== Diexismo (DX) ==
+
+* [https://www.short-wave.info/ Short-wave.info]
+* [https://www.mwlist.org/ul_login.php MWList]
+* [https://en.wikipedia.org/wiki/Template:AmateurRadioBands Amateur radio bands] en Wikipedia
+
+* [https://www.eb1tr.com/ EB1TR]
+
+* [https://www.youtube.com/watch?v=6FQ0cVwmXuQ Shortwave Radio for the Beginner]
+* [https://www.youtube.com/results?search_query=diexismo Diexismo] en YouTube
+* [https://www.youtube.com/results?search_query=dx+listening DX listening] en YouTube
+* [https://twitter.com/hashtag/ShortWave?src=hash Shortwave] en Twitter
+
+== Banda ciudadana (CB) ==
+
+* [http://www.cb27.com/ CB27.com]
+* [http://www.radiocb.es/ Asociación Radio CB Sierra de Cádiz]
+
+== Radioaficionados ==
+
+* [https://www.ea1ura.com/ URE - Asturias]
+* [https://www.youtube.com/watch?v=V0NenkCaNA0 El primer medio siglo de radioafición en España]
+
+== Radioastronomía ==
+
+* [https://svo.cab.inta-csic.es/docs/files/svo/Public/Education/cartagena2012.pdf Radioastronomía: el universo invisible]
+* [http://www.astrosurf.com/rtaa/rtaa2017/documents/2017-rtaa-rdioastronomie-es.pdf La radioastronomía amateur]
+* [https://vimeo.com/173638603 Jovian Io-B L-bursts recorded at 22.4 MHz and 22.2 MHz July 05 2016 2319:20 - 2321:15]
+* [http://www.livemeteors.com/ Live meteors]
+
+<!--
+
+https://archive.org/details/@lgds
+
+-->
+
+{{footer}}

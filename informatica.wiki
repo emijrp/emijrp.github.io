@@ -5,5 +5,9 @@
 * [https://www.youtube.com/watch?v=si2iUkXzykU Un estudiante de la UNDAV fabrica prótesis para perros y las dona]
 * [https://www.youtube.com/watch?v=jhNSKHLNyII Prótesis para perros en México]
 
+== Python ==
+
+* [https://pyvideo.org/events/pycon-es-2017.html Conferencias PyCon 2017]
+
 {{ramas del saber}}
 {{footer}}
