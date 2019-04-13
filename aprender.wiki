@@ -15,44 +15,19 @@ Existen plataformas educativas que ofrecen cursos sobre todas las ramas del cono
 
 * [https://www.coursera.org/learn/usos-didacticos-del-cine/ Usos didácticos del cine] (Coursera)
 
-== Costumbres ==
-
-* [https://www.youtube.com/watch?v=h_PIa5SZ2vo Costumbres de Polonia]
-
-== Deportes ==
-
-* Aprender a jugar al ajedrez
-* [https://www.youtube.com/watch?v=eb3GbqTtSG4 Aprender a jugar al baloncesto]
-* Aprender a jugar al béisbol
-* Aprender a jugar al fútbol
-
 == Fotografía ==
 
 * [https://www.edx.org/course/fundamentos-de-fotografia-documental Fundamentos de fotografía documental] (edX)
 
 == Idiomas ==
-
-* [https://www.youtube.com/watch?v=zeM8I-QU02k Aprender alemán]
-* [https://www.youtube.com/watch?v=mW3W-Bua9HM Aprender catalán]
-* [https://www.youtube.com/watch?v=6WI42Tyvx8Q Aprender esperanto]
-* [https://www.youtube.com/watch?v=0XZ1KYWVLY8 Aprender gallego]
-* [https://www.youtube.com/watch?v=ruW2Hoyt4kg Aprender griego]
-* [https://www.youtube.com/channel/UC8BS_p7PVbjCPrHhGqN1oLQ Aprender inglés]
-* [https://www.youtube.com/watch?v=foHIO2bpLhU Aprender italiano]
-* [https://www.youtube.com/watch?v=lxyCyXXEaUE Aprender latín]
-* [https://www.youtube.com/watch?v=cwY85S1O0vk Aprender portugués (brasileño)]
-* [https://www.youtube.com/watch?v=gDfulSElISA Aprender ruso]
-
-* [https://www.edx.org/course/introduccion-al-griego-clasico Introducción al griego clásico] (edX)
+{{ap|1=idiomas/idiomas|2=Idiomas}}
 
 == Informática ==
 
 * [https://miriadax.net/web/ciberseguridad-entender-los-ataques-para-desplegar-contramedidas-2-edicion-/inicio Ciberseguridad. Entender los ataques para desplegar contramedidas] (Miríadax)
 
 == Mecánica ==
-
-* [https://www.youtube.com/channel/UCxlDL-ZpdAzESIvr-9cbjjw Auto Daewoo Spark] - consejos de mantenimiento
-* [https://www.youtube.com/playlist?list=PL_wxPflrHc1iECghOLOjQj8qdqxsH-bCf Curso de mecánica automotriz]
+{{ap|1=otros/mecanica|2=Mecánica}}
 
 == Otros ==
 

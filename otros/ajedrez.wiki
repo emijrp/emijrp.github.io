@@ -1,5 +1,9 @@
 {{header|1=Ajedrez}}
 
-* Game Over: Kasparov and the Machine
+* [https://www.youtube.com/watch?v=Kti3oKIZ8Mw Tutorial de ajedrez. Aprende desde cero]
+
+== Cine y documental ==
+
+* ''Game Over: Kasparov and the Machine''
 
 {{footer}}

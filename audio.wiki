@@ -1,10 +1,5 @@
 {{header|1=Audio}}
 
-== Conferencias ==
-
-* [https://www.youtube.com/watch?v=pnMaQxz-zKw Grupos autónomos libertarios armados - Crónica armada de la transacción democrática]
-* [https://www.youtube.com/watch?v=Xu1RRne1464 Nodo50: 20 años de activismo en la red... y ahora también con Makusi]
-
 Archivos de programas, charlas, conferencias:
 
 * [https://www.youtube.com/user/BarrioCanino/videos Barrio Canino]
@@ -12,10 +7,23 @@ Archivos de programas, charlas, conferencias:
 * [http://www.ivoox.com/escuchar-rescate-audio-para-pensar_nq_20700_1.html Rescate de audio para pensar]
 * [https://soundcloud.com/traficantesdesue-os Traficantes de Sueños]
 
+== Conferencias ==
+
+* [https://www.youtube.com/watch?v=pnMaQxz-zKw Grupos autónomos libertarios armados - Crónica armada de la transacción democrática]
+* [https://www.youtube.com/watch?v=Xu1RRne1464 Nodo50: 20 años de activismo en la red... y ahora también con Makusi]
+
 == Podcasts ==
 
-* '''[http://manzanamecanica.org/podcast Cultura Libre]''': podcast de tecnología, software libre, propiedad intelectual, etc.
-* '''[http://longnow.org/seminars/podcast/ Long now]''': podcast sobre pensamiento a largo plazo de la [http://longnow.org/ Long Now Foundation].
+* [http://manzanamecanica.org/podcast Cultura Libre]: podcast de tecnología, software libre, propiedad intelectual, etc.
+* [http://longnow.org/seminars/podcast/ Long now]: podcast sobre pensamiento a largo plazo de la [http://longnow.org/ Long Now Foundation].
+
+* [https://www.ivoox.com/podcast-cueva-macaca_sq_f129407_1.html La Cueva de la Macaca]: sobre cine
+
+<!--
+
+https://www.ivoox.com/transhumanismo_bk_list_190524_1.html
+
+-->
 
 == Radio ==
 

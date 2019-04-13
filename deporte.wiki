@@ -17,5 +17,13 @@ Todo lo relacionado con el '''deporte, ejercicios y ergonomía'''.
 == Ergonomía ==
 
 
+<!--
+
+* Aprender a jugar al ajedrez
+* [https://www.youtube.com/watch?v=eb3GbqTtSG4 Aprender a jugar al baloncesto]
+* Aprender a jugar al béisbol
+* Aprender a jugar al fútbol
+
+-->
 
 {{footer}}

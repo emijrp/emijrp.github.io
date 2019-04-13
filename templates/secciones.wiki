@@ -24,7 +24,7 @@
     <!--{{button-grey|1=Informática}}-->
     {{button-blue|1=latinajos.html|2=Latinajos}}
     {{button-blue|1=wikis/locapedias.html|2=Locapedias}}
-    <!--{{button-grey|1=Mecánica}}-->
+    <!--{{button-blue|1=otros/mecanica.html|2=Mecánica}}-->
     {{button-blue|1=historia/memoria-historica.html|2=Memoria Histórica}}
     {{button-blue|1=meteorologia.html|2=Meteorología}}
     {{button-blue|1=micronaciones/micronaciones.html|2=Micronaciones}}
