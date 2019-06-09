@@ -36,16 +36,32 @@ Sin datos.
 Sin datos.
 
 === Siglo XIII ===
+[[File:carta-puebla-el-puerto.jpg|thumb|right|200px|Copia del siglo XVI de la carta-puebla otorgada por Alfonso X en 1281. Fotografía Archivo Municipal.]]
+En este siglo se produce la reconquista de la villa, pasando de manos musulmanas a manos cristianas. Alfonso X otorga la carta-puebla, pasa de ciudad de realengo a señorío y tiene varios señores a final de siglo.<ref name="sopranis2017">Sancho de Sopranis, Hipólito (2017). ''Historia del Puerto de Santa María. Desde su incorporación a los dominios cristianos en 1259 hasta el año mil ochocientos. Ensayo de una síntesis''.</ref>
 
-* '''1260''': Alfonso X El Sabio reconquista la ciudad.
+* '''1260''': Alfonso X El Sabio reconquista la villa.
 
 * '''1268''': Libro del Repartimiento.
 
-* '''1281''': El '''16 de diciembre''' el rey Alfonso X otorga la '''carta-puebla'''. Esto significa que la localidad pasa de aldea musulmana tributaria del reino de Castilla a '''ciudad de realengo''', constituyendo concejo propio y siendo denominada oficialmente '''Gran Puerto de Santa María'''.<ref name="elpuertohistoria">[https://web.archive.org/web/20171014223633/http://www.elpuertodesantamaria.es/contenido/399/13298/historia Historia del municipio y del Ayuntamiento de El Puerto]</ref>
+* '''1281''': El '''16 de diciembre''' el rey Alfonso X otorga la '''carta-puebla'''. Esto significa que la localidad pasa de aldea musulmana tributaria del reino de Castilla a '''ciudad de realengo''', constituyendo concejo propio y siendo denominada oficialmente '''Gran Puerto de Santa María'''.<ref name="elpuertohistoria">[https://web.archive.org/web/20171014223633/http://www.elpuertodesantamaria.es/contenido/399/13298/historia Historia del municipio y del Ayuntamiento de El Puerto]</ref> En el archivo municipal se conserva una copia realizada en el siglo XVI.<ref>[https://www.diariodecadiz.es/elpuerto/carta-puebla-el-puerto-aniversario-archivo-historico_0_1310269113.html La Carta Puebla de El Puerto se expondrá mañana en el Archivo Histórico]</ref>
 
-* '''1284''': De ciudad de realengo pasa a '''señorío''', tras ser vendida por Sancho IV al comerciante genovés Benedetto Zaccaria.<ref name="elpuertohistoria" />
+* '''1284''': De ciudad de realengo pasa a '''señorío''', tras ser vendida por Sancho IV al almirante y comerciante genovés Benedetto Zaccaria.<ref name="elpuertohistoria" />
+
+* '''1293''': Se conserva una '''escritura notarial''' de Alvar Pérez, del 19 de junio de este año, en el Archivo del Monasterio de San Clemente de Sevilla.<ref name="revhistpuertonum59">{{revhistpuerto|num=59|pp=9-22}}</ref>
+
+* '''1295''': Benedetto Zaccaria vende la mitad de la ciudad a '''Alfonso Pérez de Guzmán'''.<ref name="revhistpuertonum59" />
 
 === Siglo XIV ===
+
+En este siglo la documentación relativa a El Puerto es escasísima.
+
+* '''1302''': '''Alfonso Fernández''' consta como escribano público de El Puerto.<ref name="revhistpuertonum59" />
+
+* '''1306''': Alfonso Pérez de Guzmán dona su mitad de El Puerto a su hija '''Leonor de Guzmán''' como dote por su casamiento con Luis de la Cerda. A pesar de esto, la jurisdicción de la villa sigue recayendo sobre él hasta su muerte en 1309 y luego en su mujer María Alfonso Coronel.<ref name="revhistpuertonum59" />
+
+* '''1310''': '''Johan Fernández''' consta como escribano público de El Puerto.<ref name="revhistpuertonum59" />
+
+* '''1335''': En un pleito entre El Puerto y Jerez por los términos de ambos municipios, constan como escribanos públicos '''Vasco Fernández y Martín Sánchez'''.<ref name="revhistpuertonum59" />
 
 * '''1368''': El Puerto se integra en la casa de '''Medinaceli'''.
 
@@ -100,7 +116,7 @@ https://cadizpedia.wikanda.es/wiki/El_Puerto_de_Santa_Mar%C3%ADa
 
 === 2011 ===
 
-* El '''30 de agosto''' el Vaporcito de El Puerto (''Adriano III'') choca con la Punta del Sato resultando dañado y hundiéndose en el muelle de Cádiz.<ref>[http://www.revistadehistoriade-elpuerto.org/contenido/revistas/60/60_recensiones.pdf Recensiones] en Revista de Historia de El Puerto Nº 60</ref>
+* El '''30 de agosto''' el Vaporcito de El Puerto (''Adriano III'') choca con la Punta del Sato resultando dañado y hundiéndose en el muelle de Cádiz.<ref>{{revhistpuerto|num=60|pp=198-203}}</ref>
 
 === 2012 ===
 
@@ -423,6 +439,9 @@ Puntos de interés en El Puerto.
 
 === Alcaldes ===
 
+* Benedetto Zaccaria (siglo XIII)
+* Alfonso Pérez de Guzmán (siglo XIV)
+
 * Antonio Álvarez Herrera (1979-1983). Partido Comunista de Andalucía.
 * Rafael Gómez Ojeda (1983-1987). Partido Comunista de Andalucía.
 * Juan Manuel Torres (1987-1991). PSOE.
@@ -551,7 +570,7 @@ Prácticamente todo el año tienen lugar '''conferencias''' sobre temas locales 
 * Villalobos Chaves, María del Mar. ''Las casas de Cargadores a Indias de El Puerto''.
 * Villalobos Chaves, María del Mar. ''Mujeres desamparadas y "arrecogidas" en El Puerto del Siglo XVIII''.
 
-Algunas jornadas:
+Algunas '''jornadas''':
 
 * Jornadas "Nuestros orígenes históricos como El Puerto de Santa María" (1981).
 * "El Monasterio de la Victoria de El Puerto de Santa María entre los monasterios y panteones de la Edad Moderna" (23-25 de noviembre de 2004).
@@ -577,6 +596,7 @@ Afortunadamente existe una aceptable cantidad de '''libros''' acerca de la ciuda
 * Bartolomé López-Somoza, Enrique (1998). ''El viento de Levante en El Puerto''.
 * García Guzmán, María del Mar (2007). ''La sociedad de El Puerto de Santa María a finales de la Edad Media a través de sus testamentos''.
 * Gómez Fernández, Juan. ''La escuela pública republicana en El Puerto: entre la ilusión y la represión''.
+* González Jiménez, Manuel (1993). ''El Puerto de Santa María entre los siglos XIII y XVI''.
 * López Amador, Juan José y Ruiz Gil, José Antonio (2003). ''La ciudad de El Puerto de Santa María a través de la arqueología''.
 * Muñoz Cuenca, Antonio (2004). ''El habla de El Puerto: recuperación de vocablos y expresiones populares''.
 * Muñoz Cuenca, Antonio (2008). ''Paisajes y paisanajes''.
@@ -654,5 +674,6 @@ Cosas a añadir:
 * teatro principal incendio
 * incendio archivo monasterio
 * Asociación para la Protección del Patrimonio Histórico, ‘Alcanatif’
+* Medusa https://www.gentedelpuerto.com/2009/01/30/181-medusa-agrupacion-cultural-portuense/
 -->
 {{footer}}
