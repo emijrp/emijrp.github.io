@@ -1,7 +1,7 @@
 {{headerleaflet|1=El Puerto de Santa María}}
 <!--{{youtube|id=Fwm5y8V8jNY|align=right}}-->
 [[File:vaporcito.jpg|thumb|right|400px|El '''Vaporcito de El Puerto''' surcando el Guadalete en 2007.]]
-El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Amaría Alcanter''', '''Puerto de las Salinas''', '''Gran Puerto de Santa María''' o '''Ciudad de los Cien Palacios''' son las denominaciones que ha ostentado la ciudad de '''El Puerto de Santa María''' a lo largo de su historia.
+El '''Puerto de Menesteo''', '''Portus Gaditanus''', '''Amaría Alcanter''', '''Puerto de las Salinas''', '''Gran Puerto de Santa María''' o '''Ciudad de los Cien Palacios''' son algunas de las denominaciones que ha ostentado la ciudad de '''El Puerto de Santa María''' a lo largo de su historia.
 
 == Cronología ==
 
@@ -15,15 +15,29 @@ http://pequehistoriapuerto.blogspot.com.es/p/la-prehistoria.html
 
 * '''3000 adC''': Poblado de la Dehesa.
 
-=== Antes de Cristo ===
+=== II milenio adC ===
 
 * '''1200-1100 adC''': Según la leyenda, tras finalizar la Guerra de Troya, el rey ateniense '''Menesteo''' al ver que le habían arrebatado el trono en su ausencia, navegó sin rumbo llegando a la desembocadura del Guadalete. Allí se estableció, fundando un asentamiento al que puso su nombre, '''Puerto de Menesteo'''. Dicho puerto se cree que se situaba en las proximidades de lo que hoy es El Puerto de Santa María, por lo que de ser cierta esta historia, habría sido fundada hace 3200 años.
+
+=== I milenio adC ===
 
 * '''800-200 adC''': Se establece un poblado fenicio a los pies de la Sierra de San Cristóbal, en las inmediaciones donde hoy se encuentra el Castillo de Doña Blanca. Permanecería ocupado hasta el siglo III adC.<ref>[http://www.lavozdigital.es/jerez/v/20120331/opinion/poblado-fenicio-castillo-dona-20120331.html El poblado fenicio del Castillo de Doña Blanca]</ref>
 
 * '''19 adC''': Lucio Cornelio Balbo el Menor ordena '''desviar el curso final del Guadalete''', que por aquel entonces desembocaba donde actualmente transcurre el río San Pedro. Esta desembocadura artificial, denominada '''Canal de Balbo''' y realizada a pico y pala, se mantiene hasta hoy.<ref>[http://www.diariodecadiz.es/elpuerto/desembocadura-artificial_0_598140676.html Una desembocadura artificial]</ref> La ciudad floreció entorno al '''Portus Gaditanus''' construido en la zona, que llegaría a ser uno de los puertos más importantes. La calle principal de la ciudad, que hoy es la Calle Larga, discurría en paralelo al río.
 
-=== Primer milenio ===
+=== I milenio ===
+[[File:vasos-de-vicarello.jpg|thumb|right|200px|Miliario en uno de los Vasos de Vicarello. Se cree que perteneció a un gaditano que viajó de Gades a Roma. Enumera las estaciones y distancias, siendo la primera Ad Portum, situada en las proximidades de El Puerto de Santa María.]]
+La denominación que recibía El Puerto en época romana era la de '''Portus Gaditanus'''.
+<!--
+
+a continuidad del Portus durante el periodo tardorromano y la Antigüedad Tar-
+día (ss. III–VII) la tratamos en el capítulo 3, cuando Portum (como lo nombra el Anó-
+nimo de Rávena), ya independiente de la decadente ciudad matriz de Gades y a juzgar
+por lo que al día de hoy señala la arqueología, llegó a convertirse en los siglos IV–V en
+el principal núcleo poblacional de la bahía.
+
+-->
+* '''Siglo I''': se estima que en las inmediaciones de las salinas de San Carlos y San Jaime se situaba la estación '''Ad Portum''', primer lugar de parada de la Vía Augusta en esta época, a una distancia de 24 millas romanas de Gades. Aparece nombrada en los Vasos de Vicarello.
 
 * '''711''': Con la derrota de los visigodos en la '''Batalla del Guadalete''', que aunque se llama tradicionalmente así quizás tuviera lugar en La Janda o Medina-Sidonia, comienza la conquista musulmana de la Península Ibérica. El Puerto recibiría el nombre árabe de ''Amaría Alcanter'', ''Alcanate'' o ''Alcanatif'', que algunos autores traducen como '''Puerto de las Salinas''', y es solo una alquería (pequeña comunidad rural) dependiente de Jerez.
 
@@ -527,6 +541,9 @@ Una lista no exhaustiva de '''personas represaliadas''' durante la Guerra Civil,
 Selección de '''investigadores''' de temas portuenses.
 
 [[File:hipolito-sancho-sopranis.jpg|thumb|right|200px|Hipólito Sancho de Sopranis]]
+
+* '''Anselmo J. Ruiz de Cortázar'''. Abogado e historiador.
+
 * '''Hipólito Sancho de Sopranis''' (1893-1964). Historiador portuense, estudioso de la provincia de Cádiz.<ref>[http://www.gentedelpuerto.com/2010/09/22/780-hipolito-sancho-de-sopranis-historias-de-la-historia-de-el-puerto/ 780. HIPÓLITO SANCHO DE SOPRANIS. Historias de la Historia de El Puerto.]</ref><ref>{{dialnet-autor|1=1432574|2=Hipólito Sancho de Sopranis}}</ref>
 
 * '''Manuel Almisas Albéndiz'''. Médico y escritor. Autor de los libros ''María Luisa Rendón Martell. Movimiento obrero y represión franquista en El Puerto de Santa María'', ''Daniel Ortega Martínez. Cartas desde la Cárcel (1939-1941)'', ''Daniel Ortega el médico comunista que revolucionó El Puerto'' y ''Anita Carrillo capitana republicana de La Línea''.<ref>[http://www.todoslosnombres.org/content/noticias/la-linea-cadiz-manuel-almisas-recupera-la-figura-ana-carrillo-linense-capitana-en La Línea (Cádiz). Manuel Almisas recupera la figura de Ana Carrillo, linense capitana en el Ejercito de la República]</ref>
@@ -605,7 +622,11 @@ Afortunadamente existe una aceptable cantidad de '''libros''' acerca de la ciuda
 * Ruiz Mata, Diego y Pérez, Carmen J. (1995). ''El poblado fenicio del Castillo de Doña Blanca''.
 * VVAA (1994). ''El Puerto de Santa María entre los siglos XIII y XVI''.
 * VVAA (2017). ''María Luisa Rendón Martell (1909-1981)''.
+<!--
 
+Puerto de Santa María ilustrado y compendio de sus antigüedades. Anselmo Ruiz de Cortazar (1764) https://dialnet.unirioja.es/servlet/articulo?codigo=6552186
+
+-->
 === Revistas ===
 
 * [http://www.revistadehistoriade-elpuerto.org Revista de Historia de El Puerto] ([http://www.revistadehistoriade-elpuerto.org/contenido/disponibles.htm números disponibles]). Publicación científica semestral editada por el Aula de Historia "Menesteo".
