@@ -37,7 +37,7 @@ por lo que al día de hoy señala la arqueología, llegó a convertirse en los s
 el principal núcleo poblacional de la bahía.
 
 -->
-* '''Siglo I''': se estima que en las inmediaciones de las salinas de San Carlos y San Jaime se situaba la estación '''Ad Portum''', primer lugar de parada de la Vía Augusta en esta época, a una distancia de 24 millas romanas de Gades. Aparece nombrada en los Vasos de Vicarello.
+* '''Siglo I''': se estima que en las inmediaciones de las salinas de San Carlos y San Jaime se situaba la estación '''Ad Portum''', primer lugar de parada de la Vía Augusta en esta época, a una distancia de 24 millas romanas de Gades. Aparece nombrada en los Vasos de Vicarello, en cuya inscripción se enumeran las 104 estaciones entre Gades y Roma a modo de itinerario, que suman un total de 1840 millas. Se cree que dichos vasos eran una ofrenda de un gaditano que viajó a Roma para pedir por su salud a Apolo y sanarse en las termas de la región.<ref name="puertobalbo">López Amador, Juan José y Pérez Fernández, Enrique (2013). ''El Puerto Gaditano de Balbo''.</ref>
 
 * '''711''': Con la derrota de los visigodos en la '''Batalla del Guadalete''', que aunque se llama tradicionalmente así quizás tuviera lugar en La Janda o Medina-Sidonia, comienza la conquista musulmana de la Península Ibérica. El Puerto recibiría el nombre árabe de ''Amaría Alcanter'', ''Alcanate'' o ''Alcanatif'', que algunos autores traducen como '''Puerto de las Salinas''', y es solo una alquería (pequeña comunidad rural) dependiente de Jerez.
 
@@ -615,6 +615,7 @@ Afortunadamente existe una aceptable cantidad de '''libros''' acerca de la ciuda
 * Gómez Fernández, Juan. ''La escuela pública republicana en El Puerto: entre la ilusión y la represión''.
 * González Jiménez, Manuel (1993). ''El Puerto de Santa María entre los siglos XIII y XVI''.
 * López Amador, Juan José y Ruiz Gil, José Antonio (2003). ''La ciudad de El Puerto de Santa María a través de la arqueología''.
+* López Amador, Juan José y Pérez Fernández, Enrique (2013). ''El Puerto Gaditano de Balbo''.
 * Muñoz Cuenca, Antonio (2004). ''El habla de El Puerto: recuperación de vocablos y expresiones populares''.
 * Muñoz Cuenca, Antonio (2008). ''Paisajes y paisanajes''.
 * Muñoz Cuenca, Antonio (2014). ''Relatos portuenses''.
