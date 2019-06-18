@@ -1,11 +1,18 @@
 {{headernoindex|1=Oposiciones}}
-{{oposiciones}}
 
-Las '''oposiciones''' en las que estoy interesado por ahora son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado].
+Las '''oposiciones''' en las que estoy interesado son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado].
 
-== Programa ==
+En esta página recopilo información que me es útil y algunos apuntes que he ido haciendo.
 
-El '''programa TAI 2017''' (Ingreso Libre) se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2017-ingreso-libre TAI 2017 Ingreso Libre]</ref> Dentro de cada bloque están los apuntes que me he ido haciendo.
+== Convocatoria TAI 2018 ==
+
+El programa de la '''convocatoria TAI 2018''' (Ingreso Libre) se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2018-ingreso-libre TAI 2018 Ingreso Libre]</ref>
+
+Han cambiado algunos temas respecto a 2017, aunque parece que no mucho.
+
+== Convocatoria TAI 2017 ==
+
+El programa de la '''convocatoria TAI 2017''' (Ingreso Libre) se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2017-ingreso-libre TAI 2017 Ingreso Libre]</ref>
 
 * [[programa2017-bloque1|Bloque I. Organización del Estado y Administración electrónica]] (11 temas)
 * [[programa2017-bloque2|Bloque II. Tecnología básica]] (5 temas)
@@ -29,7 +36,8 @@ dependencia, violencia de genero, defensor del pueblo, ens (esquema nacional de 
 
 == Enlaces externos ==
 
-* [https://ips.redsara.es/IPSC/action/secure/buscarConvocatorias.do Inscripción de Pruebas Selectivas]
+* [https://sede.inap.gob.es/tai Convocatorias TAI] en la sede del INAP
+* [https://ips.redsara.es/IPSC/action/secure/buscarConvocatorias.do Inscripción a las Pruebas Selectivas]
 
 {{oposiciones}}
 {{footer}}
