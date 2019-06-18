@@ -1,6 +1,6 @@
 {{headernoindex|1=Oposiciones}}
 
-Las '''oposiciones''' en las que estoy interesado son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado].
+Las '''oposiciones''' en las que estoy interesado son las del [https://sede.inap.gob.es/tai Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado], conocidas como '''TAI'''.
 
 En esta página recopilo información que me es útil y algunos apuntes que he ido haciendo.
 
@@ -14,10 +14,10 @@ Han cambiado algunos temas respecto a 2017, aunque parece que no mucho.
 
 El programa de la '''convocatoria TAI 2017''' (Ingreso Libre) se divide en '''cuatro bloques'''.<ref>[https://sede.inap.gob.es/tai-2017-ingreso-libre TAI 2017 Ingreso Libre]</ref>
 
-* [[programa2017-bloque1|Bloque I. Organización del Estado y Administración electrónica]] (11 temas)
-* [[programa2017-bloque2|Bloque II. Tecnología básica]] (5 temas)
-* [[programa2017-bloque3|Bloque III. Desarrollo de sistemas]] (10 temas)
-* [[programa2017-bloque4|Bloque IV. Sistemas y comunicaciones]] (10 temas)
+* [[tai2017-bloque1|Bloque I. Organización del Estado y Administración electrónica]] (11 temas)
+* [[tai2017-bloque2|Bloque II. Tecnología básica]] (5 temas)
+* [[tai2017-bloque3|Bloque III. Desarrollo de sistemas]] (10 temas)
+* [[tai2017-bloque4|Bloque IV. Sistemas y comunicaciones]] (10 temas)
 
 <!--
 Cosas a hacer:

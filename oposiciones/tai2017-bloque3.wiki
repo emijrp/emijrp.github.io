@@ -1,4 +1,4 @@
-{{headernoindex|1=Bloque III. Desarrollo de sistemas}}
+{{headernoindex|1=TAI 2017. Bloque III. Desarrollo de sistemas}}
 {{oposiciones}}
 
 El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''10 temas'''.
