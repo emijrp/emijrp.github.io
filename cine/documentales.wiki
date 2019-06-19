@@ -25,6 +25,9 @@ Control del progreso de visionado de algunas series documentales de varios episo
 
 * '''Los días de Galeano''': 0 de 17. [http://encuentro.gob.ar/programas/serie/8174 Ver]
 
+* '''Memoria de España''': 3 de 27. [http://www.rtve.es/alacarta/videos/memoria-de-espana/ Ver]
+** Vistos: En el inicio de los tiempos, De Altamira al útil de metal, Tarteso el reino legendario de Argantonio.
+
 * '''Planeta Tierra''': 0 de 11.
 
 * '''Planeta Tierra II''': 0 de 6.

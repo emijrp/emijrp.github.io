@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>676258</td>
+        <td>676468</td>
     </tr>
 
     <tr>
@@ -1128,7 +1128,7 @@
         <td>160</td>
         <td><a href="oposiciones/oposiciones.html">oposiciones/oposiciones.html</a></td>
         <td><a href="oposiciones/oposiciones.wiki">oposiciones/oposiciones.wiki</a></td>
-        <td>1912</td>
+        <td>2039</td>
     </tr>
 
     <tr>
