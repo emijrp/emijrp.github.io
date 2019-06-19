@@ -1,0 +1,43 @@
+{{headernoindex|1=TAI 2018. Bloque IV. Sistemas y comunicaciones}}
+{{oposiciones}}
+
+El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a TAI 2018]] se compone de '''10 temas'''.
+
+== Comparativa con el programa de TAI 2017 ==
+
+* Tema 1: Igual.
+* Tema 2: Añaden "Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backups de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario".
+* Tema 3: Es la parte final del Tema 2 de TAI 2017 "Administración de servidores de correo electrónico. Protocolos de correo electrónico".
+* Tema 4: Es el Tema 3 de TAI 2017.
+* Tema 5: Es el Tema 4 de TAI 2017 y añaden "Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital".
+* Tema 6: Es la fusión de los Temas 5 y 6 de TAI 2017.
+* Tema 7-10: Igual.
+
+En esta página solo tomaré apuntes de lo que haya cambiado.
+
+== Tema 2 ==
+
+{{recuadro|1='''Tema 2.''' Administración de bases de datos. Funciones y responsabilidades. '''Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backup de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario'''.}}
+
+* Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backups de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario
+
+''Por desarrollar.''
+
+== Tema 5 ==
+
+{{recuadro|1='''Tema 5.''' Conceptos de seguridad de los sistemas de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. '''Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital'''. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
+
+* Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital
+
+''Por desarrollar.''
+
+== Fuentes ==
+
+* Para confeccionar estos apuntes se han utilizado en ocasiones artículos de [https://www.wikipedia.org Wikipedia].
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+{{oposiciones}}
+{{footer}}

@@ -1,0 +1,29 @@
+{{headernoindex|1=TAI 2018. Bloque I. Organización del Estado y Administración electrónica}}
+{{oposiciones}}
+
+El '''Bloque I. Organización del Estado y Administración electrónica''' de las [[oposiciones|Oposiciones a TAI 2018]] se compone de '''11 temas'''.
+
+== Comparativa con el programa de TAI 2017 ==
+
+* Tema 1-3: Igual.
+* Tema 4: Añaden "La Agenda 2030 y los Objetivos de Desarrollo Sostenible".
+* Tema 5: Cambian "normativa vigente" por "normativa de aplicación".
+* Tema 6-10: Igual.
+* Tema 11: Cambian "Infraestructuras y servicios comunes" por "Infraestructuras y servicios comunes en materia de administración electrónica".
+
+En esta página solo tomaré apuntes de lo que haya cambiado.
+
+== Tema 4 ==
+
+{{recuadro|1='''Tema 4.''' El Gobierno Abierto. Concepto y principios informadores. La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. El Consejo de Transparencia y Buen Gobierno: funciones. '''La Agenda 2030 y los Objetivos de Desarrollo Sostenible'''.}}
+
+* La Agenda 2030 y los Objetivos de Desarrollo Sostenible
+
+''Por desarrollar.''
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+{{oposiciones}}
+{{footer}}

@@ -1,0 +1,50 @@
+{{headernoindex|1=TAI 2018. Bloque III. Desarrollo de sistemas}}
+{{oposiciones}}
+
+El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a TAI 2018]] se compone de '''10 temas'''.
+
+== Comparativa con el programa de TAI 2017 ==
+
+* Tema 1-5: Igual.
+* Tema 6: Dejan de nombrar C y C++.
+* Tema 7: Igual.
+* Tema 8: Cambian "Desarrollo web front-end y en servidor" por "Desarrollo web front-end y en servidor, multiplataforma y multidispositivo".
+* Tema 9: Añaden "Conceptos de seguridad en el desarrollo de los sistemas".
+* Tema 10: Añaden "Metodologías de desarrollo. Pruebas". 
+
+En esta página solo tomaré apuntes de lo que haya cambiado.
+
+== Tema 8 ==
+
+{{recuadro|1='''Tema 8.''' Aplicaciones web. '''Desarrollo web front-end y en servidor, multiplataforma y multidispositivo'''. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.}}
+
+* Desarrollo web front-end y en servidor, multiplataforma y multidispositivo
+
+''Por desarrollar.''
+
+== Tema 9 ==
+
+{{recuadro|1='''Tema 9.''' Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final. '''Conceptos de seguridad en el desarrollo de los sistemas'''.}}
+
+* Conceptos de seguridad en el desarrollo de los sistemas
+
+''Por desarrollar.''
+
+== Tema 10 ==
+
+{{recuadro|1='''Tema 10.''' Herramientas CASE: características. Repositorios: estructura y actualización. Generación de código y documentación. '''Metodologías de desarrollo. Pruebas'''. Programas para control de versiones. Plataformas de desarrollo colaborativo de software.}}
+
+* Metodologías de desarrollo. Pruebas
+
+''Por desarrollar.''
+
+== Fuentes ==
+
+* Para confeccionar estos apuntes se han utilizado en ocasiones artículos de [https://www.wikipedia.org Wikipedia].
+
+== Referencias ==
+{{reflist}}
+{{reflist-end}}
+
+{{oposiciones}}
+{{footer}}

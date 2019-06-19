@@ -1,0 +1,13 @@
+{{headernoindex|1=TAI 2018. Bloque II. Tecnología básica}}
+<!--{{oposiciones}}-->
+
+El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2018]] se compone de '''5 temas'''.
+
+== Comparativa con el programa de TAI 2017 ==
+
+* Tema 1-5: Igual.
+
+No hay cambios por lo que me sirven los apuntes anteriores.
+
+{{oposiciones}}
+{{footer}}

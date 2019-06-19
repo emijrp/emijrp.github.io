@@ -14,17 +14,17 @@ Han cambiado algunos temas respecto a la convocatoria de 2017, aunque parece que
 
 === Comparativa con el programa de TAI 2017 ===
 
-* Bloque I. Organización del Estado y Administración electrónica (11 temas)
+* [[tai2018-bloque1|Bloque I. Organización del Estado y Administración electrónica]] (11 temas)
 ** Tema 1-3: Igual.
 ** Tema 4: Añaden "La Agenda 2030 y los Objetivos de Desarrollo Sostenible".
 ** Tema 5: Cambian "normativa vigente" por "normativa de aplicación".
 ** Tema 6-10: Igual.
 ** Tema 11: Cambian "Infraestructuras y servicios comunes" por "Infraestructuras y servicios comunes en materia de administración electrónica".
 
-* Bloque II (5 temas)
+* [[tai2018-bloque2|Bloque II. Tecnología básica]] (5 temas)
 ** Tema 1-5: Igual.
 
-* Bloque III (10 temas)
+* [[tai2018-bloque3|Bloque III. Desarrollo de sistemas]] (10 temas)
 ** Tema 1-5: Igual.
 ** Tema 6: Dejan de nombrar C y C++.
 ** Tema 7: Igual.
@@ -32,12 +32,12 @@ Han cambiado algunos temas respecto a la convocatoria de 2017, aunque parece que
 ** Tema 9: Añaden "Conceptos de seguridad en el desarrollo de los sistemas".
 ** Tema 10: Añaden "Metodologías de desarrollo. Pruebas". 
 
-* Bloque IV (10 temas)
+* [[tai2018-bloque4|Bloque IV. Sistemas y comunicaciones]] (10 temas)
 ** Tema 1: Igual.
 ** Tema 2: Añaden "Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backups de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario".
 ** Tema 3: Es la parte final del Tema 2 de TAI 2017 "Administración de servidores de correo electrónico. Protocolos de correo electrónico".
 ** Tema 4: Es el Tema 3 de TAI 2017.
-** Tema 5: Es el Tema 4 de TAI 2017 y añaden "Técnicas criptográficas y protocolos seguros. Mercanismos de firma digital".
+** Tema 5: Es el Tema 4 de TAI 2017 y añaden "Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital".
 ** Tema 6: Es la fusión de los Temas 5 y 6 de TAI 2017.
 ** Tema 7-10: Igual.
 

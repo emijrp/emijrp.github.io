@@ -6,6 +6,10 @@
 <td>[[tai2017-bloque1|Bloque I]]{{o}} [[tai2017-bloque2|Bloque II]]{{o}} [[tai2017-bloque3|Bloque III]]{{o}} [[tai2017-bloque4|Bloque IV]]</td>
 </tr>
 <tr>
+<td width=200px align=center style="background-color: #ddddff;">'''Apuntes TAI 2018'''</td>
+<td>[[tai2018-bloque1|Bloque I]]{{o}} [[tai2018-bloque2|Bloque II]]{{o}} [[tai2018-bloque3|Bloque III]]{{o}} [[tai2018-bloque4|Bloque IV]]</td>
+</tr>
+<tr>
 <td width=200px align=center style="background-color: #ddddff;">'''Exámenes'''</td>
 <td>[[examenes|Análisis de exámenes]]</td>
 </tr>
