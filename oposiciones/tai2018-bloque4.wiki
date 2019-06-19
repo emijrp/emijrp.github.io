@@ -23,6 +23,16 @@ En esta página solo tomaré apuntes de lo que haya cambiado.
 
 ''Por desarrollar.''
 
+<!--
+
+maquinas e hipervisores: vmware esx, virtualbox, qemu, hyper 2008/2012, oracle vmware, hyper-v, xenserver, rdp
+
+formatos de discos virtuales: vdi, vhd, vmdk, hdd, qcow, qed
+
+NAS/SAN
+ 
+ -->
+
 == Tema 5 ==
 
 {{recuadro|1='''Tema 5.''' Conceptos de seguridad de los sistemas de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. '''Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital'''. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
