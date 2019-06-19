@@ -11,7 +11,7 @@
 </tr>
 <tr>
 <td width=200px align=center style="background-color: #ddddff;">'''Exámenes'''</td>
-<td>[[examenes|Análisis de exámenes]]</td>
+<td>[[tai-examenes|Análisis de exámenes]]</td>
 </tr>
 </table>
 </center>
