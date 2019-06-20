@@ -1,16 +1,16 @@
 <center>
-<table width=100% align=center style="border: 1px solid #aaa; background-color: #f9f9f9; color: black; margin: 10px 0px 10px 0px; padding: 0.2em; font-size: 90%;">
-<tr><th colspan=2 align=center style="font-weight: normal;background-color: #ccccff;">'''[[Oposiciones]]'''</th></tr>
+<table width="100%" align="center" style="border: 1px solid #aaa; background-color: #f9f9f9; color: black; margin: 10px 0px 10px 0px; padding: 0.2em; font-size: 90%;">
+<tr><th colspan="2" align="center" style="font-weight: normal;background-color: #ccccff;">'''[[Oposiciones]]'''</th></tr>
 <tr>
-<td width=200px align=center style="background-color: #ddddff;">'''Apuntes TAI 2017'''</td>
+<td width="200px" align="center" style="background-color: #ddddff;">'''Apuntes TAI 2017'''</td>
 <td>[[tai2017-bloque1|Bloque I]]{{o}} [[tai2017-bloque2|Bloque II]]{{o}} [[tai2017-bloque3|Bloque III]]{{o}} [[tai2017-bloque4|Bloque IV]]</td>
 </tr>
 <tr>
-<td width=200px align=center style="background-color: #ddddff;">'''Apuntes TAI 2018'''</td>
+<td width="200px" align="center" style="background-color: #ddddff;">'''Apuntes TAI 2018'''</td>
 <td>[[tai2018-bloque1|Bloque I]]{{o}} [[tai2018-bloque2|Bloque II]]{{o}} [[tai2018-bloque3|Bloque III]]{{o}} [[tai2018-bloque4|Bloque IV]]</td>
 </tr>
 <tr>
-<td width=200px align=center style="background-color: #ddddff;">'''Exámenes'''</td>
+<td width="200px" align="center" style="background-color: #ddddff;">'''Exámenes'''</td>
 <td>[[tai-examenes|Análisis de exámenes]]</td>
 </tr>
 </table>
