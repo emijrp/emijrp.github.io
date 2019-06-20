@@ -165,7 +165,10 @@ Más información:
 
 * AI100
 * AlphaGo
+* Deep Blue
 * Sophia
+
+https://en.wikipedia.org/wiki/Outline_of_brain_mapping#Map,_atlas,_and_database_projects
 
 == Software ==
 
