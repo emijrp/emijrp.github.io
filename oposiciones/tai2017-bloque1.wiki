@@ -141,7 +141,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 ==== Título I. De los derechos y deberes fundamentales ====
 
 * '''Artículo 10'''.
-* 3. El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España.
+** 3. El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España.
 
 * '''Artículo 14'''. Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.
 
@@ -153,12 +153,12 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 # '''Ninguna confesión tendrá carácter estatal'''. Los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad española y mantendrán las consiguientes relaciones de cooperación con la Iglesia Católica y las demás confesiones.
 
 * '''Artículo 17'''.
-* 2. La '''detención preventiva''' no podrá durar más del tiempo estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos, y, en todo caso, en el '''plazo máximo de setenta y dos horas''', el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.
-* 3. Toda persona detenida debe ser informada de forma inmediata, y de modo que le sea comprensible, de sus derechos y de las razones de su detención, '''no pudiendo ser obligada a declarar'''. Se garantiza la asistencia de abogado al detenido en las diligencias policiales y judiciales, en los términos que la ley establezca.
+** 2. La '''detención preventiva''' no podrá durar más del tiempo estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos, y, en todo caso, en el '''plazo máximo de setenta y dos horas''', el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.
+** 3. Toda persona detenida debe ser informada de forma inmediata, y de modo que le sea comprensible, de sus derechos y de las razones de su detención, '''no pudiendo ser obligada a declarar'''. Se garantiza la asistencia de abogado al detenido en las diligencias policiales y judiciales, en los términos que la ley establezca.
 
 * '''Artículo 18'''.
-* 3. Se '''garantiza el secreto de las comunicaciones''' y, en especial, de las postales, telegráficas y telefónicas, '''salvo resolución judicial'''.
-* 4. La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.
+** 3. Se '''garantiza el secreto de las comunicaciones''' y, en especial, de las postales, telegráficas y telefónicas, '''salvo resolución judicial'''.
+** 4. La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.
 
 * '''Artículo 20'''.
 # Se reconocen y protegen los derechos: a) A expresar y '''difundir libremente los pensamientos''', ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.
@@ -182,26 +182,26 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 ==== Título II. De la corona ====
 
 * '''Artículo 56'''.
-* 1. El '''Rey es el Jefe del Estado''', símbolo de su unidad y permanencia, '''arbitra y modera el funcionamiento regular de las instituciones''', asume la más alta representación del Estado español en las relaciones internacionales, especialmente con las naciones de su comunidad histórica, y ejerce las funciones que le atribuyen expresamente la Constitución y las leyes.
-* 3. La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estará siempre refrendados en la forma establecida en el artículo 64, careciendo de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65, 2.
+** 1. El '''Rey es el Jefe del Estado''', símbolo de su unidad y permanencia, '''arbitra y modera el funcionamiento regular de las instituciones''', asume la más alta representación del Estado español en las relaciones internacionales, especialmente con las naciones de su comunidad histórica, y ejerce las funciones que le atribuyen expresamente la Constitución y las leyes.
+** 3. La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estará siempre refrendados en la forma establecida en el artículo 64, careciendo de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65, 2.
 
 * '''Artículo 57'''.
-* 1. [...] La sucesión en el trono seguirá el orden regular de primogenitura y representación, siendo preferida siempre la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.
-* 4. Aquellas personas que teniendo derecho a la sucesión en el trono contrajeren matrimonio contra la expresa prohibición del Rey y de las Cortes Generales, quedarán excluidas en la sucesión a la Corona por sí y sus descendientes.
+** 1. [...] La sucesión en el trono seguirá el orden regular de primogenitura y representación, siendo preferida siempre la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.
+** 4. Aquellas personas que teniendo derecho a la sucesión en el trono contrajeren matrimonio contra la expresa prohibición del Rey y de las Cortes Generales, quedarán excluidas en la sucesión a la Corona por sí y sus descendientes.
 
 * '''Artículo 59'''.
-* 3. Si no hubiere ninguna persona a quien corresponda la Regencia, ésta será nombrada por las Cortes Generales, y se compondrá de una, tres o cinco personas.
-* 5. La Regencia se ejercerá por mandato constitucional y siempre en nombre del Rey.
+** 3. Si no hubiere ninguna persona a quien corresponda la Regencia, ésta será nombrada por las Cortes Generales, y se compondrá de una, tres o cinco personas.
+** 5. La Regencia se ejercerá por mandato constitucional y siempre en nombre del Rey.
 
 * '''Artículo 61'''.
-* 1. El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.
+** 1. El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.
 
 * '''Artículo 62'''. Corresponde al Rey:
-* a) Sancionar y promulgar las leyes.
-* b) Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.
-* c) Convocar a referéndum en los casos previstos en la Constitución.
-* d) Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.
-* h) El mando supremo de las Fuerzas Armadas.
+** a) Sancionar y promulgar las leyes.
+** b) Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.
+** c) Convocar a referéndum en los casos previstos en la Constitución.
+** d) Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.
+** h) El mando supremo de las Fuerzas Armadas.
 
 * '''Artículo 64'''.
 # Los actos del Rey serán refrendados por el Presidente del Gobierno, y en su caso, por los Ministros competentes. La propuesta y el nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99, serán refrendados por el Presidente del Congreso.
