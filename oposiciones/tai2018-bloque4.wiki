@@ -13,7 +13,7 @@ El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a
 * Tema 6: Es la fusión de los Temas 5 y 6 de TAI 2017.
 * Tema 7-10: Igual.
 
-En esta página solo tomaré apuntes de lo que haya cambiado.
+En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me sirven los apuntes de [[tai2017-bloque4|TAI 2017 Bloque IV]].
 
 == Tema 2 ==
 
@@ -27,11 +27,32 @@ En esta página solo tomaré apuntes de lo que haya cambiado.
 
 maquinas e hipervisores: vmware esx, virtualbox, qemu, hyper 2008/2012, oracle vmware, hyper-v, xenserver, rdp
 
-formatos de discos virtuales: vdi, vhd, vmdk, hdd, qcow, qed
+formatos de discos virtuales: vdi, vhd, vmdk, hdd, qcow, qcow2, qed, vhdx
+
+vdi (virtualbox disk image)
+vhd (virtual hard disk)
+vmdk (virtual machine disk)
+hdd (parallels hard disk)
+qcow (qemu copy-on-write)
+qed (qemu enhanced disk)
 
 NAS/SAN
- 
- -->
+
+https://es.wikipedia.org/wiki/LXC
+
+https://en.wikipedia.org/wiki/OS-level_virtualisation#Implementations
+
+https://www.youtube.com/watch?v=c0fs2uRBpBQ Instalación Completa Citrix XenServer
+
+https://www.youtube.com/watch?v=vBqVXs1jRKE VMware
+
+https://www.youtube.com/watch?v=nThLrNQaX_U qemu
+
+https://www.youtube.com/watch?v=QgX0wDz4B2U Hyper-V
+
+https://www.youtube.com/watch?v=gsP46ltENRY RDP Remote Desktop Protocol
+
+-->
 
 == Tema 5 ==
 

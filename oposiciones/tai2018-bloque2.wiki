@@ -7,7 +7,7 @@ El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2
 
 * Tema 1-5: Igual.
 
-No hay cambios por lo que me sirven los apuntes anteriores.
+No hay cambios, me sirven los apuntes de [[tai2017-bloque2|TAI 2017 Bloque II]].
 
 {{oposiciones}}
 {{footer}}

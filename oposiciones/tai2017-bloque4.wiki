@@ -97,7 +97,9 @@ Algunos '''ficheros de log''':
 Algunos comandos que muestran información importante sobre el sistema:
 
 * '''uname''': -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)
+* '''arch''': muestra la arquitectura de la máquina. Posibles salidas: i386, i486, i586, alpha, arm, m68k, mips, sparc, x86_64, etc.
 * '''lsb_release''': -a (muestra todo), -v (versión), -d (descripción), -r (release), -c (codename)
+* '''dmidecode''': muestra la tabla DMI (Desktop management Interface), -q (no muestra los componentes ocultos o inactivos)
 * '''df''': muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.
 * '''du''': muestra el espacio ocupado por los directorios (disk usage). También tiene -h.
 * '''free''': memoria en uso y libre. También tiene -h.
@@ -193,6 +195,8 @@ Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569
 * '''Get-Service''': selecciona los servicios del sistema.
 * y muchos más...
 {{div col end}}
+
+Se puede instalar PowerShell en Linux: snap install powershell --classic.
 
 <!--
 poniendo Get- en google y otros prefijos, salen los más frecuentes

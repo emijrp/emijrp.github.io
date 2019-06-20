@@ -12,7 +12,7 @@ El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a T
 * Tema 9: Añaden "Conceptos de seguridad en el desarrollo de los sistemas".
 * Tema 10: Añaden "Metodologías de desarrollo. Pruebas". 
 
-En esta página solo tomaré apuntes de lo que haya cambiado.
+En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me sirven los apuntes de [[tai2017-bloque3|TAI 2017 Bloque III]].
 
 == Tema 8 ==
 
@@ -37,6 +37,34 @@ En esta página solo tomaré apuntes de lo que haya cambiado.
 * Metodologías de desarrollo. Pruebas
 
 ''Por desarrollar.''
+
+<!--
+
+https://es.wikipedia.org/wiki/Metodolog%C3%ADa_de_desarrollo_de_software
+
+Metodologías:
+Scrum
+Rational Unified Process RUP
+Extreme Programming XP
+
+
+Enfoques:
+Modelo en cascada
+Prototipado
+Incremental
+Espiral
+RAD
+
+
+La integración continua (continuous integration en inglés) es un modelo informático propuesto inicialmente por Martin Fowler que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes. Entendemos por integración la compilación y ejecución de pruebas de todo un proyecto.
+
+El proceso suele ser: cada cierto tiempo (horas), descargarse las fuentes desde el control de versiones (por ejemplo CVS, Git, Subversion, Mercurial o Microsoft Visual SourceSafe) compilarlo, ejecutar pruebas y generar informes.
+
+Para esto suelen utilizarse aplicaciones como Solano CI, Bamboo, Pipeline, Apache Continuum, Hudson, Jenkins, GoCD, CruiseControl o Anthill (para proyectos Java) o CruiseControl.Net, Team Foundation Build para .Net, que se encargan de controlar las ejecuciones, apoyadas en otras herramientas como Ant o Maven (también para proyectos Java), o Nant o MSBUILD (para .Net) que se encargan de realizar las compilaciones, ejecutar las pruebas y realizar los informes.
+
+A menudo la integración continua está asociada con las metodologías de programación extrema y desarrollo ágil.
+
+-->
 
 == Fuentes ==
 

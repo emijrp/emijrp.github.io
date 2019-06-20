@@ -11,7 +11,7 @@ El '''Bloque I. Organización del Estado y Administración electrónica''' de la
 * Tema 6-10: Igual.
 * Tema 11: Cambian "Infraestructuras y servicios comunes" por "Infraestructuras y servicios comunes en materia de administración electrónica".
 
-En esta página solo tomaré apuntes de lo que haya cambiado.
+En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me sirven los apuntes de [[tai2017-bloque1|TAI 2017 Bloque I]].
 
 == Tema 4 ==
 
@@ -20,6 +20,16 @@ En esta página solo tomaré apuntes de lo que haya cambiado.
 * La Agenda 2030 y los Objetivos de Desarrollo Sostenible
 
 ''Por desarrollar.''
+
+<!--
+
+https://www.agenda2030.gob.es
+
+https://es.wikipedia.org/wiki/Alto_Comisionado_para_la_Agenda_2030
+
+https://es.wikipedia.org/wiki/Objetivos_de_Desarrollo_Sostenible
+
+-->
 
 == Referencias ==
 {{reflist}}

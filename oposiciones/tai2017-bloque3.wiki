@@ -482,6 +482,16 @@ Los '''patrones de diseño''' son técnicas para resolver problemas típicos dur
 {{cayo-en-convocatoria|1=2016-SE (PI)}}
 La diferencia entre un '''struct''' y una '''class''' es que los miembros de las estructuras son públicos por defecto, mientras que los de las clases son privados. Cuando un struct se pasa como argumento, en realidad se está pasando una copia del struct, y si es modificada dentro de la función, no afectará a los valores del struct original. Mientras que los objetos (class) se pasan por referencia, por lo que cualquier cambio se verá reflejado en el objeto original.
 
+<!--
+
+
+
+https://www.cheatography.com/tag/programming/
+
+
+
+-->
+
 === Java ===
 
 '''Java''' es un lenguaje de programación de propósito general, concurrente, de tipado fuerte y orientado a objetos. Creado en 1996 por Sun Microsystems. El codigo Java programado es compilado, generando un bytecode, que se ejecuta sobre la máquina virtual Java (JVM). En teoría, el código puede ejecutarse en cualquier dispositivo o plataforma para la que exista una máquina virtual Java, con ningún cambio o mínimos cambios en el código, lo que se conoce como independiente de la plataforma.

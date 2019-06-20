@@ -583,7 +583,7 @@ Uso de '''comandos básicos''':
 * '''ln''': crea enlaces duros (-s simbólicos)
 * '''rm''': borrado de ficheros o directorios (rmdir). Recursivo (-r)
 
-Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref><ref>[https://es.wikibooks.org/wiki/Manual_de_consola_Bash_de_Linux Manual de consola Bash de Linux]</ref><ref>[https://fossbytes.com/a-z-list-linux-command-line-reference/ The Ultimate A to Z List of Linux Commands]</ref><ref>[https://es.wikipedia.org/wiki/Anexo:Programas_para_Unix Anexo:Programas para Unix]</ref>
+Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ 400 comandos Linux]</ref><ref>[https://es.wikibooks.org/wiki/Manual_de_consola_Bash_de_Linux Manual de consola Bash de Linux]</ref><ref>[https://fossbytes.com/a-z-list-linux-command-line-reference/ The Ultimate A to Z List of Linux Commands]</ref><ref>[https://es.wikipedia.org/wiki/Anexo:Programas_para_Unix Anexo:Programas para Unix]</ref><ref>[https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands List of GNU Core Utilities commands]</ref><ref>[https://en.wikipedia.org/wiki/List_of_Unix_commands List of Unix commands]</ref>
 
 {{div-col-2}}
 * '''adduser''': añade un usuario al sistema. Opuesto a deluser
@@ -591,6 +591,8 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''apropos''': busca en las descripciones de los comandos
 * '''apt-get''': control de paquetes
 * '''apt-cache''': búsqueda de paquetes
+* '''arch''': muestra la arquitectura de la máquina, como uname -m
+* '''at''': ejecuta un comando después de cierto tiempo
 * '''awk''': búsqueda y reemplazo de cadenas
 * '''basename''': elimina la ruta del nombre de un fichero
 * '''bash''': intérprete de comandos
@@ -617,6 +619,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''df''': muestra espacio libre en disco
 * '''diff''': diferencia entre dos ficheros
 * '''dir''': muestra el contenido del directorio
+* '''dmidecode''': muestra información sobre el hardware
 * '''dpkg''': operaciones con paquetes
 * '''du''': muestra espacio ocupado por el directorio indicado
 * '''echo''': muestra texto por pantalla
