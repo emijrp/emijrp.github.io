@@ -51,9 +51,6 @@ El programa de la '''convocatoria TAI 2017''' (Ingreso Libre) se divide en '''cu
 * [[tai2017-bloque4|Bloque IV. Sistemas y comunicaciones]] (10 temas)
 
 <!--
-Cosas a hacer:
-* Revisar exámenes anteriores y ver qué temas salen y con qué frecuencia, de los 4 bloques. Generar un temario en base al programa y profundizar en base al análisis de los exámenes.
-* Usar tanto recursos web como apuntes o libros de la carrera.
 
 otros textos:
 
@@ -69,6 +66,8 @@ dependencia, violencia de genero, defensor del pueblo, ens (esquema nacional de 
 
 * [https://sede.inap.gob.es/tai Convocatorias TAI] en la sede del INAP
 * [https://ips.redsara.es/IPSC/action/secure/buscarConvocatorias.do Inscripción a las Pruebas Selectivas]
+
+* [http://www.baquedano.es/ Baquedano Exámenes]
 
 {{oposiciones}}
 {{footer}}

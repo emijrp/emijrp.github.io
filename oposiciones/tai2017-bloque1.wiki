@@ -91,10 +91,8 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 </tr>
 </table>
 
-<!--{{youtube|id=bDf3rkh7kqU|align=right}}-->
-
 * [https://www.boe.es/legislacion/documentos/ConstitucionCASTELLANO.pdf Constitución Española de 1978] (51 páginas)
-** [https://www.youtube.com/watch?v=ZjKTjk0DurY Fechas importantes] (6 minutos)
+** [https://www.youtube.com/watch?v=U6gFWN__0mA Fechas importantes] (6 minutos)
 ** [https://www.youtube.com/watch?v=bDf3rkh7kqU Características y estructura] (10 minutos)
 * Derechos y deberes fundamentales (Título I de la Constitución)
 ** Su garantía y suspensión (Capítulos IV y V del Título I de la Constitución)
@@ -232,17 +230,17 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 # Las Cortes Generales son inviolables.
 
 * '''Artículo 67'''.
-* 1. Nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.
+** 1. Nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.
 
 * '''Artículo 68'''.
-* 1. El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto, en los términos que establezca la ley.
-* 2. La circunscripción electoral es la provincia. [...]
-* 4. El Congreso es elegido por cuatro años. [...]
+** 1. El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto, en los términos que establezca la ley.
+** 2. La circunscripción electoral es la provincia. [...]
+** 4. El Congreso es elegido por cuatro años. [...]
 
 * '''Artículo 69'''.
-* 1. El Senado es la Cámara de representación territorial.
-* 2. En cada provincia se elegirán cuatro Senadores [...]
-* 6. El Senado es elegido por cuatro años. [...]
+** 1. El Senado es la Cámara de representación territorial.
+** 2. En cada provincia se elegirán cuatro Senadores [...]
+** 6. El Senado es elegido por cuatro años. [...]
 
 * Del '''Artículo 81 al 92''' (Capítulo Segundo: De la elaboración de las leyes) resumido en el Tema 6.
 
@@ -250,15 +248,15 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * '''Artículo 159'''.
-* 1. El '''Tribunal Constitucional''' se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.
-* 2. Los miembros del Tribunal Constitucional deberán ser nombrados entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y abogados, todos ellos juristas de reconocida competencia con '''más de quince años de ejercicio profesional'''.
-* 3. Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.
+** 1. El '''Tribunal Constitucional''' se compone de 12 miembros nombrados por el Rey; de ellos, cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.
+** 2. Los miembros del Tribunal Constitucional deberán ser nombrados entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y abogados, todos ellos juristas de reconocida competencia con '''más de quince años de ejercicio profesional'''.
+** 3. Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.
 
 * '''Artículo 160'''. El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.
 
 * '''Artículo 162'''. Están legitimados:
-* a) Para interponer el '''recurso de inconstitucionalidad''', el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejectivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.
-* b) Para interponer el '''recurso de amparo''', toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.
+** a) Para interponer el '''recurso de inconstitucionalidad''', el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejectivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.
+** b) Para interponer el '''recurso de amparo''', toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.
 
 
 === Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo ===
@@ -337,15 +335,23 @@ El portal de transparencia es [http://transparencia.gob.es transparencia.gob.es]
 
 La '''Constitución''' es la '''norma suprema'''.
 
-Un '''Real Decreto-ley''' es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), sin contar con la autorización previa del poder legislativo (Congreso). El decreto-ley puede ser dictado por razones de urgencia (aunque esto lo decide el mismo Gobierno), requiriendo de la convalidación por parte del poder legislativo con posterioridad (en el plazo de 30 días). Los decreto-ley no pueden afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades de los ciudadanos, al régimen de las Comunidades Autónomas, ni al Derecho Electoral general.
+Diferencias entre decreto-ley y decreto legislativo: 
 
-Un '''Real Decreto legislativo''' o '''decreto con fuerza de ley''' (DFL) es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), por delegación expresa por el poder legislativo (Congreso, mediante ley ordinaria).
+* Un '''Real Decreto-ley''' es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), sin contar con la autorización previa del poder legislativo (Congreso). El decreto-ley puede ser dictado por razones de urgencia (aunque esto lo decide el mismo Gobierno), requiriendo de la convalidación por parte del poder legislativo con posterioridad (en el plazo de 30 días). Los decreto-ley no pueden afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades de los ciudadanos, al régimen de las Comunidades Autónomas, ni al Derecho Electoral general.
+
+* Un '''Real Decreto legislativo''' o '''decreto con fuerza de ley''' (DFL) es una norma jurídica con rango de ley, emanada del poder ejecutivo (Gobierno), por delegación expresa por el poder legislativo (Congreso, mediante ley ordinaria).
+
+Una [https://www.youtube.com/watch?v=_bAbnyr1xvs explicación en vídeo].
+
+Diferencias entre ley orgánica y ley ordinaria:
+
+* Una '''ley orgánica''' requiere de la mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto. Son leyes orgánicas las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución.
+
+* Una '''ley ordinaria''' es aquella que no requiere trámites especiales para ser aprobada y trata sobre materias no reservadas a las leyes orgánicas. Requieren mayoría simple del Congreso.
+
+Una [https://www.youtube.com/watch?v=xfYPK42aJTQ explicación en vídeo].
 
 Una '''ley de bases''' es aquella que emanada de las Cortes Generales delega en el Gobierno la potestad legislativa para formar un texto articulado. La delegación está definida para una materia en concreto y por un tiempo determinado. No podrá regular sobre materias reservadas a las leyes orgánicas. No puede autorizar la modificación de la propia ley de bases. No puede dictar normas con carácter retroactivo.
-
-Una '''ley orgánica''' requiere de la mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto. Son leyes orgánicas las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución.
-
-Una '''ley ordinaria''' es aquella que no requiere trámites especiales para ser aprobada y trata sobre materias no reservadas a las leyes orgánicas. Requieren mayoría simple del Congreso.
 
 '''Artículo 91'''. El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales, y las promulgará y ordenará su inmediata publicación.
 
@@ -536,6 +542,7 @@ La finalidad de '''SICRES 3.0''' es normalizar el intercambio de asientos y docu
 == Enlaces externos ==
 
 * [http://www.hacertest.com/constitucion-espanola/examenes/ Tests de la Constitución Española por títulos]
+* [https://www.youtube.com/playlist?list=PL0DfyiDHFBUT-rsyxqbAioq3h3LYGbF_f Vídeos sobre derecho constitucional]
 
 {{oposiciones}}
 {{footer}}
