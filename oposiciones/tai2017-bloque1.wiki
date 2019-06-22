@@ -31,9 +31,11 @@ Las '''estructura formal''' de la Constitución es la siguiente.
 * 1 disposición derogatoria
 * 1 disposición final
 
-La Constitución cuenta con '''169 artículos'''.
+La '''parte dogmática''' la componen el título preliminar y el título I, referentes a los principios constitucionales y los derechos fundamentales.
 
-En cuanto a artículos la composición es la siguiente.
+La '''parte orgánica''' la componen los títulos del II al X, referentes a la división de poderes y la organización política y territorial del Estado.
+
+La Constitución cuenta con '''169 artículos''' y su estructura es la siguiente.
 
 * Preámbulo no tiene artículos
 * '''Título preliminar''' tiene '''9 artículos''' (del 1 al 9 inclusive)
@@ -123,9 +125,9 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 * '''Artículo 5'''. La capital del Estado es la villa de Madrid.
 
-* '''Artículo 6'''. Los '''partidos políticos expresan el pluralismo político''', concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política. Su creación y el '''ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley'''. Su estructura interna y '''funcionamiento deberán ser democráticos'''.
+* '''Artículo 6'''. Los '''partidos políticos''' expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política. Su creación y el '''ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley'''. Su estructura interna y '''funcionamiento deberán ser democráticos'''.
 
-* '''Artículo 7'''. Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios. Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley. Su estructura interna y funcionamiento deberán ser democráticos.
+* '''Artículo 7'''. Los '''sindicatos''' de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios. Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley. Su estructura interna y funcionamiento deberán ser democráticos.
 
 * '''Artículo 8'''.
 # Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.
@@ -181,7 +183,7 @@ Los Títulos I, III y VIII se dividen en capítulos. El Título I además se div
 
 * '''Artículo 56'''.
 ** 1. El '''Rey es el Jefe del Estado''', símbolo de su unidad y permanencia, '''arbitra y modera el funcionamiento regular de las instituciones''', asume la más alta representación del Estado español en las relaciones internacionales, especialmente con las naciones de su comunidad histórica, y ejerce las funciones que le atribuyen expresamente la Constitución y las leyes.
-** 3. La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estará siempre refrendados en la forma establecida en el artículo 64, careciendo de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65, 2.
+** 3. La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estarán siempre refrendados en la forma establecida en el artículo 64, careciendo de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65, 2.
 
 * '''Artículo 57'''.
 ** 1. [...] La sucesión en el trono seguirá el orden regular de primogenitura y representación, siendo preferida siempre la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.
