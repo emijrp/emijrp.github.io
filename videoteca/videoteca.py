@@ -21,6 +21,7 @@ ideas:
 * ordenar lista de ids
 """
 
+import re
 import os
 import subprocess
 
@@ -36,8 +37,8 @@ def savetable(filename, tablemark, table):
     f.close()
 
 def main():
-    os.system("python youtube-dl -U")
-    
+    #os.system("python youtube-dl -U")
+    """
     youtubeids = []
     with open("youtube.ids", "r") as f:
         youtubeids = f.read().strip().splitlines()
@@ -51,11 +52,12 @@ def main():
         print(youtubeid, title, duration)
         youtubevideos.append([youtubeid, title, duration])
         youtubevideosrow = """
-    <tr>
+    """<tr>
         <td>%s</td>
         <td sorttable_customkey="%s"><a href="https://www.youtube.com/watch?v=%s">%s</a></td>
         <td>%s</td>
-    </tr>""" % (c, title, youtubeid, title, duration)
+    </tr>"""
+    """ % (c, title, youtubeid, title, duration)
         youtubevideosrows.append(youtubevideosrow)
         c += 1
     
@@ -63,15 +65,46 @@ def main():
     youtubevideostable = "\n<script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], 'es'); }</script>\n"
     youtubevideostable += '\n<table class="wikitable sortable" style="text-align: center;">\n'
     youtubevideostable += """
-    <tr>
+    """<tr>
         <th class="sorttable_numeric">#</th>
         <th class="sorttable_alpha">Título</th>
         <th class="sorttable_numeric">Duración</th>
     </tr>"""
+    """
     youtubevideostable += ''.join(youtubevideosrows)
     youtubevideostable += '</table>\n'
     #print(youtubevideostable)
     savetable("videoteca.wiki", "youtubevideostable", youtubevideostable)
+    """
+    
+    # Video channels
+    channels = []
+    with open("videoteca.channels", "r") as f:
+        channels = f.read().strip().splitlines()
+    channels_dic = {}
+    for channel in channels:
+        print(channel)
+        timeout = 5
+        ytdlraw = ""
+        c = 1
+        while not ytdlraw and c <= 4:
+            ytdlraw = subprocess.run(['timeout', str(timeout)*c, 'python', 'youtube-dl', '-s', channel], stdout=subprocess.PIPE).stdout.decode('utf-8').strip()
+            c += 1
+        service = "Unknown"
+        if 'youtube.com' in channel:
+            service = "YouTube"
+        elif 'vimeo.com' in channel:
+            service = "Vimeo"
+        numvideos = 0
+        m = re.findall(r"(?im)playlist ([^\n\r]+): Downloading (\d+) videos", ytdlraw)
+        if m:
+            print(m)
+            channelname = m[0][0]
+            channelname = re.sub(r"(?im)^Uploads from", "", channelname)
+            channelname = channelname.strip()
+            numvideos = int(m[0][1])
+        channels_dic[channel] = { "name": channelname, "numvideos": numvideos, "service": service }
+    print(channels_dic)
 
 if __name__ == '__main__':
     main()
