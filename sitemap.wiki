@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>683552</td>
+        <td>683960</td>
     </tr>
 
     <tr>
@@ -869,7 +869,7 @@
         <td>123</td>
         <td><a href="el-puerto/el-puerto.html">el-puerto/el-puerto.html</a></td>
         <td><a href="el-puerto/el-puerto.wiki">el-puerto/el-puerto.wiki</a></td>
-        <td>48420</td>
+        <td>49267</td>
     </tr>
 
     <tr>
@@ -1121,7 +1121,7 @@
         <td>159</td>
         <td><a href="oposiciones/oposiciones.html">oposiciones/oposiciones.html</a></td>
         <td><a href="oposiciones/oposiciones.wiki">oposiciones/oposiciones.wiki</a></td>
-        <td>3747</td>
+        <td>3536</td>
     </tr>
 
     <tr>
@@ -1142,7 +1142,7 @@
         <td>162</td>
         <td><a href="oposiciones/tai2017-bloque1.html">oposiciones/tai2017-bloque1.html</a></td>
         <td><a href="oposiciones/tai2017-bloque1.wiki">oposiciones/tai2017-bloque1.wiki</a></td>
-        <td>42380</td>
+        <td>43017</td>
     </tr>
 
     <tr>

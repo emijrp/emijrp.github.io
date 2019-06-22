@@ -6,4 +6,3 @@
     <meta name="twitter:domain" content="http://emilio.org.es"/>
     <meta name="twitter:creator" content="Emilio.org.es"/>
     <meta name="twitter:image:src" content="http://emilio.org.es/images/levantando-la-bandera-helio-korzhev.jpg"/>
-    <meta name="twitter:site" content="@emijrp"/>
