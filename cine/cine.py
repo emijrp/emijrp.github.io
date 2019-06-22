@@ -26,7 +26,7 @@ monthnames = { 1: 'enero', 2: 'febrero', 3: 'marzo', 4: 'abril', 5: 'mayo', 6: '
 country2id = {
     u'Unión Soviética': u'ZY', 
 }
-sleep = 3
+sleep = 15
 
 def cleanFilmCountry(filmcountry):
     filmcountry = filmcountry.strip()
@@ -46,19 +46,19 @@ def cleanFilmDirector(filmdirector):
 
 def getFilmCountryLink(filmcountry):
     filmcountry = filmcountry.strip()
-    filmcountrylink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=' % (country2id[filmcountry])
+    filmcountrylink = 'https://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=' % (country2id[filmcountry])
     return filmcountrylink
     
 def getFilmDirectorLink(filmdirector):
     filmdirector = filmdirector.strip()
-    return 'http://www.filmaffinity.com/es/search.php?stype=director&sn&stext=%s' % (re.sub(' ', '+', filmdirector))
+    return 'https://www.filmaffinity.com/es/search.php?stype=director&sn&stext=%s' % (re.sub(' ', '+', filmdirector))
 
 def getFilmYearLink(filmyear):
     filmyearlink = ''
     if filmyear < 1900:
-        filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900'
+        filmyearlink = 'https://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=&toyear=1900'
     else:
-        filmyearlink = 'http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=%s&toyear=%s' % (filmyear, filmyear)
+        filmyearlink = 'https://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=&genre=&fromyear=%s&toyear=%s' % (filmyear, filmyear)
     return filmyearlink    
 
 def savetable(filename, tablemark, table):
@@ -97,7 +97,7 @@ def main():
     #read filmaffinity profile
     ratings = []
     for page in range(1, 1000):
-    #for page in range(1, 3):
+    #for page in range(1, 3): #short loop for tests
         faurl = 'https://www.filmaffinity.com/es/userratings.php?user_id=%s&p=%s&orderby=4' % (userid, page)
         html = getURL(url=faurl)
         if not html:
@@ -145,7 +145,6 @@ def main():
     
     #read films to watch
     for page in range(1, 1000):
-        #continue
         faurl = 'https://www.filmaffinity.com/es/userlist.php?user_id=%s&list_id=201&page=%s&orderby=0' % (userid, page)
         html = getURL(url=faurl)
         if not html:
@@ -198,7 +197,7 @@ def main():
             row = u"""
     <tr>
         <td>%s</td>
-        <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td sorttable_customkey="%s"><i><a href="https://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
         <td>%s</td>
         <td>%s</td>
         <td>%s</td>
@@ -211,7 +210,7 @@ def main():
             row = u"""
     <tr>
         <td>%s</td>
-        <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td sorttable_customkey="%s"><i><a href="https://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
         <td>%s</td>
         <td>%s</td>
         <td>%s</td>
@@ -228,7 +227,7 @@ def main():
             row = u"""
     <tr>
         <td>%s</td>
-        <td sorttable_customkey="%s"><i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
+        <td sorttable_customkey="%s"><i><a href="https://www.filmaffinity.com/es/film%s.html">%s</a></i></td>
         <td>%s</td>
         <td>%s</td>
         <td>%s</td>
@@ -243,7 +242,7 @@ def main():
             suggest_plain = u""
             for film2watchtitle, film2watchprops in films2watch:
                 if film2watchprops['year'] == i:
-                    suggest.append(u'<i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i> (%s)' % (film2watchprops['id'], film2watchprops['title'], cleanFilmCountry(film2watchprops['country'])))
+                    suggest.append(u'<i><a href="https://www.filmaffinity.com/es/film%s.html">%s</a></i> (%s)' % (film2watchprops['id'], film2watchprops['title'], cleanFilmCountry(film2watchprops['country'])))
             if suggest:
                 suggest_plain = u"<br/><br/>Sugerencias:<br/>%s" % (u'<br/>'.join(suggest))
             row = u"""
@@ -258,7 +257,7 @@ def main():
             filmrows.append(row)
     
     #add missing countries
-    countriesurl = 'http://www.filmaffinity.com/es/advsearch.php'
+    countriesurl = 'https://www.filmaffinity.com/es/advsearch.php'
     try:
         req2 = urllib2.Request(countriesurl, headers={ 'User-Agent': 'Mozilla/5.0' })
         html2 = unicode(urllib2.urlopen(req2).read(), 'utf-8')
@@ -275,7 +274,7 @@ def main():
             suggest_plain = u""
             for film2watchtitle, film2watchprops in films2watch:
                 if film2watchprops['countryid'] == x:
-                    suggest.append(u'<i><a href="http://www.filmaffinity.com/es/film%s.html">%s</a></i> (%s)' % (film2watchprops['id'], film2watchprops['title'], film2watchprops['year']))
+                    suggest.append(u'<i><a href="https://www.filmaffinity.com/es/film%s.html">%s</a></i> (%s)' % (film2watchprops['id'], film2watchprops['title'], film2watchprops['year']))
             if suggest:
                 suggest_plain = u"<br/><br/>Sugerencias:<br/>%s" % (u'<br/>'.join(suggest))
             row = u"""
@@ -284,7 +283,7 @@ def main():
         <td><i>Ninguna de %s</i>%s</td>
         <td sorttable_customkey="ZZZ">-</td>
         <td sorttable_customkey="2099">-</td>
-        <td><a href="http://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
+        <td><a href="https://www.filmaffinity.com/es/advsearch.php?stext=&stype[]=title&country=%s&genre=&fromyear=&toyear=">%s</a></td>
         <td sorttable_customkey="ZZZ">-</td>
     </tr>\n""" % (cleanFilmCountry(y), suggest_plain, x, cleanFilmCountry(y))
             filmrows.append(row)
@@ -390,6 +389,7 @@ def main():
     topicrows = []
     c = 1
     for topicid, topicname, topictotal in m:
+        continue #mucha tela, actualizar de higo a breva, descomentar entonces el savetable de abajo
         topicname = topicname.strip()
         topicurl = 'https://www.filmaffinity.com/es/movietopic.php?topic=%s&nodoc&notvse' % (topicid)
         html2 = getURL(url=topicurl)
@@ -424,7 +424,7 @@ def main():
     </tr>""" % (topictopnum, topictopnum)
     topicstable += u''.join(topicrows)
     topicstable += u'</table>\n'
-    savetable('estadisticas-cine.wiki', 'tabla temas', topicstable)
+    #savetable('estadisticas-cine.wiki', 'tabla temas', topicstable)
 
 if __name__ == '__main__':
     main()
