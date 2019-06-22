@@ -71,6 +71,8 @@ ul{
 }
 
 table.wikitable {
+    font-family: "dejavu sans","arial",sans-Serif;
+    font-size: 100%;
     margin: 1em 1em 1em 0;
     background-color: #f9f9f9;
     border: 1px #aaa solid;
@@ -141,8 +143,8 @@ table.sortable thead {
     color: #555555;
     cursor: pointer;
     display: inline-block;
-    font-family: inherit;
-    font-size: 1em;
+    font-family: "dejavu sans","arial",sans-Serif;
+    font-size: 100%;
     font-weight: bold;
     margin-bottom: 5px;
     min-width: 80px;
