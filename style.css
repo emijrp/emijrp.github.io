@@ -44,9 +44,10 @@ a:link, a:visited{
     text-decoration: none;
 }
 a:hover, a:active{
-    /*text-decoration: underline;*/
-    border-bottom: 0.12em solid ;
-    margin-bottom: -1px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    /*border-bottom: 2px solid #777777;*/
+    /*margin-bottom: -1px;*/
 }
 
 div.footer{
@@ -140,6 +141,7 @@ table.sortable thead {
     border: 1px solid #cccccc;
     border-radius: 2px;
     box-sizing: border-box;
+    box-shadow: 0px 0px 1px #000000;
     color: #555555;
     cursor: pointer;
     display: inline-block;
