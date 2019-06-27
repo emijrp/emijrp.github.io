@@ -17,19 +17,53 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 {{recuadro|1='''Tema 4.''' El Gobierno Abierto. Concepto y principios informadores. La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. El Consejo de Transparencia y Buen Gobierno: funciones. '''La Agenda 2030 y los Objetivos de Desarrollo Sostenible'''.}}
 
-* La Agenda 2030 y los Objetivos de Desarrollo Sostenible
+=== La Agenda 2030 y los Objetivos de Desarrollo Sostenible ===
 
-''Por desarrollar.''
+La Asamblea General de la ONU aprobó el '''25 de septiembre de 2015''', después de dos años de debates, la Agenda 2030 para el Desarrollo Sostenible. Se trata de un plan de acción a favor de las personas, el planeta y la prosperidad, que también tiene la intención de fortalecer la paz universal y el acceso a la justicia.<ref>[https://www.un.org/sustainabledevelopment/es/2015/09/la-asamblea-general-adopta-la-agenda-2030-para-el-desarrollo-sostenible/ La Asamblea General adopta la Agenda 2030 para el Desarrollo Sostenible]</ref> Se considera la continuidad al programa de '''Objetivos de Desarrollo del Milenio''' (ODM) del período 2000-2015.
 
-<!--
+Los 193 Estados miembros de la Naciones Unidas aprobaron una resolución en la que reconocen que el mayor desafío del mundo actual es la erradicación de la pobreza y afirman que sin lograrla no puede haber desarrollo sostenible.
 
-https://www.agenda2030.gob.es
+La Agenda plantea '''17 Objetivos con 169 metas''' de carácter integrado e indivisible que abarcan las esferas económica, social y ambiental. Entró en vigor el 1 de enero de 2016.
 
-https://es.wikipedia.org/wiki/Alto_Comisionado_para_la_Agenda_2030
+La nueva estrategia regirá los programas de desarrollo mundiales durante los próximos 15 años. Al adoptarla, los Estados se comprometieron a movilizar los medios necesarios para su implementación mediante alianzas centradas especialmente en las necesidades de los más pobres y vulnerables.
 
-https://es.wikipedia.org/wiki/Objetivos_de_Desarrollo_Sostenible
+:«Estamos resueltos a poner fin a la pobreza y el hambre en todo el mundo de aquí a 2030, a combatir las desigualdades dentro de los países y entre ellos, a construir sociedades pacíficas, justas e inclusivas, a proteger los derechos humanos y promover la igualdad entre los géneros y el empoderamiento de las mujeres y las niñas, y a garantizar una protección duradera del planeta y sus recursos naturales”, señalaron los Estados en la resolución.»
 
--->
+Los 17 Objetivos de la Agenda se elaboraron en más de dos años de consultas públicas, interacción con la sociedad civil y negociaciones entre los países.
+
+La Agenda implica un compromiso común y universal, no obstante, puesto que cada país enfrenta retos específicos en su búsqueda del desarrollo sostenible, los Estados tienen soberanía plena sobre su riqueza, recursos y actividad económica, y cada uno fijará sus propias metas nacionales, apegándose a los Objetivos de Desarrollo Sostenible (ODS), dispone el texto aprobado por la Asamblea General.
+
+Además de poner fin a la pobreza en el mundo, los ODS incluyen, entre otros puntos, erradicar el hambre y lograr la seguridad alimentaria; garantizar una vida sana y una educación de calidad; lograr la igualdad de género; asegurar el acceso al agua y la energía; promover el crecimiento económico sostenido; adoptar medidas urgentes contra el cambio climático; promover la paz y facilitar el acceso a la justicia.
+
+==== Los 17 objetivos ====
+
+Los '''objetivos''' son:<ref>[https://es.wikipedia.org/wiki/Objetivos_de_Desarrollo_Sostenible Objetivos de Desarrollo Sostenible]</ref>
+
+* '''Objetivo 1 - Fin de la pobreza''': poner fin a la pobreza en todas sus formas en todo el mundo.
+* '''Objetivo 2 - Hambre cero''': poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible.
+* '''Objetivo 3 - Salud y bienestar''': garantizar una vida sana y promover el bienestar para todos en todas las edades.
+* '''Objetivo 4 - Educación de calidad''': garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos.
+* '''Objetivo 5 - Igualdad de género''': lograr la igualdad entre los génreos y empoderar a todas las mujeres y las niñas.
+* '''Objetivo 6 - Agua limpia y saneamiento''': garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos.
+* '''Objetivo 7 - Energía asequible y no contaminante''': garantizar el acceso a una energía asquible, segura, sostenible y moderna para todos.
+* '''Objetivo 8 - Trabajo decente y crecimiento económico''': promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos.
+* '''Objetivo 9 - Industria, innovación e infraestructura''': construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación.
+* '''Objetivo 10 - Reducción de las desigualdades''': reducir la desigualdad en y entre los países.
+* '''Objetivo 11 - Ciudades y comunidades sostenibles''': lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.
+* '''Objetivo 12 - Producción y consumo responsables''': garantizar modalidades de consumo y producción sostenibles.
+* '''Objetivo 13 - Acción por el clima''': adoptar medidas urgentes para combatir el cambio climático y sus efectos.
+* '''Objetivo 14 - Vida submarina''': conservar y utilizar en forma sostenible los océanos, los mares y los recursos marinos para el desarrollo sostenible.
+* '''Objetivo 15 - Vida de ecosistemas terrestres''': proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar los bosques de forma sostenible, luchar contra la desertificación, detener e invertir la degradación de las tierras y poner freno a la pérdida de la diversidad biológica.
+* '''Objetivo 16 - Paz, justicia e instituciones sólidas''': promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y crear instituciones eficaces, responsables e inclusivas a todos los niveles.
+* '''Objetivo 17 - Alianzas para lograr los objetivos''': fortalecer los medios de ejecución y revitalizar la Alianza Mundial para el Desarrollo Sostenible.
+
+==== La Agenda 2030 en España ====
+
+El '''Alto Comisionado para la Agenda 2030''' es un órgano unipersonal del Gobierno de España, dependiente orgánicamente de la Presidencia del Gobierno, encargado de la coordinación de actuaciones para el cumplimiento de la Agenda 2030.<ref>[https://es.wikipedia.org/wiki/Alto_Comisionado_para_la_Agenda_2030 Alto Comisionado para la Agenda 2030]</ref>
+
+Desde el 7 de julio de 2018 la Alta comisionada es Cristina Gallach Figueres, una periodista y experta en relaciones internacionales quien anteriormente ejerció como Secretaria General Adjunta para la Comunicación y la Información Pública de la ONU. 
+
+La web española es [https://www.agenda2030.gob.es www.agenda2030.gob.es].
 
 == Referencias ==
 {{reflist}}

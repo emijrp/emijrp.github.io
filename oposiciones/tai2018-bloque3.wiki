@@ -42,19 +42,25 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 https://es.wikipedia.org/wiki/Metodolog%C3%ADa_de_desarrollo_de_software
 
-Metodologías:
-Scrum
-Rational Unified Process RUP
-Extreme Programming XP
+Metodologías de desarrollo:
+
+* '''Desarrollo en cascada''': también llamado '''modelo secuencial''' o '''modelo clásico''', es aquel que ordena rigurosamente las etapas del ciclo de vida del software de forma secuencial. Cada etapa debe finalizar antes de pasar a la siguiente. Estas etapas serían las clásicas, análisis de requisitos, diseño, codificación, pruebas, despliegue y mantenimiento. Es poco flexible, ya que un fallo en las primeras etapas, por ejemplo en los requisitos, conlleva a repetir el proceso aumentando costes.
+
+* '''Modelo de prototipos''': mediante la construcción de un prototipo del producto, se logra una retroalimentación por parte del cliente, que ve resultados rápidamente y evalua el producto, permitiendo refinar los requisitos para la siguiente iteración.
+
+* '''Desarrollo iterativo e incremental''': se desarrolla el proyecto a través de repetir ciclos (iterativo) y en pequeñas porciones cada vez (incremental).
+
+* '''Desarrollo en espiral''': se llevan a cabo una serie de iteraciones en las que se determinan los objetivos, se hace análisis y reducción de riesgos, se desarrolla y prueba, y se planifica la próxima iteración. Tiene en cuenta explícitamente los riesgos que puedan surgir.
+
+* '''Desarrollo ágil de software''': está basado en el desarrollo iterativo e incremental, donde los requisitos y soluciones evolucionan según las necesidades del proyecto. Cada iteración incluye: planificación, análisis de requisitos, diseño, codificación, pruebas y documentación.
+** Scrum:
+** Crystal Clear
+** Programación extrema
+** Otros: desarrollo de software adaptativo (ASD), método de desarrollo de sistemas dinámicos (DSDM). Rational Unified Process RUP
 
 
-Enfoques:
-Modelo en cascada
-Prototipado
-Incremental
-Espiral
+
 RAD
-
 
 La integración continua (continuous integration en inglés) es un modelo informático propuesto inicialmente por Martin Fowler que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes. Entendemos por integración la compilación y ejecución de pruebas de todo un proyecto.
 
