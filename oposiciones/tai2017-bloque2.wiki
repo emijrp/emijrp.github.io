@@ -469,11 +469,28 @@ Extensiones más frecuentes:
 
 {{recuadro|1='''Sistemas operativos'''. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Sistemas operativos para dispositivos móviles.}}
 
-Un '''sistema operativo''' es el software principal que gestiona los recursos hardware y proporciona servicios a los demás programas.
+Un '''sistema operativo''' es el software principal que gestiona los recursos hardware y proporciona servicios a los demás programas. Hay diversas clases de sistemas operativos.
 
-* '''Núcleo monolítico''': arquitectura de sistema operativo donde éste trabaja en espacio del núcleo, estando él solo en modo supervisor. Provee una interfaz de '''alto nivel''' para el hardware. Ejemplos: Unix, Linux, DOS, Windows 9x, FreeDOS.
+* Según el tipo de '''núcleo''':
+** '''Monolítico''': arquitectura de sistema operativo donde éste trabaja en espacio del núcleo, estando él solo en modo supervisor. Provee una interfaz de '''alto nivel''' para el hardware. Ejemplos: Unix, Linux, DOS, Windows 9x, FreeDOS.
+** '''Micronúcleo''': el software mínimo que provee de mecanismos necesarios para implementar un sistema operativo. Incluye gestión de espacios de direcciones, hilos y comunicación entre procesos a '''bajo nivel'''. Cosas como la gestión de memoria, sistema de archivos y operaciones de entrada-salida se ejecutan en espacio de usuario. Ejemplos: AIX, AmigaOS, Minix, Hurd, Symbian.
 
-* '''Micronúcleo''': el software mínimo que provee de mecanismos necesarios para implementar un sistema operativo. Incluye control de memoria, hilos y comunicación entre procesos a '''bajo nivel'''.
+* Según la gestión de '''tareas''':
+** '''Monotarea''': solo ejecuta un proceso cada vez, además de los del propio sistema. Cuando ejecuta un proceso lo hace hasta que finaliza o es interrumpido. Ejemplos: MS-DOS.
+** '''Multitarea''': puede ejecutar varios procesos a la vez, asignando recursos a cada uno de ellos. Hoy en día la mayoría de sistemas son multitarea.
+
+* Según la gestión de '''usuarios''':
+** '''Monousuario''': solo ejecuta los procesos de un usuario al mismo tiempo.
+** '''Multiusuario''': permite que varios usuarios ejecuten sus procesos a la vez.
+
+* Según la gestión de '''recursos''':
+** '''Centralizado''': controla los recursos de un solo ordenador.
+** '''Distribuido''': controla los recursos de varios ordenadores a la vez.
+
+* Según el '''dispositivo''' en el que se ejecutan:
+** '''Ordenador''': Windows, Unix, Linux, Mac OS, Solaris, FreeBSD, Google Chrome OS, Plan 9, HP-UX, BeOS, ReactOS, Android PC.
+** '''Móvil''': Android, iOS, BlackBerry OS, Windows Phone, Symbian OS, HP webOS, Palm OS.
+** '''Reloj''': Android Wear, WatchOS, WearOS, OpenWatch.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Un '''gestor de arranque''' es un programa que permite escoger entre varios sistemas operativos o definir opciones de arranque.
@@ -489,26 +506,28 @@ La '''hiperpaginación''' provoca la caida del rendimiento del sistema, ya que h
 === Android ===
 
 {{cayo-en-convocatoria|1=2014 (PI)}}
-'''Versiones''' de Android:
 
-{{div-col-2}}
-* Apple Pie
-* Banana Bread
-* Cupcake
-* Donut
-* Eclair
-* Froyo
-* Gingerbread
-* Honeycomb (tablets)
-* Ice Cream Sandwich
-* Jelly Bean
-* KitKat
-* Lollipop
-* Marshmallow
-* Nougat
-* Oreo
-* Android P 
-{{div-col-end}}
+'''Android''' es un sistema operativo móvil desarrollado por Google y la Open Handset Alliance.
+
+Los nombres de las '''versiones''' de Android siguen el orden alfabético:
+
+* Apple Pie (1.0, 2008)
+* Banana Bread (1.1, 2009)
+* Cupcake (1.5, 2009)
+* Donut (1.6, 2009)
+* Eclair (2.0 - 2.1, 2009)
+* Froyo (2.2 - 2.2.3, 2010)
+* Gingerbread (2.3 - 2.3.7, 2010)
+* Honeycomb (tablets) (3.0 - 3.2.6, 2011)
+* Ice Cream Sandwich (4.0 - 4.0.5, 2011)
+* Jelly Bean (4.1 - 4.3.1, 2012)
+* KitKat (4.4 - 4.4.4, 2013)
+* Lollipop (5.0 - 5.1.1, 2014)
+* Marshmallow (6.0 - 6.0.1, 2015)
+* Nougat (7.0 - 7.1.2, 2016)
+* Oreo (8.0 - 8.1, 2017)
+* Pie (9.0, 2018)
+* Quiche/Quindim (10.0, 2019)
 
 === GNU/Linux ===
 
@@ -774,6 +793,27 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 
 === Microsoft Windows ===
 
+'''Microsoft Windows''' es el nombre de una familia de sistemas operativos para PC, smartphone, servidores y sistemas empotrados, desarrollados y vendidos por Microsoft y disponibles para arquitecturas como x86, x86-64 y ARM.
+
+'''Versiones''' de Windows:
+
+* '''Windows 3.0''': 
+* '''Windows 3.11''': 
+* '''OS/2''': 
+* '''Windows 95''': 
+* '''Windows NT''': 
+* '''Windows 98''': 
+* '''Windows 98 SE''': 
+* '''Windows ME''': 
+* '''Windows 2000''': 
+* '''Windows XP''': 
+* '''Windows Server 2003''': 
+* '''Windows Vista''': 
+* '''Windows Server 2008''': 
+* '''Windows 7''': 
+* '''Windows 8''': 
+* '''Windows 10''': 
+
 {{cayo-en-convocatoria|1=2014 (PI)}}
 '''Claves del registro''':
 * HKEY_LOCAL_MACHINE
@@ -795,6 +835,8 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 * '''netstat''': comprobación y analisis de redes y conexiones
 * '''net use''': asigna letra de unidad a carpetas compartidas 
 * '''systeminfo''': información del sistema
+
+Para PowerShell, véase [[tai2017-bloque4|TAI 2017 Bloque IV]].
 
 == Tema 5: Bases de datos ==
 
