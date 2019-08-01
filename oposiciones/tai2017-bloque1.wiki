@@ -383,9 +383,11 @@ Un '''reglamento''' ...
 
 {{recuadro|1='''Tema 8.''' La sociedad de la información. Identidad y firma electrónica: régimen jurídico. El DNI electrónico.}}
 
-# La sociedad de la información.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y '''firma electrónica''': régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
+# La sociedad de la información.<ref name="ley-34-2002">[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y firma electrónica: régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
 
 === Comercio electrónico ===
+
+'''Ley 34/2002''', de 11 de julio, de servicios de la '''sociedad de la información''' y de '''comercio electrónico'''.<ref name="ley-34-2002" />
 
 {{cayo-en-convocatoria|1=2014 (PI)}}
 * '''Artículo 39'''. Sanciones. a) Por la comisión de infracciones muy graves, multa de 150.001 hasta 600.000 euros. b) Por la comisión de infracciones graves, multa de 30.001 hasta 150.000 euros. c) Por la comisión de infracciones leves, multa de hasta 30.000 euros.
@@ -423,6 +425,8 @@ Datos criptográficos:
 * Clave pública de root CA para certificados card-verificables
 * Claves Diffie-Hellman
 * Patrón dactilar
+
+Los certificados de identidad pública contenidos en el DNIe son emitidos como certificados reconocidos, vinculando una serie de datos personales del ciudadano a unas determinadas claves, garantizando la autenticidad, integridad y no repudio.
 
 == Tema 9 ==
 
@@ -495,6 +499,8 @@ Se trata de derechos independientes, ninguno es requisito previo para ejercer el
 
 # '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2009-18358 Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos] (33 páginas)</ref> La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.<ref>[https://www.boe.es/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica]</ref> Normas técnicas de Interoperabilidad.<ref>[http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13501 Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares] (11 páginas)</ref>
 
+=== Esquema Nacional de Seguridad ===
+
 {{cayo-en-convocatoria|1=2016 (IL)}}
 '''Artículo 4'''. Principios básicos del Esquema Nacional de Seguridad. El objeto último de la seguridad de la información es asegurar que una organización administrativa podrá cumplir sus objetivos utilizando sistemas de información. En las decisiones en materia de seguridad deberán tenerse en cuenta los siguientes principios básicos: a) Seguridad integral. b) Gestión de riesgos. c) Prevención, reacción y recuperación. d) Líneas de defensa. e) Reevaluación periódica. f) Función diferenciada.
 
@@ -520,12 +526,28 @@ Se trata de derechos independientes, ninguno es requisito previo para ejercer el
 * '''Trazabilidad''': propiedad o característica consistente en que las actuaciones de una entidad pueden ser imputadas exclusivamente a dicha entidad.
 * '''Vulnerabilidad''': una debilidad que puede ser aprovechada por una amenaza.
 
+Las medidas de seguridad del Esquema Nacional de Seguridad se dividen en marco organizativo, marco operacional y medidas de protección.
+
+=== Esquema Nacional de Interoperabilidad ===
+
+Definiciones
+
 == Tema 11 ==
 
 {{recuadro|1='''Tema 11.''' Instrumentos para el acceso electrónico a las Administraciones públicas: '''sedes electrónicas''', canales y puntos de acceso, identificación y autenticación. Infraestructuras y servicios comunes.}}
 
-* [https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público]
-* [http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE]
+=== Sedes electrónicas ===
+
+
+=== Sistema Cl@ve ===
+
+'''Cl@ve''' es un sistema de '''Identificación, Autenticación y Firma Electrónica''' para los ciudadanos común a todo el Sector Público Administrativo Estatal, basado en el uso de claves concertadas. Permite la firma electrónica (desde cualquier dispositivo que tenga conexión a Internet y sin ningún equipamiento adicional) mediante certificados electrónicos centralizados, es decir, almacenados y custodiados por la Administración Pública.<ref name="clave-que-es">[http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE - Qué es]</ref>
+
+Las claves pueden ser de '''un solo uso''' (OTP, one time password) o claves '''permanentes''' (para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración).<ref name="clave-definiciones">[https://clave.gob.es/clave_Home/dnin/definiciones.html Sistema CL@VE - Definiciones]</ref>
+
+=== Otros ===
+
+[https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público]
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 El '''Punto de Acceso General''' (PAG) es [https://sede.administracion.gob.es https://sede.administracion.gob.es].
