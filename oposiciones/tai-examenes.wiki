@@ -6,6 +6,8 @@ Este es un pequeño '''análisis de exámenes de TAI''' de convocatorias pasadas
 
 === Ingreso Libre ===
 
+Por desarrollar.
+
 === Promoción Interna ===
 
 Por desarrollar.
@@ -65,6 +67,8 @@ No hubo.
 No hubo.
 
 === Promoción Interna ===
+
+Por desarrollar.
 
 {{oposiciones}}
 {{footer}}

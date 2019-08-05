@@ -266,11 +266,14 @@ La diferencia entre 1080p y 1080i a X Hz es que el p refresca la imagen completa
 Los '''escáneres''' pueden ser:
 
 * '''De mano''': se mueven a mano sobre el sujeto a escanear. Hay dos tipos: de documentos y 3D.
+* '''De rodillo''': similar a los fax, mediante un sistema de tracción el documento es arrastrado y escaneado.
 * '''De tambor''': son grandes, con alta calidad de digitalización (hasta 4000 ppp) y profesionales.
-* '''De cama plana''': los más comunes, se sitúa el documento en plano sobre el cristal.
+* '''De cama plana''': los más comunes, se sitúa el documento en plano sobre el cristal, típico de equipos de sobremesa.
 * '''Cenital''': se toma la fotografía desde arriba, sirve para libros y documentos antiguos que se puedan dañar con facilidad.
 
 Entre los estándares de digitalización están el Image and Scanner Interface Specification (ISIS), TWAIN y Windows Image Acquisition (WIA).
+
+Existen otros escáneres para usos concretos, como los escáneres de códigos de barras (típico para tiendas) y escáneres de diapositivas.
 
 == Tema 3: Tipos abstractos y Estructuras de datos ==
 
@@ -358,19 +361,24 @@ Algoritmos de '''ordenación''':
 
 {{cayo-en-convocatoria|1=2016 (PI)}}
 Formatos de '''imágenes''':
-* '''JPG''': compresión con pérdida aplicando la transformación discreta de coseno.
-* '''PNG''': compresión sin pérdida para bitmaps, resuelve limitaciones de GIF.
+* '''JPG''': compresión con pérdida aplicando la transformación discreta de coseno. Joint Photographic Experts Group.
+* '''GIF''': imágenes de mapas de bits, hasta 256 colores, con compresión sin pérdida (LZW), admite animaciones. Graphics Interchange Format.
+* '''PNG''': compresión sin pérdida para bitmaps, resuelve limitaciones de GIF. Portable Network Graphics.
+* '''TIFF''': usado para escanear, faxes, OCR y publicaciones. Tagged Image File Format.
 
 Formatos de '''gráficos vectoriales''':
-* '''SVG''': gráficos vectoriales bidimensionales, estáticos o animados, en formato XML.
-* '''WMF''': Windows MetaFile, de Microsoft.
-* '''SWF''': de Macromedia Flash, animaciones vectoriales.
+* '''SVG''': gráficos vectoriales bidimensionales, estáticos o animados, en formato XML. Scalable Vector Graphics.
+* '''WMF''': admite gráficos vectoriales y bitmaps. Windows MetaFile, de Microsoft.
+* '''SWF''': animaciones, gráficos vectoriales y ActionScript. Small Web Format, de Macromedia Flash.
+
+'''Otros''' formatos:
+* '''SHP''': para sistemas de información geográfica, contiene formas geométricas (puntos, líneas, polígonos) y base de datos dBASE para atributos. Shapefile.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 
 ==== Windows ====
 
-Extensiones más frecuentes:
+'''Extensiones''' más frecuentes:
 
 {{div col 3}}
 * '''AVI''': Audio Video Interleave
@@ -407,8 +415,9 @@ Extensiones más frecuentes:
 * '''RM''': RealMedia File
 * '''RMVB''': RealMedia Variable Bit Rate File
 * '''RTF''': Rich Text Format
+* '''SHP''': Shapefile
 * '''SQL''': Structured Query Language Data File
-* '''SWF''': Shockwave Flash Movie
+* '''SWF''': Small Web Format/Shockwave Flash Movie
 * '''TGZ''': Gzipped Tar File
 * '''TIF''': Tagged Image File
 * '''TORRENT''': BitTorrent File
@@ -426,7 +435,7 @@ Extensiones más frecuentes:
 
 ==== Linux ====
 
-Extensiones más frecuentes:
+'''Extensiones''' más frecuentes:
 
 {{div col 3}}
 * '''ARJ''': Compresión
@@ -462,7 +471,6 @@ Extensiones más frecuentes:
 
 {{div col 3}}
 * '''APK''': Android Application Package
-* Apple
 {{div col end}}
 
 == Tema 4: Sistemas operativos ==
@@ -814,15 +822,26 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 * '''Windows 8''': 
 * '''Windows 10''': 
 
+'''Interfaces gráficas''' y temas de Windows:
+
+* '''Luna''': tema característico de Windows XP.
+* '''Aero UI''': interfaz gráfica de Windows 7.
+* '''Modern UI''': también llamada Metro UI, interfaz gráfica de Windows 8. Conocida como azulejos.
+* '''Continuum''': interfaz gráfica de Windows 10, mezcla de Aero y Modern UI.
+* '''Fluent Design''': nueva interfaz para Windows 10.
+
 {{cayo-en-convocatoria|1=2014 (PI)}}
-'''Claves del registro''':
-* HKEY_LOCAL_MACHINE
-* HKEY_CURRENT_CONFIG
-* HKEY_CLASSES_ROOT
-* HKEY_CURRENT_USER
-* HKEY_USERS
-* HKEY_PERFORMANCE_DATA
-* HKEY_DYN_DATA
+El '''registro de Windows''' es una base de datos que almacena ajustes de configuración y opciones del sistema operativo y de otras aplicaciones instaladas.
+
+Algunas '''claves del registro''' de Windows:
+
+* '''HKEY_LOCAL_MACHINE''' (HKLM): configuraciones específicas del equipo local. Tiene las subclaves SAM, SECURITY, SYSTEM y SOFTWARE, además de HARDWARE que se crea dinámicamente.
+* '''HKEY_CURRENT_CONFIG''' (HKCC): 
+* '''HKEY_CLASSES_ROOT''' (HKCR): información sobre aplicaciones registradas y asociaciones de archivos (extensiones).
+* '''HKEY_CURRENT_USER''' (HKCU): configuración específica sobre el usuario con sesión iniciada en este momento.
+* '''HKEY_USERS''' (HKU): subclaves de los usuarios cargados en HKEY_CURRENT_USER.
+* '''HKEY_PERFORMANCE_DATA''': información de rendimiento de controladores del sistema, programas y servicios.
+* '''HKEY_DYN_DATA''': información sobre dispositivos hardware, estadísticas Plug & Play y de red. Solo para Windows 95, 98 y Windows Me.
 
 * [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
 
