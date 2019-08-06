@@ -28,7 +28,7 @@ Los elementos básicos de un diagrama entidad-relación son las entidades, las r
 
 === Diagramas de flujo de datos ===
 [[File:dfd.png|thumb|right|200px|Componentes de los DFD.]]
-Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del flujo de datos y los cambios que sufre en un sistema de información, desde que entra al sistema hasta que sale. Existen distintos niveles de abstracción y detalle.
+Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del flujo de datos y los cambios que este flujo sufre en un sistema de información, desde que entra al sistema hasta que sale. Existen distintos niveles de abstracción y detalle.
 
 {{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 '''Componentes''' de los DFD:
@@ -91,7 +91,7 @@ En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el
 * '''Regla 2''': todos los datos se deben poder acceder sin ambiguëdad. Acceso garantizado.
 * '''Regla 3''': debe permitir la existencia de valores nulos.
 * '''Regla 4''': ofrecer acceso a la estructura de la base de datos.
-* '''Regla 5''': el sistema debe soportar un lenguaje relacional con sintaxis lineal, interactivo y que soporte definicón de datos.
+* '''Regla 5''': el sistema debe soportar un lenguaje relacional con sintaxis lineal, interactivo y que soporte definición de datos.
 * '''Regla 6''': todas las vistas teóricamente actualizables deben poderse actualizar.
 * '''Regla 7''': alto nivel de inserción, actualización y borrado. Operaciones sobre múltiples filas.
 * '''Regla 8''': independencia física de los datos.
@@ -133,6 +133,23 @@ Un '''bucle''' es una sentencia que ejecuta repetidas veces un trozo de código,
 Un '''algoritmo recursivo''' es un algoritmo que expresa la solución de un problema en términos de una llamada a sí mismo. La llamada a sí mismo se conoce como llamada recursiva o recurrente.
 
 Un '''procedimiento''' es una subrutina dentro de un programa que resuelve una tarea específica. Una '''función''' es aquella subrutina que devuelve un valor. Los '''parámetros''' son aquellas variables que se le pasan a los procedimientos o funciones para que sean utilizados en la resolución de la tarea.
+
+{{cayo-en-convocatoria|1=2014 (PI)}}
+Un '''módulo''' es una porción de un programa, separado del resto de módulos, almacenado en ficheros individuales, con la finalidad de hacer el código más manejable y legible. Un bajo acoplamiento y una alta cohesión son señales de un sistema bien estructurado.
+
+* '''Acoplamiento''': es la interdependencia entre módulos, cuanto más baja mejor.
+** '''Acoplamiento normal''': un módulo llama a otro inferior y se intercambian datos. Existen tres tipos, '''acoplamiento de datos''' (comunicación mediante parámetros), '''acoplamiento de marca''' (comunicación mediante estructuras de datos), '''acomplamiento de control''' (un módulo controla a otro).
+** '''Acoplamiento común''': dos módulos acceden a un recurso común (memoria, variable, fichero). Si se trata de dispositivos de entrada-salida o comunicaciones, sería '''acoplamiento externo'''.
+** '''Acoplamiento de contenido''': un módulo accede a una parte de otro módulo.
+
+* '''Cohesión''': es la relación funcional entre los elementos del mismo módulo, cuanto más alta mejor.
+** '''Cohesión funcional''': los elementos del módulo desempeñan una función conjuntamente.
+** '''Cohesión secuencial''': los elementos hacen tareas en secuencia, siendo la salida de una tarea la entrada de la tarea siguiente.
+** '''Cohesión comunicacional''': el módulo hace tareas paralelas con los mismos datos.
+** '''Cohesión procedimental''': similar a la secuencial.
+** '''Cohesión temporal''': las tareas se relacionan por el momento en que se realizan.
+** '''Cohesión lógica''': las tareas se agrupan por categorías.
+** '''Cohesión casual''': la relación entre los elementos del módulo es escasa. Esta cohesión es poco deseable.
 
 === Lenguajes ===
 
@@ -218,12 +235,12 @@ En el '''álgebra relacional''' las operaciones son:
 * '''Básicas o fundamentales''':
 ** '''Selección''': selecciona un subconjunto de tuplas de una relación que cumplan la condición.
 ** '''Proyección''': extrae columnas (atributos) de una relación, un subconjunto vertical de la relación.
-** '''Producto cartesiano''': 
-** '''Unión''': las tuplas que están en ambas relaciones.
+** '''Producto cartesiano''': todas las tuplas (a, b) posibles, donde a pertenece a la primera relación y b a la segunda.
+** '''Unión''': las tuplas de ambas relaciones.
 ** '''Diferencia''': las tuplas que están en una relación pero no en la otra.
 
 * '''No básicas o derivadas''': 
-** '''Intersección''': 
+** '''Intersección''': las tuplas que pertenecen a las dos relaciones. Las que solo están presentes en una de ellas no.
 ** '''Unión natural''': 
 ** '''División o cociente''': 
 ** '''Agrupación''': 
@@ -394,7 +411,7 @@ Algunos '''conceptos fundamentales''' de la POO:
 
 * '''Sobrecarga''': permite nombrar con el mismo identificador a más de una variable o método que realizan operaciones distintas. Por ejemplo una función podría llamarse igual, pero en un caso aceptar distintos parámetros y en otro caso no requerir ninguno.
 
-* '''Polimorfismo''': permite enviar mensajes sintacticamente iguales a objetos de clases distintas y ser comprendidos por estos.
+* '''Polimorfismo''': permite enviar mensajes sintácticamente iguales a objetos de clases distintas y ser comprendidos por estos.
 
 * '''Encapsulamiento''': oculta el estado interno de un objeto, de modo que sus atributos solo pueden accederse (leerse o modificarse) a través de los métodos proporcionados por la clase.
 
