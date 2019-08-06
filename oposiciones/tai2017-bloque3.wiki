@@ -283,6 +283,13 @@ SQL consiste en un lenguaje de '''definición''' de datos, un lenguaje de '''man
 ** '''GRANT''': concede permisos a uno o varios usuarios para realizar ciertas tareas (CONNECT, SELECT, INSERT, UPDATE, DELETE, USAGE).
 ** '''REVOKE''': elimina permisos concedidos con GRANT.
 
+'''Tipos''' de datos:
+* '''INTEGER''': número entero, con o sin signo.
+* '''VARCHAR''': cadena de caracteres.
+* '''DATE''': fecha año, mes y día.
+* '''TIME''': la hora del día en hora, minutos y segundos.
+* '''INTERVAL''': diferencia entre dos fechas.
+
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Cláusula '''JOIN''':
 
