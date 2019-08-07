@@ -491,7 +491,7 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 {{recuadro|1=Conceptos de '''seguridad de los sistemas''' de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
-'''Conceptos''' relacionados con la '''seguridad''':
+'''Conceptos''' relacionados con la '''seguridad informática''':
 
 * '''Antivirus''': aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.
 * '''Botnet''': red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.
@@ -507,10 +507,11 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 * '''Man in the middle''': el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.
 * '''Pharming''': ciberataque que redirige un sitio web a otro falso.
 * '''Phishing''': intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.
-* '''Puerta trasera''': característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc.
+* '''Puerta trasera''': característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc. También llamado backdoor.
 * '''Ransomware''': software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.
 * '''Rootkit''': software que permite el acceso privilegiado a un ordenador y que permanece oculto.
 * '''SGSI''': Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.
+* '''Sniffing''': captura de datos en una red para su análisis.
 * '''Spoofing''': diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).
 * '''Spyware''': software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.
 * '''Troyano''': programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.
@@ -645,9 +646,6 @@ Dispositivos de la capa física:
 * '''Puente y enrutador o brouter''': sirve como puente y como router.
 * '''Punto de acceso inalámbrico o WAP''': interconecta dispositivos de red inalámbricos (tarjetas de red, dispositivos móviles). Normalmente también tienen entradas cableadas.
 
-'''Control de acceso al medio''':
-* 
-
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Cableado estructurado de par trenzado:
 * '''Categoría 1''': para telefonía, no adecuado para datos. Tasa: 512 Kbit/s.
@@ -666,6 +664,17 @@ Generaciones de telefonía móvil:
 * '''3G''':
 * '''4G''': 
 * '''5G''': 
+
+{{cayo-en-convocatoria|1=2014 (PI)}}
+Otros conceptos:
+* '''Señal digital''': señal usada para representar datos como una secuencia de valores discretos, en cada momento solo puede tomar un valor de un número finito de ellos. Una señal analógica representa valores contínuos.
+* '''Banda base''': Los tipos de codificación incluyen el unipolar, polar, bipolar, NRZ (non-return-to-zero) y Manchester.
+* '''Banda ancha''': 
+* '''Portadora''': 
+* '''Modulación''': técnicas que permiten transportar información sobre una onda portadora. La modulación en amplitud (AM) y la modulación en frecuente (FM) son las más frecuentes.
+* '''Multiplexación''': técnica para combinar dos o más señales y transmitirlas por un solo medio. El proceso inverso es la demultiplexación. Hay varios tipos: multiplexación por división de tiempo (TDM síncrona), multiplexación estadística (TDM asíncrona/estadística), multiplexación por división de frecuencia (FDM), multiplexación por división en código (CDM). Cuando hay varios usuarios en el mismo medio, es acceso múltiple por división de frecuencia (FDMA), por división de tiempo (TDMA) y por división de código (CDMA).
+* '''Control de acceso al medio''': mecanismos y protocolos usados para que varios interlocutores compartan un medio de transmisión común sin entorpecerse unos a otros.
+* '''Enrutamiento''': cómo la información es encaminada hacia el destino. Puede ser unicast (único destino), multicast (varios destinatarios), broadcast (todos los destinatarios), anycast (cualquiera de un grupo de destinatarios).
 
 Entre los problemas que afectan a las señales está el ruido blanco.
 
@@ -852,9 +861,9 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 Ipv4 ipv6 (pregunta b4.32 y 37, 39)
 
 {{cayo-en-convocatoria|1=2016 (PI)|2=2015 (IL)|3=2015-SE (IL)}}
-IPv4 tiene ips de 32 bits (4 octetos, 4 bytes), comprendidas entre 0.0.0.0 y 255.255.255.255.
+'''IPv4''' tiene ips de 32 bits (4 octetos, 4 bytes), comprendidas entre 0.0.0.0 y 255.255.255.255.
 
-IPv6 tiene ips de 128 bits (8 grupos de 16 bits), comprendidas entre 0:0:0:0:0:0:0:0 y ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff. Cuando se usa '::' se quiere indicar que son todo ceros ':0000:'.
+'''IPv6''' tiene ips de 128 bits (8 grupos de 16 bits), comprendidas entre 0:0:0:0:0:0:0:0 y ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff. Cuando se usa '::' se quiere indicar que son todo ceros ':0000:'.
 
 * '''::/128''': ausencia de dirección, dirección indefinida. Todos sus bits a cero. Como 0.0.0.0 en IPv4.
 * '''::1/128''': loopback, dirección unicast de localhost. Como 127.0.0.1 en IPv4.
@@ -869,7 +878,7 @@ Existen tecnologías de transición entre IPv4 y IPv6 como '''6to4''' y '''Tured
 
 DHCPv6 utiliza el puerto UDP 547.
 
-{{cayo-en-convocatoria|1=2015 (PI)}}
+{{cayo-en-convocatoria|1=2015 (PI)|2=2014 (PI)}}
 '''Códigos de estado HTTP''':
 {{div col 3}}
 * '''1xx: Informal'''
