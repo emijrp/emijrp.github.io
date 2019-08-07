@@ -353,7 +353,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
-<ul><li><b>SMTP</b>: protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.</li><ul><li><b>Comandos SMTP</b>: HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.</li></ul></ul>
+<ul><li><b>SMTP</b>: protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25. La extensión que permite transmitir de manera intermitente se llama On-Demand Mail Relay (ODMR).</li><ul><li><b>Comandos SMTP</b>: HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.</li></ul></ul>
 
 <h4 id="Microsoft_Exchange">Microsoft Exchange</h4>
 
@@ -392,7 +392,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<ul><li><b>nslookup</b>: name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.</li><li><b>OpenView</b>: conjunto de herramientas de HP.</li><li><b>ping</b>: petición de ICMP echo para comprobar si un host está disponible.</li><li><b>Snort</b>: sistema de detección de intrusiones.</li><li><b>Suricata</b>: sistema de detección de intrusiones.</li><li><b>tcpdump</b>: analizador de paquetes por línea de comandos.</li><ul><li><b>tcpdump host 192.168.1.1</b>: captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.</li><li><b>tcpdump port 80</b>: captura tráfico con origen o destino el puerto 80</li><li><b>tcpdump -ni eth0 host 10.1.1.2 -w file.log</b>: captura tráfico de la interfaz eth0 e ip 10.1.1.2 y lo vuelca a un fichero de log.</li></ul><li><b>telnet</b>: permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.</li><li><b>traceroute</b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li><li><b>whois</b>: identifica un dominio.</li></ul>
+<ul><li><b>nslookup</b>: name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.</li><li><b>OpenView</b>: conjunto de herramientas de HP.</li><li><b>ping</b>: petición de ICMP echo para comprobar si un host está disponible.</li><li><b>scp</b>: transferencia de ficheros de manera segura, basado en ssh.</li><li><b>Snort</b>: sistema de detección de intrusiones.</li><li><b>ssh</b>: conexión a equipos remotos de manera segura.</li><li><b>Suricata</b>: sistema de detección de intrusiones.</li><li><b>tcpdump</b>: analizador de paquetes por línea de comandos.</li><ul><li><b>tcpdump host 192.168.1.1</b>: captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.</li><li><b>tcpdump port 80</b>: captura tráfico con origen o destino el puerto 80</li><li><b>tcpdump -ni eth0 host 10.1.1.2 -w file.log</b>: captura tráfico de la interfaz eth0 e ip 10.1.1.2 y lo vuelca a un fichero de log.</li></ul><li><b>telnet</b>: permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.</li><li><b>traceroute</b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li><li><b>whois</b>: identifica un dominio.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
@@ -521,12 +521,12 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>El <b>cifrado por flujo</b> opera sobre símbolos individuales.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
-<p>Pregunta relacionada en<br/><b>2016 (IL) 2015-SE (IL)  </b></p>
+<p>Pregunta relacionada en<br/><b>2016 (IL) 2015-SE (IL) 2014 (PI) </b></p>
 </div>
 
 <p><b>Algoritmos</b> de <b>clave simétrica</b>:</p>
 
-<ul><li><b>AES</b>: acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.</li><li><b>Blowfish</b>: publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.</li><li><b>DES</b>: acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.</li><ul><li><b>3DES</b>: hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.</li></ul><li><b>IDEA</b>: acrónimo de International Data Encryption Algorithm. Tamaño de clave de 128 bits, tamaño de bloque de 64 bits.</li></ul>
+<ul><li><b>AES</b>: acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001 y basado en Rijndael. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.</li><li><b>Blowfish</b>: publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.</li><li><b>DES</b>: acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.</li><ul><li><b>3DES</b>: hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.</li></ul><li><b>IDEA</b>: acrónimo de International Data Encryption Algorithm. Tamaño de clave de 128 bits, tamaño de bloque de 64 bits.</li></ul>
 
 <p>Otros algoritmos de clave simétrica son Serpent, Twofish.</p>
 
@@ -607,6 +607,8 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p>Generaciones de telefonía móvil:</p>
 <ul><li><b>3G</b>:</li><li><b>4G</b>: </li><li><b>5G</b>: </li></ul>
+
+<p>Entre los problemas que afectan a las señales está el ruido blanco.</p>
 
 <h2 id="Tema_6:_Redes">Tema 6: Redes</h2>
 
@@ -863,7 +865,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-06-19 19:01:52 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-08-07 12:21:32 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

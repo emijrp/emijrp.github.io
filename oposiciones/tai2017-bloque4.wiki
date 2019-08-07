@@ -331,7 +331,7 @@ El puerto por defecto de SQLServer es '''1433'''.
 ** '''Comandos POP3''': USER, PASS, STAT, RETR, DELE, LIST, NOOP, TOP, UIDL, QUIT.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
-* '''SMTP''': protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25.
+* '''SMTP''': protocolo para transferencia simple de correo (Simple Mail Transfer Protocol). Utiliza el puerto 25. La extensión que permite transmitir de manera intermitente se llama On-Demand Mail Relay (ODMR).
 ** '''Comandos SMTP''': HELO, EHLO, MAIL FROM, RCPT TO, DATA, QUIT, RSET, SEND, SOML, SAML, VRFY, EXPN, HELP, NOOP, TURN.
 
 ==== Microsoft Exchange ====
@@ -389,7 +389,11 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''ping''': petición de ICMP echo para comprobar si un host está disponible.
 
+* '''scp''': transferencia de ficheros de manera segura, basado en ssh.
+
 * '''Snort''': sistema de detección de intrusiones.
+
+* '''ssh''': conexión a equipos remotos de manera segura.
 
 * '''Suricata''': sistema de detección de intrusiones.
 
@@ -572,10 +576,10 @@ El '''cifrado por bloques''' opera por grupos de bits de longitud fija llamados 
 
 El '''cifrado por flujo''' opera sobre símbolos individuales.
 
-{{cayo-en-convocatoria|1=2016 (IL)|2=2015-SE (IL)}}
+{{cayo-en-convocatoria|1=2016 (IL)|2=2015-SE (IL)|3=2014 (PI)}}
 '''Algoritmos''' de '''clave simétrica''':
 
-* '''AES''': acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.
+* '''AES''': acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001 y basado en Rijndael. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.
 * '''Blowfish''': publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.
 * '''DES''': acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.
 ** '''3DES''': hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.
@@ -662,6 +666,8 @@ Generaciones de telefonía móvil:
 * '''3G''':
 * '''4G''': 
 * '''5G''': 
+
+Entre los problemas que afectan a las señales está el ruido blanco.
 
 == Tema 6: Redes ==
 

@@ -600,7 +600,7 @@ Opciones de '''programas comunes''':
 
 * '''nano''': ^O (guardar), ^W (buscar), ^X (salir)
 
-Otros editores de texto son, por consola (Pico, Joe), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
+Otros editores de texto son, por consola (pico, joe), con interfaz gráfica (gedit, Notepad++, Geany y Emacs).
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 Uso de '''comandos básicos''':
@@ -671,7 +671,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''ifdown''': deshabilita una interfaz de red
 * '''init''': cambia el nivel de ejecución
 * '''iwconfig''': configura o muestra interfaz de red wifi
-* '''iostat''': monitorización de CPU y disco duro
+* '''iostat''': monitorización y estadísticas de dispositivos de almacenamiento (local o en red)
 * '''jobs''': muestra procesos en segundo plano
 * '''kill''': mata procesos
 * '''killall''': mata procesos por nombre
@@ -698,6 +698,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''moduser''': modifica usuario del sistema
 * '''more''': muestra fichero de texto
 * '''mount''': monta un sistema de ficheros. Opuesto a umount
+* '''mpstat''': estadísticas de uso de la CPU
 * '''multipath''': dispositivos multirrutas
 * '''mv''': renombrar o mover ficheros y directorios
 * '''nano''': editor de textos
@@ -721,6 +722,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''rm''': borra fichero
 * '''rmdir''': borra directorio vacío. Opuesto a mkdir
 * '''rmmod''': elimina módulos del kernel
+* '''scp''': transferencia de ficheros de manera segura, basado en ssh
 * '''sdiff''': diferencia entre dos ficheros
 * '''sed''': reemplaza cadenas de texto
 * '''seq''': muestra secuencia de números
@@ -731,6 +733,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''sort''': ordena una lista
 * '''split''': separa ficheros en otros más pequeños
 * '''shutdown''': apaga el sistema
+* '''ssh''': conexión a equipos remotos de forma segura
 * '''stat''': muestra información sobre un fichero
 * '''su''': cambia de usuario (a root si no se indica nada)
 * '''sudo''': ejecuta un comando como administrador
