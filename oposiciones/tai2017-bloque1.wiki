@@ -529,8 +529,13 @@ Se trata de derechos independientes, ninguno es requisito previo para ejercer el
 Las medidas de seguridad del Esquema Nacional de Seguridad se dividen en marco organizativo, marco operacional y medidas de protección.
 
 === Esquema Nacional de Interoperabilidad ===
+{{cayo-en-convocatoria|1=2014 (PI)}}
 
-Definiciones
+El '''Esquema Nacional de Interoperabilidad''' (ENI) es el conjunto de criterios y recomendaciones que deben ser tenidos en cuenta por las administraciones públicas para la toma de decisiones tecnológicas que garanticen la interoperabilidad.
+
+Algunas '''definiciones''':
+
+* '''Nodo de interoperabilidad''': organismo que presta servicios de interconexión técnica, organizativa y jurídica entre sistemas de información para un conjunto de Administraciones Públicas bajo las condiciones que éstas fijen.
 
 == Tema 11 ==
 
