@@ -402,6 +402,16 @@ Un dispositivo de creación de firma es seguro si:
 * Los datos de creación de firma pueden ser protegidos contra su utilización por terceros
 * El dispositivo no altera los datos o el documento a firmar, ni impide que sea mostrado al firmante antes de firmar
 
+Algunos '''artículos destacados''':
+
+* '''Artículo 3'''. La firma electrónica es el conjunto de datos en forma electrónica, consignados junto a otros o asociados con ellos, que pueden ser utilizados como medio de identificación del firmante.
+
+* '''Artículo 6'''. Un certificado electrónico es un documento firmado electrónicamente por un prestador de servicios de certificación que vincula unos datos de verificación de firma a un firmante y confirma su identidad. El firmante es la persona que utiliza un dispositivo de creación de firma y que actúa en nombre propio o en nombre de una persona física o jurídica a la que representa.
+
+* '''Artículo 11'''. Son certificados reconocidos los certificados electrónicos expedidos por un prestador de servicios de certificación que cumpla los requisitos establecidos en esta ley en cuanto a la comprobación de la identidad y demás circunstancias de los solicitantes y a la fiabilidad y las garantías de los servicios de certificación que presten.
+
+* '''Artículo 15'''. El documento nacional de identidad electrónico es el documento nacional de identidad que acredita electrónicamente la identidad personal de su titular y permite la firma electrónica de documentos.
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
@@ -442,19 +452,32 @@ La '''Agencia de Protección de Datos''' es un ente de derecho público, con per
 El Director de la Agencia de Protección de Datos dirige la Agencia y ostenta su representación. Será nombrado, de entre quienes componen el Consejo Consultivo, mediante Real Decreto, por un '''período de cuatro años'''.
  
 [https://www.agpd.es/portalwebAGPD/canalresponsable/inscripcion_ficheros/preguntas_frecuentes/glosario/index-ides-idphp.php Glosario de términos (AGPD)]:
-{{div col 2}}
-* Dato de carácter personal
-* Persona identificable
-* Tratamiento de datos
-* Fichero
-* Responsable del fichero o del tratamiento
-* Encargado del tratamiento
-* Afectado o interesado
-* Tercero
-* Consentimiento del interesado
-* Cancelación
-* Cesión o comunicación de datos
-{{div col end}}
+
+* '''Dato de carácter personal''': cualquier información concerniente a personas físicas identificadas o identificables.
+
+* '''Persona identificable''': 
+
+* '''Tratamiento de datos''': operaciones y procedimientos técnicos de carácter automatizado o no, que permitan la recogida, grabación, conservación, elaboración, modificación, bloqueo y cancelación, así como las cesiones de datos que resulten de comunicaciones, consultas, interconexiones y transferencias.
+
+* '''Fichero''': todo conjunto organizado de datos de carácter personal, cualquiera que fuere la forma o modalidad de su creación, almacenamiento, organización y acceso.
+
+* '''Responsable del fichero o del tratamiento''': persona física o jurídica, de naturaleza pública o privada, u órgano administrativo, que decida sobre la finalidad, contenido y uso del tratamiento.
+
+* '''Encargado del tratamiento''': la persona física o jurídica, autoridad pública, servicio o cualquier otro organismo que, sólo o conjuntamente con otros, trate datos personales por cuenta del responsable del tratamiento.
+
+* '''Afectado o interesado''': persona física titular de los datos que sean objeto del tratamiento a que se refiere el apartado c) del presente artículo.
+
+* '''Tercero''': 
+
+* '''Consentimiento del interesado''': toda manifestación de voluntad, libre, inequívoca, específica e informada, mediante la que el interesado consienta el tratamiento de datos personales que le conciernen.
+
+* '''Cancelación''': 
+
+* '''Cesión o comunicación de datos''': toda revelación de datos realizada a una persona distinta del interesado.
+
+* '''Procedimiento de disociación''': todo tratamiento de datos personales de modo que la información que se obtenga no pueda asociarse a persona identificada o identificable.
+
+* '''Fuentes accesibles al público''': aquellos ficheros cuya consulta puede ser realizada, por cualquier persona, no impedida por una norma limitativa o sin más exigencia que, en su caso, el abono de una contraprestación.
 
 Algunas '''funciones''' de la Agencia de Protección de Datos:
 * Velar por el cumplimiento de la legislación sobre protección de datos y controlar su aplicación, en especial en lo relativo a los derechos de información, acceso, rectificación, oposición y cancelación de datos.
