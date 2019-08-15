@@ -537,6 +537,8 @@ Los nombres de las '''versiones''' de Android siguen el orden alfabético:
 * Pie (9.0, 2018)
 * Quiche/Quindim (10.0, 2019)
 
+El lenguaje de programación nativo para aplicaciones Android es Java.
+
 === GNU/Linux ===
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
@@ -867,6 +869,7 @@ Para PowerShell, véase [[tai2017-bloque4|TAI 2017 Bloque IV]].
 Un '''sistema gestor de base de datos''' (SGBD) es un conjunto de programas que permiten el almacenamiento, modificación y extracción de la información en una base de datos, además de proporcionar herramientas para añadir, borrar, modificar y analizar los datos.
 
 === Relacionales ===
+{{cayo-en-convocatoria|1=2015 (IL)}}
 
 Un '''sistema de gestión de bases de datos relacionales''' ('''RDBMS''', Relational Database Management System) es aquel que sigue el modelo relacional. La mayoría de las bases de datos de hoy en día utilizan este modelo.
 
@@ -881,9 +884,10 @@ El esquema es la definición de la estructura de la base de datos y principalmen
 
 Las bases de datos relacionales pasan por un proceso al que se le conoce como '''normalización de una base de datos''', el resultado de dicho proceso es un esquema que permite que la base de datos sea usada de manera óptima.
 
-Destacan MySQL, Oracle, Microsoft SQL Server, PostgreSQL, IBM DB2, Microsoft Acess, SQLite.
+Destacan MySQL, Oracle, Microsoft SQL Server, PostgreSQL, IBM DB2, Microsoft Access, SQLite.
 
 === Orientados a objetos ===
+{{cayo-en-convocatoria|1=2015 (IL)}}
 
 En los '''Sistemas Gestores de Bases de Datos Orientadas a Objetos''' ('''ODBMS''', Object Database Management System) la información se representa mediante objetos en vez de como campos individuales.
 

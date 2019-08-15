@@ -450,8 +450,20 @@ Los certificados de identidad pública contenidos en el DNIe son emitidos como c
 La '''Agencia de Protección de Datos''' es un ente de derecho público, con personalidad jurídica propia y plena capacidad pública y privada, que actúa con plena independencia de las Administraciones públicas en el ejercicio de sus funciones.
 
 El Director de la Agencia de Protección de Datos dirige la Agencia y ostenta su representación. Será nombrado, de entre quienes componen el Consejo Consultivo, mediante Real Decreto, por un '''período de cuatro años'''.
+
+{{cayo-en-convocatoria|1=2015 (IL)}}
+Componen el '''consejo consultivo''':
+* Un '''Diputado''', propuesto por el Congreso de los Diputados.
+* Un '''Senador''', propuesto por el Senado.
+* Un '''representante de la Administración Central''', designado por el Gobierno.
+* Un '''representante de la Administración Local''', propuesto por la Federación Española de Municipios y Provincias.
+* Un '''miembro de la Real Academia de la Historia''', propuesto por la misma.
+* Un '''experto''' en la materia, propuesto por el Consejo Superior de Universidades.
+* Un '''representante de los usuarios y consumidores''', seleccionado del modo que se prevea reglamentariamente.
+* Un '''representante de cada Comunidad Autónoma que haya creado una agencia de protección de datos en su ámbito territorial''', propuesto de acuerdo con el procedimiento que establezca la respectiva Comunidad Autónoma.
+* Un '''representante del sector de ficheros privados''', para cuya propuesta se seguirá el procedimiento que se regule reglamentariamente.
  
-[https://www.agpd.es/portalwebAGPD/canalresponsable/inscripcion_ficheros/preguntas_frecuentes/glosario/index-ides-idphp.php Glosario de términos (AGPD)]:
+Algunas '''definiciones''' importantes:<ref>[https://www.agpd.es/portalwebAGPD/canalresponsable/inscripcion_ficheros/preguntas_frecuentes/glosario/index-ides-idphp.php Glosario de términos (AGPD)]</ref>
 
 * '''Dato de carácter personal''': cualquier información concerniente a personas físicas identificadas o identificables.
 
@@ -578,7 +590,7 @@ Las claves pueden ser de '''un solo uso''' (OTP, one time password) o claves '''
 [https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público]
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-El '''Punto de Acceso General''' (PAG) es [https://sede.administracion.gob.es https://sede.administracion.gob.es].
+El '''Punto de Acceso General''' (PAG) de la Administración General del Estado es [https://sede.administracion.gob.es https://sede.administracion.gob.es].
 
 {{cayo-en-convocatoria|1=2016 (PI)}}
 La finalidad de '''SICRES 3.0''' es normalizar el intercambio de asientos y documentos electrónicos entre oficinas de registro presenciales o electrónicos.
