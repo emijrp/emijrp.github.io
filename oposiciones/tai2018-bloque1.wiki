@@ -27,7 +27,7 @@ La Agenda plantea '''17 Objetivos con 169 metas''' de carácter integrado e indi
 
 La nueva estrategia regirá los programas de desarrollo mundiales durante los próximos 15 años. Al adoptarla, los Estados se comprometieron a movilizar los medios necesarios para su implementación mediante alianzas centradas especialmente en las necesidades de los más pobres y vulnerables.
 
-:«Estamos resueltos a poner fin a la pobreza y el hambre en todo el mundo de aquí a 2030, a combatir las desigualdades dentro de los países y entre ellos, a construir sociedades pacíficas, justas e inclusivas, a proteger los derechos humanos y promover la igualdad entre los géneros y el empoderamiento de las mujeres y las niñas, y a garantizar una protección duradera del planeta y sus recursos naturales”, señalaron los Estados en la resolución.»
+«Estamos resueltos a poner fin a la pobreza y el hambre en todo el mundo de aquí a 2030, a combatir las desigualdades dentro de los países y entre ellos, a construir sociedades pacíficas, justas e inclusivas, a proteger los derechos humanos y promover la igualdad entre los géneros y el empoderamiento de las mujeres y las niñas, y a garantizar una protección duradera del planeta y sus recursos naturales», señalaron los Estados en la resolución.
 
 Los 17 Objetivos de la Agenda se elaboraron en más de dos años de consultas públicas, interacción con la sociedad civil y negociaciones entre los países.
 
@@ -43,9 +43,9 @@ Los '''objetivos''' son:<ref>[https://es.wikipedia.org/wiki/Objetivos_de_Desarro
 * '''Objetivo 2 - Hambre cero''': poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible.
 * '''Objetivo 3 - Salud y bienestar''': garantizar una vida sana y promover el bienestar para todos en todas las edades.
 * '''Objetivo 4 - Educación de calidad''': garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos.
-* '''Objetivo 5 - Igualdad de género''': lograr la igualdad entre los génreos y empoderar a todas las mujeres y las niñas.
+* '''Objetivo 5 - Igualdad de género''': lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas.
 * '''Objetivo 6 - Agua limpia y saneamiento''': garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos.
-* '''Objetivo 7 - Energía asequible y no contaminante''': garantizar el acceso a una energía asquible, segura, sostenible y moderna para todos.
+* '''Objetivo 7 - Energía asequible y no contaminante''': garantizar el acceso a una energía asequible, segura, sostenible y moderna para todos.
 * '''Objetivo 8 - Trabajo decente y crecimiento económico''': promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos.
 * '''Objetivo 9 - Industria, innovación e infraestructura''': construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación.
 * '''Objetivo 10 - Reducción de las desigualdades''': reducir la desigualdad en y entre los países.
