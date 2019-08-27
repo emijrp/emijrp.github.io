@@ -21,7 +21,17 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 * Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backups de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario
 
-''Por desarrollar.''
+=== Sistemas de almacenamiento ===
+
+Existen distintas soluciones, desde las más sencillas y baratas, hasta las más costosas pero con mayores prestaciones:
+
+* '''Almacenamiento de Conexión Directa''' (DAS/Direct Attached Storage): es el método tradicional de almacenamiento y el más sencillo. Consiste en conectar físicamente el dispositivo de almacenamiento directamente al servidor u ordenador. Los protocolos incluyen SCSI, Serial Attached SCIS (SAS) y Fibre Channel.
+
+* '''Almacenamiento Conectado en Red''' (NAS/Network Attached Storage): consiste en un ordenador o servidor que comparte su capacidad de almacenamiento con otros ordenadores a través de una red. Los protocolos de acceso incluyen Common Internet File System (CIFS)/Server Message Block (SMB), Network File System (NFS), FTP y TFTP.
+
+* '''Red de Área de Almacenamiento''' (SAN/Storage Area Network): es una arquitectura completa dedicada a almacenar grandes cantidades de datos. Cuenta con elementos de almacenamiento (discos duros), una red de alta velocidad (fibra) y equipos de interconexión (hubs, bridges). La capacidad puede extenderse fácilmente añadiendo más discos. Los protocolos de acceso incluyen Fibre Channel y Gigabit Ethernet. Un SAN es más costoso que un NAS, pero sus prestaciones son mucho mayores.
+
+=== Backups de sistemas físicos y virtuales ===
 
 <!--
 BACKUP
@@ -41,23 +51,32 @@ https://es.wikipedia.org/wiki/Plan_de_recuperaci%C3%B3n_ante_desastres
 
 https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design
 
+concepto de snapshots
 -->
+
+=== Virtualización ===
+
+La '''virtualización''' es la creación de una versión virtual de un hardware, sistema operativo, dispositivo de almacenamiento o recursos de red. Su numerónimo es '''v12n'''.
+
+Esto es posible mediante la abstracción de los recursos de un ordenador/servidor, llevada a cabo por un '''hipervisor''', que crea una capa entre el hardware de la máquina huésped (host) y el sistema operativo de la máquina virtual (guest).
+
+Existen '''hipervisores tipo 1''' que corren sobre el hardware del host directamente y '''tipo 2''' que corren en sistemas operativos convencionales como otros programas.
+
+Los '''formatos de discos virtuales''' incluyen:
+
+* '''vdi''' (virtualbox disk image)
+* '''vhd''' (virtual hard disk)
+* '''vmdk''' (virtual machine disk)
+* '''hdd''' (parallels hard disk)
+* '''qcow''' (qemu copy-on-write): también '''qcow2'''.
+* '''qed''' (qemu enhanced disk)
+* '''vhdx'''
 
 <!--
 VIRTUALIZACION
 
 maquinas e hipervisores: vmware esx, virtualbox, qemu, hyper 2008/2012, oracle vmware, hyper-v, xenserver, rdp
 
-formatos de discos virtuales: vdi, vhd, vmdk, hdd, qcow, qcow2, qed, vhdx
-
-vdi (virtualbox disk image)
-vhd (virtual hard disk)
-vmdk (virtual machine disk)
-hdd (parallels hard disk)
-qcow (qemu copy-on-write)
-qed (qemu enhanced disk)
-
-NAS/SAN
 
 https://es.wikipedia.org/wiki/LXC
 
