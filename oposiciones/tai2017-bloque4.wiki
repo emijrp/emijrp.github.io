@@ -671,7 +671,7 @@ Otros conceptos:
 * '''Banda base''': Los tipos de codificación incluyen el unipolar, polar, bipolar, NRZ (non-return-to-zero) y Manchester.
 * '''Banda ancha''': 
 * '''Portadora''': 
-* '''Modulación''': técnicas que permiten transportar información sobre una onda portadora. La modulación en amplitud (AM) y la modulación en frecuente (FM) son las más frecuentes.
+* '''Modulación''': técnicas que permiten transportar información sobre una onda portadora. La modulación en amplitud (AM) y la modulación en frecuencia (FM) son las más frecuentes.
 * '''Multiplexación''': técnica para combinar dos o más señales y transmitirlas por un solo medio. El proceso inverso es la demultiplexación. Hay varios tipos: multiplexación por división de tiempo (TDM síncrona), multiplexación estadística (TDM asíncrona/estadística), multiplexación por división de frecuencia (FDM), multiplexación por división en código (CDM). Cuando hay varios usuarios en el mismo medio, es acceso múltiple por división de frecuencia (FDMA), por división de tiempo (TDMA) y por división de código (CDMA).
 * '''Control de acceso al medio''': mecanismos y protocolos usados para que varios interlocutores compartan un medio de transmisión común sin entorpecerse unos a otros.
 * '''Enrutamiento''': cómo la información es encaminada hacia el destino. Puede ser unicast (único destino), multicast (varios destinatarios), broadcast (todos los destinatarios), anycast (cualquiera de un grupo de destinatarios).
@@ -783,7 +783,7 @@ Para averiguar la dirección de broadcast a partir de una dirección IP y una m�
 
 Para saber cuántos hosts son posibles en una red a partir de la máscara de red:
 * El número de bits indicados como /XX se ponen a 1, empezando por la izquierda.
-* El número de bits restantes por la derecha (32-XX) se pone como exponente para la potencia de 2.
+* El número de bits restantes por la derecha (32-XX) se pone como exponente para la potencia de 2 (y restar 2?).
 
 == Tema 7: Modelo TCP/IP ==
 
