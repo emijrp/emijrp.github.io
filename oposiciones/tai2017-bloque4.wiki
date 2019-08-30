@@ -98,7 +98,7 @@ Algunos comandos que muestran información importante sobre el sistema:
 
 * '''uname''': -a (muestra todo), -s (nombre del kernel), -n (nodo), -r (kernel release), -v (kernel version), -m (nombre de máquina), -p (procesador), -i (plataforma hardware), -o (sistema operativo)
 * '''arch''': muestra la arquitectura de la máquina. Posibles salidas: i386, i486, i586, alpha, arm, m68k, mips, sparc, x86_64, etc.
-* '''lsb_release''': -a (muestra todo), -v (versión), -d (descripción), -r (release), -c (codename)
+* '''lsb_release''': -a (muestra todo), -v (versión), -d (descripción), -r (release), -c (codename). LSB significa Linux Standard Base, un proyecto para homogeneizar la estructura de Linux, incluyendo la jerarquía del sistema de ficheros.
 * '''dmidecode''': muestra la tabla DMI (Desktop management Interface), -q (no muestra los componentes ocultos o inactivos)
 * '''df''': muestra el espacio disponible (disk free). El parámetro -h lo muestra en unidades leibles por humanos.
 * '''du''': muestra el espacio ocupado por los directorios (disk usage). También tiene -h.
@@ -881,7 +881,7 @@ DHCPv6 utiliza el puerto UDP 547.
 {{cayo-en-convocatoria|1=2015 (PI)|2=2014 (PI)}}
 '''Códigos de estado HTTP''':
 {{div col 3}}
-* '''1xx: Informal'''
+* '''1xx: Informativo'''
 * '''2xx: Exitoso'''
 * '''3xx: Redirección'''
 * '''4xx: Error de cliente'''
@@ -898,7 +898,7 @@ DHCPv6 utiliza el puerto UDP 547.
 * 401: Unauthorized
 * 402: Payment required
 * 403: Forbidden
-* 404: Not found
+* 404: Not Found
 * 406: Not Acceptable
 * 408: Request Timeout
 * 500: Internal Server Error
