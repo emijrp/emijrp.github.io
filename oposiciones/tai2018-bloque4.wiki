@@ -98,10 +98,12 @@ https://www.youtube.com/watch?v=gsP46ltENRY RDP Remote Desktop Protocol
 
 Los '''contenedores''' se encuentran separados unos de otros y contienen su propio software, bibliotecas y ficheros de configuración. Se pueden comunicar unos con otros a través de canales bien definidos. El aislamiento de los contenedores es posible gracias a los espacios de nombres (namespaces) y otras características del kernel Linux, que permiten que varios contenedores se ejecuten dentro de una sola instancia Linux. Por ello, es más liviano que ejecutar múltiples máquinas virtuales.
 
-* '''Kubernetes''': es una plataforma de código abierto para automatizar el despliegue, el escalado y la administración de aplicaciones en contenedores. Creado por Google, mantenido por la Cloud Native Computing Foundation. Es compatible con contenedores Docker.
+* '''Kubernetes''': es una plataforma de código abierto para automatizar el despliegue, el escalado y la administración de aplicaciones en contenedores. Creado por Google, mantenido por la Cloud Native Computing Foundation. Es compatible con contenedores Docker. Numerónimo k8s.
 * '''Docker''': herramienta que usa la virtualización a nivel de sistema operativo para proporcionar software en paquetes llamados contenedores.
 ** '''Dockerfile''': fichero de texto que contiene los comandos necesarios para ensamblar un contenedor (o imagen) con el software que se desee.
 ** '''Docker Compose''': herramienta para definir y ejecutar aplicaciones Docker multicontenedor. Creando un fichero '''docker-compose.yml''' donde se definen los servicios que componen la aplicación y ejecutándolo con '''docker-compose up'''.
+* '''AppContainers''': otra tecnología de contenedores. Llamado también AppC.
+* '''RKT CoreOS''': motor de contenedores centrado en la seguridad.
 
 == Tema 5 ==
 
