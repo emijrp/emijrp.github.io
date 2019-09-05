@@ -315,7 +315,7 @@ El portal de transparencia es [http://transparencia.gob.es transparencia.gob.es]
 
 {{recuadro|1='''Tema 5.''' La '''Administración pública''': principios constitucionales informadores. La Administración General del Estado: organización y personal a su servicio. El texto refundido del Estatuto Básico del Empleo Público y demás normativa vigente. Las Comunidades Autónomas y la Administración local: regulación constitucional.}}
 
-# La '''Administración pública''': principios constitucionales informadores. La Administración General del Estado: organización y personal a su servicio. El texto refundido del Estatuto Básico del Empleo Público y demás normativa vigente.<ref>[https://www.boe.es/boe/dias/2007/04/13/pdfs/A16270-16299.pdf Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público]</ref> Las Comunidades Autónomas y la Administración local: regulación constitucional.
+* [https://www.boe.es/boe/dias/2007/04/13/pdfs/A16270-16299.pdf Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público]
 
 ==== Título VIII. De la Organización Territorial del Estado ====
 
@@ -371,7 +371,9 @@ Un '''reglamento''' ...
 
 {{recuadro|1='''Tema 7.''' Políticas de '''igualdad''' de género. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Políticas contra la violencia de género. La Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género. Discapacidad y dependencia.}}
 
-# Políticas de '''igualdad''' de género. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115 Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres] (39 páginas)</ref> Políticas contra la violencia de género. La Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760 Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género] (59 páginas)</ref> Discapacidad y dependencia.<ref>[https://boe.es/diario_boe/txt.php?id=BOE-A-2013-12632 Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social] (39 páginas)</ref>
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115 Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres] (39 páginas)
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760 Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género] (59 páginas)
+* [https://boe.es/diario_boe/txt.php?id=BOE-A-2013-12632 Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social] (39 páginas)
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * Sociedad de la Información e igualdad
@@ -383,11 +385,12 @@ Un '''reglamento''' ...
 
 {{recuadro|1='''Tema 8.''' La sociedad de la información. Identidad y firma electrónica: régimen jurídico. El DNI electrónico.}}
 
-# La sociedad de la información.<ref name="ley-34-2002">[https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)</ref> Identidad y firma electrónica: régimen jurídico.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)</ref> El DNI electrónico.
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758 Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico] (36 páginas)
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399 Ley 59/2003, de 19 de diciembre, de firma electrónica] (29 páginas)
 
 === Comercio electrónico ===
 
-'''Ley 34/2002''', de 11 de julio, de servicios de la '''sociedad de la información''' y de '''comercio electrónico'''.<ref name="ley-34-2002" />
+'''Ley 34/2002''', de 11 de julio, de servicios de la '''sociedad de la información''' y de '''comercio electrónico'''.
 
 {{cayo-en-convocatoria|1=2014 (PI)}}
 * '''Artículo 39'''. Sanciones. a) Por la comisión de infracciones muy graves, multa de 150.001 hasta 600.000 euros. b) Por la comisión de infracciones graves, multa de 30.001 hasta 150.000 euros. c) Por la comisión de infracciones leves, multa de hasta 30.000 euros.
@@ -442,7 +445,10 @@ Los certificados de identidad pública contenidos en el DNIe son emitidos como c
 
 {{recuadro|1='''Tema 9.''' La '''protección de datos''' personales. Régimen jurídico. El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.}}
 
-# La '''protección de datos''' personales. Régimen jurídico.<ref>[https://www.boe.es/buscar/doc.php?id=BOE-A-1999-23750 Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal] (12 páginas)</ref><ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2008-979 Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal] (53 páginas)</ref> El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos.<ref>[https://www.boe.es/diario_boe/txt.php?id=DOUE-L-2016-80807 Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)] (88 páginas)</ref> Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.
+* [https://www.boe.es/buscar/doc.php?id=BOE-A-1999-23750 Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal] (12 páginas)
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2008-979 Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal] (53 páginas)
+* [https://www.boe.es/diario_boe/txt.php?id=DOUE-L-2016-80807 Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)] (88 páginas)
+* [https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales] (70 páginas)
 
 === Agencia de Protección de Datos ===
 
@@ -465,9 +471,9 @@ Componen el '''consejo consultivo''':
  
 Algunas '''definiciones''' importantes:<ref>[https://www.agpd.es/portalwebAGPD/canalresponsable/inscripcion_ficheros/preguntas_frecuentes/glosario/index-ides-idphp.php Glosario de términos (AGPD)]</ref>
 
-* '''Dato de carácter personal''': cualquier información concerniente a personas físicas identificadas o identificables.
+* '''Dato de carácter personal''': toda información concerniente a personas físicas identificadas o identificables.
 
-* '''Persona identificable''': 
+* '''Persona identificable''': toda persona cuya identidad pueda determinarse, directa o indirectamente, en particular mediante un identificador (nombre, número, datos de localización) o uno o varios elementos propios de la identidad física, fisiológica, genética, psíquica, económica, cultural o social de dicha persona.
 
 * '''Tratamiento de datos''': operaciones y procedimientos técnicos de carácter automatizado o no, que permitan la recogida, grabación, conservación, elaboración, modificación, bloqueo y cancelación, así como las cesiones de datos que resulten de comunicaciones, consultas, interconexiones y transferencias.
 
@@ -479,15 +485,15 @@ Algunas '''definiciones''' importantes:<ref>[https://www.agpd.es/portalwebAGPD/c
 
 * '''Afectado o interesado''': persona física titular de los datos que sean objeto del tratamiento a que se refiere el apartado c) del presente artículo.
 
-* '''Tercero''': 
+* '''Tercero''': persona física o jurídica distinta del interesado, responsable del tratamiento, encargado del tratamiento y otras personas autorizadas a tratar los datos personales.
 
 * '''Consentimiento del interesado''': toda manifestación de voluntad, libre, inequívoca, específica e informada, mediante la que el interesado consienta el tratamiento de datos personales que le conciernen.
-
-* '''Cancelación''': 
 
 * '''Cesión o comunicación de datos''': toda revelación de datos realizada a una persona distinta del interesado.
 
 * '''Procedimiento de disociación''': todo tratamiento de datos personales de modo que la información que se obtenga no pueda asociarse a persona identificada o identificable.
+
+* '''Seudonimización''': tratamiento de datos personales de manera que ya no puedan atribuirse a un interesado sin utilizar información adicional.
 
 * '''Fuentes accesibles al público''': aquellos ficheros cuya consulta puede ser realizada, por cualquier persona, no impedida por una norma limitativa o sin más exigencia que, en su caso, el abono de una contraprestación.
 
@@ -513,11 +519,12 @@ Los derechos de '''acceso, rectificación, cancelación y oposición''' son pers
 Se trata de derechos independientes, ninguno es requisito previo para ejercer el otro. Deberá ofrecerse al interesado un medio '''sencillo y gratuito''' para ejercerlos.
 
 '''Sanciones''' de la Agencia de Protección de Datos:
+
 * Los responsables de los ficheros y los encargados de los tratamientos estarán sujetos al régimen sancionador
 * Las infracciones se calificarán como leves, graves o muy graves
-* Las infracciones '''leves''' serán sancionadas con multa de '''900 a 40.000 euros'''.
-* Las infracciones '''graves''' serán sancionadas con multa de '''40.001 a 300.000 euros'''.
-* Las infracciones '''muy graves''' serán sancionadas con multa de '''300.001 a 600.000 euros'''.
+* Las infracciones '''leves''' serán sancionadas con multa de '''900 a 40.000 euros'''. Prescriben en el plazo de un año.
+* Las infracciones '''graves''' serán sancionadas con multa de '''40.001 a 300.000 euros'''. Prescriben a los dos años.
+* Las infracciones '''muy graves''' serán sancionadas con multa de '''300.001 a 600.000 euros'''. Prescriben a los tres años.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
 '''Fuentes accesibles''' al público:
@@ -532,7 +539,9 @@ Se trata de derechos independientes, ninguno es requisito previo para ejercer el
 
 {{recuadro|1='''Tema 10.''' '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo. La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.}}
 
-# '''Acceso electrónico''' de los ciudadanos a los servicios públicos y normativa de desarrollo.<ref>[https://www.boe.es/buscar/act.php?id=BOE-A-2009-18358 Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos] (33 páginas)</ref> La gestión electrónica de los procedimientos administrativos: registros, notificaciones y uso de medios electrónicos. Esquema Nacional de Seguridad y de Interoperabilidad.<ref>[https://www.boe.es/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica]</ref> Normas técnicas de Interoperabilidad.<ref>[http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13501 Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares] (11 páginas)</ref>
+* [https://www.boe.es/buscar/act.php?id=BOE-A-2009-18358 Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los servicios públicos] (33 páginas)
+* [https://www.boe.es/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica]
+* [http://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13501 Resolución de 3 de octubre de 2012, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Norma Técnica de Interoperabilidad de Catálogo de estándares] (11 páginas)
 
 === Esquema Nacional de Seguridad ===
 
