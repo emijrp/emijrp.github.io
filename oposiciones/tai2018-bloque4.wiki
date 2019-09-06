@@ -52,6 +52,10 @@ https://es.wikipedia.org/wiki/Plan_de_recuperaci%C3%B3n_ante_desastres
 https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design
 
 concepto de snapshots
+
+herramientas varias https://github.com/Contali/awesome-storage y https://en.wikipedia.org/wiki/List_of_backup_software
+bacula, zenko, urbackup, amanda, bareos
+
 -->
 
 === Virtualización ===

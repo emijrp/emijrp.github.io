@@ -299,17 +299,40 @@ Según el Título I. De los derechos y deberes fundamentales de la Constitución
 
 {{recuadro|1='''Tema 4.''' El '''Gobierno Abierto'''. Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas. La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno. El Consejo de Transparencia y Buen Gobierno: funciones.}}
 
-* El '''Gobierno Abierto'''
-* Concepto y principios informadores: colaboración, participación, '''transparencia''' y rendición de cuentas
 * [https://boe.es/buscar/doc.php?id=BOE-A-2013-12887 Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno] (31 páginas)
 
-El portal de transparencia es [http://transparencia.gob.es transparencia.gob.es].
+=== Gobierno Abierto ===
+
+El '''Gobierno Abierto''' tiene como objetivo que los ciudadanos colaboren en la creación y la mejora de los servicios públicos y en el robustecimiento de la transparencia y la rendición de cuentas. El concepto de Gobierno Abierto se sustenta en tres pilares básicos: '''la transparencia, la colaboración y la participación'''.<ref>[https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Gobierno_Abierto_Inicio.html Gobierno Abierto]</ref>
+
+* La '''ley de transparencia''' tiene por objeto ampliar y reforzar la transparencia de la actividad pública, regular y garantizar el derecho de acceso a la información relativa a aquella actividad y establecer las obligaciones de buen gobierno que deben cumplir los responsables públicos. '''La ley se aplica a todas las administraciones públicas y el sector público estatal''', así como a la Casa de Su Majestad el Rey, el Consejo General del Poder Judicial, el Tribunal Constitucional, el Congreso de los Diputados, el Senado, el Banco de España, el Defensor del Pueblo, el Tribunal de Cuentas, el Consejo Económico y Social y las instituciones autonómicas análogas, en relación con las actividades sujetas a Derecho Administrativo.
+
+* La '''reutilización de la información del sector público''' (RISP) consiste en el uso por parte de personas físicas o jurídicas, de los datos generados y custodiados por los organismos del sector público, con fines comerciales o no.<ref>[https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Gobierno_Abierto_Inicio/pae_Reutilizacion_de_la_informacion_en_el_sector_publico.html Reutilización de la información del sector público]</ref> Los conjuntos de datos se publican en el portal [http://datos.gob.es datos.gob.es].
+
+El '''IV Plan de Gobierno Abierto''' se desarrollará entre 2019 y 2021.
+
+=== Ley de transparencia ===
+
+'''Artículo 1. Objeto'''. Esta ley tiene por objeto ampliar y reforzar la transparencia de la actividad pública, regular y garantizar el derecho de acceso a la información relativa a aquella actividad y establecer las obligaciones de buen gobierno que deben cumplir los responsables públicos así como las consecuencias derivadas de su incumplimiento.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-* El Consejo de Transparencia y Buen Gobierno: funciones (Título III de la Ley de transparencia)
+El '''Consejo de Transparencia y Buen Gobierno''' tiene las siguientes '''funciones''' (Título III de la Ley de transparencia):
+
+* a) Adoptar recomendaciones para el mejor cumplimiento de las obligaciones contenidas en esta Ley.
+* b) Asesorar en materia de transparencia, acceso a la información pública y buen gobierno.
+* c) Informar preceptivamente los proyectos normativos de carácter estatal que desarrollen esta Ley o que estén relacionados con su objeto.
+* d) Evaluar el grado de aplicación de esta Ley. Para ello, elaborará anualmente una memoria en la que se incluirá información sobre el cumplimiento de las obligaciones previstas y que será presentada ante las Cortes Generales.
+* e) Promover la elaboración de borradores de recomendaciones y de directrices y normas de desarrollo de buenas prácticas en materia de transparencia, acceso a la información pública y buen gobierno.
+* f) Promover actividades de formación y sensibilización para un mejor conocimiento de las materias reguladas por esta Ley.
+* g) Colaborar, en las materias que le son propias, con órganos de naturaleza análoga.
+* h) Aquellas otras que le sean atribuidas por norma de rango legal o reglamentario.
+
+'''Artículo 14. Limitaciones al derecho de acceso'''. a) La seguridad nacional b) La defensa c) Las relaciones exteriores d) La seguridad pública e) La prevención, investigación y sanción de los ilícitos penales, administrativos o disciplinarios f) La igualdad de las partes en los procesos judiciales y la tutela judicial efectiva g) Las funciones administrativas de vigilancia, inspección y control h) Los intereses económicos y comerciales i) La política económica y monetaria j) El secreto profesional y la propiedad intelectual e industrial k) La garantía de la confidencialidad o el secreto requerido en procesos de toma de decisión l) La protección del medio ambiente.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
-* '''Artículo 36'''. Comisión de Transparencia y Buen Gobierno. 1) La Comisión de Transparencia y Buen Gobierno ejercerá todas las competencias que le asigna esta Ley, así como aquellas que les sean atribuidas en su normativa de desarrollo. 2) Dicha Comisión estará compuesta por: a) El Presidente b) Un Diputado c) Un Senador d) Un representante del Tribunal de Cuentas e) Un representante del Defensor del Pueblo f) Un representante de la Agencia Española de Protección de Datos g) Un representante de la Secretaría de Estado de Administraciones Públicas h) Un representante de la Autoridad Independiente de Responsabilidad Fiscal
+'''Artículo 36'''. Comisión de Transparencia y Buen Gobierno. 1) La Comisión de Transparencia y Buen Gobierno ejercerá todas las competencias que le asigna esta Ley, así como aquellas que les sean atribuidas en su normativa de desarrollo. 2) Dicha '''Comisión estará compuesta por''': a) El Presidente b) Un Diputado c) Un Senador d) Un representante del Tribunal de Cuentas e) Un representante del Defensor del Pueblo f) Un representante de la Agencia Española de Protección de Datos g) Un representante de la Secretaría de Estado de Administraciones Públicas h) Un representante de la Autoridad Independiente de Responsabilidad Fiscal
+
+El '''portal de transparencia''' es [http://transparencia.gob.es transparencia.gob.es]. Depende del Ministerio de la Presidencia. Incluye la información de la Administración General del Estado cuyo acceso se solicita con mayor frecuencia. Los principios técnicos que siguen son: accesibilidad (información estructurada sobre los documentos para facilitar la búsqueda), interoperabilidad (será conforme al Esquema Nacional de Interoperabilidad), reutilización (publicación en formatos reutilizables).
 
 == Tema 5 ==
 
