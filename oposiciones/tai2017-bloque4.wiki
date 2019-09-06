@@ -655,15 +655,15 @@ Cableado estructurado de par trenzado:
 * '''Categoría 5''': hasta 100 Mbit/s.
 * '''Categoría 6''': hasta 1 Gbit/s. 250 Mhz.
 * '''Categoría 6A''': hasta 10 Gbit/s. 500 Mhz.
-* '''Categoría 7''':  hasta 10 Gbit/s, 600 Mhz.
-* '''Categoría 7A''':  hasta 10 Gbit/s, 1000 Mhz.
-* '''Categoría 8''':  hasta 40 Gbit/s, 2000 Mhz.
+* '''Categoría 7''': hasta 10 Gbit/s, 600 Mhz.
+* '''Categoría 7A''': hasta 10 Gbit/s, 1000 Mhz.
+* '''Categoría 8''': hasta 40 Gbit/s, 2000 Mhz.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
-Generaciones de telefonía móvil:
-* '''3G''':
-* '''4G''': 
-* '''5G''': 
+Generaciones de telefonía móvil:<ref>[https://en.wikipedia.org/wiki/List_of_mobile_phone_generations List of mobile phone generations]</ref>
+* '''3G''': velocidad de al menos 200 Kbit/s. Versiones posteriores como 3.5G y 3.75G admitían algunos Mbit/s.
+* '''4G''': velocidad de 100 Mbit/s. Latencia 100 ms.
+* '''5G''': velocidad de 10 Gbit/s. Latencia 1-2 ms.
 
 {{cayo-en-convocatoria|1=2014 (PI)}}
 Otros conceptos:
