@@ -55,6 +55,7 @@ concepto de snapshots
 
 herramientas varias https://github.com/Contali/awesome-storage y https://en.wikipedia.org/wiki/List_of_backup_software
 bacula, zenko, urbackup, amanda, bareos
+clonezilla, gparted, AOMEI Backupper
 
 -->
 
@@ -108,6 +109,8 @@ Los '''contenedores''' se encuentran separados unos de otros y contienen su prop
 ** '''Docker Compose''': herramienta para definir y ejecutar aplicaciones Docker multicontenedor. Creando un fichero '''docker-compose.yml''' donde se definen los servicios que componen la aplicación y ejecutándolo con '''docker-compose up'''.
 * '''AppContainers''': otra tecnología de contenedores. Llamado también AppC.
 * '''RKT CoreOS''': motor de contenedores centrado en la seguridad.
+* '''LXC''': Linux Containers.
+* '''OpenVZ''': otra tecnología de virtualización a nivel de sistema operativo para Linux.
 
 == Tema 5 ==
 

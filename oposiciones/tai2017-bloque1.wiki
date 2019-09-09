@@ -593,7 +593,9 @@ Se trata de derechos independientes, ninguno es requisito previo para ejercer el
 * '''Trazabilidad''': propiedad o característica consistente en que las actuaciones de una entidad pueden ser imputadas exclusivamente a dicha entidad.
 * '''Vulnerabilidad''': una debilidad que puede ser aprovechada por una amenaza.
 
-Las medidas de seguridad del Esquema Nacional de Seguridad se dividen en marco organizativo, marco operacional y medidas de protección.
+Las medidas de seguridad del Esquema Nacional de Seguridad se dividen en: marco organizativo, marco operacional y medidas de protección.
+
+Las cinco '''dimensiones de seguridad''' son: disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad.
 
 === Esquema Nacional de Interoperabilidad ===
 {{cayo-en-convocatoria|1=2014 (PI)}}

@@ -197,7 +197,13 @@
 <p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
-<p>La capacidad de una memoria de X palabras y cada palabra con un ancho de Y bits o bytes, se calcula multiplicando ambas cifras.</p>
+<p>La capacidad de una memoria de X <b>palabras</b> y cada palabra con un <b>ancho</b> de Y bits o bytes, se calcula multiplicando ambas cifras.</p>
+
+<p>En cuanto a la <b>jerarquía de velocidad</b>, los registros del procesador son más rápidos que las memorias caché (L1, L2, L3), a su vez éstas son más rápidas que la memoria RAM, después irían los discos SSD, los discos duros tradicionales y por último los medios extraíbles.</p>
+
+<p>Las <b>latencias</b> en memorias son:</p>
+
+<ul><li><b>Column Access Strobe (CAS)</b>: tiempo desde que el controlador de memoria pide leer una posición de memoria y el momento en que los datos son enviados a los pines de salida del módulo. En memorias síncronas el tiempo se mide en ciclos, en memorias asíncronas se mide en nanosegundos.</li><li><b>Row Address Strobe (RAS)</b>: tiempo en colocarse sobre una fila.</li><li><b>ACTIVE</b>: tiempo en activar un tablero.</li><li><b>PRECHARGE</b>: tiempo en desactivar un tablero.</li></ul>
 
 <h2 id="Tema_2:_Periféricos">Tema 2: Periféricos</h2>
 
@@ -230,7 +236,7 @@
 
 <p>Otros puertos:</p>
 
-<ul><li><b>eSATA</b>: External SATA.</li><li><b>Ethernet</b>: </li><li><b>Firewire</b>: Diseñado por Apple. Desde 400 Mbit/s (50 MB/s) hasta 3200 Mbit/s (400 MB/s). El estándar es IEEE 1394.</li><li><b>HDMI / DVI / VGA</b>: </li><li><b>Jack</b>: </li><li><b>SCSI</b>: generalmente para discos duros y cintas. Acrónimo de Small Computer System Interface.</li><li><b>PS/2</b>: conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).</li><li><b>Puerto paralelo</b>: envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.</li><li><b>Puerto serie</b>: permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.</li><li><b>Thunderbolt</b>: creado por Intel y Appel. Thunderbolt 1 hasta 10 Gbit/s, Thunderbolt 2 hasta 20 Gbits/s, Thunderbolt 3 hasta 40 Gbit/s.</li></ul>
+<ul><li><b>eSATA</b>: External SATA.</li><li><b>Firewire</b>: Diseñado por Apple. Firewire 400 (400 Mbit/s), Firewire 800 (800 Mbit/s), Firewire s1600 (1600 Mbit/s), Firewire s3200 (3200 Mbit/s). El estándar es IEEE 1394.</li><li><b>HDMI</b>: High-Definition Multimedia Interface, interfaz de audio y vídeo. Permite audio digital multicanal y vídeo digital de alta definición. Sustituto del euroconector.</li><li><b>DisplayPort</b>: interfaz digital de vídeo, audio y datos.</li><li><b>DVI</b>: interfaz de vídeo (no audio). DVI-D (solo digital), DVI-A (solo analógica), DVI-I (digital y analógica).</li><li><b>Jack</b>: sonido, tanto entrada (micrófono) como salida (altavoces o auriculares).</li><li><b>SCSI</b>: generalmente para discos duros y cintas. Acrónimo de Small Computer System Interface.</li><li><b>PS/2</b>: conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).</li><li><b>Puerto paralelo</b>: envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.</li><li><b>Puerto serie</b>: permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.</li><li><b>Thunderbolt</b>: creado por Intel y Appel. Thunderbolt 1 hasta 10 Gbit/s, Thunderbolt 2 hasta 20 Gbits/s, Thunderbolt 3 hasta 40 Gbit/s.</li><li><b>VGA</b>: Video Graphics Array, interfaz de vídeo.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
@@ -239,6 +245,9 @@
 <p>Tipos de <b>teclado</b>:</p>
 
 <ul><li><b>QWERTY</b>: Es la distribución de teclado más común.</li><li><b>QWERTZ / QWERTZU</b>: Utilizado en regiones germanohablantes. Intercambia la Z e Y con los teclados QWERTY, ya que la Z es más frecuente en alemán que la Y, y la T y Z aparecen juntas en palabras alemanas.</li><li><b>AZERTY</b>: Utilizado en páises francófonos.</li><li><b>HCESAR</b>: Utilizado en Portugal durante algún tiempo. Después pasaron al QWERTY.</li><li><b>Dvorak</b>: Tiene como objetivo ser más ergonómico para reducir los errores en mecanografía.</li></ul>
+
+<p>Comparativa de <b>velocidad</b> de distintos puertos (velocidades máximas teóricas):</p>
+<ul><li>Thunderbolt 3 (40 Gbit/s) > Thunderbolt 2 (20 Gbit/s) > USB 3.1 (10 Gbit/s) = Thunderbolt 1 (10 Gbit/s) > USB 3.0 (5 Gbit/s) > Firewire s3200 (3.2 Gbit/s) > Firewire s1600 (1.6 Gbit/s) > Firewire 800 (800 Mbit/s) > USB 2.0 (480 Mbit/s) > Firewire 400 (400 Mbit/s)</li></ul>
 
 <h3 id="Elementos_de_impresión">Elementos de impresión</h3>
 
@@ -253,7 +262,7 @@
 
 <ul><li><b>Carácter a carácter</b>: matriciales, inyección, térmicas, margarita.</li><li><b>Línea a línea</b>: cinta, cadena, tambor.</li><li><b>Página a página</b>: láser.</li></ul>
 
-<p>Las de inyección de tinta pueden ser térmicas o piezoelétricas.</p>
+<p>Las de inyección de tinta pueden ser térmicas o piezoelétricas. Las de tinta sólida derriten la tinta sobre un cabezal de impresión operado por un cristal piezoeléctrico.</p>
 
 <p><b>Lenguajes</b> de descripción de página:</p>
 
@@ -554,9 +563,17 @@
 <ul><li><b>HKEY_LOCAL_MACHINE</b> (HKLM): configuraciones específicas del equipo local. Tiene las subclaves SAM, SECURITY, SYSTEM y SOFTWARE, además de HARDWARE que se crea dinámicamente.</li><li><b>HKEY_CURRENT_CONFIG</b> (HKCC): </li><li><b>HKEY_CLASSES_ROOT</b> (HKCR): información sobre aplicaciones registradas y asociaciones de archivos (extensiones).</li><li><b>HKEY_CURRENT_USER</b> (HKCU): configuración específica sobre el usuario con sesión iniciada en este momento.</li><li><b>HKEY_USERS</b> (HKU): subclaves de los usuarios cargados en HKEY_CURRENT_USER.</li><li><b>HKEY_PERFORMANCE_DATA</b>: información de rendimiento de controladores del sistema, programas y servicios.</li><li><b>HKEY_DYN_DATA</b>: información sobre dispositivos hardware, estadísticas Plug & Play y de red. Solo para Windows 95, 98 y Windows Me.</li><li><a href="https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family">Familia Windows</a></li></ul>
 
 <p><b>Comandos básicos</b> de Windows:</p>
-<ul><li><b>chkdsk</b>: comprobación de errores en el disco duro</li><li><b>defrg</b>: desfragmentador de disco</li><li><b>format</b>: formateo de disco</li><li><b>ipconfig</b>: configuración de redes</li><li><b>msconfig</b>: configuración de arranque, programas al inicio</li><li><b>netstat</b>: comprobación y analisis de redes y conexiones</li><li><b>net use</b>: asigna letra de unidad a carpetas compartidas </li><li><b>systeminfo</b>: información del sistema</li></ul>
+
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em;">
+
+<ul><li><b>cd</b>: cambia de directorio</li><li><b>chkdsk</b>: comprobación de errores en el disco duro</li><li><b>cleanmgr</b>: liberar espacio</li><li><b>cls</b>: limpia la consola</li><li><b>control panel</b>: abre el panel de control</li><li><b>copy</b>: copia archivos</li><li><b>defrg</b>: desfragmentador de disco</li><li><b>del</b>: borra archivo o directorio</li><li><b>dir</b>: muestra el contenido del directorio</li><li><b>driverquery</b>: muestra la lista de drivers instalados</li><li><b>exit</b>: cierra la consola</li><li><b>format</b>: formateo de disco</li><li><b>getmac</b>: muestra la dirección MAC</li><li><b>help</b>: muestra la ayuda de los comandos</li><li><b>ipconfig</b>: configuración de redes</li><li><b>logoff</b>: cierra la sesión</li><li><b>md</b>: crea directorio</li><li><b>move</b>: mueve archivo</li><li><b>msconfig</b>: configuración de arranque, programas al inicio</li><li><b>netstat</b>: comprobación y analisis de redes y conexiones</li><li><b>net use</b>: asigna letra de unidad a carpetas compartidas</li><li><b>rename</b>: cambia el nombre a fichero</li><li><b>robocopy</b>: como copy pero mejorado</li><li><b>route</b>: muestra tabla de enturamiento</li><li><b>sfc</b>: comprueba integridad de ficheros</li><li><b>shutdown</b>: apaga el sistema</li><li><b>systeminfo</b>: información del sistema</li><li><b>taskkill</b>: mata un proceso</li><li><b>tasklist</b>: muestra los procesos y la memoria que consumen</li><li><b>time</b>: muestra la hora del sistema</li><li><b>tracert</b>: muestra el camino que sigue una conexión hasta el destino</li><li><b>tree</b>: muestra árbol de directorios</li><li><b>type</b>: crea un fichero</li><li><b>ver</b>: muestra la versión del sistema operativo</li></ul>
+</div>
+
 
 <p>Para PowerShell, véase <a href="tai2017-bloque4.html">TAI 2017 Bloque IV</a>.</p>
+
+<p><b>Directorios comunes</b> para Windows 10:<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
+<ul><li><b>\Program Files</b>: en Windows 10 de 32 bits todas las aplicaciones se instalan aquí (32 y 16 bits). En la versión de 64 bits, solo se instalan las de 64 bits aquí.</li><li><b>\Program Files (x86)</b>: aparece solo en Windows 10 de 64 bits. Las aplicaciones de 32 bits van aquí.</li><li><b>\ProgramData</b>: contiene datos de programas que puede ser accedidos por programas ejecutados por cualquier usuario.</li><li><b>\Users</b>: carpetas de perfiles de usuarios. Una carpeta por cada usuario que se ha logueado alguna vez. Tiene dos subdirectorios: Public y Default. Public sirve para compartir ficheros entre usuarios.</li><li><b>\Windows</b>: aquí se instala Windows. En el subdirectorio \System se instalan las DLLs de 16 bits. En \System32 las DLLs de 32 o 64 bits (dependiendo de los bits del sistema). En \SysWOW64, solo existe en Windows de 64 bits, se instalan DLLs de 32 bits.</li><li><b>\WinSxS</b>: Windows component store, aquí se almacenan copias de todos los componentes de Windows, actualizaciones y service packs.</li></ul>
 
 <h2 id="Tema_5:_Bases_de_datos">Tema 5: Bases de datos</h2>
 
@@ -630,6 +647,7 @@
 <li id="ref7"><a href="#refback7">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">List of Unix commands</a></li>
 <li id="ref8"><a href="#refback8">↑</a> <a href="https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html">Directorios comunes</a></li>
 <li id="ref9"><a href="#refback9">↑</a> <a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">Filesystem Hierarchy Standard</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="https://en.wikipedia.org/wiki/Directory_structure#Windows_10">Directory structure Windows 10</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -658,7 +676,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-08-15 16:07:40 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-09 16:20:04 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

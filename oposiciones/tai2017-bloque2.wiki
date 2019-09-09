@@ -141,7 +141,19 @@ Las '''memorias no volátiles''' no necesitan energía para mantener la informac
 Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM), DRAM (dynamic RAM), RDRAM (Rambus DRAM), SDRAM, todas las DDR. Las estáticas no requieren refresco para mantener los datos en memoria mientras que las dinámicas sí.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
-La capacidad de una memoria de X palabras y cada palabra con un ancho de Y bits o bytes, se calcula multiplicando ambas cifras.
+La capacidad de una memoria de X '''palabras''' y cada palabra con un '''ancho''' de Y bits o bytes, se calcula multiplicando ambas cifras.
+
+En cuanto a la '''jerarquía de velocidad''', los registros del procesador son más rápidos que las memorias caché (L1, L2, L3), a su vez éstas son más rápidas que la memoria RAM, después irían los discos SSD, los discos duros tradicionales y por último los medios extraíbles.
+
+Las '''latencias''' en memorias son:
+
+* '''Column Access Strobe (CAS)''': tiempo desde que el controlador de memoria pide leer una posición de memoria y el momento en que los datos son enviados a los pines de salida del módulo. En memorias síncronas el tiempo se mide en ciclos, en memorias asíncronas se mide en nanosegundos.
+
+* '''Row Address Strobe (RAS)''': tiempo en colocarse sobre una fila.
+
+* '''ACTIVE''': tiempo en activar un tablero.
+
+* '''PRECHARGE''': tiempo en desactivar un tablero.
 
 == Tema 2: Periféricos ==
 
@@ -166,15 +178,17 @@ El conector plano USB es el estándar A. El estándar B es el cuadrado. Ambos ti
 Otros puertos:
 
 * '''eSATA''': External SATA.
-* '''Ethernet''': 
-* '''Firewire''': Diseñado por Apple. Desde 400 Mbit/s (50 MB/s) hasta 3200 Mbit/s (400 MB/s). El estándar es IEEE 1394.
-* '''HDMI / DVI / VGA''': 
-* '''Jack''': 
+* '''Firewire''': Diseñado por Apple. Firewire 400 (400 Mbit/s), Firewire 800 (800 Mbit/s), Firewire s1600 (1600 Mbit/s), Firewire s3200 (3200 Mbit/s). El estándar es IEEE 1394.
+* '''HDMI''': High-Definition Multimedia Interface, interfaz de audio y vídeo. Permite audio digital multicanal y vídeo digital de alta definición. Sustituto del euroconector.
+* '''DisplayPort''': interfaz digital de vídeo, audio y datos.
+* '''DVI''': interfaz de vídeo (no audio). DVI-D (solo digital), DVI-A (solo analógica), DVI-I (digital y analógica).
+* '''Jack''': sonido, tanto entrada (micrófono) como salida (altavoces o auriculares).
 * '''SCSI''': generalmente para discos duros y cintas. Acrónimo de Small Computer System Interface.
 * '''PS/2''': conector de 6 pines para teclado y ratón. Electrónicamente son similares, pero pueden no ser intercambiables por usar distintos comandos (violeta teclado, verde ratón).
 * '''Puerto paralelo''': envían varios bits de datos cada vez, por ello cuentan con varias líneas de datos. Se estandarizó como IEEE 1284 y fue el habitual para impresoras hasta que llegó el USB.
 * '''Puerto serie''': permiten transmitir un bit cada vez solamente, a diferencia del puerto paralelo.
 * '''Thunderbolt''': creado por Intel y Appel. Thunderbolt 1 hasta 10 Gbit/s, Thunderbolt 2 hasta 20 Gbits/s, Thunderbolt 3 hasta 40 Gbit/s.
+* '''VGA''': Video Graphics Array, interfaz de vídeo.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Tipos de '''teclado''':
@@ -184,6 +198,9 @@ Tipos de '''teclado''':
 * '''AZERTY''': Utilizado en páises francófonos.
 * '''HCESAR''': Utilizado en Portugal durante algún tiempo. Después pasaron al QWERTY.
 * '''Dvorak''': Tiene como objetivo ser más ergonómico para reducir los errores en mecanografía.
+
+Comparativa de '''velocidad''' de distintos puertos (velocidades máximas teóricas):
+* Thunderbolt 3 (40 Gbit/s) > Thunderbolt 2 (20 Gbit/s) > USB 3.1 (10 Gbit/s) = Thunderbolt 1 (10 Gbit/s) > USB 3.0 (5 Gbit/s) > Firewire s3200 (3.2 Gbit/s) > Firewire s1600 (1.6 Gbit/s) > Firewire 800 (800 Mbit/s) > USB 2.0 (480 Mbit/s) > Firewire 400 (400 Mbit/s)
 
 === Elementos de impresión ===
 
@@ -198,7 +215,7 @@ Según el '''método de impresión''':
 * '''Línea a línea''': cinta, cadena, tambor.
 * '''Página a página''': láser.
 
-Las de inyección de tinta pueden ser térmicas o piezoelétricas.
+Las de inyección de tinta pueden ser térmicas o piezoelétricas. Las de tinta sólida derriten la tinta sobre un cabezal de impresión operado por un cristal piezoeléctrico.
 
 '''Lenguajes''' de descripción de página:
 
@@ -851,16 +868,53 @@ Algunas '''claves del registro''' de Windows:
 * [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
 
 '''Comandos básicos''' de Windows:
+
+{{div col|2}}
+* '''cd''': cambia de directorio
 * '''chkdsk''': comprobación de errores en el disco duro
+* '''cleanmgr''': liberar espacio
+* '''cls''': limpia la consola
+* '''control panel''': abre el panel de control
+* '''copy''': copia archivos
 * '''defrg''': desfragmentador de disco
+* '''del''': borra archivo o directorio
+* '''dir''': muestra el contenido del directorio
+* '''driverquery''': muestra la lista de drivers instalados
+* '''exit''': cierra la consola
 * '''format''': formateo de disco
+* '''getmac''': muestra la dirección MAC
+* '''help''': muestra la ayuda de los comandos
 * '''ipconfig''': configuración de redes
+* '''logoff''': cierra la sesión
+* '''md''': crea directorio
+* '''move''': mueve archivo
 * '''msconfig''': configuración de arranque, programas al inicio
 * '''netstat''': comprobación y analisis de redes y conexiones
-* '''net use''': asigna letra de unidad a carpetas compartidas 
+* '''net use''': asigna letra de unidad a carpetas compartidas
+* '''rename''': cambia el nombre a fichero
+* '''robocopy''': como copy pero mejorado
+* '''route''': muestra tabla de enturamiento
+* '''sfc''': comprueba integridad de ficheros
+* '''shutdown''': apaga el sistema
 * '''systeminfo''': información del sistema
+* '''taskkill''': mata un proceso
+* '''tasklist''': muestra los procesos y la memoria que consumen
+* '''time''': muestra la hora del sistema
+* '''tracert''': muestra el camino que sigue una conexión hasta el destino
+* '''tree''': muestra árbol de directorios
+* '''type''': crea un fichero
+* '''ver''': muestra la versión del sistema operativo
+{{div col end}}
 
 Para PowerShell, véase [[tai2017-bloque4|TAI 2017 Bloque IV]].
+
+'''Directorios comunes''' para Windows 10:<ref>[https://en.wikipedia.org/wiki/Directory_structure#Windows_10 Directory structure Windows 10]</ref>
+* '''\Program Files''': en Windows 10 de 32 bits todas las aplicaciones se instalan aquí (32 y 16 bits). En la versión de 64 bits, solo se instalan las de 64 bits aquí.
+* '''\Program Files (x86)''': aparece solo en Windows 10 de 64 bits. Las aplicaciones de 32 bits van aquí.
+* '''\ProgramData''': contiene datos de programas que puede ser accedidos por programas ejecutados por cualquier usuario.
+* '''\Users''': carpetas de perfiles de usuarios. Una carpeta por cada usuario que se ha logueado alguna vez. Tiene dos subdirectorios: Public y Default. Public sirve para compartir ficheros entre usuarios.
+* '''\Windows''': aquí se instala Windows. En el subdirectorio \System se instalan las DLLs de 16 bits. En \System32 las DLLs de 32 o 64 bits (dependiendo de los bits del sistema). En \SysWOW64, solo existe en Windows de 64 bits, se instalan DLLs de 32 bits.
+* '''\WinSxS''': Windows component store, aquí se almacenan copias de todos los componentes de Windows, actualizaciones y service packs.
 
 == Tema 5: Bases de datos ==
 

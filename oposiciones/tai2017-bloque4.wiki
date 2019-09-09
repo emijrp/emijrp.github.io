@@ -365,6 +365,8 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
+* '''Icinga''': 
+
 * '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza '''ifconfig eth0 promisc''' (-promisc para desactivarlo).
 
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
@@ -388,6 +390,8 @@ Algunos '''comandos y herramientas''' útiles:
 * '''OpenView''': conjunto de herramientas de HP.
 
 * '''ping''': petición de ICMP echo para comprobar si un host está disponible.
+
+* ''Prometheus''': 
 
 * '''scp''': transferencia de ficheros de manera segura, basado en ssh.
 
@@ -939,6 +943,8 @@ Los RIRs se encargan de asignar los bloques de IP tanto v4 como v6, mantener bas
 
 {{cayo-en-convocatoria|1=2016 (PI)}}
 El servidor de hora española es '''hora.roa.es'''.
+
+Los '''navegadores web''' más frecuentes son Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Microsoft Edge, Opera, Chromium y SeaMonkey.
 
 == Tema 9: Seguridad y protección ==
 
