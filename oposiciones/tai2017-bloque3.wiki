@@ -109,16 +109,20 @@ En realidad son 13 reglas propuestas por Edgar Codd que se deben cumplir para el
 {{cayo-en-convocatoria|1=2016 (PI)}}
 Los '''paradigmas de programación''' son formas de clasificar los lenguajes de programación en base a las características de su estructura, control de flujo y elementos. Un mismo lenguaje puede pertenecer a varios paradigmas.
 
-* '''Imperativo''': es el más extendido. Consiste en dar instrucciones al ordenador, en forma de algoritmos, sobre cómo hacer las cosas. Ejemplos: lenguaje máquina, C, BASIC, Pascal.
-** '''Orientado a objetos''': basado en el imperativo pero encapsula variables y funciones en entidades llamadas objetos. Ejemplos: C++, C#, Java, Python, Smalltalk.
-** '''Procedural''': agrupa el código en funciones. Ejemplos: Fortran, ALGOL, COBOL, BASIC, C.
+* '''Imperativo''': es el más extendido. Consiste en dar instrucciones al ordenador, en forma de algoritmos, sobre cómo hacer las cosas. Ejemplos: lenguaje máquina, Ada, B, BASIC, Bourne Shell, C, Caml, Cython, Genie, Linotte, Lua, Ocaml, Pascal.
+** '''Orientado a objetos''': basado en el imperativo pero encapsula variables y funciones en entidades llamadas objetos. Ejemplos: C++, C#, Eiffel, Java, Object Pascal, Perl, PHP, Python, Ruby, Smalltalk.
+** '''Procedural''': agrupa el código en funciones. Ejemplos: ALGOL, BASIC, C, COBOL, Fortran.
 
-* '''Declarativo''': describen la lógica pero sin expresar el control de flujo. Ejemplos: Lisp, Haskell, ML, Prolog, Curry.
-** '''Funcional''': se basa en el uso de funciones matemáticas en vez de en la mutación de variables (imperativa). Ejemplos: Haskell, Erlang.
-** '''Lógico''': basado en la lógica formal, expresando hechos y reglas sobre el dominio del problema a resolver. Ejemplos: Prolog, Datalog.
+* '''Declarativo''': describen la lógica pero sin expresar el control de flujo. Ejemplos: Curry, Haskell, Lisp, ML, Prolog.
+** '''Funcional''': se basa en el uso de funciones matemáticas en vez de en la mutación de variables (imperativa). Ejemplos: Alice, Clojure, Haskell, Elm, Erlang, J.
+** '''Lógico''': basado en la lógica formal, expresando hechos y reglas sobre el dominio del problema a resolver. Ejemplos: Curry, Datalog, Fril, Godel, Prolog.
 ** '''Algebraicos''': Ejemplos: Maude, SQL.
 
 * '''Simbólico''': permite manipular sus propias fórmulas y componentes como si fueran datos. Ejemplos: Wolfram, Lisp, Prolog.
+
+* '''Orientado a aspectos''': AspectJ.
+
+* '''Programación visual''': Scratch, VisSim.
 
 * '''Concurrente''':
 * '''Distribuida''':
