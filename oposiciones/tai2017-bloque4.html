@@ -65,13 +65,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.3 <a href="#PostgreSQL">PostgreSQL</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.4 <a href="#SQLServer">SQLServer</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 <a href="#Administración_de_correo_electrónico">Administración de correo electrónico</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="#Microsoft_Exchange">Microsoft Exchange</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="#Spam">Spam</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="#Cabecera_de_un_correo_electrónico">Cabecera de un correo electrónico</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="#Protocolos_de_correo_electrónico">Protocolos de correo electrónico</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 <a href="#Microsoft_Exchange">Microsoft Exchange</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 <a href="#Spam">Spam</a><br/>
 &nbsp;3. <a href="#Tema_3:_Administración_de_redes">Tema 3: Administración de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="#Administración_y_monitorización_de_redes">Administración y monitorización de redes</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="#Apache">Apache</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="#iptables">iptables</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="#Otros">Otros</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.4 <a href="#Estados_de_los_puertos">Estados de los puertos</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3.5 <a href="#Otros">Otros</a><br/>
 &nbsp;4. <a href="#Tema_4:_Seguridad">Tema 4: Seguridad</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 <a href="#Criptología">Criptología</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 <a href="#Criptografía_simétrica">Criptografía simétrica</a><br/>
@@ -87,7 +90,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;7.3 <a href="#Puertos">Puertos</a><br/>
 &nbsp;8. <a href="#Tema_8:_Internet">Tema 8: Internet</a><br/>
 &nbsp;9. <a href="#Tema_9:_Seguridad_y_protección">Tema 9: Seguridad y protección</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9.1 <a href="#Acceso_remoto">Acceso remoto</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9.2 <a href="#Seguridad">Seguridad</a><br/>
 &nbsp;10. <a href="#Tema_10:_Redes_locales">Tema 10: Redes locales</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10.1 <a href="#Técnicas_de_transmisión">Técnicas de transmisión</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10.2 <a href="#Métodos_de_acceso">Métodos de acceso</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10.3 <a href="#Dispositivos_de_interconexión">Dispositivos de interconexión</a><br/>
 &nbsp;11. <a href="#Fuentes">Fuentes</a><br/>
 &nbsp;12. <a href="#Referencias">Referencias</a><br/>
 </td></tr>
@@ -343,11 +351,25 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <h3 id="Administración_de_correo_electrónico">Administración de correo electrónico</h3>
 
+<h4 id="Cabecera_de_un_correo_electrónico">Cabecera de un correo electrónico</h4>
+
+<p>Estos son los campos de la <b>cabecera de un correo electrónico</b>:<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
+
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em;">
+
+<ul><li><b>From</b>: quién envía el correo.</li><li><b>Subject</b>: el asunto del correo.</li><li><b>Date</b>: la fecha y hora en la que se envió.</li><li><b>To</b>: a quién va dirigido el correo.</li><li><b>Return-Path</b>: la dirección a la que responder el correo (reply-to).</li><li><b>Envelope-To</b>: buzón de correo del destinatario.</li><li><b>Delivery-Date</b>: fecha y hora a la que el correo fue recibido en el servidor destino.</li><li><b>Received</b>: enumera los servidores por los que ha pasado el correo.</li><li><b>Message-Id</b>: identificador del correo.</li><li><b>Mime-Version</b>: versión del estándar MIME.</li><li><b>Content-Type</b>: formato del mensaje, text/plain, multipart/mixed.</li><li><b>X-Spam-Status</b>: puntuación de spam.</li><li><b>X-Spam-Level</b>: puntuación de spam.</li><li><b>Message-Body</b>: el contenido del correo.</li></ul>
+</div>
+
+
+<p>Hay que tener en cuenta que la mayoría de estos campos pueden ser alterados y no deben considerarse fiables a menos que se sepa con certeza su origen.</p>
+
+<h4 id="Protocolos_de_correo_electrónico">Protocolos de correo electrónico</h4>
+
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (IL)  </b></p>
 </div>
 
-<ul><li><b>IMAP</b>: protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.</li><li><b>POP3</b>: protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas.</li><ul><li><b>Comandos POP3</b>: USER, PASS, STAT, RETR, DELE, LIST, NOOP, TOP, UIDL, QUIT.</li></ul></ul>
+<ul><li><b>IMAP</b>: protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.</li><li><b>POP3</b>: protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas. Kerberized Post Office Protocol (KPOP) usa Kerberos para seguridad y el puerto 1109.</li><ul><li><b>Comandos POP3</b>: USER, PASS, STAT, RETR, DELE, LIST, NOOP, TOP, UIDL, QUIT.</li></ul></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
@@ -380,7 +402,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p>Algunos <b>comandos y herramientas</b> útiles:</p>
 
-<ul><li><b>dsadd</b>: añade un item al directorio activo: user, group, computer.</li><li><b>dsget</b>: muestra un item del directorio activo: user, group, computer.</li><li><b>dsmod</b>: modifica un item del directorio activo: user, group, computer.</li><li><b>dsmove</b>: mueve un item del directorio activo.</li><li><b>dsquery</b>: permite hacer búsquedas en el directorio activo y filtrar por tipo de objeto: dsquery computer, group, ou, site, server, user.<sup>[<a id="refback8" href="#ref8">8</a>]</sup></li><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>Icinga</b>: </li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza <b>ifconfig eth0 promisc</b> (-promisc para desactivarlo).</li></ul>
+<ul><li><b>dsadd</b>: añade un item al directorio activo: user, group, computer.</li><li><b>dsget</b>: muestra un item del directorio activo: user, group, computer.</li><li><b>dsmod</b>: modifica un item del directorio activo: user, group, computer.</li><li><b>dsmove</b>: mueve un item del directorio activo.</li><li><b>dsquery</b>: permite hacer búsquedas en el directorio activo y filtrar por tipo de objeto: dsquery computer, group, ou, site, server, user.<sup>[<a id="refback9" href="#ref9">9</a>]</sup></li><li><b>IBM AppScan</b>: test de seguridad y monitorización de IBM.</li><li><b>Icinga</b>: </li><li><b>ifconfig</b>: permite en <b>Linux</b> establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza <b>ifconfig eth0 promisc</b> (-promisc para desactivarlo).</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (IL)  </b></p>
@@ -415,7 +437,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
-<p><b>Firewall</b> de Windows:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<p><b>Firewall</b> de Windows:<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
 <ul><li><b>netsh advfirewall set allprofiles state on</b>: activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.</li><li><b>netsh advfirewall set allprofiles state off</b>: desactivar el firewall.</li><li><b>netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4</b>: bloquear el ping entrante.</li></ul>
 
 <p><b>dir</b> puede ser in/out. <b>action</b> puede ser block/allow. Los <b>protocol</b> más frecuentes son tcp y udp. Para añadir reglas se usa <b>add</b>, para borrarlas <b>delete</b>. Con <b>localport</b> puede filtrarse por puerto. Con el parámetro <b>program</b> se puede actuar sobre programas individuales.</p>
@@ -440,7 +462,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
@@ -449,7 +471,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Los <b>targets</b> son:</p>
 <ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>: el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
 
-<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
+<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback12" href="#ref12">12</a>]</sup></p>
 
 <ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.</li><li><b>iptables -D INPUT 1</b>: borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.</li><li><b>iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT</b>: inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.</li><li><b>iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT</b>: reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.</li></ul>
 
@@ -458,6 +480,12 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Para borrar todas las reglas se utiliza <b>iptables -F</b> (--flush). Para borrar todas las cadenas <b>iptables -X</b>.</p>
 
 <p>Para parar, iniciar y reiniciar el firewall se utiliza <b>service iptables stop/start/restart</b> respectivamente.</p>
+
+<h3 id="Estados_de_los_puertos">Estados de los puertos</h3>
+
+<p>Los <b>estados de los puertos</b> pueden ser:</p>
+
+<ul><li><b>open</b>: hay una aplicación aceptando conexiones en este puerto.</li><li><b>closed</b>: no hay ninguna aplicación escuchando en este puerto.</li><li><b>filtered</b>: hay un firewall filtrando este puerto.</li><li><b>unfiltered</b>: no hay firewall filtrando este puerto, pero tampoco ofrece información sobre si está abierto o cerrado.</li><li><b>open-filtered</b>: abierto o filtrado.</li><li><b>closed-filtered</b>: cerrado o filtrado.</li></ul>
 
 <h3 id="Otros">Otros</h3>
 
@@ -476,7 +504,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p><b>Conceptos</b> relacionados con la <b>seguridad informática</b>:</p>
 
-<ul><li><b>Antivirus</b>: aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.</li><li><b>Botnet</b>: red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.</li><li><b>Bug</b>: error en un programa o sistema que provoca un funcionamiento imprevisto.</li><li><b>DNS sinkholing</b>: falseamiento de DNS para redirigir tráfico a otras IPs.</li><li><b>Eavesdropping</b>: escucha de los paquetes enviados en una red.</li><li><b>Exploit</b>: software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.</li><li><b>Keylogger</b>: software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.</li><li><b>Firewall</b>: software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.</li><li><b>Gusano</b>: software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.</li><li><b>Honeypot</b>: sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.</li><li><b>IP Splicing-Hijacking</b>: el atacante intercepta una sesión ya establecida.</li><li><b>Man in the middle</b>: el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.</li><li><b>Pharming</b>: ciberataque que redirige un sitio web a otro falso.</li><li><b>Phishing</b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li><b>Puerta trasera</b>: característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc. También llamado backdoor.</li><li><b>Ransomware</b>: software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.</li><li><b>Rootkit</b>: software que permite el acceso privilegiado a un ordenador y que permanece oculto.</li><li><b>SGSI</b>: Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.</li><li><b>Sniffing</b>: captura de datos en una red para su análisis.</li><li><b>Spoofing</b>: diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).</li><li><b>Spyware</b>: software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.</li><li><b>Troyano</b>: programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.</li><li><b>Virus</b>: software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.</li><li><b>Vulnerabilidad</b>: debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.</li></ul>
+<ul><li><b>Antivirus</b>: aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.</li><li><b>Botnet</b>: red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.</li><li><b>Bug</b>: error en un programa o sistema que provoca un funcionamiento imprevisto.</li><li><b>Cross-site Scripting</b>: vulnerabilidad en aplicaciones web que permite inyectar código script del lado del cliente.</li><li><b>DNS sinkholing</b>: falseamiento de DNS para redirigir tráfico a otras IPs.</li><li><b>Eavesdropping</b>: escucha de los paquetes enviados en una red.</li><li><b>Exploit</b>: software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.</li><li><b>Keylogger</b>: software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.</li><li><b>Firewall</b>: software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.</li><li><b>Gusano</b>: software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.</li><li><b>Honeypot</b>: sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.</li><li><b>IP Splicing-Hijacking</b>: el atacante intercepta una sesión ya establecida.</li><li><b>Man in the middle</b>: el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.</li><li><b>Pharming</b>: ciberataque que redirige un sitio web a otro falso.</li><li><b>Phishing</b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li><b>Puerta trasera</b>: característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc. También llamado backdoor.</li><li><b>Ransomware</b>: software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.</li><li><b>Rootkit</b>: software que permite el acceso privilegiado a un ordenador y que permanece oculto.</li><li><b>SGSI</b>: Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.</li><li><b>Sniffing</b>: captura de datos en una red para su análisis.</li><li><b>Spoofing</b>: diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).</li><li><b>Spyware</b>: software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.</li><li><b>SQL injection</b>: inyección de consultas SQL maliciosas.</li><li><b>Troyano</b>: programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.</li><li><b>Virus</b>: software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.</li><li><b>Vulnerabilidad</b>: debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.</li></ul>
 
 <p>Conceptos relativos a personas:</p>
 
@@ -602,7 +630,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
-<p>Generaciones de telefonía móvil:<sup>[<a id="refback12" href="#ref12">12</a>]</sup></p>
+<p>Generaciones de telefonía móvil:<sup>[<a id="refback13" href="#ref13">13</a>]</sup></p>
 <ul><li><b>3G</b>: velocidad de al menos 200 Kbit/s. Versiones posteriores como 3.5G y 3.75G admitían algunos Mbit/s.</li><li><b>4G</b>: velocidad de 100 Mbit/s. Latencia 100 ms.</li><li><b>5G</b>: velocidad de 10 Gbit/s. Latencia 1-2 ms.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
@@ -727,7 +755,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<sup>[<a id="refback13" href="#ref13">13</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<sup>[<a id="refback14" href="#ref14">14</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
@@ -799,6 +827,8 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p>Los <b>navegadores web</b> más frecuentes son Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Microsoft Edge, Opera, Chromium y SeaMonkey.</p>
 
+<p>Los <b>motores de renderizado web</b> más frecuentes son Trident, Edge, Gecko, Goanna, KHTML, WebKit, Blink y Presto.</p>
+
 <h2 id="Tema_9:_Seguridad_y_protección">Tema 9: Seguridad y protección</h2>
 
 <div style="border: 2px solid lightgrey;background-color: lightblue;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;">
@@ -812,6 +842,10 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p>Un <b>UTM</b> o <b>Gestión Unificada de Amenazas</b> es un dispositivo de red cuyas funciones incluye antivirus, firewall y detección de intrusos. Otras funcionalidades pueden ser NAT, VPN, antispam, antiphishing, antispyware, filtro de contenidos.</p>
 
+<h3 id="Acceso_remoto">Acceso remoto</h3>
+
+<h3 id="Seguridad">Seguridad</h3>
+
 <h2 id="Tema_10:_Redes_locales">Tema 10: Redes locales</h2>
 
 <div style="border: 2px solid lightgrey;background-color: lightblue;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;">
@@ -819,7 +853,15 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 </div>
 
 
+<h3 id="Técnicas_de_transmisión">Técnicas de transmisión</h3>
 
+
+<h3 id="Métodos_de_acceso">Métodos de acceso</h3>
+
+
+<h3 id="Dispositivos_de_interconexión">Dispositivos de interconexión</h3>
+
+<ul><li><b>Hub</b>: es el más sencillo de todos, simplemente recibe datos de un ordenador y lo transmite a los demás ordenadores de la red. No es eficiente pues envía los datos a todos los ordenadores, no solo al destinatario. También llamados concentradores.</li><li><b>Switch</b>: envía los datos provenientes del ordenador origen al ordenador destino. Disminuye las colisiones de paquetes en la red.</li><li><b>Router</b>: reenvía los paquetes entre distintas redes. Escoge la mejor ruta para los paquetes. Puede disponer de firewall. Normalmente conecta una red LAN con una conexión WAN a Internet.</li></ul>
 
 <h2 id="Fuentes">Fuentes</h2>
 
@@ -838,12 +880,13 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <li id="ref5"><a href="#refback5">↑</a> <a href="https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/">mysqladmin</a></li>
 <li id="ref6"><a href="#refback6">↑</a> <a href="https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html">mysqldump</a></li>
 <li id="ref7"><a href="#refback7">↑</a> <a href="https://www.postgresql.org/docs/9.1/static/backup-dump.html">PostgreSQL dumps</a></li>
-<li id="ref8"><a href="#refback8">↑</a> <a href="https://ss64.com/nt/">Windows Commands</a></li>
-<li id="ref9"><a href="#refback9">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
-<li id="ref10"><a href="#refback10">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
-<li id="ref11"><a href="#refback11">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
-<li id="ref12"><a href="#refback12">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_mobile_phone_generations">List of mobile phone generations</a></li>
-<li id="ref13"><a href="#refback13">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
+<li id="ref8"><a href="#refback8">↑</a> <a href="https://clouding.io/kb/entender-una-cabecera-de-correo/">Entender una cabecera de correo</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="https://ss64.com/nt/">Windows Commands</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="http://www.itprotoday.com/windows-8/top-10-windows-firewall-netsh-commands">Top 10 Windows Firewall netsh commands</a></li>
+<li id="ref11"><a href="#refback11">↑</a> <a href="https://wiki.archlinux.org/index.php/Iptables_(Espa%C3%B1ol)">iptables (ArchWiki)</a></li>
+<li id="ref12"><a href="#refback12">↑</a> <a href="https://fedoraproject.org/wiki/How_to_edit_iptables_rules">How to edit iptables rules</a></li>
+<li id="ref13"><a href="#refback13">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_mobile_phone_generations">List of mobile phone generations</a></li>
+<li id="ref14"><a href="#refback14">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">List of TCP and UDP port numbers</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -872,7 +915,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-10 14:45:32 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-10 16:26:01 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

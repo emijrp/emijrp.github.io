@@ -324,10 +324,35 @@ El puerto por defecto de SQLServer es '''1433'''.
 
 === Administración de correo electrónico ===
 
+==== Cabecera de un correo electrónico ====
+
+Estos son los campos de la '''cabecera de un correo electrónico''':<ref>[https://clouding.io/kb/entender-una-cabecera-de-correo/ Entender una cabecera de correo]</ref>
+
+{{div col|2}}
+* '''From''': quién envía el correo.
+* '''Subject''': el asunto del correo.
+* '''Date''': la fecha y hora en la que se envió.
+* '''To''': a quién va dirigido el correo.
+* '''Return-Path''': la dirección a la que responder el correo (reply-to).
+* '''Envelope-To''': buzón de correo del destinatario.
+* '''Delivery-Date''': fecha y hora a la que el correo fue recibido en el servidor destino.
+* '''Received''': enumera los servidores por los que ha pasado el correo.
+* '''Message-Id''': identificador del correo.
+* '''Mime-Version''': versión del estándar MIME.
+* '''Content-Type''': formato del mensaje, text/plain, multipart/mixed.
+* '''X-Spam-Status''': puntuación de spam.
+* '''X-Spam-Level''': puntuación de spam.
+* '''Message-Body''': el contenido del correo.
+{{div col end}}
+
+Hay que tener en cuenta que la mayoría de estos campos pueden ser alterados y no deben considerarse fiables a menos que se sepa con certeza su origen.
+
+==== Protocolos de correo electrónico ====
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2015 (IL)}}
 * '''IMAP''': protocolo de acceso a mensajes de Internet (Internet Message Access Protocol). Permite acceder a correos electrónicos almacenados en un servidor. Permite la opción de conservar los correos en el servidor, por lo que se pueden acceder desde otro dispositivo. Utiliza el puerto 143, y el 993 cuando va cifrado. Surgió como alternativa a POP.
 
-* '''POP3''': protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas.
+* '''POP3''': protocolo de oficina de correo (Post Office Protocol). Sirve para descargar con un cliente local los correos electrónicos almacenados en un servidor POP. Al descargarlos en local, el comportamiento habitual es que son borrados del servidor automáticamente (a diferencia del IMAP que los conserva en el servidor). Utiliza el puerto 110, y el 995 cuando va cifrado. Las versiones POP1 y POP2 quedaron obsoletas. Kerberized Post Office Protocol (KPOP) usa Kerberos para seguridad y el puerto 1109.
 ** '''Comandos POP3''': USER, PASS, STAT, RETR, DELE, LIST, NOOP, TOP, UIDL, QUIT.
 
 {{cayo-en-convocatoria|1=2015 (PI)}}
@@ -484,6 +509,17 @@ Para borrar todas las reglas se utiliza '''iptables -F''' (--flush). Para borrar
 
 Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/start/restart''' respectivamente.
 
+=== Estados de los puertos ===
+
+Los '''estados de los puertos''' pueden ser:
+
+* '''open''': hay una aplicación aceptando conexiones en este puerto.
+* '''closed''': no hay ninguna aplicación escuchando en este puerto.
+* '''filtered''': hay un firewall filtrando este puerto.
+* '''unfiltered''': no hay firewall filtrando este puerto, pero tampoco ofrece información sobre si está abierto o cerrado.
+* '''open-filtered''': abierto o filtrado.
+* '''closed-filtered''': cerrado o filtrado.
+
 === Otros ===
 
 * '''Servidores de correo''': Exim, Microsoft Exchange, POSTFIX, Sendmail (agente de transporte), qmail, Zimbra.
@@ -500,6 +536,7 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 * '''Antivirus''': aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.
 * '''Botnet''': red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.
 * '''Bug''': error en un programa o sistema que provoca un funcionamiento imprevisto.
+* '''Cross-site Scripting''': vulnerabilidad en aplicaciones web que permite inyectar código script del lado del cliente.
 * '''DNS sinkholing''': falseamiento de DNS para redirigir tráfico a otras IPs.
 * '''Eavesdropping''': escucha de los paquetes enviados en una red.
 * '''Exploit''': software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.
@@ -518,6 +555,7 @@ Para parar, iniciar y reiniciar el firewall se utiliza '''service iptables stop/
 * '''Sniffing''': captura de datos en una red para su análisis.
 * '''Spoofing''': diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).
 * '''Spyware''': software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.
+* '''SQL injection''': inyección de consultas SQL maliciosas.
 * '''Troyano''': programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.
 * '''Virus''': software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.
 * '''Vulnerabilidad''': debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.
@@ -946,6 +984,8 @@ El servidor de hora española es '''hora.roa.es'''.
 
 Los '''navegadores web''' más frecuentes son Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Microsoft Edge, Opera, Chromium y SeaMonkey.
 
+Los '''motores de renderizado web''' más frecuentes son Trident, Edge, Gecko, Goanna, KHTML, WebKit, Blink y Presto.
+
 == Tema 9: Seguridad y protección ==
 
 {{recuadro|1='''Seguridad y protección''' en redes de comunicaciones. Seguridad perimetral. Acceso remoto seguro a redes. Redes privadas virtuales (VPN). Seguridad en el puesto del usuario.}}
@@ -953,11 +993,25 @@ Los '''navegadores web''' más frecuentes son Google Chrome, Mozilla Firefox, In
 {{cayo-en-convocatoria|1=2015 (PI)}}
 Un '''UTM''' o '''Gestión Unificada de Amenazas''' es un dispositivo de red cuyas funciones incluye antivirus, firewall y detección de intrusos. Otras funcionalidades pueden ser NAT, VPN, antispam, antiphishing, antispyware, filtro de contenidos.
 
+=== Acceso remoto ===
+
+=== Seguridad ===
+
 == Tema 10: Redes locales ==
 
 {{recuadro|1='''Redes locales'''. Tipología. Técnicas de transmisión. Métodos de acceso. Dispositivos de interconexión.}}
 
+=== Técnicas de transmisión ===
 
+
+=== Métodos de acceso ===
+
+
+=== Dispositivos de interconexión ===
+
+* '''Hub''': es el más sencillo de todos, simplemente recibe datos de un ordenador y lo transmite a los demás ordenadores de la red. No es eficiente pues envía los datos a todos los ordenadores, no solo al destinatario. También llamados concentradores.
+* '''Switch''': envía los datos provenientes del ordenador origen al ordenador destino. Disminuye las colisiones de paquetes en la red.
+* '''Router''': reenvía los paquetes entre distintas redes. Escoge la mejor ruta para los paquetes. Puede disponer de firewall. Normalmente conecta una red LAN con una conexión WAN a Internet.
 
 == Fuentes ==
 

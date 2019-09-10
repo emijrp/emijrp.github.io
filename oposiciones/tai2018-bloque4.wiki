@@ -65,7 +65,9 @@ La '''virtualización''' es la creación de una versión virtual de un hardware,
 
 Esto es posible mediante la abstracción de los recursos de un ordenador/servidor, llevada a cabo por un '''hipervisor''', que crea una capa entre el hardware de la máquina huésped (host) y el sistema operativo de la máquina virtual (guest).
 
-Existen '''hipervisores tipo 1''' que corren sobre el hardware del host directamente y '''tipo 2''' que corren en sistemas operativos convencionales como otros programas.
+Los '''hipervisores tipo 1''' corren sobre el hardware del host directamente. También se llaman '''bare metal''' o '''native hypervisors'''.
+
+Los '''hipervisores tipo 2''' corren en sistemas operativos convencionales como otros programas. También se llaman '''hosted hypervisors'''.
 
 Los '''formatos de discos virtuales''' incluyen:
 
@@ -82,6 +84,7 @@ VIRTUALIZACION
 
 maquinas e hipervisores: vmware esx, virtualbox, qemu, hyper 2008/2012, oracle vmware, hyper-v, xenserver, rdp
 
+proxmox, kvm
 
 https://es.wikipedia.org/wiki/LXC
 
