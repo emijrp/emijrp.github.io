@@ -392,76 +392,76 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<ul><li><b>nslookup</b>: name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.</li><li><b>OpenView</b>: conjunto de herramientas de HP.</li><li><b>ping</b>: petición de ICMP echo para comprobar si un host está disponible.</li><li><i>Prometheus<b>: </li><li></b>scp<b>: transferencia de ficheros de manera segura, basado en ssh.</li><li></b>Snort<b>: sistema de detección de intrusiones.</li><li></b>ssh<b>: conexión a equipos remotos de manera segura.</li><li></b>Suricata<b>: sistema de detección de intrusiones.</li><li></b>tcpdump<b>: analizador de paquetes por línea de comandos.</li><ul><li></b>tcpdump host 192.168.1.1<b>: captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.</li><li></b>tcpdump port 80<b>: captura tráfico con origen o destino el puerto 80</li><li></b>tcpdump -ni eth0 host 10.1.1.2 -w file.log<b>: captura tráfico de la interfaz eth0 e ip 10.1.1.2 y lo vuelca a un fichero de log.</li></ul><li></b>telnet<b>: permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.</li><li></b>traceroute<b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li><li></b>whois<b>: identifica un dominio.</li></ul>
+<ul><li><b>nslookup</b>: name server lookup, resuelve nombres de dominio a direcciones IP o viceversa. La sintaxis es nslookup ip/dominio dns.</li><li><b>OpenView</b>: conjunto de herramientas de HP.</li><li><b>ping</b>: petición de ICMP echo para comprobar si un host está disponible.</li><li><b>Prometheus</b>: </li><li><b>scp</b>: transferencia de ficheros de manera segura, basado en ssh.</li><li><b>Snort</b>: sistema de detección de intrusiones.</li><li><b>ssh</b>: conexión a equipos remotos de manera segura.</li><li><b>Suricata</b>: sistema de detección de intrusiones.</li><li><b>tcpdump</b>: analizador de paquetes por línea de comandos.</li><ul><li><b>tcpdump host 192.168.1.1</b>: captura tráfico con origen o destino 192.168.1.1. Con "src host" o "dst host" se puede limitar al origen o destino respectivamente.</li><li><b>tcpdump port 80</b>: captura tráfico con origen o destino el puerto 80</li><li><b>tcpdump -ni eth0 host 10.1.1.2 -w file.log</b>: captura tráfico de la interfaz eth0 e ip 10.1.1.2 y lo vuelca a un fichero de log.</li></ul><li><b>telnet</b>: permite controlar una máquina remotamente mediante comandos. Reemplazado por SSH que es más seguro. Para conectarse a una máquina, telnet 192.168.1.1 23.</li><li><b>traceroute</b>: herramienta de diagnóstico que muestra la ruta de los paquetes y el tiempo que tardan en alcanzar cada punto de la red.</li><li><b>whois</b>: identifica un dominio.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<ul><li></b>Wireshark<b>: es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.</li><li></b>Zabbix<b>: monitorización de servicios de red.</li></ul>
+<ul><li><b>Wireshark</b>: es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.</li><li><b>Zabbix</b>: monitorización de servicios de red.</li></ul>
 
-<p>Algunos </b>ficheros<b> importantes:</p>
+<p>Algunos <b>ficheros</b> importantes:</p>
 
-<ul><li></b>hosts<b>: mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.</li><li></b>resolv.conf<b>: especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.</li></ul>
+<ul><li><b>hosts</b>: mapea hosts a direcciones ip. Usa el formato "x.x.x.x nombre". Suele situarse en el directorio /etc.</li><li><b>resolv.conf</b>: especifica los servidores DNS. Usa el formato "nameserver x.x.x.x". Suele situarse en el directorio /etc.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (PI) 2015-SE (IL)  </b></p>
 </div>
 
-<p></b>Protocolos<b>:</p>
-<ul><li></b>ARP<b>: protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.</li><li></b>RARP<b>: protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.</li><li></b>VRRP<b>: protocolo de redundancia para routers, que permite una mayor disponibilidad en caso de error. Varios routers físicos dan soporte a través de un router virtual. En caso de que un router físico falle, salta al siguiente. Virtual Router Redundancy Protocol. Existe una solución de Cisco llamada HSRP (Hot Standby Routing Protocol) y una libre de patentes llamada CARP (Common Address Redundancy Protocol). Otra de Cisco con balanceo de carga es GLBP (Gateway Load Balancing Protocol).</li></ul>
+<p><b>Protocolos</b>:</p>
+<ul><li><b>ARP</b>: protocolo de resolución de direcciones, para encontrar la dirección MAC a partir de una dirección IP.</li><li><b>RARP</b>: protocolo de resolución de direcciones inverso, para encontrar la dirección IP a partir de una dirección MAC.</li><li><b>VRRP</b>: protocolo de redundancia para routers, que permite una mayor disponibilidad en caso de error. Varios routers físicos dan soporte a través de un router virtual. En caso de que un router físico falle, salta al siguiente. Virtual Router Redundancy Protocol. Existe una solución de Cisco llamada HSRP (Hot Standby Routing Protocol) y una libre de patentes llamada CARP (Common Address Redundancy Protocol). Otra de Cisco con balanceo de carga es GLBP (Gateway Load Balancing Protocol).</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
-<p></b>Firewall<b> de Windows:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
-<ul><li></b>netsh advfirewall set allprofiles state on<b>: activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.</li><li></b>netsh advfirewall set allprofiles state off<b>: desactivar el firewall.</li><li></b>netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4<b>: bloquear el ping entrante.</li></ul>
+<p><b>Firewall</b> de Windows:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<ul><li><b>netsh advfirewall set allprofiles state on</b>: activar el firewall. En vez de allprofiles también puede usarse currentprofile para el usuario actual.</li><li><b>netsh advfirewall set allprofiles state off</b>: desactivar el firewall.</li><li><b>netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=block protocol=icmpv4</b>: bloquear el ping entrante.</li></ul>
 
-<p></b>dir<b> puede ser in/out. </b>action<b> puede ser block/allow. Los </b>protocol<b> más frecuentes son tcp y udp. Para añadir reglas se usa </b>add<b>, para borrarlas </b>delete<b>. Con </b>localport<b> puede filtrarse por puerto. Con el parámetro </b>program<b> se puede actuar sobre programas individuales.</p>
+<p><b>dir</b> puede ser in/out. <b>action</b> puede ser block/allow. Los <b>protocol</b> más frecuentes son tcp y udp. Para añadir reglas se usa <b>add</b>, para borrarlas <b>delete</b>. Con <b>localport</b> puede filtrarse por puerto. Con el parámetro <b>program</b> se puede actuar sobre programas individuales.</p>
 
 <h3 id="Apache">Apache</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
 </div>
 
-<p></b>Apache<b> es un servidor web software libre.</p>
+<p><b>Apache</b> es un servidor web software libre.</p>
 
-<p>Para activar módulos se utiliza el comando </b>a2enmod<b> (Apache2 enable module) y para desactivarlos </b>a2dismod<b> (Apache2 disable module). Entre los módulos más conocidos están mod_ssl (seguridad con TLS), mod_rewrite (reescritura de direcciones), mod_auth_ldap (autenticación con LDAP), mod_python (páginas dinámicas en Python), mod_security (filtros a nivel de aplicación). Para activar mod_rewrite sería </b>a2enmod rewrite<b>.</p>
+<p>Para activar módulos se utiliza el comando <b>a2enmod</b> (Apache2 enable module) y para desactivarlos <b>a2dismod</b> (Apache2 disable module). Entre los módulos más conocidos están mod_ssl (seguridad con TLS), mod_rewrite (reescritura de direcciones), mod_auth_ldap (autenticación con LDAP), mod_python (páginas dinámicas en Python), mod_security (filtros a nivel de aplicación). Para activar mod_rewrite sería <b>a2enmod rewrite</b>.</p>
 
-<p>Con los comandos </b>a2enconf<b> y </b>a2disconf<b> se puede activar y desactivar respectivamente el fichero de configuración.</p>
+<p>Con los comandos <b>a2enconf</b> y <b>a2disconf</b> se puede activar y desactivar respectivamente el fichero de configuración.</p>
 
-<p></b>apachectl<b> and </b>apache2ctl<b> es la interfaz de control del servidor. Con el parámetro </b>start<b> se inicia el servidor, con </b>stop<b> se para, con </b>restart<b> se reinicia. Otros parámetros son </b>status<b> (estado del servidor).</p>
+<p><b>apachectl</b> and <b>apache2ctl</b> es la interfaz de control del servidor. Con el parámetro <b>start</b> se inicia el servidor, con <b>stop</b> se para, con <b>restart</b> se reinicia. Otros parámetros son <b>status</b> (estado del servidor).</p>
 
-<p></b>LAMP, MAMP y WAMP<b> son acrónimos de Apache, MySQL y PHP para Linux, Mac OS y Windows respectivamente.</p>
+<p><b>LAMP, MAMP y WAMP</b> son acrónimos de Apache, MySQL y PHP para Linux, Mac OS y Windows respectivamente.</p>
 
 <h3 id="iptables">iptables</h3>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p></b>iptables<b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (</b>rules<b>) se agrupan en cadenas (</b>chains<b>) y estas a su vez en tablas (</b>tables<b>).<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
+<p><b>iptables</b> es un firewall para Linux del proyecto netfilter. Permite controlar los paquetes de red. Las reglas (<b>rules</b>) se agrupan en cadenas (<b>chains</b>) y estas a su vez en tablas (<b>tables</b>).<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
 
 <p>Existen tres tablas por defecto: filtros (filters), direcciones de red (nat), destrozo (mangle).</p>
 
-<ul><li></b>filter table<b>: todos los paquetes pasan por esta tabla de filtros. Con </b>INPUT<b> se controlan los paquetes destinados al sistema. Con </b>OUTPUT<b> los creados por el sistema. Y con </b>FORWARD<b> los que pasan por el sistema hacia otro destino (enrutado).</li><li></b>nat table<b>: reescritura de direcciones o puertos.</li><li></b>mangle table<b>: ajustes de opciones de paquetes como calidad de servicio.</li></ul>
+<ul><li><b>filter table</b>: todos los paquetes pasan por esta tabla de filtros. Con <b>INPUT</b> se controlan los paquetes destinados al sistema. Con <b>OUTPUT</b> los creados por el sistema. Y con <b>FORWARD</b> los que pasan por el sistema hacia otro destino (enrutado).</li><li><b>nat table</b>: reescritura de direcciones o puertos.</li><li><b>mangle table</b>: ajustes de opciones de paquetes como calidad de servicio.</li></ul>
 
-<p>Los </b>targets<b> son:</p>
-<ul><li></b>ACCEPT<b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li></b>DROP<b>: el paquete es descartado sin más (REJECT envía un paquete de error).</li><li></b>QUEUE<b>: se encola el paquete.</li><li></b>RETURN<b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li></b>REJECT<b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li></b>LOG<b>: se guarda en el log.</li></ul>
+<p>Los <b>targets</b> son:</p>
+<ul><li><b>ACCEPT</b>: el paquete es aceptado en esta cadena aunque podría verse afectado en otra de otra tabla.</li><li><b>DROP</b>: el paquete es descartado sin más (REJECT envía un paquete de error).</li><li><b>QUEUE</b>: se encola el paquete.</li><li><b>RETURN</b>: el paquete deja de viajar por la cadena y se aplicaría la política de la cadena principal.</li><li><b>REJECT</b>: se envía un paquete de error al remitente y se rechaza el paquete.</li><li><b>LOG</b>: se guarda en el log.</li></ul>
 
-<p>Algunos </b>ejemplos<b> del comando iptables:<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
+<p>Algunos <b>ejemplos</b> del comando iptables:<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
 
-<ul><li></b>iptables -L -n -v<b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li></b>iptables -A INPUT -p tcp --dport 1234 -j REJECT<b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final </b>--reject-with<b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li></b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT<b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li></b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128<b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.</li><li></b>iptables -D INPUT 1<b>: borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.</li><li></b>iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT<b>: inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.</li><li></b>iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT<b>: reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.</li></ul>
+<ul><li><b>iptables -L -n -v</b>: muestra las reglas existentes (-L), con dirección ip y puertos numéricos (-n) y de forma detallada (-v). Se puede limitar a solo algunas cadenas, indicando INPUT, OUTPUT, TPC, etc, después de -L.</li><li><b>iptables -A INPUT -p tcp --dport 1234 -j REJECT</b>: añade una regla que rechaza todos los paquetes que llegan y van dirigidos al puerto TCP 1234. Se puede agregar al final <b>--reject-with</b> para que el paquete de error que se envía al remitente explique el rechazo (tcp-reset, conexión TCP denegada; icmp-port-unreachable, sesión UDP denegada; icmp-protocol-unreachable, paquetes no TCP/UDP).</li><li><b>iptables -A INPUT -p udp --dport 4567 -j ACCEPT</b>: añade una regla que acepta todos los paquetes que llegan y van dirigidos al puerto UDP 4567.</li><li><b>iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128</b>: añade una regla de redireccionamiento para que todo paquete que llegue al puerto TCP 80 sea reenviado al 3128.</li><li><b>iptables -D INPUT 1</b>: borra la primera regla del filtro INPUT. Se debe conocer el número de posición que ocupa la regla, se puede ver con iptables -L INPUT.</li><li><b>iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT</b>: inserta una regla en la posición 1 del filtro INPUT. Es como -A pero indicando la posición.</li><li><b>iptables -R INPUT 1 -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT</b>: reemplaza la regla situada en la posición 1 indicando una nueva regla. En este caso se hace un poco más específica, con el parámetro -s.</li></ul>
 
-<p>Para guardar todas las reglas se utiliza </b>iptables-save > file<b>. Para restaurar se usa </b>iptables-restore < file<b>.</p>
+<p>Para guardar todas las reglas se utiliza <b>iptables-save > file</b>. Para restaurar se usa <b>iptables-restore < file</b>.</p>
 
-<p>Para borrar todas las reglas se utiliza </b>iptables -F<b> (--flush). Para borrar todas las cadenas </b>iptables -X<b>.</p>
+<p>Para borrar todas las reglas se utiliza <b>iptables -F</b> (--flush). Para borrar todas las cadenas <b>iptables -X</b>.</p>
 
-<p>Para parar, iniciar y reiniciar el firewall se utiliza </b>service iptables stop/start/restart<b> respectivamente.</p>
+<p>Para parar, iniciar y reiniciar el firewall se utiliza <b>service iptables stop/start/restart</b> respectivamente.</p>
 
 <h3 id="Otros">Otros</h3>
 
-<ul><li></b>Servidores de correo<b>: Exim, Microsoft Exchange, POSTFIX, Sendmail (agente de transporte), qmail, Zimbra.</li><li></b>Servidores web<b>: Apache HTTP Server, Apache Tomcat, Cherokee, Jetty, lighttpd, nginx, Zope.</li></ul>
+<ul><li><b>Servidores de correo</b>: Exim, Microsoft Exchange, POSTFIX, Sendmail (agente de transporte), qmail, Zimbra.</li><li><b>Servidores web</b>: Apache HTTP Server, Apache Tomcat, Cherokee, Jetty, lighttpd, nginx, Zope.</li></ul>
 
 <h2 id="Tema_4:_Seguridad">Tema 4: Seguridad</h2>
 
@@ -474,69 +474,69 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2016 (PI)  </b></p>
 </div>
 
-<p></b>Conceptos<b> relacionados con la </b>seguridad informática<b>:</p>
+<p><b>Conceptos</b> relacionados con la <b>seguridad informática</b>:</p>
 
-<ul><li></b>Antivirus<b>: aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.</li><li></b>Botnet<b>: red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.</li><li></b>Bug<b>: error en un programa o sistema que provoca un funcionamiento imprevisto.</li><li></b>DNS sinkholing<b>: falseamiento de DNS para redirigir tráfico a otras IPs.</li><li></b>Eavesdropping<b>: escucha de los paquetes enviados en una red.</li><li></b>Exploit<b>: software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.</li><li></b>Keylogger<b>: software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.</li><li></b>Firewall<b>: software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.</li><li></b>Gusano<b>: software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.</li><li></b>Honeypot<b>: sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.</li><li></b>IP Splicing-Hijacking<b>: el atacante intercepta una sesión ya establecida.</li><li></b>Man in the middle<b>: el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.</li><li></b>Pharming<b>: ciberataque que redirige un sitio web a otro falso.</li><li></b>Phishing<b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li></b>Puerta trasera<b>: característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc. También llamado backdoor.</li><li></b>Ransomware<b>: software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.</li><li></b>Rootkit<b>: software que permite el acceso privilegiado a un ordenador y que permanece oculto.</li><li></b>SGSI<b>: Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.</li><li></b>Sniffing<b>: captura de datos en una red para su análisis.</li><li></b>Spoofing<b>: diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).</li><li></b>Spyware<b>: software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.</li><li></b>Troyano<b>: programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.</li><li></b>Virus<b>: software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.</li><li></b>Vulnerabilidad<b>: debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.</li></ul>
+<ul><li><b>Antivirus</b>: aplicación que previene, detecta y elimina virus o malware. Ejemplos: Avast, AVG, Bitdefender, F-Secure, Kaspersky, McAfee, Panda, Sophos, Symantec, Tren Micro.</li><li><b>Botnet</b>: red de dispositivos que ejecutan un bot sin conocimiento del usuario y que actúan en conjunto con distintos fines: ataque de denegación de servicio, envío de spam, etc.</li><li><b>Bug</b>: error en un programa o sistema que provoca un funcionamiento imprevisto.</li><li><b>DNS sinkholing</b>: falseamiento de DNS para redirigir tráfico a otras IPs.</li><li><b>Eavesdropping</b>: escucha de los paquetes enviados en una red.</li><li><b>Exploit</b>: software, datos o comandos que hacen posible aprovecharse de un bug o vulnerabilidad.</li><li><b>Keylogger</b>: software que registra las teclas pulsadas sin que el usuario se de cuenta. Usado para robar contraseñas principalmente.</li><li><b>Firewall</b>: software que monitoriza el tráfico de entrada y salida de una red a partir de una serie de reglas. Ejemplos: Netfilter (iptables), Squid, Kaspersky, McAfee, Norton 360, Windows Firewall, PeerGuardian, PeerBlock, ZoneAlarm.</li><li><b>Gusano</b>: software malicioso que se replica a sí mismo y se difunde por otros sistemas, propagando la infección.</li><li><b>Honeypot</b>: sistema que aparenta ser legítimo, pero que en realidad se utiliza para estudiar cómo otros intentan a acceder a él.</li><li><b>IP Splicing-Hijacking</b>: el atacante intercepta una sesión ya establecida.</li><li><b>Man in the middle</b>: el atacante intercepta y modifica los mensajes entre dos usuarios sin ser descubierto.</li><li><b>Pharming</b>: ciberataque que redirige un sitio web a otro falso.</li><li><b>Phishing</b>: intento de obtener contraseñas u otros datos privados, haciendo creer al usuario que está en un sitio oficial para que los introduzca.</li><li><b>Puerta trasera</b>: característica de un sistema que permite a alguien acceder a un sistema esquivando las medidas de seguridad, autenticación, etc. También llamado backdoor.</li><li><b>Ransomware</b>: software malicioso que amenaza con bloquear el acceso a los datos (cifrándolos) a menos que se pague una cantidad de dinero.</li><li><b>Rootkit</b>: software que permite el acceso privilegiado a un ordenador y que permanece oculto.</li><li><b>SGSI</b>: Sistema de Gestión de la Seguridad de la Información. Un conjunto de políticas de administración de la información. Su principal estándar es el ISO/IEC 27001 PDCA Plan-Do-Check-Act.</li><li><b>Sniffing</b>: captura de datos en una red para su análisis.</li><li><b>Spoofing</b>: diferentes tipos de suplantación. MAC spoofing (suplantación de dirección MAC), IP spoofing (falsear la dirección IP), E-mail spoofing (envío de correos electrónicos con remitente falso), DNS spoofing (falsear los registros DNS).</li><li><b>Spyware</b>: software que recopila información sobre un usuario sin que éste lo sepa, y la envía a un tercero.</li><li><b>Troyano</b>: programa malicioso, aparentemente inocuo, que proporciona acceso al atacante.</li><li><b>Virus</b>: software malicoso que ejecutándose se replica modificando otros programas e insertando su propio código.</li><li><b>Vulnerabilidad</b>: debilidad que puede ser explotada por un atacante para realizar acciones en el sistema.</li></ul>
 
 <p>Conceptos relativos a personas:</p>
 
-<ul><li></b>Cracker<b>: persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.</li><li></b>Hacker<b>: persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.</li><li></b>Lamer<b>: persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.</li><li></b>Luser<b>: similar a lamer, un usuario que es molesto.</li><li></b>Noob<b>: un novato o recién llegado a una comunidad u oficio.</li><li></b>Phreaker<b>: persona que experimenta con sistemas de telefonía.</li><li></b>Script kiddie<b>: es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.</li></ul>
+<ul><li><b>Cracker</b>: persona que usa las debilidades de una red u ordenador para aprovecharse de ellas maliciosamente.</li><li><b>Hacker</b>: persona con grandes habilidades informáticas que utiliza su conocimiento para resolver problemas.</li><li><b>Lamer</b>: persona que quiere aparentar ser hacker o cracker pero tiene limitados conocimientos.</li><li><b>Luser</b>: similar a lamer, un usuario que es molesto.</li><li><b>Noob</b>: un novato o recién llegado a una comunidad u oficio.</li><li><b>Phreaker</b>: persona que experimenta con sistemas de telefonía.</li><li><b>Script kiddie</b>: es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (IL)   </b></p>
 </div>
 
-<p></b>Herramientas<b> del </b>CCN-CERT<b>:</p>
+<p><b>Herramientas</b> del <b>CCN-CERT</b>:</p>
 
-<ul><li></b>CARMEN<b>: Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.</li><li></b>CLARA<b>: Herramienta para verificar el cumplimiento del ENS.</li><li></b>INÉS<b>: Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.</li><li></b>GLORIA<b>: plataforma para la gestión de incidentes y amenazas de ciberseguridad con técnicas de correlación.</li><li></b>LORETO<b>: almacenamiento en la nube.</li><li></b>LUCÍA<b>: Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.</li><li></b>MARÍA<b>: MultiAntiviRus IntegrAdo.</li><li></b>MARTA<b>: Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.</li><li></b>PILAR<b>: Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.</li><li></b>REYES<b>: REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.</li></ul>
+<ul><li><b>CARMEN</b>: Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.</li><li><b>CLARA</b>: Herramienta para verificar el cumplimiento del ENS.</li><li><b>INÉS</b>: Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.</li><li><b>GLORIA</b>: plataforma para la gestión de incidentes y amenazas de ciberseguridad con técnicas de correlación.</li><li><b>LORETO</b>: almacenamiento en la nube.</li><li><b>LUCÍA</b>: Listado Unificado de Coordinación de Incidentes y Amenazas. Sistema de gestión de incidentes común para las administraciones públicas.</li><li><b>MARÍA</b>: MultiAntiviRus IntegrAdo.</li><li><b>MARTA</b>: Motor de Análisis Remoto de Troyanos Avanzados. Análisis avanzado de ficheros para detectar comportamientos maliciosos.</li><li><b>PILAR</b>: Procedimiento Informático Lógico de Análisis de Riesgos. Análisis y gestión de riesgos con metodología MAGERIT.</li><li><b>REYES</b>: REpositorio común Y EStructurado de amenazas y código dañino. Plataforma que aglutina información sobre ciberamenazas de diversas fuentes.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016-SE (PI)   </b></p>
 </div>
 
-<p></b>Estándares<b> de seguridad:</p>
+<p><b>Estándares</b> de seguridad:</p>
 
-<ul><li></b>ISO/IEC 27001<b>: estándar de seguridad de la información desde 2004, que especifica los requisitos para un sistema de gestión de la seguridad de la información (SGSI). Se conoce como Ciclo Deming </b>PDCA: Plan, Do, Check, Act<b>.</li><li></b>ISO/IEC 27002<b>: estándar publicado por ISO, la versión más reciente es de 2013. En sus directrices define la seguridad de la información como: la preservación de la confidencialidad (asegurando que solo quienes estén autorizados pueden acceder a la información), integridad (asegurando que la información y sus métodos de proceso son exactos y completos) y disponibilidad (asegurando que los usuarios autorizados tienen acceso a la información y a sus activos asociados cuando lo requieran).</li></ul>
+<ul><li><b>ISO/IEC 27001</b>: estándar de seguridad de la información desde 2004, que especifica los requisitos para un sistema de gestión de la seguridad de la información (SGSI). Se conoce como Ciclo Deming <b>PDCA: Plan, Do, Check, Act</b>.</li><li><b>ISO/IEC 27002</b>: estándar publicado por ISO, la versión más reciente es de 2013. En sus directrices define la seguridad de la información como: la preservación de la confidencialidad (asegurando que solo quienes estén autorizados pueden acceder a la información), integridad (asegurando que la información y sus métodos de proceso son exactos y completos) y disponibilidad (asegurando que los usuarios autorizados tienen acceso a la información y a sus activos asociados cuando lo requieran).</li></ul>
 
 <h3 id="Criptología">Criptología</h3>
 
-<p>La </b>criptología<b> es el estudio de la escritura secreta, aquellos mensajes que tras ser procesados, se dificulta su lectura.</p>
+<p>La <b>criptología</b> es el estudio de la escritura secreta, aquellos mensajes que tras ser procesados, se dificulta su lectura.</p>
 
-<ul><li>La </b>criptografía<b> es la técnica de cifrar un mensaje haciéndolo ininteligible a todos aquellos receptores no autorizados a leerlo. La criptografía puede ser de clave simétrica o asimétrica.</li><li>El </b>criptoanálisis<b> es el estudio de mensajes cifrados para intentar descifar su contenido sin tener autorización.</li><li>La </b>esteganografía<b> oculta mensajes dentro de otros contenidos (imágenes, vídeo...), de forma que pasen desapercibidos.</li><li>El </b>estegoanálisis<b> consiste en detectar mensajes ocultos con esteganografía.</li></ul>
+<ul><li>La <b>criptografía</b> es la técnica de cifrar un mensaje haciéndolo ininteligible a todos aquellos receptores no autorizados a leerlo. La criptografía puede ser de clave simétrica o asimétrica.</li><li>El <b>criptoanálisis</b> es el estudio de mensajes cifrados para intentar descifar su contenido sin tener autorización.</li><li>La <b>esteganografía</b> oculta mensajes dentro de otros contenidos (imágenes, vídeo...), de forma que pasen desapercibidos.</li><li>El <b>estegoanálisis</b> consiste en detectar mensajes ocultos con esteganografía.</li></ul>
 
 <p>Las técnicas de criptografía y esteganografía se pueden combinar, aumentando la efectividad.</p>
 
-<p>Entre el </b>software criptográfico<b> destaca:</p>
+<p>Entre el <b>software criptográfico</b> destaca:</p>
 
-<ul><li></b>PGP<b>: acrónimo de Pretty Good Privacy, creado por Phil Zimmermann, funciona con criptografía asimétrica.</li><li></b>TrueCrypt<b>: permite cifrar con AES, Serpent y Twofish. Es multiplataforma. Fue continuado como VeraCrypt.</li></ul>
+<ul><li><b>PGP</b>: acrónimo de Pretty Good Privacy, creado por Phil Zimmermann, funciona con criptografía asimétrica.</li><li><b>TrueCrypt</b>: permite cifrar con AES, Serpent y Twofish. Es multiplataforma. Fue continuado como VeraCrypt.</li></ul>
 
 <h4 id="Criptografía_simétrica">Criptografía simétrica</h4>
 
-<p>La </b>criptografía simétrica<b> o de </b>clave secreta<b> es aquella en la que se usa la misma clave para cifrar que para descifrar. Tanto el emisor como el receptor de los mensajes deben ponerse de acuerdo con la clave a utilizar y compartirla.</p>
+<p>La <b>criptografía simétrica</b> o de <b>clave secreta</b> es aquella en la que se usa la misma clave para cifrar que para descifrar. Tanto el emisor como el receptor de los mensajes deben ponerse de acuerdo con la clave a utilizar y compartirla.</p>
 
 <p>La criptografía simétrica es impracticable para grandes grupos de personas, ya que son necesarias (n*(n-1))/2 claves, para que todas las parejas de usuarios puedan comunicarse entre sí.</p>
 
-<p>El </b>cifrado por bloques<b> opera por grupos de bits de longitud fija llamados bloques, en vez de símbolos individuales.</p>
+<p>El <b>cifrado por bloques</b> opera por grupos de bits de longitud fija llamados bloques, en vez de símbolos individuales.</p>
 
-<p>El </b>cifrado por flujo<b> opera sobre símbolos individuales.</p>
+<p>El <b>cifrado por flujo</b> opera sobre símbolos individuales.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015-SE (IL) 2014 (PI) </b></p>
 </div>
 
-<p></b>Algoritmos<b> de </b>clave simétrica<b>:</p>
+<p><b>Algoritmos</b> de <b>clave simétrica</b>:</p>
 
-<ul><li></b>AES<b>: acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001 y basado en Rijndael. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.</li><li></b>Blowfish<b>: publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.</li><li></b>DES<b>: acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.</li><ul><li></b>3DES<b>: hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.</li></ul><li></b>IDEA<b>: acrónimo de International Data Encryption Algorithm. Tamaño de clave de 128 bits, tamaño de bloque de 64 bits.</li></ul>
+<ul><li><b>AES</b>: acrónimo de Advanced Encryption Standard. Adoptado en EEUU en 2001 y basado en Rijndael. El tamaño de bloque es fijo de 128 bits, y las claves de 128, 192 y 256 bits. Es el sucesor de DES.</li><li><b>Blowfish</b>: publicado en 1993, tiene tamaño de clave de 32 a 448 bits, y tamaño de bloque de 64 bits.</li><li><b>DES</b>: acrónimo de Data Encryption Standard. Escogido como estándar en EEUU en 1976, fue controvertido. Tiene un tamaño de clave de 56 bits.</li><ul><li><b>3DES</b>: hace el triple cifrado de DES. Creado por IBM en 1998. El tamaño de clave es 3*56 bits = 168 bits. También se le conoce como TDEA o Triple DEA.</li></ul><li><b>IDEA</b>: acrónimo de International Data Encryption Algorithm. Tamaño de clave de 128 bits, tamaño de bloque de 64 bits.</li></ul>
 
 <p>Otros algoritmos de clave simétrica son Serpent, Twofish.</p>
 
-<p></b>Unidades<b> de </b>cifrado por bloques<b>:</p>
+<p><b>Unidades</b> de <b>cifrado por bloques</b>:</p>
 
-<ul><li></b>RC5<b>: admite tamaño de bloques de 32, 64 y 128 bits, tamaño de clave de 0 a 2040 bits, y número de vueltas de 0 a 255.</li><li></b>RC6<b>: el tamaño de bloque es de 128 bits, y acepta claves de 128, 192 y 256 bits.</li></ul>
+<ul><li><b>RC5</b>: admite tamaño de bloques de 32, 64 y 128 bits, tamaño de clave de 0 a 2040 bits, y número de vueltas de 0 a 255.</li><li><b>RC6</b>: el tamaño de bloque es de 128 bits, y acepta claves de 128, 192 y 256 bits.</li></ul>
 
 <h4 id="Criptografía_asimétrica">Criptografía asimétrica</h4>
 
-<p>La </b>criptografía asimétrica<b> (o sistema de clave pública) utiliza dos claves para el envío de mensajes y pertenecen a la misma persona. Una es la </b>clave pública<b> y otra es la </b>clave privada<b>.</p>
+<p>La <b>criptografía asimétrica</b> (o sistema de clave pública) utiliza dos claves para el envío de mensajes y pertenecen a la misma persona. Una es la <b>clave pública</b> y otra es la <b>clave privada</b>.</p>
 
 <p>Cuando un usuario quiere enviar un mensaje, utiliza la clave pública del destinatario para cifrar el mensaje. Al hacérselo llegar al destinatario, éste utilizara su clave privada para descifrarlo.</p>
 
@@ -544,21 +544,21 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p>Para que un grupo de personas pueda comunicarse entre sí, es necesario conocer n-1 claves públicas (una por cada destinatario), además de la clave privada propia.</p>
 
-<p>Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de </b>firma electrónica<b>.</p>
+<p>Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se puede descifrar con su clave pública. Esto permite identificar y autenticar al remitente, siendo el fundamento del concepto de <b>firma electrónica</b>.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015-SE (IL)  </b></p>
 </div>
 
-<p></b>Algoritmos<b> de </b>clave asimétrica<b>:</p>
+<p><b>Algoritmos</b> de <b>clave asimétrica</b>:</p>
 
-<ul><li></b>DSA<b>: acrónimo de Digital Signature Algorithm. No sirve para cifrar, solo para firmar.</li><li></b>RSA<b>: acrónimo de Rivest, Shamir, Adleman, sus creadores. Se basa en el problema de la factorización de números enteros. El tamaño de clave suele ser de 1024 a 4096 bits.</li></ul>
+<ul><li><b>DSA</b>: acrónimo de Digital Signature Algorithm. No sirve para cifrar, solo para firmar.</li><li><b>RSA</b>: acrónimo de Rivest, Shamir, Adleman, sus creadores. Se basa en el problema de la factorización de números enteros. El tamaño de clave suele ser de 1024 a 4096 bits.</li></ul>
 
 <h4 id="Otros_tipos_de_criptografía">Otros tipos de criptografía</h4>
 
-<p>La </b>criptografía de curva elíptica<b> es una variante de la criptografía asimétrica basada en las matemáticas de las curvas elípticas.</p>
+<p>La <b>criptografía de curva elíptica</b> es una variante de la criptografía asimétrica basada en las matemáticas de las curvas elípticas.</p>
 
-<p>La </b>criptografía híbrida<b> utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.</p>
+<p>La <b>criptografía híbrida</b> utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.</p>
 
 <h4 id="Funciones_hash">Funciones hash</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
@@ -566,7 +566,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 </div>
 
 
-<ul><li></b>MD5<b>: produce un hash de 128 bits (16 bytes), 32 caracteres hexadecimales.</li><li></b>SHA-1<b>: produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.</li></ul>
+<ul><li><b>MD5</b>: produce un hash de 128 bits (16 bytes), 32 caracteres hexadecimales.</li><li><b>SHA-1</b>: produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.</li></ul>
 
 <h4 id="Gestión_de_contraseñas">Gestión de contraseñas</h4>
 
@@ -583,34 +583,34 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 </div>
 
 
-<p>En toda </b>comunicación<b> se requiere de un emisor, un mensaje, un medio y un receptor.</p>
+<p>En toda <b>comunicación</b> se requiere de un emisor, un mensaje, un medio y un receptor.</p>
 
-<p>La comunicación se lleva a cabo con una capa física y una capa lógica. La </b>capa física<b> son los dispositivos y equipos como las tarjetas de red, cables, switchs, routers, etc. La </b>capa lógica<b> es el software, los protocolos de red, etc.</p>
+<p>La comunicación se lleva a cabo con una capa física y una capa lógica. La <b>capa física</b> son los dispositivos y equipos como las tarjetas de red, cables, switchs, routers, etc. La <b>capa lógica</b> es el software, los protocolos de red, etc.</p>
 
 <p>Dispositivos de la capa física:</p>
 
-<ul><li></b>Tarjeta de red<b>: </li><li></b>Conmutador o switch<b>: opera en la capa de enlace de datos, interconectando dos o más hosts, pasando los datos usando la dirección MAC de destino de las tramas.</li><li></b>Enrutador o router<b>: opera a nivel de la capa de red, encaminando paquetes de una red a otra (conecta subredes).</li><li></b>Puente o bridge<b>: opera en la capa de enlace de datos, solo reenvía las tramas pertenecientes a cada segmento de la red. Suelen tener menos bocas que un conmutador o switch.</li><li></b>Hub<b>: repite todas las tramas, aumentando las colisiones y reduciendo el rendimiento de la red.</li><li></b>Puente y enrutador o brouter<b>: sirve como puente y como router.</li><li></b>Punto de acceso inalámbrico o WAP<b>: interconecta dispositivos de red inalámbricos (tarjetas de red, dispositivos móviles). Normalmente también tienen entradas cableadas.</li></ul>
+<ul><li><b>Tarjeta de red</b>: </li><li><b>Conmutador o switch</b>: opera en la capa de enlace de datos, interconectando dos o más hosts, pasando los datos usando la dirección MAC de destino de las tramas.</li><li><b>Enrutador o router</b>: opera a nivel de la capa de red, encaminando paquetes de una red a otra (conecta subredes).</li><li><b>Puente o bridge</b>: opera en la capa de enlace de datos, solo reenvía las tramas pertenecientes a cada segmento de la red. Suelen tener menos bocas que un conmutador o switch.</li><li><b>Hub</b>: repite todas las tramas, aumentando las colisiones y reduciendo el rendimiento de la red.</li><li><b>Puente y enrutador o brouter</b>: sirve como puente y como router.</li><li><b>Punto de acceso inalámbrico o WAP</b>: interconecta dispositivos de red inalámbricos (tarjetas de red, dispositivos móviles). Normalmente también tienen entradas cableadas.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015 (IL)   </b></p>
 </div>
 
 <p>Cableado estructurado de par trenzado:</p>
-<ul><li></b>Categoría 1<b>: para telefonía, no adecuado para datos. Tasa: 512 Kbit/s.</li><li></b>Categoría 2<b>: hasta 4Mbit/s.</li><li></b>Categoría 3<b>: redes 10BaseT, hasta 10 Mbit/s.</li><li></b>Categoría 4<b>: redes token ring, hasta 16 Mbit/s.</li><li></b>Categoría 5<b>: hasta 100 Mbit/s.</li><li></b>Categoría 6<b>: hasta 1 Gbit/s. 250 Mhz.</li><li></b>Categoría 6A<b>: hasta 10 Gbit/s. 500 Mhz.</li><li></b>Categoría 7<b>: hasta 10 Gbit/s, 600 Mhz.</li><li></b>Categoría 7A<b>: hasta 10 Gbit/s, 1000 Mhz.</li><li></b>Categoría 8<b>: hasta 40 Gbit/s, 2000 Mhz.</li></ul>
+<ul><li><b>Categoría 1</b>: para telefonía, no adecuado para datos. Tasa: 512 Kbit/s.</li><li><b>Categoría 2</b>: hasta 4Mbit/s.</li><li><b>Categoría 3</b>: redes 10BaseT, hasta 10 Mbit/s.</li><li><b>Categoría 4</b>: redes token ring, hasta 16 Mbit/s.</li><li><b>Categoría 5</b>: hasta 100 Mbit/s.</li><li><b>Categoría 6</b>: hasta 1 Gbit/s. 250 Mhz.</li><li><b>Categoría 6A</b>: hasta 10 Gbit/s. 500 Mhz.</li><li><b>Categoría 7</b>: hasta 10 Gbit/s, 600 Mhz.</li><li><b>Categoría 7A</b>: hasta 10 Gbit/s, 1000 Mhz.</li><li><b>Categoría 8</b>: hasta 40 Gbit/s, 2000 Mhz.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015 (PI)   </b></p>
 </div>
 
 <p>Generaciones de telefonía móvil:<sup>[<a id="refback12" href="#ref12">12</a>]</sup></p>
-<ul><li></b>3G<b>: velocidad de al menos 200 Kbit/s. Versiones posteriores como 3.5G y 3.75G admitían algunos Mbit/s.</li><li></b>4G<b>: velocidad de 100 Mbit/s. Latencia 100 ms.</li><li></b>5G<b>: velocidad de 10 Gbit/s. Latencia 1-2 ms.</li></ul>
+<ul><li><b>3G</b>: velocidad de al menos 200 Kbit/s. Versiones posteriores como 3.5G y 3.75G admitían algunos Mbit/s.</li><li><b>4G</b>: velocidad de 100 Mbit/s. Latencia 100 ms.</li><li><b>5G</b>: velocidad de 10 Gbit/s. Latencia 1-2 ms.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2014 (PI)   </b></p>
 </div>
 
 <p>Otros conceptos:</p>
-<ul><li></b>Señal digital<b>: señal usada para representar datos como una secuencia de valores discretos, en cada momento solo puede tomar un valor de un número finito de ellos. Una señal analógica representa valores contínuos.</li><li></b>Banda base<b>: Los tipos de codificación incluyen el unipolar, polar, bipolar, NRZ (non-return-to-zero) y Manchester.</li><li></b>Banda ancha<b>: </li><li></b>Portadora<b>: </li><li></b>Modulación<b>: técnicas que permiten transportar información sobre una onda portadora. La modulación en amplitud (AM) y la modulación en frecuencia (FM) son las más frecuentes.</li><li></b>Multiplexación<b>: técnica para combinar dos o más señales y transmitirlas por un solo medio. El proceso inverso es la demultiplexación. Hay varios tipos: multiplexación por división de tiempo (TDM síncrona), multiplexación estadística (TDM asíncrona/estadística), multiplexación por división de frecuencia (FDM), multiplexación por división en código (CDM). Cuando hay varios usuarios en el mismo medio, es acceso múltiple por división de frecuencia (FDMA), por división de tiempo (TDMA) y por división de código (CDMA).</li><li></b>Control de acceso al medio<b>: mecanismos y protocolos usados para que varios interlocutores compartan un medio de transmisión común sin entorpecerse unos a otros.</li><li></b>Enrutamiento<b>: cómo la información es encaminada hacia el destino. Puede ser unicast (único destino), multicast (varios destinatarios), broadcast (todos los destinatarios), anycast (cualquiera de un grupo de destinatarios).</li></ul>
+<ul><li><b>Señal digital</b>: señal usada para representar datos como una secuencia de valores discretos, en cada momento solo puede tomar un valor de un número finito de ellos. Una señal analógica representa valores contínuos.</li><li><b>Banda base</b>: Los tipos de codificación incluyen el unipolar, polar, bipolar, NRZ (non-return-to-zero) y Manchester.</li><li><b>Banda ancha</b>: </li><li><b>Portadora</b>: </li><li><b>Modulación</b>: técnicas que permiten transportar información sobre una onda portadora. La modulación en amplitud (AM) y la modulación en frecuencia (FM) son las más frecuentes.</li><li><b>Multiplexación</b>: técnica para combinar dos o más señales y transmitirlas por un solo medio. El proceso inverso es la demultiplexación. Hay varios tipos: multiplexación por división de tiempo (TDM síncrona), multiplexación estadística (TDM asíncrona/estadística), multiplexación por división de frecuencia (FDM), multiplexación por división en código (CDM). Cuando hay varios usuarios en el mismo medio, es acceso múltiple por división de frecuencia (FDMA), por división de tiempo (TDMA) y por división de código (CDMA).</li><li><b>Control de acceso al medio</b>: mecanismos y protocolos usados para que varios interlocutores compartan un medio de transmisión común sin entorpecerse unos a otros.</li><li><b>Enrutamiento</b>: cómo la información es encaminada hacia el destino. Puede ser unicast (único destino), multicast (varios destinatarios), broadcast (todos los destinatarios), anycast (cualquiera de un grupo de destinatarios).</li></ul>
 
 <p>Entre los problemas que afectan a las señales está el ruido blanco.</p>
 
@@ -621,66 +621,66 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 </div>
 
 
-<p>Una </b>red de difusión<b> (broadcast) es aquella en la que cualquier ordenador puede transmitir directamente a cualquier otro sin precisar ningún dispositivo de encaminamiento dado que comparte la misma subred, dirección de puerta de enlace y están de la misma red de área local (LAN) o VLAN. Todos los ordenadores conectados al mismo switch son miembros del mismo dominio de difusión (broadcast domain). Los routers separan distintos dominios de difusión.</p>
+<p>Una <b>red de difusión</b> (broadcast) es aquella en la que cualquier ordenador puede transmitir directamente a cualquier otro sin precisar ningún dispositivo de encaminamiento dado que comparte la misma subred, dirección de puerta de enlace y están de la misma red de área local (LAN) o VLAN. Todos los ordenadores conectados al mismo switch son miembros del mismo dominio de difusión (broadcast domain). Los routers separan distintos dominios de difusión.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (PI)   </b></p>
 </div>
 
-<p>En una </b>red conmutada<b> la comunicación se establece de extremo a extremo a través de un conjunto de nodos.</p>
-<ul><li></b>Conmutación de circuitos<b>: tiene tres fases, establecimiento del circuito, transferencia de datos y desconexión. El establecimiento de llamada es obligatorio. Los paquetes llegan en orden.</li><li></b>Conmutación de paquetes<b>: No hay establecimiento de llamada. Los paquetes no tienen porque llegar en orden.</li></ul>
+<p>En una <b>red conmutada</b> la comunicación se establece de extremo a extremo a través de un conjunto de nodos.</p>
+<ul><li><b>Conmutación de circuitos</b>: tiene tres fases, establecimiento del circuito, transferencia de datos y desconexión. El establecimiento de llamada es obligatorio. Los paquetes llegan en orden.</li><li><b>Conmutación de paquetes</b>: No hay establecimiento de llamada. Los paquetes no tienen porque llegar en orden.</li></ul>
 
-<p></b>Clasificación<b> de redes:</p>
+<p><b>Clasificación</b> de redes:</p>
 
-<ul><li></b>Red de área personal<b> (Personal Area Network, PAN): red para conectar dispositivos cercanos al ordenador.</li><li></b>Red inalámbrica de área personal<b> (Wireless Personal Area Network, WPAN): redes que conectan teléfonos, PDA, impresoras, etc, cercanos, normalmente a través de Bluetooth.</li><li></b>Red de área local<b> (Local Area Network, LAN): red pequeña dentro de una misma casa o edificio. También puede ser inalámbrica, WLAN.</li><li></b>Red de área de campus<b> (Campos Area Network, CAN): red de alta velocidad dentro de una universidad, hospital, etc.</li><li></b>Red de área metropolitana<b> (Metropolitan Area Network, MAN): red que da cobertura a un área geográfica que cubra varios edificios, por ejemplo con fibra óptica.</li><li></b>Red de área amplia<b> (Wide Area Network, WAN): red que cubre áreas extensas, incluso con satélites, cables transoceánicos, etc.</li><li></b>Red de área de almacenamiento<b> (Storage Area Network, SAN): red que conecta servidores, conjuntos de discos, etc, cuyos datos pasan separados de las redes de usuarios.</li><li></b>Red de área local virtual<b> (Virtual LAN, VLAN): conjunto de ordenadores y recursos (impresoras, etc) que se comunican como si estuvieran en una división lógica de red. Es una forma de estructurar una red por software, dividiendo un conmutador en varios virtuales.</li></ul>
+<ul><li><b>Red de área personal</b> (Personal Area Network, PAN): red para conectar dispositivos cercanos al ordenador.</li><li><b>Red inalámbrica de área personal</b> (Wireless Personal Area Network, WPAN): redes que conectan teléfonos, PDA, impresoras, etc, cercanos, normalmente a través de Bluetooth.</li><li><b>Red de área local</b> (Local Area Network, LAN): red pequeña dentro de una misma casa o edificio. También puede ser inalámbrica, WLAN.</li><li><b>Red de área de campus</b> (Campos Area Network, CAN): red de alta velocidad dentro de una universidad, hospital, etc.</li><li><b>Red de área metropolitana</b> (Metropolitan Area Network, MAN): red que da cobertura a un área geográfica que cubra varios edificios, por ejemplo con fibra óptica.</li><li><b>Red de área amplia</b> (Wide Area Network, WAN): red que cubre áreas extensas, incluso con satélites, cables transoceánicos, etc.</li><li><b>Red de área de almacenamiento</b> (Storage Area Network, SAN): red que conecta servidores, conjuntos de discos, etc, cuyos datos pasan separados de las redes de usuarios.</li><li><b>Red de área local virtual</b> (Virtual LAN, VLAN): conjunto de ordenadores y recursos (impresoras, etc) que se comunican como si estuvieran en una división lógica de red. Es una forma de estructurar una red por software, dividiendo un conmutador en varios virtuales.</li></ul>
 
-<p></b>Tipos<b> de cableado:</p>
+<p><b>Tipos</b> de cableado:</p>
 
-<ul><li></b>Cable par trenzado<b>: tipo de cable con dos conductores elétricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.</li><li></b>Cable coaxial<b>: transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.</li></ul>
+<ul><li><b>Cable par trenzado</b>: tipo de cable con dos conductores elétricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.</li><li><b>Cable coaxial</b>: transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.</li></ul>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<ul><li>La </b>fibra óptica<b> es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser </b>monomodo<b> (un solo haz, larga distancia) y </b>multimodo<b> (varios haces, poca distancia). Conectores ST y SC. Técnicas de transmisión CWDM y DWDM. El material interno tiene un índice de refracción superior al del material que lo rodea. Las ventanas de transmisión son de longitud de onda 820 nm, 1310 nm y 1550 nm.</li></ul>
+<ul><li>La <b>fibra óptica</b> es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser <b>monomodo</b> (un solo haz, larga distancia) y <b>multimodo</b> (varios haces, poca distancia). Conectores ST y SC. Técnicas de transmisión CWDM y DWDM. El material interno tiene un índice de refracción superior al del material que lo rodea. Las ventanas de transmisión son de longitud de onda 820 nm, 1310 nm y 1550 nm.</li></ul>
 
-<p></b>Topologías<b> de red:</p>
+<p><b>Topologías</b> de red:</p>
 
-<ul><li></b>Anillo<b>: cada estación se conecta con la siguiente y la última con la primera, cerrando el anillo.</li><li></b>Bus<b>: cuenta con un único canal de comunicaciones al que se conectan todos los dispositivos.</li><li></b>Estrella<b>: las estaciones se conectan a un punto central.</li><li></b>Malla<b>: cadanodo se conecta con todos los demás.</li><li></b>Árbol<b>: nodos conectados en forma de árbol, similar a la de estrella pero sin nodo central.</li><li></b>Híbrida o mixta<b>: una combinación de las demás, circular de estrella, bus de estrella, etc.</li></ul>
+<ul><li><b>Anillo</b>: cada estación se conecta con la siguiente y la última con la primera, cerrando el anillo.</li><li><b>Bus</b>: cuenta con un único canal de comunicaciones al que se conectan todos los dispositivos.</li><li><b>Estrella</b>: las estaciones se conectan a un punto central.</li><li><b>Malla</b>: cadanodo se conecta con todos los demás.</li><li><b>Árbol</b>: nodos conectados en forma de árbol, similar a la de estrella pero sin nodo central.</li><li><b>Híbrida o mixta</b>: una combinación de las demás, circular de estrella, bus de estrella, etc.</li></ul>
 
-<p>Según la </b>direccionalidad de los datos<b>:</p>
+<p>Según la <b>direccionalidad de los datos</b>:</p>
 
-<ul><li></b>Simplex<b>: unidireccional, un terminal envía y otro recibe.</li><li></b>Half-duplex<b>: semidúplex, envío bidireccional pero no simultáneamente.</li><li></b>Full-duplex<b>: dúplex, envío bidireccional y simultáneao.</li></ul>
+<ul><li><b>Simplex</b>: unidireccional, un terminal envía y otro recibe.</li><li><b>Half-duplex</b>: semidúplex, envío bidireccional pero no simultáneamente.</li><li><b>Full-duplex</b>: dúplex, envío bidireccional y simultáneao.</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<p></b>Control de acceso<b> al medio:</p>
-<ul><li></b>Paso de testigo<b>: un testigo (token) va pasando de estación en estación. Solo la estación que tiene el token puede transmitir.</li><ul><li></b>Token bus<b>: para redes de topología bus.</li><li></b>Token ring<b>: similar a token bus pero para topologías en anillo.</li></ul><li></b>CSMA/CD<b>: se escucha al medio, y si está libre, se transmite. Si se produce una colisión (varias estaciones emiten en el mismo instante), se esperan tiempos aleatorios antes de retransmitir. Acrónimo de Carrier Sense Multiple Access with Collision Detection.</li><li></b>ALOHA<b>: </li></ul>
+<p><b>Control de acceso</b> al medio:</p>
+<ul><li><b>Paso de testigo</b>: un testigo (token) va pasando de estación en estación. Solo la estación que tiene el token puede transmitir.</li><ul><li><b>Token bus</b>: para redes de topología bus.</li><li><b>Token ring</b>: similar a token bus pero para topologías en anillo.</li></ul><li><b>CSMA/CD</b>: se escucha al medio, y si está libre, se transmite. Si se produce una colisión (varias estaciones emiten en el mismo instante), se esperan tiempos aleatorios antes de retransmitir. Acrónimo de Carrier Sense Multiple Access with Collision Detection.</li><li><b>ALOHA</b>: </li></ul>
 
-<p>El protocolo </b>NFC<b> funciona en distancias muy cortas (cercanas a 4 cm) y no necesita emparejamiento.</p>
+<p>El protocolo <b>NFC</b> funciona en distancias muy cortas (cercanas a 4 cm) y no necesita emparejamiento.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2016 (PI) 2015 (IL) 2015 (PI)</b></p>
 </div>
 
-<p></b>Estándares IEEE 802<b>:</p>
+<p><b>Estándares IEEE 802</b>:</p>
 
-<ul><li></b>IEEE 802.1<b>:</li><ul><li></b>IEEE 802.1Q<b>: VLANs</li></ul><li></b>IEEE 802.3<b>: Ethernet</li><ul><li></b>IEEE 802.3ae<b>: 10 Gbit Ethernet</li></ul><li></b>IEEE 802.4<b>: Token bus</li><li></b>IEEE 802.5<b>: Token ring</li><li></b>IEEE 802.11<b>: Wireless LAN (WLAN)</li><ul><li></b>IEEE 802.11b<b>: Hasta 11 Mbit/s. 2.4 Ghz.</li><li></b>IEEE 802.11g<b>: Hasta 54 Mbit/s. 2.4 Ghz.</li><li></b>IEEE 802.11n<b>: Hasta 600 Mbit/s. 2.4/5 Ghz.</li><li></b>IEEE 802.11ac<b>: Hasta 433 Mbit/s, canales más anchos. 5 Ghz.</li><li></b>IEEE 802.11ad<b>: Hasta 7 Gbit/s. 60 Ghz.</li><li></b>IEEE 802.11ah<b>: WiFi HaLow. 0.9 Ghz.</li><li></b>IEEE 802.11p<b>: Wireless Access in Vehicular Environments (WAVE)</li></ul><li></b>IEEE 802.15<b>: Wireless PAN (WPAN)</li><ul><li></b>IEEE 802.15.1<b>: Bluetooth</li><li></b>IEEE 802.15.7<b>: Visible Light Communication (VLC)</li></ul><li></b>IEEE 802.16<b>: WiMAX</li></ul>
+<ul><li><b>IEEE 802.1</b>:</li><ul><li><b>IEEE 802.1Q</b>: VLANs</li></ul><li><b>IEEE 802.3</b>: Ethernet</li><ul><li><b>IEEE 802.3ae</b>: 10 Gbit Ethernet</li></ul><li><b>IEEE 802.4</b>: Token bus</li><li><b>IEEE 802.5</b>: Token ring</li><li><b>IEEE 802.11</b>: Wireless LAN (WLAN)</li><ul><li><b>IEEE 802.11b</b>: Hasta 11 Mbit/s. 2.4 Ghz.</li><li><b>IEEE 802.11g</b>: Hasta 54 Mbit/s. 2.4 Ghz.</li><li><b>IEEE 802.11n</b>: Hasta 600 Mbit/s. 2.4/5 Ghz.</li><li><b>IEEE 802.11ac</b>: Hasta 433 Mbit/s, canales más anchos. 5 Ghz.</li><li><b>IEEE 802.11ad</b>: Hasta 7 Gbit/s. 60 Ghz.</li><li><b>IEEE 802.11ah</b>: WiFi HaLow. 0.9 Ghz.</li><li><b>IEEE 802.11p</b>: Wireless Access in Vehicular Environments (WAVE)</li></ul><li><b>IEEE 802.15</b>: Wireless PAN (WPAN)</li><ul><li><b>IEEE 802.15.1</b>: Bluetooth</li><li><b>IEEE 802.15.7</b>: Visible Light Communication (VLC)</li></ul><li><b>IEEE 802.16</b>: WiMAX</li></ul>
 
-<p></b>Clases de red<b>:</p>
-<ul><li></b>Clase A<b>: Bits de mayor peso (0). Rango 0-127.255.255.255</li><li></b>Clase B<b>: Bits de mayor peso (10). Rango 128-191.255.255.255</li><li></b>Clase C<b>: Bits de mayor peso (110). Rango 192-223.255.255.255</li><li></b>Clase D<b>: Bits de mayor peso (1110). Rango 224-239.255.255.255</li><li></b>Clase E<b>: Bits de mayor peso (11110). Rango 240-247.255.255.255</li></ul>
+<p><b>Clases de red</b>:</p>
+<ul><li><b>Clase A</b>: Bits de mayor peso (0). Rango 0-127.255.255.255</li><li><b>Clase B</b>: Bits de mayor peso (10). Rango 128-191.255.255.255</li><li><b>Clase C</b>: Bits de mayor peso (110). Rango 192-223.255.255.255</li><li><b>Clase D</b>: Bits de mayor peso (1110). Rango 224-239.255.255.255</li><li><b>Clase E</b>: Bits de mayor peso (11110). Rango 240-247.255.255.255</li></ul>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2016 (PI) 2016-SE (PI) 2015 (IL)</b></p>
 </div>
 
-<p>La </b>máscara de red<b> es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.</p>
+<p>La <b>máscara de red</b> es una combinación de bits que delimitan el ámbito de una red. Indica qué parte de la dirección IP es la red y subred, y qué parte es el host.</p>
 
 <p>En toda subred hay una IP con los bits a cero en la parte del host, que sería la IP que nombra a la subred. Y una IP con los bits a uno en la parte del host, que sería la IP de broadcast. Por lo que los hosts disponibles en toda subred es N-2.</p>
 
 <p>Ejemplos de máscaras de red:</p>
-<ul><li>11111111.11111111.11111111.11111111 = 255.255.255.255 = 0 hosts</li><li></b>Clase C<b>: 11111111.11111111.11111111.00000000 = 255.255.255.0 = 2^8 - 2 = 254 hosts</li><li></b>Clase B<b>: 11111111.11111111.00000000.00000000 = 255.255.0.0 = 2^16 - 2 = 65534 hosts</li><li></b>Clase A<b>: 11111111.00000000.00000000.00000000 = 255.0.0.0 = 2^24 - 2 = 16777214 hosts</li></ul>
+<ul><li>11111111.11111111.11111111.11111111 = 255.255.255.255 = 0 hosts</li><li><b>Clase C</b>: 11111111.11111111.11111111.00000000 = 255.255.255.0 = 2^8 - 2 = 254 hosts</li><li><b>Clase B</b>: 11111111.11111111.00000000.00000000 = 255.255.0.0 = 2^16 - 2 = 65534 hosts</li><li><b>Clase A</b>: 11111111.00000000.00000000.00000000 = 255.0.0.0 = 2^24 - 2 = 16777214 hosts</li></ul>
 
 <p>Para averiguar la dirección IP de una red a partir de una dirección IP y una máscara de red dadas:</p>
 <ul><li>Pasar la máscara a binario para saber cuántos 1 hay a la izquierda. El resto de la derecha son hosts.</li><li>Pasar la IP a binario, para saber los dígitos que corresponden a la máscara. Poniendo los dígitos de host a cero, sale la IP de la red.</li></ul>
@@ -703,23 +703,23 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (IL) 2015 (PI)  </b></p>
 </div>
 
-<p>El </b>Modelo OSI<b> o modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo de referencia para protocolos de la red de arquitectura en capas. Fue creado en 1980 por ISO.</p>
+<p>El <b>Modelo OSI</b> o modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo de referencia para protocolos de la red de arquitectura en capas. Fue creado en 1980 por ISO.</p>
 
 <p>Cada capa proporciona las operaciones disponibles para la capa superior.</p>
 
-<p>Las </b>capas del Modelo OSI<b> son </b>siete<b>:</p>
+<p>Las <b>capas del Modelo OSI</b> son <b>siete</b>:</p>
 
-<ul><li></b>Nivel de Aplicación<b>: servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Protocolos de esta capa: HTTP, FTP, SMTP, Telnet.</li><li></b>Nivel de Presentación<b>: representación de los datos. Unidad de datos: Datos.</li><li></b>Nivel de Sesión<b>: comunicación entre dispositivos de la red. Unidad de datos: Datos.</li><li></b>Nivel de Transporte<b>: conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Segmentos.</li><li></b>Nivel de Red<b>: determinación de ruta y direccionamiento lógico (IP). Unidad de datos: Paquetes.</li><li></b>Nivel de Enlace de Datos<b>: direccionamiento físico (MAC y LLC). Unidad de datos: Tramas.</li><li></b>Nivel Físico<b>: señal y transmisión binaria. Unidad de datos: Bits.</li></ul>
+<ul><li><b>Nivel de Aplicación</b>: servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Protocolos de esta capa: HTTP, FTP, SMTP, Telnet.</li><li><b>Nivel de Presentación</b>: representación de los datos. Unidad de datos: Datos.</li><li><b>Nivel de Sesión</b>: comunicación entre dispositivos de la red. Unidad de datos: Datos.</li><li><b>Nivel de Transporte</b>: conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Segmentos.</li><li><b>Nivel de Red</b>: determinación de ruta y direccionamiento lógico (IP). Unidad de datos: Paquetes.</li><li><b>Nivel de Enlace de Datos</b>: direccionamiento físico (MAC y LLC). Unidad de datos: Tramas.</li><li><b>Nivel Físico</b>: señal y transmisión binaria. Unidad de datos: Bits.</li></ul>
 
-<p>Regla nemotécnica, </b>FERTSPA<b> (first spa).</p>
+<p>Regla nemotécnica, <b>FERTSPA</b> (first spa).</p>
 
 <h3 id="Modelo_TCP/IP">Modelo TCP/IP</h3>
 
-<p>Las </b>capas del Modelo TCP/IP<b> son </b>cuatro<b>:</p>
+<p>Las <b>capas del Modelo TCP/IP</b> son <b>cuatro</b>:</p>
 
-<ul><li></b>Capa 1<b> o capa de </b>acceso al medio<b>: asimilable a la capa 1 (física) y capa 2 (enlace de datos) del Modelo OSI.</li><li></b>Capa 2<b> o capa de </b>internet<b>: asimilable a la capa 3 (red).</li><li></b>Capa 3<b> o capa de </b>transporte<b>: asimilable a la capa 4 (transporte).</li><li></b>Capa 4<b> o capa de </b>aplicación<b>: asimilable a las capas 5 (sesión), 6 (presentación) y 7 (aplicación).</li></ul>
+<ul><li><b>Capa 1</b> o capa de <b>acceso al medio</b>: asimilable a la capa 1 (física) y capa 2 (enlace de datos) del Modelo OSI.</li><li><b>Capa 2</b> o capa de <b>internet</b>: asimilable a la capa 3 (red).</li><li><b>Capa 3</b> o capa de <b>transporte</b>: asimilable a la capa 4 (transporte).</li><li><b>Capa 4</b> o capa de <b>aplicación</b>: asimilable a las capas 5 (sesión), 6 (presentación) y 7 (aplicación).</li></ul>
 
-<p>El </b>Modelo OSI es teórico<b>, mientras que el </b>Modelo TCP/IP es una implementación<b>.</p>
+<p>El <b>Modelo OSI es teórico</b>, mientras que el <b>Modelo TCP/IP es una implementación</b>.</p>
 
 <h3 id="Puertos">Puertos</h3>
 
@@ -727,11 +727,11 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
 </div>
 
-<p></b>Puertos TCP y UDP<b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<sup>[<a id="refback13" href="#ref13">13</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
+<p><b>Puertos TCP y UDP</b> utilizados por protocolos de la capa de aplicación del Protocolo de Internet para establecer conexión entre hosts. Han sido asignados por la Internet Assigned Numbers Authority (IANA).<sup>[<a id="refback13" href="#ref13">13</a>]</sup> Los puertos son números de 16 bit, lo que permite un rango del 0 al 65535.</p>
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li></b>0<b>: Reservado</li><li></b>7<b>: Echo Protocol</li><li></b>21<b>: File Transfer Protocol (FTP)</li><li></b>22<b>: Secure Shell (SSH), scp, sftp</li><li></b>23<b>: Telnet remote login service</li><li></b>25<b>: Simple Mail Transfer Protocol (SMTP)</li><li></b>37<b>: Time Protocol</li><li></b>43<b>: WHOIS Protocol</li><li></b>53<b>: Domain Name System (DNS) service</li><li></b>69<b>: Trivial File Transfer Protocol (TFTP)</li><li></b>70<b>: Gopher Protocol</li><li></b>79<b>: Finger Protocol</li><li></b>80<b>: Hypertext Transfer Protocol (HTTP)</li><li></b>88<b>: Kerberos Authentication System</li><li></b>109<b>: Post Office Protocol (POP2)</li><li></b>110<b>: Post Office Protocol (POP3)</li><li></b>115<b>: Simple File Transfer Protocol</li><li></b>119<b>: Network News Transfer Protocol (NNTP)</li><li></b>123<b>: Network Time Protocol (NTP)</li><li></b>137<b>: NetBIOS Name Service</li><li></b>143<b>: Internet Message Access Protocol (IMAP)</li><li></b>161<b>: Simple Network Management Protocol (SNMP)</li><li></b>194<b>: Internet Relay Chat (IRC)</li><li></b>209<b>: Quick Mail Transfer Protocol (QMTP)</li><li></b>443<b>: HTTP Secure (HTTPS)</li><li></b>993<b>: IMAP over SSL</li><li></b>995<b>: POP3 over SSL</li><li></b>1080<b>: SOCKS proxy</li></ul>
+<ul><li><b>0</b>: Reservado</li><li><b>7</b>: Echo Protocol</li><li><b>21</b>: File Transfer Protocol (FTP)</li><li><b>22</b>: Secure Shell (SSH), scp, sftp</li><li><b>23</b>: Telnet remote login service</li><li><b>25</b>: Simple Mail Transfer Protocol (SMTP)</li><li><b>37</b>: Time Protocol</li><li><b>43</b>: WHOIS Protocol</li><li><b>53</b>: Domain Name System (DNS) service</li><li><b>69</b>: Trivial File Transfer Protocol (TFTP)</li><li><b>70</b>: Gopher Protocol</li><li><b>79</b>: Finger Protocol</li><li><b>80</b>: Hypertext Transfer Protocol (HTTP)</li><li><b>88</b>: Kerberos Authentication System</li><li><b>109</b>: Post Office Protocol (POP2)</li><li><b>110</b>: Post Office Protocol (POP3)</li><li><b>115</b>: Simple File Transfer Protocol</li><li><b>119</b>: Network News Transfer Protocol (NNTP)</li><li><b>123</b>: Network Time Protocol (NTP)</li><li><b>137</b>: NetBIOS Name Service</li><li><b>143</b>: Internet Message Access Protocol (IMAP)</li><li><b>161</b>: Simple Network Management Protocol (SNMP)</li><li><b>194</b>: Internet Relay Chat (IRC)</li><li><b>209</b>: Quick Mail Transfer Protocol (QMTP)</li><li><b>443</b>: HTTP Secure (HTTPS)</li><li><b>993</b>: IMAP over SSL</li><li><b>995</b>: POP3 over SSL</li><li><b>1080</b>: SOCKS proxy</li></ul>
 </div>
 
 
@@ -748,9 +748,9 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <p>Pregunta relacionada en<br/><b>2016 (PI) 2015 (IL) 2015-SE (IL) </b></p>
 </div>
 
-<p></b>IPv4<b> tiene ips de 32 bits (4 octetos, 4 bytes), comprendidas entre 0.0.0.0 y 255.255.255.255.</p>
+<p><b>IPv4</b> tiene ips de 32 bits (4 octetos, 4 bytes), comprendidas entre 0.0.0.0 y 255.255.255.255.</p>
 
-<p></b>IPv6</i>' tiene ips de 128 bits (8 grupos de 16 bits), comprendidas entre 0:0:0:0:0:0:0:0 y ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff. Cuando se usa '::' se quiere indicar que son todo ceros ':0000:'.</p>
+<p><b>IPv6</b> tiene ips de 128 bits (8 grupos de 16 bits), comprendidas entre 0:0:0:0:0:0:0:0 y ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff. Cuando se usa '::' se quiere indicar que son todo ceros ':0000:'.</p>
 
 <ul><li><b>::/128</b>: ausencia de dirección, dirección indefinida. Todos sus bits a cero. Como 0.0.0.0 en IPv4.</li><li><b>::1/128</b>: loopback, dirección unicast de localhost. Como 127.0.0.1 en IPv4.</li><li><b>::1.2.3.4/96</b>: ipv4 compatible</li><li><b>::ffff:0:0/96</b>: ipv4 mapeada</li><li><b>fe80::/10</b>: prefijo enlace local</li><li><b>fec0::</b>: prefijo emplazamiento local</li><li><b>fc00::/7</b>: prefijo de dirección local única</li><li><b>ff00::/8</b>: prefijo de multicast</li></ul>
 
@@ -872,7 +872,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-09 16:25:18 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-10 14:45:32 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

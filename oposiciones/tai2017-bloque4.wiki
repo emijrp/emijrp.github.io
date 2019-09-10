@@ -391,7 +391,7 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''ping''': petición de ICMP echo para comprobar si un host está disponible.
 
-* ''Prometheus''': 
+* '''Prometheus''': 
 
 * '''scp''': transferencia de ficheros de manera segura, basado en ssh.
 
