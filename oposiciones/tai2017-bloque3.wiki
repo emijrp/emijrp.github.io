@@ -1551,20 +1551,21 @@ Las herramientas CASE se pueden clasificar según las fases en las que se apliqu
 El '''control de versiones''' es el seguimiento de las modificaciones realizadas en un software. Se puede hacer de forma manual pero lo apropiado es usar alguna herramienta específica, llamada '''sistema de control de versiones''' que facilita la gestión de los cambios.
 
 Los sistemas de control de versiones pueden ser:
-* '''Distribuidos''': cada usuario tiene una copia del repositorio y suele existir uno donde se sincronizan los cambios entre usuarios. Ejemplo: Mercurial y Git.
-* '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar central. Ejemplo: CVS y Subversion.
+* '''Centralizados''': son aquellos en los que el histórico completo se encuentra en un lugar central. Ejemplo: CVS, Subversion y Visual SourceSafe.
+* '''Distribuidos''': cada usuario tiene una copia del repositorio y suele existir uno donde se sincronizan los cambios entre usuarios. Ejemplo: Bazaar, BitKeeper, Mercurial y Git.
 
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Algunas de estas '''herramientas''' son:
 
-* '''Bazaar''': creado en 2007, patrocinado por Canonical.
-* '''BitKeeper''': creado en 2000, tiene licencia Apache. Es de arquitectura distribuida.
+* '''Bazaar''': creado en 2007, patrocinado por Canonical. Distrubido.
+* '''BitKeeper''': creado en 2000, tiene licencia Apache. Era el usado para el kernel Linux antes de Git. Es de arquitectura distribuida.
 * '''CSV''': es acrónimo de Concurrent Versioning System. Creado en 1986 y soportado hasta 2008. Licencia GPL. Es de arquitectura centralizada.
-* '''Darcs''': creado en 2003 por David Roundy, software libre (GPL).
-* '''Git''': creado en 2005 por Linus Torvalds, con licencia GPL. Es de arquitectura distribuida. Se utiliza para el núcleo Linux.
+* '''Darcs''': creado en 2003 por David Roundy, software libre (GPL). Distribuido.
+* '''Git''': creado en 2005 por Linus Torvalds, con licencia GPL. Es de arquitectura distribuida. Se utiliza para el kernel Linux.
+* '''GNU arch''': con licencia libre, de arquitectura distribuida.
 * '''Mercurial''': creado en 2005 con licencia GPL. Es de arquitectura distribuida.
 * '''Subversion''': o SVN, creado en 2000 y tiene licencia Apache. Es de arquitectura centralizada.
-* '''Visual SourceSafe''': de Microsoft.
+* '''Visual SourceSafe''': de Microsoft. Es centralizado.
 
 Algunos '''conceptos''' frecuentes:
 
