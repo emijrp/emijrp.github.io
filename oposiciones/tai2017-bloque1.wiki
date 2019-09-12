@@ -468,6 +468,11 @@ Datos criptográficos:
 
 Los certificados de identidad pública contenidos en el DNIe son emitidos como certificados reconocidos, vinculando una serie de datos personales del ciudadano a unas determinadas claves, garantizando la autenticidad, integridad y no repudio.
 
+Zonas de acceso:
+* '''Zona pública''': accesible en lectura sin restricciones. Certificado CA, claves Diffie-Hellman, certificado x509 de componente.
+* '''Zona privada''': accesible en lectura por el ciudadano mediante clave o PIN. Certificado de firma, certificado de autenticación.
+* '''Zona de seguridad''': accesible en lectura por el ciudadano en los puntos de actualización de DNIe. Datos de filiación, fotografía y firma.
+
 El DNIe requiere de un ordenador y un lector de tarjetas inteligentes. Se puede usar en Windows (instalando el servicio CryptographicServiceProvider) y en Unix/Linux/MAC (con el módulo PKCS#11).
 
 == Tema 9 ==
