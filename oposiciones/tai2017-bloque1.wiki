@@ -443,6 +443,8 @@ Algunos '''artículos destacados''':
 
 === DNI electrónico ===
 
+El '''DNI electrónico''' permite acreditar electrónicamente y de forma inequívoca la identidad, y firmar digitalmente documentos electrónicos. El chip del DNIe contiene los mismos datos que aparecen impresos en la tarjeta, junto con los certificados de autenticación y de firma electrónica.<ref>[https://firmaelectronica.gob.es/Home/Ciudadanos/DNI-Electronico.html ¿Qué es el DNI electrónico?]</ref>
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 La '''validez del DNI''' es la siguiente:
 * Dos años, cuando el solicitante no haya cumplido los cinco años de edad.
@@ -450,7 +452,9 @@ La '''validez del DNI''' es la siguiente:
 * Diez años, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta.
 * Validez permanente desde los setenta años.
 
-Los certificados del DNI electrónico tienen validez de hasta 5 años.
+Los '''certificados''' del DNI electrónico tienen validez de hasta 5 años. Con el DNIe se obtienen dos certificados:
+* '''Certificado de autenticación''': garantiza electrónicamente la identidad del ciudadano al realizar una transacción telemática.
+* '''Certificado de firma''': permite la firma de trámites o documentos, sustituyendo a la firma manuscrita.
 
 {{cayo-en-convocatoria|1=2014 (PI)}}
 Datos criptográficos:
@@ -463,6 +467,8 @@ Datos criptográficos:
 * Patrón dactilar
 
 Los certificados de identidad pública contenidos en el DNIe son emitidos como certificados reconocidos, vinculando una serie de datos personales del ciudadano a unas determinadas claves, garantizando la autenticidad, integridad y no repudio.
+
+El DNIe requiere de un ordenador y un lector de tarjetas inteligentes. Se puede usar en Windows (instalando el servicio CryptographicServiceProvider) y en Unix/Linux/MAC (con el módulo PKCS#11).
 
 == Tema 9 ==
 
