@@ -616,25 +616,37 @@ Las medidas de seguridad del Esquema Nacional de Seguridad se dividen en: marco 
 
 El '''Esquema Nacional de Interoperabilidad''' (ENI) es el conjunto de criterios y recomendaciones que deben ser tenidos en cuenta por las administraciones públicas para la toma de decisiones tecnológicas que garanticen la interoperabilidad.
 
+La '''interoperabilidad''' es la capacidad de los sistemas de información y de los procedimientos a los que éstos dan soporte, de compartir datos y posibilitar el intercambio de información y conocimiento entre ellos.
+
+El Esquema Nacional de Interoperabilidad comprenderá los criteros y recomendaciones de seguridad, normalización y conservación de la información, de los formatos y de las aplicaciones que deberán ser tenidos en cuenta por las administraciones públicas para asegurar un adecuado nivel de interoperabilidad organizativa, semántica y técnica de los datos, informaciones y servicios que gestionen en el ejercicio de sus competencias y para evitar la discriminación a los ciudadanos por razón de su elección tecnológica.
+
+Los '''principios básicos''' son: a) La interoperabilidad como cualidad integral. b) Carácter multidimiensional de la interoperabilidad. c) Enfoque de soluciones multilaterales.
+
 '''Glosario''' del Esquema Nacional de Interoperabilidad:
 
-* '''Aplicación de fuentes abiertas''':
+* '''Aplicación de fuentes abiertas''': aquella que se distribuye con una licencia que permite la libertad de ejecutarla, de conocer el código fuente, de modificarla o mejorarla y de redistribuir copias a otros usuarios.
 
-* '''Cadena de interoperabilidad''':
+* '''Cadena de interoperabilidad''': expresión de la interoperabilidad en el despliegue de los sistemas y los servicios como una sucesión de elementos enlazados e interconectados, de forma dinámica, a través de interfaces y con proyección a las dimensiones técnica, semántica y organizativa.
 
-* '''Interoperabilidad''':
+* '''Documento electrónico''': información de cualquier naturaleza en forma electrónica, archivada en un soporte electrónico según un formato determinado y susceptible de identificación y tratamiento diferenciado.
 
-* '''Interoperabilidad organizativa''':
+* '''Estándar abierto''': aquel que reune las siguientes condiciones. a) Que sea público y su utilización sea disponible de manera gratuita o a un coste que no suponga una dificultad de acceso. b) Que su uso y aplicación no esté condicionado al pago de un derecho de propiedad intelectual o industrial.
 
-* '''Interoperabilidad semántica''':
+* '''Firma electrónica''': conjunto de datos en forma electrónica, consignados junto a otros o asociados con ellos, que pueden ser utilizados como medio de identificación del firmante.
 
-* '''Interoperabilidad técnica''':
+* '''Interoperabilidad''': capacidad de los sistemas de información, y por ende de los procedimientos a los que éstos dan soporte, de compartir datos y posibilitar el intercambio de información y conocimiento entre ellos.
 
-* '''Interoperabilidad en el tiempo''':
+* '''Interoperabilidad organizativa''': es aquella dimensión de la interoperabilidad relativa a la capacidad de las entidades y de los procesos a través de los cuales llevan a cabo sus actividades para colaborar con el objeto de alcanzar logros mutuamente acordados relativos a los servicios que prestan.
 
-* '''Nodo de interoperabilidad''': organismo que presta servicios de interconexión técnica, organizativa y jurídica entre sistemas de información para un conjunto de Administraciones Públicas bajo las condiciones que éstas fijen.
+* '''Interoperabilidad semántica''': es aquella dimensión de la interoperabilidad relativa a que la información intercambiada pueda ser interpretable de forma automática y reutilizable por aplicaciones que no intervinieron en su creación.
 
-* '''Servicio de interoperabilidad''': 
+* '''Interoperabilidad técnica''': es aquella dimensión de la interoperabilidad relativa a la relación entre sistemas y servicios de tecnologías de la información, incluyendo aspectos tales como las interfaces, la interconexión, la integración de datos y servicios, la presentación de la información, la accesibilidad y la seguridad, u otros de naturaleza análoga.
+
+* '''Interoperabilidad en el tiempo''': es aquella dimensión de la interoperabilidad relativa a la interacción entre elementos que corresponden a diversas oleadas tecnológicas; se manifiesta especialmente en la conservación de la información en soporte electrónico.
+
+* '''Nodo de interoperabilidad''': organismo que presta servicios de interconexión técnica, organizativa y jurídica entre sistemas de información para un conjunto de administraciones públicas bajo las condiciones que éstas fijen.
+
+* '''Servicio de interoperabilidad''': cualquier mecanismo que permita a las administraciones públicas compartir datos e intercambiar información mediante el uso de las tecnologías de la información.
 
 == Tema 11 ==
 
