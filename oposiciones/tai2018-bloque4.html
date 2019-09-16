@@ -100,6 +100,13 @@
 
 <ul><li><b>Cintas magnéticas</b>: permiten un gran almacenamiento y una gran velocidad de lectura-escritura una vez situada. La latencia para situarse en un punto cualquiera de la cinta es alta por el rebobinado. Admiten compresión y cifrado. Las tecnologías más conocidas son Linear Tape-Open (LTO), IBM 3592 y Oracle StorageTek T10000.</li><li><b>Disco duro</b>: cada vez ofrecen más capacidad a menos precio. Son fáciles de usar y ampliamente disponibles, pero pueden sufrir daño más fácilmente que las cintas al ser transportado de un lugar a otro.</li><li><b>Discos ópticos</b>: una solución barata, pero la durabilidad de estos soportes no es muy fiable.</li><li><b>Remoto</b>: backups en servicios remotos o la nube. Depende de la velocidad de la red.</li></ul>
 
+<p>Algunos <b>conceptos</b>:</p>
+
+<ul><li><b>Recovery Point Objective</b> (RPO): el instante al que el sistema regresará al ser restaurado a partir de un backup. Podría simplificarse como los datos que la organización está dispuesta a perder. Si la organización quiere reducir la cantidad de datos a perder, es necesario hacer backups con mayor frecuencia.<sup>[<a id="refback1" href="#ref1">1</a>]</sup></li><li><b>Recovery Time Objective</b> (RTO): es el tiempo que transcurre desde que la organización se ve afectada hasta que se recupera y el sistema vuelve a estar disponible.</li><li><b>Data security</b>: además de preservar los datos, debe restringirse su acceso a usuarios no autorizados. Esto se logra con el cifrado.</li><li><b>Data retention</b>: el tiempo que los datos pueden o deben ser almacenados según las políticas de la empresa y/o legislación.</li><li><b>Checksum</b>: suma de verificación que permite saber si los datos han sido copiados correctamente, habitualmente MD5 o SHA1.</li><li><b>Snapshot</b>: copia del estado de un sistema en un momento concreto.</li></ul>
+
+<p>Algunas <b>herramientas</b> de backups:<sup>[<a id="refback2" href="#ref2">2</a>]</sup><sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
+<ul><li><b>Amanda</b>: </li><li><b>AOMEI Backupper</b>: </li><li><b>Bacula</b>: </li><li><b>Bareos</b>: </li><li><b>Clonezilla</b>: </li><li><b>Gparted</b>: </li><li><b>Urbackup</b>: </li><li><b>Zenko</b>: </li></ul>
+
 <!--
 BACKUP
 
@@ -109,20 +116,7 @@ https://www.capside.com/es/labs/backups-101-que-debemos-tener-en-cuenta-politica
 
 https://www.ibiblio.org/pub/linux/docs/LuCaS/Manuales-LuCAS/doc-unixsec/unixsec-html/node100.html
 
-RTO tiempo de recuperacion
-
 https://es.wikipedia.org/wiki/Plan_de_recuperaci%C3%B3n_ante_desastres
-
-    Punto Objetivo de Recuperación (RPO, Recovery Point Objective). RPO es una medida que indica el máximo periodo de tiempo que una organización está dispuesta a perder datos. Podría simplificarse como lo que la organización está dispuesta a perder en cantidad de datos. Para reducir un RPO es necesario aumentar el sincronismo de réplica de datos.
-    Tiempo objetivo de recuperación (RTO, Recovery Time Objective) es el tiempo que pasará una infraestructura antes de estar disponible. Para reducir el RTO, se requiere que la Infraestructura (Tecnológica, Logística, Física) esté disponible en el menor tiempo posible pasado el evento de interrupción.
-
-https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design
-
-concepto de snapshots
-
-herramientas varias https://github.com/Contali/awesome-storage y https://en.wikipedia.org/wiki/List_of_backup_software
-bacula, zenko, urbackup, amanda, bareos
-clonezilla, gparted, AOMEI Backupper
 
 -->
 
@@ -194,6 +188,9 @@ https://www.youtube.com/watch?v=gsP46ltENRY RDP Remote Desktop Protocol
 <ol>
 <!--references-->
 
+<li id="ref1"><a href="#refback1">↑</a> <a href="https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design">RTO and RPO</a></li>
+<li id="ref2"><a href="#refback2">↑</a> <a href="https://github.com/Contali/awesome-storage">Awesome storage</a></li>
+<li id="ref3"><a href="#refback3">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_backup_software">List of backup software</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -222,7 +219,7 @@ https://www.youtube.com/watch?v=gsP46ltENRY RDP Remote Desktop Protocol
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-16 16:03:37 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-16 16:35:54 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

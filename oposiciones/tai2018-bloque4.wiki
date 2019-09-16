@@ -63,6 +63,30 @@ La '''rotación de backups''' también permite ir descartando backups antiguas c
 
 * '''Remoto''': backups en servicios remotos o la nube. Depende de la velocidad de la red.
 
+Algunos '''conceptos''':
+
+* '''Recovery Point Objective''' (RPO): el instante al que el sistema regresará al ser restaurado a partir de un backup. Podría simplificarse como los datos que la organización está dispuesta a perder. Si la organización quiere reducir la cantidad de datos a perder, es necesario hacer backups con mayor frecuencia.<ref>[https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design RTO and RPO]</ref>
+
+* '''Recovery Time Objective''' (RTO): es el tiempo que transcurre desde que la organización se ve afectada hasta que se recupera y el sistema vuelve a estar disponible.
+
+* '''Data security''': además de preservar los datos, debe restringirse su acceso a usuarios no autorizados. Esto se logra con el cifrado.
+
+* '''Data retention''': el tiempo que los datos pueden o deben ser almacenados según las políticas de la empresa y/o legislación.
+
+* '''Checksum''': suma de verificación que permite saber si los datos han sido copiados correctamente, habitualmente MD5 o SHA1.
+
+* '''Snapshot''': copia del estado de un sistema en un momento concreto.
+
+Algunas '''herramientas''' de backups:<ref>[https://github.com/Contali/awesome-storage Awesome storage]</ref><ref>[https://en.wikipedia.org/wiki/List_of_backup_software List of backup software]</ref>
+* '''Amanda''': 
+* '''AOMEI Backupper''': 
+* '''Bacula''': 
+* '''Bareos''': 
+* '''Clonezilla''': 
+* '''Gparted''': 
+* '''Urbackup''': 
+* '''Zenko''': 
+
 <!--
 BACKUP
 
@@ -72,20 +96,7 @@ https://www.capside.com/es/labs/backups-101-que-debemos-tener-en-cuenta-politica
 
 https://www.ibiblio.org/pub/linux/docs/LuCaS/Manuales-LuCAS/doc-unixsec/unixsec-html/node100.html
 
-RTO tiempo de recuperacion
-
 https://es.wikipedia.org/wiki/Plan_de_recuperaci%C3%B3n_ante_desastres
-
-    Punto Objetivo de Recuperación (RPO, Recovery Point Objective). RPO es una medida que indica el máximo periodo de tiempo que una organización está dispuesta a perder datos. Podría simplificarse como lo que la organización está dispuesta a perder en cantidad de datos. Para reducir un RPO es necesario aumentar el sincronismo de réplica de datos.
-    Tiempo objetivo de recuperación (RTO, Recovery Time Objective) es el tiempo que pasará una infraestructura antes de estar disponible. Para reducir el RTO, se requiere que la Infraestructura (Tecnológica, Logística, Física) esté disponible en el menor tiempo posible pasado el evento de interrupción.
-
-https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design
-
-concepto de snapshots
-
-herramientas varias https://github.com/Contali/awesome-storage y https://en.wikipedia.org/wiki/List_of_backup_software
-bacula, zenko, urbackup, amanda, bareos
-clonezilla, gparted, AOMEI Backupper
 
 -->
 
