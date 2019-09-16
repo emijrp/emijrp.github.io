@@ -31,7 +31,37 @@ Existen distintas soluciones, desde las más sencillas y baratas, hasta las más
 
 === Backups de sistemas físicos y virtuales ===
 
-''Por desarrollar.''
+Un '''backup''' o '''copia de seguridad''' es una copia de los datos de un sistema, que se almacena en otro lugar, y que está disponible para su restauración en caso de pérdida de los datos originales.
+
+Los datos originales pueden perderse o corromperse por diversos motivos: daños al soporte original, virus, ataques, borrado accidental, etc.
+
+Es recomendable que la copia de seguridad se almacene en un soporte y lugar distinto del original, de lo contrario es muy posible que tanto el original como la copia se vean afectados en caso de que surja algún problema.
+
+En caso de ser necesario, la copia de seguridad deberá ser '''cifrada''' para que solo quien deba acceder a los datos pueda hacerlo. Las copias de seguridad también pueden '''comprimirse''' o someterse a '''deduplicación''' de ficheros para reducir su tamaño.
+
+La '''rotación de backups''' también permite ir descartando backups antiguas cuando ya no son necesarias, reutilizando el espacio liberado para backups nuevas. El número de copias de seguridad y el tiempo que se conservarán tendrá que determinarse en cada caso concreto en función de las necesidades.
+
+'''Métodos''' de backups:
+
+* '''Sin estructurar''': simplemente copiar ficheros en otro medio (cintas, DVDs, discos externos), con escasa información sobre lo que fue copiado y cuando. Es un método fácil y rápido, pero en caso de ser necesario restaurar cierta cantidad de datos, puede no ser lo más idoneo.
+
+* '''Imágenes del sistema''': generando una imagen de un estado concreto del sistema en cierto momento. Útil no solo como backup, sino para replicar un sistema con una configuración conocida que funciona en multitud de equipos.
+
+* '''Incremental''': se copian solo los datos que han cambiado desde un momento concreto. Normalmente se hace un backup completo en cierto momento y luego se hacen backups incrementales, que es más barato en términos de espacio.
+
+* '''Continuous Data Protection''': son backups que almacenan cada cambio realizado sobre los datos (True-CDP). Los sistemas Near-CDP hacen copias incrementales cada varios minutos u horas.
+
+* '''Diferencial''': copia solo los datos que han cambiado desde el último backup completo.
+
+'''Medios de almacenamiento''' de backups:
+
+* '''Cintas magnéticas''': permiten un gran almacenamiento y una gran velocidad de lectura-escritura una vez situada. La latencia para situarse en un punto cualquiera de la cinta es alta por el rebobinado. Admiten compresión y cifrado. Las tecnologías más conocidas son Linear Tape-Open (LTO), IBM 3592 y Oracle StorageTek T10000.
+
+* '''Disco duro''': cada vez ofrecen más capacidad a menos precio. Son fáciles de usar y ampliamente disponibles, pero pueden sufrir daño más fácilmente que las cintas al ser transportado de un lugar a otro.
+
+* '''Discos ópticos''': una solución barata, pero la durabilidad de estos soportes no es muy fiable.
+
+* '''Remoto''': backups en servicios remotos o la nube. Depende de la velocidad de la red.
 
 <!--
 BACKUP
