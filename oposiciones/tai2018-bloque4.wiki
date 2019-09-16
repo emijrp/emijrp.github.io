@@ -3,7 +3,7 @@
 
 El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a TAI 2018]] se compone de '''10 temas'''.
 
-== Comparativa con el programa de TAI 2017 ==
+'''Comparativa''' con el programa de TAI 2017:
 
 * Tema 1: Igual.
 * Tema 2: Añaden "Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backups de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario".

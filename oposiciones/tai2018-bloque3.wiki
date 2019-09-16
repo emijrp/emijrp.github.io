@@ -3,7 +3,7 @@
 
 El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a TAI 2018]] se compone de '''10 temas'''.
 
-== Comparativa con el programa de TAI 2017 ==
+'''Comparativa''' con el programa de TAI 2017:
 
 * Tema 1-5: Igual.
 * Tema 6: Dejan de nombrar C y C++.
