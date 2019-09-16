@@ -18,7 +18,9 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 {{recuadro|1='''Tema 8.''' Aplicaciones web. '''Desarrollo web front-end y en servidor, multiplataforma y multidispositivo'''. Lenguajes: HTML, XML y sus derivaciones. Navegadores y lenguajes de programación web. Lenguajes de script.}}
 
-* Desarrollo web front-end y en servidor, multiplataforma y multidispositivo
+=== Desarrollo web front-end y en servidor ===
+
+==== Multiplataforma y multidispositivo ====
 
 ''Por desarrollar.''
 
@@ -26,7 +28,7 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 {{recuadro|1='''Tema 9.''' Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final. '''Conceptos de seguridad en el desarrollo de los sistemas'''.}}
 
-* Conceptos de seguridad en el desarrollo de los sistemas
+=== Conceptos de seguridad en el desarrollo de los sistemas ===
 
 ''Por desarrollar.''
 
@@ -34,15 +36,7 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 {{recuadro|1='''Tema 10.''' Herramientas CASE: características. Repositorios: estructura y actualización. Generación de código y documentación. '''Metodologías de desarrollo. Pruebas'''. Programas para control de versiones. Plataformas de desarrollo colaborativo de software.}}
 
-* Metodologías de desarrollo. Pruebas
-
-''Por desarrollar.''
-
-<!--
-
-https://es.wikipedia.org/wiki/Metodolog%C3%ADa_de_desarrollo_de_software
-
-Metodologías de desarrollo:
+=== Metodologías de desarrollo ===
 
 * '''Desarrollo en cascada''': también llamado '''modelo secuencial''' o '''modelo clásico''', es aquel que ordena rigurosamente las etapas del ciclo de vida del software de forma secuencial. Cada etapa debe finalizar antes de pasar a la siguiente. Estas etapas serían las clásicas, análisis de requisitos, diseño, codificación, pruebas, despliegue y mantenimiento. Es poco flexible, ya que un fallo en las primeras etapas, por ejemplo en los requisitos, conlleva a repetir el proceso aumentando costes.
 
@@ -58,7 +52,9 @@ Metodologías de desarrollo:
 ** Programación extrema
 ** Otros: desarrollo de software adaptativo (ASD), método de desarrollo de sistemas dinámicos (DSDM). Rational Unified Process RUP
 
+<!--
 
+https://es.wikipedia.org/wiki/Metodolog%C3%ADa_de_desarrollo_de_software
 
 RAD
 
@@ -71,6 +67,10 @@ Para esto suelen utilizarse aplicaciones como Solano CI, Bamboo, Pipeline, Apach
 A menudo la integración continua está asociada con las metodologías de programación extrema y desarrollo ágil.
 
 -->
+
+=== Pruebas ===
+
+''Por desarrollar.''
 
 == Fuentes ==
 

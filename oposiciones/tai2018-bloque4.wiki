@@ -19,8 +19,6 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 {{recuadro|1='''Tema 2.''' Administración de bases de datos. Funciones y responsabilidades. '''Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backup de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario'''.}}
 
-* Sistemas de almacenamiento y su virtualización. Políticas, sistemas y procedimientos de backup y su recuperación. Backups de sistemas físicos y virtuales. Virtualización de sistemas y virtualización de puestos de usuario
-
 === Sistemas de almacenamiento ===
 
 Existen distintas soluciones, desde las más sencillas y baratas, hasta las más costosas pero con mayores prestaciones:
@@ -32,6 +30,8 @@ Existen distintas soluciones, desde las más sencillas y baratas, hasta las más
 * '''Red de Área de Almacenamiento''' (SAN/Storage Area Network): es una arquitectura completa dedicada a almacenar grandes cantidades de datos. Cuenta con elementos de almacenamiento (discos duros), una red de alta velocidad (fibra) y equipos de interconexión (hubs, bridges). La capacidad puede extenderse fácilmente añadiendo más discos. Los protocolos de acceso incluyen Fibre Channel y Gigabit Ethernet. Un SAN es más costoso que un NAS, pero sus prestaciones son mucho mayores.
 
 === Backups de sistemas físicos y virtuales ===
+
+''Por desarrollar.''
 
 <!--
 BACKUP
@@ -119,7 +119,11 @@ Los '''contenedores''' se encuentran separados unos de otros y contienen su prop
 
 {{recuadro|1='''Tema 5.''' Conceptos de seguridad de los sistemas de información. Seguridad física. Seguridad lógica. Amenazas y vulnerabilidades. '''Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital'''. Infraestructura física de un CPD: acondicionamiento y equipamiento. Sistemas de gestión de incidencias. Control remoto de puestos de usuario.}}
 
-* Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital
+=== Técnicas criptográficas y protocolos seguros ===
+
+''Por desarrollar.''
+
+=== Mecanismos de firma digital ===
 
 ''Por desarrollar.''
 
