@@ -371,8 +371,15 @@ Algoritmos de '''ordenación''':
 
 * '''Rápido / Quicksort''': se escoge un elemento de la lista, llamado pivote. Todos los elementos menores se colocan a su izquierda, los mayores a su derecha. Después se procede con cada sublista, en las que se repite el proceso escogiendo un pivote en cada una.
 
-* '''Stupid sort''': 
+* '''Stupid sort''': algoritmo ineficiente de ordenación. Genera permutaciones de la entrada hasta que resulta ordenada. También llamado bogosort.
 
+'''Otros''' algoritmos:
+
+* '''Dijkstra''': determina el camino más corto de un nodo a otro (en la versión básica del algoritmo), o entre un nodo y todos los demás nodos.
+
+* '''Kruskal''': encuentra un árbol recubridor mínimo en un grafo conexo y ponderado. Es decir, buscar un subconjunto de aristas, que formando un árbol, incluyen todos los vértices y donde el valor de la suma de las aristas del árbol es mínimo.
+
+* '''Prim''': otro algoritmo para el mismo problema que resuelve Kruskal.
 
 === Formatos de ficheros ===
 
