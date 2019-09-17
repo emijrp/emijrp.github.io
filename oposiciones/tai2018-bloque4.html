@@ -104,8 +104,8 @@
 
 <ul><li><b>Recovery Point Objective</b> (RPO): el instante al que el sistema regresará al ser restaurado a partir de un backup. Podría simplificarse como los datos que la organización está dispuesta a perder. Si la organización quiere reducir la cantidad de datos a perder, es necesario hacer backups con mayor frecuencia.<sup>[<a id="refback1" href="#ref1">1</a>]</sup></li><li><b>Recovery Time Objective</b> (RTO): es el tiempo que transcurre desde que la organización se ve afectada hasta que se recupera y el sistema vuelve a estar disponible.</li><li><b>Data security</b>: además de preservar los datos, debe restringirse su acceso a usuarios no autorizados. Esto se logra con el cifrado.</li><li><b>Data retention</b>: el tiempo que los datos pueden o deben ser almacenados según las políticas de la empresa y/o legislación.</li><li><b>Checksum</b>: suma de verificación que permite saber si los datos han sido copiados correctamente, habitualmente MD5 o SHA1.</li><li><b>Snapshot</b>: copia del estado de un sistema en un momento concreto.</li></ul>
 
-<p>Algunas <b>herramientas</b> de backups:<sup>[<a id="refback2" href="#ref2">2</a>]</sup><sup>[<a id="refback3" href="#ref3">3</a>]</sup></p>
-<ul><li><b>Amanda</b>: </li><li><b>AOMEI Backupper</b>: </li><li><b>Bacula</b>: </li><li><b>Bareos</b>: </li><li><b>Clonezilla</b>: </li><li><b>Gparted</b>: </li><li><b>Urbackup</b>: </li><li><b>Zenko</b>: </li></ul>
+<p>Algunas <b>herramientas</b> de backups:<sup>[<a id="refback2" href="#ref2">2</a>]</sup><sup>[<a id="refback3" href="#ref3">3</a>]</sup><sup>[<a id="refback4" href="#ref4">4</a>]</sup></p>
+<ul><li><b>Acronis True Image</b>: herramienta de clonado de discos y particiones, también de backups de archivos. Funciona para Windows, macOS, iOS y Android.</li><li><b>Amanda</b>: hace copias de seguridad de datos en diferentes equipos de una red, usando un modelo cliente-servidor. El servidor contacta cada cliente a la hora programada y hace el backup. Funciona en Linux y Windows. Tiene licencia BSD.</li><li><b>AOMEI Backupper</b>: hace backups, sincroniza, restaura y clona datos de sistemas Windows.</li><li><b>Bacula</b>: herramienta de backups para empresas, para equipos en red. Soporta Linux, Windows y macOS. Es software libre.</li><li><b>Bareos</b>: Backup Archiving Recovery Open Sourced. Es un fork de Bacula.</li><li><b>Clonezilla</b>: herramienta de clonado de discos y particiones. Permite hacer imágenes, en local o en remoto. Tiene licencia GPL.</li><li><b>dd</b>: comando Unix para copiar ficheros, particiones, volúmenes y dispositivos. Ejemplo: dd if=/dev/sda1 of=/dev/sdb1 bs=4096 conv=noerror (clonado de partición).</li><li><b>Ghost</b>: herramienta de clonado de Symantec.</li><li><b>Gparted</b>: herramienta de gestión de particiones (crear, borrar, redimensionar, mover, copiar).</li><li><b>HDClone</b>: herramienta de clonado, sector a sector y fichero a fichero. Para Windows.</li><li><b>ntfsclone</b>: herramienta de clonado de particiones NTFS. Pertenece al paquete ntfsprogs con otras herramientas para este sistema de ficheros.</li><li><b>Partclone</b>: herramienta de Linux para clonar particiones. Usado por Clonezilla y Redo Backup and Recovery.</li><li><b>Partimage</b>: herramienta de Linux para crear imágenes de particiones.</li><li><b>Redo Backup and Recovery</b>: paquete de herramientas de backup y recuperación, desde LiveCD.</li><li><b>tar</b>: comando que agrupa varios ficheros en un único archivo o tarball. Admite compresión. Ejemplo: tar -cavf backup.tar.gz fichero1 fichero2 directorio1 (backup con compresión gzip)</li><li><b>Urbackup</b>: herramienta de backup de ficheros e imágenes, en modo cliente-servidor. Es software libre.</li><li><b>Zenko</b>: gestión de datos en la nube.</li></ul>
 
 <!--
 BACKUP
@@ -191,6 +191,7 @@ https://www.youtube.com/watch?v=gsP46ltENRY RDP Remote Desktop Protocol
 <li id="ref1"><a href="#refback1">↑</a> <a href="https://en.wikipedia.org/wiki/Disaster_recovery#How_RTO_and_RPO_values_affect_computer_system_design">RTO and RPO</a></li>
 <li id="ref2"><a href="#refback2">↑</a> <a href="https://github.com/Contali/awesome-storage">Awesome storage</a></li>
 <li id="ref3"><a href="#refback3">↑</a> <a href="https://en.wikipedia.org/wiki/List_of_backup_software">List of backup software</a></li>
+<li id="ref4"><a href="#refback4">↑</a> <a href="https://en.wikipedia.org/wiki/Comparison_of_disk_cloning_software">Comparison of disk cloning software</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -219,7 +220,7 @@ https://www.youtube.com/watch?v=gsP46ltENRY RDP Remote Desktop Protocol
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-16 16:35:54 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-09-17 15:24:26 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

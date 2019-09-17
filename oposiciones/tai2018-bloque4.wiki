@@ -77,15 +77,24 @@ Algunos '''conceptos''':
 
 * '''Snapshot''': copia del estado de un sistema en un momento concreto.
 
-Algunas '''herramientas''' de backups:<ref>[https://github.com/Contali/awesome-storage Awesome storage]</ref><ref>[https://en.wikipedia.org/wiki/List_of_backup_software List of backup software]</ref>
-* '''Amanda''': 
-* '''AOMEI Backupper''': 
-* '''Bacula''': 
-* '''Bareos''': 
-* '''Clonezilla''': 
-* '''Gparted''': 
-* '''Urbackup''': 
-* '''Zenko''': 
+Algunas '''herramientas''' de backups:<ref>[https://github.com/Contali/awesome-storage Awesome storage]</ref><ref>[https://en.wikipedia.org/wiki/List_of_backup_software List of backup software]</ref><ref>[https://en.wikipedia.org/wiki/Comparison_of_disk_cloning_software Comparison of disk cloning software]</ref>
+* '''Acronis True Image''': herramienta de clonado de discos y particiones, también de backups de archivos. Funciona para Windows, macOS, iOS y Android.
+* '''Amanda''': hace copias de seguridad de datos en diferentes equipos de una red, usando un modelo cliente-servidor. El servidor contacta cada cliente a la hora programada y hace el backup. Funciona en Linux y Windows. Tiene licencia BSD.
+* '''AOMEI Backupper''': hace backups, sincroniza, restaura y clona datos de sistemas Windows.
+* '''Bacula''': herramienta de backups para empresas, para equipos en red. Soporta Linux, Windows y macOS. Es software libre.
+* '''Bareos''': Backup Archiving Recovery Open Sourced. Es un fork de Bacula.
+* '''Clonezilla''': herramienta de clonado de discos y particiones. Permite hacer imágenes, en local o en remoto. Tiene licencia GPL.
+* '''dd''': comando Unix para copiar ficheros, particiones, volúmenes y dispositivos. Ejemplo: dd if=/dev/sda1 of=/dev/sdb1 bs=4096 conv=noerror (clonado de partición).
+* '''Ghost''': herramienta de clonado de Symantec.
+* '''Gparted''': herramienta de gestión de particiones (crear, borrar, redimensionar, mover, copiar).
+* '''HDClone''': herramienta de clonado, sector a sector y fichero a fichero. Para Windows.
+* '''ntfsclone''': herramienta de clonado de particiones NTFS. Pertenece al paquete ntfsprogs con otras herramientas para este sistema de ficheros.
+* '''Partclone''': herramienta de Linux para clonar particiones. Usado por Clonezilla y Redo Backup and Recovery.
+* '''Partimage''': herramienta de Linux para crear imágenes de particiones.
+* '''Redo Backup and Recovery''': paquete de herramientas de backup y recuperación, desde LiveCD.
+* '''tar''': comando que agrupa varios ficheros en un único archivo o tarball. Admite compresión. Ejemplo: tar -cavf backup.tar.gz fichero1 fichero2 directorio1 (backup con compresión gzip)
+* '''Urbackup''': herramienta de backup de ficheros e imágenes, en modo cliente-servidor. Es software libre.
+* '''Zenko''': gestión de datos en la nube.
 
 <!--
 BACKUP
