@@ -825,7 +825,7 @@ Para averiguar la dirección de broadcast a partir de una dirección IP y una m�
 
 Para saber cuántos hosts son posibles en una red a partir de la máscara de red:
 * El número de bits indicados como /XX se ponen a 1, empezando por la izquierda.
-* El número de bits restantes por la derecha (32-XX) se pone como exponente para la potencia de 2 (y restar 2?).
+* El número de bits restantes por la derecha (32-XX) se pone como exponente para la potencia de 2 y se restan 2 (uno para la IP de la red y otro para la IP de broadcast).
 
 == Tema 7: Modelo TCP/IP ==
 
