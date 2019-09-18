@@ -655,11 +655,13 @@ Los '''principios básicos''' son: a) La interoperabilidad como cualidad integra
 === Sedes electrónicas ===
 
 
-=== Sistema Cl@ve ===
+=== Sistemas de identificación ===
 
-'''Cl@ve''' es un sistema de '''Identificación, Autenticación y Firma Electrónica''' para los ciudadanos común a todo el Sector Público Administrativo Estatal, basado en el uso de claves concertadas. Permite la firma electrónica (desde cualquier dispositivo que tenga conexión a Internet y sin ningún equipamiento adicional) mediante certificados electrónicos centralizados, es decir, almacenados y custodiados por la Administración Pública.<ref name="clave-que-es">[http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE - Qué es]</ref>
+* '''Cl@ve''': es un sistema de '''Identificación, Autenticación y Firma Electrónica''' para los ciudadanos común a todo el Sector Público Administrativo Estatal, basado en el uso de claves concertadas. Permite la firma electrónica (desde cualquier dispositivo que tenga conexión a Internet y sin ningún equipamiento adicional) mediante certificados electrónicos centralizados, es decir, almacenados y custodiados por la Administración Pública.<ref name="clave-que-es">[http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE - Qué es]</ref> Las claves pueden ser de '''un solo uso''' (OTP, one time password) o claves '''permanentes''' (para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración).<ref name="clave-definiciones">[https://clave.gob.es/clave_Home/dnin/definiciones.html Sistema CL@VE - Definiciones]</ref>
 
-Las claves pueden ser de '''un solo uso''' (OTP, one time password) o claves '''permanentes''' (para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración).<ref name="clave-definiciones">[https://clave.gob.es/clave_Home/dnin/definiciones.html Sistema CL@VE - Definiciones]</ref>
+* '''Port@firmas''': permite incorporar la firma electrónica en los flujos de trabajo de una organización.
+
+* '''VALIDe''': servicio de validación de firmas y certificados online de los principales prestadores de servicios de certificación reconocidos en España. Servicios ofrecidos: validación de certificados X.509, validación de firma (y del certificado que la generó), realización de firma electrónica.<ref>[https://administracionelectronica.gob.es/ctt/valide/infoadicional VALIDe]</ref>
 
 === Otros ===
 
@@ -670,6 +672,13 @@ El '''Punto de Acceso General''' (PAG) de la Administración General del Estado 
 
 {{cayo-en-convocatoria|1=2016 (PI)}}
 La finalidad de '''SICRES 3.0''' es normalizar el intercambio de asientos y documentos electrónicos entre oficinas de registro presenciales o electrónicos.
+
+Las '''extensiones''' de los certificados al ser exportados son:<ref>[https://www.sede.fnmt.gob.es/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1553-diferencias-entre-pfx-p12-cer-y-crt- Diferencias entre .pfx .p12 .cer y .crt]</ref>
+
+* '''.p12''': copia de seguridad con clave privada de un certificado exportado desde Firefox.
+* '''.pfx''': igual que .p12 pero exportado desde Internet Explorer.
+* '''.cer''': formato de exportación de clave pública.
+* '''.crt''': formato de exportación de clave pública.
 
 == Fuentes ==
 

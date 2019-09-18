@@ -127,7 +127,7 @@ Los '''componentes internos''' básicos de un ordenador son:
 
 * '''Placa base''': es el circuito en el que se conectan los demás componentes del ordenador en los respectivos bancos o zócalos. Suelen tener múltiples ranuras para tarjetas PCI, memoria RAM, CPU, discos y lectoras SATA/IDE. Externamente también dispone de múltiples puertos (serie, paralelo, PS/2, USB, RJ-45, VGA, jacks). Cuenta con una memoria CMOS para la fecha, hora y configuración básica, además de la BIOS.
 
-* '''Tarjeta de expansión''': tarjeta que realiza una tarea específica y que se conecta en una ranura determinada, generalmente a ranuras PCI (Peripheral Component Interconnect). Antiguamente eran ranuras ISA. También hay ranuras más veloces como la PCI-Express. Una placa base que tenga integrada una gráfica, puede perfectamente aceptar una tarjeta gráfica que mejore las capacidades integradas de la placa.
+* '''Tarjeta de expansión''': tarjeta que realiza una tarea específica y que se conecta en una ranura determinada, generalmente a ranuras PCI (Peripheral Component Interconnect). Antiguamente eran ranuras ISA, EISA y VESA. También hay ranuras más veloces como la PCI-Express (PCI-E) o AGP. Una placa base que tenga integrada una gráfica, puede perfectamente aceptar una tarjeta gráfica que mejore las capacidades integradas de la placa.
 
 ** '''Tarjeta gráfica''': tarjeta de expansión enfocada a procesar los datos referentes a operaciones gráficas, principalmente aquellos destinados a ser visualizados en el monitor. La unidad de procesamiento gráfico se conoce como GPU. Funcionalidades extra de estas tarjetas son la captura de vídeo, sintonización de televisión, etc. Algunas tarjetas soportan más de un monitor a través de varios puertos. Una '''tarjeta gráfica discreta''' es aquella que se inserta en la placa base, a diferencia de las que son '''integradas''' y van soldadas a la placa.
 
@@ -154,6 +154,18 @@ Las '''latencias''' en memorias son:
 * '''ACTIVE''': tiempo en activar un tablero.
 
 * '''PRECHARGE''': tiempo en desactivar un tablero.
+
+Las '''generaciones''' de ordenadores son:
+
+* '''Primera generación''': válvulas de vacío, lenguaje máquina. De 1940 a 1952.
+
+* '''Segunda generación''': transistores, más pequeños y con menor consumo eléctrico. Lenguajes de alto nivel.
+
+* '''Tercera generación''': circuitos integrados, muchos transistores en una placa. De 1964 a 1971.
+
+* '''Cuarta generación''': microprocesadores.
+
+* '''Quinta generación''': proyecto japonés para desarrollar ordenadores que usarían inteligencia artificial en hardware y software. No obtuvo los resultados esperados.
 
 == Tema 2: Periféricos ==
 
