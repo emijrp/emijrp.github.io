@@ -1600,6 +1600,14 @@ Existe forjas que ofrecen alojamiento de proyectos para distintos sistemas de co
 
 Entre las herramientas de seguimiento de errores (bug tracking) destacan Bugzilla (creada por Mozilla y de código abierto), Trac (libre) y JIRA (propietaria).
 
+El '''groupware''' es aquel software que facilita el trabajo en grupo.
+
+Un '''LMS''' o '''Learning Management System''' es un software para el aprendizaje a distancia, utilizado entre otros por universidades. Entre sus capacidades están la gestión de usuarios, publicación de contenidos, foros, videoconferencias. Los LMS más usados son Blackboard, Canvas, Desire2Learn, Moodle y Sakai. Los cursos pueden exportarse empaquetados en formatos como SCORM (Shareable Content Object Reference Model). El e-learning (electronic learning) es el aprendizaje en línea, b-learning (blended-learning) combina aprendizaje en el aula y en línea, m-learning (mobile-learning) es el aprendizaje con dispositivos móviles. Un MOOC (Massive Online Open Courses) es un curso online en abierto para muchas personas, las plataformas más famosas son Coursera, edX, Khan Academy, Udacity, Udemy. Los NOOC (Nano-MOOC) son pequeños cursos de apenas unas horas.
+
+Un '''CMS''' o '''Content Management System''' es un gestor de contenidos que facilita la creación de portales estructurados y su gestión. Los CMS más usados son WordPress, Joomla, Alfresco, DSpace, OpenCMS, Drupal, MediaWiki.
+
+Un '''ERP''' o '''Enterprise Resource Planning''' es un sistema de planificación de recursos empresariales.
+
 == Fuentes ==
 
 * Para confeccionar estos apuntes se han utilizado en ocasiones artículos de [https://www.wikipedia.org Wikipedia].

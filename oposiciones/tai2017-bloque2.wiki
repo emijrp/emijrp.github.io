@@ -889,10 +889,12 @@ Algunas '''claves del registro''' de Windows:
 '''Comandos básicos''' de Windows:
 
 {{div col|2}}
+* '''arp''': muestra direcciones MAC e IPs
 * '''cd''': cambia de directorio
 * '''chkdsk''': comprobación de errores en el disco duro
 * '''cleanmgr''': liberar espacio
 * '''cls''': limpia la consola
+* '''cmd''': consola de comandos
 * '''control panel''': abre el panel de control
 * '''copy''': copia archivos
 * '''defrg''': desfragmentador de disco
@@ -906,10 +908,12 @@ Algunas '''claves del registro''' de Windows:
 * '''ipconfig''': configuración de redes
 * '''logoff''': cierra la sesión
 * '''md''': crea directorio
+* '''mmc''': consola de administración
 * '''move''': mueve archivo
 * '''msconfig''': configuración de arranque, programas al inicio
 * '''netstat''': comprobación y analisis de redes y conexiones
 * '''net use''': asigna letra de unidad a carpetas compartidas
+* '''ping''': hace ping a una dirección de red
 * '''rename''': cambia el nombre a fichero
 * '''robocopy''': como copy pero mejorado
 * '''route''': muestra tabla de enturamiento

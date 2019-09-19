@@ -70,7 +70,35 @@ A menudo la integración continua está asociada con las metodologías de progra
 
 === Pruebas ===
 
-''Por desarrollar.''
+Las '''pruebas de software''' son aquellas comprobaciones, automatizadas o no, que se realizan al software para verificar de forma objetiva y empírica que funciona correctamente y para evaluar su calidad.<ref>[https://es.wikipedia.org/wiki/Pruebas_de_software Pruebas de software]</ref><ref>[https://en.wikipedia.org/wiki/Software_testing Software testing]</ref>
+
+* '''Pruebas de caja blanca''': 
+* '''Pruebas de caja negra''': 
+
+* '''Pruebas funcionales''': basada en la ejecución, revisión y retroalimentación de las funcionalidades del software.
+** '''Pruebas unitarias''': 
+** '''Pruebas de componentes''': 
+** '''Pruebas de integración''': 
+** '''Pruebas de sistema''': 
+** '''Pruebas de aceptación''': 
+** '''Pruebas de regresión''': 
+
+* '''Pruebas no funcionales''': comprueban la disponibilidad, accesibilidad, usabilidad, seguridad, rendimiento.
+** '''Pruebas de compatibilidad''': 
+** '''Pruebas de seguridad''': 
+** '''Pruebas de rendimiento''': 
+** '''Pruebas de escalabilidad''': 
+** '''Pruebas de mantenibilidad''': 
+
+Algunas herramientas de pruebas:
+
+* '''Bugzilla''': 
+* '''HP Quality Center''': 
+* '''HP Load Runner''': 
+* '''JMeter''': 
+* '''Selenium''': 
+* '''Watir''': 
+
 
 == Fuentes ==
 

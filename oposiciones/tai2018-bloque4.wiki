@@ -129,14 +129,12 @@ Los '''formatos de discos virtuales''' incluyen:
 * '''qed''' (qemu enhanced disk)
 * '''vhdx'''
 
+'''Virtual Desktop Infrastructure''' (VDI) o '''virtualización de escritorio''' consiste en separar el terminal que utiliza el usuario, de sus programas y datos que son ejecutados en un servidor de forma centralizada. El usuario accede a su escritorio de manera remota mediante un terminal más ligero ya que la mayor parte de la carga reside en el servidor. Al estar las aplicaciones centralizadas, la administración y configuración de los escritorios es más sencilla.
+
 <!--
 VIRTUALIZACION
 
-maquinas e hipervisores: vmware esx, virtualbox, qemu, hyper 2008/2012, oracle vmware, hyper-v, xenserver, rdp
-
-proxmox, kvm
-
-https://es.wikipedia.org/wiki/LXC
+maquinas e hipervisores: virtualbox, qemu, hyper 2008/2012, rdp, proxmox
 
 https://en.wikipedia.org/wiki/OS-level_virtualisation#Implementations
 
