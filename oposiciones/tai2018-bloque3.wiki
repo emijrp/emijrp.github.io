@@ -72,33 +72,36 @@ A menudo la integración continua está asociada con las metodologías de progra
 
 Las '''pruebas de software''' son aquellas comprobaciones, automatizadas o no, que se realizan al software para verificar de forma objetiva y empírica que funciona correctamente y para evaluar su calidad.<ref>[https://es.wikipedia.org/wiki/Pruebas_de_software Pruebas de software]</ref><ref>[https://en.wikipedia.org/wiki/Software_testing Software testing]</ref>
 
-* '''Pruebas de caja blanca''': 
-* '''Pruebas de caja negra''': 
+* '''Pruebas de caja blanca''': se escogen distintas entradas que vayan a recorrer los múltiples flujos de ejecución del programa y se comprueba que las salidas son las esperadas. Estas pruebas están ligadas al código fuente y si este cambia, las pruebas de caja blanca deben modificarse para que incluyan los nuevos casos. Estas pruebas se pueden aplicar a nivel de '''unidad, integración y sistema'''. Las principales pruebas de caja blanca son: '''pruebas de flujo de control, de flujo de datos y de bifurcación'''.
+
+* '''Pruebas de caja negra''': consiste en proporcionar unas entradas y comprobar que las salidas son las esperadas, sin entrar a estudiar cómo funciona el sistema por dentro. Estas pruebas también pueden aplicarse a nivel de '''unidad, integración y sistema'''.
 
 * '''Pruebas funcionales''': basada en la ejecución, revisión y retroalimentación de las funcionalidades del software.
-** '''Pruebas unitarias''': 
-** '''Pruebas de componentes''': 
-** '''Pruebas de integración''': 
-** '''Pruebas de sistema''': 
-** '''Pruebas de aceptación''': 
-** '''Pruebas de regresión''': 
+** '''Pruebas unitarias''': comprueba el correcto funcionamiento de una unidad de código, por ejemplo una clase.
+** '''Pruebas de componentes''': un nivel algo más complejo que las pruebas unitarias, a nivel de módulo por ejemplo.
+** '''Pruebas de integración''': comprueba que los componentes funcionan juntos correctamente, comunicándose mediante sus interfaces.
+** '''Pruebas de sistema''': comprueba que el sistema en su totalidad cumple con la funcionalidad deseada.
+** '''Pruebas de regresión''': comprueba que cambios añadidos al sistema para corregir errores encontrados, no generen otros errores nuevos.
+** '''Pruebas de aceptación''': se valida que el sistema cumple con el funcionamiento esperado, el usuario determina su aceptación.
 
-* '''Pruebas no funcionales''': comprueban la disponibilidad, accesibilidad, usabilidad, seguridad, rendimiento.
-** '''Pruebas de compatibilidad''': 
-** '''Pruebas de seguridad''': 
-** '''Pruebas de rendimiento''': 
-** '''Pruebas de escalabilidad''': 
+* '''Pruebas no funcionales''': comprueban la disponibilidad, accesibilidad, usabilidad, seguridad, rendimiento, etc.
+** '''Pruebas de compatibilidad''': comprueba que el sistema funciona correctamente en distintos entornos (navegadores, sistemas operativos, máquinas virtuales, etc).
+** '''Pruebas de usabilidad''': comprueban que el sistema es usable de una forma sencilla, intuitiva, comprensible, por los usuarios.
+** '''Pruebas de seguridad''': comprueba que el sistema cumple los requisitos esperados en cuanto a seguridad.
+** '''Pruebas de rendimiento''': comprueba la eficiencia del sistema durante su funcionamiento. Las '''pruebas de carga''' miden el comportamiento del sistema con un número de peticiones o usuarios esperado. Las '''pruebas de estrés''' miden cuál es el número de peticiones o usuarios necesarios para que el sistema se sobrecargue y falle.
+** '''Pruebas de escalabilidad''': miden la capacidad del sistema para soportar mayores cargas, haciendo cambios que no sean drásticos en su configuración.
 ** '''Pruebas de mantenibilidad''': 
 
-Algunas herramientas de pruebas:
+Algunas '''herramientas''' de pruebas:
 
-* '''Bugzilla''': 
-* '''HP Quality Center''': 
-* '''HP Load Runner''': 
-* '''JMeter''': 
-* '''Selenium''': 
-* '''Watir''': 
-
+* '''Bugzilla''': herramienta web de reporte, gestión y seguimiento de errores.
+* '''HP Quality Center''': control de la calidad del software.
+* '''HP Load Runner''': medición del comportamiento de sistemas bajo carga.
+* '''HtmlUnit''': automatización de pruebas de páginas web.
+* '''JMeter''': proyecto de Apache para pruebas de carga y análisis de rendimiento de aplicaciones web.
+* '''Selenium''': pruebas para aplicaciones web.
+* '''SoapUI''': pruebas a aplicaciones con arquitecturas orientadas a servicios (SOA).
+* '''Watir''': automatización de pruebas sobre navegadores web.
 
 == Fuentes ==
 
