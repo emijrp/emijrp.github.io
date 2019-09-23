@@ -23,7 +23,7 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 
 Existen distintas soluciones, desde las más sencillas y baratas, hasta las más costosas pero con mayores prestaciones:
 
-* '''Almacenamiento de Conexión Directa''' (DAS/Direct Attached Storage): es el método tradicional de almacenamiento y el más sencillo. Consiste en conectar físicamente el dispositivo de almacenamiento directamente al servidor u ordenador. Los protocolos incluyen SCSI, Serial Attached SCIS (SAS) y Fibre Channel.
+* '''Almacenamiento de Conexión Directa''' (DAS/Direct Attached Storage): es el método tradicional de almacenamiento y el más sencillo. Consiste en conectar físicamente el dispositivo de almacenamiento directamente al servidor u ordenador. Los protocolos incluyen SATA, USB, SCSI, Serial Attached SCSI (SAS) y Fibre Channel.
 
 * '''Almacenamiento Conectado en Red''' (NAS/Network Attached Storage): consiste en un ordenador o servidor que comparte su capacidad de almacenamiento con otros ordenadores a través de una red. Los protocolos de acceso incluyen Common Internet File System (CIFS)/Server Message Block (SMB), Network File System (NFS), FTP y TFTP.
 
