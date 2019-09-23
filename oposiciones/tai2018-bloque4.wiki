@@ -41,6 +41,8 @@ En caso de ser necesario, la copia de seguridad deberá ser '''cifrada''' para q
 
 La '''rotación de backups''' también permite ir descartando backups antiguas cuando ya no son necesarias, reutilizando el espacio liberado para backups nuevas. El número de copias de seguridad y el tiempo que se conservarán tendrá que determinarse en cada caso concreto en función de las necesidades.
 
+Una '''política de backups''' se encarga de definir de qué datos hay que hacer backup, con qué periodicidad, durante cuánto tiempo guardar las copias antiguas, dónde guardar los backups, etc.
+
 '''Métodos''' de backups:
 
 * '''Sin estructurar''': simplemente copiar ficheros en otro medio (cintas, DVDs, discos externos), con escasa información sobre lo que fue copiado y cuando. Es un método fácil y rápido, pero en caso de ser necesario restaurar cierta cantidad de datos, puede no ser lo más idoneo.
@@ -75,7 +77,7 @@ Algunos '''conceptos''':
 
 * '''Checksum''': suma de verificación que permite saber si los datos han sido copiados correctamente, habitualmente MD5 o SHA1.
 
-* '''Snapshot''': copia del estado de un sistema en un momento concreto.
+* '''Snapshot''': copia del estado de un sistema en un momento concreto. Puede ser a nivel de sistema de ficheros, volúmenes de disco (LVM), máquinas virtuales o ficheros.
 
 Algunas '''herramientas''' de backups:<ref>[https://github.com/Contali/awesome-storage Awesome storage]</ref><ref>[https://en.wikipedia.org/wiki/List_of_backup_software List of backup software]</ref><ref>[https://en.wikipedia.org/wiki/Comparison_of_disk_cloning_software Comparison of disk cloning software]</ref>
 * '''Acronis True Image''': herramienta de clonado de discos y particiones, también de backups de archivos. Funciona para Windows, macOS, iOS y Android.
@@ -92,20 +94,17 @@ Algunas '''herramientas''' de backups:<ref>[https://github.com/Contali/awesome-s
 * '''Partclone''': herramienta de Linux para clonar particiones. Usado por Clonezilla y Redo Backup and Recovery.
 * '''Partimage''': herramienta de Linux para crear imágenes de particiones.
 * '''Redo Backup and Recovery''': paquete de herramientas de backup y recuperación, desde LiveCD.
+* '''rsync''': comando para hacer copias y mantenerlas sincronizadas (actualizadas) cuando se produzcan cambios en los datos de origen.
 * '''tar''': comando que agrupa varios ficheros en un único archivo o tarball. Admite compresión. Ejemplo: tar -cavf backup.tar.gz fichero1 fichero2 directorio1 (backup con compresión gzip)
 * '''Urbackup''': herramienta de backup de ficheros e imágenes, en modo cliente-servidor. Es software libre.
 * '''Zenko''': gestión de datos en la nube.
 
+Para copias de seguridad de bases de datos, existe mysqldump (MySQL), pg_dump (PostgreSQL) y SQL Server Management Studio (SQL Server).
+
 <!--
 BACKUP
 
-https://www.ibm.com/support/knowledgecenter/es/ssw_aix_71/com.ibm.aix.osdevice/backpol.htm
-
-https://www.capside.com/es/labs/backups-101-que-debemos-tener-en-cuenta-politicas-retencion-storage-restauracion-y-herramientas/
-
 https://www.ibiblio.org/pub/linux/docs/LuCaS/Manuales-LuCAS/doc-unixsec/unixsec-html/node100.html
-
-https://es.wikipedia.org/wiki/Plan_de_recuperaci%C3%B3n_ante_desastres
 
 -->
 
