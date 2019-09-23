@@ -99,14 +99,7 @@ Algunas '''herramientas''' de backups:<ref>[https://github.com/Contali/awesome-s
 * '''Urbackup''': herramienta de backup de ficheros e imágenes, en modo cliente-servidor. Es software libre.
 * '''Zenko''': gestión de datos en la nube.
 
-Para copias de seguridad de bases de datos, existe mysqldump (MySQL), pg_dump (PostgreSQL) y SQL Server Management Studio (SQL Server).
-
-<!--
-BACKUP
-
-https://www.ibiblio.org/pub/linux/docs/LuCaS/Manuales-LuCAS/doc-unixsec/unixsec-html/node100.html
-
--->
+Para copias de seguridad de bases de datos, existe mysqldump (MySQL), pg_dump (PostgreSQL) y SQL Server Management Studio (SQL Server). Desarrollado en el Tema 2 de [[tai2017-bloque4|TAI 2017 Bloque IV]].
 
 === Virtualización ===
 
@@ -168,7 +161,7 @@ Los '''contenedores''' se encuentran separados unos de otros y contienen su prop
 
 === Técnicas criptográficas y protocolos seguros ===
 
-''Por desarrollar.''
+Desarrollado en el Tema 4 de [[tai2017-bloque4|TAI 2017 Bloque IV]].
 
 === Mecanismos de firma digital ===
 
