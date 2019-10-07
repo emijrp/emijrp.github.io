@@ -844,7 +844,7 @@ En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
 
 '''Microsoft Windows''' es el nombre de una familia de sistemas operativos para PC, smartphone, servidores y sistemas empotrados, desarrollados y vendidos por Microsoft y disponibles para arquitecturas como x86, x86-64 y ARM.
 
-'''Versiones''' de Windows:
+'''Versiones''' de Windows:<ref>[https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]</ref>
 
 * '''Windows 3.0''': 
 * '''Windows 3.11''': 
@@ -877,14 +877,12 @@ El '''registro de Windows''' es una base de datos que almacena ajustes de config
 Algunas '''claves del registro''' de Windows:
 
 * '''HKEY_LOCAL_MACHINE''' (HKLM): configuraciones específicas del equipo local. Tiene las subclaves SAM, SECURITY, SYSTEM y SOFTWARE, además de HARDWARE que se crea dinámicamente.
-* '''HKEY_CURRENT_CONFIG''' (HKCC): 
 * '''HKEY_CLASSES_ROOT''' (HKCR): información sobre aplicaciones registradas y asociaciones de archivos (extensiones).
+* '''HKEY_CURRENT_CONFIG''' (HKCC): información del perfil de hardware del equipo.
 * '''HKEY_CURRENT_USER''' (HKCU): configuración específica sobre el usuario con sesión iniciada en este momento.
 * '''HKEY_USERS''' (HKU): subclaves de los usuarios cargados en HKEY_CURRENT_USER.
 * '''HKEY_PERFORMANCE_DATA''': información de rendimiento de controladores del sistema, programas y servicios.
 * '''HKEY_DYN_DATA''': información sobre dispositivos hardware, estadísticas Plug & Play y de red. Solo para Windows 95, 98 y Windows Me.
-
-* [https://en.wikipedia.org/wiki/Template:Microsoft_Windows_family Familia Windows]
 
 '''Comandos básicos''' de Windows:
 
