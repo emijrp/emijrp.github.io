@@ -669,7 +669,14 @@ Las '''API Java''' son interfaces de programación de aplicaciones, proporcionan
 * '''SWT''': biblioteca gráfica creada por Eclipse.
 {{div col end}}
 
-javax.servlet, java.io, java.util, java.net, java.io
+Otros '''paquetes''':
+* '''java.io''': operaciones de entrada-salida.
+* '''java.lang''': clases fundamentales de Java, como Object o Class.
+* '''java.net''': rutinas de entrada-salida para redes, permitiendo peticiones HTTP.
+* '''java.util''': estructuras de datos que agregan objetos.
+* '''javax.servlet'''
+
+Los '''applets''' se ejecutan en el navegador, mientras que los '''servlets''' se ejecutan en un servidor web.
 
 En HTML5 ya no existe la etiqueta APPLET.
 

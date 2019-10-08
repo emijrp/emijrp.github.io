@@ -380,7 +380,19 @@ Una '''ley de bases''' es aquella que emanada de las Cortes Generales delega en 
 
 '''Artículo 91'''. El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales, y las promulgará y ordenará su inmediata publicación.
 
-Un '''reglamento''' ...
+=== Reglamentos, directivas y otros actos legislativos ===
+
+Los objetivos de los Tratados de la Unión Europea se alcanzan por medio de distintos tipos de actos legislativos. Algunos son vinculantes y otros no. Algunos se aplican a todos los países de la Unión Europea y otros sólo a unos pocos.<ref>[https://europa.eu/european-union/eu-law/legal-acts_es Actos legislativos]</ref>
+
+* '''Reglamento''': acto legislativo vinculante, debe aplicarse en su integridad en toda la UE.
+
+* '''Directiva''': acto legislativo que establece objetivos que todos los países de la UE deben cumplir, pero cada país elabora sus propias leyes para alcanzar dichos objetivos.
+
+* '''Decisión''': es vinculante para aquellos a los que va dirigido (un país de la UE o una empresa concreta) y son directamente aplicables.
+
+* '''Recomendación''': no es vinculante. Da a conocer el punto de vista de una institución y hacer sugerencias sin imposición legal.
+
+* '''Dictamen''': declaración no vinculante. Puede emitirlo las principales instituciones de la UE (Comisión, Consejo, Parlamento), el Comité de las Regiones y el Comité Económico y Social Europeo.
 
 === Mayorías ===
 
