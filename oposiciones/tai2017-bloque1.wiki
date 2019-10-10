@@ -434,6 +434,8 @@ Los objetivos de los Tratados de la Unión Europea se alcanzan por medio de dist
 
 === Firma electrónica ===
 
+La '''firma digital''' es un conjunto de datos asociados a un mensaje que permite asegurar la identidad del firmante y la integridad del mensaje.
+
 {{cayo-en-convocatoria|1=2015 (PI)}}
 Un dispositivo de creación de firma es seguro si:
 * Los datos para la generación de firma pueden producirse solo una vez y no pueden deducirse de los de verificación de firma o de la misma firma

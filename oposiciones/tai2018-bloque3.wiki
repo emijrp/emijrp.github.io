@@ -47,10 +47,12 @@ En esta página solo tomaré apuntes de lo que haya cambiado. Para lo demás me 
 * '''Desarrollo en espiral''': se llevan a cabo una serie de iteraciones en las que se determinan los objetivos, se hace análisis y reducción de riesgos, se desarrolla y prueba, y se planifica la próxima iteración. Tiene en cuenta explícitamente los riesgos que puedan surgir.
 
 * '''Desarrollo ágil de software''': está basado en el desarrollo iterativo e incremental, donde los requisitos y soluciones evolucionan según las necesidades del proyecto. Cada iteración incluye: planificación, análisis de requisitos, diseño, codificación, pruebas y documentación.
-** Scrum:
-** Crystal Clear
-** Programación extrema
-** Otros: desarrollo de software adaptativo (ASD), método de desarrollo de sistemas dinámicos (DSDM). Rational Unified Process RUP
+** '''Scrum''': se aplican buenas prácticas para trabajar colaborativamente, con desarrollo incremental, la calidad del resultado depende más de la auto organización del equipo que de los procesos, las fases del desarrollo se solapan. Los distintos ciclos (sprints) duran un mínimo de 2 semanas y un máximo de 1 mes. Al final de cada sprint se hace una revisión y una retrospectiva.
+*** '''Roles principales''': product owner (ayuda que el equipo scrum trabaje desde la perspectiva de negocio), scrum master (elimina obstáculos), equipo de desarrollo (hace el producto).
+*** '''Roles auxiliares''': stakeholder (clientes u otros beneficiados del desarrollo), administradores (establecen entorno para el desarrollo del proyecto).
+** '''Crystal Clear''':
+** '''Programación extrema''':
+** '''Otros''': desarrollo de software adaptativo (ASD), método de desarrollo de sistemas dinámicos (DSDM). Rational Unified Process RUP
 
 <!--
 

@@ -35,7 +35,7 @@ Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del fl
 
 * '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).
 
-* '''Almacenes''': información almacenada en un punto del sistema en algún momento.
+* '''Almacenes''': información almacenada en un punto del sistema en algún momento. Pueden ser ficheros, bases de datos o hasta información en papel.
 
 * '''Agentes externos''': las entidades que interactúan con el sistema. Las relaciones entre agentes externos no se representan en el DFD.
 
@@ -1160,6 +1160,14 @@ En la '''arquitectura multicapa''' hay tres tipos de nodos: clientes, servidores
 El '''middleware''' permite la interoperabilidad entre aplicaciones distribuidas.
 
 El '''thin client''' se encarga de la presentación mientras el servidor hace todo lo demás.
+
+=== Modelo de tres capas ===
+
+* '''Capa de presentación''': es lo que ve el usuario, presenta los resultados al usuario y recibe su interacción. También se llama capa de usuario. Se comunica con la capa de negocio solamente.
+
+* '''Capa de negocio''': comprende los programas, reciben las peticiones de la capa de presentación y hace las peticiones pertinentes a la capa de datos. También se llama capa de lógica de negocio.
+
+* '''Capa de datos''': recibe las peticiones de consulta o almacenamiento desde la capa de negocio. La forma uno o varios gestores de bases de datos.
 
 === Servicios web ===
 

@@ -77,8 +77,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;6.4 <a href="#C#">C#</a><br/>
 &nbsp;7. <a href="#Tema_7:_Arquitectura_de_sistemas_cliente/servidor">Tema 7: Arquitectura de sistemas cliente/servidor</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;7.1 <a href="#Cliente/servidor">Cliente/servidor</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;7.2 <a href="#Servicios_web">Servicios web</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.2.1 <a href="#Orientada_a_servicios">Orientada a servicios</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7.2 <a href="#Modelo_de_tres_capas">Modelo de tres capas</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7.3 <a href="#Servicios_web">Servicios web</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.3.1 <a href="#Orientada_a_servicios">Orientada a servicios</a><br/>
 &nbsp;8. <a href="#Tema_8:_Aplicaciones_web">Tema 8: Aplicaciones web</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;8.1 <a href="#HTML,_XHTML_y_XML">HTML, XHTML y XML</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.1.1 <a href="#HTML">HTML</a><br/>
@@ -138,7 +139,7 @@
 
 <p><b>Componentes</b> de los DFD:</p>
 
-<ul><li><b>Procesos</b>: son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).</li><li><b>Almacenes</b>: información almacenada en un punto del sistema en algún momento.</li><li><b>Agentes externos</b>: las entidades que interactúan con el sistema. Las relaciones entre agentes externos no se representan en el DFD.</li><li><b>Flujo de datos</b>: camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.</li></ul>
+<ul><li><b>Procesos</b>: son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).</li><li><b>Almacenes</b>: información almacenada en un punto del sistema en algún momento. Pueden ser ficheros, bases de datos o hasta información en papel.</li><li><b>Agentes externos</b>: las entidades que interactúan con el sistema. Las relaciones entre agentes externos no se representan en el DFD.</li><li><b>Flujo de datos</b>: camino que siguen los datos entre dos partes del sistema. El sentido de la flecha indica cómo se mueven los datos. Los procesos pueden conectarse con otros procesos, almacenes y agentes externos. Los almacenes y agentes externos solo con procesos.</li></ul>
 
 <p>Los flujos de datos entre procesos y almacenes son: Proceso <- Almacén (flujo de <b>consulta</b>), Proceso -> Almacén (flujo de <b>actualización</b>), Proceso <-> Almacén (flujo de <b>diálogo</b>).</p>
 
@@ -781,6 +782,10 @@ try {
 
 <p>El <b>thin client</b> se encarga de la presentación mientras el servidor hace todo lo demás.</p>
 
+<h3 id="Modelo_de_tres_capas">Modelo de tres capas</h3>
+
+<ul><li><b>Capa de presentación</b>: es lo que ve el usuario, presenta los resultados al usuario y recibe su interacción. También se llama capa de usuario. Se comunica con la capa de negocio solamente.</li><li><b>Capa de negocio</b>: comprende los programas, reciben las peticiones de la capa de presentación y hace las peticiones pertinentes a la capa de datos. También se llama capa de lógica de negocio.</li><li><b>Capa de datos</b>: recibe las peticiones de consulta o almacenamiento desde la capa de negocio. La forma uno o varios gestores de bases de datos.</li></ul>
+
 <h3 id="Servicios_web">Servicios web</h3>
 
 <p>Un <b>servicio web</b> es una tecnología que utiliza protocolos y estándares para intercambiar datos entre aplicaciones. Varios aplicaciones software en distintos lenguajes ejecutadas en cualquier plataforma, pueden usar los servicios web para intercambiar datos en una red. Esta interoperabilidad es posible con los estándares abiertos.</p>
@@ -1049,7 +1054,7 @@ try {
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-10-08 16:06:13 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-10-10 16:36:07 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
