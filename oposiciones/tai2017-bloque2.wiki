@@ -300,7 +300,7 @@ Los '''escáneres''' pueden ser:
 * '''De cama plana''': los más comunes, se sitúa el documento en plano sobre el cristal, típico de equipos de sobremesa.
 * '''Cenital''': se toma la fotografía desde arriba, sirve para libros y documentos antiguos que se puedan dañar con facilidad.
 
-Entre los estándares de digitalización están el Image and Scanner Interface Specification (ISIS), TWAIN y Windows Image Acquisition (WIA).
+Entre los estándares de digitalización están el Image and Scanner Interface Specification (ISIS), TWAIN, Windows Image Acquisition (WIA) y Scanner Access Now Easy (SANE).
 
 Existen otros escáneres para usos concretos, como los escáneres de códigos de barras (típico para tiendas) y escáneres de diapositivas.
 
@@ -661,6 +661,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''awk''': búsqueda y reemplazo de cadenas
 * '''basename''': elimina la ruta del nombre de un fichero
 * '''bash''': intérprete de comandos
+* '''bg''': ejecuta procesos en segundo plano
 * '''bzip2''': compresor de ficheros
 * '''bunzip2''': descompresor de ficheros
 * '''cal''': muestra un calendario
