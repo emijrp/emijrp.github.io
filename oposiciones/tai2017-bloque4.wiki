@@ -390,7 +390,7 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''IBM AppScan''': test de seguridad y monitorización de IBM.
 
-* '''Icinga''': 
+* '''Icinga''': monitor de redes.
 
 * '''ifconfig''': permite en '''Linux''' establecer la ip y máscara de un dispositivo de red, así como deshabilitarlo (ifconfig wlan0/eth0 down; ifdown wlan0/eth0) y habilitarlo (ifconfig wlan0/eth0 up; ifup wlan0/eth0). Para poner un interfaz de red en modo promiscuo se utiliza '''ifconfig eth0 promisc''' (-promisc para desactivarlo).
 
@@ -414,9 +414,13 @@ Algunos '''comandos y herramientas''' útiles:
 
 * '''OpenView''': conjunto de herramientas de HP.
 
+* '''OSSEC''': sistema de detección de intrusiones.
+
 * '''ping''': petición de ICMP echo para comprobar si un host está disponible.
 
-* '''Prometheus''': 
+* '''Prometheus''': monitor de redes y alertas.
+
+* '''Sagan''': sistema de detección de intrusiones.
 
 * '''scp''': transferencia de ficheros de manera segura, basado en ssh.
 
@@ -441,6 +445,8 @@ Algunos '''comandos y herramientas''' útiles:
 * '''Wireshark''': es un analizador de paquetes, para análisis, solución de problemas de red, etc. Similar a tcpdump pero con interfaz gráfica. Al ponerlo en modo promíscuo captura gran parte del tráfico de la red. Es multiplataforma.
 
 * '''Zabbix''': monitorización de servicios de red.
+
+* '''Zeek''': sistema de detección de intrusiones.
 
 Algunos '''ficheros''' importantes:
 
@@ -707,6 +713,8 @@ Generaciones de telefonía móvil:<ref>[https://en.wikipedia.org/wiki/List_of_mo
 * '''4G''': velocidad de 100 Mbit/s. Latencia 100 ms.
 * '''5G''': velocidad de 10 Gbit/s. Latencia 1-2 ms.
 
+Estándares de comunicaciones móviles: GSM, GPRS, UMTS, HSDPA, LTE.
+
 {{cayo-en-convocatoria|1=2014 (PI)}}
 Otros conceptos:
 * '''Señal digital''': señal usada para representar datos como una secuencia de valores discretos, en cada momento solo puede tomar un valor de un número finito de ellos. Una señal analógica representa valores contínuos.
@@ -771,7 +779,8 @@ Según la '''direccionalidad de los datos''':
 ** '''Token bus''': para redes de topología bus.
 ** '''Token ring''': similar a token bus pero para topologías en anillo.
 * '''CSMA/CD''': se escucha al medio, y si está libre, se transmite. Si se produce una colisión (varias estaciones emiten en el mismo instante), se esperan tiempos aleatorios antes de retransmitir. Acrónimo de Carrier Sense Multiple Access with Collision Detection.
-* '''ALOHA''': 
+* '''ALOHA''': acceso aleatorio.
+* '''GSMA''': compartición por reserva.
 
 El protocolo '''NFC''' funciona en distancias muy cortas (cercanas a 4 cm) y no necesita emparejamiento.
 
@@ -860,6 +869,13 @@ Las '''capas del Modelo TCP/IP''' son '''cuatro''':
 
 El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una implementación'''.
 
+'''Protocolos''' por capa TCP/IP:
+
+* '''Aplicación''': BGP, DHCP, DNS, FTP, HTTP, HTTPS, IMAP, LDAP, MGCP, MQTT, NNTP, NTP, POP, ONC/RPC, RTP, RTSP, RIP, SIP, SMTP, SNMP, SSH, Telnet, TSL/SSL, XMPP.
+* '''Transporte''': TCP, UDP, DCCP, SCTP, RSVP.
+* '''Internet''': IP, ICMP, ECN, IGMP, IPsec.
+* '''Acceso al medio''': ARP, NDP, OSPF, PPP, MAC.
+
 === Puertos ===
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
@@ -916,9 +932,13 @@ Ipv4 ipv6 (pregunta b4.32 y 37, 39)
 * '''fc00::/7''': prefijo de dirección local única
 * '''ff00::/8''': prefijo de multicast
 
-Existen tecnologías de transición entre IPv4 y IPv6 como '''6to4''' y '''Turedo'''.
+Un '''paquete IPv6''' tiene dos partes: cabecera (con parte fija y parte opcional) y la carga útil (los datos, hasta 64 KB en modo estándar).
 
-DHCPv6 utiliza el puerto UDP 547.
+La '''cabecera fija''' contiene: versión (4 bits), clase de tráfico (8 bits), etiqueta de flujo (20 bits), longitud del campo de datos (16 bits), cabecera siguiente (8 bits), límite de saltos (8 bits), dirección de origen (128 bits) y dirección de destino (128 bits).
+
+La '''cabecera de extensión''' puede contener: opciones salto a salto, enrutamiento, cabecera de fragmentación, cabecera de autenticación, encapsulado de seguridad de la carga útil, opciones para el destino, no next header.
+
+Existen tecnologías de transición entre IPv4 y IPv6 como '''6to4''' y '''Turedo'''. DHCPv6 utiliza el puerto UDP 547.
 
 {{cayo-en-convocatoria|1=2015 (PI)|2=2014 (PI)}}
 '''Códigos de estado HTTP''':
