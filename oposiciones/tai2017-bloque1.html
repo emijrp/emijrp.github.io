@@ -76,6 +76,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;8.1 <a href="#Comercio_electrónico">Comercio electrónico</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;8.2 <a href="#Firma_electrónica">Firma electrónica</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;8.3 <a href="#DNI_electrónico">DNI electrónico</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8.4 <a href="#Sello_electrónico">Sello electrónico</a><br/>
 &nbsp;9. <a href="#Tema_9">Tema 9</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;9.1 <a href="#Agencia_de_Protección_de_Datos">Agencia de Protección de Datos</a><br/>
 &nbsp;10. <a href="#Tema_10">Tema 10</a><br/>
@@ -83,7 +84,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;10.2 <a href="#Esquema_Nacional_de_Interoperabilidad">Esquema Nacional de Interoperabilidad</a><br/>
 &nbsp;11. <a href="#Tema_11">Tema 11</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;11.1 <a href="#Sedes_electrónicas">Sedes electrónicas</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;11.2 <a href="#Sistemas_de_identificación">Sistemas de identificación</a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11.2 <a href="#Identificación_y_autenticación">Identificación y autenticación</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;11.3 <a href="#Otros">Otros</a><br/>
 &nbsp;12. <a href="#Fuentes">Fuentes</a><br/>
 &nbsp;13. <a href="#Referencias">Referencias</a><br/>
@@ -442,6 +443,10 @@
 
 <p>El DNIe requiere de un ordenador y un lector de tarjetas inteligentes. Se puede usar en Windows (instalando el servicio CryptographicServiceProvider) y en Unix/Linux/MAC (con el módulo PKCS#11).</p>
 
+<h3 id="Sello_electrónico">Sello electrónico</h3>
+
+<p>Existen tres tipos de sellos electrónicos: sello electrónico, sello electrónico avanzado y sello electrónico reconocido/cualificado.</p>
+
 <h2 id="Tema_9">Tema 9</h2>
 
 <div style="border: 2px solid lightgrey;background-color: lightblue;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;">
@@ -556,9 +561,9 @@
 <h3 id="Sedes_electrónicas">Sedes electrónicas</h3>
 
 
-<h3 id="Sistemas_de_identificación">Sistemas de identificación</h3>
+<h3 id="Identificación_y_autenticación">Identificación y autenticación</h3>
 
-<ul><li><b>Cl@ve</b>: es un sistema de <b>Identificación, Autenticación y Firma Electrónica</b> para los ciudadanos común a todo el Sector Público Administrativo Estatal, basado en el uso de claves concertadas. Permite la firma electrónica (desde cualquier dispositivo que tenga conexión a Internet y sin ningún equipamiento adicional) mediante certificados electrónicos centralizados, es decir, almacenados y custodiados por la Administración Pública.<sup>[<a id="refback6" href="#ref6">6</a>]</sup> Las claves pueden ser de <b>un solo uso</b> (OTP, one time password) o claves <b>permanentes</b> (para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración).<sup>[<a id="refback7" href="#ref7">7</a>]</sup></li><li><b>Port@firmas</b>: permite incorporar la firma electrónica en los flujos de trabajo de una organización.</li><li><b>VALIDe</b>: servicio de validación de firmas y certificados online de los principales prestadores de servicios de certificación reconocidos en España. Servicios ofrecidos: validación de certificados X.509, validación de firma (y del certificado que la generó), realización de firma electrónica.<sup>[<a id="refback8" href="#ref8">8</a>]</sup></li></ul>
+<ul><li><b>AutoFirma</b>: aplicación del Ministerio de Hacienda que se instala en local y permite firmar documentos.<sup>[<a id="refback6" href="#ref6">6</a>]</sup></li><li><b>@Firma</b>: similar a AutoFirma, permite firma múltiple, co-firma y contra-firma. En la co-firma (o en línea) todos los firmantes están al mismo nivel, no importa el orden en el que se firma. En la contra-firma (o en cascada) cada firma refrenda o certifica la firma del firmante anterior.<sup>[<a id="refback7" href="#ref7">7</a>]</sup></li><li><b>Cl@ve</b>: es un sistema de <b>Identificación, Autenticación y Firma Electrónica</b> para los ciudadanos común a todo el Sector Público Administrativo Estatal, basado en el uso de claves concertadas. Permite la firma electrónica (desde cualquier dispositivo que tenga conexión a Internet y sin ningún equipamiento adicional) mediante certificados electrónicos centralizados, es decir, almacenados y custodiados por la Administración Pública.<sup>[<a id="refback8" href="#ref8">8</a>]</sup> Las claves pueden ser de <b>un solo uso</b> (OTP, one time password) o claves <b>permanentes</b> (para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración).<sup>[<a id="refback9" href="#ref9">9</a>]</sup></li><li><b>eCoFirma</b>: realizada por el Ministerio de Industria, permite generar y validar firmas electrónicas en formato XML XAdES.</li><li><b>eVisor</b>: aplicación web de generación de copias auténticas e informes de firma en PDF.</li><li><b>FIRe</b>: componente que integra servicios de firma en local y en la nube.</li><li><b>Port@firmas</b>: permite incorporar la firma electrónica en los flujos de trabajo de una organización.</li><li><b>VALIDe</b>: servicio de validación de firmas y certificados online de los principales prestadores de servicios de certificación reconocidos en España. Servicios ofrecidos: validación de certificados X.509, validación de firma (y del certificado que la generó), realización de firma electrónica.<sup>[<a id="refback10" href="#ref10">10</a>]</sup></li></ul>
 
 <h3 id="Otros">Otros</h3>
 
@@ -576,7 +581,7 @@
 
 <p>La finalidad de <b>SICRES 3.0</b> es normalizar el intercambio de asientos y documentos electrónicos entre oficinas de registro presenciales o electrónicos.</p>
 
-<p>Las <b>extensiones</b> de los certificados al ser exportados son:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<p>Las <b>extensiones</b> de los certificados al ser exportados son:<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
 
 <ul><li><b>.p12</b>: copia de seguridad con clave privada de un certificado exportado desde Firefox.</li><li><b>.pfx</b>: igual que .p12 pero exportado desde Internet Explorer.</li><li><b>.cer</b>: formato de exportación de clave pública.</li><li><b>.crt</b>: formato de exportación de clave pública.</li></ul>
 
@@ -595,10 +600,12 @@
 <li id="ref3"><a href="#refback3">↑</a> <a href="https://europa.eu/european-union/eu-law/legal-acts_es">Actos legislativos</a></li>
 <li id="ref4"><a href="#refback4">↑</a> <a href="https://firmaelectronica.gob.es/Home/Ciudadanos/DNI-Electronico.html">¿Qué es el DNI electrónico?</a></li>
 <li id="ref5"><a href="#refback5">↑</a> <a href="https://www.agpd.es/portalwebAGPD/canalresponsable/inscripcion_ficheros/preguntas_frecuentes/glosario/index-ides-idphp.php">Glosario de términos (AGPD)</a></li>
-<li id="ref6"><a href="#refback6">↑</a> <a href="http://clave.gob.es/clave_Home/clave/queEs.html">Sistema CL@VE - Qué es</a></li>
-<li id="ref7"><a href="#refback7">↑</a> <a href="https://clave.gob.es/clave_Home/dnin/definiciones.html">Sistema CL@VE - Definiciones</a></li>
-<li id="ref8"><a href="#refback8">↑</a> <a href="https://administracionelectronica.gob.es/ctt/valide/infoadicional">VALIDe</a></li>
-<li id="ref9"><a href="#refback9">↑</a> <a href="https://www.sede.fnmt.gob.es/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1553-diferencias-entre-pfx-p12-cer-y-crt-">Diferencias entre .pfx .p12 .cer y .crt</a></li>
+<li id="ref6"><a href="#refback6">↑</a> <a href="https://firmaelectronica.gob.es/Home/Ciudadanos/Aplicaciones-Firma.html">Aplicaciones de firma</a></li>
+<li id="ref7"><a href="#refback7">↑</a> <a href="https://firmaelectronica.gob.es/Home/Ciudadanos/Formatos-Firma.html#firmas_multiples">Firmas múltiples</a></li>
+<li id="ref8"><a href="#refback8">↑</a> <a href="http://clave.gob.es/clave_Home/clave/queEs.html">Sistema CL@VE - Qué es</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="https://clave.gob.es/clave_Home/dnin/definiciones.html">Sistema CL@VE - Definiciones</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="https://administracionelectronica.gob.es/ctt/valide/infoadicional">VALIDe</a></li>
+<li id="ref11"><a href="#refback11">↑</a> <a href="https://www.sede.fnmt.gob.es/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1553-diferencias-entre-pfx-p12-cer-y-crt-">Diferencias entre .pfx .p12 .cer y .crt</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -631,7 +638,7 @@
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-10-10 16:00:38 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-10-13 16:03:37 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

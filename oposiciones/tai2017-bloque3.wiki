@@ -33,7 +33,7 @@ Un '''Diagrama de Flujo de Datos''' (DFD) es una representación gráfica del fl
 {{cayo-en-convocatoria|1=2015 (IL)|2=2015 (PI)}}
 '''Componentes''' de los DFD:
 
-* '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida).
+* '''Procesos''': son las funciones que realizan operaciones sobre los datos, teniendo entradas y salidas (siempre al menos una entrada y una salida). Un proceso primitivo es aquel que no admite más descomposición.
 
 * '''Almacenes''': información almacenada en un punto del sistema en algún momento. Pueden ser ficheros, bases de datos o hasta información en papel.
 

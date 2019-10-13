@@ -489,6 +489,10 @@ Zonas de acceso:
 
 El DNIe requiere de un ordenador y un lector de tarjetas inteligentes. Se puede usar en Windows (instalando el servicio CryptographicServiceProvider) y en Unix/Linux/MAC (con el módulo PKCS#11).
 
+=== Sello electrónico ===
+
+Existen tres tipos de sellos electrónicos: sello electrónico, sello electrónico avanzado y sello electrónico reconocido/cualificado.
+
 == Tema 9 ==
 
 {{recuadro|1='''Tema 9.''' La '''protección de datos''' personales. Régimen jurídico. El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Principios y derechos. La Agencia de Protección de Datos: competencias y funciones.}}
@@ -669,9 +673,19 @@ Los '''principios básicos''' son: a) La interoperabilidad como cualidad integra
 === Sedes electrónicas ===
 
 
-=== Sistemas de identificación ===
+=== Identificación y autenticación ===
+
+* '''AutoFirma''': aplicación del Ministerio de Hacienda que se instala en local y permite firmar documentos.<ref>[https://firmaelectronica.gob.es/Home/Ciudadanos/Aplicaciones-Firma.html Aplicaciones de firma]</ref>
+
+* '''@Firma''': similar a AutoFirma, permite firma múltiple, co-firma y contra-firma. En la co-firma (o en línea) todos los firmantes están al mismo nivel, no importa el orden en el que se firma. En la contra-firma (o en cascada) cada firma refrenda o certifica la firma del firmante anterior.<ref>[https://firmaelectronica.gob.es/Home/Ciudadanos/Formatos-Firma.html#firmas_multiples Firmas múltiples]</ref>
 
 * '''Cl@ve''': es un sistema de '''Identificación, Autenticación y Firma Electrónica''' para los ciudadanos común a todo el Sector Público Administrativo Estatal, basado en el uso de claves concertadas. Permite la firma electrónica (desde cualquier dispositivo que tenga conexión a Internet y sin ningún equipamiento adicional) mediante certificados electrónicos centralizados, es decir, almacenados y custodiados por la Administración Pública.<ref name="clave-que-es">[http://clave.gob.es/clave_Home/clave/queEs.html Sistema CL@VE - Qué es]</ref> Las claves pueden ser de '''un solo uso''' (OTP, one time password) o claves '''permanentes''' (para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración).<ref name="clave-definiciones">[https://clave.gob.es/clave_Home/dnin/definiciones.html Sistema CL@VE - Definiciones]</ref>
+
+* '''eCoFirma''': realizada por el Ministerio de Industria, permite generar y validar firmas electrónicas en formato XML XAdES.
+
+* '''eVisor''': aplicación web de generación de copias auténticas e informes de firma en PDF.
+
+* '''FIRe''': componente que integra servicios de firma en local y en la nube.
 
 * '''Port@firmas''': permite incorporar la firma electrónica en los flujos de trabajo de una organización.
 

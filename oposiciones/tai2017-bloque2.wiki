@@ -140,6 +140,8 @@ Las '''memorias no volátiles''' no necesitan energía para mantener la informac
 
 Las '''memorias volátiles''' pierden la información al interrumpirse la corriente eléctrica. Ejemplos: RAM (random access memory), SRAM (static RAM), DRAM (dynamic RAM), RDRAM (Rambus DRAM), SDRAM, todas las DDR. Las estáticas no requieren refresco para mantener los datos en memoria mientras que las dinámicas sí.
 
+Las memorias ROM (Mask ROM) vienen programadas de fábrica, las PROM son programables una sola vez, las EPROM se pueden borrar con ultravioleta y las EEPROM se pueden borrar electrónicamente. Las flash son un tipo de EEPROM.
+
 {{cayo-en-convocatoria|1=2015 (PI)}}
 La capacidad de una memoria de X '''palabras''' y cada palabra con un '''ancho''' de Y bits o bytes, se calcula multiplicando ambas cifras.
 
@@ -555,6 +557,7 @@ La '''hiperpaginación''' provoca la caida del rendimiento del sistema, ya que h
 
 Los nombres de las '''versiones''' de Android siguen el orden alfabético:
 
+{{div col 2}}
 * Apple Pie (1.0, 2008)
 * Banana Bread (1.1, 2009)
 * Cupcake (1.5, 2009)
@@ -572,6 +575,7 @@ Los nombres de las '''versiones''' de Android siguen el orden alfabético:
 * Oreo (8.0 - 8.1, 2017)
 * Pie (9.0, 2018)
 * Quiche/Quindim (10.0, 2019)
+{{div col end}}
 
 El lenguaje de programación nativo para aplicaciones Android es Java.
 
@@ -750,6 +754,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''pico''': editor de texto
 * '''ping''': hace ping a una dirección de red
 * '''poweroff''': apaga el sistema
+* '''printenv''': imprime variables de entorno
 * '''ps''': muestra procesos
 * '''pstree''': muestra árbol de procesos
 * '''pv''': calcula los bytes que pasan a través de él
@@ -840,6 +845,8 @@ Se pueden crear aliases para comandos muy utilizados. Por ejemplo: alias ll=ls -
 {{div col end}}
 
 En '''/etc/shadow''' se almacenan las contraseñas cifradas de los usuarios.
+
+Las variables de entorno se ven con el comando '''printenv'''. Algunos ejemplos son: SHELL, TERM (terminal), USER (usuario logueado actual), LS_COLORS, MAIL (directorio mail del usuario), PATH, PWD (directorio actual), OLDPWD (directorio previo, cd -), LANG, HOME, LOGNAME, _ (último comando usado).
 
 === Microsoft Windows ===
 
