@@ -452,6 +452,14 @@ Algunos '''artículos destacados''':
 
 * '''Artículo 15'''. El documento nacional de identidad electrónico es el documento nacional de identidad que acredita electrónicamente la identidad personal de su titular y permite la firma electrónica de documentos.
 
+Tipos de firmas:<ref>[https://firmaelectronica.gob.es/Home/Ciudadanos/Base-Legal.html Base legal de firmas electrónicas]</ref>
+
+* '''Firma electrónica''': conjunto de datos en forma electrónica, consignados junto a otros o asociados con ellos, que pueden ser utilizados como medio de identificación del firmante.
+
+* '''Firma electrónica avanzada''': firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados.
+
+* '''Firma electrónica reconocida''': firma electrónica avanzada basada en un certificado reconocido y generada mediante un dispositivo seguro de creación de firma.
+
 {{cayo-en-convocatoria|1=2016 (IL)|2=2016 (PI)}}
 * '''Artículo 32'''. Sanciones. a) Por la comisión de infracciones muy graves, se impondrá al infractor multa de 150.001 a 600.000 euros. b) Por la comisión de infracciones graves, se impondrá al infractor multa de 30.001 a 150.000 euros. c) Por la comisión de infracciones leves, se impondrá al infractor una multa por importe de hasta 30.000 euros.
 
