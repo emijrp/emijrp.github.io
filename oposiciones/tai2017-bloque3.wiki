@@ -1203,6 +1203,8 @@ Un '''servicio web''' es una tecnología que utiliza protocolos y estándares pa
 {{cayo-en-convocatoria|1=2016 (PI)}}
 '''SOAP''' es un protocolo que define cómo se deben comunicar dos objetos de diferentes procesos empleando XML. Fue desarrollado por Microsoft e IBM. Todo mensaje SOAP tiene esta estructura: envelope (obligatorio), header, body (obligatorio) y fault. El envelope envuelve el conjunto y es el raíz.
 
+'''WSDL''' (Web Services Description Language) es un formato de XML para describir servicios web, describe la forma de comunicación (requisitos y formatos). La estructura de WSDL contiene TYPES (tipos de datos usados en los mensajes), MESSAGE (elementos de mensaje), PORTTYPE (operaciones permitidas y mensajes intercambiados), BINDING (protocolos de comunicación usados), SERVICE (puertos y direcciones).
+
 ==== Orientada a servicios ====
 {{cayo-en-convocatoria|1=2016 (IL)}}
 
@@ -1357,6 +1359,20 @@ Algunas normas para XML:
 
 Un preprocesador CSS es un programa que genera código CSS a partir de una sintaxis distinta más potente. Los preprocesadores CSS más conocidos son '''SASS, LESS, Stylus y PostCSS'''.
 
+'''Selectores CSS''':<ref>[https://www.w3schools.com/cssref/css_selectors.asp Selectores CSS]</ref>
+{{div col 2}}
+* '''*''': todos los elementos
+* '''.clase1''': class="clase1"
+* '''.clase1.clase2''': class="clase1 clase2"
+* '''.clase1 .clase2''': class="clase1" y anidada class="clase2"
+* '''#id1''': id="id1"
+* '''p''': todos los elementos &lt;p&gt;
+* '''div, p''': todos los &lt;div&gt; y los &lt;p&gt;
+* '''div p''': todos los &lt;p&gt; anidados en &lt;div&gt;
+* '''div > p''': todos los &lt;p&gt; cuyo padre es &lt;div&gt;
+* '''div + p''': todos los &lt;p&gt; inmediatamente después de &lt;div&gt;
+{{div col end}}
+
 === Javascript ===
 
 '''JavaScript''' es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
@@ -1384,6 +1400,35 @@ Todas las variables van precedidas del carácter $. Los nombres de variables son
 * ?php echo "Hola"; ?>
 * if ($a > $b) { echo "A es mayor"; } else { echo "B es mayor"; }
 * for ($i = 1; $i <= 10; $i++) { echo $i; }
+
+Algunas '''funciones básicas''' de PHP:<ref>[https://en.wikiversity.org/wiki/25_Essential_PHP_Functions 25 Essential PHP Functions]</ref>
+{{div col 2}}
+* '''ceil()''': redondeo al alza
+* '''count()''': cuenta los elementos de un array
+* '''die()''': equivalente a exit()
+* '''echo()''': imprime una o varias cadenas
+* '''empty()''': determina si una variable está vacía
+* '''exit()''': imprime un mensaje y sale del script
+* '''file_get_contents()''': lee un fichero
+* '''file_put_contents()''': escribe un fichero
+* '''getenv()''': lee variable de entorno
+* '''header()''': envía encabezado sin formato HTTP
+* '''htmlentities()''': convierte cadena a entidades HTML
+* '''include()''': incluye y evalúa un fichero
+* '''ini_set()''': establece una directiva de configuración
+* '''isset()''': determina si una variable está definida y no es null
+* '''mail()''': envía correo
+* '''md5()''': calcula hash md5 de una cadena
+* '''mkdir()''': crea un directorio
+* '''phpinfo()''': muestra la configuración de PHP
+* '''preg_match()''': busca una expresión regular en una cadena
+* '''print_r()''': imprime información sobre una variable
+* '''rand()''': genera un número entero aleatorio
+* '''require()''': igual que include() pero en caso de fallo se detiene el script  (include() solo mostraría una advertencia)
+* '''str_replace()''': reemplaza subcadena en cadena
+* '''str_len()''': muestra longitud de una cadena
+* '''trim()''': elimina espacios en blanco al comienzo y final de una cadena
+{{div col end}}
 
 === Sintaxis de comentarios, etc ===
 
@@ -1435,7 +1480,11 @@ Sintaxis para '''comentarios''':
 {{cayo-en-convocatoria|1=2014 (PI)}}
 '''WCAG''' significa Web Content Accesibility Guidelines.
 
-Pautas WCAG 2.0:<ref>[http://www.sidar.org/traducciones/wcag20/es/#contents Pautas WCAG 2.0]</ref>
+Los niveles de orientación son: principios, pautas, criterios de conformidad, técnicas suficientes y recomendables.
+
+En el nivel más alto están los 4 principios fundamentales de la accesibilidad web: perceptible, operable, comprensible y robusto. Dentro de los principios están las 12 pautas.
+
+'''Principios''' WCAG 2.0:<ref>[http://www.sidar.org/traducciones/wcag20/es/#contents Pautas WCAG 2.0]</ref>
 
 * '''Perceptible'''
 ** Proporcionar '''alternativas textuales para todo contenido no textual''' de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.

@@ -810,6 +810,8 @@ try {
 
 <p><b>SOAP</b> es un protocolo que define cómo se deben comunicar dos objetos de diferentes procesos empleando XML. Fue desarrollado por Microsoft e IBM. Todo mensaje SOAP tiene esta estructura: envelope (obligatorio), header, body (obligatorio) y fault. El envelope envuelve el conjunto y es el raíz.</p>
 
+<p><b>WSDL</b> (Web Services Description Language) es un formato de XML para describir servicios web, describe la forma de comunicación (requisitos y formatos). La estructura de WSDL contiene TYPES (tipos de datos usados en los mensajes), MESSAGE (elementos de mensaje), PORTTYPE (operaciones permitidas y mensajes intercambiados), BINDING (protocolos de comunicación usados), SERVICE (puertos y direcciones).</p>
+
 <h4 id="Orientada_a_servicios">Orientada a servicios</h4>
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2016 (IL)   </b></p>
@@ -868,6 +870,13 @@ try {
 
 <p>Un preprocesador CSS es un programa que genera código CSS a partir de una sintaxis distinta más potente. Los preprocesadores CSS más conocidos son <b>SASS, LESS, Stylus y PostCSS</b>.</p>
 
+<p><b>Selectores CSS</b>:<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>*</b>: todos los elementos</li><li><b>.clase1</b>: class="clase1"</li><li><b>.clase1.clase2</b>: class="clase1 clase2"</li><li><b>.clase1 .clase2</b>: class="clase1" y anidada class="clase2"</li><li><b>#id1</b>: id="id1"</li><li><b>p</b>: todos los elementos &lt;p&gt;</li><li><b>div, p</b>: todos los &lt;div&gt; y los &lt;p&gt;</li><li><b>div p</b>: todos los &lt;p&gt; anidados en &lt;div&gt;</li><li><b>div > p</b>: todos los &lt;p&gt; cuyo padre es &lt;div&gt;</li><li><b>div + p</b>: todos los &lt;p&gt; inmediatamente después de &lt;div&gt;</li></ul>
+</div>
+
+
 <h3 id="Javascript">Javascript</h3>
 
 <p><b>JavaScript</b> es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
@@ -881,6 +890,13 @@ try {
 <p>Todas las variables van precedidas del carácter $. Los nombres de variables son sensibles a mínusculas y mayúsculas. Solo pueden empezar con una letra o guión bajo. No es necesario indicar el tipo al crear la variable.</p>
 
 <ul><li>?php echo "Hola"; ?></li><li>if ($a > $b) { echo "A es mayor"; } else { echo "B es mayor"; }</li><li>for ($i = 1; $i <= 10; $i++) { echo $i; }</li></ul>
+
+<p>Algunas <b>funciones básicas</b> de PHP:<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+
+<ul><li><b>ceil()</b>: redondeo al alza</li><li><b>count()</b>: cuenta los elementos de un array</li><li><b>die()</b>: equivalente a exit()</li><li><b>echo()</b>: imprime una o varias cadenas</li><li><b>empty()</b>: determina si una variable está vacía</li><li><b>exit()</b>: imprime un mensaje y sale del script</li><li><b>file_get_contents()</b>: lee un fichero</li><li><b>file_put_contents()</b>: escribe un fichero</li><li><b>getenv()</b>: lee variable de entorno</li><li><b>header()</b>: envía encabezado sin formato HTTP</li><li><b>htmlentities()</b>: convierte cadena a entidades HTML</li><li><b>include()</b>: incluye y evalúa un fichero</li><li><b>ini_set()</b>: establece una directiva de configuración</li><li><b>isset()</b>: determina si una variable está definida y no es null</li><li><b>mail()</b>: envía correo</li><li><b>md5()</b>: calcula hash md5 de una cadena</li><li><b>mkdir()</b>: crea un directorio</li><li><b>phpinfo()</b>: muestra la configuración de PHP</li><li><b>preg_match()</b>: busca una expresión regular en una cadena</li><li><b>print_r()</b>: imprime información sobre una variable</li><li><b>rand()</b>: genera un número entero aleatorio</li><li><b>require()</b>: igual que include() pero en caso de fallo se detiene el script  (include() solo mostraría una advertencia)</li><li><b>str_replace()</b>: reemplaza subcadena en cadena</li><li><b>str_len()</b>: muestra longitud de una cadena</li><li><b>trim()</b>: elimina espacios en blanco al comienzo y final de una cadena</li></ul>
+</div>
+
 
 <h3 id="Sintaxis_de_comentarios,_etc">Sintaxis de comentarios, etc</h3>
 
@@ -918,11 +934,15 @@ try {
 
 <p><b>WCAG</b> significa Web Content Accesibility Guidelines.</p>
 
-<p>Pautas WCAG 2.0:<sup>[<a id="refback8" href="#ref8">8</a>]</sup></p>
+<p>Los niveles de orientación son: principios, pautas, criterios de conformidad, técnicas suficientes y recomendables.</p>
+
+<p>En el nivel más alto están los 4 principios fundamentales de la accesibilidad web: perceptible, operable, comprensible y robusto. Dentro de los principios están las 12 pautas.</p>
+
+<p><b>Principios</b> WCAG 2.0:<sup>[<a id="refback10" href="#ref10">10</a>]</sup></p>
 
 <ul><li><b>Perceptible</b></li><ul><li>Proporcionar <b>alternativas textuales para todo contenido no textual</b> de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.</li><li>Medios tempodependientes: proporcionar alternativas para los medios tempodependientes.</li><li>Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más simple) sin perder información o estructura.</li><li>Facilitar a los usuarios ver y oír el contenido, incluyendo la <b>separación entre el primer plano y el fondo</b>.</li></ul><li><b>Operable</b></li><ul><li>Proporcionar acceso a toda la funcionalidad mediante el <b>teclado</b>.</li><li>Proporcionar a los usuarios el <b>tiempo suficiente</b> para leer y usar el contenido.</li><li>No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.</li><li>Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.</li></ul><li><b>Comprensible</b></li><ul><li>Hacer que los contenidos textuales resulten <b>legibles y comprensibles</b>.</li><li>Hacer que las páginas web aparezcan y operen de manera <b>predecible</b>.</li><li>Ayudar a los usuarios a evitar y <b>corregir los errores</b>.</li></ul><li><b>Robusto</b></li><ul><li>Maximizar la <b>compatibilidad</b> con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.</li></ul></ul>
 
-<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback9" href="#ref9">9</a>]</sup></p>
+<p>Los <b>niveles o criterios de conformidad</b> son A, AA y AAA.<sup>[<a id="refback11" href="#ref11">11</a>]</sup></p>
 
 <p>Para el <b>nivel A</b> son <b>25 criterios</b>:</p>
 
@@ -1024,8 +1044,10 @@ try {
 <li id="ref5"><a href="#refback5">↑</a> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.2">System.Collections.Generic Namespace</a></li>
 <li id="ref6"><a href="#refback6">↑</a> <a href="https://msdn.microsoft.com/es-es/library/system.web.ui.htmlcontrols(v=vs.110).aspx">Espacio de nombres System.Web.UI.HtmlControls</a></li>
 <li id="ref7"><a href="#refback7">↑</a> <a href="http://www.cryer.co.uk/brian/csharp/ms_dotnet_order_of_page_events.htm">Understanding the order of Page events</a></li>
-<li id="ref8"><a href="#refback8">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
-<li id="ref9"><a href="#refback9">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
+<li id="ref8"><a href="#refback8">↑</a> <a href="https://www.w3schools.com/cssref/css_selectors.asp">Selectores CSS</a></li>
+<li id="ref9"><a href="#refback9">↑</a> <a href="https://en.wikiversity.org/wiki/25_Essential_PHP_Functions">25 Essential PHP Functions</a></li>
+<li id="ref10"><a href="#refback10">↑</a> <a href="http://www.sidar.org/traducciones/wcag20/es/#contents">Pautas WCAG 2.0</a></li>
+<li id="ref11"><a href="#refback11">↑</a> <a href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0">Criterios de conformidad de WCAG 2.0</a></li>
 <!--/references-->
 </ol>
 </div>
@@ -1054,7 +1076,7 @@ try {
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-10-13 16:34:00 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-10-14 10:24:39 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>
