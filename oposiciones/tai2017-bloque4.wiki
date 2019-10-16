@@ -848,15 +848,15 @@ Cada capa proporciona las operaciones disponibles para la capa superior.
 
 Las '''capas del Modelo OSI''' son '''siete''':
 
-* '''Nivel de Aplicación''': servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Protocolos de esta capa: HTTP, FTP, SMTP, Telnet.
-* '''Nivel de Presentación''': representación de los datos. Unidad de datos: Datos.
-* '''Nivel de Sesión''': comunicación entre dispositivos de la red. Unidad de datos: Datos.
-* '''Nivel de Transporte''': conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Segmentos.
+* '''Nivel de Aplicación''': servicios de red a aplicaciones. Unidad de datos: Datos. Permite a las aplicaciones acceder a los servicios de las demás capas. Unidad de datos: APDU.
+* '''Nivel de Presentación''': representación de los datos. Unidad de datos: PPDU.
+* '''Nivel de Sesión''': comunicación entre dispositivos de la red. Unidad de datos: SPDU.
+* '''Nivel de Transporte''': conexión extremo a extremo y fiabilidad de los datos. Unidad de datos: Datagramas, Segmentos, TPDU.
 * '''Nivel de Red''': determinación de ruta y direccionamiento lógico (IP). Unidad de datos: Paquetes.
 * '''Nivel de Enlace de Datos''': direccionamiento físico (MAC y LLC). Unidad de datos: Tramas.
 * '''Nivel Físico''': señal y transmisión binaria. Unidad de datos: Bits.
 
-Regla nemotécnica, '''FERTSPA''' (first spa).
+Regla nemotécnica, '''FERTSPA'''.
 
 === Modelo TCP/IP ===
 

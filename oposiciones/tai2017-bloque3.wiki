@@ -1621,9 +1621,9 @@ Los sistemas de control de versiones pueden ser:
 {{cayo-en-convocatoria|1=2015 (IL)}}
 Algunas de estas '''herramientas''' son:
 
-* '''Bazaar''': creado en 2007, patrocinado por Canonical. Distrubido.
+* '''Bazaar''': creado en 2007, patrocinado por Canonical. Distribuido.
 * '''BitKeeper''': creado en 2000, tiene licencia Apache. Era el usado para el kernel Linux antes de Git. Es de arquitectura distribuida.
-* '''CSV''': es acrónimo de Concurrent Versioning System. Creado en 1986 y soportado hasta 2008. Licencia GPL. Es de arquitectura centralizada.
+* '''CVS''': es acrónimo de Concurrent Versioning System. Creado en 1986 y soportado hasta 2008. Licencia GPL. Es de arquitectura centralizada.
 * '''Darcs''': creado en 2003 por David Roundy, software libre (GPL). Distribuido.
 * '''Git''': creado en 2005 por Linus Torvalds, con licencia GPL. Es de arquitectura distribuida. Se utiliza para el kernel Linux.
 * '''GNU arch''': con licencia libre, de arquitectura distribuida.
