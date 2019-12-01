@@ -25,6 +25,7 @@ Existen plataformas educativas que ofrecen cursos sobre todas las ramas del cono
 == Informática ==
 
 * [https://miriadax.net/web/ciberseguridad-entender-los-ataques-para-desplegar-contramedidas-2-edicion-/inicio Ciberseguridad. Entender los ataques para desplegar contramedidas] (Miríadax)
+* [https://www.youtube.com/watch?v=Jp-5bPY5Auk Curso intensivo de comandos para Linux]
 
 == Mecánica ==
 {{ap|1=otros/mecanica|2=Mecánica}}
