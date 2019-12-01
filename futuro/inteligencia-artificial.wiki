@@ -2,21 +2,25 @@
 
 Existen muchas definiciones de '''inteligencia artificial'''. Podría resumirse como la capacidad de una máquina de interpretar datos para tomar decisiones que maximicen la probabilidad de conseguir los objetivos esperados.
 
-Existen distintos tipos de inteligencia artificial. Si la toma de decisiones se lleva a cabo programando un conjunto de reglas previamente (similar a la estructura if-else) se denomina IA simbólica. Fue el primer tipo de inteligencia artificial, se desarrolló entre los años 50 y 80, y su máximo exponente son los sistemas expertos.
+Hay distintos tipos de inteligencia artificial. Si la toma de decisiones se lleva a cabo programando un conjunto de reglas previamente (similar a la estructura if-else) se denomina IA simbólica. Fue el primer tipo de inteligencia artificial, se desarrolló entre los años 50 y 80, y su máximo exponente son los '''sistemas expertos'''.
 
-Si el sistema aprende a partir de los datos por sí mismo en un proceso que suele ser retroalimentado numerosas veces hasta maximizar la perfección del sistema, estaremos ante el aprendizaje automático o machine learning.
+Si el sistema aprende a partir de los datos por sí mismo en un proceso que suele ser retroalimentado numerosas veces hasta maximizar la perfección del sistema, estaremos ante el '''aprendizaje automático''' o machine learning.
 
 == Lo básico ==
 
+* [https://eu.udacity.com/course/intro-to-artificial-intelligence--cs271 Intro to Artificial Intelligence] (Curso de Udacity)
+* [https://iedra.uned.es/courses/course-v1:UNED+InteligArtific_001+2018/about Entendiendo la Inteligencia Artificial] (Curso UNED Abierta)
 * [https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1 How to build a simple neural network in 9 lines of Python code]
 
 == Machine Learning ==
 
-
+* [https://eu.udacity.com/course/machine-learning--ud262 Machine Learning] (Curso de Udacity)
+* [https://developers.google.com/machine-learning/crash-course/ml-intro Machine Learning] (Curso de Google)
 
 === Deep Learning ===
 
 * TensorFlow
+* [https://eu.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187 Intro to TensorFlow for Deep Learning]
 
 == Usos de la inteligencia artificial ==
 
