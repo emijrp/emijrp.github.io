@@ -801,6 +801,7 @@ El protocolo '''NFC''' funciona en distancias muy cortas (cercanas a 4 cm) y no 
 ** '''IEEE 802.11ad''': Hasta 7 Gbit/s. 60 Ghz.
 ** '''IEEE 802.11ah''': WiFi HaLow. 0.9 Ghz.
 ** '''IEEE 802.11p''': Wireless Access in Vehicular Environments (WAVE)
+** '''IEEE 802.11v''': Permite configurar los clientes por Wi-Fi.
 * '''IEEE 802.15''': Wireless PAN (WPAN)
 ** '''IEEE 802.15.1''': Bluetooth
 ** '''IEEE 802.15.7''': Visible Light Communication (VLC)
