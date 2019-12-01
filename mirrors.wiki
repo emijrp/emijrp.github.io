@@ -1,11 +1,13 @@
 {{header|1=Mirrors}}
 
-Un '''mirror''' es una copia de un sitio web. Su función es ayudar a [[preservacion digital|preservar los datos]] mediante la creación de múltiples copias.
+Un '''mirror''' es una copia de un sitio web. Su función es ayudar a [[preservacion/preservacion digital|preservar los datos]] mediante la creación de múltiples copias.
 
-Estos son algunos mirrors que mantengo:
+Estas son algunas webs creadas por otros y que he clonado para que no se pierdan:
 
-* [https://emijrp.github.io/www.marxists.org Marxists Internet Archive]: biblioteca de autores marxistas.
-* [https://emijrp.github.io/itdied.com ItDied.com]: web sobre otras webs que cerraron. Cerró a su vez hace algún tiempo.
+* [https://emijrp.github.io/www.marxists.org/ Marxists Internet Archive]: biblioteca de autores marxistas.
+* [https://emijrp.github.io/itdied.com/ ItDied.com]: web sobre otras webs que cerraron. Cerró a su vez hace algún tiempo.
+* [https://emijrp.github.io/carl-sagan-tribute/ Carl Sagan tribute]: un pequeño homenaje a Carl Sagan.
+* [https://emijrp.github.io/palebluedot/ PaleBlueDot]: la famosa fotografía de la Tierra desde el Voyager y los pensamientos de Carl Sagan sobre la misma.
 * [https://www.wikis.cc/wiki/Wikis_recuperados Wikis recuperados]: algunos wikis que dejaron de funcionar y que hemos recuperado en Wikis.cc a partir de copias de WikiTeam.
 
 {{footer}}
