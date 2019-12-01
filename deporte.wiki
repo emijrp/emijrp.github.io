@@ -2,19 +2,60 @@
 
 Todo lo relacionado con el '''deporte, ejercicios y ergonomía'''.
 
-== Deporte ==
+== Calentamiento ==
+
+* [https://www.youtube.com/watch?v=2r5tfyFR7z0 Cómo calentar antes de hacer ejercicio]
+
+== Ejercicios de gimnasio ==
+
+* [https://www.youtube.com/watch?v=HUe2Vu-DCJo Errores frecuentes de principiante] ([https://www.youtube.com/watch?v=f08JBGlhpM8 II])
+* [https://www.youtube.com/watch?v=H-aD1nodenI Consejos para ganar masa muscular]
+
+* [https://www.youtube.com/watch?v=yA0PKX31QuA Entrenamiento general para principiantes]
+
+<!--
+
+Canales:
+
+* https://www.youtube.com/user/MUSCULOTUBETV/videos
+* https://www.youtube.com/user/mauriciogarzamorris/videos
+
+-->
+
+=== Tren superior ===
+
+* [https://www.youtube.com/watch?v=IKvw-If8FSI Antebrazos con pesas] ([https://www.youtube.com/watch?v=5ePUiw66--k 2]) ([https://www.youtube.com/watch?v=uHEjkk7jStI 3]) ([https://www.youtube.com/watch?v=pP3XoxPyaOg 4])
+
+* [https://www.youtube.com/watch?v=JvtNpghIgYw Pecho y bíceps]
+* [https://www.youtube.com/watch?v=rG4kPUeZ9ms Press plano en máquina]
+
+* [https://www.youtube.com/watch?v=8Y5OdjN0Ac0 Tríceps con polea alta]
+* [https://www.youtube.com/watch?v=0DSV92Uzko4 Deltoides en máquina]
+* [https://www.youtube.com/watch?v=BXYKB8HEbhM Elevaciones laterales en máquina]
+
+=== Tren inferior ===
+
+* [https://www.youtube.com/watch?v=colNL7F92hI Piernas con máquinas]
+* [https://www.youtube.com/watch?v=plie40F61fk Extensión de rodillas con una pierna]
+* [https://www.youtube.com/watch?v=GXG5nKXIeEo Errores frecuentes en extensiones de piernas]
+
+=== Vocabulario ===
+
+* '''Hipertrofia muscular''': 
+* '''Fallo muscular''': 
+* '''Powerlifting''': consiste en tres ejercicios, la sentadilla, el press de banca y el peso muerto. 
+
+== Estiramientos ==
+
+* [https://www.youtube.com/watch?v=YQQfhILVR7c Estiramientos para después del entrenamiento]
+* [https://www.youtube.com/watch?v=O-TBf7WPS7g Cómo estirar después de correr]
+
+== Deportes ==
 
 * Atletismo
 * Baloncesto
 * Fútbol
 * Natación
-
-== Ejercicios ==
-
-* Estiramientos
-* Espalda
-
-* [https://www.youtube.com/watch?v=IKvw-If8FSI Antebrazos] ([https://www.youtube.com/watch?v=5ePUiw66--k 2]) ([https://www.youtube.com/watch?v=uHEjkk7jStI 3]) ([https://www.youtube.com/watch?v=pP3XoxPyaOg 4])
 
 == Ergonomía ==
 
