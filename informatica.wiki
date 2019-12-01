@@ -1,5 +1,7 @@
 {{header|1=Informática}}
 
+* [[futuro/inteligencia-artificial|Inteligencia Artificial]]
+
 == Impresoras 3D ==
 
 * [https://www.youtube.com/watch?v=si2iUkXzykU Un estudiante de la UNDAV fabrica prótesis para perros y las dona]
