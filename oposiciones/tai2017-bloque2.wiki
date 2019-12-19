@@ -686,9 +686,11 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''date''': muestra la fecha y hora
 * '''dc''': calculadora
 * '''dd''': copia ficheros, particiones, discos
+* '''depmod''': muestra dependencias de módulos del kernel
 * '''df''': muestra espacio libre en disco
 * '''diff''': diferencia entre dos ficheros
 * '''dir''': muestra el contenido del directorio
+* '''dmesg''': muestra mensajes del kernel
 * '''dmidecode''': muestra información sobre el hardware
 * '''dpkg''': operaciones con paquetes
 * '''du''': muestra espacio ocupado por el directorio indicado
@@ -707,6 +709,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''halt''': detiene el sistema
 * '''head''': muestra el inicio de un fichero. Opuesto a tail
 * '''history''': muestra los comandos ejecutados anteriormente
+* '''host''': resuelve DNS
 * '''htop''': muestra procesos (más visual que top)
 * '''id''': muestra información del usuario actual
 * '''ifconfig''': configura o muestra interfaz de red
@@ -745,6 +748,7 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''multipath''': dispositivos multirrutas
 * '''mv''': renombrar o mover ficheros y directorios
 * '''nano''': editor de textos
+* '''nc''': establece conexiones de red
 * '''netstat''': muestra conexiones activas
 * '''nice''': establece una prioridad al proceso (-20 a 19)
 * '''nl''': numera las líneas de un fichero
@@ -777,10 +781,12 @@ Resumen de '''comandos''' y su función:<ref>[https://blog.desdelinux.net/mas-de
 * '''sort''': ordena una lista
 * '''split''': separa ficheros en otros más pequeños
 * '''shutdown''': apaga el sistema
+* '''ss''': muestra sockets
 * '''ssh''': conexión a equipos remotos de forma segura
 * '''stat''': muestra información sobre un fichero
 * '''su''': cambia de usuario (a root si no se indica nada)
 * '''sudo''': ejecuta un comando como administrador
+* '''systemctl''': controla servicios del systemd
 * '''tac''': invierte el orden de las líneas de un fichero
 * '''tail''': muestra el final de un fichero. Opuesto a head
 * '''tar''': crea paquete de ficheros

@@ -911,6 +911,11 @@ El '''Modelo OSI es teórico''', mientras que el '''Modelo TCP/IP es una impleme
 * '''993''': IMAP over SSL
 * '''995''': POP3 over SSL
 * '''1080''': SOCKS proxy
+* '''1433''': SQLServer
+* '''1521''': Oracle
+* '''3306''': MySQL
+* '''3389''': Escritorio remoto
+* '''5432''': PostgreSQL
 {{div col end}}
 
 == Tema 8: Internet ==
