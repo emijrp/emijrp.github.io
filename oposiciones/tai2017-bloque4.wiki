@@ -9,8 +9,8 @@ El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a
 
 En este tema son útiles los '''apuntes de otros bloques''':
 
-* '''[[programa2017-bloque2|Bloque II]], Tema 4: Sistemas operativos'''.
-* La parte de '''control de versiones''' del '''[[programa2017-bloque3|Bloque III]], Tema 10: Herramientas CASE'''.
+* '''[[tai2017-bloque2|Bloque II]], Tema 4: Sistemas operativos'''.
+* La parte de '''control de versiones''' del '''[[tai2017-bloque3|Bloque III]], Tema 10: Herramientas CASE'''.
 
 {{cayo-en-convocatoria|1=2016 (PI)}}
 Un '''administrador de sistemas''' es aquella persona que configura, mantiene, documenta y monitoriza un sistema informático. Debe garantizar que el sistema permanezca en funcionamiento el mayor tiempo posible, que el rendimiento sea apropiado y que sea seguro.
