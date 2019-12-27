@@ -78,7 +78,7 @@
         <td>10</td>
         <td><a href="./buscador.html">./buscador.html</a></td>
         <td><a href="./buscador.wiki">./buscador.wiki</a></td>
-        <td>714989</td>
+        <td>715732</td>
     </tr>
 
     <tr>
@@ -190,7 +190,7 @@
         <td>26</td>
         <td><a href="./mirrors.html">./mirrors.html</a></td>
         <td><a href="./mirrors.wiki">./mirrors.wiki</a></td>
-        <td>631</td>
+        <td>946</td>
     </tr>
 
     <tr>
@@ -232,7 +232,7 @@
         <td>32</td>
         <td><a href="./psicologia.html">./psicologia.html</a></td>
         <td><a href="./psicologia.wiki">./psicologia.wiki</a></td>
-        <td>272</td>
+        <td>350</td>
     </tr>
 
     <tr>
@@ -358,7 +358,7 @@
         <td>50</td>
         <td><a href="astronomia/astronomia.html">astronomia/astronomia.html</a></td>
         <td><a href="astronomia/astronomia.wiki">astronomia/astronomia.wiki</a></td>
-        <td>4781</td>
+        <td>4863</td>
     </tr>
 
     <tr>
@@ -1009,7 +1009,7 @@
         <td>143</td>
         <td><a href="historia/historia-de-las-bibliotecas.html">historia/historia-de-las-bibliotecas.html</a></td>
         <td><a href="historia/historia-de-las-bibliotecas.wiki">historia/historia-de-las-bibliotecas.wiki</a></td>
-        <td>3031</td>
+        <td>3268</td>
     </tr>
 
     <tr>
@@ -1149,7 +1149,7 @@
         <td>163</td>
         <td><a href="oposiciones/tai2017-bloque2.html">oposiciones/tai2017-bloque2.html</a></td>
         <td><a href="oposiciones/tai2017-bloque2.wiki">oposiciones/tai2017-bloque2.wiki</a></td>
-        <td>60520</td>
+        <td>60767</td>
     </tr>
 
     <tr>
@@ -1163,7 +1163,7 @@
         <td>165</td>
         <td><a href="oposiciones/tai2017-bloque4.html">oposiciones/tai2017-bloque4.html</a></td>
         <td><a href="oposiciones/tai2017-bloque4.wiki">oposiciones/tai2017-bloque4.wiki</a></td>
-        <td>69327</td>
+        <td>70002</td>
     </tr>
 
     <tr>
