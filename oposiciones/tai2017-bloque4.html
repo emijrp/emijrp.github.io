@@ -146,13 +146,15 @@ Ideas Actualización, mantenimiento y reparación:
 
 <p>Entre las operaciones básicas están la <b>creación de usuarios y grupos</b>, su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.</p>
 
-<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>passwd</b>: cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días). En <b>/etc/passwd</b> hay información de las cuentas (pero no la contraseña), en <b>/etc/shadow</b> información segura y en <b>/etc/pam.d/passwd</b> la configuración PAM.</li><li><b>chage</b>: caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios.</li></ul>
+<ul><li><b>useradd</b>: añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password). Ejemplo: useradd pepe -g root -s bash -d /home/pepe</li><li><b>userdel</b>: elimina un usuario (-r elimina el directorio home del usuario).</li><li><b>usermod</b>: modifica un usuario (-g grupo, -s shell, -d directorio home).</li><li><b>passwd</b>: cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días). En <b>/etc/passwd</b> hay información de las cuentas (pero no la contraseña), en <b>/etc/shadow</b> información segura y en <b>/etc/pam.d/passwd</b> la configuración PAM.</li><li><b>chage</b>: caducidad de contraseñas (-l información sobre una cuenta, -E fecha de expiración, -m minímo de días entre cambios de contraseña, -M máximo de días en que una contraseña es válida).</li><li><b>groupadd</b>: crea un nuevo grupo de usuarios. Ejemplo: groupadd usuarios</li><li><b>groupdel</b>: elimina un grupo de usuarios. Ejemplo: groupdel usuarios</li><li><b>gpasswd</b>: modifica los miembros de un grupo (-a añade, -d elimina, -A establece administrador). Ejemplo: gpasswd -a pepe usuarios</li></ul>
+
+<p>También existen <b>adduser, deluser, addgroup y delgroup</b> que son más fáciles de usar que useradd, userdel, groupadd y groupdel que son de bajo nivel.</p>
 
 <p>El fichero <b>/etc/login.defs</b> define parámetros referentes a contraseñas, como su caducidad.</p>
 
 <p>En <b>/etc/security/limits.conf</b> se puede limitar el número de ficheros abiertos, el número de sesiones abiertas, etc.</p>
 
-<p>Para crear una contraseña RSA se utiliza el comando openssl.</p>
+<p>Para crear una contraseña RSA se utiliza el comando <b>openssl</b>.</p>
 
 <h4 id="Otros">Otros</h4>
 
@@ -193,7 +195,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p><b>LVM</b> es una implementación de un administrador de volúmenes lógicos para Linux. Permite redimensionado de grupos y volúmenes lógicos, instantáneas de solo lectura y RAID 0. Para otros RAID se recomienda crearlos con otras herramientas y montar encima el LVM.</p>
 
 <p><b>Comandos LVM</b> básicos:</p>
-<ul><li><b>pvcreate</b>: inicializa un dispositivo lógico (phisical volume). Ejemplo: pvcreate /dev/sda</li><li><b>vgcreate</b>: crea un grupo lógico (volume group). Ejemplo: vgcreate vgname /dev/sda</li><li><b>lvcreate</b>: crea un volúmen lógico (logical volume). Ejemplo: lvcreate -L1GB -n lvname vgname</li><li><b>vgcfgbackup</b>: hace un backup de la configuración.</li><li><b>vgcfgrestore</b>: restaura configuración de descripción del grupo de volúmenes.</li><li><b>vgconvert</b>: convierte el formato de los metadatos.</li><li><b>vgdisplay</b>: información sobre grupos de volúmenes LVM.</li><li><b>vgextend</b>: añade volúmenes físicos a un grupo de volúmenes.</li></ul>
+<ul><li><b>pvcreate</b>: inicializa un dispositivo lógico (physical volume). Ejemplo: pvcreate /dev/sda</li><li><b>vgcreate</b>: crea un grupo lógico (volume group). Ejemplo: vgcreate vgname /dev/sda</li><li><b>lvcreate</b>: crea un volúmen lógico (logical volume). Ejemplo: lvcreate -L1GB -n lvname vgname</li><li><b>vgcfgbackup</b>: hace un backup de la configuración.</li><li><b>vgcfgrestore</b>: restaura configuración de descripción del grupo de volúmenes.</li><li><b>vgconvert</b>: convierte el formato de los metadatos.</li><li><b>vgdisplay</b>: información sobre grupos de volúmenes LVM.</li><li><b>vgextend</b>: añade volúmenes físicos a un grupo de volúmenes.</li></ul>
 
 <p>Luego quedaría crear el sistema de ficheros. Por ejemplo: mkfs.jfs /dev/vgname/lvname /mnt/myspace</p>
 
@@ -215,9 +217,7 @@ Ideas Actualización, mantenimiento y reparación:
 <p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
 </div>
 
-<p>En bash, las órdenes <b>true</b> y <b>false</b> evalúan como lógica booleana, por lo que se pueden usar además de los operandos <b>&&</b> y (and) y <b>||</b> (or). Por ejemplo: true && date (ejecuta comando date).</p>
-
-<p>No confundir con el operando & que colocado al final de un comando, lo envía a segundo plano.</p>
+<p>En bash, las órdenes <b>true</b> y <b>false</b> evalúan como lógica booleana, por lo que se pueden usar además de los operandos <b>&&</b> (and) y <b>||</b> (or). Por ejemplo: true && date (ejecuta comando date). No confundir con el operando <b>&</b> que colocado al final de un comando, lo envía a segundo plano.</p>
 
 <div style="font-size: 100%; float: right;width: 200px;border: 2px solid lightgrey;background-color: pink;margin: 10px 0px 10px 0px;padding: 0px 10px 0px 10px;text-align: center;">
 <p>Pregunta relacionada en<br/><b>2015-SE (IL)   </b></p>
@@ -271,7 +271,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <div style="font-size: 100%; -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
 
-<ul><li><b>certmgr.msc</b>: certificados del sistema.</li><li><b>cmd</b>: línea de comandos.</li><li><b>control</b>: panel de control.</li><li><b>devmgmt.msc</b>: administrador de dispositivos.</li><li><b>dfrgui</b>: desfragmentador de disco.</li><li><b>diskmgmt.msc</b>: administrador de discos.</li><li><b>eventvwr.msc</b>: visor de eventos.</li><li><b>explorer</b>: explorador de Windows.</li><li><b>firewall.cpl</b>: firewall.</li><li><b>gpedit.msc</b>: editor de políticas de grupos locales.</li><li><b>isoburn</b>: programa para grabar CDs. También <b>dvdmaker</b>.</li><li><b>lusrmgr.msc</b>: usuarios y grupos locales.</li><li><b>msconfig</b>: configuración del sistema.</li><li><b>msinfo32</b>: información del sistema.</li><li><b>msra</b>: asistencia remota.</li><li><b>perfmon.msc</b>: monitor de rendimiento.</li><li><b>powercfg.cpl</b>: opciones de energía.</li><li><b>powershell</b>: consola de PowerShell.</li><li><b>printmanagement.msc</b>: control de impresoras.</li><li><b>recdisc</b>: reparación de discos.</li><li><b>regedit</b>: editor de registro.</li><li><b>regedt32</b>: editor de registro.</li><li><b>secpol.msc</b>: políticas de seguridad locales.</li><li><b>services.msc</b>: muestra todos los servicios en ejecución.</li><li><b>taskmgr</b>: administrador de tareas.</li><li><b>taskschd.msc</b>: programador de tareas.</li><li><b>ver</b>: muestra el nombre y la versión del sistema. También winver.</li><li><b>wscript</b>: Windows Script Host.</li><li><b>wuapp</b>: Windows Update.</li></ul>
+<ul><li><b>certmgr.msc</b>: certificados del sistema.</li><li><b>cmd</b>: línea de comandos.</li><li><b>control</b>: panel de control.</li><li><b>devmgmt.msc</b>: administrador de dispositivos.</li><li><b>dfrgui</b>: desfragmentador de disco.</li><li><b>diskmgmt.msc</b>: administrador de discos.</li><li><b>eventvwr.msc</b>: visor de eventos.</li><li><b>explorer</b>: explorador de Windows.</li><li><b>firewall.cpl</b>: firewall.</li><li><b>gpedit.msc</b>: editor de políticas de grupos locales.</li><li><b>isoburn</b>: programa para grabar CDs. También <b>dvdmaker</b>.</li><li><b>lusrmgr.msc</b>: usuarios y grupos locales.</li><li><b>msconfig</b>: configuración del sistema.</li><li><b>msinfo32</b>: información del sistema.</li><li><b>msra</b>: asistencia remota.</li><li><b>perfmon.msc</b>: monitor de rendimiento.</li><li><b>powercfg.cpl</b>: opciones de energía.</li><li><b>powershell</b>: consola de PowerShell.</li><li><b>printmanagement.msc</b>: control de impresoras.</li><li><b>recdisc</b>: reparación de discos.</li><li><b>regedit</b>: editor de registro.</li><li><b>regedt32</b>: editor de registro.</li><li><b>secpol.msc</b>: políticas de seguridad locales.</li><li><b>services.msc</b>: muestra todos los servicios en ejecución.</li><li><b>taskmgr</b>: administrador de tareas.</li><li><b>taskschd.msc</b>: programador de tareas.</li><li><b>ver</b>: muestra el nombre y la versión del sistema. También <b>winver</b>.</li><li><b>wscript</b>: Windows Script Host.</li><li><b>wuapp</b>: Windows Update.</li></ul>
 </div>
 
 
@@ -283,7 +283,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 
 <p>Un <b>Sistema de Control de Versiones</b> (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial, BitKeeper, CVS, Bazaar, Visual SourceSafe.</p>
 
-<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<sup>[<a id="refback3" href="#ref3">3</a>]</sup>, Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.</p>
+<p>La <b>Gestión de Configuración de Software</b> (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<sup>[<a id="refback3" href="#ref3">3</a>]</sup> Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.</p>
 
 <p>Un <b>Sistema de Seguimiento de Errores</b> (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.</p>
 
@@ -925,7 +925,7 @@ poniendo Get- en google y otros prefijos, salen los más frecuentes
 <table style="margin-top: -10px;width: 99%;">
 <tr>
 <td style="width: 15%;"><a href="https://validator.w3.org/check?uri=referer"><img src="../images/thumbs/88px-valid-xhtml10.png" width="88px" align="left" alt="Valid XHTML 1.0 Transitional" title="Valid XHTML 1.0 Transitional" /></a></td>
-<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-12-23 15:38:08 (UTC)</td>
+<td style="width: 65%;text-align: center;">Esta página fue modificada por última vez el 2019-12-27 16:31:05 (UTC)</td>
 <td style="width: 20%;text-align: right;"><i><a href="https://pages.github.com">GitHub pages</a></i></td>
 </tr>
 </table>

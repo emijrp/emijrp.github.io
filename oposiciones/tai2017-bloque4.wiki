@@ -48,19 +48,29 @@ Los '''repositorios para GNU/Linux''' son servidores donde se aloja el software 
 
 Entre las operaciones básicas están la '''creación de usuarios y grupos''', su modificación y eliminación. También el cambio de contraseñas o establecer tiempo de expiración para estas.
 
-* '''useradd''': añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password) . Ejemplo: useradd pepe -g root -s bash -d /home/pepe
+* '''useradd''': añade un usuario al sistema (-g grupo, -s shell, -d directorio home, -e fecha expiración, -p password). Ejemplo: useradd pepe -g root -s bash -d /home/pepe
+
+* '''userdel''': elimina un usuario (-r elimina el directorio home del usuario).
+
+* '''usermod''': modifica un usuario (-g grupo, -s shell, -d directorio home).
 
 * '''passwd''': cambia una contraseña de usuario (-S muestra el estado de la cuenta, -d deja la cuenta sin contraseña, -e expira la contraseña obligando al usuario a cambiarla, -n obliga a cambiar la contraseña cada n días). En '''/etc/passwd''' hay información de las cuentas (pero no la contraseña), en '''/etc/shadow''' información segura y en '''/etc/pam.d/passwd''' la configuración PAM.
 
-* '''chage''': caducidad de contraseñas, -l (información sobre una cuenta), -E (fecha de expiración), -m (minímo de días entre cambios de contraseña), -M (máximo de días en que una contraseña es válida).
+* '''chage''': caducidad de contraseñas (-l información sobre una cuenta, -E fecha de expiración, -m minímo de días entre cambios de contraseña, -M máximo de días en que una contraseña es válida).
 
-* '''groupadd''': crea un nuevo grupo de usuarios.
+* '''groupadd''': crea un nuevo grupo de usuarios. Ejemplo: groupadd usuarios
+
+* '''groupdel''': elimina un grupo de usuarios. Ejemplo: groupdel usuarios
+
+* '''gpasswd''': modifica los miembros de un grupo (-a añade, -d elimina, -A establece administrador). Ejemplo: gpasswd -a pepe usuarios
+
+También existen '''adduser, deluser, addgroup y delgroup''' que son más fáciles de usar que useradd, userdel, groupadd y groupdel que son de bajo nivel.
 
 El fichero '''/etc/login.defs''' define parámetros referentes a contraseñas, como su caducidad.
 
 En '''/etc/security/limits.conf''' se puede limitar el número de ficheros abiertos, el número de sesiones abiertas, etc.
 
-Para crear una contraseña RSA se utiliza el comando openssl.
+Para crear una contraseña RSA se utiliza el comando '''openssl'''.
 
 ==== Otros ====
 
@@ -108,7 +118,7 @@ Algunos comandos que muestran información importante sobre el sistema:
 '''LVM''' es una implementación de un administrador de volúmenes lógicos para Linux. Permite redimensionado de grupos y volúmenes lógicos, instantáneas de solo lectura y RAID 0. Para otros RAID se recomienda crearlos con otras herramientas y montar encima el LVM.
 
 '''Comandos LVM''' básicos:
-* '''pvcreate''': inicializa un dispositivo lógico (phisical volume). Ejemplo: pvcreate /dev/sda
+* '''pvcreate''': inicializa un dispositivo lógico (physical volume). Ejemplo: pvcreate /dev/sda
 * '''vgcreate''': crea un grupo lógico (volume group). Ejemplo: vgcreate vgname /dev/sda
 * '''lvcreate''': crea un volúmen lógico (logical volume). Ejemplo: lvcreate -L1GB -n lvname vgname
 * '''vgcfgbackup''': hace un backup de la configuración.
@@ -135,9 +145,7 @@ En el directorio '''/proc''' hay numerosos ficheros con información del sistema
 Para apagar el sistema se utiliza el comando '''shutdown'''. Admite diversas variantes: -h (apaga, por defecto), -r (reinicia), -c (cancela una petición de apagado/reinicio). Se puede especificar una hora en la realizar la operación (en formato HH:MM) o con +N donde N sería un número de minutos. Sino se indica ningún tiempo, se asume +1 (1 minuto). Si se quiere inmediatamente, se usa '''shutdown now'''. También existe el comando '''reboot''' que reinicia (como haría shutdown -r now).
 
 {{cayo-en-convocatoria|1=2015-SE (IL)}}
-En bash, las órdenes '''true''' y '''false''' evalúan como lógica booleana, por lo que se pueden usar además de los operandos '''&&''' y (and) y '''||''' (or). Por ejemplo: true && date (ejecuta comando date).
-
-No confundir con el operando & que colocado al final de un comando, lo envía a segundo plano.
+En bash, las órdenes '''true''' y '''false''' evalúan como lógica booleana, por lo que se pueden usar además de los operandos '''&&''' (and) y '''||''' (or). Por ejemplo: true && date (ejecuta comando date). No confundir con el operando '''&''' que colocado al final de un comando, lo envía a segundo plano.
 
 {{cayo-en-convocatoria|1=2015-SE (IL)}}
 Con '''cron''' se pueden programar tareas para que se realicen periodicamente. El comando para editar el fichero de tareas es '''crontab -e''', para mostrarlo simplemente es '''crontab -l''', para borrarlo es '''crontab -r'''.
@@ -236,7 +244,7 @@ Algunos comandos que muestran información importante sobre el sistema o que per
 * '''services.msc''': muestra todos los servicios en ejecución.
 * '''taskmgr''': administrador de tareas.
 * '''taskschd.msc''': programador de tareas.
-* '''ver''': muestra el nombre y la versión del sistema. También winver.
+* '''ver''': muestra el nombre y la versión del sistema. También '''winver'''.
 * '''wscript''': Windows Script Host.
 * '''wuapp''': Windows Update.
 {{div col end}}
@@ -249,7 +257,7 @@ Un '''control de versiones''' es un método de trabajo en el que se mantiene un 
 
 Un '''Sistema de Control de Versiones''' (VCS, Version Control System) es un software que facilita esta tarea. El histórico de cambios se inicia con una primera revisión (revisión 1) y conforme se registran cambios se va sumando, revisión 2, revisión 3. El sistema permite regresar a cualquier punto anterior del histórico. Los más destacados son Git, Subversion, Mercurial, BitKeeper, CVS, Bazaar, Visual SourceSafe.
 
-La '''Gestión de Configuración de Software''' (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<ref>[https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html Salt in 10 minutes]</ref>, Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.
+La '''Gestión de Configuración de Software''' (SCM, Software Configuration Management) es el seguimiento del desarrollo, configuración y mantenimiento, así como de todos los cambios relevantes de un proyecto y su despliegue en un conjunto de equipos. Entre los sistemas SCM más destacados están Plastic SCM, Fossil, Trac, Salt,<ref>[https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html Salt in 10 minutes]</ref> Puppet, Chef, Ansible, CFEngine. También se les conoce como CMS, Configuration Management System.
 
 Un '''Sistema de Seguimiento de Errores''' (Bug Tracking System) es una aplicación que permite llevar un registro de los errores reportados acerca de un software y el proceso para solucionarlos. Permite a los usuarios notificar errores, en el caso de proyectos de software libre. Lo más destacados son Bugzilla, JIRA, Trac, Redmine.
 
