@@ -292,7 +292,7 @@ Un '''hipervisor''' es un software o hardware que corre máquinas virtuales. El 
 
 Algunos '''comandos para MySQL''':
 
-* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla). El puerto por defecto es '''3306'''.
+* '''mysql''': cliente de MySQL. Para entrar en su línea de comandos: mysql -u user -ppassword. Una vez dentro, los comandos más frecuentes son: use db_name (para cambiar el foco a esa base de datos), create table clientes (crea tabla), drop table clientes (elimina tabla), alter table clientes (modifica tabla), truncate table clientes (vacía tabla sin borrar su estructura). El puerto por defecto es '''3306'''.
 
 * '''mysqladmin''': administración de MySQL.<ref>[https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/ mysqladmin]</ref>
 ** '''mysqladmin -u user -ppassword version''': versión del servidor.
@@ -309,7 +309,9 @@ Algunos '''comandos para MySQL''':
 ==== ORACLE ====
 
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
-Para '''ORACLE''' los comandos para exportar e importar bases de datos son expdp y impdp respectivamente. Para hacer backups se usa '''rman'''.
+Para '''ORACLE''' los comandos para exportar e importar bases de datos son '''expdp''' y '''impdp''' respectivamente.
+
+Para hacer backups se usa '''rman'''. Una vez en su consola, las opciones más frecuentes son: BACKUP db_name (backup de base de datos), BACKUP ARCHIVELOG ALL (backup de archivos de log), BACKUP db_name PLUS ARCHIVELOG (backup de ambas cosas).
 
 El puerto por defecto de ORACLE es '''1521'''. El de ORACLE SQL *NET es el '''66'''.
 
