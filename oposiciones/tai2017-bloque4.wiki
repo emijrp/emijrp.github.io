@@ -584,12 +584,12 @@ Conceptos relativos a personas:
 * '''Luser''': similar a lamer, un usuario que es molesto.
 * '''Noob''': un novato o recién llegado a una comunidad u oficio.
 * '''Phreaker''': persona que experimenta con sistemas de telefonía.
-* '''Script kiddie''': es un usuario sin conoimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.
+* '''Script kiddie''': es un usuario sin conocimientos que utiliza scripts o herramientas desarrolladas por otros para entrar en sistemas.
 
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
 '''Herramientas''' del '''CCN-CERT''':
 
-* '''CARMEN''': Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persisten Threats) mediante análisis de logs y minería de datos.
+* '''CARMEN''': Centro de Análisis de Registros y Minería de EveNtos. Para la detección de APTs (Advanced Persistent Threats) mediante análisis de logs y minería de datos.
 * '''CLARA''': Herramienta para verificar el cumplimiento del ENS.
 * '''INÉS''': Informe Nacional del Estado de Seguridad. Permite el seguimiento del grado de implantación del ENS.
 * '''GLORIA''': plataforma para la gestión de incidentes y amenazas de ciberseguridad con técnicas de correlación.
@@ -655,7 +655,7 @@ Otros algoritmos de clave simétrica son Serpent, Twofish.
 
 La '''criptografía asimétrica''' (o sistema de clave pública) utiliza dos claves para el envío de mensajes y pertenecen a la misma persona. Una es la '''clave pública''' y otra es la '''clave privada'''.
 
-Cuando un usuario quiere enviar un mensaje, utiliza la clave pública del destinatario para cifrar el mensaje. Al hacérselo llegar al destinatario, éste utilizara su clave privada para descifrarlo.
+Cuando un usuario quiere enviar un mensaje, utiliza la clave pública del destinatario para cifrar el mensaje. Al hacérselo llegar al destinatario, éste utilizará su clave privada para descifrarlo.
 
 Nadie a parte de su propietario debe conocer la clave privada.
 
@@ -673,13 +673,13 @@ Si el propietario de una clave privada cifra un mensaje con ella, el mensaje se 
 
 La '''criptografía de curva elíptica''' es una variante de la criptografía asimétrica basada en las matemáticas de las curvas elípticas.
 
-La '''criptografía híbrida''' utiliza tanto cifrafo simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.
+La '''criptografía híbrida''' utiliza tanto cifrado simétrico como asimétrico. Usa el cifrado asimétrico para compartir la clave de cifrado simétrico. ECIES o IES es un sistema híbrido.
 
 ==== Funciones hash ====
 {{cayo-en-convocatoria|1=2016-SE (IL)}}
 
 * '''MD5''': produce un hash de 128 bits (16 bytes), 32 caracteres hexadecimales.
-* '''SHA-1''': produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.
+* '''SHA1''': produce un hash de 160 bits (20 bytes), 40 caracteres hexadecimales.
 
 ==== Gestión de contraseñas ====
 
