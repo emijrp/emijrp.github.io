@@ -754,7 +754,7 @@ En una '''red conmutada''' la comunicación se establece de extremo a extremo a 
 * '''Red de área personal''' (Personal Area Network, PAN): red para conectar dispositivos cercanos al ordenador.
 * '''Red inalámbrica de área personal''' (Wireless Personal Area Network, WPAN): redes que conectan teléfonos, PDA, impresoras, etc, cercanos, normalmente a través de Bluetooth.
 * '''Red de área local''' (Local Area Network, LAN): red pequeña dentro de una misma casa o edificio. También puede ser inalámbrica, WLAN.
-* '''Red de área de campus''' (Campos Area Network, CAN): red de alta velocidad dentro de una universidad, hospital, etc.
+* '''Red de área de campus''' (Campus Area Network, CAN): red de alta velocidad dentro de una universidad, hospital, etc.
 * '''Red de área metropolitana''' (Metropolitan Area Network, MAN): red que da cobertura a un área geográfica que cubra varios edificios, por ejemplo con fibra óptica.
 * '''Red de área amplia''' (Wide Area Network, WAN): red que cubre áreas extensas, incluso con satélites, cables transoceánicos, etc.
 * '''Red de área de almacenamiento''' (Storage Area Network, SAN): red que conecta servidores, conjuntos de discos, etc, cuyos datos pasan separados de las redes de usuarios.
@@ -762,9 +762,9 @@ En una '''red conmutada''' la comunicación se establece de extremo a extremo a 
 
 '''Tipos''' de cableado:
 
-* '''Cable par trenzado''': tipo de cable con dos conductores elétricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.
+* '''Cable par trenzado''': tipo de cable con dos conductores eléctricos aislados entrelazados, anula interferencias y diafonía de cables adyacentes.
 
-* '''Cable coaxial''': transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dielétrico y con malla contra interferencias.
+* '''Cable coaxial''': transporta señales electromagnéticas de alta frecuencia, con un núcleo sólido de cobre, recubierto por un material dieléctrico y con malla contra interferencias.
 {{cayo-en-convocatoria|1=2016 (IL)}}
 * La '''fibra óptica''' es un medio de transmisión de datos, formado por un hilo a través del que se envían pulsos de luz. Puede ser '''monomodo''' (un solo haz, larga distancia) y '''multimodo''' (varios haces, poca distancia). Conectores FC, FDDI, LC, SC y ST. Técnicas de transmisión CWDM y DWDM. El material interno tiene un índice de refracción superior al del material que lo rodea. Las ventanas de transmisión son de longitud de onda 820 nm, 1310 nm y 1550 nm.
 
@@ -773,7 +773,7 @@ En una '''red conmutada''' la comunicación se establece de extremo a extremo a 
 * '''Anillo''': cada estación se conecta con la siguiente y la última con la primera, cerrando el anillo.
 * '''Bus''': cuenta con un único canal de comunicaciones al que se conectan todos los dispositivos.
 * '''Estrella''': las estaciones se conectan a un punto central.
-* '''Malla''': cadanodo se conecta con todos los demás.
+* '''Malla''': cada nodo se conecta con todos los demás.
 * '''Árbol''': nodos conectados en forma de árbol, similar a la de estrella pero sin nodo central.
 * '''Híbrida o mixta''': una combinación de las demás, circular de estrella, bus de estrella, etc.
 
@@ -781,7 +781,7 @@ Según la '''direccionalidad de los datos''':
 
 * '''Simplex''': unidireccional, un terminal envía y otro recibe.
 * '''Half-duplex''': semidúplex, envío bidireccional pero no simultáneamente.
-* '''Full-duplex''': dúplex, envío bidireccional y simultáneao.
+* '''Full-duplex''': dúplex, envío bidireccional y simultáneo.
 
 {{cayo-en-convocatoria|1=2016 (IL)}}
 '''Control de acceso''' al medio:
