@@ -201,6 +201,7 @@ Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569
 * '''Get-ItemProperty''': selecciona la propiedad de un objeto.
 * '''Get-Process''': selecciona procesos ejecutándose en el sistema.
 * '''Get-Service''': selecciona los servicios del sistema.
+* '''Get-WmiObject win32_product''': muestra software instalado.
 * y muchos más...
 {{div col end}}
 
@@ -320,6 +321,10 @@ El puerto por defecto de ORACLE es '''1521'''. El de ORACLE SQL *NET es el '''66
 Algunos '''comandos para PostgreSQL''':<ref>[https://www.postgresql.org/docs/9.1/static/backup-dump.html PostgreSQL dumps]</ref>
 
 * '''psql''': 
+** '''createdb''': crea una base de datos.
+** '''dropdb''': elimina una base de datos.
+** '''createuser''': crea un usuario.
+** '''dropuser''': elimina un usuario.
 ** '''psql db_name < file''': restura un backup hecho con pg_dump.
 ** '''psql -f file postgres''': restaura un backup hecho con pg_dumpall. El parámetro "postgres" se indica si el cluster está vacío.
 
