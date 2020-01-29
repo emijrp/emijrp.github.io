@@ -1,5 +1,4 @@
 {{headernoindex|1=TAI 2017. Bloque IV. Sistemas y comunicaciones}}
-{{oposiciones}}
 
 El '''Bloque IV. Sistemas y comunicaciones''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''10 temas'''.
 
@@ -194,7 +193,7 @@ Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569
 * '''Get-ComputerRestorePoint''': muestra los puntos de restauración.
 * '''Get-Content''': muestra el contenido de un objeto.
 * '''Get-Date''': muestra la fecha y hora.
-* '''Get-Events''': muestra la cola de eventos.
+* '''Get-Event''': muestra la cola de eventos.
 * '''Get-Help''': muestra ayuda sobre comandos.
 * '''Get-History''': muestra el histórico de comandos usados en la sesión.
 * '''Get-Item''': selecciona un objeto.
@@ -202,7 +201,6 @@ Algunos '''cmdlets''':<ref>[https://technet.microsoft.com/en-us/library/ff714569
 * '''Get-Process''': selecciona procesos ejecutándose en el sistema.
 * '''Get-Service''': selecciona los servicios del sistema.
 * '''Get-WmiObject win32_product''': muestra software instalado.
-* y muchos más...
 {{div col end}}
 
 Se puede instalar PowerShell en Linux: snap install powershell --classic.

@@ -1,5 +1,4 @@
 {{headernoindex|1=TAI 2017. Bloque II. Tecnología básica}}
-{{oposiciones}}
 
 El '''Bloque II. Tecnología básica''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''5 temas'''.
 
@@ -820,7 +819,7 @@ El comando '''compgen -c''' muestra un listado con todos los comandos (y sus ali
 
 Las '''tuberías''' permiten conectar la salida de un comando con la entrada de otro. Por ejemplo: cat fichero1 fichero2 | sort | uniq (concatena dos ficheros, ordena sus líneas y elimina líneas duplicadas).
 
-Las '''redirecciones''' permiten volcar la salida de un comando a un fichero. Por ejemplo: ls -alh >> ls.txt (hace un ls y lo vuelca en un fichero, sin sobreescribir lo que ya haya)
+Las '''redirecciones''' permiten volcar la salida de un comando a un fichero. Por ejemplo: ls -alh >> ls.txt (hace un ls y lo vuelca en un fichero, sin sobreescribir lo que ya haya).
 
 Se pueden crear aliases para comandos muy utilizados. Por ejemplo: alias ll=ls -alh (permite llamar a ls -alh simplemente escribiendo ll). Para ver los aliases de un usuario, se escribe alias -p.
 

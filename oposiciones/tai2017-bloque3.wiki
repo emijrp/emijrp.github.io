@@ -1,5 +1,4 @@
 {{headernoindex|1=TAI 2017. Bloque III. Desarrollo de sistemas}}
-{{oposiciones}}
 
 El '''Bloque III. Desarrollo de sistemas''' de las [[oposiciones|Oposiciones a TAI 2017]] se compone de '''10 temas'''.
 
@@ -1433,7 +1432,6 @@ Algunas '''funciones básicas''' de PHP:<ref>[https://en.wikiversity.org/wiki/25
 === Sintaxis de comentarios, etc ===
 
 Sintaxis para '''comentarios''':
-
 * '''Ada, Eiffel, Occam, ANSI SQL''': -- comentario
 * '''C, C++, C#, Java, JavaScript''': //comentario /* comentario */
 * '''HTML''': < !-- -->
