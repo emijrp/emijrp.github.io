@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2016-2020 emijrp <emijrp@gmail.com>
+# Copyright (C) 2020 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -28,26 +28,18 @@ def main():
     OAUTH_TOKEN, OAUTH_TOKEN_SECRET = read_tokens()
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
-    #commonsurl = 'https://commons.wikimedia.org/wiki/User:Emijrp/Memoria_antifascista?action=raw'
-    commonsurl = 'https://15mpedia.org/wiki/Usuario:Emijrp/Monumentos-memoria?action=raw'
+    commonsurl = 'https://15mpedia.org/wiki/Usuario:Emijrp/Documentales-memoria?action=raw'
     raw = getURL(url=commonsurl)
-    works = re.findall(r'(?im)File:([^\|\n]+?)\|([^\n]+?)\n', raw)
+    works = re.findall(r'(?im)^\*([^\|\n]+?)\|(http[^\n]+?)\n', raw)
     random.shuffle(works)
     selectedwork = works[0]
     print(selectedwork)
     
-    imagename = selectedwork[0]
-    desc = selectedwork[1]
-    x, xx = getCommonsMD5(imagename)
-    imgurl = 'https://commons.wikimedia.org/wiki/File:%s' % (re.sub(' ', '_', imagename))
-    imgurl2 = 'https://upload.wikimedia.org/wikipedia/commons/%s/%s/%s' % (x, xx, urllib.parse.quote(re.sub(' ', '_', imagename)))
-    urllib.request.urlretrieve(imgurl2, 'memoriamonumentos-tempimage.jpg')
-    img = open('memoriamonumentos-tempimage.jpg', 'rb')
-    
-    status = '#MemoriaAntifascista #Monumentos\n\n%s\n\n%s' % (desc, imgurl)
+    name = selectedwork[0].strip()
+    desc = selectedwork[1].strip()
+    status = '#MemoriaAntifascista #Documentales\n\n%s\n\n%s' % (name, desc)
     print(status)
-    response = twitter.upload_media(media=img)
-    raw = twitter.update_status(status=status, media_ids=[response['media_id']])
+    raw = twitter.update_status(status=status)
     tweetid = raw['id_str']
     print('Status:',status)
     print('Returned ID:',tweetid)
