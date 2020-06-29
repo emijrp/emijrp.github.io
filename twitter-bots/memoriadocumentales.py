@@ -37,7 +37,8 @@ def main():
     
     name = selectedwork[0].strip()
     desc = selectedwork[1].strip()
-    status = '#MemoriaAntifascista #Documentales\n\n%s\n\nLista completa de documentales de memoria histórica https://15mpedia.org/wiki/Lista_de_documentales_sobre_memoria_histórica\n\n%s' % (name, desc)
+    republicanflag = '🟥🟥🟥🟨🟨🟨🟪🟪🟪'
+    status = '%s\n#MemoriaAntifascista #Documentales\n\n%s\n\nLista completa de documentales de memoria histórica https://15mpedia.org/wiki/Lista_de_documentales_sobre_memoria_histórica\n\n%s' % (republicanflag, name, desc)
     print(status)
     raw = twitter.update_status(status=status)
     tweetid = raw['id_str']
