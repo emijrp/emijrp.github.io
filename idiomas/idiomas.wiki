@@ -1,10 +1,24 @@
 {{header|1=Idiomas}}
 
+== Idiomas naturales ==
+
 * [[Polaco]]
 * [[Ruso]]
 
-== Cursos ==
+== Idiomas artificiales o construidos ==
 
+* [[Esperanto]]
+* [[Interlingua]]
+* [[Lojban]]
+* [[Toki Pona]]
+* [[Volapük]]
+
+== Enlaces externos ==
+
+=== Cursos ===
+* [https://www.edx.org/course/introduccion-al-griego-clasico Introducción al griego clásico] (edX)
+
+=== Videos ===
 * [https://www.youtube.com/watch?v=zeM8I-QU02k Aprender alemán]
 * [https://www.youtube.com/watch?v=mW3W-Bua9HM Aprender catalán]
 * [https://www.youtube.com/watch?v=6WI42Tyvx8Q Aprender esperanto]
@@ -15,8 +29,5 @@
 * [https://www.youtube.com/watch?v=lxyCyXXEaUE Aprender latín]
 * [https://www.youtube.com/watch?v=cwY85S1O0vk Aprender portugués (brasileño)]
 * [https://www.youtube.com/watch?v=gDfulSElISA Aprender ruso]
-
-* [https://www.edx.org/course/introduccion-al-griego-clasico Introducción al griego clásico] (edX)
-
 
 {{footer}}

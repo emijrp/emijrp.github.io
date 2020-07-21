@@ -1,0 +1,152 @@
+{{header|1=Toki Pona}}
+
+El idioma artificial '''Toki Pona''' se compone de 120 palabras.
+
+{{div col 3}}
+
+* '''[contexto]''': la
+* '''[de]''': pi
+* '''[énfasis]''': a
+* '''[mandato]''': o
+* '''[miau]''': mu
+* '''[objeto]''': e
+* '''[predicado]''': li
+* '''[y]''': en
+
+* '''a''': tawa
+* '''a causa de''': tan
+* '''abajo''': anpa
+* '''abrir''': open
+* '''agua''': telo
+* '''agujero''': lupa
+* '''aire''': kon
+* '''alto''': sewi
+* '''amarillo''': jelo
+* '''amor''': olin
+* '''animal''': soweli
+
+* '''blanco''': walo
+* '''boca''': uta
+* '''bueno''': pona
+
+* '''cabeza''': lawa
+* '''camino''': nasin
+* '''casa''': tomo
+* '''cazar''': alasa
+* '''cerca''': poka
+* '''círculo''': sike
+* '''color''': kule
+* '''comer''': moku
+* '''comercio''': esun
+* '''comida''': pan
+* '''contenedor''': poki
+* '''cosa''': ijo
+* '''cuerpo''': sijelo
+
+* '''dar''': pana
+* '''diferente''': ante
+* '''dinero''': mani
+* '''dormir''': lape
+* '''dos''': tu
+* '''dulce''': suwi
+
+* '''él''': ona
+* '''en''': lon
+* '''este''': ni
+
+* '''fin''': pini
+* '''frente''': sinpin
+* '''frío''': lete
+* '''fruta''': kili
+* '''fuego''': seli
+* '''fuera''': weka
+* '''fuerte''': wawa
+
+* '''grande''': suli
+* '''grupo''': kulupu
+* '''guardar''': awen
+
+* '''hacer''': pali
+* '''herramienta''': ilo
+* '''hombre''': mije
+
+* '''imagen''': sitelen
+* '''insecto''': pipi
+* '''interactuar con el libro''': pu
+* '''interior''': insa
+
+* '''jugar''': musi
+
+* '''línea''': linja
+* '''loco''': nasa
+* '''luna''': mun
+
+* '''mal''': ike
+* '''mano''': luka
+* '''mismo''': sama
+* '''montaña''': nena
+* '''mucho''': mute
+* '''muerto''': moli
+* '''mujer''': meli
+
+* '''negro''': pimeja
+* '''no''': ala
+* '''nombre''': nimi
+* '''nuevo''': sin
+* '''número''': nanpa
+
+* '''o''': anu
+* '''oir''': kute
+
+* '''padre''': mama
+* '''pájaro''': waso
+* '''palo''': palisa
+* '''papel''': lipu
+* '''pasta''': ko
+* '''pelear''': utala
+* '''pequeño''': lili
+* '''pero''': taso
+* '''persona''': jan
+* '''pez''': kala
+* '''pie''': noka
+* '''piedra''': kiwen
+* '''piel''': selo
+* '''planta''': kasi
+* '''poder''': ken
+
+* '''qué''': seme
+* '''querer''': wile
+
+* '''reptil''': akesi
+* '''rojo''': loje
+* '''romper''': pakala
+* '''ropa''': len
+
+* '''saber''': sona
+* '''sentir''': pilin
+* '''sexo''': unpa
+* '''sol''': suno
+* '''sonido''': kalama
+* '''sucio''': jaki
+* '''superficie''': supa
+
+* '''tener''': jo
+* '''tiempo''': tenpo
+* '''tierra''': ma
+* '''todo''': ale
+* '''toki''': hablar
+* '''trasera''': monsi
+* '''tú''': sina
+
+* '''uno''': wan
+* '''usar''': kepeken
+
+* '''venir''': kama
+* '''ver''': lukin
+* '''verde''': laso
+
+* '''yo''': mi
+
+{{div col end}}
+
+{{footer}}
