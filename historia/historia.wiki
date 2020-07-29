@@ -42,23 +42,32 @@ The Earth's crust has constantly changed since its formation, as has life has si
 
 == Prehistoria ==
 
-Desde la aparición del ser humano hasta la invención de la escritura.
+La '''Prehistoria''' se extiende desde la aparición del ser humano hasta la invención de la escritura.<ref>[https://es.wikipedia.org/wiki/Anexo:Cronolog%C3%ADa_de_la_prehistoria_de_la_pen%C3%ADnsula_ib%C3%A9rica Cronología de la prehistoria de la península ibérica]</ref>
 
-* [https://es.wikipedia.org/wiki/Anexo:Cronolog%C3%ADa_de_la_prehistoria_de_la_pen%C3%ADnsula_ib%C3%A9rica Cronología de la prehistoria de la península ibérica]
+La '''Edad de Piedra''' abarca el Paleolítico y el Neolítico. Con la creación de utensilios de metal, comienza la '''Edad de los Metales'''.
+
+La siglas '''AP''' significan '''Antes del Presente'''.
 
 === Paleolítico ===
 
-* Inferior
-* Medio
-* Superior
+* '''Paleolítico Inferior''': se extiende entre los años 3.300.000 a 300.000 AP.
+
+* '''Paleolítico Medio''': se extiende entre los años 300.000 a 50.000 AP.
+
+* '''Paleolítico Superior''': se extiende entre los años 50.000 a 12.000 AP.
+** '''45.000-43.000 AP''': primeros humanos modernos en Europa, al sur de Italia.
 
 === Neolítico ===
 
+En el período '''Neolítico''' (piedra nueva) las herramientas son elaboradas con piedra pulida, a diferencia del Paleolítico en el que las piedras son talladas de forma más tosca. El Neolítico se extiende entre los años 12.000 a 6.500 AP.
+
 === Edad de los Metales ===
 
-* Cobre
-* Bronce
-* Hierro
+* '''Edad del Cobre''': 
+
+* '''Edad del Bronce''': 
+
+* '''Edad del Hierro''': 
 
 == Aparición de la escritura ==
 
