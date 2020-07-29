@@ -149,4 +149,8 @@ El idioma artificial '''Toki Pona''' se compone de 120 palabras.
 
 {{div col end}}
 
+== Enlaces externos ==
+
+* [https://web.archive.org/web/20200618130949/http://elzr.com/img/tokipona/manual-tokipona.pdf Manual de Toki Pona]
+
 {{footer}}
