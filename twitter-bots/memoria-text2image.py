@@ -70,6 +70,7 @@ def main():
         sys.exit()
     
     victimas = []
+    victimas_ = []
     if tema == 'deportados':
         query = "[[persona represaliada::+]] [[represor::Nazismo]] [[represión::Campo de concentración]] [[fallecimiento::Sí]] [[fecha string::~*/%s/%s]]" % (d.strftime('%m'), d.strftime('%d'))
         queryurl = 'https://15mpedia.org/w/index.php?title=Especial:Ask&q=%s&p=format%%3Dbroadtable%%2Flink%%3Dall%%2Fheaders%%3Dshow%%2Fsearchlabel%%3D-26hellip%%3B-20siguientes-20resultados%%2Fclass%%3Dsortable-20wikitable-20smwtable&po=%%3FFecha+string%%0A%%3FLugar%%0A&limit=500&eq=no' % (urllib.parse.quote(query))
@@ -77,15 +78,17 @@ def main():
         m = re.findall(r'(?im)<td><a href="[^<>]*?" title="[^<>]*?">([^<>]*?)</a></td>\s*<td class="Fecha-string">(\d\d\d\d)[^<>]+?</td>\s*<td class="Lugar">Campo de concentración de ([^<>]*?)</td>', raw)
         victimas = []
         for i in m:
-            if not '(' in i[0]:
+            if not '(' in i[0] and not removeaccute(i[0].lower()) in victimas_:
                 victimas.append([i[1],i[0],i[2]])
+                victimas_.append(removeaccute(i[0].lower()))
     elif tema == 'fusilados':
         raw = urllib.request.urlopen('https://15mpedia.org/w/index.php?title=Especial:Ask&q=[[persona+represaliada%%3A%%3A%%2B]]+[[represor%%3A%%3AFranquismo]]+[[represi%%C3%%B3n%%3A%%3AFusilamiento]]+[[fecha+string%%3A%%3A~*%%2F%s%%2F%s]]&p=format%%3Dbroadtable%%2Flink%%3Dall%%2Fheaders%%3Dshow%%2Fsearchlabel%%3D-26hellip%%3B-20siguientes-20resultados%%2Fclass%%3Dsortable-20wikitable-20smwtable&po=%%3FFecha+string%%0A&limit=500&eq=no' % (d.strftime('%m'), d.strftime('%d'))).read().decode('utf-8')
         m = re.findall(r'(?im)<td><a href="[^<>]*?" title="[^<>]*?">([^<>]*?)</a></td>\s*<td class="Fecha-string">(\d\d\d\d)[^<>]+?</td>', raw)
         victimas = []
         for i in m:
-            if not '(' in i[0]:
+            if not '(' in i[0] and not removeaccute(i[0].lower()) in victimas_:
                 victimas.append([i[1],i[0],''])
+                victimas_.append(removeaccute(i[0].lower()))
     
     victimas.sort()
     if not victimas:

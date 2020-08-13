@@ -24,7 +24,11 @@ import re
 import time
 import urllib
 import urllib.request
+import unicodedata
 
+def removeaccute(s):
+    return ''.join((c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn'))
+    
 def read_keys():
     f = open('%s/.twitter_keys' % (os.path.dirname(os.path.realpath(__file__))), 'r')
     w = f.read()
