@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2016 emijrp <emijrp@gmail.com>
+# Copyright (C) 2016-2020 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -16,6 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import datetime
+import time
 from PIL import Image #pip install pillow
 from PIL import ImageDraw
 from PIL import ImageFont
@@ -30,34 +31,68 @@ from twitterbots import *
 #config
 imagename = 'memoria.png'
 
+def removeaccuteandcase(s=''):
+    return removeaccute(s.lower())
+
 def main():
     APP_KEY, APP_SECRET = read_keys()
     OAUTH_TOKEN, OAUTH_TOKEN_SECRET = read_tokens()
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
-    month2name = {'01': 'enero', '02': 'febrero', '03': 'marzo', '04': 'abril', '05': 'mayo', '06': 'junio', 
-                  '07': 'julio', '08': 'agosto', '09': 'septiembre', '10': 'octubre', '11': 'noviembre', '12': 'diciembre' }
-    
+    month2name = {
+        'ca': { '01': 'gener', '02': 'febrer', '03': 'març', '04': 'abril', '05': 'maig', '06': 'juny', 
+                '07': 'juliol', '08': 'agost', '09': 'setembre', '10': 'octubre', '11': 'novembre', '12': 'desembre' }, 
+        'es': { '01': 'enero', '02': 'febrero', '03': 'marzo', '04': 'abril', '05': 'mayo', '06': 'junio', 
+                '07': 'julio', '08': 'agosto', '09': 'septiembre', '10': 'octubre', '11': 'noviembre', '12': 'diciembre' }, 
+        'gl': { '01': 'xaneiro', '02': 'febreiro', '03': 'marzo', '04': 'abril', '05': 'maio', '06': 'xuño', 
+                '07': 'xullo', '08': 'agosto', '09': 'setembro', '10': 'outubro', '11': 'novembro', '12': 'decembro' }, 
+    }
     d = datetime.datetime.now()
-    today = '%s de %s' % (int(d.strftime('%d')), month2name[d.strftime('%m')])
-    today_ = re.sub(' ', '_', today)
+    today = {
+        'ca': '%s de %s' % (int(d.strftime('%d')), month2name['ca'][d.strftime('%m')]),
+        'es': '%s de %s' % (int(d.strftime('%d')), month2name['es'][d.strftime('%m')]), 
+        'gl': '%s de %s' % (int(d.strftime('%d')), month2name['gl'][d.strftime('%m')]), 
+    }
+    today['ca'] = re.sub(r"de abril", r"d'abril", today['ca'])
+    today['ca'] = re.sub(r"de agost", r"d'agost", today['ca'])
+    today_ = re.sub(' ', '_', today['es'])
     
     temas = {
         'deportados': {
-            'title': 'Campos de concentración nazis',
-            'intro': 'Deportados asesinados',
-            'outro': 'Que sus nombres no caigan en el olvido.',
-            'source': 'Libro Memorial',
-            'graph': '15Mpedia',
-            'background': (248, 224, 236),
+            'ca': {
+                'title': 'Camps de concentració nazis',
+                'intro': 'Deportats assassinats',
+                'outro': "Que els seus noms no caiguin en l'oblit.",
+                'source': 'Libro Memorial',
+                'graph': '15Mpedia',
+                'background': (248, 224, 236),
+            }, 
+            'es': {
+                'title': 'Campos de concentración nazis',
+                'intro': 'Deportados asesinados',
+                'outro': 'Que sus nombres no caigan en el olvido.',
+                'source': 'Libro Memorial',
+                'graph': '15Mpedia',
+                'background': (248, 224, 236),
+            }, 
         },
         'fusilados': {
-            'title': 'Represión franquista',
-            'intro': 'Personas fusiladas',
-            'outro': 'Que sus nombres no caigan en el olvido.',
-            'source': 'Memoria y Libertad',
-            'graph': '15Mpedia',
-            'background': (255, 255, 200),
+            'ca': {
+                'title': 'Repressió franquista',
+                'intro': 'Persones afusellades',
+                'outro': "Que els seus noms no caiguin en l'oblit.",
+                'source': 'Memoria y Libertad',
+                'graph': '15Mpedia',
+                'background': (255, 255, 200),
+            }, 
+            'es': {
+                'title': 'Represión franquista',
+                'intro': 'Personas fusiladas',
+                'outro': 'Que sus nombres no caigan en el olvido.',
+                'source': 'Memoria y Libertad',
+                'graph': '15Mpedia',
+                'background': (255, 255, 200),
+            }, 
         },
     }
     if len(sys.argv) > 1:
@@ -78,57 +113,72 @@ def main():
         m = re.findall(r'(?im)<td><a href="[^<>]*?" title="[^<>]*?">([^<>]*?)</a></td>\s*<td class="Fecha-string">(\d\d\d\d)[^<>]+?</td>\s*<td class="Lugar">Campo de concentración de ([^<>]*?)</td>', raw)
         victimas = []
         for i in m:
-            if not '(' in i[0] and not removeaccute(i[0].lower()) in victimas_:
+            if not '(' in i[0] and not removeaccuteandcase(i[0]) in victimas_:
                 victimas.append([i[1],i[0],i[2]])
-                victimas_.append(removeaccute(i[0].lower()))
+                victimas_.append(removeaccuteandcase(i[0]))
     elif tema == 'fusilados':
         raw = urllib.request.urlopen('https://15mpedia.org/w/index.php?title=Especial:Ask&q=[[persona+represaliada%%3A%%3A%%2B]]+[[represor%%3A%%3AFranquismo]]+[[represi%%C3%%B3n%%3A%%3AFusilamiento]]+[[fecha+string%%3A%%3A~*%%2F%s%%2F%s]]&p=format%%3Dbroadtable%%2Flink%%3Dall%%2Fheaders%%3Dshow%%2Fsearchlabel%%3D-26hellip%%3B-20siguientes-20resultados%%2Fclass%%3Dsortable-20wikitable-20smwtable&po=%%3FFecha+string%%0A&limit=500&eq=no' % (d.strftime('%m'), d.strftime('%d'))).read().decode('utf-8')
         m = re.findall(r'(?im)<td><a href="[^<>]*?" title="[^<>]*?">([^<>]*?)</a></td>\s*<td class="Fecha-string">(\d\d\d\d)[^<>]+?</td>', raw)
         victimas = []
         for i in m:
-            if not '(' in i[0] and not removeaccute(i[0].lower()) in victimas_:
+            if not '(' in i[0] and not removeaccuteandcase(i[0]) in victimas_:
                 victimas.append([i[1],i[0],''])
-                victimas_.append(removeaccute(i[0].lower()))
+                victimas_.append(removeaccuteandcase(i[0]))
     
     victimas.sort()
     if not victimas:
         sys.exit()
     
-    #generar imagen
-    victimasnum = len(victimas)
-    high = 25
-    img = Image.new('RGB', (500, victimasnum*high+220), temas[tema]['background'])
-    fonttitle = ImageFont.truetype("OpenSans-Regular.ttf", 25)
-    fonttext = ImageFont.truetype("OpenSans-Regular.ttf", 18)
-    fontfooter = ImageFont.truetype("OpenSans-Regular.ttf", 15)
-    d = ImageDraw.Draw(img)
-    d.text((20, high), temas[tema]['title'], fill=(255, 0, 0), font=fonttitle)
-    d.text((20, high*3), '%s un %s:' % (temas[tema]['intro'], today), fill=(0, 0, 0), font=fonttext)
-    c = 0
-    for year, name, place in victimas:
-        if place:
-            d.text((30, high*c+110), '%d) %s (%s, %s)' % (c+1, name, year, place), fill=(0, 0, 0), font=fonttext)
-        else:
-            d.text((30, high*c+110), '%d) %s (%s)' % (c+1, name, year), fill=(0, 0, 0), font=fonttext)
-        c += 1
-    d.text((20, high*c+90+high), temas[tema]['outro'], fill=(0, 0, 255), font=fonttext)
-    d.text((260, high*c+130+high), 'Fuente: %s' % (temas[tema]['source']), fill=(0, 0, 0), font=fontfooter)
-    d.text((260, high*c+150+high), 'Elaboración gráfica: %s' % (temas[tema]['graph']), fill=(0, 0, 0), font=fontfooter)
-    img.save(imagename)
-    
-    #tuitear imagen
-    img = open(imagename, 'rb')
-    republicanflag = '🟥🟥🟥🟨🟨🟨🟪🟪🟪'
-    if tema == 'fusilados':
-        status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #franquismo los fusiló https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del franquismo: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrímenesDelFranquismo #CrímenesDelFascismo' % (republicanflag, today, today_)
-    elif tema == 'deportados':
-        status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #nazismo los asesinó https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas españolas del nazismo: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrímenesDelFascismo' % (republicanflag, today, today_)
-    print(status)
-    response = twitter.upload_media(media=img)
-    raw = twitter.update_status(status=status, media_ids=[response['media_id']])
-    tweetid = raw['id_str']
-    print('Status:',status)
-    print('Returned ID:',tweetid)
+    langs = ['es', 'ca', ]
+    for lang in langs:
+        #generar imagen
+        victimasnum = len(victimas)
+        high = 25
+        img = Image.new('RGB', (500, victimasnum*high+220), temas[tema][lang]['background'])
+        fonttitle = ImageFont.truetype("OpenSans-Regular.ttf", 25)
+        fonttext = ImageFont.truetype("OpenSans-Regular.ttf", 18)
+        fontfooter = ImageFont.truetype("OpenSans-Regular.ttf", 15)
+        d = ImageDraw.Draw(img)
+        d.text((20, high), temas[tema][lang]['title'], fill=(255, 0, 0), font=fonttitle)
+        d.text((20, high*3), '%s un %s:' % (temas[tema][lang]['intro'], today[lang]), fill=(0, 0, 0), font=fonttext)
+        c = 0
+        for year, name, place in victimas:
+            if place:
+                d.text((30, high*c+110), '%d) %s (%s, %s)' % (c+1, name, year, place), fill=(0, 0, 0), font=fonttext)
+            else:
+                d.text((30, high*c+110), '%d) %s (%s)' % (c+1, name, year), fill=(0, 0, 0), font=fonttext)
+            c += 1
+        d.text((20, high*c+90+high), temas[tema][lang]['outro'], fill=(0, 0, 255), font=fonttext)
+        d.text((260, high*c+130+high), 'Fuente: %s' % (temas[tema][lang]['source']), fill=(0, 0, 0), font=fontfooter)
+        d.text((260, high*c+150+high), 'Elaboración gráfica: %s' % (temas[tema][lang]['graph']), fill=(0, 0, 0), font=fontfooter)
+        img.save(imagename)
+        
+        #tuitear imagen
+        img = open(imagename, 'rb')
+        status = ''
+        republicanflag = '🟥🟥🟥🟨🟨🟨🟪🟪🟪'
+        if tema == 'fusilados':
+            if lang == 'ca':
+                status = "%s\n#MemoriaAntifeixista #Efemèrides\n\nUn %s el #franquisme els va afusellar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del franquisme: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrimsDelFranquisme #CrimsDelFeixisme" % (republicanflag, today['ca'], today_)
+            elif lang == 'es':
+                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #franquismo los fusiló https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del franquismo: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrímenesDelFranquismo #CrímenesDelFascismo' % (republicanflag, today['es'], today_)
+            elif lang == 'gl':
+                pass
+        elif tema == 'deportados':
+            if lang == 'ca':
+                status = "%s\n#MemòriaAntifeixista #Efemèrides\n\nUn %s el #nazisme els va assassinar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del nazisme: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrimsDelFeixisme" % (republicanflag, today['ca'], today_)
+            elif lang == 'es':
+                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #nazismo los asesinó https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del nazismo: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrímenesDelFascismo' % (republicanflag, today['es'], today_)
+            elif lang == 'gl':
+                pass
+        if status:
+            print(status)
+            response = twitter.upload_media(media=img)
+            raw = twitter.update_status(status=status, media_ids=[response['media_id']])
+            tweetid = raw['id_str']
+            print('Status:',status)
+            print('Returned ID:',tweetid)
+            time.sleep(5)
 
 if __name__ == '__main__':
     main()
