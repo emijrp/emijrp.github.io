@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2017 emijrp <emijrp@gmail.com>
+# Copyright (C) 2017-2020 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -31,7 +31,7 @@ def main():
     
     videoteca = {
         'escueladecuadros': {
-            'hashtags': ['#VideotecaPolítica'], 
+            'hashtags': ['#FormaciónComunista', '#VideotecaPolítica'], 
             'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Videoteca_escueladecuadros?action=raw',
         },
         'feminista': {
