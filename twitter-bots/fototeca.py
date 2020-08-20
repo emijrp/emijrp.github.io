@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2017 emijrp <emijrp@gmail.com>
+# Copyright (C) 2017-2020 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -34,6 +34,10 @@ def main():
             'hashtags': ['#Agitprop'], 
             'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Agitprop?action=raw',
         },
+        'karlmarx': {
+            'hashtags': ['#KarlMarx', '#Monumentos'], 
+            'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Karl-Marx?action=raw',
+        },
     }
     
     if len(sys.argv) > 1:
@@ -57,8 +61,9 @@ def main():
     x, xx = getCommonsMD5(imagename)
     imgurl = 'https://commons.wikimedia.org/wiki/File:%s' % (re.sub(' ', '_', imagename))
     imgurl2 = 'https://upload.wikimedia.org/wikipedia/commons/%s/%s/%s' % (x, xx, urllib.parse.quote(re.sub(' ', '_', imagename)))
-    urllib.request.urlretrieve(imgurl2, 'fototeca-tempimage.jpg')
-    img = open('fototeca-tempimage.jpg', 'rb')
+    fototecafilename = 'fototeca-%s-tempimage.jpg' % (tema)
+    urllib.request.urlretrieve(imgurl2, fototecafilename)
+    img = open(fototecafilename, 'rb')
     
     status = '%s\n\n%s\n\n%s' % (' '.join(fototeca[tema]['hashtags']), desc, imgurl)
     print(status)
