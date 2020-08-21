@@ -38,6 +38,10 @@ def main():
             'hashtags': ['#KarlMarx', '#Monumentos'], 
             'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Karl-Marx?action=raw',
         },
+        'vladimirlenin': {
+            'hashtags': ['#VladimirLenin', '#Monumentos'], 
+            'url': 'https://15mpedia.org/wiki/Usuario:Emijrp/Vladimir-Lenin?action=raw',
+        },
     }
     
     if len(sys.argv) > 1:
