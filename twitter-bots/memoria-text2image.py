@@ -42,6 +42,8 @@ def main():
     month2name = {
         'ca': { '01': 'gener', '02': 'febrer', '03': 'març', '04': 'abril', '05': 'maig', '06': 'juny', 
                 '07': 'juliol', '08': 'agost', '09': 'setembre', '10': 'octubre', '11': 'novembre', '12': 'desembre' }, 
+        'en': { '01': 'January', '02': 'February', '03': 'March', '04': 'April', '05': 'May', '06': 'June', 
+                '07': 'July', '08': 'August', '09': 'September', '10': 'October', '11': 'November', '12': 'December' }, 
         'es': { '01': 'enero', '02': 'febrero', '03': 'marzo', '04': 'abril', '05': 'mayo', '06': 'junio', 
                 '07': 'julio', '08': 'agosto', '09': 'septiembre', '10': 'octubre', '11': 'noviembre', '12': 'diciembre' }, 
         'gl': { '01': 'xaneiro', '02': 'febreiro', '03': 'marzo', '04': 'abril', '05': 'maio', '06': 'xuño', 
@@ -50,12 +52,31 @@ def main():
     d = datetime.datetime.now()
     today = {
         'ca': '%s de %s' % (int(d.strftime('%d')), month2name['ca'][d.strftime('%m')]),
+        'en': '%s %s' % (month2name['en'][d.strftime('%m')], int(d.strftime('%d'))), 
         'es': '%s de %s' % (int(d.strftime('%d')), month2name['es'][d.strftime('%m')]), 
         'gl': '%s de %s' % (int(d.strftime('%d')), month2name['gl'][d.strftime('%m')]), 
     }
     today['ca'] = re.sub(r"de abril", r"d'abril", today['ca'])
     today['ca'] = re.sub(r"de agost", r"d'agost", today['ca'])
     today_ = re.sub(' ', '_', today['es'])
+    todayprep = {
+        'ca': 'un', 
+        'en': 'on', 
+        'es': 'un', 
+    }
+    
+    todaytag = {
+        'ca': '#%s%s' % (int(d.strftime('%d')), month2name['ca'][d.strftime('%m')]),
+        'en': '#%s%s' % (int(d.strftime('%d')), month2name['en'][d.strftime('%m')]),
+        'es': '#%s%s' % (int(d.strftime('%d')), month2name['es'][d.strftime('%m')]), 
+        'gl': '#%s%s' % (int(d.strftime('%d')), month2name['gl'][d.strftime('%m')]), 
+    }
+    todaytag2 = {
+        'ca': '#%sde%s' % (int(d.strftime('%d')), month2name['ca'][d.strftime('%m')]),
+        'en': '#%s%s' % (month2name['en'][d.strftime('%m')], int(d.strftime('%d'))), 
+        'es': '#%sde%s' % (int(d.strftime('%d')), month2name['es'][d.strftime('%m')]), 
+        'gl': '#%sde%s' % (int(d.strftime('%d')), month2name['gl'][d.strftime('%m')]), 
+    }
     
     temas = {
         'deportados': {
@@ -63,6 +84,14 @@ def main():
                 'title': 'Camps de concentració nazis',
                 'intro': 'Deportats assassinats',
                 'outro': "Que els seus noms no caiguin en l'oblit.",
+                'source': 'Libro Memorial',
+                'graph': '15Mpedia',
+                'background': (248, 224, 236),
+            }, 
+            'en': {
+                'title': 'Nazi concentration camps',
+                'intro': 'People killed',
+                'outro': 'Forever in our memories.',
                 'source': 'Libro Memorial',
                 'graph': '15Mpedia',
                 'background': (248, 224, 236),
@@ -81,6 +110,14 @@ def main():
                 'title': 'Repressió franquista',
                 'intro': 'Persones afusellades',
                 'outro': "Que els seus noms no caiguin en l'oblit.",
+                'source': 'Memoria y Libertad',
+                'graph': '15Mpedia',
+                'background': (255, 255, 200),
+            }, 
+            'en': {
+                'title': 'Francoist repression',
+                'intro': 'People killed',
+                'outro': 'Forever in our memories.',
                 'source': 'Memoria y Libertad',
                 'graph': '15Mpedia',
                 'background': (255, 255, 200),
@@ -140,7 +177,7 @@ def main():
         fontfooter = ImageFont.truetype("OpenSans-Regular.ttf", 15)
         d = ImageDraw.Draw(img)
         d.text((20, high), temas[tema][lang]['title'], fill=(255, 0, 0), font=fonttitle)
-        d.text((20, high*3), '%s un %s:' % (temas[tema][lang]['intro'], today[lang]), fill=(0, 0, 0), font=fonttext)
+        d.text((20, high*3), '%s %s %s:' % (temas[tema][lang]['intro'], todayprep[lang], today[lang]), fill=(0, 0, 0), font=fonttext)
         c = 0
         for year, name, place in victimas:
             if place:
@@ -159,16 +196,20 @@ def main():
         republicanflag = '🟥🟥🟥🟨🟨🟨🟪🟪🟪'
         if tema == 'fusilados':
             if lang == 'ca':
-                status = "%s\n#MemoriaAntifeixista #Efemèrides\n\nUn %s el #franquisme els va afusellar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del franquisme: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrimsDelFranquisme #CrimsDelFeixisme" % (republicanflag, today['ca'], today_)
+                status = "%s\n#MemoriaAntifeixista #Efemèrides\n\nUn %s el #franquisme els va afusellar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del franquisme: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrimsDelFranquisme #CrimsDelFeixisme %s %s" % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
+            elif lang == 'en':
+                pass #"#OnThisDay #OTD"
             elif lang == 'es':
-                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #franquismo los fusiló https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del franquismo: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrímenesDelFranquismo #CrímenesDelFascismo' % (republicanflag, today['es'], today_)
+                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #franquismo los fusiló https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del franquismo: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrímenesDelFranquismo #CrímenesDelFascismo %s %s' % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
             elif lang == 'gl':
                 pass
         elif tema == 'deportados':
             if lang == 'ca':
-                status = "%s\n#MemòriaAntifeixista #Efemèrides\n\nUn %s el #nazisme els va assassinar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del nazisme: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrimsDelFeixisme" % (republicanflag, today['ca'], today_)
+                status = "%s\n#MemòriaAntifeixista #Efemèrides\n\nUn %s el #nazisme els va assassinar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del nazisme: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrimsDelFeixisme %s %s" % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
+            elif lang == 'en':
+                pass #"#OnThisDay #OTD"
             elif lang == 'es':
-                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #nazismo los asesinó https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del nazismo: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrímenesDelFascismo' % (republicanflag, today['es'], today_)
+                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #nazismo los asesinó https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del nazismo: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrímenesDelFascismo %s %s' % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
             elif lang == 'gl':
                 pass
         if status:
@@ -178,7 +219,7 @@ def main():
             tweetid = raw['id_str']
             print('Status:',status)
             print('Returned ID:',tweetid)
-            time.sleep(5)
+            time.sleep(15)
 
 if __name__ == '__main__':
     main()
