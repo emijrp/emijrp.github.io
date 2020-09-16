@@ -71,7 +71,7 @@ def main():
         'es': '#%s%s' % (int(d.strftime('%d')), month2name['es'][d.strftime('%m')]), 
         'gl': '#%s%s' % (int(d.strftime('%d')), month2name['gl'][d.strftime('%m')]), 
     }
-    todaytag2 = {
+    todaytag2 = { #con este tag los tweets superan el tamaño maximo, lo quito de momento
         'ca': '#%sde%s' % (int(d.strftime('%d')), month2name['ca'][d.strftime('%m')]),
         'en': '#%s%s' % (month2name['en'][d.strftime('%m')], int(d.strftime('%d'))), 
         'es': '#%sde%s' % (int(d.strftime('%d')), month2name['es'][d.strftime('%m')]), 
@@ -196,20 +196,20 @@ def main():
         republicanflag = '🟥🟥🟥🟨🟨🟨🟪🟪🟪'
         if tema == 'fusilados':
             if lang == 'ca':
-                status = "%s\n#MemoriaAntifeixista #Efemèrides\n\nUn %s el #franquisme els va afusellar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del franquisme: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrimsDelFranquisme #CrimsDelFeixisme %s %s" % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
+                status = "%s\n#MemoriaAntifeixista #Efemèrides\n\nUn %s el #franquisme els va afusellar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del franquisme: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrimsDelFranquisme #CrimsDelFeixisme %s" % (republicanflag, today[lang], today_, todaytag[lang])
             elif lang == 'en':
                 pass #"#OnThisDay #OTD"
             elif lang == 'es':
-                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #franquismo los fusiló https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del franquismo: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrímenesDelFranquismo #CrímenesDelFascismo %s %s' % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
+                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #franquismo los fusiló https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del franquismo: https://15mpedia.org/wiki/Lista_de_personas_fusiladas_por_el_franquismo\n\n#CrímenesDelFranquismo #CrímenesDelFascismo %s' % (republicanflag, today[lang], today_, todaytag[lang])
             elif lang == 'gl':
                 pass
         elif tema == 'deportados':
             if lang == 'ca':
-                status = "%s\n#MemòriaAntifeixista #Efemèrides\n\nUn %s el #nazisme els va assassinar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del nazisme: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrimsDelFeixisme %s %s" % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
+                status = "%s\n#MemòriaAntifeixista #Efemèrides\n\nUn %s el #nazisme els va assassinar https://15mpedia.org/wiki/%s\nQue els seus noms no caiguin en l'oblit!\n\nVíctimes del nazisme: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrimsDelFeixisme %s" % (republicanflag, today[lang], today_, todaytag[lang])
             elif lang == 'en':
                 pass #"#OnThisDay #OTD"
             elif lang == 'es':
-                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #nazismo los asesinó https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del nazismo: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrímenesDelFascismo %s %s' % (republicanflag, today[lang], today_, todaytag[lang], todaytag2[lang])
+                status = '%s\n#MemoriaAntifascista #Efemérides\n\nUn %s el #nazismo los asesinó https://15mpedia.org/wiki/%s\n¡Que sus nombres no caigan en el olvido!\n\nVíctimas del nazismo: https://15mpedia.org/wiki/Lista_de_v%%C3%%ADctimas_espa%%C3%%B1olas_del_nazismo\n\n#CrímenesDelFascismo %s' % (republicanflag, today[lang], today_, todaytag[lang])
             elif lang == 'gl':
                 pass
         if status:
