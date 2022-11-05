@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2017 emijrp <emijrp@gmail.com>
+# Copyright (C) 2017-2022 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -22,7 +22,7 @@ import re
 import sys
 import time
 import urllib
-from xml.etree import ElementTree as ET # para ver los XMl que devuelve flickrapi con ET.dump(resp)
+from xml.etree import ElementTree as ET # para ver los XML que devuelve flickrapi con ET.dump(resp)
 
 import flickrapi
 
@@ -33,13 +33,19 @@ def main():
     #Commons
     cat = 'Category:Files_by_User:Emijrp'
     api = 'https://commons.wikimedia.org/w/api.php'
-    apiquery = '%s?action=query&generator=categorymembers&gcmtitle=%s&format=json' % (api, cat)
+    apiquery = '%s?action=query&generator=categorymembers&gcmtitle=%s&gcmlimit=100&format=json' % (api, cat)
     uccontinue = True
     uccontinue_name = 'gcmcontinue'
     c = 0
-    rows = []
+    rows = [] #load previous metadata, so it is fast
+    with open('photos-commons.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        for row in reader:
+            rows.append(row)
+    print("Commons")
+    print("Loaded %d cached files" % (len(rows)))
+    cachedpageids = [x[1] for x in rows]
     while uccontinue:
-        sys.stderr.write(".")
         if uccontinue == True:
             json_data = urllib.urlopen(apiquery)
         else:
@@ -50,7 +56,10 @@ def main():
             pagetitle = data['query']['pages'][pageid]['title']
             if pagens != 6:
                 continue
-            
+            if pageid in cachedpageids:
+                print("Skiping %s" % pagetitle)
+                continue
+            print(len(rows))
             #print(pageid, pagens, pagetitle)
             pagetitle_ = pagetitle.replace(' ', '_')
             apiquery2 = '%s?action=query&titles=%s&prop=imageinfo&iiprop=metadata&format=json' % (api, urllib.quote(pagetitle_.encode('utf-8')))
@@ -83,6 +92,11 @@ def main():
 
         if data.has_key('continue'):
             uccontinue = data['continue'][uccontinue_name]
+            rows.sort()
+            with open('photos-commons.csv', 'w') as csvfile:
+                writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                for row in rows:
+                    writer.writerow(row)
         else:
             uccontinue = ''
     print '\n', c, 'files in Commons'
@@ -112,8 +126,10 @@ def main():
     photosets = re.findall(r' id="(\d+)"', xmlraw)
     flickrdone = []
     rows = []
+    print("Flickr")
     for photoset in photosets:
         print(photoset)
+        print(len(rows))
         try: #error in set ids, broken sets?
             resp2 = flickr.photosets.getPhotos(photoset_id=photoset, user_id=flickruserid, extras='date_taken')
         except:
