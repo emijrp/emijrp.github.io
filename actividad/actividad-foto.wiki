@@ -6,7 +6,7 @@
 
 Mi '''actividad en [[{{:rootpath}}/fotografia/fotografia|fotografía]]''' consiste en la publicación en [https://www.flickr.com/photos/emijrp/ Flickr] y [https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Emijrp&ilshowall=1 Commons] de la mayoría de las fotografías que tomo.
 
-La fecha está extraída de los metadatos EXIF que todas las cámaras insertan en las imágenes por defecto. La primera fotografía digital que subí a Commons mostraba el monumento de [https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg Puerta Tierra en Cádiz] y la tomé el 20 de enero de 2005. Hasta 2018 he publicado unas 10.000 fotos en Flickr y 7.000 en Commons.
+La fecha está extraída de los metadatos EXIF que todas las cámaras insertan en las imágenes por defecto. La primera fotografía digital que subí a Commons mostraba el monumento de [https://commons.wikimedia.org/wiki/File:Cadiz_Puertas_de_tierra20-01-2005.jpg Puerta Tierra en Cádiz] y la tomé el 20 de enero de 2005. Hasta 2022, he publicado unas 10.000 fotos en Flickr y 15.000 en Commons.
 
 Esta gráfica ha sido generada con <a href="actividad-foto.py">este script</a>.
 
@@ -25,6 +25,10 @@ Esta gráfica ha sido generada con <a href="actividad-foto.py">este script</a>.
 <div class="activity" id="actividad-foto-2016"></div>
 <div class="activity" id="actividad-foto-2017"></div>
 <div class="activity" id="actividad-foto-2018"></div>
+<div class="activity" id="actividad-foto-2019"></div>
+<div class="activity" id="actividad-foto-2020"></div>
+<div class="activity" id="actividad-foto-2021"></div>
+<div class="activity" id="actividad-foto-2022"></div>
 </center>
 
 <script type="text/javascript">
@@ -43,11 +47,15 @@ highlights[2015] = [ ];
 highlights[2016] = [ ];
 highlights[2017] = [ ];
 highlights[2018] = [ ];
+highlights[2019] = [ ];
+highlights[2020] = [ ];
+highlights[2021] = [ ];
+highlights[2022] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2018; i++) {
-    displaylegend = i == 2018;
+for (i = 2005; i <= 2022; i++) {
+    displaylegend = i == 2022;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-foto-"+i, 
