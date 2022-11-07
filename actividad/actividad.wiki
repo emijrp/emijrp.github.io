@@ -31,6 +31,10 @@ Esta gráfica combina '''todas''' las demás gráficas por tema y puede consider
 <div class="activity" id="actividad-total-2016"></div>
 <div class="activity" id="actividad-total-2017"></div>
 <div class="activity" id="actividad-total-2018"></div>
+<div class="activity" id="actividad-total-2019"></div>
+<div class="activity" id="actividad-total-2020"></div>
+<div class="activity" id="actividad-total-2021"></div>
+<div class="activity" id="actividad-total-2022"></div>
 </center>
 
 <script type="text/javascript">
@@ -49,11 +53,15 @@ highlights[2015] = [ ];
 highlights[2016] = [ ];
 highlights[2017] = [ ];
 highlights[2018] = [ ];
+highlights[2019] = [ ];
+highlights[2020] = [ ];
+highlights[2021] = [ ];
+highlights[2022] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2018; i++) {
-    displaylegend = i == 2018;
+for (i = 2005; i <= 2022; i++) {
+    displaylegend = i == 2022;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-total-"+i, 
