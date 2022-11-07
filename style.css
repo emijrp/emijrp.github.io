@@ -17,6 +17,7 @@ div.main{
 div.activity{
     /*float: left;*/
     /*margin-right: 10px;*/
+    transform: scale(2);
 }
 h1{
     line-height: 120%;
@@ -69,6 +70,7 @@ ul{
     padding-left: 20px;
 }
 
+/* Wikitable style */
 table.wikitable {
     /*font-family: "dejavu sans","arial",sans-Serif;*/
     /*font-size: 100%;*/
@@ -102,6 +104,7 @@ table.sortable thead {
     cursor: default;
 }
 
+/* Blue round buttons */
 .mw-ui-button.mw-ui-blue {
     background: #347bff none repeat scroll 0 0;
     border-bottom: 1px solid #347bff;
