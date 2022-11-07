@@ -17,7 +17,6 @@ div.main{
 div.activity{
     /*float: left;*/
     /*margin-right: 10px;*/
-    transform: scale(2);
 }
 h1{
     line-height: 120%;
