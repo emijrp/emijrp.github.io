@@ -4,11 +4,11 @@
 
 {{ap|1={{:rootpath}}/wikis/wikis|2=Wikis}}
 
-Mi '''actividad en [[{{:rootpath}}/wikis/wikis|wikis]]''' se concentra en los proyectos [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://15mpedia.org 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org Wikiindex] y [http://wikipapers.referata.com WikiPapers]. Me gusta crear artículos que faltan, hacer pequeños cambios en los que ya existen mientras los leo, subir imágenes e ilustrar artículos, categorizar, crear listas, programar bots y otras cosas.
+Mi '''actividad en [[{{:rootpath}}/wikis/wikis|wikis]]''' se concentra en los proyectos [https://www.wikipedia.org Wikipedia], [https://commons.wikimedia.org Commons], [https://www.wikidata.org Wikidata], [https://es.wikibooks.org Wikibooks], [https://es.wiktionary.org Wiktionary], [https://es.wikinews.org Wikinews] y otros como [https://15mpedia.org 15Mpedia], [http://archiveteam.org Archive Team], [http://wiki.nolesvotes.org No les votes], [http://wikiindex.org WikiIndex] y [http://wikipapers.referata.com WikiPapers]. Me gusta crear artículos que faltan, hacer pequeños cambios en los que ya existen mientras los leo, subir imágenes e ilustrar artículos, categorizar, crear listas, programar bots y otras cosas.
 
 == Estadísticas ==
 
-En la siguiente gráfica solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 170.000 ediciones (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 24 millones de ediciones.
+En la siguiente gráfica solamente aparecen contabilizadas las aportaciones con mi cuenta «Emijrp» que suman más de 200.000 ediciones (hice mi primera aportación a Wikipedia el martes, 19 de abril de 2005). No se incluyen las aportaciones realizadas con los bots que controlo ([https://en.wikipedia.org/wiki/Special:CentralAuth/AVBOT AVBOT], [https://en.wikipedia.org/wiki/Special:CentralAuth/BOTijo BOTijo], [https://en.wikipedia.org/wiki/Special:CentralAuth/Emijrpbot Emijrpbot] y otros), que en total superan los 40 millones de ediciones.
 
 Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
 
@@ -28,6 +28,9 @@ Esta gráfica ha sido generada con <a href="actividad-wiki.py">este script</a>.
 <div class="activity" id="actividad-wiki-2017"></div>
 <div class="activity" id="actividad-wiki-2018"></div>
 <div class="activity" id="actividad-wiki-2019"></div>
+<div class="activity" id="actividad-wiki-2020"></div>
+<div class="activity" id="actividad-wiki-2021"></div>
+<div class="activity" id="actividad-wiki-2022"></div>
 </center>
 
 <script type="text/javascript">
@@ -47,11 +50,14 @@ highlights[2016] = [ ];
 highlights[2017] = [ ];
 highlights[2018] = [ ];
 highlights[2019] = [ ];
+highlights[2020] = [ ];
+highlights[2021] = [ ];
+highlights[2022] = [ ];
 
 var years = new Array();
 moment.lang("es");
-for (i = 2005; i <= 2019; i++) {
-    displaylegend = i == 2019;
+for (i = 2005; i <= 2022; i++) {
+    displaylegend = i == 2022;
     years[i] = new CalHeatMap();
     years[i].init({
         itemSelector: "#actividad-wiki-"+i, 
@@ -87,9 +93,19 @@ for (i = 2005; i <= 2019; i++) {
 
 == Histórico ==
 
+=== 2022 ===
+
+* '''Marzo''': Emijrpbot supera las 1.000.000.000 (mil millones) descripciones añadidas a Wikidata.<ref>[https://www.wikidata.org/w/index.php?title=User:Emijrpbot/stats&oldid=1599566801 User:Emijrpbot/stats]</ref>
+* '''Febrero''': Emijrpbot supera las 40.000.000 ediciones acumuladas en Wikidata.<ref>[https://www.wikidata.org/w/index.php?title=User:Emijrpbot/stats&diff=prev&oldid=1577051499 User:Emijrpbot/stats]</ref>
+
+=== 2021 ===
+
+* '''Septiembre''': Emijrpbot supera las 25.000.000 etiquetas añadidas a Wikidata.<ref>[https://www.wikidata.org/w/index.php?title=User:Emijrpbot/stats&oldid=1500985738 User:Emijrpbot/stats]</ref>
+
 === 2019 ===
 
-* '''Enero''': Emijrpbot supera las 20.000.000 de ediciones acumuladas en Wikidata desde que comenzó a funcionar en 2017.<ref>[https://web.archive.org/web/20190109202047/https://tools.wmflabs.org/hgztools/botstatistics/index.php?lang=www&project=wikidata hgztools]</ref><ref name="wikiscan-emijrpbot" />
+* '''Abril''': Emijrpbot supera las 30.000.000 ediciones acumuladas en Wikidata.<ref>[https://www.wikidata.org/w/index.php?title=User:Emijrpbot/stats&diff=prev&oldid=921565813 User:Emijrpbot/stats]</ref>
+* '''Enero''': Emijrpbot supera las 20.000.000 ediciones acumuladas en Wikidata desde que comenzó a funcionar en 2017.<ref>[https://web.archive.org/web/20190109202047/https://tools.wmflabs.org/hgztools/botstatistics/index.php?lang=www&project=wikidata hgztools]</ref><ref name="wikiscan-emijrpbot" />
 
 === 2018 ===
 

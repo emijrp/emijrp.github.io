@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2014-2017 emijrp <emijrp@gmail.com>
+# Copyright (C) 2014-2022 emijrp <emijrp@gmail.com>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -24,35 +24,35 @@ import urllib
 def main():
     projects = [
         ['Emijrp', '15mpedia', 'https://15mpedia.org/w/api.php'], 
-        ['Emijrp', 'Almeriapedia', 'https://almeriapedia.wikanda.es/w/api.php'], 
-        ['Emijrp', 'Archive Team', 'http://archiveteam.org/api.php'], 
-        ['Emijrp', 'Cadizpedia', 'https://cadizpedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Almeriapedia', 'https://almeriapedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Archive Team', 'http://archiveteam.org/api.php'], 
+        #['Emijrp', 'Cadizpedia', 'https://cadizpedia.wikanda.es/w/api.php'], 
         ['Emijrp', 'Comunpedia', 'https://comunpedia.wikis.cc/w/api.php'], 
-        ['Emijrp', 'Cordobapedia', 'https://cordobapedia.wikanda.es/w/api.php'], 
-        ['Emijrp', 'Enciclopedia Libre', 'http://enciclopedia.us.es/api.php'], 
-        ['Emijrp', 'Granadapedia', 'https://granadapedia.wikanda.es/w/api.php'], 
-        ['Emijrp', 'Huelvapedia', 'https://huelvapedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Cordobapedia', 'https://cordobapedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Enciclopedia Libre', 'http://enciclopedia.us.es/api.php'], 
+        #['Emijrp', 'Granadapedia', 'https://granadapedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Huelvapedia', 'https://huelvapedia.wikanda.es/w/api.php'], 
         ['Emijrp', 'Incubator', 'https://incubator.wikimedia.org/w/api.php'], 
-        ['Emijrp', 'Jaenpedia', 'https://jaenpedia.wikanda.es/w/api.php'], 
-        ['Emijrp', 'LibreFind', 'https://www.librefind.org/w/api.php'], 
+        #['Emijrp', 'Jaenpedia', 'https://jaenpedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'LibreFind', 'https://www.librefind.org/w/api.php'], 
         ['Emijrp', 'Locapedias', 'http://locapedia.wikis.cc/w/api.php'], 
         ['Emijrp', 'Madripedia', 'https://madripedia.wikis.cc/w/api.php'], 
-        ['Emijrp', 'Malagapedia', 'https://malagapedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Malagapedia', 'https://malagapedia.wikanda.es/w/api.php'], 
         ['Emijrp', 'MediaWiki', 'https://www.mediawiki.org/w/api.php'], 
         ['Emijrp', 'Memoria Histórica', 'https://memoriahistorica.wikis.cc/w/api.php'], 
         ['Emijrp', 'Meta-Wiki', 'https://meta.wikimedia.org/w/api.php'], 
-        ['Emijrp', 'No les votes', 'http://wiki.nolesvotes.org/w/api.php'], 
-        ['Emijrp', 'Sevillapedia', 'https://sevillapedia.wikanda.es/w/api.php'], 
-        ['Emijrp', 'Wikanda', 'https://www.wikanda.es/w/api.php'], 
-        ['Emijrp', 'WikiApiary', 'https://wikiapiary.com/w/api.php'], 
+        #['Emijrp', 'No les votes', 'http://wiki.nolesvotes.org/w/api.php'], 
+        #['Emijrp', 'Sevillapedia', 'https://sevillapedia.wikanda.es/w/api.php'], 
+        #['Emijrp', 'Wikanda', 'https://www.wikanda.es/w/api.php'], 
+        #['Emijrp', 'WikiApiary', 'https://wikiapiary.com/w/api.php'], 
         ['Emijrp', 'Wikibooks (en)', 'https://en.wikibooks.org/w/api.php'], 
         ['Emijrp', 'Wikibooks (es)', 'https://es.wikibooks.org/w/api.php'], 
         ['Emijrp', 'Wikidata', 'https://www.wikidata.org/w/api.php'], 
-        ['Emijrp', 'WikiIndex', 'http://wikiindex.org/api.php'], 
+        #['Emijrp', 'WikiIndex', 'https://wikiindex.org/api.php'], 
         ['Emijrp', 'Wikimedia Commons', 'https://commons.wikimedia.org/w/api.php'], 
         ['Emijrp', 'Wikinews (en)', 'https://en.wikinews.org/w/api.php'], 
         ['Emijrp', 'Wikinews (es)', 'https://es.wikinews.org/w/api.php'], 
-        ['Emijrp', 'WikiPapers', 'http://wikipapers.referata.com/w/api.php'], 
+        #['Emijrp', 'WikiPapers', 'http://wikipapers.referata.com/w/api.php'], 
         ['Emijrp', 'Wikipedia (af)', 'https://af.wikipedia.org/w/api.php'], 
         ['Emijrp', 'Wikipedia (ar)', 'https://ar.wikipedia.org/w/api.php'], 
         ['Emijrp', 'Wikipedia (ast)', 'https://ast.wikipedia.org/w/api.php'], 
