@@ -172,6 +172,7 @@ Algunos '''colectivos''' que organizan eventos periódicamente.
 
 <!-- las agendas de turismo, el boletín, etc, van en enlaces externos -->
 
+=== Provincia de Cádiz ===
 {{div col|2}}
 
 * [http://amigosarchivojerez.com Amigos del Archivo de Jerez]
@@ -195,6 +196,25 @@ Algunos '''colectivos''' que organizan eventos periódicamente.
 * [http://www.juntadeandalucia.es/avra/parque-torunos/ Parque de los Toruños]
 * [https://es-la.facebook.com/patios.portuenses/ Patios Portuenses]
 * [https://es-es.facebook.com/puertolivetv/ Puerto Live]
+
+{{div col end}}
+
+=== Provincia de Madrid ===
+{{div col|2}}
+
+* [https://www.esmadrid.com/agenda-madrid Agenda ESMADRID]
+* [https://www.esmadrid.com/madrid-cultura Agenda ESMADRID (Exposiciones)]
+* [https://www.ateneodemadrid.com/ Ateneo de Madrid]
+* [https://www.bne.es/es/agenda Biblioteca Nacional de España]
+* [https://www.culturaydeporte.gob.es/cultura/areas/cine/mc/fe/cine-dore/programacion.html Cine Doré]
+* [http://www.españaescultura.es/ España es cultura]
+* [http://www.man.es/man/actividades/agenda.html Museo Arqueológico Nacional]
+* [https://www.museodelprado.es/actualidad/actividades Museo del Prado]
+* [https://www.planetmad.es/agenda/ Planetario de Madrid]
+* [https://www.realacademiabellasartessanfernando.com/es/actividades/agenda Real Academia de Bellas Artes de San Fernando]
+* [https://www.rae.es/ Real Academia Española]
+* [https://reservaspatrimonio.es/ Reservas Patrimonio]
+* [https://mom.reservaspatrimonio.es/ Reservas Patrimonio (Madrid Otra Mirada)]
 
 {{div col end}}
 
