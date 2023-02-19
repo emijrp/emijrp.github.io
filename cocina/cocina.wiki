@@ -1,13 +1,14 @@
 {{header|1=Cocina}}
+{{movida entera al wiki}}
 
 Algunas recetas y otras cosillas gastronómicas. Sección en desarrollo.
 
 == Potajes ==
 
 * Lentejas con chorizo
-* Menudo
-* Habichuelas
-* Arroz con gambas
+* Garbanzos
+* Macarrones
+* Arroz con pollo
 * Puchero
 
 == Batidos ==
@@ -20,16 +21,6 @@ Bocadillos de dos pisos.
 
 * [https://cookpad.com/es/buscar/bocadillo%20pavo Recetas bocadillos de pavo]
 * [https://cookpad.com/es/buscar/bocadillo%20de%20jam%C3%B3n?event=search.suggestion Recetas bocadillos de jamón]
-
-<!--
-Coliflor cocida:
-* Trocear la coliflor
-* Hervir con agua, sal y ajo
-* Cuando esté blanda, apartarla
-* Tirar agua
-* Machacarla
-
--->
 
 == Enlaces externos ==
 
