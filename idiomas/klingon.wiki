@@ -1,0 +1,28 @@
+{{header|1=Klingon}}
+{{movida entera al wiki}}
+
+El '''klingon''' es un idioma artificial de la serie Star Trek.
+
+En klingon no hay palabras cuya traducción directa sea hola o adiós. Lo más parecido a hola sería '''nuqneH''' que significa ¿qué quieres? Un equivalente para adiós sería '''Qapla'''' que significa éxitos o buena suerte.
+
+== Vocabulario ==
+
+* '''chu'''': activar
+* '''nuqDaq''': ¿dónde?
+* '''nuqneH''': ¿qué quieres?
+* '''puch''': baño
+* '''puchpa'''': cuarto de baño
+* '''Qapla'''': éxitos/buena suerte
+
+== Cursos ==
+
+* [https://www.youtube.com/playlist?list=PL556CDA5C65B6C760 Curso de klingon en inglés]
+* [https://es.wikihow.com/hablar-klingon Cómo hablar klingon]
+* [https://www.youtube.com/watch?v=W3G1gSWuy7Y Learn Klingon The Easy(ish) Way]
+
+== Enlaces externos ==
+
+* [https://en.wikipedia.org/wiki/Klingon_language Klingon]
+* [https://www.youtube.com/watch?v=e5Did-eVQDc Marc Okrand habla sobre el klingon]
+
+{{footer}}

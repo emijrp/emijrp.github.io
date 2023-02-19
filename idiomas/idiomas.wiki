@@ -1,14 +1,29 @@
 {{header|1=Idiomas}}
+{{movida entera al wiki}}
 
 == Idiomas naturales ==
 
+* [[Alemán]]
+* [[Árabe]]
+* [[Catalán]]
+* [[Chino]]
+* [[Español]]
+* [[Euskera]]
+* [[Francés]]
+* [[Gallego]]
+* [[Inglés]]
+* [[Italiano]]
 * [[Polaco]]
+* [[Portugués]]
 * [[Ruso]]
+* [[Sueco]]
+* [[Vietnamita]]
 
 == Idiomas artificiales o construidos ==
 
 * [[Esperanto]]
 * [[Interlingua]]
+* [[Klingon]]
 * [[Lojban]]
 * [[Toki Pona]]
 * [[Volapük]]

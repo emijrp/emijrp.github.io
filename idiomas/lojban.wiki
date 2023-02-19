@@ -1,0 +1,27 @@
+{{header|1=Lojban}}
+{{movida entera al wiki}}
+
+== Frases ==
+
+* '''mi jimpe fi do''': Yo te entiendo
+
+== Vocabulario ==
+
+* '''adiós''': co'o
+* '''hola''': coi
+* '''gracias''': ki'e
+* '''tú''': do
+* '''yo''': mi
+
+== Cursos ==
+
+* [https://www.youtube.com/watch?v=KgxOrTvpWJ4 Introduction to Lojban]
+
+== Enlaces externos ==
+
+* [https://en.wikipedia.org/wiki/Lojban Lojban]
+* [https://en.wikipedia.org/wiki/Lojban_grammar Lojban grammar]
+* [https://mw.lojban.org/ Wiki de Lojban]
+* [https://la-lojban.github.io/sutysisku/es/ Diccionario Español-Lojban]
+
+{{footer}}
