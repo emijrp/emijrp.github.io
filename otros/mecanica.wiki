@@ -1,4 +1,5 @@
 {{header|1=Mecánica}}
+{{movida entera al wiki}}
 
 * [https://www.youtube.com/playlist?list=PL_wxPflrHc1iECghOLOjQj8qdqxsH-bCf Curso de Mecánica Automotriz]
 * [https://www.youtube.com/playlist?list=PLI0i1RI-DrGXu-HYnM_xF9DOKvIavf4kC Mecánica automotriz desde cero]

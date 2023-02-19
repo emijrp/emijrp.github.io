@@ -1,4 +1,5 @@
 {{header|1=Ajedrez}}
+{{movida entera al wiki}}
 
 * [https://www.youtube.com/watch?v=Kti3oKIZ8Mw Tutorial de ajedrez. Aprende desde cero]
 
